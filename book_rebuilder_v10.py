@@ -17,6 +17,7 @@ import time
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
+from dotenv import load_dotenv
 
 import fitz
 from openai import OpenAI
@@ -24,7 +25,7 @@ from PIL import Image
 
 
 DEFAULT_MODEL = "gpt-5.4"
-DEFAULT_API_KEY = "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"
+DEFAULT_API_KEY = os.getenv("API_KEY")
 DEFAULT_DPI = 240
 DEFAULT_MAX_IMAGE_SIDE = 2600
 DEFAULT_PAGE_BREAK = r"\clearpage"
