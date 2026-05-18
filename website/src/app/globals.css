@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-playfair: "Playfair Display", Georgia, serif;
+  --font-lora: "Lora", Georgia, serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cream text-ink;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-playfair);
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-ink text-cream font-body text-xs tracking-widest uppercase px-6 py-3 
+           transition-colors hover:bg-rust cursor-pointer border-none;
+  }
+  .btn-outline {
+    @apply bg-transparent text-ink font-body text-xs tracking-widest uppercase px-6 py-3
+           border border-ink transition-colors hover:border-rust hover:text-rust cursor-pointer;
+  }
+  .input-field {
+    @apply w-full px-3 py-2.5 border border-border bg-white font-body text-sm text-ink
+           outline-none transition-colors focus:border-rust placeholder:text-muted/60;
+  }
+  .section-label {
+    @apply text-[11px] tracking-[0.15em] uppercase text-rust mb-4;
+  }
+  .book-cover-spine::after {
+    content: '';
+    @apply absolute top-0 left-0 w-1.5 h-full bg-black/10;
+  }
+}
