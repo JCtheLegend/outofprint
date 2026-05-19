@@ -1,6 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
 import { supabase, type Book } from "@/lib/supabase";
 import { BookCard } from "@/components/ui/BookCard";
+import logo from "@/public/ooplogo_black.png";
 
 async function getFeaturedBooks(): Promise<Book[]> {
   const { data, error } = await supabase
@@ -23,7 +25,16 @@ export default async function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="max-w-5xl mx-auto px-6 py-20 text-center">
+      <section className="max-w-5xl mx-auto px-6 py-20 text-center relative overflow-hidden">
+        <div className="absolute inset-0 flex justify-center items-center -z-10 pointer-events-none">
+          <Image
+            src={logo}
+            alt="Background Logo"
+            width={600}
+            height={600}
+            className="opacity-10 object-contain"
+          />
+        </div>
         <p className="section-label">Preserving Literature</p>
         <h1 className="font-serif text-5xl md:text-6xl font-normal leading-tight mb-6">
           Bringing <em className="italic text-rust">forgotten books</em>

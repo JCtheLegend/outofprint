@@ -5,15 +5,16 @@ export default async function SuccessPage({
   params,
   searchParams,
 }: {
-  params: { id: string };
-  searchParams: { session_id?: string };
+  params: Promise<{ id: string }>;
+  searchParams: Promise<{ session_id?: string }>;
 }) {
+  const { session_id } = await searchParams;
   let customerName = "there";
 
-  if (searchParams.session_id) {
+  if (session_id) {
     try {
       const session = await stripe.checkout.sessions.retrieve(
-        searchParams.session_id
+        session_id
       );
       customerName = session.shipping_details?.name ?? session.customer_details?.name ?? "there";
     } catch {

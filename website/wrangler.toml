@@ -1,0 +1,15 @@
+name = "out-of-print-press"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".cloudflare/output/static"
+ 
+# Environment variables are set in the Cloudflare dashboard
+# (Workers & Pages → your project → Settings → Environment Variables)
+# Never put secrets in this file.
+ 
+[build]
+command = "npm run build"
+ 
+[[build.environment]]
+NODE_VERSION = "20"
+ 

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import logo from "@/public/ooplogo_black.png";
 
 const links = [
   { href: "/", label: "Home" },
@@ -16,8 +17,15 @@ export function Nav() {
   return (
     <nav className="sticky top-0 z-50 bg-cream border-b border-border">
       <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="font-serif text-lg font-semibold tracking-wide">
-          Out Of<span className="text-rust italic"> Print</span> Press
+        <Link href="/" className="flex items-center gap-3 font-serif text-lg font-semibold tracking-wide">
+          <Image
+            src={logo}
+            alt="Out of Print Press Logo"
+            width={40}
+            height={20}
+            className="object-contain"
+          />
+        <span className="text-rust italic">Out Of Print</span> Press
         </Link>
         <div className="flex items-center gap-8">
           {links.map(({ href, label }) => (

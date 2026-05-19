@@ -1,6 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-body: "Lora", Georgia, serif;
+  --color-cream: #f5f0e8;
+  --color-ink: #1a1614;
+  --color-rust: #8B3A2A;
+  --color-rust-light: #f5e8e4;
+  --color-gold: #b8860b;
+  --color-muted: #6b6560;
+  --color-border: #d4c9b8;
+}
 
 :root {
   --font-playfair: "Playfair Display", Georgia, serif;
