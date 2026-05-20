@@ -14,9 +14,9 @@ export async function sendSubmissionConfirmation(
     subject: `We received your request for "${bookTitle}"`,
     html: `
       <p>Hi ${name},</p>
-      <p>Thank you for submitting <strong>${bookTitle}</strong> to Reprint Press.
+      <p>Thank you for submitting <strong>${bookTitle}</strong> to Out of Print Press.
       We'll research its availability and get back to you within 3–5 business days.</p>
-      <p>— The Reprint Press Team</p>
+      <p>— The Out of Print Press Team</p>
     `,
   });
 }
@@ -35,7 +35,7 @@ export async function sendOrderConfirmation(
       <p>Hi ${name},</p>
       <p>Your order for <strong>${bookTitle}</strong> has been confirmed (order #${orderId}).
       We're sending it to the printer now and will email you tracking information once it ships.</p>
-      <p>— The Reprint Press Team</p>
+      <p>— The Out of Print Press Team</p>
     `,
   });
 }
@@ -54,7 +54,7 @@ export async function sendShippingNotification(
       <p>Hi ${name},</p>
       <p>Your copy of <strong>${bookTitle}</strong> has shipped.
       <a href="${trackingUrl}">Track your package here</a>.</p>
-      <p>— The Reprint Press Team</p>
+      <p>— The Out of Print Press Team</p>
     `,
   });
 }

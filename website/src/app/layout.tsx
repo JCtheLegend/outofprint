@@ -16,7 +16,7 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "Out of Print Press — Forgotten Books, Revived",
+  title: "Out of Print Press",
   description:
     "We restore and reprint out-of-circulation books. Request a lost title or purchase a physical copy of a book we've already revived.",
   openGraph: {

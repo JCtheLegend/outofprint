@@ -1,4 +1,4 @@
-# Reprint Press — Setup Guide
+# Out Of Print Press — Setup Guide
 
 ## What You're Building
 
@@ -126,26 +126,12 @@ Required fields:
 
 Upload your print-ready PDF to the `book-pdfs` bucket first, then copy its URL into `pdf_url`.
 
----
 
-## Step 7 — Deploy to Vercel
-
-### 7a — Push to GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-# Create a repo at github.com, then:
-git remote add origin https://github.com/YOUR_USERNAME/reprint-press.git
-git push -u origin main
-```
-
-### 7c — Update Your Stripe Webhook
+### 7 — Update Your Stripe Webhook
 
 After deploying:
 1. Go back to Stripe → **Developers → Webhooks**
-2. Update the endpoint URL to `https://reprint-press.vercel.app/api/webhooks/stripe`
+2. Update the endpoint URL to `xyz`
 3. Update `STRIPE_WEBHOOK_SECRET` in Vercel's environment variables with the live webhook secret
 
 ---
