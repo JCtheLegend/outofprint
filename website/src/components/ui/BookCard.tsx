@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Book } from "@/lib/supabase";
-import { formatPrice } from "@/lib/stripe";
+import { formatPrice } from "@/lib/format";
 
 // Deterministic cover colors from book id
 const COVER_PALETTES = [
