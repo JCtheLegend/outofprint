@@ -1,0 +1,243 @@
+{
+  "title": "The Federalist Papers",
+  "subtitle": "A Collection of Essays Written in Favour of the New Constitution",
+  "authors": [
+    "Publius"
+  ],
+  "editor": "",
+  "original_publication": "1788",
+  "reader_facing_imprint": "1788",
+  "publication_year": "1788",
+  "publication_type": "single work",
+  "language": "English",
+  "trim_size": "6 x 9 in",
+  "page_count": 517,
+  "paper_count": 85,
+  "interior_filename": "federalist_papers_interior.pdf",
+  "paperback_cover_filename": "federalist_papers_paperback_cover.pdf",
+  "hardcover_cover_filename": "federalist_papers_hardcover_cover.pdf",
+  "store_price_cents": 2400,
+  "store_genre": "Political Philosophy",
+  "store_description": "The essential essays urging ratification of the U.S. Constitution, restored from the Project Gutenberg proofread public-domain text.",
+  "store_featured": true,
+  "source_basis": {
+    "status": "Project Gutenberg proofread public-domain plain text",
+    "project_gutenberg_id": 1404,
+    "project_gutenberg_url": "https://www.gutenberg.org/ebooks/1404",
+    "plain_text_download": "https://www.gutenberg.org/cache/epub/1404/pg1404.txt",
+    "local_source_file": "/Users/timleonard/Desktop/books secondary/source_texts/federalist_papers/pg1404.txt",
+    "essay_publication_range": "1787-1788"
+  },
+  "author_contributions": {
+    "Alexander Hamilton": 51,
+    "John Jay": 5,
+    "James Madison": 26,
+    "James Madison with Alexander Hamilton": 3
+  },
+  "intentionally_omitted_material": [
+    "Project Gutenberg license and boilerplate",
+    "duplicate source title-page material",
+    "Introductions, forewords, prefaces, and afterwords by editors, translators, publishers, or other contributors are omitted; author-written front matter is retained.",
+    "page images and illustrations"
+  ],
+  "verification_facts": {
+    "interior_image_count": 0,
+    "paper_count": 85,
+    "single_rebuilt_title_page": true,
+    "source_author_attributions_retained": true,
+    "verification_cover_samples": [
+      "/Users/timleonard/Desktop/books secondary/output/verification/federalist_papers/federalist_papers_paperback_cover.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/federalist_papers/federalist_papers_hardcover_cover.png"
+    ],
+    "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
+    "running_header_standard_enforced": true,
+    "running_header_left": "The Federalist Papers",
+    "running_header_right": "Publius",
+    "observed_left_running_heads": [
+      "The Federalist Papers"
+    ],
+    "observed_right_running_heads": [
+      "Publius"
+    ],
+    "running_header_pdf_remediation": true,
+    "running_header_alignment": "centered",
+    "running_header_size_pt": 9.93,
+    "running_header_size_standard_enforced": true,
+    "observed_running_header_sizes_pt": [
+      9.93
+    ]
+  },
+  "cover_facts": {
+    "paperback": {
+      "front_width_px": 1800,
+      "height_px": 2700,
+      "spine_width_px": 367,
+      "spine_thickness_in": 1.2244144144144145,
+      "era_label": "18th century",
+      "cover_color": "red",
+      "band_color_rgb": [
+        160,
+        45,
+        45
+      ],
+      "accent_color_rgb": [
+        247,
+        226,
+        174
+      ],
+      "front_border_pattern": "archival_bookplate",
+      "back_border_pattern": "archival_bookplate",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 3967,
+      "output_width_px": 4043,
+      "output_height_px": 2776,
+      "cover_format": "paperback",
+      "front_panel_width_in": 6.0,
+      "cover_panel_height_in": 9.0,
+      "wrap_px": 0,
+      "wrap_in": 0,
+      "hinge_px": 0,
+      "hinge_in": 0,
+      "safety_margin_px": 84,
+      "safety_margin_in": 0.28,
+      "expand_with_bleed": true,
+      "bleed_px": 38,
+      "bleed_in": 0.125,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.45,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "front_text_side_inset_in": 0.85,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        2514,
+        347,
+        3696,
+        2429
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 972,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 2,
+      "front_title_lines": [
+        "The Federalist",
+        "Papers"
+      ],
+      "front_title_max_line_width_px": 684.0,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15.0,
+      "spine_author_standard_pt": 15.0,
+      "spine_volume_standard_pt": 24.0,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": null,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 0,
+      "spine_title_line_count": 1,
+      "spine_title_lines": [
+        "The Federalist Papers"
+      ],
+      "spine_author_text": "Publius",
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 517
+    },
+    "hardcover": {
+      "front_width_px": 1838,
+      "height_px": 2775,
+      "spine_width_px": 431,
+      "spine_thickness_in": 1.4375,
+      "era_label": "18th century",
+      "cover_color": "red",
+      "band_color_rgb": [
+        160,
+        45,
+        45
+      ],
+      "accent_color_rgb": [
+        247,
+        226,
+        174
+      ],
+      "front_border_pattern": "archival_bookplate",
+      "back_border_pattern": "archival_bookplate",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 4107,
+      "output_width_px": 4557,
+      "output_height_px": 3225,
+      "cover_format": "lulu_casewrap_hardcover",
+      "front_panel_width_in": 6.125,
+      "cover_panel_height_in": 9.25,
+      "wrap_px": 225,
+      "wrap_in": 0.75,
+      "hinge_px": 75,
+      "hinge_in": 0.25,
+      "safety_margin_px": 225,
+      "safety_margin_in": 0.75,
+      "expand_with_bleed": true,
+      "bleed_px": 225,
+      "bleed_in": 0,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.45,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "front_text_side_inset_in": 0.85,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        2944,
+        675,
+        3882,
+        2550
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 728,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 2,
+      "front_title_lines": [
+        "The Federalist",
+        "Papers"
+      ],
+      "front_title_max_line_width_px": 684.0,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15.0,
+      "spine_author_standard_pt": 15.0,
+      "spine_volume_standard_pt": 24.0,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": null,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 0,
+      "spine_title_line_count": 1,
+      "spine_title_lines": [
+        "The Federalist Papers"
+      ],
+      "spine_author_text": "Publius",
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 517
+    }
+  },
+  "interior_standard": "prose-6x9-v1",
+  "interior_standard_enforced": true,
+  "body_font_family": "TeX Gyre Pagella (Palatino-compatible)",
+  "body_size_pt": 11.0,
+  "body_leading_pt": 13.6
+}

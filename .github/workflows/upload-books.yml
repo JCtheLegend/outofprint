@@ -1,0 +1,39 @@
+name: Upload Books to Supabase
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "book-creator/books/**"
+  workflow_dispatch:
+    inputs:
+      book_folder:
+        description: "Book folder name under book-creator/books/ to upload (leave blank to upload all)"
+        required: false
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        working-directory: book-creator
+        run: pip install -r scripts/requirements.txt
+
+      - name: Upload books
+        working-directory: book-creator
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          BOOK_FOLDER: ${{ github.event.inputs.book_folder }}
+        run: |
+          if [ -n "$BOOK_FOLDER" ]; then
+            python scripts/upload_to_supabase.py "$BOOK_FOLDER"
+          else
+            python scripts/upload_to_supabase.py
+          fi

@@ -6,6 +6,7 @@
 -- Books table
 create table if not exists books (
   id            uuid primary key default gen_random_uuid(),
+  slug          text unique,
   title         text not null,
   author        text not null,
   year          int,
@@ -17,6 +18,10 @@ create table if not exists books (
   featured      boolean not null default false,
   created_at    timestamptz not null default now()
 );
+
+-- If this table already exists from before the GitHub upload pipeline was
+-- added, run this to add the new column (safe to re-run):
+-- alter table books add column if not exists slug text unique;
 
 -- Submissions table
 create table if not exists submissions (

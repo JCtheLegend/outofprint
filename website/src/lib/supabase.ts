@@ -2,6 +2,7 @@ import { createClient } from "@supabase/supabase-js";
 
 export type Book = {
   id: string;
+  slug: string | null;
   title: string;
   author: string;
   year: number;
