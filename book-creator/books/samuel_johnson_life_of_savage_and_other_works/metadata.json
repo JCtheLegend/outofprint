@@ -1,0 +1,335 @@
+{
+  "title": "Life of Savage and Other Works",
+  "subtitle": "Rasselas, Poetry & Essays",
+  "authors": [
+    "Samuel Johnson"
+  ],
+  "author_lifespan": "1709–1784",
+  "original_publication_years": [
+    1744,
+    1749,
+    1750,
+    1759
+  ],
+  "language": "English",
+  "review_approval": {
+    "status": "approved",
+    "approved_at": "2026-08-12T21:34:42-04:00",
+    "approved_by": "user",
+    "edition_title": "Life of Savage and Other Works",
+    "approved_page_count": 206
+  },
+  "page_count": 206,
+  "word_count": 74712,
+  "trim_size": "6 x 9 in",
+  "interior_filename": "samuel_johnson_life_of_savage_and_other_works_interior.pdf",
+  "hardcover_cover_filename": "samuel_johnson_life_of_savage_and_other_works_hardcover_cover.pdf",
+  "store_price_cents": 2400,
+  "store_genre": "Essays & Biography",
+  "store_description": "A collection of Samuel Johnson's shorter works, including his biography of the poet Richard Savage, the philosophical tale Rasselas, and selected poetry and essays.",
+  "store_featured": false,
+  "paperback_cover_filename": "samuel_johnson_life_of_savage_and_other_works_paperback_cover.pdf",
+  "included_scope": [
+    "Johnson's complete standard later text of the Life of Richard Savage as printed under 'Savage' in the Lives of the Poets.",
+    "The complete 1749 text of The Vanity of Human Wishes, with its 13 original reference notes.",
+    "The complete text of The Rambler, No. 60 (October 13, 1750).",
+    "The complete text of The Rambler, No. 5 (April 3, 1750).",
+    "The complete 49-chapter text of Rasselas, Prince of Abyssinia."
+  ],
+  "major_work_count": 5,
+  "short_work_count": 3,
+  "rasselas_chapter_count": 49,
+  "footnote_handling": {
+    "base_text_footnote_count": 13,
+    "note": "The Vanity of Human Wishes retains all 13 original lettered reference notes. The selected base texts of Life of Savage, the two Rambler essays, and Rasselas contain no footnotes. First-edition-only Savage notes were retained as textual variants rather than mixed into the later base text."
+  },
+  "source_basis": {
+    "life_of_savage": {
+      "base_text": "Project Gutenberg eBook 4679, transcribed from the 1888 Cassell & Company edition of Johnson's Lives of the Poets, volume 1.",
+      "base_text_url": "https://www.gutenberg.org/ebooks/4679",
+      "historical_witness": "An Account of the Life of Mr. Richard Savage, London, 1744.",
+      "historical_witness_url": "https://archive.org/details/bim_eighteenth-century_an-account-of-the-life-o_johnson-samuel_1744",
+      "historical_witness_local_file": "/Users/timleonard/Desktop/books secondary/source_texts/johnson_life_of_savage/johnson_savage_1744_scan.pdf"
+    },
+    "rasselas": {
+      "base_text": "Project Gutenberg eBook 652, transcribed from the 1889 Cassell & Company edition.",
+      "base_text_url": "https://www.gutenberg.org/ebooks/652",
+      "historical_witness": "The Prince of Abissinia, second edition, London, 1759, two volumes.",
+      "historical_witness_urls": [
+        "https://archive.org/details/princeabissinia01johngoog",
+        "https://archive.org/details/princeabissinia00johngoog"
+      ],
+      "historical_witness_local_files": [
+        "/Users/timleonard/Desktop/books secondary/source_texts/johnson_rasselas/prince_of_abissinia_1759_volume_i_scan.pdf",
+        "/Users/timleonard/Desktop/books secondary/source_texts/johnson_rasselas/prince_of_abissinia_1759_volume_ii_scan.pdf"
+      ]
+    },
+    "short_works": {
+      "base_text": "Project Gutenberg eBook 13350, a proofread public-domain transcription of The Vanity of Human Wishes and two Rambler papers reproduced from original copies.",
+      "base_text_url": "https://www.gutenberg.org/ebooks/13350",
+      "base_text_local_files": [
+        "/Users/timleonard/Desktop/books secondary/source_texts/johnson_short_works/pg13350.txt",
+        "/Users/timleonard/Desktop/books secondary/source_texts/johnson_short_works/pg13350.html"
+      ],
+      "included_material": [
+        "The Vanity of Human Wishes (1749)",
+        "The Rambler, No. 60 (1750)",
+        "The Rambler, No. 5 (1750)"
+      ]
+    },
+    "source_status": "Proofread public-domain transcriptions, with the two book-length texts checked against complete historical scans."
+  },
+  "intentionally_omitted_material": [
+    "Henry Morley's later Cassell introduction to Rasselas",
+    "The Cassell editor's introduction and the adjacent Lives of Addison and Swift",
+    "Bertrand H. Bronson's later introduction to the Augustan Reprint Society source volume",
+    "Facsimile title and imprint wrappers from the Augustan Reprint Society source volume",
+    "Augustan Reprint Society publication lists and subscription matter",
+    "Google/library wrapper pages, marks, scan images, and decorative title-page ornaments",
+    "Original scanned contents pages, replaced by a generated contents matching this PDF",
+    "First-edition-only Savage notes and substantive variants absent from the selected later text",
+    "Publisher and printer advertisements or imprints outside Johnson's works"
+  ],
+  "verification_facts": {
+    "blank_page_count": 0,
+    "title_page_count": 1,
+    "single_visible_content_line_pages": [],
+    "contents_pdf_pages": [
+      2,
+      3
+    ],
+    "life_of_savage_first_pdf_page": 4,
+    "life_of_savage_first_body_page": 1,
+    "vanity_first_pdf_page": 79,
+    "vanity_first_body_page": 76,
+    "rambler_60_first_pdf_page": 90,
+    "rambler_60_first_body_page": 87,
+    "rambler_5_first_pdf_page": 94,
+    "rambler_5_first_body_page": 91,
+    "rasselas_first_pdf_page": 98,
+    "rasselas_first_body_page": 95,
+    "rasselas_chapter_count": 49,
+    "vanity_verse_line_count": 370,
+    "base_text_footnote_count": 13,
+    "middle_chapter_sample_pdf_page": 151,
+    "vanity_note_sample_pdf_page": 86,
+    "source_fragment_count": 1041,
+    "source_fragments_found_in_pdf": 1041,
+    "complete_text_sequence_check": true,
+    "interior_image_count": 0,
+    "ocr_quality_blockers": 0,
+    "ocr_quality_warnings": 0,
+    "quality_report": "/Users/timleonard/Desktop/books secondary/output/reports/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_quality_report.tsv",
+    "verification_sample_pages": [
+      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0001.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0002.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0003.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0004.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0026.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0079.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0086.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0090.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0094.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0098.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0129.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0151.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0181.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0206.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_paperback_cover.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_hardcover_cover.png"
+    ],
+    "contents_generated_from_final_pdf": true,
+    "source_text_status": "Proofread Project Gutenberg transcriptions with targeted historical-scan collation",
+    "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
+    "running_header_standard_enforced": true,
+    "running_header_left": "Savage & Other Works",
+    "running_header_right": "Samuel Johnson",
+    "observed_left_running_heads": [
+      "Savage & Other Works"
+    ],
+    "observed_right_running_heads": [
+      "Samuel Johnson"
+    ],
+    "running_header_pdf_remediation": true,
+    "running_header_alignment": "centered",
+    "running_header_size_pt": 9.93,
+    "running_header_size_standard_enforced": true,
+    "observed_running_header_sizes_pt": [
+      9.93
+    ]
+  },
+  "cover_facts": {
+    "paperback": {
+      "front_width_px": 1800,
+      "height_px": 2700,
+      "spine_width_px": 157,
+      "spine_thickness_in": 0.5239639639639639,
+      "era_label": "18th century",
+      "cover_color": "red",
+      "band_color_rgb": [
+        160,
+        45,
+        45
+      ],
+      "accent_color_rgb": [
+        247,
+        226,
+        174
+      ],
+      "front_border_pattern": "archival_bookplate",
+      "back_border_pattern": "archival_bookplate",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 3757,
+      "output_width_px": 3833,
+      "output_height_px": 2776,
+      "cover_format": "paperback",
+      "front_panel_width_in": 6.0,
+      "cover_panel_height_in": 9.0,
+      "wrap_px": 0,
+      "wrap_in": 0,
+      "hinge_px": 0,
+      "hinge_in": 0,
+      "safety_margin_px": 84,
+      "safety_margin_in": 0.28,
+      "expand_with_bleed": true,
+      "bleed_px": 38,
+      "bleed_in": 0.125,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.2733333333333333,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "front_text_side_inset_in": 0.85,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        2304,
+        347,
+        3486,
+        2429
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 972,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 2,
+      "front_title_lines": [
+        "Life of Savage and",
+        "Other Works"
+      ],
+      "front_title_max_line_width_px": 870.0,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15.0,
+      "spine_author_standard_pt": 15.0,
+      "spine_volume_standard_pt": 24.0,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": null,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 0,
+      "spine_title_line_count": 1,
+      "spine_title_lines": [
+        "Savage & Other Works"
+      ],
+      "spine_author_text": "Johnson",
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 206
+    },
+    "hardcover": {
+      "front_width_px": 1838,
+      "height_px": 2775,
+      "spine_width_px": 225,
+      "spine_thickness_in": 0.75,
+      "era_label": "18th century",
+      "cover_color": "red",
+      "band_color_rgb": [
+        160,
+        45,
+        45
+      ],
+      "accent_color_rgb": [
+        247,
+        226,
+        174
+      ],
+      "front_border_pattern": "archival_bookplate",
+      "back_border_pattern": "archival_bookplate",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 3901,
+      "output_width_px": 4351,
+      "output_height_px": 3225,
+      "cover_format": "lulu_casewrap_hardcover",
+      "front_panel_width_in": 6.125,
+      "cover_panel_height_in": 9.25,
+      "wrap_px": 225,
+      "wrap_in": 0.75,
+      "hinge_px": 75,
+      "hinge_in": 0.25,
+      "safety_margin_px": 225,
+      "safety_margin_in": 0.75,
+      "expand_with_bleed": true,
+      "bleed_px": 225,
+      "bleed_in": 0,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.45,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "front_text_side_inset_in": 0.85,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        2738,
+        675,
+        3676,
+        2550
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 728,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 3,
+      "front_title_lines": [
+        "Life of Savage",
+        "and Other",
+        "Works"
+      ],
+      "front_title_max_line_width_px": 665.0,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15.0,
+      "spine_author_standard_pt": 15.0,
+      "spine_volume_standard_pt": 24.0,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": null,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 0,
+      "spine_title_line_count": 1,
+      "spine_title_lines": [
+        "Savage & Other Works"
+      ],
+      "spine_author_text": "Johnson",
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 206
+    }
+  },
+  "interior_standard": "prose-6x9-v1",
+  "interior_standard_enforced": true,
+  "body_font_family": "TeX Gyre Pagella (Palatino-compatible)",
+  "body_size_pt": 11.0,
+  "body_leading_pt": 13.6
+}

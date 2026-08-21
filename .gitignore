@@ -25,3 +25,10 @@ yarn-error.log*
 .cloudflare
 
 .claude/
+
+# Windows "mark of the web" sidecar files (created when copying from a mounted Windows drive)
+*:Zone.Identifier
+
+# Python
+__pycache__/
+*.pyc
