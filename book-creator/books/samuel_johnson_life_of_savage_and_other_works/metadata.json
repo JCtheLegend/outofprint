@@ -4,7 +4,7 @@
   "authors": [
     "Samuel Johnson"
   ],
-  "author_lifespan": "1709–1784",
+  "author_lifespan": "1709\u20131784",
   "original_publication_years": [
     1744,
     1749,
@@ -24,10 +24,6 @@
   "trim_size": "6 x 9 in",
   "interior_filename": "samuel_johnson_life_of_savage_and_other_works_interior.pdf",
   "hardcover_cover_filename": "samuel_johnson_life_of_savage_and_other_works_hardcover_cover.pdf",
-  "store_price_cents": 2400,
-  "store_genre": "Essays & Biography",
-  "store_description": "A collection of Samuel Johnson's shorter works, including his biography of the poet Richard Savage, the philosophical tale Rasselas, and selected poetry and essays.",
-  "store_featured": false,
   "paperback_cover_filename": "samuel_johnson_life_of_savage_and_other_works_paperback_cover.pdf",
   "included_scope": [
     "Johnson's complete standard later text of the Life of Richard Savage as printed under 'Savage' in the Lives of the Poets.",
@@ -176,8 +172,8 @@
         226,
         174
       ],
-      "front_border_pattern": "archival_bookplate",
-      "back_border_pattern": "archival_bookplate",
+      "front_border_pattern": "eighteenth_century_georgian",
+      "back_border_pattern": "eighteenth_century_georgian",
       "border_rendering": "traced_native_svg_borders",
       "border_pdf_encoding": "native_svg_vector_overlay",
       "cover_pdf_image_encoding": "lossless_png_flate",
@@ -221,7 +217,7 @@
         "Life of Savage and",
         "Other Works"
       ],
-      "front_title_max_line_width_px": 870.0,
+      "front_title_max_line_width_px": 786.09375,
       "spine_volume_only": false,
       "fixed_spine_typography": true,
       "spine_title_standard_pt": 15.0,
@@ -232,11 +228,16 @@
       "spine_title_font_size_px": 63,
       "spine_author_font_size_px": 63,
       "spine_volume_font_size_px": 0,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 0,
       "spine_title_line_count": 1,
       "spine_title_lines": [
         "Savage & Other Works"
       ],
       "spine_author_text": "Johnson",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
@@ -259,8 +260,8 @@
         226,
         174
       ],
-      "front_border_pattern": "archival_bookplate",
-      "back_border_pattern": "archival_bookplate",
+      "front_border_pattern": "eighteenth_century_georgian",
+      "back_border_pattern": "eighteenth_century_georgian",
       "border_rendering": "traced_native_svg_borders",
       "border_pdf_encoding": "native_svg_vector_overlay",
       "cover_pdf_image_encoding": "lossless_png_flate",
@@ -305,7 +306,7 @@
         "and Other",
         "Works"
       ],
-      "front_title_max_line_width_px": 665.0,
+      "front_title_max_line_width_px": 602.09375,
       "spine_volume_only": false,
       "fixed_spine_typography": true,
       "spine_title_standard_pt": 15.0,
@@ -316,11 +317,16 @@
       "spine_title_font_size_px": 63,
       "spine_author_font_size_px": 63,
       "spine_volume_font_size_px": 0,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 0,
       "spine_title_line_count": 1,
       "spine_title_lines": [
         "Savage & Other Works"
       ],
       "spine_author_text": "Johnson",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
@@ -331,5 +337,9 @@
   "interior_standard_enforced": true,
   "body_font_family": "TeX Gyre Pagella (Palatino-compatible)",
   "body_size_pt": 11.0,
-  "body_leading_pt": 13.6
+  "body_leading_pt": 13.6,
+  "store_price_cents": 3000,
+  "store_genre": "",
+  "store_description": "",
+  "store_featured": false
 }

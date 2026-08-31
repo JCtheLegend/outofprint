@@ -28,10 +28,6 @@
   "author_footnote_count": 39,
   "interior_filename": "george_fitzhugh_sociology_for_the_south_1854_interior.pdf",
   "hardcover_cover_filename": "george_fitzhugh_sociology_for_the_south_1854_hardcover_cover.pdf",
-  "store_price_cents": 2400,
-  "store_genre": "History",
-  "store_description": "A combined edition of George Fitzhugh's two pro-slavery sociological tracts, Sociology for the South (1854) and the complete text of Cannibals All! Or, Slaves Without Masters (1857) — reproduced as a primary historical source documenting antebellum Southern ideology, not an endorsement of its arguments.",
-  "store_featured": false,
   "paperback_cover_filename": "george_fitzhugh_sociology_for_the_south_1854_paperback_cover.pdf",
   "source_basis": {
     "status": "Proofread public-domain TEI transcription, checked against the 1854 scan, with a targeted correction pass.",
@@ -165,19 +161,19 @@
       "spine_width_px": 307,
       "spine_thickness_in": 1.0217117117117116,
       "era_label": "19th century",
-      "cover_color": "blue",
+      "cover_color": "Prussian blue",
       "band_color_rgb": [
-        40,
-        94,
-        160
+        31,
+        70,
+        104
       ],
       "accent_color_rgb": [
-        235,
-        220,
-        170
+        226,
+        202,
+        132
       ],
-      "front_border_pattern": "classic_publisher",
-      "back_border_pattern": "classic_publisher",
+      "front_border_pattern": "nineteenth_century_eastlake_sunflower_v2",
+      "back_border_pattern": "nineteenth_century_eastlake_sunflower_v2",
       "border_rendering": "traced_native_svg_borders",
       "border_pdf_encoding": "native_svg_vector_overlay",
       "cover_pdf_image_encoding": "lossless_png_flate",
@@ -204,6 +200,20 @@
       "back_imprint_bottom_fraction": 0.76,
       "back_imprint_border_gutter_in": 0.75,
       "front_text_center_offset_px": 0,
+      "hardcover_border_board_centered": false,
+      "hardcover_border_standard_inset_px": 0,
+      "hardcover_border_visual_inset_x_px": 0,
+      "hardcover_border_visual_inset_y_px": 0,
+      "hardcover_border_alignment_adjustment_x_px": 0,
+      "hardcover_border_alignment_adjustment_y_px": 0,
+      "hardcover_border_source_compensation_x_px": 0,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 0,
+      "hardcover_border_art_height_px": 0,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": false,
+      "hardcover_border_reference_texture_preserved": false,
       "front_text_side_inset_in": 0.85,
       "front_text_border_clearance_in": 0.75,
       "front_text_collision_gap_in": 0.35,
@@ -221,7 +231,7 @@
         "Sociology for the",
         "South"
       ],
-      "front_title_max_line_width_px": 803.0,
+      "front_title_max_line_width_px": 716.0,
       "spine_volume_only": false,
       "fixed_spine_typography": true,
       "spine_title_standard_pt": 15.0,
@@ -232,11 +242,16 @@
       "spine_title_font_size_px": 63,
       "spine_author_font_size_px": 63,
       "spine_volume_font_size_px": 0,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 0,
       "spine_title_line_count": 1,
       "spine_title_lines": [
         "Sociology for the South"
       ],
       "spine_author_text": "Fitzhugh",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
@@ -248,19 +263,19 @@
       "spine_width_px": 375,
       "spine_thickness_in": 1.25,
       "era_label": "19th century",
-      "cover_color": "blue",
+      "cover_color": "Prussian blue",
       "band_color_rgb": [
-        40,
-        94,
-        160
+        31,
+        70,
+        104
       ],
       "accent_color_rgb": [
-        235,
-        220,
-        170
+        226,
+        202,
+        132
       ],
-      "front_border_pattern": "classic_publisher",
-      "back_border_pattern": "classic_publisher",
+      "front_border_pattern": "nineteenth_century_eastlake_sunflower_v2",
+      "back_border_pattern": "nineteenth_century_eastlake_sunflower_v2",
       "border_rendering": "traced_native_svg_borders",
       "border_pdf_encoding": "native_svg_vector_overlay",
       "cover_pdf_image_encoding": "lossless_png_flate",
@@ -287,6 +302,20 @@
       "back_imprint_bottom_fraction": 0.76,
       "back_imprint_border_gutter_in": 0.75,
       "front_text_center_offset_px": 0,
+      "hardcover_border_board_centered": false,
+      "hardcover_border_standard_inset_px": 0,
+      "hardcover_border_visual_inset_x_px": 0,
+      "hardcover_border_visual_inset_y_px": 0,
+      "hardcover_border_alignment_adjustment_x_px": 0,
+      "hardcover_border_alignment_adjustment_y_px": 0,
+      "hardcover_border_source_compensation_x_px": 0,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 0,
+      "hardcover_border_art_height_px": 0,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": false,
+      "hardcover_border_reference_texture_preserved": false,
       "front_text_side_inset_in": 0.85,
       "front_text_border_clearance_in": 0.75,
       "front_text_collision_gap_in": 0.35,
@@ -301,10 +330,10 @@
       "front_title_font_size_px": 104,
       "front_title_line_count": 2,
       "front_title_lines": [
-        "Sociology for",
-        "the South"
+        "Sociology for the",
+        "South"
       ],
-      "front_title_max_line_width_px": 623.0,
+      "front_title_max_line_width_px": 716.0,
       "spine_volume_only": false,
       "fixed_spine_typography": true,
       "spine_title_standard_pt": 15.0,
@@ -315,15 +344,24 @@
       "spine_title_font_size_px": 63,
       "spine_author_font_size_px": 63,
       "spine_volume_font_size_px": 0,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 0,
       "spine_title_line_count": 1,
       "spine_title_lines": [
         "Sociology for the South"
       ],
       "spine_author_text": "Fitzhugh",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
       "cover_page_count_used": 427
     }
-  }
+  },
+  "store_price_cents": 3000,
+  "store_genre": "",
+  "store_description": "",
+  "store_featured": false
 }

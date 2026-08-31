@@ -1,0 +1,400 @@
+{
+  "title": "Patriarcha and Other Political Writings",
+  "subtitle": "The Political Works of Sir Robert Filmer",
+  "authors": [
+    "Sir Robert Filmer"
+  ],
+  "publication_year": null,
+  "original_publication": "1648\u20131680",
+  "reader_facing_imprint": "Sir Robert Filmer (c. 1588\u20131653)",
+  "publication_type": "multi-year collection",
+  "author_lifespans": [
+    "Sir Robert Filmer (c. 1588\u20131653)"
+  ],
+  "language": "English",
+  "page_count": 263,
+  "trim_size": "6 x 9 in",
+  "interior_standard": "prose-6x9-v1",
+  "work_count": 7,
+  "included_scope": [
+    {
+      "title": "Patriarcha",
+      "subtitle": "Or, The Natural Power of Kings",
+      "first_publication": "1680"
+    },
+    {
+      "title": "The Free-holders Grand Inquest",
+      "subtitle": "Touching Our Sovereign Lord the King and His Parliament",
+      "first_publication": "1648"
+    },
+    {
+      "title": "Observations upon Aristotle's Politics",
+      "subtitle": "Touching Forms of Government",
+      "first_publication": "1652"
+    },
+    {
+      "title": "Directions for Obedience to Government",
+      "subtitle": "In Dangerous or Doubtful Times",
+      "first_publication": "1652"
+    },
+    {
+      "title": "Observations Concerning the Original of Government",
+      "subtitle": "Upon Hobbes, Milton, and Grotius",
+      "first_publication": "1652"
+    },
+    {
+      "title": "The Anarchy of a Limited or Mixed Monarchy",
+      "subtitle": "Observations upon Mr. Hunton's Treatise of Monarchy",
+      "first_publication": "1648"
+    },
+    {
+      "title": "The Necessity of the Absolute Power of All Kings",
+      "subtitle": "And in Particular, of the King of England",
+      "first_publication": "1648"
+    }
+  ],
+  "interior_filename": "sir_robert_filmer_political_writings_interior.pdf",
+  "hardcover_cover_filename": "sir_robert_filmer_political_writings_hardcover_cover.pdf",
+  "paperback_cover_filename": "sir_robert_filmer_political_writings_paperback_cover.pdf",
+  "approval_status": "approved",
+  "source_basis": {
+    "status": "CC0 Text Creation Partnership keyboarded TEI, normalized and checked against seventeenth-century scans; explicitly approved by the user on 2026-08-23",
+    "transcriptions": [
+      {
+        "id": "A41308",
+        "use": "Patriarcha",
+        "url": "https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/A41308",
+        "local_file": "/Users/timleonard/Desktop/books secondary/source_texts/filmer_collected_works/A41308.xml"
+      },
+      {
+        "id": "A41307",
+        "use": "Free-holders, Aristotle, Directions, Observations, and Anarchy",
+        "url": "https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/A41307",
+        "local_file": "/Users/timleonard/Desktop/books secondary/source_texts/filmer_collected_works/A41307.xml"
+      },
+      {
+        "id": "A85295",
+        "use": "The Necessity of the Absolute Power of All Kings",
+        "url": "https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/A85295",
+        "local_file": "/Users/timleonard/Desktop/books secondary/source_texts/filmer_collected_works/A85295.xml"
+      }
+    ],
+    "verification_scans": [
+      "/Users/timleonard/Desktop/books secondary/source_texts/filmer_collected_works/filmer_patriarcha_1680_scan.pdf",
+      "/Users/timleonard/Desktop/books secondary/source_texts/filmer_collected_works/filmer_freeholders_1679_scan.pdf",
+      "/Users/timleonard/Desktop/books secondary/source_texts/filmer_collected_works/filmer_collected_1684_scan.pdf"
+    ],
+    "greek_verification_sources": [
+      {
+        "work": "Aristotle, Politics (Greek)",
+        "url": "https://atlas.perseus.tufts.edu/library/urn:cts:greekLit:tlg0086.tlg035/"
+      },
+      {
+        "work": "Aristotle, Rhetoric (Greek)",
+        "url": "https://www.greek-language.gr/digitalResources/ancient_greek/library/browse.html?page=18&text_id=77"
+      },
+      {
+        "work": "Aristotle, Nicomachean Ethics, book 8 (Greek)",
+        "url": "https://falsafa.ai/works/aristotle-nicomachean-ethics-ac98dd/08/original/"
+      },
+      {
+        "work": "The Greek New Testament: SBL Edition",
+        "url": "https://www.sbl-site.org/resources/digital-texts/sbl-greek-new-testament/"
+      }
+    ],
+    "editorial_normalization": [
+      "long s normalized to modern s",
+      "line-end word divisions rejoined",
+      "typographic ligatures expanded",
+      "historical spelling and wording otherwise retained",
+      "three explicit damaged-letter readings repaired from context and comparison sources",
+      "thirty-four Greek readings restored from the original page images and checked against their cited classical or biblical texts"
+    ]
+  },
+  "intentionally_omitted_material": [
+    "portraits, ornaments, and all scan images",
+    "duplicate and tract-specific title pages",
+    "original errata and original tables of contents",
+    "publisher and other non-author front matter",
+    "marginal citations and sidenotes",
+    "An Advertisement to the Jury-Men of England Touching Witches",
+    "The later collected Power of Kings, in favor of the original 1648 Necessity tract",
+    "Introductions, forewords, prefaces, and afterwords by editors, translators, publishers, or other contributors are omitted; author-written front matter is retained."
+  ],
+  "verification_facts": {
+    "interior_image_count": 0,
+    "chapter_or_major_division_counts": {
+      "Patriarcha": 3,
+      "The Free-holders Grand Inquest": 2,
+      "Observations upon Aristotle's Politics": 2,
+      "Directions for Obedience to Government": 1,
+      "Observations Concerning the Original of Government": 4,
+      "The Anarchy of a Limited or Mixed Monarchy": 2,
+      "The Necessity of the Absolute Power of All Kings": 1
+    },
+    "contents_generated_from_final_pdf": true,
+    "single_rebuilt_title_page": true,
+    "continuous_main_pagination": true,
+    "footnote_handling": "No author footnotes occur in the selected transcriptions; marginal notes were omitted.",
+    "ocr_quality_blockers": 0,
+    "ocr_quality_warnings": 0,
+    "greek_quotation_markers": 0,
+    "quality_report": "/Users/timleonard/Desktop/books secondary/output/reports/sir_robert_filmer_political_writings_quality_report.tsv",
+    "verification_sample_pages": [
+      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0001.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0002.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0003.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0061.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0118.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0132.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0162.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0168.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0214.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0253.png",
+      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0263.png"
+    ],
+    "empty_page_count": 0,
+    "single_visible_content_line_page_count": 0,
+    "work_opening_pdf_pages": {
+      "Patriarcha": 3,
+      "The Free-holders Grand Inquest": 61,
+      "Observations upon Aristotle's Politics": 118,
+      "Directions for Obedience to Government": 162,
+      "Observations Concerning the Original of Government": 168,
+      "The Anarchy of a Limited or Mixed Monarchy": 214,
+      "The Necessity of the Absolute Power of All Kings": 253
+    },
+    "interior_standard": "prose-6x9-v1",
+    "interior_standard_enforced": true,
+    "dominant_body_font": "Palatino-Roman",
+    "dominant_body_size_pt": 10.87,
+    "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
+    "running_header_standard_enforced": true,
+    "running_header_left": "Patriarcha & Other Writings",
+    "running_header_right": "Sir Robert Filmer",
+    "observed_left_running_heads": [
+      "Patriarcha & Other Writings"
+    ],
+    "observed_right_running_heads": [
+      "Sir Robert Filmer"
+    ],
+    "running_header_alignment": "centered",
+    "running_header_pdf_remediation": true,
+    "running_header_size_pt": 9.93,
+    "running_header_size_standard_enforced": true,
+    "observed_running_header_sizes_pt": [
+      9.93
+    ]
+  },
+  "cover_facts": {
+    "paperback": {
+      "front_width_px": 1800,
+      "height_px": 2700,
+      "spine_width_px": 196,
+      "spine_thickness_in": 0.6523423423423422,
+      "era_label": "17th century",
+      "cover_color": "yellow",
+      "band_color_rgb": [
+        206,
+        170,
+        50
+      ],
+      "accent_color_rgb": [
+        74,
+        50,
+        34
+      ],
+      "front_border_pattern": "seventeenth_century_fine_binding_v7",
+      "back_border_pattern": "seventeenth_century_fine_binding_v7",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 3796,
+      "output_width_px": 3872,
+      "output_height_px": 2776,
+      "cover_format": "paperback",
+      "front_panel_width_in": 6.0,
+      "cover_panel_height_in": 9.0,
+      "wrap_px": 0,
+      "wrap_in": 0,
+      "hinge_px": 0,
+      "hinge_in": 0,
+      "safety_margin_px": 84,
+      "safety_margin_in": 0.28,
+      "expand_with_bleed": true,
+      "bleed_px": 38,
+      "bleed_in": 0.125,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.4033333333333333,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "hardcover_border_board_centered": false,
+      "hardcover_border_standard_inset_px": 0,
+      "hardcover_border_visual_inset_x_px": 0,
+      "hardcover_border_visual_inset_y_px": 0,
+      "hardcover_border_alignment_adjustment_x_px": 0,
+      "hardcover_border_alignment_adjustment_y_px": 0,
+      "hardcover_border_source_compensation_x_px": 0,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 0,
+      "hardcover_border_art_height_px": 0,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": false,
+      "hardcover_border_reference_texture_preserved": false,
+      "front_text_side_inset_in": 0.85,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        2343,
+        347,
+        3525,
+        2429
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 972,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 2,
+      "front_title_lines": [
+        "Patriarcha and Other",
+        "Political Writings"
+      ],
+      "front_title_max_line_width_px": 904.984375,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15.0,
+      "spine_author_standard_pt": 15.0,
+      "spine_volume_standard_pt": 24.0,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": null,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 0,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 0,
+      "spine_title_line_count": 1,
+      "spine_title_lines": [
+        "Patriarcha & Other Works"
+      ],
+      "spine_author_text": "Filmer",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 263
+    },
+    "hardcover": {
+      "front_width_px": 1838,
+      "height_px": 2775,
+      "spine_width_px": 262,
+      "spine_thickness_in": 0.875,
+      "era_label": "17th century",
+      "cover_color": "yellow",
+      "band_color_rgb": [
+        206,
+        170,
+        50
+      ],
+      "accent_color_rgb": [
+        74,
+        50,
+        34
+      ],
+      "front_border_pattern": "seventeenth_century_fine_binding_v7",
+      "back_border_pattern": "seventeenth_century_fine_binding_v7",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 3938,
+      "output_width_px": 4388,
+      "output_height_px": 3225,
+      "cover_format": "lulu_casewrap_hardcover",
+      "front_panel_width_in": 6.125,
+      "cover_panel_height_in": 9.25,
+      "wrap_px": 225,
+      "wrap_in": 0.75,
+      "hinge_px": 75,
+      "hinge_in": 0.25,
+      "safety_margin_px": 225,
+      "safety_margin_in": 0.75,
+      "expand_with_bleed": true,
+      "bleed_px": 225,
+      "bleed_in": 0,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.45,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "hardcover_border_board_centered": false,
+      "hardcover_border_standard_inset_px": 0,
+      "hardcover_border_visual_inset_x_px": 0,
+      "hardcover_border_visual_inset_y_px": 0,
+      "hardcover_border_alignment_adjustment_x_px": 0,
+      "hardcover_border_alignment_adjustment_y_px": 0,
+      "hardcover_border_source_compensation_x_px": 0,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 0,
+      "hardcover_border_art_height_px": 0,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": false,
+      "hardcover_border_reference_texture_preserved": false,
+      "front_text_side_inset_in": 0.85,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        2775,
+        675,
+        3713,
+        2550
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 728,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 3,
+      "front_title_lines": [
+        "Patriarcha and",
+        "Other Political",
+        "Writings"
+      ],
+      "front_title_max_line_width_px": 638.984375,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15.0,
+      "spine_author_standard_pt": 15.0,
+      "spine_volume_standard_pt": 24.0,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": null,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 0,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 0,
+      "spine_title_line_count": 1,
+      "spine_title_lines": [
+        "Patriarcha & Other Works"
+      ],
+      "spine_author_text": "Filmer",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 263
+    }
+  },
+  "store_price_cents": 3000,
+  "store_genre": "",
+  "store_description": "",
+  "store_featured": false
+}

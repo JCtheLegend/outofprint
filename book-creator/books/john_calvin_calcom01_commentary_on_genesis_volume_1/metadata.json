@@ -1,6 +1,6 @@
 {
   "title": "Commentary on Genesis",
-  "subtitle": "Volume 1",
+  "subtitle": "Volume I",
   "authors": [
     "John Calvin"
   ],
@@ -13,10 +13,10 @@
     "status": "approved",
     "approved_at": "2026-08-12T22:36:28-04:00",
     "approved_by": "user",
-    "edition_title": "Commentary on Genesis, Volume 1",
+    "edition_title": "Commentary on Genesis, Volume I",
     "approved_page_count": 544
   },
-  "volume": "1",
+  "volume": "I",
   "trim_size": "6 x 9 in",
   "interior_standard": "prose-6x9-v1",
   "page_count": 544,
@@ -26,10 +26,6 @@
   "detected_heading_count": 25,
   "interior_filename": "john_calvin_calcom01_commentary_on_genesis_volume_1_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom01_commentary_on_genesis_volume_1_hardcover_cover.pdf",
-  "store_price_cents": 2400,
-  "store_genre": "Theology",
-  "store_description": "The first volume of John Calvin's verse-by-verse commentary on the Book of Genesis, a foundational work of Reformed biblical scholarship.",
-  "store_featured": false,
   "paperback_cover_filename": "john_calvin_calcom01_commentary_on_genesis_volume_1_paperback_cover.pdf",
   "source_basis": {
     "status": "proofread/public-domain plain text source, not OCR-derived for this build",
@@ -91,19 +87,19 @@
       "era_label": "before 17th century",
       "cover_color": "brown",
       "band_color_rgb": [
-        116,
-        80,
-        48
+        88,
+        62,
+        39
       ],
       "accent_color_rgb": [
-        230,
+        247,
         198,
-        132
+        112
       ],
-      "front_border_pattern": "renaissance_printer",
-      "back_border_pattern": "renaissance_printer",
-      "border_rendering": "traced_native_svg_borders",
-      "border_pdf_encoding": "native_svg_vector_overlay",
+      "front_border_pattern": "renaissance_cartouche_approved",
+      "back_border_pattern": "renaissance_cartouche_approved",
+      "border_rendering": "approved_imagegen_reference_full_panel",
+      "border_pdf_encoding": "lossless_reference_raster",
       "cover_pdf_image_encoding": "lossless_png_flate",
       "full_width_px": 3986,
       "output_width_px": 4062,
@@ -145,7 +141,7 @@
         "Commentary on",
         "Genesis"
       ],
-      "front_title_max_line_width_px": 757.0,
+      "front_title_max_line_width_px": 685.0,
       "spine_volume_only": false,
       "fixed_spine_typography": true,
       "spine_title_standard_pt": 15.0,
@@ -156,14 +152,21 @@
       "spine_title_font_size_px": 63,
       "spine_author_font_size_px": 63,
       "spine_volume_font_size_px": 100,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 24.0,
       "spine_title_line_count": 1,
       "spine_title_lines": [
         "Commentary on Genesis"
       ],
       "spine_author_text": "Calvin",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
-      "spine_volume_hierarchy_valid": true
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 544,
+      "approved_panel_sha256": "7fad1d57fe6b5a3b04f98ad31b4a0f529122672c629a1099263c332ad919fccb"
     },
     "hardcover": {
       "front_width_px": 1838,
@@ -173,19 +176,19 @@
       "era_label": "before 17th century",
       "cover_color": "brown",
       "band_color_rgb": [
-        116,
-        80,
-        48
+        88,
+        62,
+        39
       ],
       "accent_color_rgb": [
-        230,
+        247,
         198,
-        132
+        112
       ],
-      "front_border_pattern": "renaissance_printer",
-      "back_border_pattern": "renaissance_printer",
-      "border_rendering": "traced_native_svg_borders",
-      "border_pdf_encoding": "native_svg_vector_overlay",
+      "front_border_pattern": "renaissance_cartouche_approved",
+      "back_border_pattern": "renaissance_cartouche_approved",
+      "border_rendering": "approved_imagegen_reference_full_panel",
+      "border_pdf_encoding": "lossless_reference_raster",
       "cover_pdf_image_encoding": "lossless_png_flate",
       "full_width_px": 4126,
       "output_width_px": 4576,
@@ -210,6 +213,20 @@
       "back_imprint_bottom_fraction": 0.76,
       "back_imprint_border_gutter_in": 0.75,
       "front_text_center_offset_px": 0,
+      "hardcover_border_board_centered": true,
+      "hardcover_border_standard_inset_px": 225,
+      "hardcover_border_visual_inset_x_px": 243,
+      "hardcover_border_visual_inset_y_px": 245,
+      "hardcover_border_alignment_adjustment_x_px": 18,
+      "hardcover_border_alignment_adjustment_y_px": 20,
+      "hardcover_border_source_compensation_x_px": -1,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 1353,
+      "hardcover_border_art_height_px": 2286,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": true,
+      "hardcover_border_reference_texture_preserved": true,
       "front_text_side_inset_in": 1.35,
       "front_text_border_clearance_in": 0.75,
       "front_text_collision_gap_in": 0.35,
@@ -224,10 +241,10 @@
       "front_title_font_size_px": 104,
       "front_title_line_count": 2,
       "front_title_lines": [
-        "Commentary",
-        "on Genesis"
+        "Commentary on",
+        "Genesis"
       ],
-      "front_title_max_line_width_px": 606.0,
+      "front_title_max_line_width_px": 685.0,
       "spine_volume_only": false,
       "fixed_spine_typography": true,
       "spine_title_standard_pt": 15.0,
@@ -238,18 +255,29 @@
       "spine_title_font_size_px": 63,
       "spine_author_font_size_px": 63,
       "spine_volume_font_size_px": 100,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 24.0,
       "spine_title_line_count": 1,
       "spine_title_lines": [
         "Commentary on Genesis"
       ],
       "spine_author_text": "Calvin",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
-      "spine_volume_hierarchy_valid": true
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 544,
+      "approved_panel_sha256": "7fad1d57fe6b5a3b04f98ad31b4a0f529122672c629a1099263c332ad919fccb"
     }
   },
   "interior_standard_enforced": true,
   "body_font_family": "TeX Gyre Pagella (Palatino-compatible)",
   "body_size_pt": 11.0,
-  "body_leading_pt": 13.6
+  "body_leading_pt": 13.6,
+  "store_price_cents": 3000,
+  "store_genre": "",
+  "store_description": "",
+  "store_featured": false
 }
