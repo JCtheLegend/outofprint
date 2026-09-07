@@ -262,5 +262,9 @@
   "store_price_cents": 3000,
   "store_genre": "",
   "store_description": "",
-  "store_featured": false
+  "store_featured": false,
+  "store_set_slug": "calvin-commentary-on-jeremiah-and-lamentations",
+  "store_set_title": "Commentary on Jeremiah and Lamentations",
+  "store_set_genre": "Theology",
+  "store_set_description": "Calvin's lectures on Jeremiah and Lamentations, taken down as he delivered them, in five volumes."
 }

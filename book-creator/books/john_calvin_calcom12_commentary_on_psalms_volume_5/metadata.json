@@ -258,5 +258,9 @@
   "store_price_cents": 3000,
   "store_genre": "",
   "store_description": "",
-  "store_featured": false
+  "store_featured": false,
+  "store_set_slug": "calvin-commentary-on-psalms",
+  "store_set_title": "Commentary on Psalms",
+  "store_set_genre": "Theology",
+  "store_set_description": "Calvin's commentary on the whole Psalter \u2014 the work he called an anatomy of all the parts of the soul \u2014 in five volumes."
 }

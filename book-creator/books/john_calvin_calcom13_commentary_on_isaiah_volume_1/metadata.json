@@ -258,5 +258,9 @@
   "store_price_cents": 3000,
   "store_genre": "",
   "store_description": "",
-  "store_featured": false
+  "store_featured": false,
+  "store_set_slug": "calvin-commentary-on-isaiah",
+  "store_set_title": "Commentary on Isaiah",
+  "store_set_genre": "Theology",
+  "store_set_description": "Calvin's lectures on the prophecy of Isaiah, drawn from his Geneva expositions, in four volumes."
 }

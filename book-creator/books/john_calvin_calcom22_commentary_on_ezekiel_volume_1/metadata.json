@@ -258,5 +258,9 @@
   "store_price_cents": 3000,
   "store_genre": "",
   "store_description": "",
-  "store_featured": false
+  "store_featured": false,
+  "store_set_slug": "calvin-commentary-on-ezekiel",
+  "store_set_title": "Commentary on Ezekiel",
+  "store_set_genre": "Theology",
+  "store_set_description": "Calvin's lectures on Ezekiel, left unfinished at his death in 1564, in two volumes."
 }

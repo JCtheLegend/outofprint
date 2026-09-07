@@ -289,5 +289,9 @@
   "store_price_cents": 3000,
   "store_genre": "",
   "store_description": "",
-  "store_featured": false
+  "store_featured": false,
+  "store_set_slug": "froude-thomas-carlyle-first-forty-years",
+  "store_set_title": "Thomas Carlyle: The First Forty Years",
+  "store_set_genre": "Biography",
+  "store_set_description": "Froude's biography of Thomas Carlyle's early life, written as Carlyle's literary executor and published in 1882 \u2014 the candid portrait that scandalised Victorian readers."
 }
