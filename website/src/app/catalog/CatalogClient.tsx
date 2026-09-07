@@ -1,21 +1,22 @@
 "use client";
 
 import { useState } from "react";
-import type { Book } from "@/lib/supabase";
+import type { CatalogEntry } from "@/lib/sets";
 import { BookCard } from "@/components/ui/BookCard";
+import { SetCard } from "@/components/ui/SetCard";
 
 export function CatalogClient({
-  books,
+  entries,
   genres,
 }: {
-  books: Book[];
+  entries: CatalogEntry[];
   genres: string[];
 }) {
   const [activeGenre, setActiveGenre] = useState<string | null>(null);
 
   const filtered = activeGenre
-    ? books.filter((b) => b.genre === activeGenre)
-    : books;
+    ? entries.filter((e) => e.genre === activeGenre)
+    : entries;
 
   return (
     <>
@@ -51,9 +52,13 @@ export function CatalogClient({
         <p className="text-muted text-sm">No books found in this genre yet.</p>
       ) : (
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {filtered.map((book) => (
-            <BookCard key={book.id} book={book} />
-          ))}
+          {filtered.map((entry) =>
+            entry.kind === "set" ? (
+              <SetCard key={entry.key} set={entry.set} />
+            ) : (
+              <BookCard key={entry.key} book={entry.book} />
+            )
+          )}
         </div>
       )}
     </>

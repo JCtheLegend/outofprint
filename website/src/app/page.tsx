@@ -1,7 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
-import { supabase, type Book } from "@/lib/supabase";
+import { supabase, type Book, type BookSet, type BookSetWithVolumes } from "@/lib/supabase";
 import { BookCard } from "@/components/ui/BookCard";
+import { SetCard } from "@/components/ui/SetCard";
+import { logSetsError, sortVolumes } from "@/lib/sets";
 import logo from "@/public/ooplogo_black.png";
 
 async function getFeaturedBooks(): Promise<Book[]> {
@@ -19,8 +21,37 @@ async function getFeaturedBooks(): Promise<Book[]> {
   return data ?? [];
 }
 
+/** Featured multi-volume works, shown alongside featured standalone books. */
+async function getFeaturedSets(): Promise<BookSetWithVolumes[]> {
+  const { data: sets, error } = await supabase
+    .from("book_sets")
+    .select("*")
+    .eq("featured", true);
+
+  if (error || !sets?.length) {
+    logSetsError("Failed to fetch featured sets", error);
+    return [];
+  }
+
+  const { data: volumes } = await supabase
+    .from("books")
+    .select("*")
+    .in("set_id", sets.map((s: BookSet) => s.id));
+
+  return sets
+    .map((set: BookSet) => ({
+      ...set,
+      volumes: sortVolumes((volumes ?? []).filter((v: Book) => v.set_id === set.id)),
+    }))
+    .filter((set: BookSetWithVolumes) => set.volumes.length > 1);
+}
+
 export default async function HomePage() {
-  const books = await getFeaturedBooks();
+  const [books, sets] = await Promise.all([getFeaturedBooks(), getFeaturedSets()]);
+  // A featured set stands in for its own volumes so the row never repeats a work
+  const setVolumeIds = new Set(sets.flatMap((s) => s.volumes.map((v) => v.id)));
+  const standaloneBooks = books.filter((b) => !setVolumeIds.has(b.id));
+  const hasFeatured = sets.length > 0 || standaloneBooks.length > 0;
 
   return (
     <>
@@ -86,11 +117,14 @@ export default async function HomePage() {
       <section className="max-w-5xl mx-auto px-6 py-16">
         <p className="section-label">Best Sellers</p>
         <h2 className="font-serif text-3xl font-normal mb-8">Recently Revived</h2>
-        {books.length === 0 ? (
+        {!hasFeatured ? (
           <p className="text-muted text-sm">No featured books yet — add some in your Supabase dashboard.</p>
         ) : (
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-            {books.map((book) => (
+            {sets.map((set) => (
+              <SetCard key={set.id} set={set} />
+            ))}
+            {standaloneBooks.map((book) => (
               <BookCard key={book.id} book={book} />
             ))}
           </div>

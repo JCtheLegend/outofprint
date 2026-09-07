@@ -278,5 +278,9 @@
   "store_price_cents": 3000,
   "store_genre": "",
   "store_description": "",
-  "store_featured": false
+  "store_featured": false,
+  "store_set_slug": "calvin-harmony-of-the-law",
+  "store_set_title": "Harmony of the Law",
+  "store_set_genre": "Theology",
+  "store_set_description": "Calvin's commentary on Exodus through Deuteronomy, arranged as a harmony of the last four books of Moses, in four volumes."
 }

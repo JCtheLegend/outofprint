@@ -1,8 +1,10 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import Image from "next/image";
 import { supabase } from "@/lib/supabase";
 import { formatPrice } from "@/lib/stripe";
-import { CheckoutButton } from "./CheckoutButton";
+import { getSetForBook, setPriceCents, setSavingsCents, volumeLabel } from "@/lib/sets";
+import { CheckoutButton, type SetOption } from "./CheckoutButton";
 
 export async function generateStaticParams() {
   const { data } = await supabase.from("books").select("id");
@@ -18,6 +20,21 @@ export default async function BookPage({ params }: { params: Promise<{ id: strin
   const { id } = await params;
   const book = await getBook(id);
   if (!book) notFound();
+
+  const set = await getSetForBook(book);
+  const inSet = set !== null && set.volumes.length > 1;
+  const volume = volumeLabel(book);
+
+  const setOption: SetOption | undefined =
+    inSet && set
+      ? {
+          id: set.id,
+          slug: set.slug,
+          priceCents: setPriceCents(set, set.volumes),
+          savingsCents: setSavingsCents(set, set.volumes),
+          volumeCount: set.volumes.length,
+        }
+      : undefined;
 
   return (
     <div className="max-w-5xl mx-auto px-6 py-12">
@@ -36,12 +53,26 @@ export default async function BookPage({ params }: { params: Promise<{ id: strin
               </p>
             </div>
           )}
+          {volume && (
+            <span className="absolute bottom-0 right-0 bg-ink/85 text-cream font-body text-[11px] tracking-widest uppercase px-3 py-1.5">
+              {volume}
+            </span>
+          )}
         </div>
 
         {/* Info */}
         <div className="flex flex-col justify-center">
           <p className="section-label">{book.genre}</p>
           <h1 className="font-serif text-4xl font-normal mb-2 leading-tight">{book.title}</h1>
+          {inSet && set && (
+            <p className="text-sm text-muted mb-2">
+              {volume ? `${volume} of ` : "Part of "}
+              <Link href={`/catalog/set/${set.slug}`} className="text-rust hover:underline">
+                {set.title}
+              </Link>{" "}
+              — a {set.volumes.length}-volume set
+            </p>
+          )}
           <p className="text-muted italic text-lg mb-1">{book.author}</p>
           <p className="text-sm text-muted mb-6">Originally published {book.year}</p>
           <p className="text-sm leading-relaxed text-muted mb-8">{book.description}</p>
@@ -50,9 +81,16 @@ export default async function BookPage({ params }: { params: Promise<{ id: strin
               <span className="text-2xl font-serif font-semibold text-rust">
                 {formatPrice(book.price_cents)}
               </span>
-              <span className="text-xs text-muted">Printed & shipped to order</span>
+              <span className="text-xs text-muted">Printed &amp; shipped to order</span>
             </div>
-            <CheckoutButton bookId={book.id} />
+            <CheckoutButton bookId={book.id} setOption={setOption} />
+            {inSet && set && (
+              <p className="text-xs text-muted mt-4">
+                <Link href={`/catalog/set/${set.slug}?volume=${book.id}`} className="hover:text-rust">
+                  See all {set.volumes.length} volumes →
+                </Link>
+              </p>
+            )}
           </div>
         </div>
       </div>

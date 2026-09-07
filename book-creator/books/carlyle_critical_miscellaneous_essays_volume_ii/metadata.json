@@ -2163,5 +2163,9 @@
   "store_price_cents": 3000,
   "store_genre": "",
   "store_description": "",
-  "store_featured": false
+  "store_featured": false,
+  "store_set_slug": "carlyle-critical-and-miscellaneous-essays",
+  "store_set_title": "Critical and Miscellaneous Essays",
+  "store_set_genre": "Essays",
+  "store_set_description": "Thomas Carlyle's collected review essays on literature, history and the German writers he championed \u2014 the volumes restored so far."
 }

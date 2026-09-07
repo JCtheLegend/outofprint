@@ -40,6 +40,30 @@ export async function sendOrderConfirmation(
   });
 }
 
+export async function sendSetOrderConfirmation(
+  to: string,
+  name: string,
+  setTitle: string,
+  volumeTitles: string[],
+  orderId: string
+) {
+  const volumes = volumeTitles.map((t) => `<li>${t}</li>`).join("");
+  await resend.emails.send({
+    from: FROM,
+    to,
+    subject: `Your order of the complete "${setTitle}" is confirmed`,
+    html: `
+      <p>Hi ${name},</p>
+      <p>Your order for all ${volumeTitles.length} volumes of <strong>${setTitle}</strong>
+      has been confirmed (order #${orderId}).</p>
+      <ul>${volumes}</ul>
+      <p>Each volume is printed individually, so they may ship separately — we'll email you
+      tracking information for each as it leaves the printer.</p>
+      <p>— The Out of Print Press Team</p>
+    `,
+  });
+}
+
 export async function sendShippingNotification(
   to: string,
   name: string,

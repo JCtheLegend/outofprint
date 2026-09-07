@@ -262,5 +262,9 @@
   "store_price_cents": 3000,
   "store_genre": "",
   "store_description": "",
-  "store_featured": false
+  "store_featured": false,
+  "store_set_slug": "calvin-commentary-on-matthew-mark-luke",
+  "store_set_title": "Commentary on Matthew, Mark, Luke",
+  "store_set_genre": "Theology",
+  "store_set_description": "Calvin's commentary on the three synoptic gospels, read side by side as a single harmony \u2014 the volumes restored so far."
 }

@@ -279,5 +279,9 @@
   "store_price_cents": 3000,
   "store_genre": "",
   "store_description": "",
-  "store_featured": false
+  "store_featured": false,
+  "store_set_slug": "calvin-commentary-on-genesis",
+  "store_set_title": "Commentary on Genesis",
+  "store_set_description": "John Calvin's verse-by-verse commentary on Genesis in the Calvin Translation Society English edition, complete in two volumes.",
+  "store_set_genre": "Theology"
 }

@@ -280,5 +280,9 @@
   "store_price_cents": 3000,
   "store_genre": "",
   "store_description": "",
-  "store_featured": false
+  "store_featured": false,
+  "store_set_slug": "carlyle-history-of-friedrich-ii",
+  "store_set_title": "History of Friedrich II of Prussia",
+  "store_set_genre": "History",
+  "store_set_description": "Thomas Carlyle's monumental life of Frederick the Great, written across thirteen years and published 1858\u20131865, reset here as nine printed books."
 }

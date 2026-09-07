@@ -289,5 +289,9 @@
   "store_price_cents": 3000,
   "store_genre": "",
   "store_description": "",
-  "store_featured": false
+  "store_featured": false,
+  "store_set_slug": "froude-thomas-carlyle-life-in-london",
+  "store_set_title": "Thomas Carlyle: A History of His Life in London",
+  "store_set_genre": "Biography",
+  "store_set_description": "The second half of Froude's life of Carlyle, published in 1884, covering the London years from 1834 to Carlyle's death."
 }

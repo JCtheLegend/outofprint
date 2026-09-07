@@ -43,7 +43,7 @@ create table if not exists submissions (
 create table if not exists orders (
   id                uuid primary key default gen_random_uuid(),
   book_id           uuid not null references books(id),
-  stripe_session_id text not null unique,
+  stripe_session_id text not null,
   customer_email    text not null,
   customer_name     text not null,
   shipping_address  jsonb not null default '{}',
@@ -52,6 +52,50 @@ create table if not exists orders (
   print_job_id      text,
   created_at        timestamptz not null default now()
 );
+
+-- ============================================================
+-- Multi-volume sets
+-- ============================================================
+
+-- A set groups the volumes of one multi-volume work (e.g. Froude's
+-- "History of England", Volumes I–XII). Volumes stay in the books table —
+-- each is still individually printable and purchasable — and point back
+-- here via books.set_id.
+create table if not exists book_sets (
+  id            uuid primary key default gen_random_uuid(),
+  slug          text unique not null,
+  title         text not null,
+  author        text not null,
+  description   text,
+  genre         text,
+  cover_url     text,
+  -- Bundle price for buying every volume at once. Leave null to charge the
+  -- sum of the volumes' individual prices (no discount).
+  price_cents   int,
+  featured      boolean not null default false,
+  created_at    timestamptz not null default now()
+);
+
+alter table books add column if not exists set_id uuid references book_sets(id);
+alter table books add column if not exists volume_number int;
+alter table books add column if not exists volume_label text;
+
+create index if not exists books_set_id_idx on books (set_id, volume_number);
+create index if not exists book_sets_featured_idx on book_sets (featured);
+
+-- Sets are publicly readable; only the service role writes them
+alter table book_sets enable row level security;
+drop policy if exists "book_sets_public_read" on book_sets;
+create policy "book_sets_public_read" on book_sets for select using (true);
+
+-- One checkout can now cover several volumes, so an order row is per book
+-- and a session may produce several of them. Replace the old
+-- unique(stripe_session_id) constraint with unique(stripe_session_id, book_id).
+alter table orders add column if not exists set_id uuid references book_sets(id);
+
+alter table orders drop constraint if exists orders_stripe_session_id_key;
+create unique index if not exists orders_session_book_idx
+  on orders (stripe_session_id, book_id);
 
 -- Indexes
 create index if not exists books_featured_idx on books (featured);

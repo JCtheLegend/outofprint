@@ -12,6 +12,10 @@ a metadata.json plus the PDFs it references. For every book this:
   3. Upserts a row into the `books` table, keyed by slug (the folder name),
      so re-running this script for the same book updates it in place
      instead of creating a duplicate.
+  4. For a volume of a multi-volume work (metadata.json carries
+     `store_set_slug`), upserts the matching `book_sets` row and points the
+     book at it, so the storefront can list the whole set on one page and
+     sell either a single volume or the complete set.
 
 Usage:
     python upload_to_supabase.py                # upload every book folder
@@ -40,6 +44,15 @@ COVER_BUCKET = "book-covers"
 PDF_BUCKET = "book-pdfs"
 COVER_RENDER_DPI = 300
 REQUIRED_STORE_FIELDS = ("store_price_cents", "store_genre", "store_description")
+
+# Words the pipeline puts in front of a volume designation, e.g. "Book IV"
+VOLUME_WORDS = ("volume", "vol", "book", "part", "tome", "no")
+
+ROMAN_NUMERALS = {
+    "i": 1, "ii": 2, "iii": 3, "iv": 4, "v": 5, "vi": 6, "vii": 7, "viii": 8,
+    "ix": 9, "x": 10, "xi": 11, "xii": 12, "xiii": 13, "xiv": 14, "xv": 15,
+    "xvi": 16, "xvii": 17, "xviii": 18, "xix": 19, "xx": 20,
+}
 
 
 def load_metadata(book_dir: Path) -> dict:
@@ -96,7 +109,84 @@ def render_front_cover(book_dir: Path, metadata: dict) -> bytes:
     return out.getvalue()
 
 
-def build_book_row(slug: str, metadata: dict, cover_url: str, pdf_url: str) -> dict:
+def parse_volume_number(metadata: dict) -> int | None:
+    """Volume number as an int, from `volume_number` or whatever `volume` holds.
+
+    The pipeline writes `volume` inconsistently across books — "Volume III",
+    "Book IV", "III", "Volume 1" or a bare 1 — so accept a leading volume word
+    followed by either digits or a roman numeral.
+    """
+    raw = metadata.get("volume_number")
+    if raw is None:
+        raw = metadata.get("volume")
+    if raw is None:
+        return None
+    if isinstance(raw, int):
+        return raw
+
+    token = str(raw).strip().lower()
+    for word in VOLUME_WORDS:
+        if token.startswith(word):
+            token = token[len(word):]
+            break
+    token = token.strip(" .:#")
+
+    if token.isdigit():
+        return int(token)
+    return ROMAN_NUMERALS.get(token)
+
+
+def volume_label(metadata: dict) -> str | None:
+    """Human label for the volume, e.g. "Volume III" or "Book IV".
+
+    A designation that already names its own unit ("Book IV") keeps that word —
+    Carlyle's Friedrich is divided into books, not volumes.
+    """
+    raw = metadata.get("volume")
+    if isinstance(raw, str) and raw.strip():
+        text = raw.strip()
+        if text.lower().startswith(VOLUME_WORDS):
+            return text
+        return f"Volume {text}"
+
+    number = parse_volume_number(metadata)
+    return f"Volume {number}" if number is not None else None
+
+
+def build_set_row(metadata: dict) -> dict | None:
+    """The `book_sets` row this book belongs to, or None if it stands alone.
+
+    A book joins a set by declaring `store_set_slug` in metadata.json; every
+    volume of the same work must use the same slug. `store_set_price_cents`
+    is the optional bundle price — leave it out and the storefront charges the
+    sum of the volumes.
+    """
+    set_slug = metadata.get("store_set_slug")
+    if not set_slug:
+        return None
+
+    authors = metadata.get("authors") or []
+    subtitle = metadata.get("subtitle")
+    default_title = metadata["title"]
+
+    return {
+        "slug": set_slug,
+        "title": metadata.get("store_set_title") or default_title,
+        "author": ", ".join(authors) if authors else "Unknown",
+        "description": metadata.get("store_set_description") or subtitle,
+        "genre": metadata.get("store_set_genre") or metadata.get("store_genre"),
+        "price_cents": metadata.get("store_set_price_cents"),
+        "featured": bool(metadata.get("store_set_featured", False)),
+    }
+
+
+def build_book_row(
+    slug: str,
+    metadata: dict,
+    cover_url: str,
+    pdf_url: str,
+    set_id: str | None = None,
+) -> dict:
     missing = [field for field in REQUIRED_STORE_FIELDS if metadata.get(field) is None]
     if missing:
         raise ValueError(f"metadata.json is missing required field(s): {', '.join(missing)}")
@@ -119,7 +209,23 @@ def build_book_row(slug: str, metadata: dict, cover_url: str, pdf_url: str) -> d
         "cover_url": cover_url,
         "pdf_url": pdf_url,
         "featured": bool(metadata.get("store_featured", False)),
+        "set_id": set_id,
+        "volume_number": parse_volume_number(metadata),
+        "volume_label": volume_label(metadata),
     }
+
+
+def upsert_set(client, set_row: dict, slug: str) -> str:
+    """Create or update the set this volume belongs to and return its id.
+
+    `price_cents` is only written when this book actually declares one, so a
+    bundle price set on any one volume (or edited in Supabase) is not wiped
+    out by re-uploading a sibling volume that omits it.
+    """
+    payload = {k: v for k, v in set_row.items() if not (k == "price_cents" and v is None)}
+    print(f"[{slug}] upserting book_sets row '{set_row['slug']}'...")
+    result = client.table("book_sets").upsert(payload, on_conflict="slug").execute()
+    return result.data[0]["id"]
 
 
 def upload_book(book_dir: Path, dry_run: bool = False) -> None:
@@ -164,7 +270,10 @@ def upload_book(book_dir: Path, dry_run: bool = False) -> None:
     )
     pdf_url = client.storage.from_(PDF_BUCKET).get_public_url(pdf_object)
 
-    row = build_book_row(slug, metadata, cover_url, pdf_url)
+    set_row = build_set_row(metadata)
+    set_id = upsert_set(client, set_row, slug) if set_row else None
+
+    row = build_book_row(slug, metadata, cover_url, pdf_url, set_id=set_id)
     print(f"[{slug}] upserting books row...")
     client.table("books").upsert(row, on_conflict="slug").execute()
 

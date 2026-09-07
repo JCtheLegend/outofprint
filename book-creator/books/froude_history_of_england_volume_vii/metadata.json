@@ -360,5 +360,9 @@
   "store_price_cents": 3000,
   "store_genre": "",
   "store_description": "",
-  "store_featured": false
+  "store_featured": false,
+  "store_set_slug": "froude-history-of-england",
+  "store_set_title": "History of England",
+  "store_set_description": "James Anthony Froude's twelve-volume history of Tudor England, from the fall of Cardinal Wolsey to the death of Elizabeth I \u2014 the whole run restored and typeset to match.",
+  "store_set_genre": "History"
 }
