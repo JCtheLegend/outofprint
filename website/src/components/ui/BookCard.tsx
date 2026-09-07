@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Book } from "@/lib/supabase";
 import { formatPrice } from "@/lib/format";
+import { volumeLabel } from "@/lib/sets";
 
 // Deterministic cover colors from book id
 const COVER_PALETTES = [
@@ -20,6 +21,7 @@ function palette(id: string) {
 
 export function BookCard({ book }: { book: Book }) {
   const p = palette(book.id);
+  const volume = volumeLabel(book);
   return (
     <Link href={`/catalog/${book.id}`} className="group">
       <div
@@ -49,6 +51,11 @@ export function BookCard({ book }: { book: Book }) {
               {book.author}
             </p>
           </div>
+        )}
+        {volume && (
+          <span className="absolute bottom-0 right-0 bg-ink/85 text-cream font-body text-[10px] tracking-widest uppercase px-2 py-1">
+            {volume}
+          </span>
         )}
       </div>
       <h3 className="font-serif text-sm font-semibold leading-snug mb-0.5 group-hover:text-rust transition-colors">

@@ -41,6 +41,8 @@ You'll fill in `.env.local` as you complete the steps below.
 2. Choose a name (e.g. `out-of-print-press`), set a database password, pick a region close to you
 3. Once created, go to **SQL Editor** → **New Query**
 4. Paste the entire contents of `supabase-schema.sql` and click **Run**
+   (it is safe to re-run on an existing database — it adds the `book_sets`
+   table and the multi-volume columns on `books` and `orders` in place)
 5. Go to **Storage** → create three buckets:
    - `source-files` — toggle **Public** on
    - `book-covers` — toggle **Public** on
@@ -172,9 +174,13 @@ website/
 │   │   ├── catalog/
 │   │   │   ├── page.tsx              ← Catalog listing
 │   │   │   ├── CatalogClient.tsx     ← Genre filter (client)
-│   │   │   └── [id]/
-│   │   │       ├── page.tsx          ← Individual book page
-│   │   │       ├── CheckoutButton.tsx
+│   │   │   ├── [id]/
+│   │   │   │   ├── page.tsx          ← Individual book (or single volume) page
+│   │   │   │   ├── CheckoutButton.tsx    ← Buy this book / buy its whole set
+│   │   │   │   └── success/page.tsx  ← Post-purchase page
+│   │   │   └── set/[slug]/
+│   │   │       ├── page.tsx          ← Multi-volume set page
+│   │   │       ├── SetPurchasePanel.tsx  ← Pick one volume or the set (client)
 │   │   │       └── success/page.tsx  ← Post-purchase page
 │   │   ├── submit/
 │   │   │   ├── page.tsx              ← Submission page
@@ -185,9 +191,12 @@ website/
 │   │       └── webhooks/stripe/route.ts  ← Fires print job after payment
 │   ├── components/
 │   │   ├── layout/Nav.tsx
-│   │   └── ui/BookCard.tsx
+│   │   └── ui/
+│   │       ├── BookCard.tsx
+│   │       └── SetCard.tsx           ← One card standing for a whole set
 │   └── lib/
 │       ├── supabase.ts               ← DB client + types
+│       ├── sets.ts                   ← Volume grouping + set pricing
 │       ├── stripe.ts                 ← Stripe client
 │       ├── print.ts                  ← Print API integration
 │       └── email.ts                  ← Resend email helpers

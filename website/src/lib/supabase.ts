@@ -13,7 +13,29 @@ export type Book = {
   pdf_url: string;
   featured: boolean;
   created_at: string;
+  // Set membership — null for standalone books
+  set_id: string | null;
+  volume_number: number | null;
+  volume_label: string | null;
 };
+
+// A multi-volume work. Its volumes live in `books` and point back via set_id.
+export type BookSet = {
+  id: string;
+  slug: string;
+  title: string;
+  author: string;
+  description: string | null;
+  genre: string | null;
+  cover_url: string | null;
+  // Bundle price for every volume at once; null means "sum of the volumes"
+  price_cents: number | null;
+  featured: boolean;
+  created_at: string;
+};
+
+// A set together with its volumes, ordered by volume number
+export type BookSetWithVolumes = BookSet & { volumes: Book[] };
 
 export type Submission = {
   id: string;
@@ -32,6 +54,7 @@ export type Submission = {
 export type Order = {
   id: string;
   book_id: string;
+  set_id: string | null;
   stripe_session_id: string;
   customer_email: string;
   customer_name: string;
