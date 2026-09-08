@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { loadStripe } from "@stripe/stripe-js";
 import { formatPrice } from "@/lib/format";
 
@@ -19,18 +20,19 @@ export function SetPurchasePanel({
   volumes,
   setPriceCents,
   savingsCents,
-  initialVolumeId,
 }: {
   setId: string;
   setSlug: string;
   volumes: VolumeOption[];
   setPriceCents: number;
   savingsCents: number;
-  /** Pre-select a single volume — used when arriving from that volume's page */
-  initialVolumeId?: string;
 }) {
+  // ?volume=<id> preselects that volume — how a single volume's page links here
+  const preselected = useSearchParams().get("volume");
+  const initialVolumeId = volumes.some((v) => v.id === preselected) ? preselected! : "set";
+
   // "set" buys every volume; otherwise the selected volume's id
-  const [choice, setChoice] = useState<string>(initialVolumeId ?? "set");
+  const [choice, setChoice] = useState<string>(initialVolumeId);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
