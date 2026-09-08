@@ -24,6 +24,8 @@ yarn-debug.log*
 yarn-error.log*
 
 .cloudflare
+.open-next/
+.wrangler/
 
 .claude/
 
@@ -33,3 +35,4 @@ yarn-error.log*
 # Python
 __pycache__/
 *.pyc
+.dev.vars

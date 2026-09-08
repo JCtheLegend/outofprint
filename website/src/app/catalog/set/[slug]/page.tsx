@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
@@ -13,19 +14,12 @@ import {
 import { SetPurchasePanel, type VolumeOption } from "./SetPurchasePanel";
 
 export async function generateStaticParams() {
-  const { data } = await supabase.from("book_sets").select("slug");
-  return (data ?? []).map((s) => ({ slug: s.slug }));
+  // TEMP EXPERIMENT: simulate a build made before the book_sets table existed
+  return [];
 }
 
-export default async function SetPage({
-  params,
-  searchParams,
-}: {
-  params: Promise<{ slug: string }>;
-  searchParams: Promise<{ volume?: string }>;
-}) {
+export default async function SetPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const { volume: preselectedVolume } = await searchParams;
   const set = await getSetBySlug(slug);
   if (!set) notFound();
 
@@ -112,16 +106,18 @@ export default async function SetPage({
           )}
 
           <div className="border-t border-border pt-6">
-            <SetPurchasePanel
-              setId={set.id}
-              setSlug={set.slug}
-              volumes={options}
-              setPriceCents={setPriceCents(set, volumes)}
-              savingsCents={setSavingsCents(set, volumes)}
-              initialVolumeId={
-                options.some((o) => o.id === preselectedVolume) ? preselectedVolume : undefined
-              }
-            />
+            {/* The panel reads ?volume= to preselect a volume, which it can only
+                do on the client — the Suspense boundary keeps this page
+                prerenderable rather than server-rendered on every request. */}
+            <Suspense fallback={<div className="h-96" />}>
+              <SetPurchasePanel
+                setId={set.id}
+                setSlug={set.slug}
+                volumes={options}
+                setPriceCents={setPriceCents(set, volumes)}
+                savingsCents={setSavingsCents(set, volumes)}
+              />
+            </Suspense>
           </div>
         </div>
       </div>
