@@ -14,8 +14,8 @@ import {
 import { SetPurchasePanel, type VolumeOption } from "./SetPurchasePanel";
 
 export async function generateStaticParams() {
-  const { data } = await supabase.from("book_sets").select("slug");
-  return (data ?? []).map((s) => ({ slug: s.slug }));
+  // TEMP EXPERIMENT: simulate a build made before the book_sets table existed
+  return [];
 }
 
 export default async function SetPage({ params }: { params: Promise<{ slug: string }> }) {
