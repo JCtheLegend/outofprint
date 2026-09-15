@@ -5,11 +5,11 @@
   "authors": [
     "Thomas Carlyle"
   ],
-  "original_publication": "1827\u20131875",
+  "original_publication": "1827–1875",
   "reader_facing_imprint": "Thomas Carlyle",
   "publication_type": "multi-year collection",
   "author_lifespans": [
-    "Thomas Carlyle (1795\u20131881)"
+    "Thomas Carlyle (1795–1881)"
   ],
   "status": "Scan-aware edition explicitly approved by the user",
   "approval_status": "approved",
@@ -17,8 +17,8 @@
   "source_scan": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\source_texts\\carlyle_critical_misc_1903\\scans\\volume_28_scan.pdf",
   "source_ocr": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\source_texts\\carlyle_critical_misc_1903\\scans\\volume_28_ocr.xml",
   "source_archive_item": "https://archive.org/details/worksofthomascar28carliala",
-  "pdf": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\drafts\\carlyle_critical_miscellaneous_essays_volume_iii_1903\\carlyle_critical_miscellaneous_essays_volume_iii_1903_proofing_draft.pdf",
-  "tex": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\drafts\\carlyle_critical_miscellaneous_essays_volume_iii_1903\\carlyle_critical_miscellaneous_essays_volume_iii_1903_proofing_draft.tex",
+  "pdf": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\carlyle\\carlyle_critical_miscellaneous_essays_volume_iii\\interior.pdf",
+  "tex": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\carlyle\\carlyle_critical_miscellaneous_essays_volume_iii\\book.tex",
   "page_count": 396,
   "chapter_count": 10,
   "image_count": 0,
@@ -1503,6 +1503,42 @@
       "cover_page_count_used": 396
     }
   },
+  "transcription_corrections_20260909": {
+    "ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\source_texts\\carlyle_transcription_corrections_20260909.json",
+    "checks": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\carlyle\\carlyle_critical_miscellaneous_essays_volume_iii\\checks.json",
+    "records": 107,
+    "occurrences": 420,
+    "scope": "Approved transcription audit and scan-verified repairs",
+    "staged": false,
+    "status": "corrected_in_approved"
+  },
+  "verification_facts": {
+    "interior_standard": "prose-6x9-v1",
+    "interior_standard_enforced": true,
+    "dominant_body_font": "TeXGyrePagella-Regular",
+    "dominant_body_size_pt": 10.91,
+    "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
+    "running_header_standard_enforced": true,
+    "running_header_alignment": "centered",
+    "running_header_size_pt": 9.93,
+    "running_header_size_standard_enforced": true,
+    "running_header_left": "Critical & Miscellaneous Essays",
+    "running_header_right": "Thomas Carlyle",
+    "observed_running_header_sizes_pt": [
+      9.96
+    ],
+    "observed_left_running_heads": [
+      "Critical & Miscellaneous Essays"
+    ],
+    "observed_right_running_heads": [
+      "Thomas Carlyle"
+    ],
+    "transcription_fix_date": "2026-09-09",
+    "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\carlyle\\carlyle_critical_miscellaneous_essays_volume_iii",
+    "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
+    "transcription_fix_delivery_status": "corrected_in_approved",
+    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md"
+  },
   "store_price_cents": 3000,
   "store_genre": "",
   "store_description": "",
@@ -1510,5 +1546,5 @@
   "store_set_slug": "carlyle-critical-and-miscellaneous-essays",
   "store_set_title": "Critical and Miscellaneous Essays",
   "store_set_genre": "Essays",
-  "store_set_description": "Thomas Carlyle's collected review essays on literature, history and the German writers he championed \u2014 the volumes restored so far."
+  "store_set_description": "Thomas Carlyle's collected review essays on literature, history and the German writers he championed — the volumes restored so far."
 }

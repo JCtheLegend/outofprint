@@ -132,8 +132,8 @@
     "contents_outline_matches_chapter_starts": true,
     "interior_standard": "prose-6x9-v1",
     "interior_standard_enforced": true,
-    "dominant_body_font": "Palatino-Roman",
-    "dominant_body_size_pt": 10.87,
+    "dominant_body_font": "TeXGyrePagella-Regular",
+    "dominant_body_size_pt": 10.91,
     "beowulf_fit_count": 43,
     "finnsburg_fragment_included": true,
     "physiologus_poem_count": 3,
@@ -165,10 +165,10 @@
     "footnote_handling": "Modern editorial and translation notes omitted; no authorial footnotes occur in the retained original-language texts.",
     "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
     "running_header_standard_enforced": true,
-    "running_header_left": "Bēowulf and Other Texts",
+    "running_header_left": "Bēowulf",
     "running_header_right": "Anonymous and others",
     "observed_left_running_heads": [
-      "Bēowulf and Other Texts"
+      "Bēowulf"
     ],
     "observed_right_running_heads": [
       "Anonymous and others"
@@ -179,7 +179,22 @@
     "running_header_size_standard_enforced": true,
     "observed_running_header_sizes_pt": [
       9.93
-    ]
+    ],
+    "transcription_fixes_20260909": [
+      {
+        "before": "Latin incipit omitted before Matheus, se eadiga Godspellere",
+        "after": "Cum descendisset Iesus de monte secute sunt eum turbe multe: et reliqua.",
+        "source": "Gutenberg 38334, original-language column, eighth homily, source HTML lines 4438-4439",
+        "new_pdf_pages": [
+          198
+        ]
+      }
+    ],
+    "transcription_fix_date": "2026-09-09",
+    "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\standalone\\anglo_saxon_beowulf_and_fight_at_finnsburg",
+    "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
+    "transcription_fix_delivery_status": "corrected_in_approved",
+    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md"
   },
   "cover_facts": {
     "paperback": {

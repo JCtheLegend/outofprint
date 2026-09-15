@@ -70,7 +70,32 @@
     ],
     "contents_generated_from_final_pdf": true,
     "single_rebuilt_title_page": true,
-    "single_content_line_pages": []
+    "single_content_line_pages": [],
+    "interior_standard": "prose-6x9-v1",
+    "interior_standard_enforced": true,
+    "dominant_body_font": "TeXGyrePagella-Regular",
+    "dominant_body_size_pt": 10.91,
+    "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
+    "running_header_standard_enforced": true,
+    "running_header_alignment": "centered",
+    "running_header_size_pt": 9.93,
+    "running_header_size_standard_enforced": true,
+    "running_header_left": "Friedrich II of Prussia",
+    "running_header_right": "Thomas Carlyle",
+    "observed_running_header_sizes_pt": [
+      9.96
+    ],
+    "observed_left_running_heads": [
+      "Friedrich II of Prussia"
+    ],
+    "observed_right_running_heads": [
+      "Thomas Carlyle"
+    ],
+    "transcription_fix_date": "2026-09-09",
+    "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\carlyle\\carlyle_history_of_friedrich_ii_group_03",
+    "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
+    "transcription_fix_delivery_status": "corrected_in_approved",
+    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md"
   },
   "cover_facts": {
     "paperback": {
@@ -285,6 +310,16 @@
       "cover_page_count_used": 382
     }
   },
+  "pdf": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\carlyle\\carlyle_history_of_friedrich_ii_group_03\\interior.pdf",
+  "tex": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\carlyle\\carlyle_history_of_friedrich_ii_group_03\\book.tex",
+  "transcription_corrections_20260909": {
+    "ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\source_texts\\carlyle_transcription_corrections_20260909.json",
+    "checks": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\carlyle\\carlyle_history_of_friedrich_ii_group_03\\checks.json",
+    "records": 2,
+    "occurrences": 2,
+    "staged": false,
+    "status": "corrected_in_approved"
+  },
   "store_price_cents": 3000,
   "store_genre": "",
   "store_description": "",
@@ -292,5 +327,5 @@
   "store_set_slug": "carlyle-history-of-friedrich-ii",
   "store_set_title": "History of Friedrich II of Prussia",
   "store_set_genre": "History",
-  "store_set_description": "Thomas Carlyle's monumental life of Frederick the Great, written across thirteen years and published 1858\u20131865, reset here as nine printed books."
+  "store_set_description": "Thomas Carlyle's monumental life of Frederick the Great, written across thirteen years and published 1858–1865, reset here as nine printed books."
 }

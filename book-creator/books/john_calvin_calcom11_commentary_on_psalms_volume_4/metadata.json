@@ -45,14 +45,43 @@
     "quality_warnings": 2,
     "quality_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\john_calvin_calcom11_commentary_on_psalms_volume_4_quality_report.tsv",
     "verification_sample_pages": [
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\john_calvin\\john_calvin_calcom11_commentary_on_psalms_volume_4_page_0001.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\john_calvin\\john_calvin_calcom11_commentary_on_psalms_volume_4_page_0002.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\john_calvin\\john_calvin_calcom11_commentary_on_psalms_volume_4_page_0003.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\john_calvin\\john_calvin_calcom11_commentary_on_psalms_volume_4_page_0233.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\john_calvin\\john_calvin_calcom11_commentary_on_psalms_volume_4_page_0465.png"
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom11_commentary_on_psalms_volume_4\\qa\\p0001.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom11_commentary_on_psalms_volume_4\\qa\\p0002.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom11_commentary_on_psalms_volume_4\\qa\\p0003.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom11_commentary_on_psalms_volume_4\\qa\\p0465.png"
     ],
     "single_rebuilt_title_page": true,
-    "generated_contents_from_rebuilt_pdf": true
+    "generated_contents_from_rebuilt_pdf": true,
+    "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
+    "running_header_standard_enforced": true,
+    "running_header_alignment": "centered",
+    "running_header_size_pt": 9.93,
+    "running_header_size_standard_enforced": true,
+    "running_header_left": "Commentary on Psalms",
+    "running_header_right": "John Calvin",
+    "observed_running_header_sizes_pt": [
+      9.93
+    ],
+    "observed_left_running_heads": [
+      "Commentary on Psalms"
+    ],
+    "observed_right_running_heads": [
+      "John Calvin"
+    ],
+    "every_rendered_body_character_matches_corrected_source": true,
+    "rendered_body_character_count": 944410,
+    "approved_original_unchanged": true,
+    "visual_sample_pages": [
+      1,
+      2,
+      3,
+      465
+    ],
+    "transcription_fix_date": "2026-09-09",
+    "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom11_commentary_on_psalms_volume_4",
+    "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
+    "transcription_fix_delivery_status": "corrected_in_approved",
+    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md"
   },
   "cover_facts": {
     "paperback": {
@@ -257,6 +286,12 @@
     "revised_at": "2026-08-22T20:47:50-04:00",
     "revision_reason": "Removed CCEL translation-link material and regenerated the Psalms table of contents."
   },
+  "transcription_corrections": {
+    "date": "2026-09-09",
+    "status": "corrected_in_approved",
+    "ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom11_commentary_on_psalms_volume_4\\ledger.json",
+    "approved_original_sha256": "a92d3360e7cc0dd3aa77f75eb0f90cc22f98be912d453601987ed9c85851ef05"
+  },
   "store_price_cents": 3000,
   "store_genre": "",
   "store_description": "",
@@ -264,5 +299,5 @@
   "store_set_slug": "calvin-commentary-on-psalms",
   "store_set_title": "Commentary on Psalms",
   "store_set_genre": "Theology",
-  "store_set_description": "Calvin's commentary on the whole Psalter \u2014 the work he called an anatomy of all the parts of the soul \u2014 in five volumes."
+  "store_set_description": "Calvin's commentary on the whole Psalter — the work he called an anatomy of all the parts of the soul — in five volumes."
 }

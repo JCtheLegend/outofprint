@@ -13,7 +13,7 @@
   "language": "English",
   "trim_size": "6 x 9 in",
   "interior_standard": "prose-6x9-v1",
-  "page_count": 420,
+  "page_count": 419,
   "chapter_count": 6,
   "interior_filename": "froude_history_of_england_volume_ix_interior.pdf",
   "paperback_cover_filename": "froude_history_of_england_volume_ix_paperback_cover.pdf",
@@ -96,11 +96,11 @@
       "servants": 1,
       "til": 1,
       "jury": 1,
-      "Darnley\u2019s": 1,
+      "Darnley’s": 1,
       "sanders": 1,
       "farther": 4,
       "willer": 1,
-      "Ceeil\u2019s": 1,
+      "Ceeil’s": 1,
       "eountries": 1,
       "maurder": 1,
       "mistrusted": 1,
@@ -142,7 +142,7 @@
       "decisign": 1,
       "religjon": 1,
       "mot": 1,
-      "Sch\u00e9nbrunn": 1,
+      "Schénbrunn": 1,
       "net": 3,
       "ftom": 3,
       "ta": 1,
@@ -198,10 +198,10 @@
       "she": 1,
       "fect": 1,
       "I1": 1,
-      "Cond\u00e9": 4,
+      "Condé": 4,
       "avaricc": 1,
       "bave": 2,
-      "Cond\u00e9\u2019s": 3,
+      "Condé’s": 3,
       "ducats": 1,
       "sach": 1,
       "diffcult": 1,
@@ -214,7 +214,7 @@
       "adviee": 1,
       "aort": 1,
       "tp": 1,
-      "F\u00e9nelon": 4,
+      "Fénelon": 4,
       "especialiy": 1,
       "vi0lence": 1,
       "aleo": 1,
@@ -437,15 +437,37 @@
     ],
     "interior_standard": "prose-6x9-v1",
     "interior_standard_enforced": true,
-    "dominant_body_font": "PalatinoLinotype-Roman",
-    "dominant_body_size_pt": 10.91
+    "dominant_body_font": "TeXGyrePagella-Regular",
+    "dominant_body_size_pt": 10.91,
+    "transcription_repair_ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\froude\\froude_history_of_england_volume_ix\\ledger.json",
+    "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
+    "running_header_standard_enforced": true,
+    "running_header_alignment": "centered",
+    "running_header_size_pt": 9.93,
+    "running_header_size_standard_enforced": true,
+    "running_header_left": "History of England",
+    "running_header_right": "James Anthony Froude",
+    "observed_running_header_sizes_pt": [
+      9.96
+    ],
+    "observed_left_running_heads": [
+      "History of England"
+    ],
+    "observed_right_running_heads": [
+      "James Anthony Froude"
+    ],
+    "transcription_fix_date": "2026-09-09",
+    "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\froude\\froude_history_of_england_volume_ix",
+    "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
+    "transcription_fix_delivery_status": "corrected_in_approved",
+    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md"
   },
   "cover_facts": {
     "paperback": {
       "front_width_px": 1800,
       "height_px": 2700,
-      "spine_width_px": 302,
-      "spine_thickness_in": 1.0059459459459459,
+      "spine_width_px": 301,
+      "spine_thickness_in": 1.0036936936936938,
       "era_label": "19th century",
       "cover_color": "Prussian blue",
       "band_color_rgb": [
@@ -463,8 +485,8 @@
       "border_rendering": "traced_native_svg_borders",
       "border_pdf_encoding": "native_svg_vector_overlay",
       "cover_pdf_image_encoding": "lossless_png_flate",
-      "full_width_px": 3902,
-      "output_width_px": 3978,
+      "full_width_px": 3901,
+      "output_width_px": 3977,
       "output_height_px": 2776,
       "cover_format": "paperback",
       "front_panel_width_in": 6.0,
@@ -487,7 +509,7 @@
       "back_imprint_border_gutter_in": 0.75,
       "front_text_center_offset_px": 0,
       "front_text_alignment": "center",
-      "front_text_anchor_x_px": 3040,
+      "front_text_anchor_x_px": 3039,
       "front_author_text": "James Anthony Froude",
       "hardcover_border_board_centered": false,
       "hardcover_border_standard_inset_px": 0,
@@ -507,9 +529,9 @@
       "front_text_border_clearance_in": 0.75,
       "front_text_collision_gap_in": 0.35,
       "front_text_safe_rect_px": [
-        2449,
+        2448,
         347,
-        3631,
+        3630,
         2429
       ],
       "front_text_border_collision_free": true,
@@ -546,7 +568,7 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 420
+      "cover_page_count_used": 419
     },
     "hardcover": {
       "front_width_px": 1838,
@@ -653,8 +675,14 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 420
+      "cover_page_count_used": 419
     }
+  },
+  "transcription_repair_20260909": {
+    "status": "corrected_in_approved",
+    "ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\froude\\froude_history_of_england_volume_ix\\ledger.json",
+    "source": "Retained production TeX, source-collated repair overlays, original approved title page preserved exactly.",
+    "validated_page_count": 419
   },
   "store_price_cents": 3000,
   "store_genre": "",
@@ -663,5 +691,5 @@
   "store_set_slug": "froude-history-of-england",
   "store_set_title": "History of England",
   "store_set_genre": "History",
-  "store_set_description": "James Anthony Froude's twelve-volume history of Tudor England, from the fall of Cardinal Wolsey to the death of Elizabeth I \u2014 the whole run restored and typeset to match."
+  "store_set_description": "James Anthony Froude's twelve-volume history of Tudor England, from the fall of Cardinal Wolsey to the death of Elizabeth I — the whole run restored and typeset to match."
 }

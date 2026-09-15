@@ -14,7 +14,7 @@
   "language": "English",
   "trim_size": "6 x 9 in",
   "interior_standard": "prose-6x9-v1",
-  "page_count": 331,
+  "page_count": 330,
   "chapter_count": 6,
   "interior_filename": "froude_history_of_england_volume_iv_interior.pdf",
   "paperback_cover_filename": "froude_history_of_england_volume_iv_paperback_cover.pdf",
@@ -146,15 +146,37 @@
     ],
     "interior_standard": "prose-6x9-v1",
     "interior_standard_enforced": true,
-    "dominant_body_font": "Palatino-Roman",
-    "dominant_body_size_pt": 10.87
+    "dominant_body_font": "TeXGyrePagella-Regular",
+    "dominant_body_size_pt": 10.91,
+    "transcription_repair_ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\froude\\froude_history_of_england_volume_iv\\ledger.json",
+    "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
+    "running_header_standard_enforced": true,
+    "running_header_alignment": "centered",
+    "running_header_size_pt": 9.93,
+    "running_header_size_standard_enforced": true,
+    "running_header_left": "History of England",
+    "running_header_right": "James Anthony Froude",
+    "observed_running_header_sizes_pt": [
+      9.96
+    ],
+    "observed_left_running_heads": [
+      "History of England"
+    ],
+    "observed_right_running_heads": [
+      "James Anthony Froude"
+    ],
+    "transcription_fix_date": "2026-09-09",
+    "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\froude\\froude_history_of_england_volume_iv",
+    "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
+    "transcription_fix_delivery_status": "corrected_in_approved",
+    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md"
   },
   "cover_facts": {
     "paperback": {
       "front_width_px": 1800,
       "height_px": 2700,
-      "spine_width_px": 242,
-      "spine_thickness_in": 0.8054954954954956,
+      "spine_width_px": 241,
+      "spine_thickness_in": 0.8032432432432433,
       "era_label": "19th century",
       "cover_color": "Prussian blue",
       "band_color_rgb": [
@@ -172,8 +194,8 @@
       "border_rendering": "traced_native_svg_borders",
       "border_pdf_encoding": "native_svg_vector_overlay",
       "cover_pdf_image_encoding": "lossless_png_flate",
-      "full_width_px": 3842,
-      "output_width_px": 3918,
+      "full_width_px": 3841,
+      "output_width_px": 3917,
       "output_height_px": 2776,
       "cover_format": "paperback",
       "front_panel_width_in": 6.0,
@@ -196,7 +218,7 @@
       "back_imprint_border_gutter_in": 0.75,
       "front_text_center_offset_px": 0,
       "front_text_alignment": "center",
-      "front_text_anchor_x_px": 2980,
+      "front_text_anchor_x_px": 2979,
       "front_author_text": "James Anthony Froude",
       "hardcover_border_board_centered": false,
       "hardcover_border_standard_inset_px": 0,
@@ -216,9 +238,9 @@
       "front_text_border_clearance_in": 0.75,
       "front_text_collision_gap_in": 0.35,
       "front_text_safe_rect_px": [
-        2389,
+        2388,
         347,
-        3571,
+        3570,
         2429
       ],
       "front_text_border_collision_free": true,
@@ -255,7 +277,7 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 331
+      "cover_page_count_used": 330
     },
     "hardcover": {
       "front_width_px": 1838,
@@ -362,8 +384,14 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 331
+      "cover_page_count_used": 330
     }
+  },
+  "transcription_repair_20260909": {
+    "status": "corrected_in_approved",
+    "ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\froude\\froude_history_of_england_volume_iv\\ledger.json",
+    "source": "Retained production TeX, source-collated repair overlays, original approved title page preserved exactly.",
+    "validated_page_count": 330
   },
   "store_price_cents": 3000,
   "store_genre": "",
@@ -371,6 +399,6 @@
   "store_featured": false,
   "store_set_slug": "froude-history-of-england",
   "store_set_title": "History of England",
-  "store_set_description": "James Anthony Froude's twelve-volume history of Tudor England, from the fall of Cardinal Wolsey to the death of Elizabeth I \u2014 the whole run restored and typeset to match.",
+  "store_set_description": "James Anthony Froude's twelve-volume history of Tudor England, from the fall of Cardinal Wolsey to the death of Elizabeth I — the whole run restored and typeset to match.",
   "store_set_genre": "History"
 }

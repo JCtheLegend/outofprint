@@ -14,8 +14,8 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 439,
   "body_page_count": 436,
-  "generated_contents_entries": 60,
-  "generated_contents_entries_in_pdf": 60,
+  "generated_contents_entries": 59,
+  "generated_contents_entries_in_pdf": 59,
   "detected_heading_count": 60,
   "interior_filename": "john_calvin_calcom27_commentary_on_joel_amos_obadiah_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom27_commentary_on_joel_amos_obadiah_hardcover_cover.pdf",
@@ -45,14 +45,45 @@
     "quality_warnings": 0,
     "quality_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\john_calvin_calcom27_commentary_on_joel_amos_obadiah_quality_report.tsv",
     "verification_sample_pages": [
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\john_calvin\\john_calvin_calcom27_commentary_on_joel_amos_obadiah_page_0001.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\john_calvin\\john_calvin_calcom27_commentary_on_joel_amos_obadiah_page_0002.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\john_calvin\\john_calvin_calcom27_commentary_on_joel_amos_obadiah_page_0003.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\john_calvin\\john_calvin_calcom27_commentary_on_joel_amos_obadiah_page_0220.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\john_calvin\\john_calvin_calcom27_commentary_on_joel_amos_obadiah_page_0439.png"
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom27_commentary_on_joel_amos_obadiah\\qa\\p0001.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom27_commentary_on_joel_amos_obadiah\\qa\\p0002.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom27_commentary_on_joel_amos_obadiah\\qa\\p0004.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom27_commentary_on_joel_amos_obadiah\\qa\\p0125.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom27_commentary_on_joel_amos_obadiah\\qa\\p0439.png"
     ],
     "single_rebuilt_title_page": true,
-    "generated_contents_from_rebuilt_pdf": true
+    "generated_contents_from_rebuilt_pdf": true,
+    "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
+    "running_header_standard_enforced": true,
+    "running_header_alignment": "centered",
+    "running_header_size_pt": 9.93,
+    "running_header_size_standard_enforced": true,
+    "running_header_left": "Commentary on Joel, Amos, Obadiah",
+    "running_header_right": "John Calvin",
+    "observed_running_header_sizes_pt": [
+      9.93
+    ],
+    "observed_left_running_heads": [
+      "Commentary on Joel, Amos, Obadiah"
+    ],
+    "observed_right_running_heads": [
+      "John Calvin"
+    ],
+    "every_rendered_body_character_matches_corrected_source": true,
+    "rendered_body_character_count": 795145,
+    "approved_original_unchanged": true,
+    "visual_sample_pages": [
+      1,
+      2,
+      4,
+      125,
+      439
+    ],
+    "transcription_fix_date": "2026-09-09",
+    "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom27_commentary_on_joel_amos_obadiah",
+    "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
+    "transcription_fix_delivery_status": "corrected_in_approved",
+    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md"
   },
   "cover_facts": {
     "paperback": {
@@ -257,6 +288,12 @@
     "approved_by": "user",
     "edition_title": "Commentary on Joel, Amos, Obadiah",
     "approved_page_count": 439
+  },
+  "transcription_corrections": {
+    "date": "2026-09-09",
+    "status": "corrected_in_approved",
+    "ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom27_commentary_on_joel_amos_obadiah\\ledger.json",
+    "approved_original_sha256": "21beb14b66243350c24cb92db40f62bcc4adb09358635adeb1167df3098c8021"
   },
   "store_price_cents": 3000,
   "store_genre": "",

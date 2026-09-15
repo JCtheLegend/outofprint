@@ -67,17 +67,17 @@
     "terminal_note_paragraph_count": 3,
     "omitted_running_furniture_blocks": 426,
     "scan_confirmed_transcription_corrections": {
-      "\u2018lawful succession": 1,
+      "‘lawful succession": 1,
       "Cuar.": 106,
       "as Joud": 1,
       "anend": 1,
       "westj north": 1,
       "Stmancas": 13,
-      "Cras\u2019": 1,
+      "Cras’": 1,
       "2oth": 3,
       "the roth": 9,
       "3oth": 2,
-      "A\u00b0 2 Elizabeth": 3,
+      "A° 2 Elizabeth": 3,
       "Cnar.": 3,
       "Devonshiye": 1,
       "Lonpon": 13,
@@ -91,7 +91,7 @@
       "herownway": 1,
       "Ifshe": 1,
       "coukd": 1,
-      "D\u2019Elbceuf": 2,
+      "D’Elbceuf": 2,
       "Cuar ": 1,
       "Ir Cecil": 1,
       "mstructed": 1,
@@ -138,8 +138,30 @@
     ],
     "interior_standard": "prose-6x9-v1",
     "interior_standard_enforced": true,
-    "dominant_body_font": "Palatino-Roman",
-    "dominant_body_size_pt": 10.87
+    "dominant_body_font": "TeXGyrePagella-Regular",
+    "dominant_body_size_pt": 10.91,
+    "transcription_repair_ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\froude\\froude_history_of_england_volume_vii\\ledger.json",
+    "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
+    "running_header_standard_enforced": true,
+    "running_header_alignment": "centered",
+    "running_header_size_pt": 9.93,
+    "running_header_size_standard_enforced": true,
+    "running_header_left": "History of England",
+    "running_header_right": "James Anthony Froude",
+    "observed_running_header_sizes_pt": [
+      9.96
+    ],
+    "observed_left_running_heads": [
+      "History of England"
+    ],
+    "observed_right_running_heads": [
+      "James Anthony Froude"
+    ],
+    "transcription_fix_date": "2026-09-09",
+    "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\froude\\froude_history_of_england_volume_vii",
+    "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
+    "transcription_fix_delivery_status": "corrected_in_approved",
+    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md"
   },
   "cover_facts": {
     "paperback": {
@@ -357,12 +379,18 @@
       "cover_page_count_used": 382
     }
   },
+  "transcription_repair_20260909": {
+    "status": "corrected_in_approved",
+    "ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\froude\\froude_history_of_england_volume_vii\\ledger.json",
+    "source": "Retained production TeX, source-collated repair overlays, original approved title page preserved exactly.",
+    "validated_page_count": 382
+  },
   "store_price_cents": 3000,
   "store_genre": "",
   "store_description": "",
   "store_featured": false,
   "store_set_slug": "froude-history-of-england",
   "store_set_title": "History of England",
-  "store_set_description": "James Anthony Froude's twelve-volume history of Tudor England, from the fall of Cardinal Wolsey to the death of Elizabeth I \u2014 the whole run restored and typeset to match.",
+  "store_set_description": "James Anthony Froude's twelve-volume history of Tudor England, from the fall of Cardinal Wolsey to the death of Elizabeth I — the whole run restored and typeset to match.",
   "store_set_genre": "History"
 }

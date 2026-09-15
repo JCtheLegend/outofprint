@@ -80,7 +80,13 @@
       "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\froude_carlyle\\froude_thomas_carlyle_life_in_london_volume_i\\interior_last_page.png",
       "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\froude_carlyle\\froude_thomas_carlyle_life_in_london_volume_i\\paperback_cover.png",
       "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\froude_carlyle\\froude_thomas_carlyle_life_in_london_volume_i\\hardcover_cover.png"
-    ]
+    ],
+    "transcription_repair_ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\froude\\froude_thomas_carlyle_life_in_london_volume_i\\ledger.json",
+    "transcription_fix_date": "2026-09-09",
+    "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\froude\\froude_thomas_carlyle_life_in_london_volume_i",
+    "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
+    "transcription_fix_delivery_status": "corrected_in_approved",
+    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md"
   },
   "cover_facts": {
     "paperback": {
@@ -285,6 +291,12 @@
       "spine_volume_hierarchy_valid": true,
       "cover_page_count_used": 337
     }
+  },
+  "transcription_repair_20260909": {
+    "status": "corrected_in_approved",
+    "ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\froude\\froude_thomas_carlyle_life_in_london_volume_i\\ledger.json",
+    "source": "Retained production TeX, source-collated repair overlays, original approved title page preserved exactly.",
+    "validated_page_count": 337
   },
   "store_price_cents": 3000,
   "store_genre": "",

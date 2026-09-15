@@ -45,14 +45,59 @@
     "quality_warnings": 0,
     "quality_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2_quality_report.tsv",
     "verification_sample_pages": [
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\john_calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2_page_0001.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\john_calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2_page_0002.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\john_calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2_page_0003.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\john_calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2_page_0231.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\john_calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2_page_0460.png"
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0001.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0002.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0020.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0161.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0192.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0221.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0241.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0273.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0278.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0315.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0447.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0460.png"
     ],
     "single_rebuilt_title_page": true,
-    "generated_contents_from_rebuilt_pdf": true
+    "generated_contents_from_rebuilt_pdf": true,
+    "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
+    "running_header_standard_enforced": true,
+    "running_header_alignment": "centered",
+    "running_header_size_pt": 9.93,
+    "running_header_size_standard_enforced": true,
+    "running_header_left": "Commentary on Jeremiah and Lamentations",
+    "running_header_right": "John Calvin",
+    "observed_running_header_sizes_pt": [
+      9.93
+    ],
+    "observed_left_running_heads": [
+      "Commentary on Jeremiah and Lamentations"
+    ],
+    "observed_right_running_heads": [
+      "John Calvin"
+    ],
+    "every_rendered_body_character_matches_corrected_source": true,
+    "rendered_body_character_count": 854614,
+    "approved_original_unchanged": true,
+    "visual_sample_pages": [
+      1,
+      2,
+      20,
+      161,
+      192,
+      221,
+      241,
+      273,
+      278,
+      315,
+      447,
+      460
+    ],
+    "transcription_fix_date": "2026-09-09",
+    "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2",
+    "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
+    "transcription_fix_delivery_status": "corrected_in_approved",
+    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md"
   },
   "cover_facts": {
     "paperback": {
@@ -258,6 +303,12 @@
     "approved_by": "user",
     "edition_title": "Commentary on Jeremiah and Lamentations, Volume II",
     "approved_page_count": 460
+  },
+  "transcription_corrections": {
+    "date": "2026-09-09",
+    "status": "corrected_in_approved",
+    "ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\ledger.json",
+    "approved_original_sha256": "184b96c293133803778aa9c8693fc158c20eb0fd2b92daecf8fb238812c7f69f"
   },
   "store_price_cents": 3000,
   "store_genre": "",

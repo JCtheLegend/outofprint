@@ -13,7 +13,7 @@
   "language": "English",
   "trim_size": "6 x 9 in",
   "interior_standard": "prose-6x9-v1",
-  "page_count": 371,
+  "page_count": 370,
   "chapter_count": 18,
   "has_author_preface": false,
   "has_introductory_section": false,
@@ -80,14 +80,20 @@
       "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\froude_carlyle\\froude_thomas_carlyle_first_forty_years_volume_ii\\interior_last_page.png",
       "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\froude_carlyle\\froude_thomas_carlyle_first_forty_years_volume_ii\\paperback_cover.png",
       "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\froude_carlyle\\froude_thomas_carlyle_first_forty_years_volume_ii\\hardcover_cover.png"
-    ]
+    ],
+    "transcription_repair_ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\froude\\froude_thomas_carlyle_first_forty_years_volume_ii\\ledger.json",
+    "transcription_fix_date": "2026-09-09",
+    "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\froude\\froude_thomas_carlyle_first_forty_years_volume_ii",
+    "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
+    "transcription_fix_delivery_status": "corrected_in_approved",
+    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md"
   },
   "cover_facts": {
     "paperback": {
       "front_width_px": 1800,
       "height_px": 2700,
-      "spine_width_px": 269,
-      "spine_thickness_in": 0.8955855855855857,
+      "spine_width_px": 268,
+      "spine_thickness_in": 0.8933333333333333,
       "era_label": "19th century",
       "cover_color": "Prussian blue",
       "band_color_rgb": [
@@ -105,8 +111,8 @@
       "border_rendering": "traced_native_svg_borders",
       "border_pdf_encoding": "native_svg_vector_overlay",
       "cover_pdf_image_encoding": "lossless_png_flate",
-      "full_width_px": 3869,
-      "output_width_px": 3945,
+      "full_width_px": 3868,
+      "output_width_px": 3944,
       "output_height_px": 2776,
       "cover_format": "paperback",
       "front_panel_width_in": 6.0,
@@ -128,6 +134,9 @@
       "back_imprint_bottom_fraction": 0.76,
       "back_imprint_border_gutter_in": 0.75,
       "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 3006,
+      "front_author_text": "James Anthony Froude",
       "hardcover_border_board_centered": false,
       "hardcover_border_standard_inset_px": 0,
       "hardcover_border_visual_inset_x_px": 0,
@@ -146,9 +155,9 @@
       "front_text_border_clearance_in": 0.75,
       "front_text_collision_gap_in": 0.35,
       "front_text_safe_rect_px": [
-        2416,
+        2415,
         347,
-        3598,
+        3597,
         2429
       ],
       "front_text_border_collision_free": true,
@@ -182,7 +191,7 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 371
+      "cover_page_count_used": 370
     },
     "hardcover": {
       "front_width_px": 1838,
@@ -229,6 +238,9 @@
       "back_imprint_bottom_fraction": 0.76,
       "back_imprint_border_gutter_in": 0.75,
       "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 3320,
+      "front_author_text": "James Anthony Froude",
       "hardcover_border_board_centered": false,
       "hardcover_border_standard_inset_px": 0,
       "hardcover_border_visual_inset_x_px": 0,
@@ -283,8 +295,14 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 371
+      "cover_page_count_used": 370
     }
+  },
+  "transcription_repair_20260909": {
+    "status": "corrected_in_approved",
+    "ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\froude\\froude_thomas_carlyle_first_forty_years_volume_ii\\ledger.json",
+    "source": "Retained production TeX, source-collated repair overlays, original approved title page preserved exactly.",
+    "validated_page_count": 370
   },
   "store_price_cents": 3000,
   "store_genre": "",
@@ -293,5 +311,5 @@
   "store_set_slug": "froude-thomas-carlyle-first-forty-years",
   "store_set_title": "Thomas Carlyle: The First Forty Years",
   "store_set_genre": "Biography",
-  "store_set_description": "Froude's biography of Thomas Carlyle's early life, written as Carlyle's literary executor and published in 1882 \u2014 the candid portrait that scandalised Victorian readers."
+  "store_set_description": "Froude's biography of Thomas Carlyle's early life, written as Carlyle's literary executor and published in 1882 — the candid portrait that scandalised Victorian readers."
 }
