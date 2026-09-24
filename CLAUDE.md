@@ -97,7 +97,12 @@ to work against the sandbox, which never reaches a real printer.
   creation fails the orders stay `paid` (not `printing`), which marks them as
   needing a resubmitted print job.
 - `npm run lulu:test -- <book-slug>` checks credentials, signed URLs and the
-  payload without placing an order; `--submit` creates a sandbox job.
+  payload without placing an order; `--submit` creates a sandbox job, and
+  `--list` / `--status <id>` report on jobs already sent.
+- Lulu requires every font in an interior to be embedded **TrueType**; one
+  OpenType face rejects the whole job, after payment. The uploader refuses such
+  a book up front (`check_interior_fonts`), so a rejection surfaces at upload
+  time instead. `--skip-font-check` overrides it.
 
 ## Conventions
 

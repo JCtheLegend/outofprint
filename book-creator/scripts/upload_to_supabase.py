@@ -4,16 +4,19 @@
 Reads one or more folders under book-creator/books/<slug>/, each containing
 a metadata.json plus the PDFs it references. For every book this:
 
-  1. Rasterizes the paperback cover PDF and crops it to the front panel
+  1. Checks the interior PDF's fonts — Lulu rejects any print job whose
+     interior embeds OpenType fonts or leaves a font unembedded, so a book
+     that would fail in production is refused here instead.
+  2. Rasterizes the paperback cover PDF and crops it to the front panel
      (using the bleed/panel-width facts already recorded in metadata.json)
      to produce a plain cover image.
-  2. Uploads that cover image to the `book-covers` storage bucket, and both
+  3. Uploads that cover image to the `book-covers` storage bucket, and both
      print-ready PDFs — the interior and the wraparound paperback cover, which
      is what Lulu prints from — to the private `book-pdfs` storage bucket.
-  3. Upserts a row into the `books` table, keyed by slug (the folder name),
+  4. Upserts a row into the `books` table, keyed by slug (the folder name),
      so re-running this script for the same book updates it in place
      instead of creating a duplicate.
-  4. For a volume of a multi-volume work (metadata.json carries
+  5. For a volume of a multi-volume work (metadata.json carries
      `store_set_slug`), upserts the matching `book_sets` row and points the
      book at it, so the storefront can list the whole set on one page and
      sell either a single volume or the complete set.
@@ -22,6 +25,7 @@ Usage:
     python upload_to_supabase.py                # upload every book folder
     python upload_to_supabase.py federalist-papers   # upload just this one
     python upload_to_supabase.py --dry-run federalist-papers  # render only
+    python upload_to_supabase.py --skip-font-check <book>     # upload despite bad fonts
 
 Requires SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY in the environment
 (the service role key is required — storage writes and the books table
@@ -114,6 +118,35 @@ def render_front_cover(book_dir: Path, metadata: dict) -> bytes:
     out = io.BytesIO()
     image.save(out, format="JPEG", quality=90)
     return out.getvalue()
+
+
+def check_interior_fonts(interior_path: Path) -> list[str]:
+    """Report the font problems that make Lulu reject a print job.
+
+    Lulu's normalizer requires every font to be embedded and to be TrueType —
+    an interior carrying so much as one OpenType face is rejected, which
+    otherwise only surfaces after a customer has paid.
+    """
+    opentype: set[str] = set()
+    unembedded: set[str] = set()
+
+    with fitz.open(interior_path) as doc:
+        for page in doc:
+            for font in page.get_fonts(full=True):
+                ext, basefont = font[1], font[3]
+                if ext == "otf":
+                    opentype.add(basefont)
+                elif ext in ("n/a", ""):
+                    unembedded.add(basefont)
+
+    problems = []
+    if opentype:
+        problems.append(
+            "OpenType fonts (Lulu requires TrueType): " + ", ".join(sorted(opentype))
+        )
+    if unembedded:
+        problems.append("fonts that are not embedded: " + ", ".join(sorted(unembedded)))
+    return problems
 
 
 def parse_volume_number(metadata: dict) -> int | None:
@@ -258,7 +291,7 @@ def upsert_set(client, set_row: dict, slug: str) -> str:
     return result.data[0]["id"]
 
 
-def upload_book(book_dir: Path, dry_run: bool = False) -> None:
+def upload_book(book_dir: Path, dry_run: bool = False, skip_font_check: bool = False) -> None:
     slug = book_dir.name
     metadata = load_metadata(book_dir)
 
@@ -268,6 +301,20 @@ def upload_book(book_dir: Path, dry_run: bool = False) -> None:
     interior_path = book_dir / interior_filename
     if not interior_path.exists():
         raise FileNotFoundError(f"interior PDF not found: {interior_path}")
+
+    if skip_font_check:
+        print(f"[{slug}] skipping the font check (--skip-font-check)")
+    else:
+        problems = check_interior_fonts(interior_path)
+        if problems:
+            raise ValueError(
+                "interior PDF would be rejected by Lulu — "
+                + "; ".join(problems)
+                + ". Rebuild it with TrueType fonts (convert the OpenType faces with "
+                "fontTools' otf2ttf so the metrics, and so the page count and cover "
+                "spine width, stay identical), or pass --skip-font-check to upload anyway."
+            )
+        print(f"[{slug}] interior fonts OK (all embedded TrueType)")
 
     print(f"[{slug}] rendering front cover from paperback cover PDF...")
     cover_bytes = render_front_cover(book_dir, metadata)
@@ -328,6 +375,11 @@ def main() -> int:
         help="Book folder name(s) under book-creator/books/ to upload. Defaults to all folders.",
     )
     parser.add_argument("--dry-run", action="store_true", help="Render the cover locally but skip the Supabase upload.")
+    parser.add_argument(
+        "--skip-font-check",
+        action="store_true",
+        help="Upload even if the interior's fonts would be rejected by Lulu.",
+    )
     args = parser.parse_args()
 
     if args.books:
@@ -342,7 +394,7 @@ def main() -> int:
             print(f"[{book_dir.name}] ERROR: not a directory ({book_dir})", file=sys.stderr)
             continue
         try:
-            upload_book(book_dir, dry_run=args.dry_run)
+            upload_book(book_dir, dry_run=args.dry_run, skip_font_check=args.skip_font_check)
         except Exception as exc:  # surface each book's failure without aborting the rest of the batch
             failures.append(book_dir.name)
             print(f"[{book_dir.name}] ERROR: {exc}", file=sys.stderr)
