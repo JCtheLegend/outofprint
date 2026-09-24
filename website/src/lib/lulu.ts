@@ -189,6 +189,19 @@ export function getLuluPrintJob(printJobId: string | number): Promise<LuluPrintJ
   return luluFetch<LuluPrintJob>(`/print-jobs/${printJobId}/`);
 }
 
+/** Most recent print jobs first — what the developer portal's order list shows. */
+export function listLuluPrintJobs(pageSize = 10): Promise<{
+  count: number;
+  results: LuluPrintJob[];
+}> {
+  const query = new URLSearchParams({
+    page_size: String(pageSize),
+    ordering: "-id",
+    exclude_line_items: "false",
+  });
+  return luluFetch(`/print-jobs/?${query}`);
+}
+
 export function getLuluPrintJobStatus(
   printJobId: string | number
 ): Promise<LuluPrintJobStatus> {

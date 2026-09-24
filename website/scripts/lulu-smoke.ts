@@ -3,6 +3,8 @@
  *
  *   npm run lulu:test -- <book-slug>            # dry run: build and check everything
  *   npm run lulu:test -- <book-slug> --submit   # actually create the print job
+ *   npm run lulu:test -- --list                 # recent print jobs and their status
+ *   npm run lulu:test -- --status <print-job-id>
  *
  * The dry run resolves the book's signed PDF URLs and fetches them the way Lulu
  * will, so a private bucket, a missing cover, or an expired key shows up here
@@ -13,7 +15,7 @@
 
 import { supabaseAdmin, type Book } from "@/lib/supabase";
 import { signedFileUrl } from "@/lib/storage";
-import { createPrintJob } from "@/lib/print";
+import { createPrintJob, getPrintJobStatus, listPrintJobs } from "@/lib/print";
 
 // Lulu's own documentation example address, good enough for a sandbox job.
 const TEST_SHIPPING = {
@@ -43,14 +45,44 @@ async function main() {
   const submit = args.includes("--submit");
   const force = args.includes("--force");
 
-  if (!slug) {
-    console.error("Usage: npm run lulu:test -- <book-slug> [--submit]");
-    process.exit(1);
+  const apiUrl = process.env.LULU_API_URL || "https://api.lulu.com";
+  const environment = apiUrl.includes("sandbox") ? "SANDBOX" : "PRODUCTION";
+  console.log(`Lulu API:     ${apiUrl}  (${environment})`);
+  console.log(`Credentials:  ${process.env.LULU_CLIENT_KEY ? "LULU_CLIENT_KEY set" : "MISSING LULU_CLIENT_KEY"}`);
+
+  // Checking on jobs already sent — no book needed
+  if (args.includes("--list")) {
+    const { count, results } = await listPrintJobs(10);
+    console.log(`\n${count} print job(s) on this account. Most recent:`);
+    for (const job of results) {
+      console.log(
+        `  #${job.id}  ${(job.status?.name ?? "?").padEnd(20)} ${job.external_id ?? "(no external id)"}`
+      );
+    }
+    if (count === 0) console.log("  (none — nothing has been submitted from this account yet)");
+    return;
   }
 
-  const apiUrl = process.env.LULU_API_URL || "https://api.lulu.com";
-  console.log(`Lulu API:     ${apiUrl}`);
-  console.log(`Credentials:  ${process.env.LULU_CLIENT_KEY ? "LULU_CLIENT_KEY set" : "MISSING LULU_CLIENT_KEY"}`);
+  const statusIndex = args.indexOf("--status");
+  if (statusIndex !== -1) {
+    const id = args[statusIndex + 1];
+    if (!id) {
+      console.error("Usage: npm run lulu:test -- --status <print-job-id>");
+      process.exit(1);
+    }
+    const status = await getPrintJobStatus(id);
+    console.log(`\nPrint job ${id}: ${status.name}`);
+    if (status.message) console.log(`  ${status.message}`);
+    if (status.changed) console.log(`  last changed ${status.changed}`);
+    return;
+  }
+
+  if (!slug) {
+    console.error(
+      "Usage: npm run lulu:test -- <book-slug> [--submit] | --list | --status <print-job-id>"
+    );
+    process.exit(1);
+  }
 
   const { data: book, error } = await supabaseAdmin()
     .from("books")

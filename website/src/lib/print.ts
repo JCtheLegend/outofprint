@@ -10,6 +10,7 @@
 import {
   createLuluPrintJob,
   getLuluPrintJobStatus,
+  listLuluPrintJobs,
   type LuluLineItem,
   type LuluShippingLevel,
 } from "@/lib/lulu";
@@ -136,4 +137,8 @@ export async function createPrintJob(job: PrintJobRequest): Promise<PrintJobResp
 
 export async function getPrintJobStatus(printJobId: string) {
   return getLuluPrintJobStatus(printJobId);
+}
+
+export async function listPrintJobs(pageSize?: number) {
+  return listLuluPrintJobs(pageSize);
 }
