@@ -11,6 +11,9 @@ export type Book = {
   price_cents: number;
   cover_url: string | null;
   pdf_url: string;
+  // Print-ready wraparound cover PDF and Lulu product SKU — see lib/print.ts
+  cover_pdf_url: string | null;
+  pod_package_id: string | null;
   featured: boolean;
   created_at: string;
   // Set membership — null for standalone books
