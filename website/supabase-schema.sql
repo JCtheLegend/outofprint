@@ -117,12 +117,17 @@ create index if not exists orders_book_id_idx on orders (book_id);
 create index if not exists submissions_status_idx on submissions (status);
 
 -- Row Level Security
+-- Policies are dropped first so this file can be re-run against a project that
+-- already has them — "create policy" has no "if not exists" form.
+
 -- Books are publicly readable; only service role can write
 alter table books enable row level security;
+drop policy if exists "books_public_read" on books;
 create policy "books_public_read" on books for select using (true);
 
 -- Submissions: anyone can insert; only service role reads
 alter table submissions enable row level security;
+drop policy if exists "submissions_public_insert" on submissions;
 create policy "submissions_public_insert" on submissions for insert with check (true);
 
 -- Orders: no public access (service role only via supabaseAdmin)
