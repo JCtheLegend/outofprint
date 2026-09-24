@@ -5,7 +5,11 @@ import { supabaseAdmin } from "@/lib/supabase";
 import type { Book } from "@/lib/supabase";
 import { sortVolumes, volumeLabel } from "@/lib/sets";
 import { createPrintJob } from "@/lib/print";
-import { sendOrderConfirmation, sendSetOrderConfirmation } from "@/lib/email";
+import {
+  sendOrderConfirmation,
+  sendPrintJobFailureAlert,
+  sendSetOrderConfirmation,
+} from "@/lib/email";
 
 // Disable body parsing — Stripe needs the raw body for signature verification
 export const config = { api: { bodyParser: false } };
@@ -80,7 +84,9 @@ async function handleSuccessfulPayment(session: Stripe.Checkout.Session) {
     country: shipping?.country ?? "US",
   };
 
-  const orderIds: string[] = [];
+  // All the books in this checkout print and ship together as one Lulu job,
+  // but each keeps its own order row so a volume can be tracked individually.
+  const orders: { id: string; book: Book }[] = [];
 
   for (const book of books) {
     // Create order record in Supabase
@@ -103,31 +109,52 @@ async function handleSuccessfulPayment(session: Stripe.Checkout.Session) {
       continue;
     }
 
-    orderIds.push(order.id);
-
-    try {
-      // Fire print job
-      const volume = volumeLabel(book);
-      const printJob = await createPrintJob({
-        orderId: order.id,
-        bookTitle: volume ? `${book.title} — ${volume}` : book.title,
-        pdfUrl: book.pdf_url,
-        customerName,
-        shippingAddress,
-      });
-
-      // Update order with print job ID
-      await db
-        .from("orders")
-        .update({ print_job_id: printJob.printJobId, status: "printing" })
-        .eq("id", order.id);
-    } catch (err) {
-      console.error(`Print job failed for book ${book.id}:`, err);
-      // Order is still saved — you can retry manually from Supabase dashboard
-    }
+    orders.push({ id: order.id, book });
   }
 
+  const orderIds = orders.map((o) => o.id);
   if (orderIds.length === 0) return;
+
+  try {
+    // Send the print request to Lulu
+    const printJob = await createPrintJob({
+      externalId: session.id,
+      customerName,
+      customerEmail,
+      customerPhone: session.customer_details?.phone,
+      shippingAddress,
+      books: orders.map(({ id, book }) => {
+        const volume = volumeLabel(book);
+        return {
+          orderId: id,
+          title: volume ? `${book.title} — ${volume}` : book.title,
+          interiorUrl: book.pdf_url,
+          coverUrl: book.cover_pdf_url,
+          podPackageId: book.pod_package_id,
+        };
+      }),
+    });
+
+    // Record the print job against every order it covers
+    await db
+      .from("orders")
+      .update({ print_job_id: printJob.printJobId, status: "printing" })
+      .in("id", orderIds);
+
+    console.log(
+      `Lulu print job ${printJob.printJobId} (${printJob.status}) created for session ${session.id}`
+    );
+  } catch (err) {
+    // The orders are saved and paid — leaving them in "paid" marks them as
+    // needing a print job, which can be resubmitted without charging again.
+    const reason = err instanceof Error ? err.message : String(err);
+    console.error(`Lulu print job failed for session ${session.id}:`, err);
+    try {
+      await sendPrintJobFailureAlert(orderIds, customerEmail, reason);
+    } catch (alertErr) {
+      console.error("Could not send the print-job failure alert:", alertErr);
+    }
+  }
 
   try {
     // Send confirmation email

@@ -60,6 +60,16 @@ declares it, so setting a bundle price on one volume (or editing it directly
 in Supabase) survives re-uploading a sibling volume that omits it. Until a
 bundle price exists, "buy the complete set" simply charges every volume.
 
+### Printing
+
+The paperback cover PDF is uploaded as-is alongside the interior: it is what
+Lulu wraps around the printed book, while the cropped JPEG is only the
+storefront thumbnail. The uploader also derives Lulu's product SKU from
+`trim_size` (6 x 9 in → `0600X0900.BW.STD.PB.060UC444.MXX`, a black-and-white
+perfect-bound paperback on 60# cream stock). Set `store_pod_package_id` to
+override it for a book printed on anything else — Lulu's
+[price calculator](https://developers.lulu.com/price-calculator) generates the code.
+
 The uploader also uses `interior_filename` and `paperback_cover_filename`
 (to know which PDFs to upload/crop), `authors`, `publication_year`, and
 `cover_facts.paperback.{front_panel_width_in,bleed_in}` (to crop a plain

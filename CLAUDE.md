@@ -43,8 +43,8 @@ and a build.
 3. The storefront reads `books` / `book_sets` with the anon key (public read via RLS),
    and writes only through `supabaseAdmin()` on the server.
 4. Purchase → `/api/checkout` creates a Stripe Checkout session → Stripe calls
-   `/api/webhooks/stripe` → an `orders` row per book, a print job per book
-   (`lib/print.ts`), and a Resend confirmation email (`lib/email.ts`).
+   `/api/webhooks/stripe` → an `orders` row per book, **one Lulu print job for the
+   whole checkout** (`lib/print.ts`), and a Resend confirmation email (`lib/email.ts`).
 
 `website/supabase-schema.sql` is the source of truth for the database and is written to
 be safely re-runnable against an existing project. Schema changes belong there, as
@@ -76,6 +76,28 @@ grouping and a bundle price, never a separate product.
   since Stripe caps a metadata value at 500 characters) and creates one order row and
   one print job per volume — one physical book per print job. `orders` is therefore
   unique on `(stripe_session_id, book_id)`, not on `stripe_session_id` alone.
+
+## Print fulfilment (Lulu)
+
+Lulu prints and ships every order. `lib/lulu.ts` is the raw API layer (OAuth
+client-credentials token, cached per isolate; `/print-jobs/` endpoints);
+`lib/print.ts` maps an order onto it. Set `LULU_API_URL=https://api.sandbox.lulu.com`
+to work against the sandbox, which never reaches a real printer.
+
+- One checkout becomes **one print job with a line item per book**, so a set ships
+  together. Every order row from that session stores the same `print_job_id`.
+- Lulu downloads the PDFs itself, but `book-pdfs` is a private bucket, so
+  `lib/storage.ts` signs `books.pdf_url` and `books.cover_pdf_url` at print time.
+  Never hand Lulu a stored Storage URL directly — unsigned ones return 400.
+- Lulu needs the **wraparound cover PDF** (`cover_pdf_url`), not the JPEG in
+  `cover_url`, which is only the storefront thumbnail cropped out of it.
+- `books.pod_package_id` is Lulu's product SKU, derived per book by the uploader
+  from its trim size; null falls back to `LULU_POD_PACKAGE_ID`.
+- A created job is `UNPAID` until Lulu charges the card on file. If print job
+  creation fails the orders stay `paid` (not `printing`), which marks them as
+  needing a resubmitted print job.
+- `npm run lulu:test -- <book-slug>` checks credentials, signed URLs and the
+  payload without placing an order; `--submit` creates a sandbox job.
 
 ## Conventions
 

@@ -7,8 +7,9 @@ a metadata.json plus the PDFs it references. For every book this:
   1. Rasterizes the paperback cover PDF and crops it to the front panel
      (using the bleed/panel-width facts already recorded in metadata.json)
      to produce a plain cover image.
-  2. Uploads that cover image to the `book-covers` storage bucket and the
-     interior PDF to the `book-pdfs` storage bucket.
+  2. Uploads that cover image to the `book-covers` storage bucket, and both
+     print-ready PDFs — the interior and the wraparound paperback cover, which
+     is what Lulu prints from — to the private `book-pdfs` storage bucket.
   3. Upserts a row into the `books` table, keyed by slug (the folder name),
      so re-running this script for the same book updates it in place
      instead of creating a duplicate.
@@ -32,6 +33,7 @@ import argparse
 import io
 import json
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -47,6 +49,11 @@ REQUIRED_STORE_FIELDS = ("store_price_cents", "store_genre", "store_description"
 
 # Words the pipeline puts in front of a volume designation, e.g. "Book IV"
 VOLUME_WORDS = ("volume", "vol", "book", "part", "tome", "no")
+
+# Lulu product SKU components after the trim size: black-and-white, standard
+# quality, perfect bound, 60# cream stock, matte cover, no linen or foil. A book
+# overrides the whole SKU with `store_pod_package_id` in its metadata.json.
+POD_PACKAGE_SUFFIX = "BW.STD.PB.060UC444.MXX"
 
 ROMAN_NUMERALS = {
     "i": 1, "ii": 2, "iii": 3, "iv": 4, "v": 5, "vi": 6, "vii": 7, "viii": 8,
@@ -153,6 +160,26 @@ def volume_label(metadata: dict) -> str | None:
     return f"Volume {number}" if number is not None else None
 
 
+def build_pod_package_id(metadata: dict) -> str | None:
+    """Lulu's SKU for this book, e.g. "0600X0900.BW.STD.PB.060UC444.MXX".
+
+    Derived from the trim size the pipeline recorded, since everything else
+    about the product is fixed by our print spec. Returns None when the trim
+    size can't be parsed — the storefront then falls back to LULU_POD_PACKAGE_ID.
+    """
+    explicit = metadata.get("store_pod_package_id")
+    if explicit:
+        return explicit
+
+    trim_size = str(metadata.get("trim_size") or "")
+    match = re.match(r"\s*([\d.]+)\s*[x\u00d7X]\s*([\d.]+)", trim_size)
+    if not match:
+        return None
+
+    width, height = (f"{round(float(value) * 100):04d}" for value in match.groups())
+    return f"{width}X{height}.{POD_PACKAGE_SUFFIX}"
+
+
 def build_set_row(metadata: dict) -> dict | None:
     """The `book_sets` row this book belongs to, or None if it stands alone.
 
@@ -185,6 +212,7 @@ def build_book_row(
     metadata: dict,
     cover_url: str,
     pdf_url: str,
+    cover_pdf_url: str,
     set_id: str | None = None,
 ) -> dict:
     missing = [field for field in REQUIRED_STORE_FIELDS if metadata.get(field) is None]
@@ -208,6 +236,8 @@ def build_book_row(
         "price_cents": metadata["store_price_cents"],
         "cover_url": cover_url,
         "pdf_url": pdf_url,
+        "cover_pdf_url": cover_pdf_url,
+        "pod_package_id": build_pod_package_id(metadata),
         "featured": bool(metadata.get("store_featured", False)),
         "set_id": set_id,
         "volume_number": parse_volume_number(metadata),
@@ -256,6 +286,7 @@ def upload_book(book_dir: Path, dry_run: bool = False) -> None:
 
     cover_object = f"{slug}.jpg"
     pdf_object = f"{slug}.pdf"
+    cover_pdf_object = f"{slug}_cover.pdf"
 
     print(f"[{slug}] uploading cover image ({len(cover_bytes):,} bytes)...")
     client.storage.from_(COVER_BUCKET).upload(
@@ -270,10 +301,19 @@ def upload_book(book_dir: Path, dry_run: bool = False) -> None:
     )
     pdf_url = client.storage.from_(PDF_BUCKET).get_public_url(pdf_object)
 
+    # The wraparound cover PDF is what Lulu wraps around the printed block; the
+    # JPEG uploaded above is only the storefront thumbnail cropped out of it.
+    cover_pdf_bytes = (book_dir / metadata["paperback_cover_filename"]).read_bytes()
+    print(f"[{slug}] uploading print-ready cover PDF ({len(cover_pdf_bytes):,} bytes)...")
+    client.storage.from_(PDF_BUCKET).upload(
+        cover_pdf_object, cover_pdf_bytes, {"content-type": "application/pdf", "upsert": "true"}
+    )
+    cover_pdf_url = client.storage.from_(PDF_BUCKET).get_public_url(cover_pdf_object)
+
     set_row = build_set_row(metadata)
     set_id = upsert_set(client, set_row, slug) if set_row else None
 
-    row = build_book_row(slug, metadata, cover_url, pdf_url, set_id=set_id)
+    row = build_book_row(slug, metadata, cover_url, pdf_url, cover_pdf_url, set_id=set_id)
     print(f"[{slug}] upserting books row...")
     client.table("books").upsert(row, on_conflict="slug").execute()
 
