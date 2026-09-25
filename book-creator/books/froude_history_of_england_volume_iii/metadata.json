@@ -13,7 +13,7 @@
   "language": "English",
   "trim_size": "6 x 9 in",
   "interior_standard": "prose-6x9-v1",
-  "page_count": 327,
+  "page_count": 330,
   "chapter_count": 6,
   "interior_filename": "froude_history_of_england_volume_iii_interior.pdf",
   "paperback_cover_filename": "froude_history_of_england_volume_iii_paperback_cover.pdf",
@@ -53,31 +53,27 @@
     "single_rebuilt_title_page": true,
     "all_expected_chapters_present": true,
     "verification_sample_pages": [
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_iii/interior_page_0001.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_iii/interior_page_0002.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_iii/interior_page_0003.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_iii/interior_page_0055.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_iii/interior_page_0117.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_iii/interior_page_0168.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_iii/interior_page_0225.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_iii/interior_page_0273.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_iii/interior_page_0330.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_iii/paperback_cover_page_0001.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_iii/hardcover_cover_page_0001.png"
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\17\\page_0001.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\17\\page_0002.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\17\\page_0003.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\17\\page_0083.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\17\\page_0166.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\17\\page_0248.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\17\\page_0330.png"
     ],
     "interior_standard": "prose-6x9-v1",
     "interior_standard_enforced": true,
-    "dominant_body_font": "TeXGyrePagella-Regular",
+    "dominant_body_font": "PalatinoLinotype-Roman",
     "dominant_body_size_pt": 10.91,
     "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
     "running_header_standard_enforced": true,
     "running_header_left": "History of England",
     "running_header_right": "James Anthony Froude",
     "observed_left_running_heads": [
-      "History of England"
+      "History of England"
     ],
     "observed_right_running_heads": [
-      "James Anthony Froude"
+      "James Anthony Froude"
     ],
     "running_header_alignment": "centered",
     "running_header_pdf_remediation": true,
@@ -91,14 +87,27 @@
     "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\froude\\froude_history_of_england_volume_iii",
     "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
     "transcription_fix_delivery_status": "corrected_in_approved",
-    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md"
+    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md",
+    "page_count": 330,
+    "all_fonts_embedded_truetype": true,
+    "text_outlined": false,
+    "body_text_matches_previous_approved_edition": true,
+    "visual_sample_pages": [
+      1,
+      2,
+      3,
+      83,
+      166,
+      248,
+      330
+    ]
   },
   "cover_facts": {
     "paperback": {
       "front_width_px": 1800,
       "height_px": 2700,
-      "spine_width_px": 239,
-      "spine_thickness_in": 0.7964864864864865,
+      "spine_width_px": 241,
+      "spine_thickness_in": 0.8032432432432433,
       "era_label": "19th century",
       "cover_color": "Prussian blue",
       "band_color_rgb": [
@@ -116,8 +125,8 @@
       "border_rendering": "traced_native_svg_borders",
       "border_pdf_encoding": "native_svg_vector_overlay",
       "cover_pdf_image_encoding": "lossless_png_flate",
-      "full_width_px": 3839,
-      "output_width_px": 3915,
+      "full_width_px": 3841,
+      "output_width_px": 3917,
       "output_height_px": 2776,
       "cover_format": "paperback",
       "front_panel_width_in": 6.0,
@@ -140,7 +149,7 @@
       "back_imprint_border_gutter_in": 0.75,
       "front_text_center_offset_px": 0,
       "front_text_alignment": "center",
-      "front_text_anchor_x_px": 2977,
+      "front_text_anchor_x_px": 2979,
       "front_author_text": "James Anthony Froude",
       "hardcover_border_board_centered": false,
       "hardcover_border_standard_inset_px": 0,
@@ -160,9 +169,9 @@
       "front_text_border_clearance_in": 0.75,
       "front_text_collision_gap_in": 0.35,
       "front_text_safe_rect_px": [
-        2386,
+        2388,
         347,
-        3568,
+        3570,
         2429
       ],
       "front_text_border_collision_free": true,
@@ -199,7 +208,7 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 327
+      "cover_page_count_used": 330
     },
     "hardcover": {
       "front_width_px": 1838,
@@ -306,7 +315,7 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 327
+      "cover_page_count_used": 330
     }
   },
   "transcription_repair_20260909": {
@@ -322,5 +331,20 @@
   "store_set_slug": "froude-history-of-england",
   "store_set_title": "History of England",
   "store_set_description": "James Anthony Froude's twelve-volume history of Tudor England, from the fall of Cardinal Wolsey to the death of Elizabeth I — the whole run restored and typeset to match.",
-  "store_set_genre": "History"
+  "store_set_genre": "History",
+  "body_font_family": "Palatino Linotype (embedded TrueType)",
+  "font_rebuild_20260924": {
+    "font_format": "embedded TrueType",
+    "previous_page_count": 327,
+    "page_count": 330,
+    "body_text_preserved": true,
+    "text_searchable": true,
+    "text_outlined": false,
+    "changed_cover_formats": [
+      "paperback"
+    ],
+    "font_change_scope": "Palatino Linotype body and running headers",
+    "special_glyph_fallback": null,
+    "math_font": null
+  }
 }

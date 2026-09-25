@@ -38,19 +38,20 @@
   "verification_facts": {
     "interior_standard": "prose-6x9-v1",
     "interior_standard_enforced": true,
-    "dominant_body_font": "TeXGyrePagella-Regular",
+    "dominant_body_font": "Palatino Linotype Regula",
     "dominant_body_size_pt": 11.0,
     "interior_image_count": 0,
     "quality_blockers": 0,
     "quality_warnings": 1,
     "quality_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\john_calvin_calcom08_commentary_on_psalms_volume_1_quality_report.tsv",
     "verification_sample_pages": [
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom08_commentary_on_psalms_volume_1\\qa\\p0001.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom08_commentary_on_psalms_volume_1\\qa\\p0002.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom08_commentary_on_psalms_volume_1\\qa\\p0003.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom08_commentary_on_psalms_volume_1\\qa\\p0036.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom08_commentary_on_psalms_volume_1\\qa\\p0146.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom08_commentary_on_psalms_volume_1\\qa\\p0583.png"
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\39\\page_0001.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\39\\page_0002.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\39\\page_0003.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\39\\page_0146.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\39\\page_0292.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\39\\page_0438.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\39\\page_0583.png"
     ],
     "single_rebuilt_title_page": true,
     "generated_contents_from_rebuilt_pdf": true,
@@ -65,10 +66,10 @@
       9.93
     ],
     "observed_left_running_heads": [
-      "Commentary on Psalms"
+      "Commentary on Psalms"
     ],
     "observed_right_running_heads": [
-      "John Calvin"
+      "John Calvin"
     ],
     "every_rendered_body_character_matches_corrected_source": true,
     "rendered_body_character_count": 1130809,
@@ -77,15 +78,20 @@
       1,
       2,
       3,
-      36,
       146,
+      292,
+      438,
       583
     ],
     "transcription_fix_date": "2026-09-09",
     "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom08_commentary_on_psalms_volume_1",
     "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
     "transcription_fix_delivery_status": "corrected_in_approved",
-    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md"
+    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md",
+    "page_count": 583,
+    "all_fonts_embedded_truetype": true,
+    "text_outlined": false,
+    "body_text_matches_previous_approved_edition": true
   },
   "cover_facts": {
     "paperback": {
@@ -303,5 +309,18 @@
   "store_set_slug": "calvin-commentary-on-psalms",
   "store_set_title": "Commentary on Psalms",
   "store_set_genre": "Theology",
-  "store_set_description": "Calvin's commentary on the whole Psalter — the work he called an anatomy of all the parts of the soul — in five volumes."
+  "store_set_description": "Calvin's commentary on the whole Psalter — the work he called an anatomy of all the parts of the soul — in five volumes.",
+  "body_font_family": "Palatino Linotype (embedded TrueType)",
+  "font_rebuild_20260924": {
+    "font_format": "embedded TrueType",
+    "previous_page_count": 583,
+    "page_count": 583,
+    "body_text_preserved": true,
+    "text_searchable": true,
+    "text_outlined": false,
+    "changed_cover_formats": [],
+    "font_change_scope": "Palatino Linotype body and running headers",
+    "special_glyph_fallback": null,
+    "math_font": null
+  }
 }

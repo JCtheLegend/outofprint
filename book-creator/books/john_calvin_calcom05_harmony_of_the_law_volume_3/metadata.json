@@ -45,18 +45,20 @@
   "verification_facts": {
     "interior_standard": "prose-6x9-v1",
     "interior_standard_enforced": true,
-    "dominant_body_font": "TeXGyrePagella-Regular",
+    "dominant_body_font": "Palatino Linotype Regula",
     "dominant_body_size_pt": 11.0,
     "interior_image_count": 0,
     "quality_blockers": 1,
     "quality_warnings": 5,
     "quality_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\john_calvin_calcom05_harmony_of_the_law_volume_3_quality_report.tsv",
     "verification_sample_pages": [
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom05_harmony_of_the_law_volume_3\\qa\\p0001.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom05_harmony_of_the_law_volume_3\\qa\\p0002.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom05_harmony_of_the_law_volume_3\\qa\\p0007.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom05_harmony_of_the_law_volume_3\\qa\\p0516.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom05_harmony_of_the_law_volume_3\\qa\\p0522.png"
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\36\\page_0001.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\36\\page_0002.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\36\\page_0003.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\36\\page_0131.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\36\\page_0262.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\36\\page_0392.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\36\\page_0522.png"
     ],
     "single_rebuilt_title_page": true,
     "generated_contents_from_rebuilt_pdf": true,
@@ -71,10 +73,10 @@
       9.93
     ],
     "observed_left_running_heads": [
-      "Harmony of the Law"
+      "Harmony of the Law"
     ],
     "observed_right_running_heads": [
-      "John Calvin"
+      "John Calvin"
     ],
     "every_rendered_body_character_matches_corrected_source": true,
     "rendered_body_character_count": 926444,
@@ -82,15 +84,21 @@
     "visual_sample_pages": [
       1,
       2,
-      7,
-      516,
+      3,
+      131,
+      262,
+      392,
       522
     ],
     "transcription_fix_date": "2026-09-09",
     "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom05_harmony_of_the_law_volume_3",
     "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
     "transcription_fix_delivery_status": "corrected_in_approved",
-    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md"
+    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md",
+    "page_count": 522,
+    "all_fonts_embedded_truetype": true,
+    "text_outlined": false,
+    "body_text_matches_previous_approved_edition": true
   },
   "cover_facts": {
     "paperback": {
@@ -298,5 +306,18 @@
   "store_set_slug": "calvin-harmony-of-the-law",
   "store_set_title": "Harmony of the Law",
   "store_set_genre": "Theology",
-  "store_set_description": "Calvin's commentary on Exodus through Deuteronomy, arranged as a harmony of the last four books of Moses, in four volumes."
+  "store_set_description": "Calvin's commentary on Exodus through Deuteronomy, arranged as a harmony of the last four books of Moses, in four volumes.",
+  "body_font_family": "Palatino Linotype (embedded TrueType)",
+  "font_rebuild_20260924": {
+    "font_format": "embedded TrueType",
+    "previous_page_count": 522,
+    "page_count": 522,
+    "body_text_preserved": true,
+    "text_searchable": true,
+    "text_outlined": false,
+    "changed_cover_formats": [],
+    "font_change_scope": "Palatino Linotype body and running headers",
+    "special_glyph_fallback": null,
+    "math_font": null
+  }
 }

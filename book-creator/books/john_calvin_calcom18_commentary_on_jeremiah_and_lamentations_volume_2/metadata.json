@@ -38,25 +38,20 @@
   "verification_facts": {
     "interior_standard": "prose-6x9-v1",
     "interior_standard_enforced": true,
-    "dominant_body_font": "TeXGyrePagella-Regular",
+    "dominant_body_font": "Palatino Linotype Regula",
     "dominant_body_size_pt": 11.0,
     "interior_image_count": 0,
     "quality_blockers": 0,
     "quality_warnings": 0,
     "quality_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2_quality_report.tsv",
     "verification_sample_pages": [
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0001.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0002.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0020.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0161.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0192.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0221.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0241.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0273.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0278.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0315.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0447.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2\\qa\\p0460.png"
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\49\\page_0001.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\49\\page_0002.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\49\\page_0003.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\49\\page_0116.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\49\\page_0231.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\49\\page_0346.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\49\\page_0460.png"
     ],
     "single_rebuilt_title_page": true,
     "generated_contents_from_rebuilt_pdf": true,
@@ -71,10 +66,10 @@
       9.93
     ],
     "observed_left_running_heads": [
-      "Commentary on Jeremiah and Lamentations"
+      "Commentary on Jeremiah and Lamentations"
     ],
     "observed_right_running_heads": [
-      "John Calvin"
+      "John Calvin"
     ],
     "every_rendered_body_character_matches_corrected_source": true,
     "rendered_body_character_count": 854614,
@@ -82,22 +77,21 @@
     "visual_sample_pages": [
       1,
       2,
-      20,
-      161,
-      192,
-      221,
-      241,
-      273,
-      278,
-      315,
-      447,
+      3,
+      116,
+      231,
+      346,
       460
     ],
     "transcription_fix_date": "2026-09-09",
     "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom18_commentary_on_jeremiah_and_lamentations_volume_2",
     "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
     "transcription_fix_delivery_status": "corrected_in_approved",
-    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md"
+    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md",
+    "page_count": 460,
+    "all_fonts_embedded_truetype": true,
+    "text_outlined": false,
+    "body_text_matches_previous_approved_edition": true
   },
   "cover_facts": {
     "paperback": {
@@ -317,5 +311,18 @@
   "store_set_slug": "calvin-commentary-on-jeremiah-and-lamentations",
   "store_set_title": "Commentary on Jeremiah and Lamentations",
   "store_set_genre": "Theology",
-  "store_set_description": "Calvin's lectures on Jeremiah and Lamentations, taken down as he delivered them, in five volumes."
+  "store_set_description": "Calvin's lectures on Jeremiah and Lamentations, taken down as he delivered them, in five volumes.",
+  "body_font_family": "Palatino Linotype (embedded TrueType)",
+  "font_rebuild_20260924": {
+    "font_format": "embedded TrueType",
+    "previous_page_count": 460,
+    "page_count": 460,
+    "body_text_preserved": true,
+    "text_searchable": true,
+    "text_outlined": false,
+    "changed_cover_formats": [],
+    "font_change_scope": "Palatino Linotype body and running headers",
+    "special_glyph_fallback": null,
+    "math_font": null
+  }
 }

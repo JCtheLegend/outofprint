@@ -141,17 +141,13 @@
     "greek_quotation_markers": 0,
     "quality_report": "/Users/timleonard/Desktop/books secondary/output/reports/sir_robert_filmer_political_writings_quality_report.tsv",
     "verification_sample_pages": [
-      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0001.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0002.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0003.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0061.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0118.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0132.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0162.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0168.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0214.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0253.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/sir_robert_filmer_political_writings/sir_robert_filmer_political_writings_page_0263.png"
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\65\\page_0001.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\65\\page_0002.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\65\\page_0003.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\65\\page_0066.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\65\\page_0132.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\65\\page_0198.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\65\\page_0263.png"
     ],
     "empty_page_count": 0,
     "single_visible_content_line_page_count": 0,
@@ -170,13 +166,13 @@
     "dominant_body_size_pt": 10.87,
     "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
     "running_header_standard_enforced": true,
-    "running_header_left": "Patriarcha & Other Writings",
+    "running_header_left": "Patriarcha & Other Works",
     "running_header_right": "Sir Robert Filmer",
     "observed_left_running_heads": [
-      "Patriarcha & Other Writings"
+      "Patriarcha & Other Works"
     ],
     "observed_right_running_heads": [
-      "Sir Robert Filmer"
+      "Sir Robert Filmer"
     ],
     "running_header_alignment": "centered",
     "running_header_pdf_remediation": true,
@@ -184,6 +180,19 @@
     "running_header_size_standard_enforced": true,
     "observed_running_header_sizes_pt": [
       9.93
+    ],
+    "page_count": 263,
+    "all_fonts_embedded_truetype": true,
+    "text_outlined": false,
+    "body_text_matches_previous_approved_edition": true,
+    "visual_sample_pages": [
+      1,
+      2,
+      3,
+      66,
+      132,
+      198,
+      263
     ]
   },
   "cover_facts": {
@@ -396,5 +405,17 @@
   "store_price_cents": 3000,
   "store_genre": "",
   "store_description": "",
-  "store_featured": false
+  "store_featured": false,
+  "font_rebuild_20260924": {
+    "font_format": "embedded TrueType",
+    "previous_page_count": 263,
+    "page_count": 263,
+    "body_text_preserved": true,
+    "text_searchable": true,
+    "text_outlined": false,
+    "changed_cover_formats": [],
+    "font_change_scope": "running headers only",
+    "special_glyph_fallback": null,
+    "math_font": null
+  }
 }

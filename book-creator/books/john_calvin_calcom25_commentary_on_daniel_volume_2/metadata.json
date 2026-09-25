@@ -38,19 +38,20 @@
   "verification_facts": {
     "interior_standard": "prose-6x9-v1",
     "interior_standard_enforced": true,
-    "dominant_body_font": "TeXGyrePagella-Regular",
+    "dominant_body_font": "Palatino Linotype Regula",
     "dominant_body_size_pt": 11.0,
     "interior_image_count": 0,
     "quality_blockers": 0,
     "quality_warnings": 0,
     "quality_report": "/Users/timleonard/Desktop/books secondary/output/reports/john_calvin/john_calvin_calcom25_commentary_on_daniel_volume_2_quality_report.tsv",
     "verification_sample_pages": [
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom25_commentary_on_daniel_volume_2\\qa\\p0001.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom25_commentary_on_daniel_volume_2\\qa\\p0002.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom25_commentary_on_daniel_volume_2\\qa\\p0006.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom25_commentary_on_daniel_volume_2\\qa\\p0338.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom25_commentary_on_daniel_volume_2\\qa\\p0404.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom25_commentary_on_daniel_volume_2\\qa\\p0508.png"
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\56\\page_0001.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\56\\page_0002.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\56\\page_0003.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\56\\page_0128.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\56\\page_0255.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\56\\page_0382.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\56\\page_0508.png"
     ],
     "single_rebuilt_title_page": true,
     "generated_contents_from_rebuilt_pdf": true,
@@ -59,10 +60,10 @@
     "running_header_left": "Commentary on Daniel",
     "running_header_right": "John Calvin",
     "observed_left_running_heads": [
-      "Commentary on Daniel"
+      "Commentary on Daniel"
     ],
     "observed_right_running_heads": [
-      "John Calvin"
+      "John Calvin"
     ],
     "running_header_pdf_remediation": true,
     "running_header_alignment": "centered",
@@ -77,16 +78,21 @@
     "visual_sample_pages": [
       1,
       2,
-      6,
-      338,
-      404,
+      3,
+      128,
+      255,
+      382,
       508
     ],
     "transcription_fix_date": "2026-09-09",
     "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom25_commentary_on_daniel_volume_2",
     "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
     "transcription_fix_delivery_status": "corrected_in_approved",
-    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md"
+    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md",
+    "page_count": 508,
+    "all_fonts_embedded_truetype": true,
+    "text_outlined": false,
+    "body_text_matches_previous_approved_edition": true
   },
   "cover_facts": {
     "paperback": {
@@ -301,7 +307,7 @@
     }
   },
   "interior_standard_enforced": true,
-  "body_font_family": "TeX Gyre Pagella (Palatino-compatible)",
+  "body_font_family": "Palatino Linotype (embedded TrueType)",
   "body_size_pt": 11.0,
   "body_leading_pt": 13.6,
   "review_approval": {
@@ -324,5 +330,17 @@
   "store_set_slug": "calvin-commentary-on-daniel",
   "store_set_title": "Commentary on Daniel",
   "store_set_genre": "Theology",
-  "store_set_description": "Calvin's lectures on the prophecies of Daniel, in two volumes."
+  "store_set_description": "Calvin's lectures on the prophecies of Daniel, in two volumes.",
+  "font_rebuild_20260924": {
+    "font_format": "embedded TrueType",
+    "previous_page_count": 508,
+    "page_count": 508,
+    "body_text_preserved": true,
+    "text_searchable": true,
+    "text_outlined": false,
+    "changed_cover_formats": [],
+    "font_change_scope": "Palatino Linotype body and running headers",
+    "special_glyph_fallback": null,
+    "math_font": null
+  }
 }

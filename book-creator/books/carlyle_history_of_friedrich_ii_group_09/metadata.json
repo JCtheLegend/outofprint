@@ -54,18 +54,20 @@
     "ocr_quality_blockers": 0,
     "ocr_quality_warnings": 21,
     "verification_sample_pages": [
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\carlyle_plain_text\\carlyle_history_of_friedrich_ii_group_09_page_0001.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\carlyle_plain_text\\carlyle_history_of_friedrich_ii_group_09_page_0002.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\carlyle_plain_text\\carlyle_history_of_friedrich_ii_group_09_page_0003.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\carlyle_plain_text\\carlyle_history_of_friedrich_ii_group_09_page_0158.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\verification\\carlyle_plain_text\\carlyle_history_of_friedrich_ii_group_09_page_0314.png"
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\12\\page_0001.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\12\\page_0002.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\12\\page_0003.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\12\\page_0079.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\12\\page_0158.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\12\\page_0236.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\12\\page_0314.png"
     ],
     "contents_generated_from_final_pdf": true,
     "single_rebuilt_title_page": true,
     "single_content_line_pages": [],
     "interior_standard": "prose-6x9-v1",
     "interior_standard_enforced": true,
-    "dominant_body_font": "TeXGyrePagella-Regular",
+    "dominant_body_font": "PalatinoLinotype-Roman",
     "dominant_body_size_pt": 10.91,
     "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
     "running_header_standard_enforced": true,
@@ -87,7 +89,20 @@
     "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\carlyle\\carlyle_history_of_friedrich_ii_group_09",
     "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
     "transcription_fix_delivery_status": "corrected_in_approved",
-    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md"
+    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md",
+    "page_count": 314,
+    "all_fonts_embedded_truetype": true,
+    "text_outlined": false,
+    "body_text_matches_previous_approved_edition": true,
+    "visual_sample_pages": [
+      1,
+      2,
+      3,
+      79,
+      158,
+      236,
+      314
+    ]
   },
   "cover_facts": {
     "paperback": {
@@ -303,7 +318,7 @@
     }
   },
   "pdf": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\carlyle\\carlyle_history_of_friedrich_ii_group_09\\interior.pdf",
-  "tex": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\carlyle\\carlyle_history_of_friedrich_ii_group_09\\book.tex",
+  "tex": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\12\\book.tex",
   "transcription_corrections_20260909": {
     "ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\source_texts\\carlyle_transcription_corrections_20260909.json",
     "checks": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\carlyle\\carlyle_history_of_friedrich_ii_group_09\\checks.json",
@@ -319,5 +334,18 @@
   "store_set_slug": "carlyle-history-of-friedrich-ii",
   "store_set_title": "History of Friedrich II of Prussia",
   "store_set_genre": "History",
-  "store_set_description": "Thomas Carlyle's monumental life of Frederick the Great, written across thirteen years and published 1858–1865, reset here as nine printed books."
+  "store_set_description": "Thomas Carlyle's monumental life of Frederick the Great, written across thirteen years and published 1858–1865, reset here as nine printed books.",
+  "body_font_family": "Palatino Linotype (embedded TrueType)",
+  "font_rebuild_20260924": {
+    "font_format": "embedded TrueType",
+    "previous_page_count": 314,
+    "page_count": 314,
+    "body_text_preserved": true,
+    "text_searchable": true,
+    "text_outlined": false,
+    "changed_cover_formats": [],
+    "font_change_scope": "Palatino Linotype body and running headers",
+    "special_glyph_fallback": null,
+    "math_font": null
+  }
 }

@@ -99,7 +99,7 @@
       "He Gives Presents to Hygelac. Hygelac Rewards Him. Hygelac's Death. Bēowulf Reigns": 85,
       "The Fire-Drake. the Hoard": 88,
       "Beowulf Resolves to Kill the Fire-Drake": 91,
-      "Retrospect of Bēowulf.--Strife Between Sweonas and Geatas": 94,
+      "Retrospect of Bēowulf.–Strife Between Sweonas and Geatas": 94,
       "Memories of Past Time.-The Feud with the Fire-Drake": 97,
       "Wiglaf Helps Bēowulf in the Feud": 101,
       "Bēowulf Wounded to Death": 104,
@@ -132,7 +132,7 @@
     "contents_outline_matches_chapter_starts": true,
     "interior_standard": "prose-6x9-v1",
     "interior_standard_enforced": true,
-    "dominant_body_font": "TeXGyrePagella-Regular",
+    "dominant_body_font": "PalatinoLinotype-Roman",
     "dominant_body_size_pt": 10.91,
     "beowulf_fit_count": 43,
     "finnsburg_fragment_included": true,
@@ -146,14 +146,14 @@
     "ocr_quality_warnings": 0,
     "quality_report": "/Users/timleonard/Desktop/books secondary/output/reports/anglo_saxon/anglo_saxon_beowulf_and_fight_at_finnsburg_quality_report.tsv",
     "verification_sample_pages": [
-      "/Users/timleonard/Desktop/books secondary/output/verification/anglo_saxon/anglo_saxon_beowulf_and_fight_at_finnsburg_page_0001.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/anglo_saxon/anglo_saxon_beowulf_and_fight_at_finnsburg_page_0002.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/anglo_saxon/anglo_saxon_beowulf_and_fight_at_finnsburg_page_0003.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/anglo_saxon/anglo_saxon_beowulf_and_fight_at_finnsburg_page_0005.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/anglo_saxon/anglo_saxon_beowulf_and_fight_at_finnsburg_page_0085.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/anglo_saxon/anglo_saxon_beowulf_and_fight_at_finnsburg_page_0102.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/anglo_saxon/anglo_saxon_beowulf_and_fight_at_finnsburg_page_0198.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/anglo_saxon/anglo_saxon_beowulf_and_fight_at_finnsburg_page_0203.png"
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\01\\page_0001.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\01\\page_0002.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\01\\page_0003.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\01\\page_0005.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\01\\page_0051.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\01\\page_0102.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\01\\page_0153.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\01\\page_0203.png"
     ],
     "cover_preview_images": [
       "/Users/timleonard/Desktop/books secondary/output/verification/anglo_saxon/anglo_saxon_beowulf_and_fight_at_finnsburg_paperback_cover_preview.png",
@@ -171,7 +171,7 @@
       "Bēowulf"
     ],
     "observed_right_running_heads": [
-      "Anonymous and others"
+      "Anonymous and others"
     ],
     "running_header_alignment": "centered",
     "running_header_pdf_remediation": true,
@@ -194,7 +194,20 @@
     "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\standalone\\anglo_saxon_beowulf_and_fight_at_finnsburg",
     "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
     "transcription_fix_delivery_status": "corrected_in_approved",
-    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md"
+    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md",
+    "all_fonts_embedded_truetype": true,
+    "text_outlined": false,
+    "body_text_matches_previous_approved_edition": true,
+    "visual_sample_pages": [
+      1,
+      2,
+      3,
+      5,
+      51,
+      102,
+      153,
+      203
+    ]
   },
   "cover_facts": {
     "paperback": {
@@ -412,5 +425,18 @@
   "store_price_cents": 3000,
   "store_genre": "",
   "store_description": "",
-  "store_featured": false
+  "store_featured": false,
+  "body_font_family": "Palatino Linotype (embedded TrueType)",
+  "font_rebuild_20260924": {
+    "font_format": "embedded TrueType",
+    "previous_page_count": 203,
+    "page_count": 203,
+    "body_text_preserved": true,
+    "text_searchable": true,
+    "text_outlined": false,
+    "changed_cover_formats": [],
+    "font_change_scope": "Palatino Linotype body and running headers",
+    "special_glyph_fallback": "Embedded Times New Roman TrueType for Ǣ, ǣ, ȳ only",
+    "math_font": null
+  }
 }

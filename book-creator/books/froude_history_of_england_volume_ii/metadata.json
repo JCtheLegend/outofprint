@@ -89,26 +89,47 @@
       }
     ],
     "verification_sample_pages": [
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_ii/interior_page_0001.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_ii/interior_page_0002.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_ii/interior_page_0003.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_ii/interior_page_0072.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_ii/interior_page_0079.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_ii/interior_page_0115.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_ii/interior_page_0116.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_ii/interior_page_0118.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_ii/interior_page_0156.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_ii/interior_page_0206.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_ii/interior_page_0267.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_ii/interior_page_0299.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_ii/interior_page_0340.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_ii/paperback_cover_page_0001.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/froude_history_of_england_volume_ii/hardcover_cover_page_0001.png"
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\16\\page_0001.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\16\\page_0002.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\16\\page_0003.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\16\\page_0086.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\16\\page_0171.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\16\\page_0256.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\16\\page_0340.png"
     ],
     "interior_standard": "prose-6x9-v1",
     "interior_standard_enforced": true,
     "dominant_body_font": "Palatino-Roman",
-    "dominant_body_size_pt": 10.87
+    "dominant_body_size_pt": 10.87,
+    "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
+    "running_header_standard_enforced": true,
+    "running_header_alignment": "centered",
+    "running_header_size_pt": 9.93,
+    "running_header_size_standard_enforced": true,
+    "running_header_left": "History of England",
+    "running_header_right": "James Anthony Froude",
+    "observed_running_header_sizes_pt": [
+      9.93
+    ],
+    "observed_left_running_heads": [
+      "History of England"
+    ],
+    "observed_right_running_heads": [
+      "James Anthony Froude"
+    ],
+    "page_count": 340,
+    "all_fonts_embedded_truetype": true,
+    "text_outlined": false,
+    "body_text_matches_previous_approved_edition": true,
+    "visual_sample_pages": [
+      1,
+      2,
+      3,
+      86,
+      171,
+      256,
+      340
+    ]
   },
   "cover_facts": {
     "paperback": {
@@ -333,5 +354,17 @@
   "store_set_slug": "froude-history-of-england",
   "store_set_title": "History of England",
   "store_set_description": "James Anthony Froude's twelve-volume history of Tudor England, from the fall of Cardinal Wolsey to the death of Elizabeth I — the whole run restored and typeset to match.",
-  "store_set_genre": "History"
+  "store_set_genre": "History",
+  "font_rebuild_20260924": {
+    "font_format": "embedded TrueType",
+    "previous_page_count": 340,
+    "page_count": 340,
+    "body_text_preserved": true,
+    "text_searchable": true,
+    "text_outlined": false,
+    "changed_cover_formats": [],
+    "font_change_scope": "running headers only",
+    "special_glyph_fallback": null,
+    "math_font": null
+  }
 }

@@ -117,22 +117,14 @@
     "ocr_quality_warnings": 0,
     "quality_report": "/Users/timleonard/Desktop/books secondary/output/reports/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_quality_report.tsv",
     "verification_sample_pages": [
-      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0001.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0002.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0003.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0004.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0026.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0079.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0086.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0090.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0094.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0098.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0129.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0151.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0181.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_interior_page_0206.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_paperback_cover.png",
-      "/Users/timleonard/Desktop/books secondary/output/verification/johnson_life_of_savage_and_other_works/samuel_johnson_life_of_savage_and_other_works_hardcover_cover.png"
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\64\\page_0001.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\64\\page_0002.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\64\\page_0003.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\64\\page_0004.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\64\\page_0052.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\64\\page_0104.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\64\\page_0155.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\64\\page_0206.png"
     ],
     "contents_generated_from_final_pdf": true,
     "source_text_status": "Proofread Project Gutenberg transcriptions with targeted historical-scan collation",
@@ -141,10 +133,10 @@
     "running_header_left": "Savage & Other Works",
     "running_header_right": "Samuel Johnson",
     "observed_left_running_heads": [
-      "Savage & Other Works"
+      "Savage & Other Works"
     ],
     "observed_right_running_heads": [
-      "Samuel Johnson"
+      "Samuel Johnson"
     ],
     "running_header_pdf_remediation": true,
     "running_header_alignment": "centered",
@@ -152,6 +144,24 @@
     "running_header_size_standard_enforced": true,
     "observed_running_header_sizes_pt": [
       9.93
+    ],
+    "interior_standard": "prose-6x9-v1",
+    "interior_standard_enforced": true,
+    "dominant_body_font": "Palatino-Roman",
+    "dominant_body_size_pt": 10.87,
+    "page_count": 206,
+    "all_fonts_embedded_truetype": true,
+    "text_outlined": false,
+    "body_text_matches_previous_approved_edition": true,
+    "visual_sample_pages": [
+      1,
+      2,
+      3,
+      4,
+      52,
+      104,
+      155,
+      206
     ]
   },
   "cover_facts": {
@@ -341,5 +351,17 @@
   "store_price_cents": 3000,
   "store_genre": "",
   "store_description": "",
-  "store_featured": false
+  "store_featured": false,
+  "font_rebuild_20260924": {
+    "font_format": "embedded TrueType",
+    "previous_page_count": 206,
+    "page_count": 206,
+    "body_text_preserved": true,
+    "text_searchable": true,
+    "text_outlined": false,
+    "changed_cover_formats": [],
+    "font_change_scope": "running headers only",
+    "special_glyph_fallback": null,
+    "math_font": null
+  }
 }

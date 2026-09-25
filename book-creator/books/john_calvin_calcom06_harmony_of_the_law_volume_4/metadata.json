@@ -19,8 +19,8 @@
   "volume": "IV",
   "trim_size": "6 x 9 in",
   "interior_standard": "prose-6x9-v1",
-  "page_count": 435,
-  "body_page_count": 432,
+  "page_count": 434,
+  "body_page_count": 431,
   "generated_contents_entries": 63,
   "generated_contents_entries_in_pdf": 63,
   "detected_heading_count": 62,
@@ -45,24 +45,20 @@
   "verification_facts": {
     "interior_standard": "prose-6x9-v1",
     "interior_standard_enforced": true,
-    "dominant_body_font": "TeXGyrePagella-Regular",
+    "dominant_body_font": "Palatino Linotype Regula",
     "dominant_body_size_pt": 11.0,
     "interior_image_count": 0,
     "quality_blockers": 0,
     "quality_warnings": 0,
     "quality_report": "/Users/timleonard/Desktop/books secondary/output/reports/john_calvin/john_calvin_calcom06_harmony_of_the_law_volume_4_quality_report.tsv",
     "verification_sample_pages": [
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom06_harmony_of_the_law_volume_4\\qa\\p0001.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom06_harmony_of_the_law_volume_4\\qa\\p0002.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom06_harmony_of_the_law_volume_4\\qa\\p0004.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom06_harmony_of_the_law_volume_4\\qa\\p0167.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom06_harmony_of_the_law_volume_4\\qa\\p0170.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom06_harmony_of_the_law_volume_4\\qa\\p0209.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom06_harmony_of_the_law_volume_4\\qa\\p0248.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom06_harmony_of_the_law_volume_4\\qa\\p0256.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom06_harmony_of_the_law_volume_4\\qa\\p0283.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom06_harmony_of_the_law_volume_4\\qa\\p0319.png",
-      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom06_harmony_of_the_law_volume_4\\qa\\p0435.png"
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\37\\page_0001.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\37\\page_0002.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\37\\page_0003.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\37\\page_0109.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\37\\page_0218.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\37\\page_0326.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\palatino_remaining_20260924\\37\\page_0434.png"
     ],
     "single_rebuilt_title_page": true,
     "generated_contents_from_rebuilt_pdf": true,
@@ -71,10 +67,10 @@
     "running_header_left": "Harmony of the Law",
     "running_header_right": "John Calvin",
     "observed_left_running_heads": [
-      "Harmony of the Law"
+      "Harmony of the Law"
     ],
     "observed_right_running_heads": [
-      "John Calvin"
+      "John Calvin"
     ],
     "running_header_pdf_remediation": true,
     "running_header_alignment": "centered",
@@ -89,28 +85,28 @@
     "visual_sample_pages": [
       1,
       2,
-      4,
-      167,
-      170,
-      209,
-      248,
-      256,
-      283,
-      319,
-      435
+      3,
+      109,
+      218,
+      326,
+      434
     ],
     "transcription_fix_date": "2026-09-09",
     "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom06_harmony_of_the_law_volume_4",
     "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
     "transcription_fix_delivery_status": "corrected_in_approved",
-    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md"
+    "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md",
+    "page_count": 434,
+    "all_fonts_embedded_truetype": true,
+    "text_outlined": false,
+    "body_text_matches_previous_approved_edition": true
   },
   "cover_facts": {
     "paperback": {
       "front_width_px": 1800,
       "height_px": 2700,
-      "spine_width_px": 312,
-      "spine_thickness_in": 1.0397297297297297,
+      "spine_width_px": 311,
+      "spine_thickness_in": 1.0374774774774775,
       "era_label": "before 17th century",
       "cover_color": "brown",
       "band_color_rgb": [
@@ -128,8 +124,8 @@
       "border_rendering": "traced_native_svg_borders",
       "border_pdf_encoding": "native_svg_vector_overlay",
       "cover_pdf_image_encoding": "lossless_png_flate",
-      "full_width_px": 3912,
-      "output_width_px": 3988,
+      "full_width_px": 3911,
+      "output_width_px": 3987,
       "output_height_px": 2776,
       "cover_format": "paperback",
       "front_panel_width_in": 6.0,
@@ -152,7 +148,7 @@
       "back_imprint_border_gutter_in": 0.75,
       "front_text_center_offset_px": 0,
       "front_text_alignment": "center",
-      "front_text_anchor_x_px": 3050,
+      "front_text_anchor_x_px": 3049,
       "front_author_text": "John Calvin",
       "hardcover_border_board_centered": false,
       "hardcover_border_standard_inset_px": 0,
@@ -172,9 +168,9 @@
       "front_text_border_clearance_in": 0.75,
       "front_text_collision_gap_in": 0.35,
       "front_text_safe_rect_px": [
-        2480,
+        2479,
         347,
-        3620,
+        3619,
         2429
       ],
       "front_text_border_collision_free": true,
@@ -208,7 +204,7 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 435
+      "cover_page_count_used": 434
     },
     "hardcover": {
       "front_width_px": 1838,
@@ -313,11 +309,11 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 435
+      "cover_page_count_used": 434
     }
   },
   "interior_standard_enforced": true,
-  "body_font_family": "TeX Gyre Pagella (Palatino-compatible)",
+  "body_font_family": "Palatino Linotype (embedded TrueType)",
   "body_size_pt": 11.0,
   "body_leading_pt": 13.6,
   "transcription_corrections": {
@@ -333,5 +329,19 @@
   "store_set_slug": "calvin-harmony-of-the-law",
   "store_set_title": "Harmony of the Law",
   "store_set_genre": "Theology",
-  "store_set_description": "Calvin's commentary on Exodus through Deuteronomy, arranged as a harmony of the last four books of Moses, in four volumes."
+  "store_set_description": "Calvin's commentary on Exodus through Deuteronomy, arranged as a harmony of the last four books of Moses, in four volumes.",
+  "font_rebuild_20260924": {
+    "font_format": "embedded TrueType",
+    "previous_page_count": 435,
+    "page_count": 434,
+    "body_text_preserved": true,
+    "text_searchable": true,
+    "text_outlined": false,
+    "changed_cover_formats": [
+      "paperback"
+    ],
+    "font_change_scope": "Palatino Linotype body and running headers",
+    "special_glyph_fallback": null,
+    "math_font": null
+  }
 }
