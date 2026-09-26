@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "preview": "opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare deploy"
+    "deploy": "opennextjs-cloudflare deploy",
+    "lulu:test": "esbuild scripts/lulu-smoke.ts --bundle --platform=node --format=cjs --alias:@=./src --outfile=node_modules/.cache/lulu-smoke.cjs --log-level=error && node --env-file=.env.local node_modules/.cache/lulu-smoke.cjs"
   },
   "dependencies": {
     "next": "^15",
@@ -21,17 +22,18 @@
     "resend": "^4"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@opennextjs/cloudflare": "^1",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "tailwindcss": "^4",
-    "@tailwindcss/postcss": "^4",
-    "postcss": "^8",
+    "esbuild": "^0.25",
     "eslint": "^9",
     "eslint-config-next": "^15",
-    "@eslint/eslintrc": "^3",
-    "@opennextjs/cloudflare": "^1",
+    "postcss": "^8",
+    "tailwindcss": "^4",
+    "typescript": "^5",
     "wrangler": "^4"
   }
 }

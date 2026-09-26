@@ -64,6 +64,32 @@ export async function sendSetOrderConfirmation(
   });
 }
 
+/**
+ * A print job that fails leaves a paid order that nobody is printing, so tell
+ * whoever runs the shop rather than only logging it.
+ */
+export async function sendPrintJobFailureAlert(
+  orderIds: string[],
+  customerEmail: string,
+  reason: string
+) {
+  const to = process.env.LULU_CONTACT_EMAIL || FROM;
+  await resend.emails.send({
+    from: FROM,
+    to,
+    subject: `Action needed: print job failed for ${orderIds.length} paid order(s)`,
+    html: `
+      <p>A customer has paid, but Lulu did not accept the print job.</p>
+      <p><strong>Orders:</strong> ${orderIds.join(", ")}<br/>
+      <strong>Customer:</strong> ${customerEmail}</p>
+      <p><strong>Lulu said:</strong></p>
+      <pre style="white-space:pre-wrap">${reason}</pre>
+      <p>The orders are saved with status <code>paid</code>. Fix the cause and
+      resubmit the print job — the customer has not been charged twice.</p>
+    `,
+  });
+}
+
 export async function sendShippingNotification(
   to: string,
   name: string,

@@ -60,6 +60,37 @@ declares it, so setting a bundle price on one volume (or editing it directly
 in Supabase) survives re-uploading a sibling volume that omits it. Until a
 bundle price exists, "buy the complete set" simply charges every volume.
 
+### Printing
+
+The paperback cover PDF is uploaded as-is alongside the interior: it is what
+Lulu wraps around the printed book, while the cropped JPEG is only the
+storefront thumbnail. The uploader also derives Lulu's product SKU from
+`trim_size` (6 x 9 in → `0600X0900.BW.STD.PB.060UC444.MXX`, a black-and-white
+perfect-bound paperback on 60# cream stock). Set `store_pod_package_id` to
+override it for a book printed on anything else — Lulu's
+[price calculator](https://developers.lulu.com/price-calculator) generates the code.
+
+### Font requirements
+
+Lulu rejects a print job whose interior embeds an OpenType font or leaves any
+font unembedded, and it does so *after* the customer has paid — so the uploader
+checks the interior first and refuses the book rather than putting something
+unprintable in the catalog:
+
+```
+[federalist-papers] ERROR: interior PDF would be rejected by Lulu —
+OpenType fonts (Lulu requires TrueType): TeX Gyre Pagella Italic.
+```
+
+Rebuild the interior with TrueType faces. Convert the OpenType ones with
+fontTools' `otf2ttf` rather than switching font family: converting preserves
+the metrics, so the page count — and with it the spine width baked into the
+cover PDF — stays identical. A different family reflows the text and
+invalidates the cover.
+
+`--skip-font-check` uploads anyway, for when you know the file is fine (say the
+text has been flattened to outlines).
+
 The uploader also uses `interior_filename` and `paperback_cover_filename`
 (to know which PDFs to upload/crop), `authors`, `publication_year`, and
 `cover_facts.paperback.{front_panel_width_in,bleed_in}` (to crop a plain

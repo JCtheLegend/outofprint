@@ -89,15 +89,42 @@ stripe listen --forward-to localhost:3000/api/webhooks/stripe
 
 ---
 
-## Step 5 — Connect Your Print API
+## Step 5 — Connect Lulu (Printing and Fulfilment)
 
-Open `src/lib/print.ts`. The `createPrintJob` function currently makes a generic REST call. Adapt it to match your print provider's actual API:
+Every paid order is sent to [Lulu](https://developers.lulu.com) as a print job:
+one line item per book, printed and shipped straight to the customer.
 
-- **Lulu Direct**: [developers.lulu.com](https://developers.lulu.com)
-- **Printful**: [developers.printful.com](https://developers.printful.com)
-- **Custom/in-house**: replace the fetch call with whatever your pipeline expects
+1. Create an account at [developers.lulu.com](https://developers.lulu.com) — and a
+   separate one at [developers.sandbox.lulu.com](https://developers.sandbox.lulu.com)
+   for testing, since sandbox jobs never reach a real printer.
+2. Go to **Profile → API Keys** and copy the client key and secret into
+   `LULU_CLIENT_KEY` / `LULU_CLIENT_SECRET`.
+3. Set `LULU_API_URL=https://api.sandbox.lulu.com` while testing; switch it to
+   `https://api.lulu.com` (with production credentials) to print for real.
+4. Set `LULU_CONTACT_EMAIL` (Lulu contacts this address about problem jobs) and
+   `LULU_DEFAULT_PHONE` (a fallback for the shipping address — carriers require a
+   phone number; Stripe collects the customer's own at checkout).
+5. **Put a credit card on file in the Lulu developer portal.** A newly created
+   print job stays `UNPAID` until it is paid; with a card on file Lulu pays it and
+   moves it to production automatically. Without one, nothing gets printed.
 
-Set `PRINT_API_KEY` and `PRINT_API_URL` in `.env.local` accordingly.
+Check the whole path before taking a real order — this resolves the book's signed
+PDF URLs, fetches them the way Lulu will, and (with `--submit`) creates a sandbox
+print job:
+
+```bash
+npm run lulu:test -- federalist-papers
+npm run lulu:test -- federalist-papers --submit
+```
+
+### Print product
+
+Books default to `0600X0900.BW.STD.PB.060UC444.MXX` — a 6" x 9" black-and-white
+paperback, perfect bound on 60# cream stock with a matte cover. The uploader
+derives that SKU per book from its trim size; override it for one book with
+`store_pod_package_id` in its `metadata.json`, or globally with
+`LULU_POD_PACKAGE_ID`. Lulu's [price calculator](https://developers.lulu.com/price-calculator)
+generates the SKU for any other product.
 
 ---
 
@@ -198,7 +225,9 @@ website/
 │       ├── supabase.ts               ← DB client + types
 │       ├── sets.ts                   ← Volume grouping + set pricing
 │       ├── stripe.ts                 ← Stripe client
-│       ├── print.ts                  ← Print API integration
+│       ├── print.ts                  ← Order → Lulu print job
+│       ├── lulu.ts                   ← Lulu API client (auth + endpoints)
+│       ├── storage.ts                ← Signed URLs for the private PDFs
 │       └── email.ts                  ← Resend email helpers
 ├── supabase-schema.sql               ← Run once in Supabase SQL editor
 ├── .env.local.example                ← Copy to .env.local and fill in

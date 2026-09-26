@@ -119,6 +119,8 @@ export async function POST(req: NextRequest) {
       },
       // Pre-fill customer details
       billing_address_collection: "required",
+      // Lulu's shipping carriers require a phone number for delivery issues
+      phone_number_collection: { enabled: true },
       success_url: successUrl,
       cancel_url: cancelUrl,
       metadata,
