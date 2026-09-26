@@ -7,6 +7,23 @@ import { setPriceCents, sortVolumes, volumeLabel } from "@/lib/sets";
 
 type LineItem = Stripe.Checkout.SessionCreateParams.LineItem;
 
+/**
+ * Absolute base URL for the URLs Stripe sends the customer back to.
+ *
+ * NEXT_PUBLIC_* values are inlined at build time, so a deploy built without
+ * NEXT_PUBLIC_SITE_URL leaves Stripe with "undefined/catalog/..." and it
+ * refuses the session: "Invalid URL: An explicit scheme (such as https) must
+ * be provided". The request always knows the real origin, so fall back to it
+ * and only trust the configured value when it is a usable absolute URL.
+ */
+function resolveSiteUrl(req: NextRequest): string {
+  const configured = process.env.NEXT_PUBLIC_SITE_URL;
+  if (configured && /^https?:\/\//i.test(configured)) {
+    return configured.replace(/\/+$/, "");
+  }
+  return new URL(req.url).origin;
+}
+
 function bookLineItem(book: Book, unitAmount: number): LineItem {
   const volume = volumeLabel(book);
   return {
@@ -56,7 +73,7 @@ export async function POST(req: NextRequest) {
     }
 
     const db = supabaseAdmin();
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+    const siteUrl = resolveSiteUrl(req);
 
     let lineItems: LineItem[];
     let metadata: Record<string, string>;
