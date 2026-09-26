@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
-import { stripe } from "@/lib/stripe";
+import { stripe, webhookCryptoProvider } from "@/lib/stripe";
 import { supabaseAdmin } from "@/lib/supabase";
 import type { Book } from "@/lib/supabase";
 import { sortVolumes, volumeLabel } from "@/lib/sets";
@@ -17,10 +17,14 @@ export async function POST(req: NextRequest) {
   let event: Stripe.Event;
 
   try {
-    event = stripe.webhooks.constructEvent(
+    // Async + WebCrypto: the synchronous form needs Node's crypto module,
+    // which the Workers runtime does not provide.
+    event = await stripe.webhooks.constructEventAsync(
       body,
       sig!,
-      process.env.STRIPE_WEBHOOK_SECRET!
+      process.env.STRIPE_WEBHOOK_SECRET!,
+      undefined,
+      webhookCryptoProvider
     );
   } catch (err: unknown) {
     const message = err instanceof Error ? err.message : "Webhook error";
