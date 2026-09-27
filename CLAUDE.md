@@ -77,6 +77,26 @@ grouping and a bundle price, never a separate product.
   one print job per volume — one physical book per print job. `orders` is therefore
   unique on `(stripe_session_id, book_id)`, not on `stripe_session_id` alone.
 
+## Shopping cart
+
+The cart is browser state — there are no accounts — held in `localStorage` by
+`components/cart/CartProvider.tsx` and shaped by `lib/cart.ts`. It stores only
+what a book *is* (`{kind: "book" | "set", id, quantity}`), never what it costs:
+prices are resolved server-side at checkout, so a cart left open for weeks can
+never buy at a stale price.
+
+- `/cart` re-reads every row from the catalog before showing it, and silently
+  drops entries whose book or set no longer exists.
+- `/api/checkout` takes `{ items }`, and still accepts the older
+  `{ bookId }` / `{ setId }` used by the "Buy now" buttons — both normalize to
+  a cart of one. A single-item purchase returns to that book's or set's own
+  success page; anything larger lands on `/cart/success`, which clears the cart.
+- Each Stripe line item carries its book id in `price_data.product_data.metadata`.
+  That is how the webhook knows what was bought: a cart of several books cannot
+  fit in session metadata, which Stripe caps at 500 characters per value.
+- `orders.quantity` records copies per book; the Lulu line item quantity matches,
+  so two copies are one line item of two, not two jobs.
+
 ## Print fulfilment (Lulu)
 
 Lulu prints and ships every order. `lib/lulu.ts` is the raw API layer (OAuth

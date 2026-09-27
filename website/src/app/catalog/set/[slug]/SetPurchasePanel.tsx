@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { loadStripe } from "@stripe/stripe-js";
 import { formatPrice } from "@/lib/format";
+import { AddToCartButton } from "@/components/cart/AddToCartButton";
 
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!);
 
@@ -139,16 +140,27 @@ export function SetPurchasePanel({
         <span className="text-2xl font-serif font-semibold text-rust">{formatPrice(total)}</span>
       </div>
 
+      <div className="mb-3">
+        {/* Keyed on the choice so switching selection resets the button state */}
+        <AddToCartButton
+          key={choice}
+          kind={buyingSet ? "set" : "book"}
+          id={buyingSet ? setId : choice}
+          className="btn-primary w-full"
+          label={buyingSet ? `Add all ${volumes.length} volumes to Cart` : "Add Volume to Cart"}
+        />
+      </div>
+
       <button
         onClick={handleCheckout}
         disabled={loading}
-        className="btn-primary w-full disabled:opacity-60 disabled:cursor-not-allowed"
+        className="btn-outline w-full disabled:opacity-60 disabled:cursor-not-allowed"
       >
         {loading
           ? "Preparing checkout…"
           : buyingSet
-            ? `Purchase all ${volumes.length} volumes`
-            : "Purchase — Print to Order"}
+            ? `Buy all ${volumes.length} volumes now`
+            : "Buy this volume now"}
       </button>
 
       {error && <p className="text-rust text-xs mt-2">{error}</p>}

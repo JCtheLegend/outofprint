@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import logo from "@/public/ooplogo_black.png";
+import { useCart } from "@/components/cart/CartProvider";
 
 const links = [
   { href: "/", label: "Home" },
@@ -13,6 +14,7 @@ const links = [
 
 export function Nav() {
   const pathname = usePathname();
+  const { count, ready } = useCart();
 
   return (
     <nav className="sticky top-0 z-50 bg-cream border-b border-border">
@@ -41,6 +43,16 @@ export function Nav() {
               {label}
             </Link>
           ))}
+          <Link
+            href="/cart"
+            className={`font-body text-xs tracking-widest uppercase transition-colors pb-0.5 border-b-[1.5px] ${
+              pathname === "/cart"
+                ? "text-ink border-rust"
+                : "text-muted border-transparent hover:text-ink hover:border-rust"
+            }`}
+          >
+            Cart{ready && count > 0 ? ` (${count})` : ""}
+          </Link>
         </div>
       </div>
     </nav>
