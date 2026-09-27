@@ -1,0 +1,722 @@
+{
+  "title": "Commentary on Hebrews",
+  "subtitle": "",
+  "authors": [
+    "John Calvin"
+  ],
+  "translator": "Calvin Translation Society",
+  "original_publication": "1549",
+  "reader_facing_imprint": "1549",
+  "publication_type": "single work",
+  "language": "English",
+  "volume": "",
+  "trim_size": "6 x 9 in",
+  "interior_standard": "prose-6x9-v1",
+  "page_count": 344,
+  "body_page_count": 342,
+  "generated_contents_entries": 16,
+  "generated_contents_entries_in_pdf": 16,
+  "detected_heading_count": 16,
+  "interior_filename": "john_calvin_calcom44_commentary_on_hebrews_interior.pdf",
+  "hardcover_cover_filename": "john_calvin_calcom44_commentary_on_hebrews_hardcover_cover.pdf",
+  "paperback_cover_filename": "john_calvin_calcom44_commentary_on_hebrews_paperback_cover.pdf",
+  "source_basis": {
+    "status": "Retained public-domain source with documented transcription corrections; uncertain readings preserved.",
+    "source_kind": "CCEL cached plain text",
+    "source_url": "https://www.ccel.org/ccel/calvin/calcom44/cache/calcom44.txt",
+    "source_note": "CCEL cached plain text. The Meeter Center describes these linked English editions as mid-nineteenth-century Calvin Translation Society translations.",
+    "local_source_file": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\source_texts\\john_calvin_plain_text\\calcom44.txt",
+    "source_translation_year": "mid-19th century translation; CCEL cache based on public-domain text"
+  },
+  "intentionally_omitted_material": [
+    "Project Gutenberg or CCEL boilerplate and license text",
+    "duplicate original title pages",
+    "source-site navigation and metadata",
+    "scan facsimile images and decorative images where present",
+    "Introductions, forewords, prefaces, and afterwords by editors, translators, publishers, or other contributors are omitted; author-written front matter is retained.",
+    "Supplementary Appendix of Additional Annotations (54 notes), its contents entries, and references pointing to it, omitted at the user's request on 2026-09-27."
+  ],
+  "verification_facts": {
+    "interior_standard": "prose-6x9-v1",
+    "interior_standard_enforced": true,
+    "dominant_body_font": "Palatino Linotype Regula",
+    "dominant_body_size_pt": 11.0,
+    "interior_image_count": 0,
+    "quality_blockers": 0,
+    "quality_warnings": 0,
+    "quality_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom44\\repair_log.json",
+    "verification_sample_pages": [
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom44_remove_appendix_20260927\\page_0001.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom44_remove_appendix_20260927\\page_0002.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom44_remove_appendix_20260927\\page_0003.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom44_remove_appendix_20260927\\page_0015.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom44_remove_appendix_20260927\\page_0020.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom44_remove_appendix_20260927\\page_0343.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom44_remove_appendix_20260927\\page_0344.png"
+    ],
+    "single_rebuilt_title_page": true,
+    "generated_contents_from_rebuilt_pdf": true,
+    "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
+    "running_header_standard_enforced": true,
+    "running_header_alignment": "centered",
+    "running_header_size_pt": 9.93,
+    "running_header_size_standard_enforced": true,
+    "running_header_left": "Commentary on Hebrews",
+    "running_header_right": "John Calvin",
+    "observed_running_header_sizes_pt": [
+      9.93
+    ],
+    "observed_left_running_heads": [
+      "Commentary on Hebrews"
+    ],
+    "observed_right_running_heads": [
+      "John Calvin"
+    ],
+    "every_rendered_body_character_matches_corrected_source": true,
+    "verified_body_characters": 669911,
+    "missing_glyph_count": 0,
+    "recovered_note_references": 15,
+    "transcription_repair_date": "2026-09-18",
+    "all_fonts_embedded_truetype": true,
+    "text_outlined": false,
+    "text_searchable": true,
+    "page_text_and_character_sequence_preserved": false,
+    "original_character_positions_preserved": false,
+    "page_boxes_and_bookmarks_preserved": false,
+    "all_interior_pages_rendered_for_font_update": 428,
+    "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom44_commentary_on_hebrews.json",
+    "full_body_text_preserved": false,
+    "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom44_remove_appendix_20260927\\verification.json",
+    "page_count": 344,
+    "rendered_body_character_count": 669911,
+    "visual_sample_pages": [
+      1,
+      2,
+      3,
+      15,
+      20,
+      343,
+      344
+    ],
+    "all_interior_pages_rendered": 344,
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom44_remove_appendix_20260927\\verification.json",
+    "original_editions_preserved_in_backup": true,
+    "full_body_text_preserved_except_requested_appendix_removal": true
+  },
+  "cover_facts": {
+    "paperback": {
+      "front_width_px": 1800,
+      "height_px": 2700,
+      "spine_width_px": 250,
+      "spine_thickness_in": 0.8347747747747747,
+      "era_label": "before 17th century",
+      "cover_color": "brown",
+      "band_color_rgb": [
+        88,
+        62,
+        39
+      ],
+      "accent_color_rgb": [
+        247,
+        198,
+        112
+      ],
+      "front_border_pattern": "renaissance_cartouche_approved",
+      "back_border_pattern": "renaissance_cartouche_approved",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 3850,
+      "output_width_px": 3926,
+      "output_height_px": 2776,
+      "cover_format": "paperback",
+      "front_panel_width_in": 6.0,
+      "cover_panel_height_in": 9.0,
+      "wrap_px": 0,
+      "wrap_in": 0,
+      "hinge_px": 0,
+      "hinge_in": 0,
+      "safety_margin_px": 84,
+      "safety_margin_in": 0.28,
+      "expand_with_bleed": true,
+      "bleed_px": 38,
+      "bleed_in": 0.125,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.45,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 2988,
+      "front_author_text": "John Calvin",
+      "cover_author_suppressed_for_unknown_or_collective": false,
+      "hardcover_border_board_centered": false,
+      "hardcover_border_standard_inset_px": 0,
+      "hardcover_border_visual_inset_x_px": 0,
+      "hardcover_border_visual_inset_y_px": 0,
+      "hardcover_border_alignment_adjustment_x_px": 0,
+      "hardcover_border_alignment_adjustment_y_px": 0,
+      "hardcover_border_source_compensation_x_px": 0,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 0,
+      "hardcover_border_art_height_px": 0,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": false,
+      "hardcover_border_reference_texture_preserved": false,
+      "front_text_side_inset_in": 1.1,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        2418,
+        347,
+        3558,
+        2429
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 930,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 2,
+      "front_title_lines": [
+        "Commentary on",
+        "Hebrews"
+      ],
+      "front_title_max_line_width_px": 685.0,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15.0,
+      "spine_author_standard_pt": 15.0,
+      "spine_volume_standard_pt": 24.0,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": null,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 0,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 0,
+      "spine_title_line_count": 1,
+      "spine_title_lines": [
+        "Commentary on Hebrews"
+      ],
+      "spine_author_text": "Calvin",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 344
+    },
+    "hardcover": {
+      "front_width_px": 1838,
+      "height_px": 2775,
+      "spine_width_px": 319,
+      "spine_thickness_in": 1.0625,
+      "era_label": "before 17th century",
+      "cover_color": "brown",
+      "band_color_rgb": [
+        88,
+        62,
+        39
+      ],
+      "accent_color_rgb": [
+        247,
+        198,
+        112
+      ],
+      "front_border_pattern": "renaissance_cartouche_approved",
+      "back_border_pattern": "renaissance_cartouche_approved",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 3995,
+      "output_width_px": 4445,
+      "output_height_px": 3225,
+      "cover_format": "lulu_casewrap_hardcover",
+      "front_panel_width_in": 6.125,
+      "cover_panel_height_in": 9.25,
+      "wrap_px": 225,
+      "wrap_in": 0.75,
+      "hinge_px": 75,
+      "hinge_in": 0.25,
+      "safety_margin_px": 225,
+      "safety_margin_in": 0.75,
+      "expand_with_bleed": true,
+      "bleed_px": 225,
+      "bleed_in": 0,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.45,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 3301,
+      "front_author_text": "John Calvin",
+      "cover_author_suppressed_for_unknown_or_collective": false,
+      "hardcover_border_board_centered": true,
+      "hardcover_border_standard_inset_px": 225,
+      "hardcover_border_visual_inset_x_px": 243,
+      "hardcover_border_visual_inset_y_px": 245,
+      "hardcover_border_alignment_adjustment_x_px": 18,
+      "hardcover_border_alignment_adjustment_y_px": 20,
+      "hardcover_border_source_compensation_x_px": -1,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 1353,
+      "hardcover_border_art_height_px": 2286,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": true,
+      "hardcover_border_reference_texture_preserved": true,
+      "front_text_side_inset_in": 1.35,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        2832,
+        675,
+        3770,
+        2550
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 728,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 2,
+      "front_title_lines": [
+        "Commentary on",
+        "Hebrews"
+      ],
+      "front_title_max_line_width_px": 685.0,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15.0,
+      "spine_author_standard_pt": 15.0,
+      "spine_volume_standard_pt": 24.0,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": null,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 0,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 0,
+      "spine_title_line_count": 1,
+      "spine_title_lines": [
+        "Commentary on Hebrews"
+      ],
+      "spine_author_text": "Calvin",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 344
+    }
+  },
+  "transcription_repairs": {
+    "date": "2026-09-18",
+    "audit": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\findings.json",
+    "ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom44\\repair_log.json",
+    "original_interior_sha256": "40aea07b331c22fb2c02c07b952f3d8e554b89b095852b574c34942815b9c1f5",
+    "raw_source_unchanged": true
+  },
+  "body_font_family": "Palatino Linotype (embedded TrueType)",
+  "font_update_20260926": {
+    "font_format": "embedded TrueType",
+    "prose_font": "Palatino Linotype",
+    "specialized_glyphs_and_facsimiles_preserved": true,
+    "text_searchable": true,
+    "text_outlined": false,
+    "page_count_unchanged": true,
+    "cover_dimensions_unchanged": true,
+    "method": "Replace embedded font programs while preserving PDF character positions, widths, and Unicode mappings",
+    "original_package_backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\archive\\package_fonts_originals_20260926\\john_calvin_calcom44_commentary_on_hebrews",
+    "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom44_commentary_on_hebrews.json",
+    "current_pdf_sha256": {
+      "john_calvin_calcom44_commentary_on_hebrews_interior.pdf": "6b6eca23b82e63121afd406c42ee8ee8a3a35e51c0c15e0d31ec9acb1aa96902",
+      "john_calvin_calcom44_commentary_on_hebrews_paperback_cover.pdf": "dfd2e4b69c7f1676cac04b06d7ed488ae92a92e264c3859f09b0ed78ee7f8c57",
+      "john_calvin_calcom44_commentary_on_hebrews_hardcover_cover.pdf": "fcb391b3ced7e0905711bdd3ee588167e3a3507ad8a011f46461a6993c626133"
+    },
+    "earlier_visual_review_and_dated_repair_evidence_retained": true
+  },
+  "layout_repair_20260927": {
+    "id": "calcom44_package",
+    "slug": "john_calvin_calcom44_commentary_on_hebrews",
+    "source_id": "calcom44",
+    "copy": "package",
+    "status": "verified",
+    "old_page_count": 428,
+    "page_count": 429,
+    "body_page_count": 425,
+    "contents_entries": 74,
+    "full_body_character_comparison_passed": true,
+    "body_characters": 766974,
+    "all_pages_rendered": 429,
+    "all_fonts_embedded_truetype": true,
+    "source_sha256": "d8d981440a443aa9db8b785f4d673753804ef656e03f42e58d43cb6f706853ed",
+    "before_sha256": "127f8df08208c75ee5c6f2c0535aec50b20cd279c0efca94d5d190a74ce542ed",
+    "raw_source_unchanged": true,
+    "existing_heading_style_preserved": "current",
+    "files": [
+      {
+        "name": "john_calvin_calcom44_commentary_on_hebrews_interior.pdf",
+        "sha256": "133f07197b8803a9af3037079f0f48be45cbfa62f67480f75fe53f1fcd2176fd"
+      },
+      {
+        "name": "john_calvin_calcom44_commentary_on_hebrews_paperback_cover.pdf",
+        "sha256": "87a265f2daa90cd57bc590968caade03fa91853d22abe95f2a792bc4b71a064c"
+      },
+      {
+        "name": "john_calvin_calcom44_commentary_on_hebrews_hardcover_cover.pdf",
+        "sha256": "5e11bc9b7c8fa45640faa159e4ad392195a3ed89281d9a04d0b5e00b9fac3ea4"
+      }
+    ],
+    "independent_contents_check_passed": true,
+    "visual_review_complete": true,
+    "visual_review_pages": [
+      2,
+      429
+    ]
+  },
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "b79fbc4c578851867673756a4d7ce9a6cad24b0e5a43f650ebd662d4e6c24e78",
+    "after_sha256": "6b6eca23b82e63121afd406c42ee8ee8a3a35e51c0c15e0d31ec9acb1aa96902",
+    "page_count": 344,
+    "old_entries": 71,
+    "entry_count": 16,
+    "entries": [
+      {
+        "title": "Epistle Dedicatory to Sigismund Augustus",
+        "destination": 3,
+        "level": 1,
+        "aliases": [
+          "Epistle Dedicatory to Sigismund Augustus"
+        ]
+      },
+      {
+        "title": "The Argument on the Epistle to the Hebrews",
+        "destination": 10,
+        "level": 1,
+        "aliases": [
+          "The Argument on the Epistle to the Hebrews"
+        ]
+      },
+      {
+        "title": "Commentaries on the Epistle of St. Paul to the Hebrews",
+        "destination": 15,
+        "level": 1,
+        "aliases": [
+          "Commentaries on the Epistle of St. Paul to the Hebrews"
+        ]
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 15,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 35,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 60,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Chapter 4",
+        "destination": 76,
+        "level": 1,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "Chapter 5",
+        "destination": 95,
+        "level": 1,
+        "aliases": [
+          "Chapter 5"
+        ]
+      },
+      {
+        "title": "Chapter 6",
+        "destination": 114,
+        "level": 1,
+        "aliases": [
+          "Chapter 6"
+        ]
+      },
+      {
+        "title": "Chapter 7",
+        "destination": 138,
+        "level": 1,
+        "aliases": [
+          "Chapter 7"
+        ]
+      },
+      {
+        "title": "Chapter 8",
+        "destination": 161,
+        "level": 1,
+        "aliases": [
+          "Chapter 8"
+        ]
+      },
+      {
+        "title": "Chapter 9",
+        "destination": 176,
+        "level": 1,
+        "aliases": [
+          "Chapter 9"
+        ]
+      },
+      {
+        "title": "Chapter 10",
+        "destination": 204,
+        "level": 1,
+        "aliases": [
+          "Chapter 10"
+        ]
+      },
+      {
+        "title": "Chapter 11",
+        "destination": 244,
+        "level": 1,
+        "aliases": [
+          "Chapter 11"
+        ]
+      },
+      {
+        "title": "Chapter 12",
+        "destination": 295,
+        "level": 1,
+        "aliases": [
+          "Chapter 12"
+        ]
+      },
+      {
+        "title": "Chapter 13",
+        "destination": 323,
+        "level": 1,
+        "aliases": [
+          "Chapter 13"
+        ]
+      }
+    ],
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom44_remove_appendix_20260927\\verification.json"
+  },
+  "appendix_removal_20260927": {
+    "source_id": "calcom44",
+    "status": "verified",
+    "old_page_count": 429,
+    "page_count": 344,
+    "appendix_notes_removed": 54,
+    "reference_only_notes_removed": 45,
+    "body_calls_removed": 45,
+    "substantive_notes_preserved_after_reference_removal": 9,
+    "source_sha256": "d8d981440a443aa9db8b785f4d673753804ef656e03f42e58d43cb6f706853ed",
+    "raw_source_unchanged": true,
+    "original_pdf_matches_original_blocks": true,
+    "full_retained_body_character_comparison_passed": true,
+    "body_characters": 669911,
+    "all_interior_pages_rendered": 344,
+    "all_fonts_embedded_truetype": true,
+    "contents_geometry_passed": true,
+    "reviewer_sections_match_contents": true,
+    "covers_rebuilt_for_page_count": 344,
+    "entries": [
+      {
+        "title": "Epistle Dedicatory to Sigismund Augustus",
+        "destination": 3,
+        "level": 1,
+        "aliases": [
+          "Epistle Dedicatory to Sigismund Augustus"
+        ]
+      },
+      {
+        "title": "The Argument on the Epistle to the Hebrews",
+        "destination": 10,
+        "level": 1,
+        "aliases": [
+          "The Argument on the Epistle to the Hebrews"
+        ]
+      },
+      {
+        "title": "Commentaries on the Epistle of St. Paul to the Hebrews",
+        "destination": 15,
+        "level": 1,
+        "aliases": [
+          "Commentaries on the Epistle of St. Paul to the Hebrews"
+        ]
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 15,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 35,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 60,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Chapter 4",
+        "destination": 76,
+        "level": 1,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "Chapter 5",
+        "destination": 95,
+        "level": 1,
+        "aliases": [
+          "Chapter 5"
+        ]
+      },
+      {
+        "title": "Chapter 6",
+        "destination": 114,
+        "level": 1,
+        "aliases": [
+          "Chapter 6"
+        ]
+      },
+      {
+        "title": "Chapter 7",
+        "destination": 138,
+        "level": 1,
+        "aliases": [
+          "Chapter 7"
+        ]
+      },
+      {
+        "title": "Chapter 8",
+        "destination": 161,
+        "level": 1,
+        "aliases": [
+          "Chapter 8"
+        ]
+      },
+      {
+        "title": "Chapter 9",
+        "destination": 176,
+        "level": 1,
+        "aliases": [
+          "Chapter 9"
+        ]
+      },
+      {
+        "title": "Chapter 10",
+        "destination": 204,
+        "level": 1,
+        "aliases": [
+          "Chapter 10"
+        ]
+      },
+      {
+        "title": "Chapter 11",
+        "destination": 244,
+        "level": 1,
+        "aliases": [
+          "Chapter 11"
+        ]
+      },
+      {
+        "title": "Chapter 12",
+        "destination": 295,
+        "level": 1,
+        "aliases": [
+          "Chapter 12"
+        ]
+      },
+      {
+        "title": "Chapter 13",
+        "destination": 323,
+        "level": 1,
+        "aliases": [
+          "Chapter 13"
+        ]
+      }
+    ],
+    "entry_count": 16,
+    "proof_pages": [
+      1,
+      2,
+      3,
+      15,
+      20,
+      343,
+      344
+    ],
+    "short_body_pages_for_visual_review": [],
+    "backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom44_remove_appendix_20260927\\original_package",
+    "before_sha256": "b79fbc4c578851867673756a4d7ce9a6cad24b0e5a43f650ebd662d4e6c24e78",
+    "files": [
+      {
+        "name": "john_calvin_calcom44_commentary_on_hebrews_interior.pdf",
+        "sha256": "6b6eca23b82e63121afd406c42ee8ee8a3a35e51c0c15e0d31ec9acb1aa96902"
+      },
+      {
+        "name": "john_calvin_calcom44_commentary_on_hebrews_paperback_cover.pdf",
+        "sha256": "dfd2e4b69c7f1676cac04b06d7ed488ae92a92e264c3859f09b0ed78ee7f8c57"
+      },
+      {
+        "name": "john_calvin_calcom44_commentary_on_hebrews_hardcover_cover.pdf",
+        "sha256": "fcb391b3ced7e0905711bdd3ee588167e3a3507ad8a011f46461a6993c626133"
+      }
+    ],
+    "visual_review_complete": true,
+    "visual_review_method": "Poppler PNGs inspected for all seven proof pages and both resized covers; no clipping, overlapping text, or stranded appendix references."
+  },
+  "review_approval": {
+    "status": "approved",
+    "approved_at": "2026-09-27T19:47:32-04:00",
+    "approved_by": "user",
+    "edition_title": "Commentary on Hebrews",
+    "approved_page_count": 344,
+    "approved_pdf_sha256": {
+      "john_calvin_calcom44_commentary_on_hebrews_interior.pdf": "6b6eca23b82e63121afd406c42ee8ee8a3a35e51c0c15e0d31ec9acb1aa96902",
+      "john_calvin_calcom44_commentary_on_hebrews_paperback_cover.pdf": "dfd2e4b69c7f1676cac04b06d7ed488ae92a92e264c3859f09b0ed78ee7f8c57",
+      "john_calvin_calcom44_commentary_on_hebrews_hardcover_cover.pdf": "fcb391b3ced7e0905711bdd3ee588167e3a3507ad8a011f46461a6993c626133"
+    },
+    "github_update_authorized": true
+  },
+  "store_price_cents": 3000,
+  "store_featured": false,
+  "store_genre": "Theology",
+  "store_description": "John Calvin's commentary on the Epistle to the Hebrews."
+}
