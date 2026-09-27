@@ -23,9 +23,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 298,
   "body_page_count": 296,
-  "generated_contents_entries": 27,
-  "generated_contents_entries_in_pdf": 27,
-  "detected_heading_count": 27,
+  "generated_contents_entries": 26,
+  "generated_contents_entries_in_pdf": 26,
+  "detected_heading_count": 26,
   "interior_filename": "john_calvin_calcom07_commentary_on_joshua_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom07_commentary_on_joshua_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom07_commentary_on_joshua_paperback_cover.pdf",
@@ -100,7 +100,8 @@
     "page_count": 298,
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
-    "body_text_matches_previous_approved_edition": true
+    "body_text_matches_previous_approved_edition": true,
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom07_approved\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -318,5 +319,237 @@
     "font_change_scope": "Palatino Linotype body and running headers",
     "special_glyph_fallback": null,
     "math_font": null
+  },
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "edf1d3b4cf0255dccdae02a85b67f96ecfca3926c6e24094941ba7174e57bf49",
+    "after_sha256": "1c35b70ec311a748a6ac7348d32f7db52faf57359e769faa1137e2671b00bf60",
+    "page_count": 298,
+    "old_entries": 27,
+    "entry_count": 26,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2
+    ],
+    "entries": [
+      {
+        "title": "Argument of the Book of Joshua",
+        "destination": 3,
+        "level": 1,
+        "aliases": [
+          "Argument of the Book of Joshua"
+        ]
+      },
+      {
+        "title": "A Brief Commentary on the Book of Joshua",
+        "destination": 10,
+        "level": 1,
+        "aliases": [
+          "A Brief Commentary on the Book of Joshua"
+        ]
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 10,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 25,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 42,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Chapter 4",
+        "destination": 53,
+        "level": 1,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "Chapter 5",
+        "destination": 65,
+        "level": 1,
+        "aliases": [
+          "Chapter 5"
+        ]
+      },
+      {
+        "title": "Chapter 6",
+        "destination": 79,
+        "level": 1,
+        "aliases": [
+          "Chapter 6"
+        ]
+      },
+      {
+        "title": "Chapter 7",
+        "destination": 92,
+        "level": 1,
+        "aliases": [
+          "Chapter 7"
+        ]
+      },
+      {
+        "title": "Chapter 8",
+        "destination": 110,
+        "level": 1,
+        "aliases": [
+          "Chapter 8"
+        ]
+      },
+      {
+        "title": "Chapter 9",
+        "destination": 127,
+        "level": 1,
+        "aliases": [
+          "Chapter 9"
+        ]
+      },
+      {
+        "title": "Chapter 10",
+        "destination": 139,
+        "level": 1,
+        "aliases": [
+          "Chapter 10"
+        ]
+      },
+      {
+        "title": "Chapter 11",
+        "destination": 160,
+        "level": 1,
+        "aliases": [
+          "Chapter 11"
+        ]
+      },
+      {
+        "title": "Chapter 12",
+        "destination": 173,
+        "level": 1,
+        "aliases": [
+          "Chapter 12"
+        ]
+      },
+      {
+        "title": "Chapter 13",
+        "destination": 178,
+        "level": 1,
+        "aliases": [
+          "Chapter 13"
+        ]
+      },
+      {
+        "title": "Chapter 14",
+        "destination": 190,
+        "level": 1,
+        "aliases": [
+          "Chapter 14"
+        ]
+      },
+      {
+        "title": "Chapter 15",
+        "destination": 199,
+        "level": 1,
+        "aliases": [
+          "Chapter 15"
+        ]
+      },
+      {
+        "title": "Chapter 16",
+        "destination": 212,
+        "level": 1,
+        "aliases": [
+          "Chapter 16"
+        ]
+      },
+      {
+        "title": "Chapter 17",
+        "destination": 216,
+        "level": 1,
+        "aliases": [
+          "Chapter 17"
+        ]
+      },
+      {
+        "title": "Chapter 18",
+        "destination": 225,
+        "level": 1,
+        "aliases": [
+          "Chapter 18"
+        ]
+      },
+      {
+        "title": "Chapter 19",
+        "destination": 235,
+        "level": 1,
+        "aliases": [
+          "Chapter 19"
+        ]
+      },
+      {
+        "title": "Chapter 20",
+        "destination": 246,
+        "level": 1,
+        "aliases": [
+          "Chapter 20"
+        ]
+      },
+      {
+        "title": "Chapter 21",
+        "destination": 250,
+        "level": 1,
+        "aliases": [
+          "Chapter 21"
+        ]
+      },
+      {
+        "title": "Chapter 22",
+        "destination": 260,
+        "level": 1,
+        "aliases": [
+          "Chapter 22"
+        ]
+      },
+      {
+        "title": "Chapter 23",
+        "destination": 275,
+        "level": 1,
+        "aliases": [
+          "Chapter 23"
+        ]
+      },
+      {
+        "title": "Chapter 24",
+        "destination": 283,
+        "level": 1,
+        "aliases": [
+          "Chapter 24"
+        ]
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true
+  },
+  "font_update_20260926": {
+    "current_pdf_sha256": {
+      "john_calvin_calcom07_commentary_on_joshua_interior.pdf": "1c35b70ec311a748a6ac7348d32f7db52faf57359e769faa1137e2671b00bf60"
+    }
   }
 }

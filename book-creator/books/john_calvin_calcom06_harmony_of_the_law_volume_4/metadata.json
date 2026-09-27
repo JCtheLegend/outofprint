@@ -21,9 +21,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 434,
   "body_page_count": 431,
-  "generated_contents_entries": 63,
-  "generated_contents_entries_in_pdf": 63,
-  "detected_heading_count": 62,
+  "generated_contents_entries": 58,
+  "generated_contents_entries_in_pdf": 58,
+  "detected_heading_count": 58,
   "interior_filename": "john_calvin_calcom06_harmony_of_the_law_volume_4_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom06_harmony_of_the_law_volume_4_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom06_harmony_of_the_law_volume_4_paperback_cover.pdf",
@@ -99,7 +99,8 @@
     "page_count": 434,
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
-    "body_text_matches_previous_approved_edition": true
+    "body_text_matches_previous_approved_edition": true,
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom06_approved\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -343,5 +344,499 @@
     "font_change_scope": "Palatino Linotype body and running headers",
     "special_glyph_fallback": null,
     "math_font": null
+  },
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "bb590ff67c344b3f9ced78c19b9f34b4b73d95d5db12fe1184206a7eb1a95cd2",
+    "after_sha256": "ddc4bb126df64d41ddf31b1cbec18102bd56585cc4af92d8f1d3a450c38f8c5e",
+    "page_count": 434,
+    "old_entries": 63,
+    "entry_count": 58,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2,
+      3
+    ],
+    "entries": [
+      {
+        "title": "Deuteronomy 1:6-8",
+        "destination": 4,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 1"
+        ]
+      },
+      {
+        "title": "Numbers 9:17-23",
+        "destination": 5,
+        "level": 1,
+        "aliases": [
+          "Numbers 9"
+        ]
+      },
+      {
+        "title": "Exodus 40:36-38",
+        "destination": 8,
+        "level": 1,
+        "aliases": [
+          "Exodus 40"
+        ]
+      },
+      {
+        "title": "Numbers 10:29-36",
+        "destination": 9,
+        "level": 1,
+        "aliases": [
+          "Numbers 10"
+        ]
+      },
+      {
+        "title": "Numbers 11:1-35",
+        "destination": 14,
+        "level": 1,
+        "aliases": [
+          "Numbers 11"
+        ]
+      },
+      {
+        "title": "Numbers 12:1-16",
+        "destination": 40,
+        "level": 1,
+        "aliases": [
+          "Numbers 12"
+        ]
+      },
+      {
+        "title": "Numbers 13:1-33",
+        "destination": 52,
+        "level": 1,
+        "aliases": [
+          "Numbers 13"
+        ]
+      },
+      {
+        "title": "Deuteronomy 1:19-25",
+        "destination": 56,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 1"
+        ]
+      },
+      {
+        "title": "Numbers 14:1-9",
+        "destination": 64,
+        "level": 1,
+        "aliases": [
+          "Numbers 14"
+        ]
+      },
+      {
+        "title": "Deuteronomy 1:26-33",
+        "destination": 70,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 1"
+        ]
+      },
+      {
+        "title": "Numbers 14:10-38",
+        "destination": 73,
+        "level": 1,
+        "aliases": [
+          "Numbers 14"
+        ]
+      },
+      {
+        "title": "Deuteronomy 1:34-36, 39-40",
+        "destination": 88,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 1",
+          "Deuteronomy 1:34-36, 39, 40"
+        ]
+      },
+      {
+        "title": "Numbers 14:39-45",
+        "destination": 90,
+        "level": 1,
+        "aliases": [
+          "Numbers 14"
+        ]
+      },
+      {
+        "title": "Deuteronomy 1:41-46",
+        "destination": 94,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 1"
+        ]
+      },
+      {
+        "title": "Deuteronomy 9:22-24",
+        "destination": 96,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 9"
+        ]
+      },
+      {
+        "title": "Deuteronomy 2:1",
+        "destination": 97,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 2"
+        ]
+      },
+      {
+        "title": "Leviticus 24:10-14",
+        "destination": 97,
+        "level": 1,
+        "aliases": [
+          "Leviticus 24"
+        ]
+      },
+      {
+        "title": "Numbers 15:32-36",
+        "destination": 100,
+        "level": 1,
+        "aliases": [
+          "Numbers 15"
+        ]
+      },
+      {
+        "title": "Numbers 16:1-50",
+        "destination": 102,
+        "level": 1,
+        "aliases": [
+          "Numbers 16"
+        ]
+      },
+      {
+        "title": "Numbers 17:1-13",
+        "destination": 128,
+        "level": 1,
+        "aliases": [
+          "Numbers 17"
+        ]
+      },
+      {
+        "title": "Numbers 20:1-13",
+        "destination": 135,
+        "level": 1,
+        "aliases": [
+          "Numbers 20"
+        ]
+      },
+      {
+        "title": "Deuteronomy 1:37-38",
+        "destination": 143,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 1",
+          "Deuteronomy 1:37, 38"
+        ]
+      },
+      {
+        "title": "Numbers 20:14-22",
+        "destination": 144,
+        "level": 1,
+        "aliases": [
+          "Numbers 20"
+        ]
+      },
+      {
+        "title": "Deuteronomy 2:2-8",
+        "destination": 147,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 2"
+        ]
+      },
+      {
+        "title": "Numbers 20:23-29",
+        "destination": 151,
+        "level": 1,
+        "aliases": [
+          "Numbers 20"
+        ]
+      },
+      {
+        "title": "Numbers 33:38-39",
+        "destination": 154,
+        "level": 1,
+        "aliases": [
+          "Numbers 33",
+          "Numbers 33:38, 39"
+        ]
+      },
+      {
+        "title": "Deuteronomy 10:6-7",
+        "destination": 155,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 10"
+        ]
+      },
+      {
+        "title": "Numbers 21:1-3",
+        "destination": 156,
+        "level": 1,
+        "aliases": [
+          "Numbers 21"
+        ]
+      },
+      {
+        "title": "Numbers 33:40",
+        "destination": 159,
+        "level": 1,
+        "aliases": [
+          "Numbers 33"
+        ]
+      },
+      {
+        "title": "Numbers 21:4-20",
+        "destination": 159,
+        "level": 1,
+        "aliases": [
+          "Numbers 21"
+        ]
+      },
+      {
+        "title": "Deuteronomy 2:9-23",
+        "destination": 169,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 2"
+        ]
+      },
+      {
+        "title": "Numbers 21:21-32",
+        "destination": 175,
+        "level": 1,
+        "aliases": [
+          "Numbers 21"
+        ]
+      },
+      {
+        "title": "Deuteronomy 2:24-37",
+        "destination": 176,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 2"
+        ]
+      },
+      {
+        "title": "Numbers 21:33-35",
+        "destination": 185,
+        "level": 1,
+        "aliases": [
+          "Numbers 21"
+        ]
+      },
+      {
+        "title": "Deuteronomy 3:1-11",
+        "destination": 187,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 3"
+        ]
+      },
+      {
+        "title": "Numbers 22:1-41",
+        "destination": 190,
+        "level": 1,
+        "aliases": [
+          "Numbers 22"
+        ]
+      },
+      {
+        "title": "Numbers 23:1-30",
+        "destination": 211,
+        "level": 1,
+        "aliases": [
+          "Numbers 23"
+        ]
+      },
+      {
+        "title": "Numbers 24:1-25",
+        "destination": 229,
+        "level": 1,
+        "aliases": [
+          "Numbers 24"
+        ]
+      },
+      {
+        "title": "Numbers 25:1-18",
+        "destination": 244,
+        "level": 1,
+        "aliases": [
+          "Numbers 25"
+        ]
+      },
+      {
+        "title": "Deuteronomy 4:3-4",
+        "destination": 254,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 4",
+          "Deuteronomy 4:3, 4"
+        ]
+      },
+      {
+        "title": "Numbers 26:1-65",
+        "destination": 255,
+        "level": 1,
+        "aliases": [
+          "Numbers 26"
+        ]
+      },
+      {
+        "title": "Numbers 27:1-11",
+        "destination": 269,
+        "level": 1,
+        "aliases": [
+          "Numbers 27"
+        ]
+      },
+      {
+        "title": "Numbers 36:1-13",
+        "destination": 273,
+        "level": 1,
+        "aliases": [
+          "Numbers 36"
+        ]
+      },
+      {
+        "title": "Numbers 31:1-54",
+        "destination": 278,
+        "level": 1,
+        "aliases": [
+          "Numbers 31"
+        ]
+      },
+      {
+        "title": "Numbers 32:1-42",
+        "destination": 296,
+        "level": 1,
+        "aliases": [
+          "Numbers 32"
+        ]
+      },
+      {
+        "title": "Deuteronomy 3:12-20",
+        "destination": 309,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 3"
+        ]
+      },
+      {
+        "title": "Deuteronomy 4:41-43",
+        "destination": 312,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 4"
+        ]
+      },
+      {
+        "title": "Numbers 33:1-56",
+        "destination": 313,
+        "level": 1,
+        "aliases": [
+          "Numbers 33"
+        ]
+      },
+      {
+        "title": "Numbers 34:1-29",
+        "destination": 326,
+        "level": 1,
+        "aliases": [
+          "Numbers 34"
+        ]
+      },
+      {
+        "title": "Deuteronomy 31:1-8",
+        "destination": 333,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 31"
+        ]
+      },
+      {
+        "title": "Numbers 27:15-23",
+        "destination": 339,
+        "level": 1,
+        "aliases": [
+          "Numbers 27"
+        ]
+      },
+      {
+        "title": "Deuteronomy 3:21-29",
+        "destination": 344,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 3"
+        ]
+      },
+      {
+        "title": "Deuteronomy 4:21-22",
+        "destination": 346,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 4",
+          "Deuteronomy 4:21, 22"
+        ]
+      },
+      {
+        "title": "Deuteronomy 31:14-30",
+        "destination": 348,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 31"
+        ]
+      },
+      {
+        "title": "Deuteronomy 32:1-52",
+        "destination": 359,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 32"
+        ]
+      },
+      {
+        "title": "Numbers 27:12-14",
+        "destination": 400,
+        "level": 1,
+        "aliases": [
+          "Numbers 27"
+        ]
+      },
+      {
+        "title": "Deuteronomy 33:1-29",
+        "destination": 404,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 33"
+        ]
+      },
+      {
+        "title": "Deuteronomy 34:1-12",
+        "destination": 428,
+        "level": 1,
+        "aliases": [
+          "Deuteronomy 34"
+        ]
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true
+  },
+  "font_update_20260926": {
+    "current_pdf_sha256": {
+      "john_calvin_calcom06_harmony_of_the_law_volume_4_interior.pdf": "ddc4bb126df64d41ddf31b1cbec18102bd56585cc4af92d8f1d3a450c38f8c5e"
+    }
   }
 }

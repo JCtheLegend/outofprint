@@ -21,9 +21,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 365,
   "body_page_count": 362,
-  "generated_contents_entries": 60,
-  "generated_contents_entries_in_pdf": 60,
-  "detected_heading_count": 60,
+  "generated_contents_entries": 40,
+  "generated_contents_entries_in_pdf": 40,
+  "detected_heading_count": 40,
   "interior_filename": "john_calvin_calcom29_commentary_on_habakkuk_zephaniah_haggai_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom29_commentary_on_habakkuk_zephaniah_haggai_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom29_commentary_on_habakkuk_zephaniah_haggai_paperback_cover.pdf",
@@ -98,7 +98,8 @@
     "page_count": 365,
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
-    "body_text_matches_previous_approved_edition": true
+    "body_text_matches_previous_approved_edition": true,
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom29_approved\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -321,5 +322,350 @@
     "font_change_scope": "Palatino Linotype body and running headers",
     "special_glyph_fallback": null,
     "math_font": null
+  },
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "d88509d61e2c3385ebc0d1f10e2000f7dc48bc3cb0c281e5aae71ce4dd4dfbbb",
+    "after_sha256": "3665a2fe399b87fd4e580363df247618aa04608ee4297c30ceb7e2ecc3e87dc3",
+    "page_count": 365,
+    "old_entries": 60,
+    "entry_count": 40,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2,
+      3
+    ],
+    "entries": [
+      {
+        "title": "The Commentaries on Habakkuk",
+        "destination": 4,
+        "level": 1,
+        "aliases": [
+          "The Commentaries on Habakkuk"
+        ]
+      },
+      {
+        "title": "Calvin's Preface to Habakkuk",
+        "destination": 4,
+        "level": 1,
+        "aliases": [
+          "Calvin's Preface to Habakkuk"
+        ]
+      },
+      {
+        "title": "Habakkuk 1",
+        "destination": 5,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Sixth",
+        "destination": 5,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Sixth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventh",
+        "destination": 18,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventh"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Eighth",
+        "destination": 32,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Eighth"
+        ]
+      },
+      {
+        "title": "Habakkuk 2",
+        "destination": 46,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Ninth",
+        "destination": 46,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Ninth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Tenth",
+        "destination": 60,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Tenth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Eleventh",
+        "destination": 73,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Eleventh"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Twelfth",
+        "destination": 86,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Twelfth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Thirteenth",
+        "destination": 100,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Thirteenth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Fourteenth",
+        "destination": 114,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Fourteenth"
+        ]
+      },
+      {
+        "title": "Habakkuk 3",
+        "destination": 121,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Fifteenth",
+        "destination": 124,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Fifteenth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Sixteenth",
+        "destination": 138,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Sixteenth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventeenth",
+        "destination": 152,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventeenth"
+        ]
+      },
+      {
+        "title": "Calvin's Preface to Zephaniah",
+        "destination": 165,
+        "level": 1,
+        "aliases": [
+          "Calvin's Preface to Zephaniah"
+        ]
+      },
+      {
+        "title": "Zephaniah 1",
+        "destination": 166,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Eighteenth",
+        "destination": 166,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Eighteenth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Nineteenth",
+        "destination": 177,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Nineteenth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Twentieth",
+        "destination": 189,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Twentieth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Twenty-First",
+        "destination": 202,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Twenty-First"
+        ]
+      },
+      {
+        "title": "Zephaniah 2",
+        "destination": 211,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Twenty-Second",
+        "destination": 216,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Twenty-Second"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Twenty-Third",
+        "destination": 230,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Twenty-Third"
+        ]
+      },
+      {
+        "title": "Zephaniah 3",
+        "destination": 242,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Twenty-Fourth",
+        "destination": 242,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Twenty-Fourth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Twenty-Fifth",
+        "destination": 254,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Twenty-Fifth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Twenty-Sixth",
+        "destination": 267,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Twenty-Sixth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Twenty-Seventh",
+        "destination": 279,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Twenty-Seventh"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Twenty-Eighth",
+        "destination": 291,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Twenty-Eighth"
+        ]
+      },
+      {
+        "title": "Calvin's Preface to Haggai",
+        "destination": 292,
+        "level": 1,
+        "aliases": [
+          "Calvin's Preface to Haggai"
+        ]
+      },
+      {
+        "title": "Haggai 1",
+        "destination": 294,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Twenty-Ninth",
+        "destination": 304,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Twenty-Ninth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Thirtieth",
+        "destination": 317,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Thirtieth"
+        ]
+      },
+      {
+        "title": "Haggai 2",
+        "destination": 325,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Thirty-First",
+        "destination": 330,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Thirty-First"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Thirty-Second",
+        "destination": 342,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Thirty-Second"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Thirty-Third",
+        "destination": 354,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Thirty-Third"
+        ]
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true
+  },
+  "font_update_20260926": {
+    "current_pdf_sha256": {
+      "john_calvin_calcom29_commentary_on_habakkuk_zephaniah_haggai_interior.pdf": "3665a2fe399b87fd4e580363df247618aa04608ee4297c30ceb7e2ecc3e87dc3"
+    }
   }
 }

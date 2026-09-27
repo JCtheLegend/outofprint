@@ -32,9 +32,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 472,
   "body_page_count": 470,
-  "generated_contents_entries": 22,
-  "generated_contents_entries_in_pdf": 22,
-  "detected_heading_count": 22,
+  "generated_contents_entries": 20,
+  "generated_contents_entries_in_pdf": 20,
+  "detected_heading_count": 20,
   "interior_filename": "john_calvin_calcom13_commentary_on_isaiah_volume_1_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom13_commentary_on_isaiah_volume_1_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom13_commentary_on_isaiah_volume_1_paperback_cover.pdf",
@@ -111,7 +111,7 @@
     "full_body_text_preserved": true,
     "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom13_approved\\verification.json",
     "all_interior_pages_rendered": 472,
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom13_approved\\verification.json",
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom13_approved\\verification.json",
     "original_character_positions_preserved": false,
     "page_text_and_character_sequence_preserved": false,
     "original_editions_preserved_in_backup": true
@@ -396,5 +396,189 @@
       3,
       6
     ]
+  },
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "59779c361afe28e445fcb619b89b48281fbf5af9a4017d27f7eab14454817f61",
+    "after_sha256": "a2f56bcc9a9f3a8ab26cd2d96d5f570d80b99bc7f63161eaa61a22a366929109",
+    "page_count": 472,
+    "old_entries": 22,
+    "entry_count": 20,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2
+    ],
+    "entries": [
+      {
+        "title": "To Her Serene Highness Elizabeth, Queen of England",
+        "destination": 3,
+        "level": 1,
+        "aliases": [
+          "To Her Serene Highness Elizabeth, Queen of England"
+        ]
+      },
+      {
+        "title": "To His Serene Highness, a Truly Christian Prince",
+        "destination": 6,
+        "level": 1,
+        "aliases": [
+          "To His Serene Highness, a Truly Christian Prince"
+        ]
+      },
+      {
+        "title": "The Preface to the Prophet Isaiah",
+        "destination": 13,
+        "level": 1,
+        "aliases": [
+          "The Preface to the Prophet Isaiah"
+        ]
+      },
+      {
+        "title": "Commentary on the Prophet Isaiah",
+        "destination": 19,
+        "level": 1,
+        "aliases": [
+          "Commentary on the Prophet Isaiah"
+        ]
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 19,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 72,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 105,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Chapter 4",
+        "destination": 132,
+        "level": 1,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "Chapter 5",
+        "destination": 143,
+        "level": 1,
+        "aliases": [
+          "Chapter 5"
+        ]
+      },
+      {
+        "title": "Chapter 6",
+        "destination": 180,
+        "level": 1,
+        "aliases": [
+          "Chapter 6"
+        ]
+      },
+      {
+        "title": "Chapter 7",
+        "destination": 208,
+        "level": 1,
+        "aliases": [
+          "Chapter 7"
+        ]
+      },
+      {
+        "title": "Chapter 8",
+        "destination": 240,
+        "level": 1,
+        "aliases": [
+          "Chapter 8"
+        ]
+      },
+      {
+        "title": "Chapter 9",
+        "destination": 274,
+        "level": 1,
+        "aliases": [
+          "Chapter 9"
+        ]
+      },
+      {
+        "title": "Chapter 10",
+        "destination": 309,
+        "level": 1,
+        "aliases": [
+          "Chapter 10"
+        ]
+      },
+      {
+        "title": "Chapter 11",
+        "destination": 348,
+        "level": 1,
+        "aliases": [
+          "Chapter 11"
+        ]
+      },
+      {
+        "title": "Chapter 12",
+        "destination": 374,
+        "level": 1,
+        "aliases": [
+          "Chapter 12"
+        ]
+      },
+      {
+        "title": "Chapter 13",
+        "destination": 382,
+        "level": 1,
+        "aliases": [
+          "Chapter 13"
+        ]
+      },
+      {
+        "title": "Chapter 14",
+        "destination": 408,
+        "level": 1,
+        "aliases": [
+          "Chapter 14"
+        ]
+      },
+      {
+        "title": "Chapter 15",
+        "destination": 444,
+        "level": 1,
+        "aliases": [
+          "Chapter 15"
+        ]
+      },
+      {
+        "title": "Chapter 16",
+        "destination": 453,
+        "level": 1,
+        "aliases": [
+          "Chapter 16"
+        ]
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true
+  },
+  "font_update_20260926": {
+    "current_pdf_sha256": {
+      "john_calvin_calcom13_commentary_on_isaiah_volume_1_interior.pdf": "a2f56bcc9a9f3a8ab26cd2d96d5f570d80b99bc7f63161eaa61a22a366929109"
+    }
   }
 }

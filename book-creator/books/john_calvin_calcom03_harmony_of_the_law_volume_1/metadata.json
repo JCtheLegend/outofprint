@@ -21,9 +21,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 530,
   "body_page_count": 526,
-  "generated_contents_entries": 107,
-  "generated_contents_entries_in_pdf": 107,
-  "detected_heading_count": 107,
+  "generated_contents_entries": 88,
+  "generated_contents_entries_in_pdf": 88,
+  "detected_heading_count": 88,
   "interior_filename": "john_calvin_calcom03_harmony_of_the_law_volume_1_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom03_harmony_of_the_law_volume_1_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom03_harmony_of_the_law_volume_1_paperback_cover.pdf",
@@ -98,7 +98,8 @@
     "page_count": 530,
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
-    "body_text_matches_previous_approved_edition": true
+    "body_text_matches_previous_approved_edition": true,
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom03_approved\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -319,5 +320,754 @@
     "font_change_scope": "Palatino Linotype body and running headers",
     "special_glyph_fallback": null,
     "math_font": null
+  },
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "209592a6ab9432628ed1fcb3fe5ccdace653f59da28b987fa81f2b68320bdff5",
+    "after_sha256": "477d6bb53c80c3a2a306f59ed80e273d284fb389e80341c7af4ebb83adf3f3cf",
+    "page_count": 530,
+    "old_entries": 107,
+    "entry_count": 88,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2,
+      3,
+      4
+    ],
+    "entries": [
+      {
+        "title": "The Preface of John Calvin to the Four Last Books of Moses",
+        "destination": 5,
+        "level": 1,
+        "aliases": [
+          "The Preface of John Calvin to the Four Last Books of Moses"
+        ]
+      },
+      {
+        "title": "The Four Last Books of Moses, Arranged as a Harmony with Commentaries",
+        "destination": 9,
+        "level": 1,
+        "aliases": [
+          "The Four Last Books of Moses, Arranged as a Harmony with Commentaries"
+        ]
+      },
+      {
+        "title": "Exodus 1:1-22",
+        "destination": 9,
+        "level": 2,
+        "aliases": [
+          "Exodus 1"
+        ]
+      },
+      {
+        "title": "Exodus 2:1-25",
+        "destination": 29,
+        "level": 2,
+        "aliases": [
+          "Exodus 2"
+        ]
+      },
+      {
+        "title": "Exodus 3:1-22",
+        "destination": 50,
+        "level": 2,
+        "aliases": [
+          "Exodus 3"
+        ]
+      },
+      {
+        "title": "Exodus 4:1-31",
+        "destination": 74,
+        "level": 2,
+        "aliases": [
+          "Exodus 4"
+        ]
+      },
+      {
+        "title": "Exodus 5:1-23",
+        "destination": 103,
+        "level": 2,
+        "aliases": [
+          "Exodus 5"
+        ]
+      },
+      {
+        "title": "Exodus 6:1-30",
+        "destination": 117,
+        "level": 2,
+        "aliases": [
+          "Exodus 6"
+        ]
+      },
+      {
+        "title": "Exodus 7:1-25",
+        "destination": 132,
+        "level": 2,
+        "aliases": [
+          "Exodus 7"
+        ]
+      },
+      {
+        "title": "Exodus 8:1-32",
+        "destination": 152,
+        "level": 2,
+        "aliases": [
+          "Exodus 8"
+        ]
+      },
+      {
+        "title": "Exodus 9:1-35",
+        "destination": 172,
+        "level": 2,
+        "aliases": [
+          "Exodus 9"
+        ]
+      },
+      {
+        "title": "Exodus 10:1-29",
+        "destination": 190,
+        "level": 2,
+        "aliases": [
+          "Exodus 10"
+        ]
+      },
+      {
+        "title": "Exodus 11:1-10",
+        "destination": 210,
+        "level": 2,
+        "aliases": [
+          "Exodus 11"
+        ]
+      },
+      {
+        "title": "Exodus 12:21-42, 50-51",
+        "destination": 218,
+        "level": 2,
+        "aliases": [
+          "Exodus 12",
+          "Exodus 12:40-42, 50, 51"
+        ]
+      },
+      {
+        "title": "Exodus 13:17-22",
+        "destination": 232,
+        "level": 2,
+        "aliases": [
+          "Exodus 13"
+        ]
+      },
+      {
+        "title": "Exodus 14:1-31",
+        "destination": 238,
+        "level": 2,
+        "aliases": [
+          "Exodus 14"
+        ]
+      },
+      {
+        "title": "Exodus 15:1-27",
+        "destination": 256,
+        "level": 2,
+        "aliases": [
+          "Exodus 15"
+        ]
+      },
+      {
+        "title": "Exodus 16:1-36",
+        "destination": 270,
+        "level": 2,
+        "aliases": [
+          "Exodus 16"
+        ]
+      },
+      {
+        "title": "Exodus 17:1-16",
+        "destination": 289,
+        "level": 2,
+        "aliases": [
+          "Exodus 17"
+        ]
+      },
+      {
+        "title": "Exodus 18:1-27",
+        "destination": 300,
+        "level": 2,
+        "aliases": [
+          "Exodus 18"
+        ]
+      },
+      {
+        "title": "Deuteronomy 1:9-18",
+        "destination": 314,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 1"
+        ]
+      },
+      {
+        "title": "Exodus 19:1-25",
+        "destination": 319,
+        "level": 2,
+        "aliases": [
+          "Exodus 19"
+        ]
+      },
+      {
+        "title": "Exodus 20:18-21",
+        "destination": 338,
+        "level": 2,
+        "aliases": [
+          "Exodus 20"
+        ]
+      },
+      {
+        "title": "Deuteronomy 5:22-31",
+        "destination": 340,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 5"
+        ]
+      },
+      {
+        "title": "Preface to the Law",
+        "destination": 348,
+        "level": 1,
+        "aliases": [
+          "Preface to the Law"
+        ]
+      },
+      {
+        "title": "Exodus 20:1-2",
+        "destination": 348,
+        "level": 2,
+        "aliases": [
+          "Exodus 20"
+        ]
+      },
+      {
+        "title": "Deuteronomy 5:1-6, 4:20",
+        "destination": 349,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 5",
+          "Deuteronomy 5:1-6, 4:20"
+        ]
+      },
+      {
+        "title": "Leviticus 19:36-37",
+        "destination": 353,
+        "level": 2,
+        "aliases": [
+          "Leviticus 19",
+          "Leviticus 19:36, 37"
+        ]
+      },
+      {
+        "title": "Deuteronomy 5:32, 33",
+        "destination": 356,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 5:32, 33"
+        ]
+      },
+      {
+        "title": "Deuteronomy 4:1-2",
+        "destination": 358,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 4"
+        ]
+      },
+      {
+        "title": "Deuteronomy 7:6-8",
+        "destination": 367,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 7"
+        ]
+      },
+      {
+        "title": "Deuteronomy 27:9-10",
+        "destination": 372,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 27",
+          "Deuteronomy 27:9, 10"
+        ]
+      },
+      {
+        "title": "Deuteronomy 26:16-19",
+        "destination": 373,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 26"
+        ]
+      },
+      {
+        "title": "Deuteronomy 6:20-25",
+        "destination": 375,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 6"
+        ]
+      },
+      {
+        "title": "Numbers 15:37-41",
+        "destination": 378,
+        "level": 2,
+        "aliases": [
+          "Numbers 15"
+        ]
+      },
+      {
+        "title": "Deuteronomy 27:1-4, 8",
+        "destination": 384,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 27"
+        ]
+      },
+      {
+        "title": "Deuteronomy 31:10-13",
+        "destination": 386,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 31"
+        ]
+      },
+      {
+        "title": "Deuteronomy 6:10-12",
+        "destination": 390,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 6"
+        ]
+      },
+      {
+        "title": "Deuteronomy 9:1-6",
+        "destination": 392,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 9"
+        ]
+      },
+      {
+        "title": "Deuteronomy 10:21-22",
+        "destination": 397,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 10",
+          "Deuteronomy 10:21, 22"
+        ]
+      },
+      {
+        "title": "Deuteronomy 11:1-7",
+        "destination": 398,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 11"
+        ]
+      },
+      {
+        "title": "Deuteronomy 8:1-6",
+        "destination": 402,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 8"
+        ]
+      },
+      {
+        "title": "Deuteronomy 11:8-9",
+        "destination": 403,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 11",
+          "Deuteronomy 11:8, 9"
+        ]
+      },
+      {
+        "title": "Deuteronomy 29:2-9",
+        "destination": 407,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 29"
+        ]
+      },
+      {
+        "title": "Deuteronomy 8:7-10",
+        "destination": 410,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 8"
+        ]
+      },
+      {
+        "title": "Deuteronomy 11:10-12",
+        "destination": 412,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 11"
+        ]
+      },
+      {
+        "title": "Deuteronomy 6:1-3, 17-19",
+        "destination": 414,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 6",
+          "Deuteronomy 6:1-3, 17-19"
+        ]
+      },
+      {
+        "title": "Deuteronomy 8:11-18",
+        "destination": 416,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 8"
+        ]
+      },
+      {
+        "title": "Exodus 23:20-23, 25-31",
+        "destination": 422,
+        "level": 2,
+        "aliases": [
+          "Exodus 23",
+          "Exodus 23:20-23, 25-31"
+        ]
+      },
+      {
+        "title": "Deuteronomy 29:29",
+        "destination": 430,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 29"
+        ]
+      },
+      {
+        "title": "Deuteronomy 30:11-14",
+        "destination": 433,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 30"
+        ]
+      },
+      {
+        "title": "Leviticus 27:34",
+        "destination": 435,
+        "level": 2,
+        "aliases": [
+          "Leviticus 27"
+        ]
+      },
+      {
+        "title": "Deuteronomy 29:1",
+        "destination": 436,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 29"
+        ]
+      },
+      {
+        "title": "Deuteronomy 1:1-5",
+        "destination": 436,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 1"
+        ]
+      },
+      {
+        "title": "Deuteronomy 4:44-49",
+        "destination": 438,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 4"
+        ]
+      },
+      {
+        "title": "The Law",
+        "destination": 440,
+        "level": 1,
+        "aliases": [
+          "The Law"
+        ]
+      },
+      {
+        "title": "The First Commandment",
+        "destination": 440,
+        "level": 1,
+        "aliases": [
+          "The First Commandment"
+        ]
+      },
+      {
+        "title": "Exodus 20:3",
+        "destination": 440,
+        "level": 2,
+        "aliases": [
+          "Exodus 20"
+        ]
+      },
+      {
+        "title": "Deuteronomy 5:7",
+        "destination": 440,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 5"
+        ]
+      },
+      {
+        "title": "Passages Which Have Reference to the Exposition of This Commandment",
+        "destination": 443,
+        "level": 1,
+        "aliases": [
+          "Passages Which Have Reference to the Exposition of This Commandment"
+        ]
+      },
+      {
+        "title": "Deuteronomy 6:4, 13, 16",
+        "destination": 443,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 6:4, 13, 16"
+        ]
+      },
+      {
+        "title": "Leviticus 19:1-2",
+        "destination": 445,
+        "level": 2,
+        "aliases": [
+          "Leviticus 19",
+          "Leviticus 19:1, 2"
+        ]
+      },
+      {
+        "title": "Deuteronomy 6:14-15",
+        "destination": 446,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 6",
+          "Deuteronomy 6:14, 15"
+        ]
+      },
+      {
+        "title": "Deuteronomy 18:9-18",
+        "destination": 447,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 18"
+        ]
+      },
+      {
+        "title": "Deuteronomy 13:1-4",
+        "destination": 461,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 13"
+        ]
+      },
+      {
+        "title": "Deuteronomy 18:21-22",
+        "destination": 470,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 18",
+          "Deuteronomy 18:21, 22"
+        ]
+      },
+      {
+        "title": "Leviticus 18:21",
+        "destination": 472,
+        "level": 2,
+        "aliases": [
+          "Leviticus 18"
+        ]
+      },
+      {
+        "title": "Leviticus 19:26, 31",
+        "destination": 472,
+        "level": 2,
+        "aliases": [
+          "Leviticus 19",
+          "Leviticus 19:26, 31"
+        ]
+      },
+      {
+        "title": "Deuteronomy 12:29-32",
+        "destination": 473,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 12"
+        ]
+      },
+      {
+        "title": "Exodus 12:1-20, 24-27, 43-49",
+        "destination": 477,
+        "level": 2,
+        "aliases": [
+          "Exodus 12",
+          "Exodus 12:24-27, 43-49"
+        ]
+      },
+      {
+        "title": "Exodus 13:3-10",
+        "destination": 492,
+        "level": 2,
+        "aliases": [
+          "Exodus 13"
+        ]
+      },
+      {
+        "title": "Deuteronomy 16:3-4",
+        "destination": 496,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 16",
+          "Deuteronomy 16:3, 4"
+        ]
+      },
+      {
+        "title": "Exodus 23:18",
+        "destination": 496,
+        "level": 2,
+        "aliases": [
+          "Exodus 23"
+        ]
+      },
+      {
+        "title": "Exodus 34:25",
+        "destination": 497,
+        "level": 2,
+        "aliases": [
+          "Exodus 34"
+        ]
+      },
+      {
+        "title": "Numbers 9:1-14",
+        "destination": 498,
+        "level": 2,
+        "aliases": [
+          "Numbers 9"
+        ]
+      },
+      {
+        "title": "Exodus 13:1-2, 11-16",
+        "destination": 502,
+        "level": 2,
+        "aliases": [
+          "Exodus 13",
+          "Exodus 13:1, 2, 11-16"
+        ]
+      },
+      {
+        "title": "Exodus 22:29-30",
+        "destination": 503,
+        "level": 2,
+        "aliases": [
+          "Exodus 22",
+          "Exodus 22:29, 30"
+        ]
+      },
+      {
+        "title": "Exodus 34:19-20",
+        "destination": 505,
+        "level": 2,
+        "aliases": [
+          "Exodus 34",
+          "Exodus 34:19, 20"
+        ]
+      },
+      {
+        "title": "Leviticus 27:26",
+        "destination": 506,
+        "level": 2,
+        "aliases": [
+          "Leviticus 27"
+        ]
+      },
+      {
+        "title": "Deuteronomy 15:19-20",
+        "destination": 506,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 15",
+          "Deuteronomy 15:19, 20"
+        ]
+      },
+      {
+        "title": "Exodus 30:11-13, 15-16",
+        "destination": 507,
+        "level": 2,
+        "aliases": [
+          "Exodus 30",
+          "Exodus 30:11-13, 15, 16"
+        ]
+      },
+      {
+        "title": "Numbers 6:1-21",
+        "destination": 510,
+        "level": 2,
+        "aliases": [
+          "Numbers 6"
+        ]
+      },
+      {
+        "title": "Deuteronomy 26:1-11",
+        "destination": 519,
+        "level": 2,
+        "aliases": [
+          "Deuteronomy 26"
+        ]
+      },
+      {
+        "title": "Exodus 23:19",
+        "destination": 521,
+        "level": 2,
+        "aliases": [
+          "Exodus 23"
+        ]
+      },
+      {
+        "title": "Exodus 34:26",
+        "destination": 521,
+        "level": 2,
+        "aliases": [
+          "Exodus 34"
+        ]
+      },
+      {
+        "title": "Numbers 15:17-21",
+        "destination": 524,
+        "level": 2,
+        "aliases": [
+          "Numbers 15"
+        ]
+      },
+      {
+        "title": "Exodus 22:29",
+        "destination": 525,
+        "level": 2,
+        "aliases": [
+          "Exodus 22"
+        ]
+      },
+      {
+        "title": "Leviticus 12:1-8",
+        "destination": 526,
+        "level": 2,
+        "aliases": [
+          "Leviticus 12"
+        ]
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true
+  },
+  "font_update_20260926": {
+    "current_pdf_sha256": {
+      "john_calvin_calcom03_harmony_of_the_law_volume_1_interior.pdf": "477d6bb53c80c3a2a306f59ed80e273d284fb389e80341c7af4ebb83adf3f3cf"
+    }
   }
 }

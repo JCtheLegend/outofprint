@@ -83,7 +83,7 @@
     "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom28_approved\\verification.json",
     "rendered_body_character_count": 912210,
     "all_interior_pages_rendered": 488,
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom28_approved\\verification.json",
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom28_approved\\verification.json",
     "original_character_positions_preserved": false,
     "page_text_and_character_sequence_preserved": false,
     "original_editions_preserved_in_backup": true
@@ -377,5 +377,422 @@
       2,
       5
     ]
+  },
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "601ca0449b1dbd2eef43d2edb93d663b01a9a6871cd5fb9a2be6e7da7c5d0312",
+    "after_sha256": "fc8b693c6c3eadcdef051ec6d61c35e926235cdd5821de73bc05de3bb382a380",
+    "page_count": 488,
+    "old_entries": 49,
+    "entry_count": 49,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2,
+      3
+    ],
+    "entries": [
+      {
+        "title": "Preface to Jonah",
+        "destination": 4,
+        "level": 1,
+        "aliases": [
+          "Preface by the Author"
+        ]
+      },
+      {
+        "title": "Jonah 1",
+        "destination": 5,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Lecture Seventy-Second",
+        "destination": 5,
+        "level": 2,
+        "aliases": [
+          "Lecture Seventy-Second"
+        ]
+      },
+      {
+        "title": "Lecture Seventy-Third",
+        "destination": 18,
+        "level": 2,
+        "aliases": [
+          "Lecture Seventy-Third"
+        ]
+      },
+      {
+        "title": "Lecture Seventy-Fourth",
+        "destination": 31,
+        "level": 2,
+        "aliases": [
+          "Lecture Seventy-Fourth"
+        ]
+      },
+      {
+        "title": "Lecture Seventy-Fifth",
+        "destination": 44,
+        "level": 2,
+        "aliases": [
+          "Lecture Seventy-Fifth"
+        ]
+      },
+      {
+        "title": "Lecture Seventy-Sixth",
+        "destination": 58,
+        "level": 2,
+        "aliases": [
+          "Lecture Seventy-Sixth"
+        ]
+      },
+      {
+        "title": "Jonah 2",
+        "destination": 60,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Lecture Seventy-Seventh",
+        "destination": 73,
+        "level": 2,
+        "aliases": [
+          "Lecture Seventy-Seventh"
+        ]
+      },
+      {
+        "title": "Jonah 3",
+        "destination": 79,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Lecture Seventy-Eighth",
+        "destination": 88,
+        "level": 2,
+        "aliases": [
+          "Lecture Seventy-Eighth"
+        ]
+      },
+      {
+        "title": "Lecture Seventy-Ninth",
+        "destination": 102,
+        "level": 2,
+        "aliases": [
+          "Lecture Seventy-Ninth"
+        ]
+      },
+      {
+        "title": "Jonah 4",
+        "destination": 104,
+        "level": 1,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "Lecture Eightieth",
+        "destination": 120,
+        "level": 2,
+        "aliases": [
+          "Lecture Eightieth"
+        ]
+      },
+      {
+        "title": "Micah 1",
+        "destination": 133,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Lecture Eighty-First",
+        "destination": 133,
+        "level": 2,
+        "aliases": [
+          "Lecture Eighty-First"
+        ]
+      },
+      {
+        "title": "Lecture Eighty-Second",
+        "destination": 148,
+        "level": 2,
+        "aliases": [
+          "Lecture Eighty-Second"
+        ]
+      },
+      {
+        "title": "Lecture Eighty-Third",
+        "destination": 164,
+        "level": 2,
+        "aliases": [
+          "Lecture Eighty-Third"
+        ]
+      },
+      {
+        "title": "Micah 2",
+        "destination": 167,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Lecture Eighty-Fourth",
+        "destination": 180,
+        "level": 2,
+        "aliases": [
+          "Lecture Eighty-Fourth"
+        ]
+      },
+      {
+        "title": "Lecture Eighty-Fifth",
+        "destination": 194,
+        "level": 2,
+        "aliases": [
+          "Lecture Eighty-Fifth"
+        ]
+      },
+      {
+        "title": "Micah 3",
+        "destination": 199,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Lecture Eighty-Sixth",
+        "destination": 209,
+        "level": 2,
+        "aliases": [
+          "Lecture Eighty-Sixth"
+        ]
+      },
+      {
+        "title": "Lecture Eighty-Seventh",
+        "destination": 224,
+        "level": 2,
+        "aliases": [
+          "Lecture Eighty-Seventh"
+        ]
+      },
+      {
+        "title": "Micah 4",
+        "destination": 233,
+        "level": 1,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "Lecture Eighty-Eighth",
+        "destination": 240,
+        "level": 2,
+        "aliases": [
+          "Lecture Eighty-Eighth"
+        ]
+      },
+      {
+        "title": "Lecture Eighty-Ninth",
+        "destination": 253,
+        "level": 2,
+        "aliases": [
+          "Lecture Eighty-Ninth"
+        ]
+      },
+      {
+        "title": "Lecture Ninetieth",
+        "destination": 268,
+        "level": 2,
+        "aliases": [
+          "Lecture Ninetieth"
+        ]
+      },
+      {
+        "title": "Micah 5",
+        "destination": 276,
+        "level": 1,
+        "aliases": [
+          "Chapter 5"
+        ]
+      },
+      {
+        "title": "Lecture Ninety-First",
+        "destination": 283,
+        "level": 2,
+        "aliases": [
+          "Lecture Ninety-First"
+        ]
+      },
+      {
+        "title": "Lecture Ninety-Second",
+        "destination": 298,
+        "level": 2,
+        "aliases": [
+          "Lecture Ninety-Second"
+        ]
+      },
+      {
+        "title": "Micah 6",
+        "destination": 312,
+        "level": 1,
+        "aliases": [
+          "Chapter 6"
+        ]
+      },
+      {
+        "title": "Lecture Ninety-Third",
+        "destination": 312,
+        "level": 2,
+        "aliases": [
+          "Lecture Ninety-Third"
+        ]
+      },
+      {
+        "title": "Lecture Ninety-Fourth",
+        "destination": 325,
+        "level": 2,
+        "aliases": [
+          "Lecture Ninety-Fourth"
+        ]
+      },
+      {
+        "title": "Lecture Ninety-Fifth",
+        "destination": 340,
+        "level": 2,
+        "aliases": [
+          "Lecture Ninety-Fifth"
+        ]
+      },
+      {
+        "title": "Micah 7",
+        "destination": 344,
+        "level": 1,
+        "aliases": [
+          "Chapter 7"
+        ]
+      },
+      {
+        "title": "Lecture Ninety-Sixth",
+        "destination": 353,
+        "level": 2,
+        "aliases": [
+          "Lecture Ninety-Sixth"
+        ]
+      },
+      {
+        "title": "Lecture Ninety-Seventh",
+        "destination": 365,
+        "level": 2,
+        "aliases": [
+          "Lecture Ninety-Seventh"
+        ]
+      },
+      {
+        "title": "Lecture Ninety-Eighth",
+        "destination": 378,
+        "level": 2,
+        "aliases": [
+          "Lecture Ninety-Eighth"
+        ]
+      },
+      {
+        "title": "Nahum 1",
+        "destination": 396,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Lecture Ninety-Ninth",
+        "destination": 396,
+        "level": 2,
+        "aliases": [
+          "Lecture Ninety-Ninth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundredth",
+        "destination": 407,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundredth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and First",
+        "destination": 421,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and First"
+        ]
+      },
+      {
+        "title": "Nahum 2",
+        "destination": 431,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Second",
+        "destination": 434,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Second"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Third",
+        "destination": 447,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Third"
+        ]
+      },
+      {
+        "title": "Nahum 3",
+        "destination": 459,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Fourth",
+        "destination": 461,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Fourth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Fifth",
+        "destination": 475,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Fifth"
+        ]
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true
+  },
+  "font_update_20260926": {
+    "current_pdf_sha256": {
+      "john_calvin_calcom28_commentary_on_jonah_micah_nahum_interior.pdf": "fc8b693c6c3eadcdef051ec6d61c35e926235cdd5821de73bc05de3bb382a380"
+    }
   }
 }

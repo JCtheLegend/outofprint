@@ -14,9 +14,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 403,
   "body_page_count": 401,
-  "generated_contents_entries": 19,
-  "generated_contents_entries_in_pdf": 19,
-  "detected_heading_count": 19,
+  "generated_contents_entries": 18,
+  "generated_contents_entries_in_pdf": 18,
+  "detected_heading_count": 18,
   "interior_filename": "john_calvin_calcom40_commentary_on_corinthians_volume_2_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom40_commentary_on_corinthians_volume_2_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom40_commentary_on_corinthians_volume_2_paperback_cover.pdf",
@@ -83,7 +83,8 @@
     "original_character_positions_preserved": true,
     "page_boxes_and_bookmarks_preserved": true,
     "all_interior_pages_rendered_for_font_update": 403,
-    "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom40_commentary_on_corinthians_volume_2.json"
+    "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom40_commentary_on_corinthians_volume_2.json",
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom40_package\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -300,7 +301,7 @@
     "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom40_commentary_on_corinthians_volume_2.json",
     "current_pdf_sha256": {
       "john_calvin_calcom40_commentary_on_corinthians_volume_2_hardcover_cover.pdf": "b14b3776459f3edcf5ab45979a49e660ec6fce6f827bec51ee0cce91b52e4162",
-      "john_calvin_calcom40_commentary_on_corinthians_volume_2_interior.pdf": "40b6921b043fe6688a69ecb20660bfb04e926a96a40e92905c8d0b5e94b79d90",
+      "john_calvin_calcom40_commentary_on_corinthians_volume_2_interior.pdf": "6f24dc305aa53d59c699421f7690f6cb5f4a096bc37117538e57d6a970e3e163",
       "john_calvin_calcom40_commentary_on_corinthians_volume_2_paperback_cover.pdf": "354a1d4cfbdb6cbea3794ac026b1f0267c2fccd0f8f72178bdb37a73ec7af0c6"
     },
     "earlier_visual_review_and_dated_repair_evidence_retained": true
@@ -325,5 +326,168 @@
   "store_set_slug": "calvin-commentary-on-corinthians",
   "store_set_title": "Commentary on Corinthians",
   "store_set_genre": "Theology",
-  "store_set_description": "John Calvin's commentary on the First and Second Epistles to the Corinthians, in two volumes."
+  "store_set_description": "John Calvin's commentary on the First and Second Epistles to the Corinthians, in two volumes.",
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "40b6921b043fe6688a69ecb20660bfb04e926a96a40e92905c8d0b5e94b79d90",
+    "after_sha256": "6f24dc305aa53d59c699421f7690f6cb5f4a096bc37117538e57d6a970e3e163",
+    "page_count": 403,
+    "old_entries": 19,
+    "entry_count": 18,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2
+    ],
+    "entries": [
+      {
+        "title": "1 Corinthians 15",
+        "destination": 3,
+        "level": 1,
+        "aliases": [
+          "Chapter 15"
+        ]
+      },
+      {
+        "title": "1 Corinthians 16",
+        "destination": 67,
+        "level": 1,
+        "aliases": [
+          "Chapter 16"
+        ]
+      },
+      {
+        "title": "The Author's Dedicatory Epistle to Melchior Wolmar Rufus",
+        "destination": 85,
+        "level": 1,
+        "aliases": [
+          "The Author's Dedicatory Epistle to Melchior Wolmar Rufus"
+        ]
+      },
+      {
+        "title": "The Argument on the Second Epistle to the Corinthians",
+        "destination": 87,
+        "level": 1,
+        "aliases": [
+          "The Argument on the Second Epistle to the Corinthians"
+        ]
+      },
+      {
+        "title": "Commentary on the Second Epistle to the Corinthians",
+        "destination": 93,
+        "level": 1,
+        "aliases": [
+          "Commentary on the Second Epistle to the Corinthians"
+        ]
+      },
+      {
+        "title": "2 Corinthians 1",
+        "destination": 93,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "2 Corinthians 2",
+        "destination": 131,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "2 Corinthians 3",
+        "destination": 151,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "2 Corinthians 4",
+        "destination": 176,
+        "level": 1,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "2 Corinthians 5",
+        "destination": 204,
+        "level": 1,
+        "aliases": [
+          "Chapter 5"
+        ]
+      },
+      {
+        "title": "2 Corinthians 6",
+        "destination": 233,
+        "level": 1,
+        "aliases": [
+          "Chapter 6"
+        ]
+      },
+      {
+        "title": "2 Corinthians 7",
+        "destination": 254,
+        "level": 1,
+        "aliases": [
+          "Chapter 7"
+        ]
+      },
+      {
+        "title": "2 Corinthians 8",
+        "destination": 274,
+        "level": 1,
+        "aliases": [
+          "Chapter 8"
+        ]
+      },
+      {
+        "title": "2 Corinthians 9",
+        "destination": 296,
+        "level": 1,
+        "aliases": [
+          "Chapter 9"
+        ]
+      },
+      {
+        "title": "2 Corinthians 10",
+        "destination": 309,
+        "level": 1,
+        "aliases": [
+          "Chapter 10"
+        ]
+      },
+      {
+        "title": "2 Corinthians 11",
+        "destination": 332,
+        "level": 1,
+        "aliases": [
+          "Chapter 11"
+        ]
+      },
+      {
+        "title": "2 Corinthians 12",
+        "destination": 361,
+        "level": 1,
+        "aliases": [
+          "Chapter 12"
+        ]
+      },
+      {
+        "title": "2 Corinthians 13",
+        "destination": 388,
+        "level": 1,
+        "aliases": [
+          "Chapter 13"
+        ]
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true
+  }
 }

@@ -32,9 +32,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 619,
   "body_page_count": 615,
-  "generated_contents_entries": 90,
-  "generated_contents_entries_in_pdf": 90,
-  "detected_heading_count": 90,
+  "generated_contents_entries": 70,
+  "generated_contents_entries_in_pdf": 70,
+  "detected_heading_count": 70,
   "interior_filename": "john_calvin_calcom30_commentary_on_zechariah_malachi_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom30_commentary_on_zechariah_malachi_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom30_commentary_on_zechariah_malachi_paperback_cover.pdf",
@@ -108,7 +108,7 @@
     "full_body_text_preserved": true,
     "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom30_approved\\verification.json",
     "all_interior_pages_rendered": 619,
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom30_approved\\verification.json",
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom30_approved\\verification.json",
     "original_character_positions_preserved": false,
     "page_text_and_character_sequence_preserved": false,
     "original_editions_preserved_in_backup": true
@@ -389,5 +389,591 @@
       2,
       5
     ]
+  },
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "d8020507fd9b2d320fadcbb68c53bd97bd222558a68254a321eea2b98a13819f",
+    "after_sha256": "d504690db22301586bda375d6d86ff42856f63471e2f4745279690f661b48091",
+    "page_count": 619,
+    "old_entries": 90,
+    "entry_count": 70,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2,
+      3,
+      4
+    ],
+    "entries": [
+      {
+        "title": "The Commentaries on Zechariah",
+        "destination": 5,
+        "level": 1,
+        "aliases": [
+          "The Commentaries on Zechariah"
+        ]
+      },
+      {
+        "title": "Calvin's Preface to Zechariah",
+        "destination": 5,
+        "level": 1,
+        "aliases": [
+          "Calvin's Preface to Zechariah"
+        ]
+      },
+      {
+        "title": "Zechariah 1",
+        "destination": 6,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Thirty-Fourth",
+        "destination": 6,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Thirty-Fourth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Thirty-Fifth",
+        "destination": 17,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Thirty-Five"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Thirty-Sixth",
+        "destination": 29,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Thirty-Sixth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Thirty-Seventh",
+        "destination": 41,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Thirty-Seventh"
+        ]
+      },
+      {
+        "title": "Zechariah 2",
+        "destination": 48,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Thirty-Eighth",
+        "destination": 54,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Thirty-Eighth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Thirty-Ninth",
+        "destination": 67,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Thirty-Ninth"
+        ]
+      },
+      {
+        "title": "Zechariah 3",
+        "destination": 72,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Fortieth",
+        "destination": 80,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Fortieth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Forty-First",
+        "destination": 94,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Forty-First"
+        ]
+      },
+      {
+        "title": "Zechariah 4",
+        "destination": 96,
+        "level": 1,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Forty-Second",
+        "destination": 105,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Forty-Second"
+        ]
+      },
+      {
+        "title": "Zechariah 5",
+        "destination": 118,
+        "level": 1,
+        "aliases": [
+          "Chapter 5"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Forty-Third",
+        "destination": 118,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Forty-Third"
+        ]
+      },
+      {
+        "title": "Zechariah 6",
+        "destination": 132,
+        "level": 1,
+        "aliases": [
+          "Chapter 6"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Forty-Fourth",
+        "destination": 132,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Forty-Fourth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Forty-Fifth",
+        "destination": 144,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Forty-Fifth"
+        ]
+      },
+      {
+        "title": "Zechariah 7",
+        "destination": 157,
+        "level": 1,
+        "aliases": [
+          "Chapter 7"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Forty-Sixth",
+        "destination": 157,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Forty-Sixth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Forty-Seventh",
+        "destination": 170,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Forty-Seventh"
+        ]
+      },
+      {
+        "title": "Zechariah 8",
+        "destination": 182,
+        "level": 1,
+        "aliases": [
+          "Chapter 8"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Forty-Eighth",
+        "destination": 182,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Forty-Eighth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Forty-Ninth",
+        "destination": 194,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Forty-Ninth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Fiftieth",
+        "destination": 206,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Fiftieth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Fifty-First",
+        "destination": 216,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Fifty-First"
+        ]
+      },
+      {
+        "title": "Zechariah 9",
+        "destination": 224,
+        "level": 1,
+        "aliases": [
+          "Chapter 9"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Fifty-Second",
+        "destination": 229,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Fifty-Second"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Fifty-Third",
+        "destination": 242,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Fifty-Third"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Fifty-Fourth",
+        "destination": 255,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Fifty-Fourth"
+        ]
+      },
+      {
+        "title": "Zechariah 10",
+        "destination": 268,
+        "level": 1,
+        "aliases": [
+          "Chapter 10"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Fifty-Fifth",
+        "destination": 268,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Fifty-Fifth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Fifty-Sixth",
+        "destination": 280,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Fifty-Sixth"
+        ]
+      },
+      {
+        "title": "Zechariah 11",
+        "destination": 294,
+        "level": 1,
+        "aliases": [
+          "Chapter 11"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Fifty-Seventh",
+        "destination": 294,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Fifty-Seventh"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Fifty-Eighth",
+        "destination": 307,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Fifty-Eighth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Fifty-Ninth",
+        "destination": 320,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Fifty-Ninth"
+        ]
+      },
+      {
+        "title": "Zechariah 12",
+        "destination": 332,
+        "level": 1,
+        "aliases": [
+          "Chapter 12"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Sixtieth",
+        "destination": 332,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Sixtieth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Sixty-First",
+        "destination": 345,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Sixty-First"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Sixty-Second",
+        "destination": 357,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Sixty-Second"
+        ]
+      },
+      {
+        "title": "Zechariah 13",
+        "destination": 367,
+        "level": 1,
+        "aliases": [
+          "Chapter 13"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Sixty-Third",
+        "destination": 371,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Sixty-Third"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Sixty-Fourth",
+        "destination": 385,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Sixty-Fourth"
+        ]
+      },
+      {
+        "title": "Zechariah 14",
+        "destination": 397,
+        "level": 1,
+        "aliases": [
+          "Chapter 14"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Sixty-Fifth",
+        "destination": 397,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Sixty-Fifth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Sixty-Sixth",
+        "destination": 410,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Sixty-Sixth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Sixty-Seventh",
+        "destination": 423,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Sixty-Seventh"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Sixty-Eighth",
+        "destination": 435,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Sixty-Eighth"
+        ]
+      },
+      {
+        "title": "Calvin's Preface to Malachi",
+        "destination": 448,
+        "level": 1,
+        "aliases": [
+          "Calvin's Preface to Malachi"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Sixty-Ninth",
+        "destination": 448,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Sixty-Ninth"
+        ]
+      },
+      {
+        "title": "Malachi 1",
+        "destination": 450,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventieth",
+        "destination": 460,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventieth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventy-First",
+        "destination": 471,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventy-First"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventy-Second",
+        "destination": 485,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventy-Second"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventy-Third",
+        "destination": 498,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventy-Third"
+        ]
+      },
+      {
+        "title": "Malachi 2",
+        "destination": 500,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventy-Fourth",
+        "destination": 511,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventy-Fourth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventy-Fifth",
+        "destination": 523,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventy-Fifth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventy-Sixth",
+        "destination": 536,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventy-Sixth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventy-Seventh",
+        "destination": 549,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventy-Seventh"
+        ]
+      },
+      {
+        "title": "Malachi 3",
+        "destination": 553,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventy-Eighth",
+        "destination": 561,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventy-Eighth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventy-Ninth",
+        "destination": 574,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventy-Ninth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Eightieth",
+        "destination": 586,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Eightieth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Eighty-First",
+        "destination": 598,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Eighty-First"
+        ]
+      },
+      {
+        "title": "Malachi 4",
+        "destination": 601,
+        "level": 1,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Eighty-Second",
+        "destination": 609,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Eighty-Second"
+        ]
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true
+  },
+  "font_update_20260926": {
+    "current_pdf_sha256": {
+      "john_calvin_calcom30_commentary_on_zechariah_malachi_interior.pdf": "d504690db22301586bda375d6d86ff42856f63471e2f4745279690f661b48091"
+    }
   }
 }

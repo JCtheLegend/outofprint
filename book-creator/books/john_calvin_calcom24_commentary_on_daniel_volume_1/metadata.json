@@ -32,9 +32,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 430,
   "body_page_count": 426,
-  "generated_contents_entries": 104,
-  "generated_contents_entries_in_pdf": 104,
-  "detected_heading_count": 104,
+  "generated_contents_entries": 69,
+  "generated_contents_entries_in_pdf": 69,
+  "detected_heading_count": 69,
   "interior_filename": "john_calvin_calcom24_commentary_on_daniel_volume_1_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom24_commentary_on_daniel_volume_1_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom24_commentary_on_daniel_volume_1_paperback_cover.pdf",
@@ -109,7 +109,7 @@
     "full_body_text_preserved": true,
     "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom24_approved\\verification.json",
     "all_interior_pages_rendered": 430,
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom24_approved\\verification.json",
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom24_approved\\verification.json",
     "original_character_positions_preserved": false,
     "page_text_and_character_sequence_preserved": false,
     "original_editions_preserved_in_backup": true
@@ -392,5 +392,606 @@
       5,
       19
     ]
+  },
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "4dab8dad12997b7a9fc52d5f87537815adcb5d48987aea06cccc027a4d4a758e",
+    "after_sha256": "cc522f4dd7c4fabffecc1da0aaa00ed26962627fe8dafaa705458001b677ca74",
+    "page_count": 430,
+    "old_entries": 104,
+    "entry_count": 69,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2,
+      3,
+      4
+    ],
+    "entries": [
+      {
+        "title": "Dedicatory Epistle",
+        "destination": 5,
+        "level": 1,
+        "aliases": [
+          "Dedicatory Epistle"
+        ]
+      },
+      {
+        "title": "Commentaries on the Prophet Daniel",
+        "destination": 19,
+        "level": 1,
+        "aliases": [
+          "Commentaries on the Prophet Daniel"
+        ]
+      },
+      {
+        "title": "Lecture First",
+        "destination": 19,
+        "level": 2,
+        "aliases": [
+          "Lecture First"
+        ]
+      },
+      {
+        "title": "Daniel 1",
+        "destination": 25,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Lecture Second",
+        "destination": 32,
+        "level": 2,
+        "aliases": [
+          "Lecture Second"
+        ]
+      },
+      {
+        "title": "Lecture Third",
+        "destination": 43,
+        "level": 2,
+        "aliases": [
+          "Lecture Third"
+        ]
+      },
+      {
+        "title": "Lecture Fourth",
+        "destination": 55,
+        "level": 2,
+        "aliases": [
+          "Lecture Fourth"
+        ]
+      },
+      {
+        "title": "Daniel 2",
+        "destination": 59,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Lecture Fifth",
+        "destination": 66,
+        "level": 2,
+        "aliases": [
+          "Lecture Fifth"
+        ]
+      },
+      {
+        "title": "Lecture Sixth",
+        "destination": 77,
+        "level": 2,
+        "aliases": [
+          "Lecture Sixth"
+        ]
+      },
+      {
+        "title": "Lecture Seventh",
+        "destination": 87,
+        "level": 2,
+        "aliases": [
+          "Lecture Seventh"
+        ]
+      },
+      {
+        "title": "Lecture Eighth",
+        "destination": 98,
+        "level": 2,
+        "aliases": [
+          "Lecture Eighth"
+        ]
+      },
+      {
+        "title": "Lecture Ninth",
+        "destination": 108,
+        "level": 2,
+        "aliases": [
+          "Lecture Ninth"
+        ]
+      },
+      {
+        "title": "Lecture Tenth",
+        "destination": 118,
+        "level": 2,
+        "aliases": [
+          "Lecture Tenth"
+        ]
+      },
+      {
+        "title": "Lecture Eleventh",
+        "destination": 128,
+        "level": 2,
+        "aliases": [
+          "Lecture Eleventh"
+        ]
+      },
+      {
+        "title": "Lecture Twelfth",
+        "destination": 139,
+        "level": 2,
+        "aliases": [
+          "Lecture Twelfth"
+        ]
+      },
+      {
+        "title": "Daniel 3",
+        "destination": 148,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Lecture Thirteenth",
+        "destination": 150,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirteenth"
+        ]
+      },
+      {
+        "title": "Lecture Fourteenth",
+        "destination": 161,
+        "level": 2,
+        "aliases": [
+          "Lecture Fourteenth"
+        ]
+      },
+      {
+        "title": "Lecture Fifteenth",
+        "destination": 171,
+        "level": 2,
+        "aliases": [
+          "Lecture Fifteenth"
+        ]
+      },
+      {
+        "title": "Lecture Sixteenth",
+        "destination": 181,
+        "level": 2,
+        "aliases": [
+          "Lecture Sixteenth"
+        ]
+      },
+      {
+        "title": "Daniel 4",
+        "destination": 192,
+        "level": 1,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "Lecture Seventeenth",
+        "destination": 193,
+        "level": 2,
+        "aliases": [
+          "Lecture Seventeenth"
+        ]
+      },
+      {
+        "title": "Lecture Eighteenth",
+        "destination": 203,
+        "level": 2,
+        "aliases": [
+          "Lecture Eighteenth"
+        ]
+      },
+      {
+        "title": "Lecture Nineteenth",
+        "destination": 213,
+        "level": 2,
+        "aliases": [
+          "Lecture Nineteenth"
+        ]
+      },
+      {
+        "title": "Lecture Twentieth",
+        "destination": 224,
+        "level": 2,
+        "aliases": [
+          "Lecture Twentieth"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-First",
+        "destination": 235,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-First"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Second",
+        "destination": 246,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Second"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Third",
+        "destination": 257,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Third"
+        ]
+      },
+      {
+        "title": "Daniel 5",
+        "destination": 257,
+        "level": 1,
+        "aliases": [
+          "Chapter 5"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Fourth",
+        "destination": 268,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Fourth"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Fifth",
+        "destination": 279,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Fifth"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Sixth",
+        "destination": 289,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Sixth"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Seventh",
+        "destination": 299,
+        "level": 2,
+        "aliases": [
+          "Lecturer Twenty-Seventh"
+        ]
+      },
+      {
+        "title": "Daniel 6",
+        "destination": 302,
+        "level": 1,
+        "aliases": [
+          "Chapter 6"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Eighth",
+        "destination": 311,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Eighth"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Ninth",
+        "destination": 321,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Ninth"
+        ]
+      },
+      {
+        "title": "Lecture Thirtieth",
+        "destination": 333,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirtieth"
+        ]
+      },
+      {
+        "title": "Lecture Thirty-First",
+        "destination": 343,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirty-First"
+        ]
+      },
+      {
+        "title": "Dissertations",
+        "destination": 354,
+        "level": 1,
+        "aliases": [
+          "Dissertations"
+        ]
+      },
+      {
+        "title": "Dissertation 1: The Third Year of King Jehoiakim",
+        "destination": 354,
+        "level": 2,
+        "aliases": [
+          "Dissertation 1",
+          "The Third Year of King Jehoiakim"
+        ]
+      },
+      {
+        "title": "Dissertation 2: Nebuchadnezzar -- One King or Two?",
+        "destination": 357,
+        "level": 2,
+        "aliases": [
+          "Dissertation 2",
+          "Nebuchadnezzar -- One King or Two?"
+        ]
+      },
+      {
+        "title": "Dissertation 3: The Ancestors and Successors of Nebuchadnezzar",
+        "destination": 361,
+        "level": 2,
+        "aliases": [
+          "Dissertation 3",
+          "The Ancestors and Successors of Nebuchadnezzar"
+        ]
+      },
+      {
+        "title": "Dissertation 4: The Chaldeans",
+        "destination": 365,
+        "level": 2,
+        "aliases": [
+          "Dissertation 4",
+          "The Chaldeans"
+        ]
+      },
+      {
+        "title": "Dissertation 5",
+        "destination": 368,
+        "level": 2,
+        "aliases": [
+          "Dissertation 5"
+        ]
+      },
+      {
+        "title": "I. Ashpenaz, a Chief of the Eunuchs",
+        "destination": 368,
+        "level": 3,
+        "aliases": [
+          "I. Ashpenaz, a Chief of the Eunuchs"
+        ]
+      },
+      {
+        "title": "II. The Names of the Three Children",
+        "destination": 370,
+        "level": 3,
+        "aliases": [
+          "II. The Names of the Three Children"
+        ]
+      },
+      {
+        "title": "III. The Pulse",
+        "destination": 371,
+        "level": 3,
+        "aliases": [
+          "III. The Pulse"
+        ]
+      },
+      {
+        "title": "Dissertation 6: Coresh -- Was He Cyrus the Great?",
+        "destination": 372,
+        "level": 2,
+        "aliases": [
+          "Dissertation 6",
+          "Coresh -- Was He Cyrus the Great?"
+        ]
+      },
+      {
+        "title": "Dissertation 7: The King's Dream",
+        "destination": 377,
+        "level": 2,
+        "aliases": [
+          "Dissertation 7",
+          "The King's Dream"
+        ]
+      },
+      {
+        "title": "Dissertation 8: The Image and Its Interpretation",
+        "destination": 380,
+        "level": 2,
+        "aliases": [
+          "Dissertation 8",
+          "The Image and Its Interpretation"
+        ]
+      },
+      {
+        "title": "Dissertation 9: The Stone Cut Without Hands",
+        "destination": 383,
+        "level": 2,
+        "aliases": [
+          "Dissertation 9",
+          "The Stone Cut Without Hands"
+        ]
+      },
+      {
+        "title": "Dissertation 10: The Colossus at Dura",
+        "destination": 386,
+        "level": 2,
+        "aliases": [
+          "Dissertation 10",
+          "The Colossus at Dura"
+        ]
+      },
+      {
+        "title": "Dissertation 11: The Names of the Magistrates",
+        "destination": 389,
+        "level": 2,
+        "aliases": [
+          "Dissertation 11",
+          "The Names of the Magistrates"
+        ]
+      },
+      {
+        "title": "Dissertation 12: The Musical Instruments",
+        "destination": 391,
+        "level": 2,
+        "aliases": [
+          "Dissertation 12",
+          "The Musical Instruments"
+        ]
+      },
+      {
+        "title": "Dissertation 13: The Son of God",
+        "destination": 392,
+        "level": 2,
+        "aliases": [
+          "Dissertation 13",
+          "The Son of God"
+        ]
+      },
+      {
+        "title": "Dissertation 14: A Watcher",
+        "destination": 393,
+        "level": 2,
+        "aliases": [
+          "Dissertation 14",
+          "A Watcher"
+        ]
+      },
+      {
+        "title": "Dissertation 15: The Madness of Nebuchadnezzar",
+        "destination": 394,
+        "level": 2,
+        "aliases": [
+          "Dissertation 15",
+          "The Madness of Nebuchadnezzar"
+        ]
+      },
+      {
+        "title": "Dissertation 16: The Edict of Praise",
+        "destination": 397,
+        "level": 2,
+        "aliases": [
+          "Dissertation 16",
+          "The Edict of Praise"
+        ]
+      },
+      {
+        "title": "Dissertation 17: Belshazzar and the Feast",
+        "destination": 398,
+        "level": 2,
+        "aliases": [
+          "Dissertation 17",
+          "Belshazzar and the Feast"
+        ]
+      },
+      {
+        "title": "Dissertation 18: The Queen",
+        "destination": 401,
+        "level": 2,
+        "aliases": [
+          "Dissertation 18",
+          "The Queen"
+        ]
+      },
+      {
+        "title": "Dissertation 19: The Hand-writing on the Wall",
+        "destination": 402,
+        "level": 2,
+        "aliases": [
+          "Dissertation 19",
+          "The Hand-writing on the Wall"
+        ]
+      },
+      {
+        "title": "Dissertation 20: The Medes and Persians",
+        "destination": 403,
+        "level": 2,
+        "aliases": [
+          "Dissertation 20",
+          "The Medes and Persians"
+        ]
+      },
+      {
+        "title": "Dissertation 21: Darius the Mede",
+        "destination": 405,
+        "level": 2,
+        "aliases": [
+          "Dissertation 21",
+          "Darius the Mede"
+        ]
+      },
+      {
+        "title": "Dissertation 22: Capture of Babylon",
+        "destination": 410,
+        "level": 2,
+        "aliases": [
+          "Dissertation 22",
+          "Capture of Babylon"
+        ]
+      },
+      {
+        "title": "Dissertation 23: The Three Presidents",
+        "destination": 411,
+        "level": 2,
+        "aliases": [
+          "Dissertation 23",
+          "The Three Presidents"
+        ]
+      },
+      {
+        "title": "Dissertation 24: The King's Decease",
+        "destination": 415,
+        "level": 2,
+        "aliases": [
+          "Dissertation 24",
+          "The King's Decease"
+        ]
+      },
+      {
+        "title": "The Prolongation of Daniel's Life",
+        "destination": 418,
+        "level": 3,
+        "aliases": [
+          "The Prolongation of Daniel's Life"
+        ]
+      },
+      {
+        "title": "Concluding Remarks",
+        "destination": 419,
+        "level": 3,
+        "aliases": [
+          "Concluding Remarks"
+        ]
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true
+  },
+  "font_update_20260926": {
+    "current_pdf_sha256": {
+      "john_calvin_calcom24_commentary_on_daniel_volume_1_interior.pdf": "cc522f4dd7c4fabffecc1da0aaa00ed26962627fe8dafaa705458001b677ca74"
+    }
   }
 }

@@ -14,9 +14,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 538,
   "body_page_count": 535,
-  "generated_contents_entries": 56,
-  "generated_contents_entries_in_pdf": 56,
-  "detected_heading_count": 56,
+  "generated_contents_entries": 55,
+  "generated_contents_entries_in_pdf": 55,
+  "detected_heading_count": 55,
   "interior_filename": "john_calvin_calcom21_commentary_on_jeremiah_and_lamentations_volume_5_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom21_commentary_on_jeremiah_and_lamentations_volume_5_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom21_commentary_on_jeremiah_and_lamentations_volume_5_paperback_cover.pdf",
@@ -91,7 +91,8 @@
     "page_count": 538,
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
-    "body_text_matches_previous_approved_edition": true
+    "body_text_matches_previous_approved_edition": true,
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom21_approved\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -342,5 +343,470 @@
     "font_change_scope": "Palatino Linotype body and running headers",
     "special_glyph_fallback": null,
     "math_font": null
+  },
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "e5ecc8d3b604cbd9a31f03b679aa7b4b219a396993fb0994fcb11b59f7d6ca97",
+    "after_sha256": "da24123de64b86a0007d26d2b27195c48ac618f5499e4204006fb400eab4fb7b",
+    "page_count": 538,
+    "old_entries": 56,
+    "entry_count": 55,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2,
+      3
+    ],
+    "entries": [
+      {
+        "title": "Jeremiah 48",
+        "destination": 4,
+        "level": 1,
+        "aliases": [
+          "Chapter 48"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventieth",
+        "destination": 17,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventieth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventy-First",
+        "destination": 29,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventy-First"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventy-Second",
+        "destination": 42,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventy-Second"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventy-Third",
+        "destination": 55,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventy-Third"
+        ]
+      },
+      {
+        "title": "Jeremiah 49",
+        "destination": 56,
+        "level": 1,
+        "aliases": [
+          "Chapter 49"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventy-Fourth",
+        "destination": 67,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventy-Fourth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventy-Fifth",
+        "destination": 80,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventy-Fifth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventy-Sixth",
+        "destination": 91,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventy-Sixth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventy-Seventh",
+        "destination": 102,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventy-Seventh"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventy-Eighth",
+        "destination": 114,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventy-Eighth"
+        ]
+      },
+      {
+        "title": "Jeremiah 50",
+        "destination": 125,
+        "level": 1,
+        "aliases": [
+          "Chapter 50"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Seventy-Ninth",
+        "destination": 125,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Seventy-Ninth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Eightieth",
+        "destination": 137,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Eightieth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Eighty-First",
+        "destination": 149,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Eighty-First"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Eighty-Second",
+        "destination": 161,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Eighty-Second"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Eighty-Third",
+        "destination": 170,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Eighty-Third"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Eighty-Fourth",
+        "destination": 182,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Eighty-Fourth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Eighty-Fifth",
+        "destination": 194,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Eighty-Fifth"
+        ]
+      },
+      {
+        "title": "Jeremiah 51",
+        "destination": 202,
+        "level": 1,
+        "aliases": [
+          "Chapter 51"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Eighty-Sixth",
+        "destination": 207,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Eighty-Sixth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Eighty-Seventh",
+        "destination": 219,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Eighty-Seventh"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred Eighty-Eighth",
+        "destination": 230,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred Eighty-Eighth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred Eighty-Ninth",
+        "destination": 242,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred Eighty-Ninth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Ninetieth",
+        "destination": 254,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Ninetieth"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Ninety-First",
+        "destination": 268,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Ninety-First"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Ninety-Second",
+        "destination": 280,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Ninety-Second"
+        ]
+      },
+      {
+        "title": "Lecture One Hundred and Ninety-Third",
+        "destination": 293,
+        "level": 2,
+        "aliases": [
+          "Lecture One Hundred and Ninety-Third"
+        ]
+      },
+      {
+        "title": "Jeremiah 52",
+        "destination": 305,
+        "level": 1,
+        "aliases": [
+          "Chapter 52"
+        ]
+      },
+      {
+        "title": "Prelections of John Calvin",
+        "destination": 311,
+        "level": 1,
+        "aliases": [
+          "Prelections of John Calvin"
+        ]
+      },
+      {
+        "title": "The Lamentations of Jeremiah",
+        "destination": 311,
+        "level": 1,
+        "aliases": [
+          "The Lamentations of Jeremiah"
+        ]
+      },
+      {
+        "title": "Preface",
+        "destination": 311,
+        "level": 1,
+        "aliases": [
+          "Preface"
+        ]
+      },
+      {
+        "title": "Lamentations 1",
+        "destination": 314,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Lecture First",
+        "destination": 314,
+        "level": 2,
+        "aliases": [
+          "Lecture First"
+        ]
+      },
+      {
+        "title": "Lecture Second",
+        "destination": 324,
+        "level": 2,
+        "aliases": [
+          "Lecture Second"
+        ]
+      },
+      {
+        "title": "Lecture Third",
+        "destination": 337,
+        "level": 2,
+        "aliases": [
+          "Lecture Third"
+        ]
+      },
+      {
+        "title": "Lecture Fourth",
+        "destination": 350,
+        "level": 2,
+        "aliases": [
+          "Lecture Fourth"
+        ]
+      },
+      {
+        "title": "Lamentations 2",
+        "destination": 357,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Lecture Fifth",
+        "destination": 362,
+        "level": 2,
+        "aliases": [
+          "Lecture Fifth"
+        ]
+      },
+      {
+        "title": "Lecture Sixth",
+        "destination": 374,
+        "level": 2,
+        "aliases": [
+          "Lecture Sixth"
+        ]
+      },
+      {
+        "title": "Lecture Seventh",
+        "destination": 387,
+        "level": 2,
+        "aliases": [
+          "Lecture Seventh"
+        ]
+      },
+      {
+        "title": "Lecture Eighth",
+        "destination": 400,
+        "level": 2,
+        "aliases": [
+          "Lecture Eighth"
+        ]
+      },
+      {
+        "title": "Lamentations 3",
+        "destination": 404,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Lecture Ninth",
+        "destination": 412,
+        "level": 2,
+        "aliases": [
+          "Lecture Ninth"
+        ]
+      },
+      {
+        "title": "Lecture Tenth",
+        "destination": 425,
+        "level": 2,
+        "aliases": [
+          "Lecture Tenth"
+        ]
+      },
+      {
+        "title": "Lecture Eleventh",
+        "destination": 437,
+        "level": 2,
+        "aliases": [
+          "Lecture Eleventh"
+        ]
+      },
+      {
+        "title": "Lecture Twelfth",
+        "destination": 450,
+        "level": 2,
+        "aliases": [
+          "Lecture Twelfth"
+        ]
+      },
+      {
+        "title": "Lecture Thirteenth",
+        "destination": 462,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirteenth"
+        ]
+      },
+      {
+        "title": "Lamentations 4",
+        "destination": 474,
+        "level": 1,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "Lecture Fourteenth",
+        "destination": 474,
+        "level": 2,
+        "aliases": [
+          "Lecture Fourteenth"
+        ]
+      },
+      {
+        "title": "Lecture Fifteenth",
+        "destination": 487,
+        "level": 2,
+        "aliases": [
+          "Lecture Fifteenth"
+        ]
+      },
+      {
+        "title": "Lecture Sixteenth",
+        "destination": 500,
+        "level": 2,
+        "aliases": [
+          "Lecture Sixteenth"
+        ]
+      },
+      {
+        "title": "Lamentations 5",
+        "destination": 512,
+        "level": 1,
+        "aliases": [
+          "Chapter 5"
+        ]
+      },
+      {
+        "title": "Lecture Seventeenth",
+        "destination": 512,
+        "level": 2,
+        "aliases": [
+          "Lecture Seventeeth"
+        ]
+      },
+      {
+        "title": "Lecture Eighteenth",
+        "destination": 526,
+        "level": 2,
+        "aliases": [
+          "Lecture Eighteenth"
+        ]
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true
+  },
+  "font_update_20260926": {
+    "current_pdf_sha256": {
+      "john_calvin_calcom21_commentary_on_jeremiah_and_lamentations_volume_5_interior.pdf": "da24123de64b86a0007d26d2b27195c48ac618f5499e4204006fb400eab4fb7b"
+    }
   }
 }

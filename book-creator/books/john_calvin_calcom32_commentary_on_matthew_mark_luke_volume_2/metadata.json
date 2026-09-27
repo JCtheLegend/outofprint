@@ -14,9 +14,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 455,
   "body_page_count": 452,
-  "generated_contents_entries": 57,
-  "generated_contents_entries_in_pdf": 57,
-  "detected_heading_count": 57,
+  "generated_contents_entries": 53,
+  "generated_contents_entries_in_pdf": 53,
+  "detected_heading_count": 53,
   "interior_filename": "john_calvin_calcom32_commentary_on_matthew_mark_luke_volume_2_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom32_commentary_on_matthew_mark_luke_volume_2_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom32_commentary_on_matthew_mark_luke_volume_2_paperback_cover.pdf",
@@ -82,7 +82,8 @@
     "original_character_positions_preserved": true,
     "page_boxes_and_bookmarks_preserved": true,
     "all_interior_pages_rendered_for_font_update": 455,
-    "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom32_commentary_on_matthew_mark_luke_volume_2.json"
+    "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom32_commentary_on_matthew_mark_luke_volume_2.json",
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom32_package\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -303,7 +304,7 @@
     "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom32_commentary_on_matthew_mark_luke_volume_2.json",
     "current_pdf_sha256": {
       "john_calvin_calcom32_commentary_on_matthew_mark_luke_volume_2_hardcover_cover.pdf": "37b0f95535bb54d40775405721ffd405a19309c3f1158a277e020d5864805570",
-      "john_calvin_calcom32_commentary_on_matthew_mark_luke_volume_2_interior.pdf": "745e80fd1b61c038d14a1c68eee84cd6535ed55d0a4497752e3ffbfec4eb9741",
+      "john_calvin_calcom32_commentary_on_matthew_mark_luke_volume_2_interior.pdf": "2c362eaf4db6c75dbc90f17e56451b5f6f2cb8523af563bd3b4b5c4cd6ea29dd",
       "john_calvin_calcom32_commentary_on_matthew_mark_luke_volume_2_paperback_cover.pdf": "65d2edbce9b2a1e2c1dfbcca8831da4fc8d894a6fdd0cf9a3a8d753ec96e224e"
     },
     "earlier_visual_review_and_dated_repair_evidence_retained": true
@@ -328,5 +329,453 @@
   "store_set_slug": "calvin-commentary-on-matthew-mark-luke",
   "store_set_title": "Commentary on Matthew, Mark, Luke",
   "store_set_genre": "Theology",
-  "store_set_description": "Calvin's commentary on the three synoptic gospels, read side by side as a single harmony — the volumes restored so far."
+  "store_set_description": "Calvin's commentary on the three synoptic gospels, read side by side as a single harmony — the volumes restored so far.",
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "745e80fd1b61c038d14a1c68eee84cd6535ed55d0a4497752e3ffbfec4eb9741",
+    "after_sha256": "2c362eaf4db6c75dbc90f17e56451b5f6f2cb8523af563bd3b4b5c4cd6ea29dd",
+    "page_count": 455,
+    "old_entries": 57,
+    "entry_count": 53,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2,
+      3
+    ],
+    "entries": [
+      {
+        "title": "Commentary on a Harmony of the Evangelists",
+        "destination": 4,
+        "level": 1,
+        "aliases": [
+          "Commentary on a Harmony of the Evangelists"
+        ]
+      },
+      {
+        "title": "Mark 6:12-13; Luke 9:6",
+        "destination": 4,
+        "level": 1,
+        "aliases": [
+          "Mark 6:12-13; Luke 9:6"
+        ]
+      },
+      {
+        "title": "Matthew 11:1-6; Luke 7:18-23",
+        "destination": 6,
+        "level": 1,
+        "aliases": [
+          "Matthew 11:1-6; Luke 7:18-23"
+        ]
+      },
+      {
+        "title": "Matthew 11:7-15; Luke 7:24-28",
+        "destination": 11,
+        "level": 1,
+        "aliases": [
+          "Matthew 11:7-15; Luke 7:24-28"
+        ]
+      },
+      {
+        "title": "Matthew 11:25-30; Luke 10:21-22",
+        "destination": 34,
+        "level": 1,
+        "aliases": [
+          "Matthew 11:25-30; Luke 10:21-22"
+        ]
+      },
+      {
+        "title": "Matthew 12:1-8; Mark 2:23-28; Luke 6:1-5",
+        "destination": 44,
+        "level": 1,
+        "aliases": [
+          "Matthew 12:1-8; Mark 2:23-28; Luke 6:1-5"
+        ]
+      },
+      {
+        "title": "Matthew 12:9-13; Mark 3:1-5; Luke 6:6-10",
+        "destination": 51,
+        "level": 1,
+        "aliases": [
+          "Matthew 12:9-13; Mark 3:1-5; Luke 6:6-10"
+        ]
+      },
+      {
+        "title": "Matthew 12:14-21; Mark 3:6-12; Luke 6:11",
+        "destination": 54,
+        "level": 1,
+        "aliases": [
+          "Matthew 12:14-21; Mark 3:6-12; Luke 6:11"
+        ]
+      },
+      {
+        "title": "Matthew 12:22-24; Mark 3:20-22; Luke 11:14-15",
+        "destination": 62,
+        "level": 1,
+        "aliases": [
+          "Matthew 12:22-24; Mark 3:20-22; Luke 11:14-15"
+        ]
+      },
+      {
+        "title": "Matthew 12:25-32; Mark 3:23-30; Luke 11:16-23; 12:10",
+        "destination": 65,
+        "level": 1,
+        "aliases": [
+          "Matthew 12:25-32; Mark 3:23-30; Luke 11:16-23; 12:10"
+        ]
+      },
+      {
+        "title": "Matthew 12:33-37",
+        "destination": 77,
+        "level": 1,
+        "aliases": [
+          "Matthew 12:33-37"
+        ]
+      },
+      {
+        "title": "Matthew 12:43-45; Luke 11:24-26",
+        "destination": 82,
+        "level": 1,
+        "aliases": [
+          "Matthew 12:43-45; Luke 11:24-26"
+        ]
+      },
+      {
+        "title": "Matthew 12:38-42; Luke 11:16, 29-32",
+        "destination": 91,
+        "level": 1,
+        "aliases": [
+          "Matthew 12:38-42; Luke 11:16, 29-32",
+          "Luke 11:16, 29-32"
+        ]
+      },
+      {
+        "title": "Matthew 13:1-17; Mark 4:1-12, 24-25; Luke 8:1-10, 18; 10:23-24",
+        "destination": 96,
+        "level": 1,
+        "aliases": [
+          "Matthew 13:1-17; Mark 4:1-12, 24-25; Luke 8:1-10, 18; 10:23-24",
+          "Mark 4:1-12, 24-25",
+          "Luke 8:1-10, 18"
+        ]
+      },
+      {
+        "title": "Matthew 13:24-30, 36-43",
+        "destination": 117,
+        "level": 1,
+        "aliases": [
+          "Matthew 13:24-30, 36-43",
+          "Matthew 13:24-30, 36-43"
+        ]
+      },
+      {
+        "title": "Matthew 13:31-35; Mark 4:26-34; Luke 13:18-22",
+        "destination": 125,
+        "level": 1,
+        "aliases": [
+          "Matthew 13:31-35; Mark 4:26-34; Luke 13:18-22"
+        ]
+      },
+      {
+        "title": "Luke 7:36-50",
+        "destination": 134,
+        "level": 1,
+        "aliases": [
+          "Luke 7:36-50"
+        ]
+      },
+      {
+        "title": "Matthew 22:1-14; Luke 14:15-24",
+        "destination": 167,
+        "level": 1,
+        "aliases": [
+          "Matthew 22:1-14; Luke 14:15-24"
+        ]
+      },
+      {
+        "title": "Matthew 13:53-58; Mark 6:1-6",
+        "destination": 210,
+        "level": 1,
+        "aliases": [
+          "Matthew 13:53-58; Mark 6:1-6"
+        ]
+      },
+      {
+        "title": "Matthew 14:1-2; Mark 6:14-16; Luke 9:7-9",
+        "destination": 215,
+        "level": 1,
+        "aliases": [
+          "Matthew 14:1-2; Mark 6:14-16; Luke 9:7-9"
+        ]
+      },
+      {
+        "title": "Matthew 14:3-12; Mark 6:17-29",
+        "destination": 217,
+        "level": 1,
+        "aliases": [
+          "Matthew 14:3-12; Mark 6:17-29"
+        ]
+      },
+      {
+        "title": "Matthew 14:13-21; Mark 6:30-44; Luke 9:10-17",
+        "destination": 227,
+        "level": 1,
+        "aliases": [
+          "Matthew 14:13-21; Mark 6:30-44; Luke 9:10-17"
+        ]
+      },
+      {
+        "title": "Matthew 14:22-33; Mark 6:45-52",
+        "destination": 234,
+        "level": 1,
+        "aliases": [
+          "Matthew 14:22-33; Mark 6:45-52"
+        ]
+      },
+      {
+        "title": "Matthew 14:34-36; Mark 6:53-56",
+        "destination": 241,
+        "level": 1,
+        "aliases": [
+          "Matthew 14:34-36; Mark 6:53-56"
+        ]
+      },
+      {
+        "title": "Matthew 15:1-9; Mark 7:1-13",
+        "destination": 243,
+        "level": 1,
+        "aliases": [
+          "Matthew 15:1-9; Mark 7:1-13"
+        ]
+      },
+      {
+        "title": "Matthew 15:10-20; Mark 7:14-23; Luke 6:39",
+        "destination": 252,
+        "level": 1,
+        "aliases": [
+          "Matthew 15:10-20; Mark 7:14-23; Luke 6:39"
+        ]
+      },
+      {
+        "title": "Matthew 15:21-28; Mark 7:24-30",
+        "destination": 259,
+        "level": 1,
+        "aliases": [
+          "Matthew 15:21-28; Mark 7:24-30"
+        ]
+      },
+      {
+        "title": "Matthew 15:29-39; Mark 7:31-37, 8:1-10",
+        "destination": 267,
+        "level": 1,
+        "aliases": [
+          "Matthew 15:29-39; Mark 7:31-37, 8:1-10"
+        ]
+      },
+      {
+        "title": "Matthew 16:1-4; Mark 8:11-13; Luke 12:54-57",
+        "destination": 272,
+        "level": 1,
+        "aliases": [
+          "Matthew 16:1-4; Mark 8:11-13; Luke 12:54-57"
+        ]
+      },
+      {
+        "title": "Matthew 16:5-12; Mark 8:14-21; Luke 12:1",
+        "destination": 276,
+        "level": 1,
+        "aliases": [
+          "Matthew 16:5-12; Mark 8:14-21; Luke 12:1"
+        ]
+      },
+      {
+        "title": "Matthew 16:13-19; Mark 8:27-29; Luke 9:18-20",
+        "destination": 284,
+        "level": 1,
+        "aliases": [
+          "Matthew 16:13-19; Mark 8:27-29; Luke 9:18-20"
+        ]
+      },
+      {
+        "title": "Matthew 16:20-28; Mark 8:30-38, 9:1; Luke 9:21-27",
+        "destination": 295,
+        "level": 1,
+        "aliases": [
+          "Matthew 16:20-28; Mark 8:30-38, 9:1; Luke 9:21-27"
+        ]
+      },
+      {
+        "title": "Matthew 17:1-8; Mark 9:2-8; Luke 9:28-36",
+        "destination": 304,
+        "level": 1,
+        "aliases": [
+          "Matthew 17:1-8; Mark 9:2-8; Luke 9:28-36"
+        ]
+      },
+      {
+        "title": "Matthew 17:9-13; Mark 9:9-13; Luke 9:36",
+        "destination": 314,
+        "level": 1,
+        "aliases": [
+          "Matthew 17:9-13; Mark 9:9-13; Luke 9:36"
+        ]
+      },
+      {
+        "title": "Matthew 17:14-18; Mark 9:14-27; Luke 9:37-43",
+        "destination": 317,
+        "level": 1,
+        "aliases": [
+          "Matthew 17:14-18; Mark 9:14-27; Luke 9:37-43"
+        ]
+      },
+      {
+        "title": "Matthew 17:19-21; Mark 9:28-29; Luke 17:5-6",
+        "destination": 323,
+        "level": 1,
+        "aliases": [
+          "Matthew 17:19-21; Mark 9:28-29; Luke 17:5-6"
+        ]
+      },
+      {
+        "title": "Matthew 17:22-23, 18:1-5; Mark 9:30-37; Luke 9:43-48",
+        "destination": 325,
+        "level": 1,
+        "aliases": [
+          "Matthew 17:22-23, 18:1-5; Mark 9:30-37; Luke 9:43-48"
+        ]
+      },
+      {
+        "title": "Matthew 18:6-10; Mark 9:42-48; Luke 17:1-2",
+        "destination": 332,
+        "level": 1,
+        "aliases": [
+          "Matthew 18:6-10; Mark 9:42-48; Luke 17:1-2"
+        ]
+      },
+      {
+        "title": "Matthew 18:11-14; Luke 15:1-10",
+        "destination": 337,
+        "level": 1,
+        "aliases": [
+          "Matthew 18:11-14; Luke 15:1-10"
+        ]
+      },
+      {
+        "title": "Matthew 18:15-20; Luke 17:3",
+        "destination": 349,
+        "level": 1,
+        "aliases": [
+          "Matthew 18:15-20; Luke 17:3"
+        ]
+      },
+      {
+        "title": "Matthew 18:21-35 Luke 17:4",
+        "destination": 360,
+        "level": 1,
+        "aliases": [
+          "Matthew 18:21-35 Luke 17:4"
+        ]
+      },
+      {
+        "title": "Matthew 19:3-9; Mark 10:2-12",
+        "destination": 375,
+        "level": 1,
+        "aliases": [
+          "Matthew 19:3-9; Mark 10:2-12"
+        ]
+      },
+      {
+        "title": "Matthew 19:13-15; Mark 10:13-16; Luke 18:15-17",
+        "destination": 386,
+        "level": 1,
+        "aliases": [
+          "Matthew 19:13-15; Mark 10:13-16; Luke 18:15-17"
+        ]
+      },
+      {
+        "title": "Matthew 19:16-22; Mark 10:17-22; Luke 18:18-23",
+        "destination": 389,
+        "level": 1,
+        "aliases": [
+          "Matthew 19:16-22; Mark 10:17-22; Luke 18:18-23"
+        ]
+      },
+      {
+        "title": "Matthew 19:23-26; Mark 10:23-27; Luke 18:24-27",
+        "destination": 398,
+        "level": 1,
+        "aliases": [
+          "Matthew 19:23-26; Mark 10:23-27; Luke 18:24-27"
+        ]
+      },
+      {
+        "title": "Matthew 19:27-30; Mark 10:28-31; Luke 18:28-30; 22:28-30",
+        "destination": 401,
+        "level": 1,
+        "aliases": [
+          "Matthew 19:27-30; Mark 10:28-31; Luke 18:28-30; 22:28-30"
+        ]
+      },
+      {
+        "title": "Luke 18:28-30, 22:28-31",
+        "destination": 401,
+        "level": 1,
+        "aliases": [
+          "Luke 18:28-30, 22:28-31"
+        ]
+      },
+      {
+        "title": "Matthew 20:17-19; Mark 10:32-34; Luke 18:31-34",
+        "destination": 411,
+        "level": 1,
+        "aliases": [
+          "Matthew 20:17-19; Mark 10:32-34; Luke 18:31-34"
+        ]
+      },
+      {
+        "title": "Matthew 20:20-23; Mark 10:35-40",
+        "destination": 414,
+        "level": 1,
+        "aliases": [
+          "Matthew 20:20-23; Mark 10:35-40"
+        ]
+      },
+      {
+        "title": "Matthew 20:24-28; Mark 10:41-45; Luke 22:24-27",
+        "destination": 420,
+        "level": 1,
+        "aliases": [
+          "Matthew 20:24-28; Mark 10:41-45; Luke 22:24-27"
+        ]
+      },
+      {
+        "title": "Matthew 20:29-34; Mark 10:46-52; Luke 18:35-43",
+        "destination": 426,
+        "level": 1,
+        "aliases": [
+          "Matthew 20:29-34; Mark 10:46-52; Luke 18:35-43"
+        ]
+      },
+      {
+        "title": "Matthew 25:14-30; Luke 19:11-28",
+        "destination": 436,
+        "level": 1,
+        "aliases": [
+          "Matthew 25:14-30; Luke 19:11-28"
+        ]
+      },
+      {
+        "title": "Matthew 21:1-9; Mark 11:1-10; Luke 19:29-38",
+        "destination": 444,
+        "level": 1,
+        "aliases": [
+          "Matthew 21:1-9; Mark 11:1-10; Luke 19:29-38"
+        ]
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true
+  }
 }

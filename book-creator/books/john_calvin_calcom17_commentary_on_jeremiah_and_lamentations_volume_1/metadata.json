@@ -98,7 +98,8 @@
     "page_count": 511,
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
-    "body_text_matches_previous_approved_edition": true
+    "body_text_matches_previous_approved_edition": true,
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom17_approved\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -324,5 +325,430 @@
     "font_change_scope": "Palatino Linotype body and running headers",
     "special_glyph_fallback": null,
     "math_font": null
+  },
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "b5b47779eb673006ae99b593c3f62524c6894679790ebe459fd27e1c0d543d96",
+    "after_sha256": "935f5fedca456c5605180646d70985c7d19c98d1fde0fb15d012dc84f6751b79",
+    "page_count": 511,
+    "old_entries": 50,
+    "entry_count": 50,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2,
+      3
+    ],
+    "entries": [
+      {
+        "title": "To D. Frederick, Lord Palatine of the Rhine",
+        "destination": 4,
+        "level": 1,
+        "aliases": [
+          "To D. Frederick, Lord Palatine of the Rhine"
+        ]
+      },
+      {
+        "title": "The Printer to the Christian Reader",
+        "destination": 14,
+        "level": 1,
+        "aliases": [
+          "The Printer to the Christian Reader"
+        ]
+      },
+      {
+        "title": "Calvin's Preface to the Book of the Prophet Jeremiah",
+        "destination": 16,
+        "level": 1,
+        "aliases": [
+          "Calvin's Preface to the Book of the Prophet Jeremiah"
+        ]
+      },
+      {
+        "title": "Lecture First",
+        "destination": 16,
+        "level": 2,
+        "aliases": [
+          "Lecture First"
+        ]
+      },
+      {
+        "title": "Jeremiah 1",
+        "destination": 20,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Lecture Second",
+        "destination": 29,
+        "level": 2,
+        "aliases": [
+          "Lecture Second"
+        ]
+      },
+      {
+        "title": "Lecture Third",
+        "destination": 42,
+        "level": 2,
+        "aliases": [
+          "Lecture Third"
+        ]
+      },
+      {
+        "title": "Lecture Fourth",
+        "destination": 56,
+        "level": 2,
+        "aliases": [
+          "Lecture Fourth"
+        ]
+      },
+      {
+        "title": "Jeremiah 2",
+        "destination": 60,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Lecture Fifth",
+        "destination": 68,
+        "level": 2,
+        "aliases": [
+          "Lecture Fifth"
+        ]
+      },
+      {
+        "title": "Lecture Sixth",
+        "destination": 83,
+        "level": 2,
+        "aliases": [
+          "Lecture Sixth"
+        ]
+      },
+      {
+        "title": "Lecture Seventh",
+        "destination": 99,
+        "level": 2,
+        "aliases": [
+          "Lecture Seventh"
+        ]
+      },
+      {
+        "title": "Lecture Eighth",
+        "destination": 113,
+        "level": 2,
+        "aliases": [
+          "Lecture Eighth"
+        ]
+      },
+      {
+        "title": "Lecture Ninth",
+        "destination": 126,
+        "level": 2,
+        "aliases": [
+          "Lecture Ninth"
+        ]
+      },
+      {
+        "title": "Lecture Tenth",
+        "destination": 139,
+        "level": 2,
+        "aliases": [
+          "Lecture Tenth"
+        ]
+      },
+      {
+        "title": "Jeremiah 3",
+        "destination": 143,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Lecture Eleventh",
+        "destination": 153,
+        "level": 2,
+        "aliases": [
+          "Lecture Eleventh"
+        ]
+      },
+      {
+        "title": "Lecture Twelfth",
+        "destination": 165,
+        "level": 2,
+        "aliases": [
+          "Lecture Twelfth"
+        ]
+      },
+      {
+        "title": "Lecture Thirteenth",
+        "destination": 178,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirteenth"
+        ]
+      },
+      {
+        "title": "Jeremiah 4",
+        "destination": 191,
+        "level": 1,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "Lecture Fourteenth",
+        "destination": 191,
+        "level": 2,
+        "aliases": [
+          "Lecture Fourteenth"
+        ]
+      },
+      {
+        "title": "Lecture Fifteenth",
+        "destination": 203,
+        "level": 2,
+        "aliases": [
+          "Lecture Fifteenth"
+        ]
+      },
+      {
+        "title": "Lecture Sixteenth",
+        "destination": 216,
+        "level": 2,
+        "aliases": [
+          "Lecture Sixteenth"
+        ]
+      },
+      {
+        "title": "Lecture Seventeenth",
+        "destination": 229,
+        "level": 2,
+        "aliases": [
+          "Lecture Seventeenth"
+        ]
+      },
+      {
+        "title": "Lecture Eighteenth",
+        "destination": 243,
+        "level": 2,
+        "aliases": [
+          "Lecture Eighteenth"
+        ]
+      },
+      {
+        "title": "Jeremiah 5",
+        "destination": 246,
+        "level": 1,
+        "aliases": [
+          "Chapter 5"
+        ]
+      },
+      {
+        "title": "Lecture Nineteenth",
+        "destination": 257,
+        "level": 2,
+        "aliases": [
+          "Lecture Nineteenth"
+        ]
+      },
+      {
+        "title": "Lecture Twentieth",
+        "destination": 270,
+        "level": 2,
+        "aliases": [
+          "Lecture Twentieth"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-First",
+        "destination": 283,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-First"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Second",
+        "destination": 296,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Second"
+        ]
+      },
+      {
+        "title": "Jeremiah 6",
+        "destination": 309,
+        "level": 1,
+        "aliases": [
+          "Chapter 6"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Third",
+        "destination": 309,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Third"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Fourth",
+        "destination": 324,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Fourth"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Fifth",
+        "destination": 338,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Fifth"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Sixth",
+        "destination": 350,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Sixth"
+        ]
+      },
+      {
+        "title": "Jeremiah 7",
+        "destination": 360,
+        "level": 1,
+        "aliases": [
+          "Chapter 7"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Seventh",
+        "destination": 365,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Seventh"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Eighth",
+        "destination": 377,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Eighth"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Ninth",
+        "destination": 389,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Ninth"
+        ]
+      },
+      {
+        "title": "Lecture Thirtieth",
+        "destination": 400,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirtieth"
+        ]
+      },
+      {
+        "title": "Lecture Thirty-First",
+        "destination": 412,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirty-First"
+        ]
+      },
+      {
+        "title": "Jeremiah 8",
+        "destination": 419,
+        "level": 1,
+        "aliases": [
+          "Chapter 8"
+        ]
+      },
+      {
+        "title": "Lecture Thirty-Second",
+        "destination": 424,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirty-Second"
+        ]
+      },
+      {
+        "title": "Lecture Thirty-Third",
+        "destination": 436,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirty-Third"
+        ]
+      },
+      {
+        "title": "Lecture Thirty-Fourth",
+        "destination": 450,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirty-Fourth"
+        ]
+      },
+      {
+        "title": "Jeremiah 9",
+        "destination": 458,
+        "level": 1,
+        "aliases": [
+          "Chapter 9"
+        ]
+      },
+      {
+        "title": "Lecture Thirty-Fifth",
+        "destination": 463,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirty-Fifth"
+        ]
+      },
+      {
+        "title": "Lecture Thirty-Sixth",
+        "destination": 476,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirty-Sixth"
+        ]
+      },
+      {
+        "title": "Lecture Thirty-Seventh",
+        "destination": 488,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirty-Seventh"
+        ]
+      },
+      {
+        "title": "Lecture Thirty-Eighth",
+        "destination": 501,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirty-Eighth"
+        ]
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true
+  },
+  "font_update_20260926": {
+    "current_pdf_sha256": {
+      "john_calvin_calcom17_commentary_on_jeremiah_and_lamentations_volume_1_interior.pdf": "935f5fedca456c5605180646d70985c7d19c98d1fde0fb15d012dc84f6751b79"
+    }
   }
 }

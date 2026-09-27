@@ -21,9 +21,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 496,
   "body_page_count": 493,
-  "generated_contents_entries": 58,
-  "generated_contents_entries_in_pdf": 58,
-  "detected_heading_count": 58,
+  "generated_contents_entries": 57,
+  "generated_contents_entries_in_pdf": 57,
+  "detected_heading_count": 57,
   "interior_filename": "john_calvin_calcom26_commentary_on_hosea_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom26_commentary_on_hosea_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom26_commentary_on_hosea_paperback_cover.pdf",
@@ -98,7 +98,8 @@
     "page_count": 496,
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
-    "body_text_matches_previous_approved_edition": true
+    "body_text_matches_previous_approved_edition": true,
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom26_approved\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -316,5 +317,488 @@
     "font_change_scope": "Palatino Linotype body and running headers",
     "special_glyph_fallback": null,
     "math_font": null
+  },
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "0e8c2916804e1d602ef5cd62dc76174ff49938ab9c1ea5a153adae9ec9426f2f",
+    "after_sha256": "589397a0a279e7b5c74c68f7dc4a8de81316c98fcf68713c383a7bcf25e5a6e9",
+    "page_count": 496,
+    "old_entries": 58,
+    "entry_count": 57,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2,
+      3
+    ],
+    "entries": [
+      {
+        "title": "The Epistle Dedicatory to King Gustavus",
+        "destination": 4,
+        "level": 1,
+        "aliases": [
+          "The Epistle Dedicatory to King Gustavus"
+        ]
+      },
+      {
+        "title": "To the Christian Reader",
+        "destination": 8,
+        "level": 1,
+        "aliases": [
+          "To the Christian Reader"
+        ]
+      },
+      {
+        "title": "To Christian Readers: John Budaeus",
+        "destination": 10,
+        "level": 1,
+        "aliases": [
+          "To Christian Readers"
+        ]
+      },
+      {
+        "title": "To Christian Readers: John Crispin",
+        "destination": 15,
+        "level": 1,
+        "aliases": [
+          "To Christian Readers"
+        ]
+      },
+      {
+        "title": "The Argument on Hosea",
+        "destination": 17,
+        "level": 1,
+        "aliases": [
+          "The Argument on Hosea",
+          "The Argument"
+        ],
+        "source_anchor": "The Argument"
+      },
+      {
+        "title": "Hosea 1",
+        "destination": 20,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Lecture First",
+        "destination": 20,
+        "level": 2,
+        "aliases": [
+          "Lecture First"
+        ]
+      },
+      {
+        "title": "Lecture Second",
+        "destination": 30,
+        "level": 2,
+        "aliases": [
+          "Lecture Second"
+        ]
+      },
+      {
+        "title": "Lecture Third",
+        "destination": 43,
+        "level": 2,
+        "aliases": [
+          "Lecture Third"
+        ]
+      },
+      {
+        "title": "Hosea 2",
+        "destination": 55,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Lecture Fourth",
+        "destination": 55,
+        "level": 2,
+        "aliases": [
+          "Lecture Fourth"
+        ]
+      },
+      {
+        "title": "Lecture Fifth",
+        "destination": 68,
+        "level": 2,
+        "aliases": [
+          "Lecture Fifth"
+        ]
+      },
+      {
+        "title": "Lecture Sixth",
+        "destination": 80,
+        "level": 2,
+        "aliases": [
+          "Lecture Sixth"
+        ]
+      },
+      {
+        "title": "Lecture Seventh",
+        "destination": 93,
+        "level": 2,
+        "aliases": [
+          "Lecture Seventh"
+        ]
+      },
+      {
+        "title": "Hosea 3",
+        "destination": 105,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Lecture Eighth",
+        "destination": 105,
+        "level": 2,
+        "aliases": [
+          "Lecture Eighth"
+        ]
+      },
+      {
+        "title": "Lecture Ninth",
+        "destination": 116,
+        "level": 2,
+        "aliases": [
+          "Lecture Ninth"
+        ]
+      },
+      {
+        "title": "Hosea 4",
+        "destination": 120,
+        "level": 1,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "Lecture Tenth",
+        "destination": 128,
+        "level": 2,
+        "aliases": [
+          "Lecture Tenth"
+        ]
+      },
+      {
+        "title": "Lecture Eleventh",
+        "destination": 141,
+        "level": 2,
+        "aliases": [
+          "Lecture Eleventh"
+        ]
+      },
+      {
+        "title": "Lecture Twelfth",
+        "destination": 153,
+        "level": 2,
+        "aliases": [
+          "Lecture Twelfth"
+        ]
+      },
+      {
+        "title": "Lecture Thirteenth",
+        "destination": 164,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirteenth"
+        ]
+      },
+      {
+        "title": "Hosea 5",
+        "destination": 165,
+        "level": 1,
+        "aliases": [
+          "Chapter 5"
+        ]
+      },
+      {
+        "title": "Lecture Fourteenth",
+        "destination": 176,
+        "level": 2,
+        "aliases": [
+          "Lecture Fourteenth"
+        ]
+      },
+      {
+        "title": "Lecture Fifteenth",
+        "destination": 187,
+        "level": 2,
+        "aliases": [
+          "Lecture Fifteenth"
+        ]
+      },
+      {
+        "title": "Hosea 6",
+        "destination": 200,
+        "level": 1,
+        "aliases": [
+          "Chapter 6"
+        ]
+      },
+      {
+        "title": "Lecture Sixteenth",
+        "destination": 200,
+        "level": 2,
+        "aliases": [
+          "Lecture Sixteenth"
+        ]
+      },
+      {
+        "title": "Lecture Seventeenth",
+        "destination": 213,
+        "level": 2,
+        "aliases": [
+          "Lecture Seventeenth"
+        ]
+      },
+      {
+        "title": "Hosea 7",
+        "destination": 227,
+        "level": 1,
+        "aliases": [
+          "Chapter 7"
+        ]
+      },
+      {
+        "title": "Lecture Eighteenth",
+        "destination": 227,
+        "level": 2,
+        "aliases": [
+          "Lecture Eighteenth"
+        ]
+      },
+      {
+        "title": "Lecture Nineteenth",
+        "destination": 239,
+        "level": 2,
+        "aliases": [
+          "Lecture Nineteenth"
+        ]
+      },
+      {
+        "title": "Lecture Twentieth",
+        "destination": 252,
+        "level": 2,
+        "aliases": [
+          "Lecture Twentieth"
+        ]
+      },
+      {
+        "title": "Hosea 8",
+        "destination": 262,
+        "level": 1,
+        "aliases": [
+          "Chapter 8"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-First",
+        "destination": 265,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-First"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Second",
+        "destination": 278,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Second"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Third",
+        "destination": 291,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Third"
+        ]
+      },
+      {
+        "title": "Hosea 9",
+        "destination": 292,
+        "level": 1,
+        "aliases": [
+          "Chapter 9"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Fourth",
+        "destination": 305,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Fourth"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Fifth",
+        "destination": 317,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Fifth"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Sixth",
+        "destination": 330,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Sixth"
+        ]
+      },
+      {
+        "title": "Hosea 10",
+        "destination": 335,
+        "level": 1,
+        "aliases": [
+          "Chapter 10"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Seventh",
+        "destination": 345,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Seventh"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Eighth",
+        "destination": 358,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Eighth"
+        ]
+      },
+      {
+        "title": "Lecture Twenty-Ninth",
+        "destination": 371,
+        "level": 2,
+        "aliases": [
+          "Lecture Twenty-Ninth"
+        ]
+      },
+      {
+        "title": "Hosea 11",
+        "destination": 373,
+        "level": 1,
+        "aliases": [
+          "Chapter 11"
+        ]
+      },
+      {
+        "title": "Lecture Thirtieth",
+        "destination": 384,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirtieth"
+        ]
+      },
+      {
+        "title": "Lecture Thirty-First",
+        "destination": 397,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirty-First"
+        ]
+      },
+      {
+        "title": "Hosea 12",
+        "destination": 401,
+        "level": 1,
+        "aliases": [
+          "Chapter 12"
+        ]
+      },
+      {
+        "title": "Lecture Thirty-Second",
+        "destination": 411,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirty-Second"
+        ]
+      },
+      {
+        "title": "Lecture Thirty-Third",
+        "destination": 423,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirty-Third"
+        ]
+      },
+      {
+        "title": "Hosea 13",
+        "destination": 436,
+        "level": 1,
+        "aliases": [
+          "Chapter 13"
+        ]
+      },
+      {
+        "title": "Lecture Thirty-Fourth",
+        "destination": 436,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirty-Fourth"
+        ]
+      },
+      {
+        "title": "Lecture Thirty-Fifth",
+        "destination": 449,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirty-Fifth"
+        ]
+      },
+      {
+        "title": "Lecture Thirty-Sixth",
+        "destination": 463,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirty-Sixth"
+        ]
+      },
+      {
+        "title": "Hosea 14",
+        "destination": 473,
+        "level": 1,
+        "aliases": [
+          "Chapter 14"
+        ]
+      },
+      {
+        "title": "Lecture Thirty-Seventh",
+        "destination": 477,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirty-Seventh"
+        ]
+      },
+      {
+        "title": "Lecture Thirty-Eighth",
+        "destination": 488,
+        "level": 2,
+        "aliases": [
+          "Lecture Thirty-Eighth"
+        ]
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true
+  },
+  "font_update_20260926": {
+    "current_pdf_sha256": {
+      "john_calvin_calcom26_commentary_on_hosea_interior.pdf": "589397a0a279e7b5c74c68f7dc4a8de81316c98fcf68713c383a7bcf25e5a6e9"
+    }
   }
 }
