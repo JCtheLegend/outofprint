@@ -1,0 +1,829 @@
+{
+  "title": "Commentary on Philippians, Colossians, and Thessalonians",
+  "subtitle": "",
+  "authors": [
+    "John Calvin"
+  ],
+  "translator": "Calvin Translation Society",
+  "original_publication": "1548",
+  "reader_facing_imprint": "1548",
+  "publication_type": "single work",
+  "language": "English",
+  "volume": "",
+  "trim_size": "6 x 9 in",
+  "interior_standard": "prose-6x9-v1",
+  "page_count": 354,
+  "body_page_count": 352,
+  "generated_contents_entries": 24,
+  "generated_contents_entries_in_pdf": 24,
+  "detected_heading_count": 24,
+  "interior_filename": "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_interior.pdf",
+  "hardcover_cover_filename": "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_hardcover_cover.pdf",
+  "paperback_cover_filename": "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_paperback_cover.pdf",
+  "source_basis": {
+    "status": "Retained public-domain source with documented transcription corrections; uncertain readings preserved.",
+    "source_kind": "CCEL cached plain text",
+    "source_url": "https://www.ccel.org/ccel/calvin/calcom42/cache/calcom42.txt",
+    "source_note": "CCEL cached plain text. The Meeter Center describes these linked English editions as mid-nineteenth-century Calvin Translation Society translations.",
+    "local_source_file": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\source_texts\\john_calvin_plain_text\\calcom42.txt",
+    "source_translation_year": "mid-19th century translation; CCEL cache based on public-domain text"
+  },
+  "intentionally_omitted_material": [
+    "Project Gutenberg or CCEL boilerplate and license text",
+    "duplicate original title pages",
+    "source-site navigation and metadata",
+    "scan facsimile images and decorative images where present",
+    "Introductions, forewords, prefaces, and afterwords by editors, translators, publishers, or other contributors are omitted; author-written front matter is retained."
+  ],
+  "verification_facts": {
+    "interior_standard": "prose-6x9-v1",
+    "interior_standard_enforced": true,
+    "dominant_body_font": "Palatino Linotype Regula",
+    "dominant_body_size_pt": 11.0,
+    "interior_image_count": 0,
+    "quality_blockers": 0,
+    "quality_warnings": 3,
+    "quality_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom42\\repair_log.json",
+    "verification_sample_pages": [
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom42\\p0001.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom42\\p0003.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom42\\p0013.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom42\\p0082.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom42\\p0088.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom42\\p0094.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom42\\p0101.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom42\\p0157.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom42\\p0283.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom42\\p0355.png"
+    ],
+    "single_rebuilt_title_page": true,
+    "generated_contents_from_rebuilt_pdf": true,
+    "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
+    "running_header_standard_enforced": true,
+    "running_header_alignment": "centered",
+    "running_header_size_pt": 9.93,
+    "running_header_size_standard_enforced": true,
+    "running_header_left": "Commentary on Philippians, Colossians, and Thessalonians",
+    "running_header_right": "John Calvin",
+    "observed_running_header_sizes_pt": [
+      9.93
+    ],
+    "observed_left_running_heads": [
+      "Commentary on Philippians, Colossians, and Thessalonians"
+    ],
+    "observed_right_running_heads": [
+      "John Calvin"
+    ],
+    "every_rendered_body_character_matches_corrected_source": true,
+    "verified_body_characters": 648547,
+    "missing_glyph_count": 0,
+    "recovered_note_references": 10,
+    "transcription_repair_date": "2026-09-18",
+    "all_fonts_embedded_truetype": true,
+    "text_outlined": false,
+    "text_searchable": true,
+    "page_text_and_character_sequence_preserved": false,
+    "original_character_positions_preserved": false,
+    "page_boxes_and_bookmarks_preserved": true,
+    "all_interior_pages_rendered_for_font_update": 355,
+    "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians.json",
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom42_headings_20260927\\verification.json",
+    "capitalization_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom42_capitalization_20260927\\verification.json",
+    "full_body_text_preserved_except_joined_heading_case": true,
+    "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom42_headings_20260927\\verification.json"
+  },
+  "cover_facts": {
+    "paperback": {
+      "front_width_px": 1800,
+      "height_px": 2700,
+      "spine_width_px": 257,
+      "spine_thickness_in": 0.8572972972972972,
+      "era_label": "before 17th century",
+      "cover_color": "brown",
+      "band_color_rgb": [
+        88,
+        62,
+        39
+      ],
+      "accent_color_rgb": [
+        247,
+        198,
+        112
+      ],
+      "front_border_pattern": "renaissance_cartouche_approved",
+      "back_border_pattern": "renaissance_cartouche_approved",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 3857,
+      "output_width_px": 3933,
+      "output_height_px": 2776,
+      "cover_format": "paperback",
+      "front_panel_width_in": 6.0,
+      "cover_panel_height_in": 9.0,
+      "wrap_px": 0,
+      "wrap_in": 0,
+      "hinge_px": 0,
+      "hinge_in": 0,
+      "safety_margin_px": 84,
+      "safety_margin_in": 0.28,
+      "expand_with_bleed": true,
+      "bleed_px": 38,
+      "bleed_in": 0.125,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.45,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 2995,
+      "front_author_text": "John Calvin",
+      "hardcover_border_board_centered": false,
+      "hardcover_border_standard_inset_px": 0,
+      "hardcover_border_visual_inset_x_px": 0,
+      "hardcover_border_visual_inset_y_px": 0,
+      "hardcover_border_alignment_adjustment_x_px": 0,
+      "hardcover_border_alignment_adjustment_y_px": 0,
+      "hardcover_border_source_compensation_x_px": 0,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 0,
+      "hardcover_border_art_height_px": 0,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": false,
+      "hardcover_border_reference_texture_preserved": false,
+      "front_text_side_inset_in": 1.1,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        2425,
+        347,
+        3565,
+        2429
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 930,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 4,
+      "front_title_lines": [
+        "Commentary on",
+        "Philippians,",
+        "Colossians, and",
+        "Thessalonians"
+      ],
+      "front_title_max_line_width_px": 685.0,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15.0,
+      "spine_author_standard_pt": 15.0,
+      "spine_volume_standard_pt": 24.0,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": 0.06,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 0,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 0,
+      "spine_title_line_count": 2,
+      "spine_title_lines": [
+        "Commentary on Philippians,",
+        "Colossians, and Thessalonians"
+      ],
+      "spine_author_text": "Calvin",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 354
+    },
+    "hardcover": {
+      "front_width_px": 1838,
+      "height_px": 2775,
+      "spine_width_px": 319,
+      "spine_thickness_in": 1.0625,
+      "era_label": "before 17th century",
+      "cover_color": "brown",
+      "band_color_rgb": [
+        88,
+        62,
+        39
+      ],
+      "accent_color_rgb": [
+        247,
+        198,
+        112
+      ],
+      "front_border_pattern": "renaissance_cartouche_approved",
+      "back_border_pattern": "renaissance_cartouche_approved",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 3995,
+      "output_width_px": 4445,
+      "output_height_px": 3225,
+      "cover_format": "lulu_casewrap_hardcover",
+      "front_panel_width_in": 6.125,
+      "cover_panel_height_in": 9.25,
+      "wrap_px": 225,
+      "wrap_in": 0.75,
+      "hinge_px": 75,
+      "hinge_in": 0.25,
+      "safety_margin_px": 225,
+      "safety_margin_in": 0.75,
+      "expand_with_bleed": true,
+      "bleed_px": 225,
+      "bleed_in": 0,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.45,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 3301,
+      "front_author_text": "John Calvin",
+      "hardcover_border_board_centered": true,
+      "hardcover_border_standard_inset_px": 225,
+      "hardcover_border_visual_inset_x_px": 243,
+      "hardcover_border_visual_inset_y_px": 245,
+      "hardcover_border_alignment_adjustment_x_px": 18,
+      "hardcover_border_alignment_adjustment_y_px": 20,
+      "hardcover_border_source_compensation_x_px": -1,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 1353,
+      "hardcover_border_art_height_px": 2286,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": true,
+      "hardcover_border_reference_texture_preserved": true,
+      "front_text_side_inset_in": 1.35,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        2832,
+        675,
+        3770,
+        2550
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 728,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 4,
+      "front_title_lines": [
+        "Commentary on",
+        "Philippians,",
+        "Colossians, and",
+        "Thessalonians"
+      ],
+      "front_title_max_line_width_px": 685.0,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15.0,
+      "spine_author_standard_pt": 15.0,
+      "spine_volume_standard_pt": 24.0,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": 0.06,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 0,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 0,
+      "spine_title_line_count": 2,
+      "spine_title_lines": [
+        "Commentary on Philippians,",
+        "Colossians, and Thessalonians"
+      ],
+      "spine_author_text": "Calvin",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 354
+    }
+  },
+  "transcription_repairs": {
+    "date": "2026-09-18",
+    "audit": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\findings.json",
+    "ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom42\\repair_log.json",
+    "original_interior_sha256": "21831783b12a6bc1657a008720fa29806ad45e7f8f2ddc308194901eda359ed8",
+    "raw_source_unchanged": true
+  },
+  "body_font_family": "Palatino Linotype (embedded TrueType)",
+  "font_update_20260926": {
+    "font_format": "embedded TrueType",
+    "prose_font": "Palatino Linotype",
+    "specialized_glyphs_and_facsimiles_preserved": true,
+    "text_searchable": true,
+    "text_outlined": false,
+    "page_count_unchanged": true,
+    "cover_dimensions_unchanged": true,
+    "method": "Replace embedded font programs while preserving PDF character positions, widths, and Unicode mappings",
+    "original_package_backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\archive\\package_fonts_originals_20260926\\john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians",
+    "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians.json",
+    "current_pdf_sha256": {
+      "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_hardcover_cover.pdf": "de77e984d75f43e37a2f843a9b62dbe1a2f60098462242c482f2840198290219",
+      "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_interior.pdf": "742970e070f2519d1e38c19a5ffc6a816b82044fe6580340a5a4155ea320542d",
+      "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_paperback_cover.pdf": "a644e6a0ae5032b5a960eb568e66a6199b6105cf313133204059f6d0d86644f8"
+    },
+    "earlier_visual_review_and_dated_repair_evidence_retained": true
+  },
+  "contents_correction_20260927": {
+    "source_id": "calcom42",
+    "status": "verified",
+    "page_count": 355,
+    "changed_pages": [
+      2
+    ],
+    "old_entry_count": 28,
+    "entry_count": 24,
+    "entries": [
+      {
+        "title": "Introduction to Philippians",
+        "page": 3,
+        "level": 1
+      },
+      {
+        "title": "Commentary on Philippians",
+        "page": 5,
+        "level": 1
+      },
+      {
+        "title": "Philippians 1",
+        "page": 5,
+        "level": 1
+      },
+      {
+        "title": "Philippians 2",
+        "page": 35,
+        "level": 1
+      },
+      {
+        "title": "Philippians 3",
+        "page": 70,
+        "level": 1
+      },
+      {
+        "title": "Philippians 4",
+        "page": 97,
+        "level": 1
+      },
+      {
+        "title": "Introduction to Colossians",
+        "page": 118,
+        "level": 1
+      },
+      {
+        "title": "Colossians 1",
+        "page": 122,
+        "level": 1
+      },
+      {
+        "title": "Colossians 2",
+        "page": 158,
+        "level": 1
+      },
+      {
+        "title": "Colossians 3",
+        "page": 191,
+        "level": 1
+      },
+      {
+        "title": "Colossians 4",
+        "page": 210,
+        "level": 1
+      },
+      {
+        "title": "Dedication to Maturinus Corderius",
+        "page": 221,
+        "level": 1
+      },
+      {
+        "title": "Introduction to 1 Thessalonians",
+        "page": 223,
+        "level": 1
+      },
+      {
+        "title": "Commentary on 1 Thessalonians",
+        "page": 224,
+        "level": 1
+      },
+      {
+        "title": "1 Thessalonians 1",
+        "page": 224,
+        "level": 1
+      },
+      {
+        "title": "1 Thessalonians 2",
+        "page": 236,
+        "level": 1
+      },
+      {
+        "title": "1 Thessalonians 3",
+        "page": 254,
+        "level": 1
+      },
+      {
+        "title": "1 Thessalonians 4",
+        "page": 263,
+        "level": 1
+      },
+      {
+        "title": "1 Thessalonians 5",
+        "page": 276,
+        "level": 1
+      },
+      {
+        "title": "Dedication to Benedict Textor",
+        "page": 299,
+        "level": 1
+      },
+      {
+        "title": "Introduction to 2 Thessalonians",
+        "page": 301,
+        "level": 1
+      },
+      {
+        "title": "2 Thessalonians 1",
+        "page": 302,
+        "level": 1
+      },
+      {
+        "title": "2 Thessalonians 2",
+        "page": 314,
+        "level": 1
+      },
+      {
+        "title": "2 Thessalonians 3",
+        "page": 339,
+        "level": 1
+      }
+    ],
+    "removed_toc_entries": [
+      "End of the Commentary on the Epistle to the Philippians",
+      "End of the Commentary on the Epistle to the Colossians",
+      "1 Thessalonians 5:11--14",
+      "End of the Commentary on the First Epistle to the Thessalonians"
+    ],
+    "renamed_toc_entries": {
+      "The Argument on the Epistle of Paul to the Philippians": "Introduction to Philippians",
+      "Commentary on the Epistle of Paul to the Philippians": "Commentary on Philippians",
+      "The Argument on the Epistle of Paul to the Colossians": "Introduction to Colossians",
+      "The Author's Dedicatory Epistle to Maturinus Corderius": "Dedication to Maturinus Corderius",
+      "The Argument on the First Epistle to the Thessalonians": "Introduction to 1 Thessalonians",
+      "Commentary on the First Epistle of Paul to the Thessalonians": "Commentary on 1 Thessalonians",
+      "The Author's Dedicatory Epistle to Benedict Textor": "Dedication to Benedict Textor",
+      "The Argument on the Second Epistle to the Thessalonians": "Introduction to 2 Thessalonians"
+    },
+    "reviewer_sections_match_contents": true,
+    "chapter_links_disambiguated_by_epistle": true,
+    "all_other_pages_text_streams_and_rendering_unchanged": true,
+    "all_fonts_embedded_truetype": true,
+    "raw_source_unchanged": true,
+    "raw_source_sha256": "458cf17b441e95ce821e14fd6a9f1ba4cc696b651eabe8188c56d30e60db3cd8",
+    "before_sha256": "3d73b80c8c56537c67ee24337c4f8800c9147f9dbe1331acde4122fefd81f172",
+    "after_sha256": "efb8e3fffffe63ed6b362e9670d9ddb359ffcbb7c4f1323597504e8bb4264625",
+    "backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom42_contents_20260927\\original_interior.pdf",
+    "covers": [
+      {
+        "name": "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_hardcover_cover.pdf",
+        "sha256": "828912b5a6c9f44aae65b9cdf442fcc7211c64a37ed1a6efbc8f3110d775fd92"
+      },
+      {
+        "name": "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_paperback_cover.pdf",
+        "sha256": "5a7bc8b7618e6c91ea49a7a67b35f38d2831ad48d417bfdb0971e1c351639775"
+      }
+    ],
+    "visual_review_complete": true
+  },
+  "capitalization_correction_20260927": {
+    "source_id": "calcom42",
+    "status": "verified",
+    "page_count": 355,
+    "changed_pages": [
+      3,
+      4,
+      10,
+      26,
+      118,
+      135,
+      144,
+      179,
+      197,
+      221
+    ],
+    "corrections": {
+      "3": [
+        [
+          "PHILIPPI",
+          "Philippi"
+        ],
+        [
+          "PAUL",
+          "Paul"
+        ],
+        [
+          "LUKE",
+          "Luke"
+        ]
+      ],
+      "4": [
+        [
+          "PHILIPPIANS",
+          "Philippians"
+        ]
+      ],
+      "10": [
+        [
+          "CALVIN",
+          "Calvin"
+        ]
+      ],
+      "26": [
+        [
+          "Life of CALVIN.",
+          "Life of Calvin."
+        ],
+        [
+          "CALVIN'S Tracts",
+          "Calvin's Tracts"
+        ]
+      ],
+      "118": [
+        [
+          "PAUL",
+          "Paul"
+        ]
+      ],
+      "135": [
+        [
+          "IMAGE",
+          "image"
+        ]
+      ],
+      "144": [
+        [
+          "HIS",
+          "his"
+        ]
+      ],
+      "179": [
+        [
+          "IN",
+          "in"
+        ]
+      ],
+      "197": [
+        [
+          "SPIRIT",
+          "Spirit"
+        ],
+        [
+          "WALK",
+          "walk"
+        ]
+      ],
+      "221": [
+        [
+          "A MAN OF EMINENT PIETY AND LEARNING, PRINCIPAL",
+          "A man of eminent piety and learning, principal"
+        ],
+        [
+          "OF THE COLLEGE OF LAUSANNE.",
+          "of the College of Lausanne."
+        ]
+      ]
+    },
+    "all_other_pages_text_streams_and_rendering_unchanged": true,
+    "case_only_text_changes": true,
+    "all_fonts_embedded_truetype": true,
+    "raw_source_sha256": "458cf17b441e95ce821e14fd6a9f1ba4cc696b651eabe8188c56d30e60db3cd8",
+    "raw_source_unchanged": true,
+    "contents_unchanged": true,
+    "reviewer_sections_match_contents": true,
+    "retained_abbreviations_and_numerals": [
+      {
+        "page": 91,
+        "word": "MSS"
+      },
+      {
+        "page": 117,
+        "word": "MS"
+      },
+      {
+        "page": 166,
+        "word": "III"
+      }
+    ],
+    "before_sha256": "efb8e3fffffe63ed6b362e9670d9ddb359ffcbb7c4f1323597504e8bb4264625",
+    "after_sha256": "1be309b3e6043910f9c0a074cc8ba004562da81bae707654f75611a274c58cc5",
+    "backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom42_capitalization_20260927\\original_interior.pdf",
+    "covers": [
+      {
+        "name": "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_hardcover_cover.pdf",
+        "sha256": "828912b5a6c9f44aae65b9cdf442fcc7211c64a37ed1a6efbc8f3110d775fd92"
+      },
+      {
+        "name": "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_paperback_cover.pdf",
+        "sha256": "5a7bc8b7618e6c91ea49a7a67b35f38d2831ad48d417bfdb0971e1c351639775"
+      }
+    ],
+    "visual_review_complete": true
+  },
+  "layout_correction_20260927": {
+    "source_id": "calcom42",
+    "status": "verified",
+    "old_page_count": 355,
+    "page_count": 354,
+    "entry_count": 24,
+    "joined_title_count": 8,
+    "source_sha256": "458cf17b441e95ce821e14fd6a9f1ba4cc696b651eabe8188c56d30e60db3cd8",
+    "raw_source_unchanged": true,
+    "full_body_character_comparison_passed": true,
+    "body_characters": 648547,
+    "changes_limited_to_title_grouping_and_heading_case": true,
+    "all_interior_pages_rendered": 354,
+    "all_fonts_embedded_truetype": true,
+    "reviewer_sections_match_contents": true,
+    "covers_rebuilt_for_page_count": 354,
+    "entries": [
+      {
+        "title": "Introduction to Philippians",
+        "page": 3,
+        "level": 1
+      },
+      {
+        "title": "Commentary on Philippians",
+        "page": 5,
+        "level": 1
+      },
+      {
+        "title": "Philippians 1",
+        "page": 5,
+        "level": 1
+      },
+      {
+        "title": "Philippians 2",
+        "page": 34,
+        "level": 1
+      },
+      {
+        "title": "Philippians 3",
+        "page": 70,
+        "level": 1
+      },
+      {
+        "title": "Philippians 4",
+        "page": 97,
+        "level": 1
+      },
+      {
+        "title": "Introduction to Colossians",
+        "page": 117,
+        "level": 1
+      },
+      {
+        "title": "Colossians 1",
+        "page": 121,
+        "level": 1
+      },
+      {
+        "title": "Colossians 2",
+        "page": 157,
+        "level": 1
+      },
+      {
+        "title": "Colossians 3",
+        "page": 190,
+        "level": 1
+      },
+      {
+        "title": "Colossians 4",
+        "page": 209,
+        "level": 1
+      },
+      {
+        "title": "Dedication to Maturinus Corderius",
+        "page": 220,
+        "level": 1
+      },
+      {
+        "title": "Introduction to 1 Thessalonians",
+        "page": 222,
+        "level": 1
+      },
+      {
+        "title": "Commentary on 1 Thessalonians",
+        "page": 223,
+        "level": 1
+      },
+      {
+        "title": "1 Thessalonians 1",
+        "page": 223,
+        "level": 1
+      },
+      {
+        "title": "1 Thessalonians 2",
+        "page": 235,
+        "level": 1
+      },
+      {
+        "title": "1 Thessalonians 3",
+        "page": 253,
+        "level": 1
+      },
+      {
+        "title": "1 Thessalonians 4",
+        "page": 262,
+        "level": 1
+      },
+      {
+        "title": "1 Thessalonians 5",
+        "page": 275,
+        "level": 1
+      },
+      {
+        "title": "Dedication to Benedict Textor",
+        "page": 298,
+        "level": 1
+      },
+      {
+        "title": "Introduction to 2 Thessalonians",
+        "page": 300,
+        "level": 1
+      },
+      {
+        "title": "2 Thessalonians 1",
+        "page": 301,
+        "level": 1
+      },
+      {
+        "title": "2 Thessalonians 2",
+        "page": 313,
+        "level": 1
+      },
+      {
+        "title": "2 Thessalonians 3",
+        "page": 338,
+        "level": 1
+      }
+    ],
+    "opening_pages": [
+      3,
+      5,
+      117,
+      220,
+      222,
+      223,
+      298,
+      300
+    ],
+    "short_body_pages_for_visual_review": [],
+    "backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom42_headings_20260927\\original_package",
+    "before_sha256": "1be309b3e6043910f9c0a074cc8ba004562da81bae707654f75611a274c58cc5",
+    "files": [
+      {
+        "name": "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_interior.pdf",
+        "sha256": "742970e070f2519d1e38c19a5ffc6a816b82044fe6580340a5a4155ea320542d"
+      },
+      {
+        "name": "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_paperback_cover.pdf",
+        "sha256": "a644e6a0ae5032b5a960eb568e66a6199b6105cf313133204059f6d0d86644f8"
+      },
+      {
+        "name": "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_hardcover_cover.pdf",
+        "sha256": "de77e984d75f43e37a2f843a9b62dbe1a2f60098462242c482f2840198290219"
+      }
+    ],
+    "visual_review_complete": true,
+    "independent_poppler_pages": [
+      3,
+      220
+    ]
+  },
+  "review_approval": {
+    "status": "approved",
+    "approved_at": "2026-09-27T17:06:08-04:00",
+    "approved_by": "user",
+    "edition_title": "Commentary on Philippians, Colossians, and Thessalonians",
+    "approved_page_count": 354,
+    "approved_pdf_sha256": {
+      "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_hardcover_cover.pdf": "de77e984d75f43e37a2f843a9b62dbe1a2f60098462242c482f2840198290219",
+      "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_interior.pdf": "742970e070f2519d1e38c19a5ffc6a816b82044fe6580340a5a4155ea320542d",
+      "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_paperback_cover.pdf": "a644e6a0ae5032b5a960eb568e66a6199b6105cf313133204059f6d0d86644f8"
+    },
+    "github_update_authorized": true
+  },
+  "store_price_cents": 3000,
+  "store_featured": false,
+  "store_genre": "Theology",
+  "store_description": "John Calvin's commentaries on Paul's Epistles to the Philippians, Colossians, and Thessalonians."
+}
