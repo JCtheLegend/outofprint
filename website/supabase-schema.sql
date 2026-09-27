@@ -119,6 +119,20 @@ alter table books add column if not exists pod_package_id text;
 -- many were bought. One row per (session, book) still holds.
 alter table orders add column if not exists quantity int not null default 1;
 
+-- ============================================================
+-- Order tracking (Lulu status webhook)
+-- ============================================================
+
+-- Lulu pushes every print job status change to /api/webhooks/lulu, which
+-- records it against the order and emails the customer once it ships.
+alter table orders add column if not exists lulu_status text;
+alter table orders add column if not exists tracking_id text;
+alter table orders add column if not exists tracking_carrier text;
+alter table orders add column if not exists tracking_urls jsonb not null default '[]';
+alter table orders add column if not exists shipped_at timestamptz;
+
+create index if not exists orders_print_job_id_idx on orders (print_job_id);
+
 -- Indexes
 create index if not exists books_featured_idx on books (featured);
 create index if not exists orders_book_id_idx on orders (book_id);

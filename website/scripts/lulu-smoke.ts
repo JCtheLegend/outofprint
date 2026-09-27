@@ -5,6 +5,8 @@
  *   npm run lulu:test -- <book-slug> --submit   # actually create the print job
  *   npm run lulu:test -- --list                 # recent print jobs and their status
  *   npm run lulu:test -- --status <print-job-id>
+ *   npm run lulu:test -- --webhooks             # status-update subscriptions
+ *   npm run lulu:test -- --register-webhook https://site/api/webhooks/lulu
  *
  * The dry run resolves the book's signed PDF URLs and fetches them the way Lulu
  * will, so a private bucket, a missing cover, or an expired key shows up here
@@ -16,6 +18,7 @@
 import { supabaseAdmin, type Book } from "@/lib/supabase";
 import { signedFileUrl } from "@/lib/storage";
 import { createPrintJob, getPrintJobStatus, listPrintJobs } from "@/lib/print";
+import { createLuluWebhook, listLuluWebhooks, testLuluWebhook } from "@/lib/lulu";
 
 // Lulu's own documentation example address, good enough for a sandbox job.
 const TEST_SHIPPING = {
@@ -60,6 +63,34 @@ async function main() {
       );
     }
     if (count === 0) console.log("  (none — nothing has been submitted from this account yet)");
+    return;
+  }
+
+  if (args.includes("--webhooks")) {
+    const { results } = await listLuluWebhooks();
+    console.log(`\n${results.length} webhook subscription(s):`);
+    for (const hook of results) {
+      console.log(`  ${hook.is_active ? "active  " : "INACTIVE"}  ${hook.url}  [${hook.topics.join(", ")}]`);
+    }
+    if (results.length === 0) {
+      console.log("  (none — status updates are not being delivered anywhere)");
+    }
+    return;
+  }
+
+  const registerIndex = args.indexOf("--register-webhook");
+  if (registerIndex !== -1) {
+    const url = args[registerIndex + 1];
+    if (!url) {
+      console.error("Usage: npm run lulu:test -- --register-webhook <url>");
+      process.exit(1);
+    }
+    const hook = await createLuluWebhook(url);
+    console.log(`\nSubscribed ${hook.url} to ${hook.topics.join(", ")} (id ${hook.id})`);
+    if (args.includes("--test")) {
+      await testLuluWebhook(hook.id);
+      console.log("Test submission sent — check the endpoint's logs.");
+    }
     return;
   }
 

@@ -124,6 +124,29 @@ to work against the sandbox, which never reaches a real printer.
   a book up front (`check_interior_fonts`), so a rejection surfaces at upload
   time instead. `--skip-font-check` overrides it.
 
+## Order tracking
+
+Lulu is a B2B printer: print jobs live in our developer portal behind our login,
+and there is no page a customer can be linked to. So the customer-facing view is
+ours — `/orders/<order id>`, linked from every confirmation email.
+
+- The order id is an unguessable UUID and is the only key, like a Shopify order
+  status link. The page shows the books, their stage and any tracking links, and
+  deliberately never the shipping address or email.
+- It shows every row sharing the order's `stripe_session_id`, so one link covers
+  a whole cart.
+- `/api/webhooks/lulu` receives `PRINT_JOB_STATUS_CHANGED`. Lulu signs the raw
+  body with HMAC-SHA256 keyed on `LULU_CLIENT_SECRET` and sends the hex digest in
+  `Lulu-HMAC-SHA256`; `verifyLuluWebhook` checks it with WebCrypto.
+- The route maps Lulu's status onto `orders.status`, stores tracking on the row
+  whose id matches the line item's `external_id`, and emails the carrier link on
+  the transition into `shipped` — only that transition, so redeliveries are quiet.
+- Never fail the route for anything but a real error: Lulu retries five times and
+  then deactivates the subscription.
+- `npm run lulu:test -- --webhooks` lists subscriptions;
+  `--register-webhook <url>` creates one (add `--test` for a dummy submission).
+  Subscriptions are per environment, like Stripe's.
+
 ## Conventions
 
 - Server components fetch data; `"use client"` is reserved for interaction

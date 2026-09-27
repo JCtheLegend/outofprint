@@ -93,6 +93,28 @@ export type LuluPrintJob = {
   }>;
 };
 
+/** A line item as it comes back on a print job, including shipment details. */
+export type LuluLineItemStatus = {
+  id?: number;
+  external_id?: string;
+  title?: string;
+  status?: {
+    name: string;
+    messages?: {
+      tracking_id?: string;
+      tracking_urls?: string[] | string;
+      carrier_name?: string;
+      [key: string]: unknown;
+    };
+  };
+};
+
+/** Payload Lulu posts for the PRINT_JOB_STATUS_CHANGED topic. */
+export type LuluWebhookPayload = {
+  topic: string;
+  data: LuluPrintJob & { line_items?: LuluLineItemStatus[] };
+};
+
 export class LuluApiError extends Error {
   constructor(
     message: string,
@@ -200,6 +222,68 @@ export function listLuluPrintJobs(pageSize = 10): Promise<{
     exclude_line_items: "false",
   });
   return luluFetch(`/print-jobs/?${query}`);
+}
+
+/**
+ * Verify a webhook Lulu sent us.
+ *
+ * Lulu signs the raw body with HMAC-SHA256 keyed on the API secret and sends
+ * the hex digest in `Lulu-HMAC-SHA256`. WebCrypto rather than node:crypto so
+ * this works in the Workers runtime.
+ */
+export async function verifyLuluWebhook(
+  rawBody: string,
+  signature: string | null
+): Promise<boolean> {
+  const secret = process.env.LULU_CLIENT_SECRET;
+  if (!secret || !signature) return false;
+
+  const key = await crypto.subtle.importKey(
+    "raw",
+    new TextEncoder().encode(secret),
+    { name: "HMAC", hash: "SHA-256" },
+    false,
+    ["sign"]
+  );
+  const digest = await crypto.subtle.sign("HMAC", key, new TextEncoder().encode(rawBody));
+  const expected = Array.from(new Uint8Array(digest))
+    .map((byte) => byte.toString(16).padStart(2, "0"))
+    .join("");
+
+  // Constant-time-ish compare: same length, no early exit on first difference
+  const given = signature.trim().toLowerCase();
+  if (given.length !== expected.length) return false;
+  let mismatch = 0;
+  for (let i = 0; i < expected.length; i++) {
+    mismatch |= expected.charCodeAt(i) ^ given.charCodeAt(i);
+  }
+  return mismatch === 0;
+}
+
+export function listLuluWebhooks(): Promise<{
+  results: Array<{ id: string; url: string; topics: string[]; is_active: boolean }>;
+}> {
+  return luluFetch("/webhooks/");
+}
+
+export function createLuluWebhook(url: string): Promise<{
+  id: string;
+  url: string;
+  topics: string[];
+  is_active: boolean;
+}> {
+  return luluFetch("/webhooks/", {
+    method: "POST",
+    body: JSON.stringify({ url, topics: ["PRINT_JOB_STATUS_CHANGED"] }),
+  });
+}
+
+/** Ask Lulu to post dummy data of a topic at the subscribed URL. */
+export function testLuluWebhook(webhookId: string): Promise<unknown> {
+  return luluFetch(`/webhooks/${webhookId}/test-submission/PRINT_JOB_STATUS_CHANGED/`, {
+    method: "POST",
+    body: "{}",
+  });
 }
 
 export function getLuluPrintJobStatus(

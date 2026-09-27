@@ -21,11 +21,19 @@ export async function sendSubmissionConfirmation(
   });
 }
 
+function trackLine(orderUrl?: string): string {
+  return orderUrl
+    ? `<p><a href="${orderUrl}">Follow your order here</a> — we update this page as your
+       book is printed and shipped.</p>`
+    : "";
+}
+
 export async function sendOrderConfirmation(
   to: string,
   name: string,
   bookTitle: string,
-  orderId: string
+  orderId: string,
+  orderUrl?: string
 ) {
   await resend.emails.send({
     from: FROM,
@@ -35,6 +43,7 @@ export async function sendOrderConfirmation(
       <p>Hi ${name},</p>
       <p>Your order for <strong>${bookTitle}</strong> has been confirmed (order #${orderId}).
       We're sending it to the printer now and will email you tracking information once it ships.</p>
+      ${trackLine(orderUrl)}
       <p>— The Out of Print Press Team</p>
     `,
   });
@@ -45,7 +54,8 @@ export async function sendSetOrderConfirmation(
   name: string,
   setTitle: string,
   volumeTitles: string[],
-  orderId: string
+  orderId: string,
+  orderUrl?: string
 ) {
   const volumes = volumeTitles.map((t) => `<li>${t}</li>`).join("");
   await resend.emails.send({
@@ -59,6 +69,7 @@ export async function sendSetOrderConfirmation(
       <ul>${volumes}</ul>
       <p>Each volume is printed individually, so they may ship separately — we'll email you
       tracking information for each as it leaves the printer.</p>
+      ${trackLine(orderUrl)}
       <p>— The Out of Print Press Team</p>
     `,
   });
@@ -94,7 +105,8 @@ export async function sendCartOrderConfirmation(
   to: string,
   name: string,
   lines: { title: string; quantity: number }[],
-  orderId: string
+  orderId: string,
+  orderUrl?: string
 ) {
   const items = lines
     .map((line) => `<li>${line.title}${line.quantity > 1 ? ` &times; ${line.quantity}` : ""}</li>`)
@@ -111,25 +123,46 @@ export async function sendCartOrderConfirmation(
       <ul>${items}</ul>
       <p>Everything is being printed to order and ships together where possible —
       we'll email you tracking information as it leaves the printer.</p>
+      ${trackLine(orderUrl)}
       <p>— The Out of Print Press Team</p>
     `,
   });
 }
 
-export async function sendShippingNotification(
+/**
+ * Sent once Lulu reports a shipment, with the carrier's own tracking links.
+ * Lulu has no customer-facing order page, so the "your order" link points at
+ * our own status page instead.
+ */
+export async function sendShipmentNotification(
   to: string,
   name: string,
-  bookTitle: string,
-  trackingUrl: string
+  lines: { title: string; quantity: number }[],
+  trackingUrls: string[],
+  carrier: string | null,
+  orderUrl?: string
 ) {
+  const items = lines
+    .map((line) => `<li>${line.title}${line.quantity > 1 ? ` &times; ${line.quantity}` : ""}</li>`)
+    .join("");
+
+  const tracking = trackingUrls.length
+    ? `<p>${carrier ? `${carrier} tracking` : "Tracking"}:
+       ${trackingUrls.map((url) => `<a href="${url}">${url}</a>`).join("<br/>")}</p>`
+    : `<p>Tracking details will appear on your order page shortly.</p>`;
+
+  const bookCount = lines.reduce((total, line) => total + line.quantity, 0);
+
   await resend.emails.send({
     from: FROM,
     to,
-    subject: `"${bookTitle}" is on its way!`,
+    subject: `Your ${bookCount === 1 ? "book has" : "books have"} shipped`,
     html: `
       <p>Hi ${name},</p>
-      <p>Your copy of <strong>${bookTitle}</strong> has shipped.
-      <a href="${trackingUrl}">Track your package here</a>.</p>
+      <p>Good news — this has left the printer:</p>
+      <ul>${items}</ul>
+      ${tracking}
+      ${trackLine(orderUrl)}
       <p>— The Out of Print Press Team</p>
     `,
   });
