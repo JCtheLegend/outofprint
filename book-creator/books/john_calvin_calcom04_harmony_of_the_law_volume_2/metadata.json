@@ -14,12 +14,23 @@
     "approved_at": "2026-08-22T19:54:41-04:00",
     "approved_by": "user",
     "edition_title": "Harmony of the Law, Volume II",
-    "approved_page_count": 531
+    "approved_page_count": 532,
+    "layout_repair_20260927": {
+      "previous_pdf_sha256": null,
+      "previous_page_count": 531,
+      "authorized_by": "user",
+      "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom04_approved\\verification.json"
+    },
+    "approved_pdf_sha256": {
+      "john_calvin_calcom04_harmony_of_the_law_volume_2_interior.pdf": "9dd7f1fda122ffdbc7696b437f0b24b1d3498bd82312b4c79c3943bf4cb8aaf3",
+      "john_calvin_calcom04_harmony_of_the_law_volume_2_paperback_cover.pdf": "de52755ea6eaee4fed6edfe039096a3264371873023f0022d284f7f8208caaf1",
+      "john_calvin_calcom04_harmony_of_the_law_volume_2_hardcover_cover.pdf": "b5ef53da1577cfbcd5dec6c6dd806b21e3477739d86d1f74910f8eb245218785"
+    }
   },
   "volume": "II",
   "trim_size": "6 x 9 in",
   "interior_standard": "prose-6x9-v1",
-  "page_count": 531,
+  "page_count": 532,
   "body_page_count": 525,
   "generated_contents_entries": 206,
   "generated_contents_entries_in_pdf": 206,
@@ -73,39 +84,41 @@
       9.93
     ],
     "observed_left_running_heads": [
-      "Harmony of the Law"
+      "Harmony of the Law"
     ],
     "observed_right_running_heads": [
-      "John Calvin"
+      "John Calvin"
     ],
     "every_rendered_body_character_matches_corrected_source": true,
     "rendered_body_character_count": 955555,
-    "approved_original_unchanged": true,
+    "approved_original_unchanged": false,
     "visual_sample_pages": [
-      1,
       2,
-      3,
-      133,
-      266,
-      399,
-      531
+      8
     ],
     "transcription_fix_date": "2026-09-09",
     "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom04_harmony_of_the_law_volume_2",
     "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
     "transcription_fix_delivery_status": "corrected_in_approved",
     "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md",
-    "page_count": 531,
+    "page_count": 532,
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
-    "body_text_matches_previous_approved_edition": true
+    "body_text_matches_previous_approved_edition": true,
+    "full_body_text_preserved": true,
+    "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom04_approved\\verification.json",
+    "all_interior_pages_rendered": 532,
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom04_approved\\verification.json",
+    "original_character_positions_preserved": false,
+    "page_text_and_character_sequence_preserved": false,
+    "original_editions_preserved_in_backup": true
   },
   "cover_facts": {
     "paperback": {
       "front_width_px": 1800,
       "height_px": 2700,
       "spine_width_px": 377,
-      "spine_thickness_in": 1.255945945945946,
+      "spine_thickness_in": 1.2581981981981982,
       "era_label": "before 17th century",
       "cover_color": "brown",
       "band_color_rgb": [
@@ -120,8 +133,8 @@
       ],
       "front_border_pattern": "renaissance_cartouche_approved",
       "back_border_pattern": "renaissance_cartouche_approved",
-      "border_rendering": "approved_imagegen_reference_full_panel",
-      "border_pdf_encoding": "lossless_reference_raster",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
       "cover_pdf_image_encoding": "lossless_png_flate",
       "full_width_px": 3977,
       "output_width_px": 4053,
@@ -146,6 +159,23 @@
       "back_imprint_bottom_fraction": 0.76,
       "back_imprint_border_gutter_in": 0.75,
       "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 3115,
+      "front_author_text": "John Calvin",
+      "hardcover_border_board_centered": false,
+      "hardcover_border_standard_inset_px": 0,
+      "hardcover_border_visual_inset_x_px": 0,
+      "hardcover_border_visual_inset_y_px": 0,
+      "hardcover_border_alignment_adjustment_x_px": 0,
+      "hardcover_border_alignment_adjustment_y_px": 0,
+      "hardcover_border_source_compensation_x_px": 0,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 0,
+      "hardcover_border_art_height_px": 0,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": false,
+      "hardcover_border_reference_texture_preserved": false,
       "front_text_side_inset_in": 1.1,
       "front_text_border_clearance_in": 0.75,
       "front_text_collision_gap_in": 0.35,
@@ -186,8 +216,7 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 531,
-      "approved_panel_sha256": "7fad1d57fe6b5a3b04f98ad31b4a0f529122672c629a1099263c332ad919fccb"
+      "cover_page_count_used": 532
     },
     "hardcover": {
       "front_width_px": 1838,
@@ -208,8 +237,8 @@
       ],
       "front_border_pattern": "renaissance_cartouche_approved",
       "back_border_pattern": "renaissance_cartouche_approved",
-      "border_rendering": "approved_imagegen_reference_full_panel",
-      "border_pdf_encoding": "lossless_reference_raster",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
       "cover_pdf_image_encoding": "lossless_png_flate",
       "full_width_px": 4126,
       "output_width_px": 4576,
@@ -234,6 +263,9 @@
       "back_imprint_bottom_fraction": 0.76,
       "back_imprint_border_gutter_in": 0.75,
       "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 3432,
+      "front_author_text": "John Calvin",
       "hardcover_border_board_centered": true,
       "hardcover_border_standard_inset_px": 225,
       "hardcover_border_visual_inset_x_px": 243,
@@ -289,8 +321,7 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 531,
-      "approved_panel_sha256": "7fad1d57fe6b5a3b04f98ad31b4a0f529122672c629a1099263c332ad919fccb"
+      "cover_page_count_used": 532
     }
   },
   "transcription_corrections": {
@@ -319,5 +350,44 @@
     "font_change_scope": "Palatino Linotype body and running headers",
     "special_glyph_fallback": null,
     "math_font": null
+  },
+  "layout_repair_20260927": {
+    "id": "calcom04_approved",
+    "slug": "john_calvin_calcom04_harmony_of_the_law_volume_2",
+    "source_id": "calcom04",
+    "copy": "approved",
+    "status": "verified",
+    "old_page_count": 531,
+    "page_count": 532,
+    "body_page_count": 525,
+    "contents_entries": 206,
+    "full_body_character_comparison_passed": true,
+    "body_characters": 955555,
+    "all_pages_rendered": 532,
+    "all_fonts_embedded_truetype": true,
+    "source_sha256": "72e5559c6517a7a3398ff851fe082016b9ef22a09459b4f9b42e39b01f2f160f",
+    "before_sha256": "b9e0f9bd1c7349d0625d7db2d707b185b86e4eb63eed06738cc50a0520f1b6fe",
+    "raw_source_unchanged": true,
+    "existing_heading_style_preserved": "legacy",
+    "files": [
+      {
+        "name": "john_calvin_calcom04_harmony_of_the_law_volume_2_interior.pdf",
+        "sha256": "9dd7f1fda122ffdbc7696b437f0b24b1d3498bd82312b4c79c3943bf4cb8aaf3"
+      },
+      {
+        "name": "john_calvin_calcom04_harmony_of_the_law_volume_2_paperback_cover.pdf",
+        "sha256": "de52755ea6eaee4fed6edfe039096a3264371873023f0022d284f7f8208caaf1"
+      },
+      {
+        "name": "john_calvin_calcom04_harmony_of_the_law_volume_2_hardcover_cover.pdf",
+        "sha256": "b5ef53da1577cfbcd5dec6c6dd806b21e3477739d86d1f74910f8eb245218785"
+      }
+    ],
+    "independent_contents_check_passed": true,
+    "visual_review_complete": true,
+    "visual_review_pages": [
+      2,
+      8
+    ]
   }
 }

@@ -60,10 +60,10 @@
     "running_header_left": "Commentary on Daniel",
     "running_header_right": "John Calvin",
     "observed_left_running_heads": [
-      "Commentary on Daniel"
+      "Commentary on Daniel"
     ],
     "observed_right_running_heads": [
-      "John Calvin"
+      "John Calvin"
     ],
     "running_header_pdf_remediation": true,
     "running_header_alignment": "centered",
@@ -74,15 +74,10 @@
     ],
     "every_rendered_body_character_matches_corrected_source": true,
     "rendered_body_character_count": 896132,
-    "approved_original_unchanged": true,
+    "approved_original_unchanged": false,
     "visual_sample_pages": [
-      1,
       2,
-      3,
-      128,
-      255,
-      382,
-      508
+      421
     ],
     "transcription_fix_date": "2026-09-09",
     "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom25_commentary_on_daniel_volume_2",
@@ -92,7 +87,14 @@
     "page_count": 508,
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
-    "body_text_matches_previous_approved_edition": true
+    "body_text_matches_previous_approved_edition": true,
+    "full_body_text_preserved": true,
+    "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom25_approved\\verification.json",
+    "all_interior_pages_rendered": 508,
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom25_approved\\verification.json",
+    "original_character_positions_preserved": false,
+    "page_text_and_character_sequence_preserved": false,
+    "original_editions_preserved_in_backup": true
   },
   "cover_facts": {
     "paperback": {
@@ -315,7 +317,18 @@
     "approved_at": "2026-08-23T00:48:58-04:00",
     "approved_by": "user",
     "edition_title": "Commentary on Daniel, Volume II",
-    "approved_page_count": 506
+    "approved_page_count": 508,
+    "layout_repair_20260927": {
+      "previous_pdf_sha256": null,
+      "previous_page_count": 506,
+      "authorized_by": "user",
+      "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom25_approved\\verification.json"
+    },
+    "approved_pdf_sha256": {
+      "john_calvin_calcom25_commentary_on_daniel_volume_2_interior.pdf": "454510457f4a1b01b80bc206e6695a3f4a3e6ea651562c4d085e4ba076bb3c5e",
+      "john_calvin_calcom25_commentary_on_daniel_volume_2_paperback_cover.pdf": "95111e7b9dd5089f1fa24a4c6e538ad5a862d323b1281de673814e2aab514ebe",
+      "john_calvin_calcom25_commentary_on_daniel_volume_2_hardcover_cover.pdf": "7627daa04775e0929941153eb580c02fd31ee1dc19d8c8fa07aa9d0b2421ca2a"
+    }
   },
   "transcription_corrections": {
     "date": "2026-09-09",
@@ -342,5 +355,44 @@
     "font_change_scope": "Palatino Linotype body and running headers",
     "special_glyph_fallback": null,
     "math_font": null
+  },
+  "layout_repair_20260927": {
+    "id": "calcom25_approved",
+    "slug": "john_calvin_calcom25_commentary_on_daniel_volume_2",
+    "source_id": "calcom25",
+    "copy": "approved",
+    "status": "verified",
+    "old_page_count": 508,
+    "page_count": 508,
+    "body_page_count": 503,
+    "contents_entries": 119,
+    "full_body_character_comparison_passed": true,
+    "body_characters": 896132,
+    "all_pages_rendered": 508,
+    "all_fonts_embedded_truetype": true,
+    "source_sha256": "dd310b2c574cb28ccd20c9a6cc17948f9b50703ffb13ede3d6dbb9c46a1746b3",
+    "before_sha256": "09e006b63e1954d4fa76ee66da9d664b5679bac57c5bde25e545467c6a49fd2b",
+    "raw_source_unchanged": true,
+    "existing_heading_style_preserved": "current",
+    "files": [
+      {
+        "name": "john_calvin_calcom25_commentary_on_daniel_volume_2_interior.pdf",
+        "sha256": "454510457f4a1b01b80bc206e6695a3f4a3e6ea651562c4d085e4ba076bb3c5e"
+      },
+      {
+        "name": "john_calvin_calcom25_commentary_on_daniel_volume_2_paperback_cover.pdf",
+        "sha256": "95111e7b9dd5089f1fa24a4c6e538ad5a862d323b1281de673814e2aab514ebe"
+      },
+      {
+        "name": "john_calvin_calcom25_commentary_on_daniel_volume_2_hardcover_cover.pdf",
+        "sha256": "7627daa04775e0929941153eb580c02fd31ee1dc19d8c8fa07aa9d0b2421ca2a"
+      }
+    ],
+    "independent_contents_check_passed": true,
+    "visual_review_complete": true,
+    "visual_review_pages": [
+      2,
+      421
+    ]
   }
 }

@@ -12,8 +12,8 @@
   "volume": "",
   "trim_size": "6 x 9 in",
   "interior_standard": "prose-6x9-v1",
-  "page_count": 489,
-  "body_page_count": 486,
+  "page_count": 488,
+  "body_page_count": 485,
   "generated_contents_entries": 49,
   "generated_contents_entries_in_pdf": 49,
   "detected_heading_count": 49,
@@ -66,31 +66,34 @@
       9.93
     ],
     "observed_left_running_heads": [
-      "Commentary on Jonah, Micah, Nahum"
+      "Commentary on Jonah, Micah, Nahum"
     ],
     "observed_right_running_heads": [
-      "John Calvin"
+      "John Calvin"
     ],
-    "page_count": 489,
+    "page_count": 488,
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
     "body_text_matches_previous_approved_edition": true,
     "visual_sample_pages": [
-      1,
       2,
-      3,
-      123,
-      245,
-      367,
-      489
-    ]
+      5
+    ],
+    "full_body_text_preserved": true,
+    "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom28_approved\\verification.json",
+    "rendered_body_character_count": 912210,
+    "all_interior_pages_rendered": 488,
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom28_approved\\verification.json",
+    "original_character_positions_preserved": false,
+    "page_text_and_character_sequence_preserved": false,
+    "original_editions_preserved_in_backup": true
   },
   "cover_facts": {
     "paperback": {
       "front_width_px": 1800,
       "height_px": 2700,
       "spine_width_px": 348,
-      "spine_thickness_in": 1.1613513513513514,
+      "spine_thickness_in": 1.1590990990990993,
       "era_label": "before 17th century",
       "cover_color": "brown",
       "band_color_rgb": [
@@ -105,8 +108,8 @@
       ],
       "front_border_pattern": "renaissance_cartouche_approved",
       "back_border_pattern": "renaissance_cartouche_approved",
-      "border_rendering": "approved_imagegen_reference_full_panel",
-      "border_pdf_encoding": "lossless_reference_raster",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
       "cover_pdf_image_encoding": "lossless_png_flate",
       "full_width_px": 3948,
       "output_width_px": 4024,
@@ -131,6 +134,23 @@
       "back_imprint_bottom_fraction": 0.76,
       "back_imprint_border_gutter_in": 0.75,
       "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 3086,
+      "front_author_text": "John Calvin",
+      "hardcover_border_board_centered": false,
+      "hardcover_border_standard_inset_px": 0,
+      "hardcover_border_visual_inset_x_px": 0,
+      "hardcover_border_visual_inset_y_px": 0,
+      "hardcover_border_alignment_adjustment_x_px": 0,
+      "hardcover_border_alignment_adjustment_y_px": 0,
+      "hardcover_border_source_compensation_x_px": 0,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 0,
+      "hardcover_border_art_height_px": 0,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": false,
+      "hardcover_border_reference_texture_preserved": false,
       "front_text_side_inset_in": 1.1,
       "front_text_border_clearance_in": 0.75,
       "front_text_collision_gap_in": 0.35,
@@ -174,8 +194,7 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "approved_panel_sha256": "7fad1d57fe6b5a3b04f98ad31b4a0f529122672c629a1099263c332ad919fccb",
-      "cover_page_count_used": 489
+      "cover_page_count_used": 488
     },
     "hardcover": {
       "front_width_px": 1838,
@@ -196,8 +215,8 @@
       ],
       "front_border_pattern": "renaissance_cartouche_approved",
       "back_border_pattern": "renaissance_cartouche_approved",
-      "border_rendering": "approved_imagegen_reference_full_panel",
-      "border_pdf_encoding": "lossless_reference_raster",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
       "cover_pdf_image_encoding": "lossless_png_flate",
       "full_width_px": 4088,
       "output_width_px": 4538,
@@ -222,6 +241,9 @@
       "back_imprint_bottom_fraction": 0.76,
       "back_imprint_border_gutter_in": 0.75,
       "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 3394,
+      "front_author_text": "John Calvin",
       "hardcover_border_board_centered": true,
       "hardcover_border_standard_inset_px": 225,
       "hardcover_border_visual_inset_x_px": 243,
@@ -279,8 +301,7 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "approved_panel_sha256": "7fad1d57fe6b5a3b04f98ad31b4a0f529122672c629a1099263c332ad919fccb",
-      "cover_page_count_used": 489
+      "cover_page_count_used": 488
     }
   },
   "review_approval": {
@@ -288,7 +309,18 @@
     "approved_at": "2026-08-23T01:14:57-04:00",
     "approved_by": "user",
     "edition_title": "Commentary on Jonah, Micah, Nahum",
-    "approved_page_count": 489
+    "approved_page_count": 488,
+    "layout_repair_20260927": {
+      "previous_pdf_sha256": null,
+      "previous_page_count": 489,
+      "authorized_by": "user",
+      "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom28_approved\\verification.json"
+    },
+    "approved_pdf_sha256": {
+      "john_calvin_calcom28_commentary_on_jonah_micah_nahum_interior.pdf": "601ca0449b1dbd2eef43d2edb93d663b01a9a6871cd5fb9a2be6e7da7c5d0312",
+      "john_calvin_calcom28_commentary_on_jonah_micah_nahum_paperback_cover.pdf": "acde2e16498f61b1a120fe5d6c946664a9cd7b7bd8c2aa7a02a9de5e61d3c821",
+      "john_calvin_calcom28_commentary_on_jonah_micah_nahum_hardcover_cover.pdf": "8adf43c087c64fc6872424dfc281ba4c0ab55da2e987b0791fc16cf5ed7c967e"
+    }
   },
   "store_price_cents": 3000,
   "store_genre": "",
@@ -306,5 +338,44 @@
     "font_change_scope": "Palatino Linotype body and running headers",
     "special_glyph_fallback": null,
     "math_font": null
+  },
+  "layout_repair_20260927": {
+    "id": "calcom28_approved",
+    "slug": "john_calvin_calcom28_commentary_on_jonah_micah_nahum",
+    "source_id": "calcom28",
+    "copy": "approved",
+    "status": "verified",
+    "old_page_count": 489,
+    "page_count": 488,
+    "body_page_count": 485,
+    "contents_entries": 49,
+    "full_body_character_comparison_passed": true,
+    "body_characters": 912210,
+    "all_pages_rendered": 488,
+    "all_fonts_embedded_truetype": true,
+    "source_sha256": "3f0ff026e4adabee01ef3db17ef30ee7a068738ec3c6b91bf9076b569ebd2e04",
+    "before_sha256": "857e1b3154d9dd9e10c64da144d7e3fbb85b85d8b32176985dbd4387c49071d6",
+    "raw_source_unchanged": true,
+    "existing_heading_style_preserved": "legacy28",
+    "files": [
+      {
+        "name": "john_calvin_calcom28_commentary_on_jonah_micah_nahum_interior.pdf",
+        "sha256": "601ca0449b1dbd2eef43d2edb93d663b01a9a6871cd5fb9a2be6e7da7c5d0312"
+      },
+      {
+        "name": "john_calvin_calcom28_commentary_on_jonah_micah_nahum_paperback_cover.pdf",
+        "sha256": "acde2e16498f61b1a120fe5d6c946664a9cd7b7bd8c2aa7a02a9de5e61d3c821"
+      },
+      {
+        "name": "john_calvin_calcom28_commentary_on_jonah_micah_nahum_hardcover_cover.pdf",
+        "sha256": "8adf43c087c64fc6872424dfc281ba4c0ab55da2e987b0791fc16cf5ed7c967e"
+      }
+    ],
+    "independent_contents_check_passed": true,
+    "visual_review_complete": true,
+    "visual_review_pages": [
+      2,
+      5
+    ]
   }
 }

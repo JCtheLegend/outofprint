@@ -14,13 +14,24 @@
     "approved_at": "2026-08-22T22:59:11-04:00",
     "approved_by": "user",
     "edition_title": "Commentary on Isaiah, Volume I",
-    "approved_page_count": 476
+    "approved_page_count": 472,
+    "layout_repair_20260927": {
+      "previous_pdf_sha256": null,
+      "previous_page_count": 476,
+      "authorized_by": "user",
+      "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom13_approved\\verification.json"
+    },
+    "approved_pdf_sha256": {
+      "john_calvin_calcom13_commentary_on_isaiah_volume_1_interior.pdf": "59779c361afe28e445fcb619b89b48281fbf5af9a4017d27f7eab14454817f61",
+      "john_calvin_calcom13_commentary_on_isaiah_volume_1_paperback_cover.pdf": "7c653480b48f21e769f9268ef5e16f2ffee56c8ddb4fd6c0e14cac1f4a9a12ad",
+      "john_calvin_calcom13_commentary_on_isaiah_volume_1_hardcover_cover.pdf": "c4b90b6e56dca1ad0eb7a3d63d727ab8a75ebb06edde102f44f41e871188c3fd"
+    }
   },
   "volume": "I",
   "trim_size": "6 x 9 in",
   "interior_standard": "prose-6x9-v1",
-  "page_count": 474,
-  "body_page_count": 472,
+  "page_count": 472,
+  "body_page_count": 470,
   "generated_contents_entries": 22,
   "generated_contents_entries_in_pdf": 22,
   "detected_heading_count": 22,
@@ -73,41 +84,44 @@
       9.93
     ],
     "observed_left_running_heads": [
-      "Commentary on Isaiah"
+      "Commentary on Isaiah"
     ],
     "observed_right_running_heads": [
-      "John Calvin"
+      "John Calvin"
     ],
     "bogus_notes_resolved": 72,
     "individual_notes_reassigned": 79,
     "every_rendered_body_character_matches_corrected_source": true,
     "rendered_body_character_count": 900222,
-    "approved_original_unchanged": true,
+    "approved_original_unchanged": false,
     "visual_sample_pages": [
-      1,
       2,
       3,
-      119,
-      238,
-      356,
-      474
+      6
     ],
     "transcription_fix_date": "2026-09-09",
     "transcription_fix_staging_source": "output\\transcription_fixes_20260909\\calvin\\john_calvin_calcom13_commentary_on_isaiah_volume_1",
     "transcription_fix_backup": "output\\archive\\approved_pre_fix_20260909.zip",
     "transcription_fix_delivery_status": "corrected_in_approved",
     "transcription_fix_report": "output/reports/approved_transcription_fixes_20260909.md",
-    "page_count": 474,
+    "page_count": 472,
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
-    "body_text_matches_previous_approved_edition": true
+    "body_text_matches_previous_approved_edition": true,
+    "full_body_text_preserved": true,
+    "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom13_approved\\verification.json",
+    "all_interior_pages_rendered": 472,
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom13_approved\\verification.json",
+    "original_character_positions_preserved": false,
+    "page_text_and_character_sequence_preserved": false,
+    "original_editions_preserved_in_backup": true
   },
   "cover_facts": {
     "paperback": {
       "front_width_px": 1800,
       "height_px": 2700,
-      "spine_width_px": 338,
-      "spine_thickness_in": 1.1275675675675676,
+      "spine_width_px": 337,
+      "spine_thickness_in": 1.1230630630630631,
       "era_label": "before 17th century",
       "cover_color": "brown",
       "band_color_rgb": [
@@ -125,8 +139,8 @@
       "border_rendering": "traced_native_svg_borders",
       "border_pdf_encoding": "native_svg_vector_overlay",
       "cover_pdf_image_encoding": "lossless_png_flate",
-      "full_width_px": 3938,
-      "output_width_px": 4014,
+      "full_width_px": 3937,
+      "output_width_px": 4013,
       "output_height_px": 2776,
       "cover_format": "paperback",
       "front_panel_width_in": 6.0,
@@ -149,7 +163,7 @@
       "back_imprint_border_gutter_in": 0.75,
       "front_text_center_offset_px": 0,
       "front_text_alignment": "center",
-      "front_text_anchor_x_px": 3076,
+      "front_text_anchor_x_px": 3075,
       "front_author_text": "John Calvin",
       "hardcover_border_board_centered": false,
       "hardcover_border_standard_inset_px": 0,
@@ -169,9 +183,9 @@
       "front_text_border_clearance_in": 0.75,
       "front_text_collision_gap_in": 0.35,
       "front_text_safe_rect_px": [
-        2506,
+        2505,
         347,
-        3646,
+        3645,
         2429
       ],
       "front_text_border_collision_free": true,
@@ -206,13 +220,13 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 474
+      "cover_page_count_used": 472
     },
     "hardcover": {
       "front_width_px": 1838,
       "height_px": 2775,
-      "spine_width_px": 412,
-      "spine_thickness_in": 1.375,
+      "spine_width_px": 394,
+      "spine_thickness_in": 1.3125,
       "era_label": "before 17th century",
       "cover_color": "brown",
       "band_color_rgb": [
@@ -230,8 +244,8 @@
       "border_rendering": "traced_native_svg_borders",
       "border_pdf_encoding": "native_svg_vector_overlay",
       "cover_pdf_image_encoding": "lossless_png_flate",
-      "full_width_px": 4088,
-      "output_width_px": 4538,
+      "full_width_px": 4070,
+      "output_width_px": 4520,
       "output_height_px": 3225,
       "cover_format": "lulu_casewrap_hardcover",
       "front_panel_width_in": 6.125,
@@ -254,7 +268,7 @@
       "back_imprint_border_gutter_in": 0.75,
       "front_text_center_offset_px": 0,
       "front_text_alignment": "center",
-      "front_text_anchor_x_px": 3394,
+      "front_text_anchor_x_px": 3376,
       "front_author_text": "John Calvin",
       "hardcover_border_board_centered": true,
       "hardcover_border_standard_inset_px": 225,
@@ -274,9 +288,9 @@
       "front_text_border_clearance_in": 0.75,
       "front_text_collision_gap_in": 0.35,
       "front_text_safe_rect_px": [
-        2925,
+        2907,
         675,
-        3863,
+        3845,
         2550
       ],
       "front_text_border_collision_free": true,
@@ -311,7 +325,7 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 474
+      "cover_page_count_used": 472
     }
   },
   "transcription_corrections": {
@@ -342,5 +356,45 @@
     "font_change_scope": "Palatino Linotype body and running headers",
     "special_glyph_fallback": null,
     "math_font": null
+  },
+  "layout_repair_20260927": {
+    "id": "calcom13_approved",
+    "slug": "john_calvin_calcom13_commentary_on_isaiah_volume_1",
+    "source_id": "calcom13",
+    "copy": "approved",
+    "status": "verified",
+    "old_page_count": 474,
+    "page_count": 472,
+    "body_page_count": 470,
+    "contents_entries": 22,
+    "full_body_character_comparison_passed": true,
+    "body_characters": 900222,
+    "all_pages_rendered": 472,
+    "all_fonts_embedded_truetype": true,
+    "source_sha256": "f780dd3b1e0228b39ac4d77cada387c8b66bf4a1bdcc868c748e2fae1570e79b",
+    "before_sha256": "bddf580e5a0dfe66a34bea66db59f6b5545936c75f83383b9e98ffd6cb39071f",
+    "raw_source_unchanged": true,
+    "existing_heading_style_preserved": "current",
+    "files": [
+      {
+        "name": "john_calvin_calcom13_commentary_on_isaiah_volume_1_interior.pdf",
+        "sha256": "59779c361afe28e445fcb619b89b48281fbf5af9a4017d27f7eab14454817f61"
+      },
+      {
+        "name": "john_calvin_calcom13_commentary_on_isaiah_volume_1_paperback_cover.pdf",
+        "sha256": "7c653480b48f21e769f9268ef5e16f2ffee56c8ddb4fd6c0e14cac1f4a9a12ad"
+      },
+      {
+        "name": "john_calvin_calcom13_commentary_on_isaiah_volume_1_hardcover_cover.pdf",
+        "sha256": "c4b90b6e56dca1ad0eb7a3d63d727ab8a75ebb06edde102f44f41e871188c3fd"
+      }
+    ],
+    "independent_contents_check_passed": true,
+    "visual_review_complete": true,
+    "visual_review_pages": [
+      2,
+      3,
+      6
+    ]
   }
 }

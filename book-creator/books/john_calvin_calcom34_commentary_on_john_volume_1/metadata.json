@@ -12,8 +12,8 @@
   "volume": "I",
   "trim_size": "6 x 9 in",
   "interior_standard": "prose-6x9-v1",
-  "page_count": 422,
-  "body_page_count": 420,
+  "page_count": 421,
+  "body_page_count": 419,
   "generated_contents_entries": 14,
   "generated_contents_entries_in_pdf": 14,
   "detected_heading_count": 14,
@@ -38,7 +38,7 @@
   "verification_facts": {
     "interior_standard": "prose-6x9-v1",
     "interior_standard_enforced": true,
-    "dominant_body_font": "PalatinoLinotype-Roman",
+    "dominant_body_font": "Palatino Linotype Regula",
     "dominant_body_size_pt": 11.0,
     "interior_image_count": 0,
     "quality_blockers": 0,
@@ -77,18 +77,29 @@
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
     "text_searchable": true,
-    "page_text_and_character_sequence_preserved": true,
-    "original_character_positions_preserved": true,
+    "page_text_and_character_sequence_preserved": false,
+    "original_character_positions_preserved": false,
     "page_boxes_and_bookmarks_preserved": true,
     "all_interior_pages_rendered_for_font_update": 422,
-    "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom34_commentary_on_john_volume_1.json"
+    "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom34_commentary_on_john_volume_1.json",
+    "full_body_text_preserved": true,
+    "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom34_package\\verification.json",
+    "page_count": 421,
+    "rendered_body_character_count": 793133,
+    "visual_sample_pages": [
+      2,
+      10
+    ],
+    "all_interior_pages_rendered": 421,
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom34_package\\verification.json",
+    "original_editions_preserved_in_backup": true
   },
   "cover_facts": {
     "paperback": {
       "front_width_px": 1800,
       "height_px": 2700,
-      "spine_width_px": 303,
-      "spine_thickness_in": 1.0104504504504503,
+      "spine_width_px": 302,
+      "spine_thickness_in": 1.0081981981981982,
       "era_label": "before 17th century",
       "cover_color": "brown",
       "band_color_rgb": [
@@ -103,11 +114,11 @@
       ],
       "front_border_pattern": "renaissance_cartouche_approved",
       "back_border_pattern": "renaissance_cartouche_approved",
-      "border_rendering": "approved_imagegen_reference_full_panel",
-      "border_pdf_encoding": "lossless_reference_raster",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
       "cover_pdf_image_encoding": "lossless_png_flate",
-      "full_width_px": 3903,
-      "output_width_px": 3979,
+      "full_width_px": 3902,
+      "output_width_px": 3978,
       "output_height_px": 2776,
       "cover_format": "paperback",
       "front_panel_width_in": 6.0,
@@ -129,13 +140,30 @@
       "back_imprint_bottom_fraction": 0.76,
       "back_imprint_border_gutter_in": 0.75,
       "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 3040,
+      "front_author_text": "John Calvin",
+      "hardcover_border_board_centered": false,
+      "hardcover_border_standard_inset_px": 0,
+      "hardcover_border_visual_inset_x_px": 0,
+      "hardcover_border_visual_inset_y_px": 0,
+      "hardcover_border_alignment_adjustment_x_px": 0,
+      "hardcover_border_alignment_adjustment_y_px": 0,
+      "hardcover_border_source_compensation_x_px": 0,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 0,
+      "hardcover_border_art_height_px": 0,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": false,
+      "hardcover_border_reference_texture_preserved": false,
       "front_text_side_inset_in": 1.1,
       "front_text_border_clearance_in": 0.75,
       "front_text_collision_gap_in": 0.35,
       "front_text_safe_rect_px": [
-        2471,
+        2470,
         347,
-        3611,
+        3610,
         2429
       ],
       "front_text_border_collision_free": true,
@@ -169,8 +197,7 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 422,
-      "approved_panel_sha256": "7fad1d57fe6b5a3b04f98ad31b4a0f529122672c629a1099263c332ad919fccb"
+      "cover_page_count_used": 421
     },
     "hardcover": {
       "front_width_px": 1838,
@@ -191,8 +218,8 @@
       ],
       "front_border_pattern": "renaissance_cartouche_approved",
       "back_border_pattern": "renaissance_cartouche_approved",
-      "border_rendering": "approved_imagegen_reference_full_panel",
-      "border_pdf_encoding": "lossless_reference_raster",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
       "cover_pdf_image_encoding": "lossless_png_flate",
       "full_width_px": 4051,
       "output_width_px": 4501,
@@ -217,6 +244,9 @@
       "back_imprint_bottom_fraction": 0.76,
       "back_imprint_border_gutter_in": 0.75,
       "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 3357,
+      "front_author_text": "John Calvin",
       "hardcover_border_board_centered": true,
       "hardcover_border_standard_inset_px": 225,
       "hardcover_border_visual_inset_x_px": 243,
@@ -272,8 +302,7 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 422,
-      "approved_panel_sha256": "7fad1d57fe6b5a3b04f98ad31b4a0f529122672c629a1099263c332ad919fccb"
+      "cover_page_count_used": 421
     }
   },
   "transcription_repairs": {
@@ -296,9 +325,9 @@
     "original_package_backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\archive\\package_fonts_originals_20260926\\john_calvin_calcom34_commentary_on_john_volume_1",
     "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom34_commentary_on_john_volume_1.json",
     "current_pdf_sha256": {
-      "john_calvin_calcom34_commentary_on_john_volume_1_hardcover_cover.pdf": "f91a09b49647a7110c6a3a1f3fe800b2ddfd85a25e17ab15cb0183c80276cad2",
-      "john_calvin_calcom34_commentary_on_john_volume_1_interior.pdf": "542dbc488be754ca067a2fcf555ceebf47bb7304b869da960162f21477d8a3ac",
-      "john_calvin_calcom34_commentary_on_john_volume_1_paperback_cover.pdf": "435a9b396a78678a3381aeaa7bbe3d7628d5bd202bf7a2427acfe89aff8023f3"
+      "john_calvin_calcom34_commentary_on_john_volume_1_interior.pdf": "8f9fc03b0ede8a9dacf771a6ff46d66f300f5e0b1024f763e4c061dc5ecca8cb",
+      "john_calvin_calcom34_commentary_on_john_volume_1_paperback_cover.pdf": "ee042b9659d728be1d61de001e00baf5b3501d473fc15113b8fb709c99084608",
+      "john_calvin_calcom34_commentary_on_john_volume_1_hardcover_cover.pdf": "b4cc9c340090b2b0d7d5fade28bdcb92041571b6291276b2904c860fc3a934cc"
     },
     "earlier_visual_review_and_dated_repair_evidence_retained": true
   },
@@ -373,13 +402,23 @@
     "approved_at": "2026-09-27T09:20:11-04:00",
     "approved_by": "user",
     "edition_title": "Commentary on John, Volume I",
-    "approved_page_count": 422,
+    "approved_page_count": 421,
     "approved_pdf_sha256": {
-      "john_calvin_calcom34_commentary_on_john_volume_1_hardcover_cover.pdf": "f91a09b49647a7110c6a3a1f3fe800b2ddfd85a25e17ab15cb0183c80276cad2",
-      "john_calvin_calcom34_commentary_on_john_volume_1_interior.pdf": "542dbc488be754ca067a2fcf555ceebf47bb7304b869da960162f21477d8a3ac",
-      "john_calvin_calcom34_commentary_on_john_volume_1_paperback_cover.pdf": "435a9b396a78678a3381aeaa7bbe3d7628d5bd202bf7a2427acfe89aff8023f3"
+      "john_calvin_calcom34_commentary_on_john_volume_1_interior.pdf": "8f9fc03b0ede8a9dacf771a6ff46d66f300f5e0b1024f763e4c061dc5ecca8cb",
+      "john_calvin_calcom34_commentary_on_john_volume_1_paperback_cover.pdf": "ee042b9659d728be1d61de001e00baf5b3501d473fc15113b8fb709c99084608",
+      "john_calvin_calcom34_commentary_on_john_volume_1_hardcover_cover.pdf": "b4cc9c340090b2b0d7d5fade28bdcb92041571b6291276b2904c860fc3a934cc"
     },
-    "github_update_authorized": true
+    "github_update_authorized": true,
+    "layout_repair_20260927": {
+      "previous_pdf_sha256": {
+        "john_calvin_calcom34_commentary_on_john_volume_1_hardcover_cover.pdf": "f91a09b49647a7110c6a3a1f3fe800b2ddfd85a25e17ab15cb0183c80276cad2",
+        "john_calvin_calcom34_commentary_on_john_volume_1_interior.pdf": "542dbc488be754ca067a2fcf555ceebf47bb7304b869da960162f21477d8a3ac",
+        "john_calvin_calcom34_commentary_on_john_volume_1_paperback_cover.pdf": "435a9b396a78678a3381aeaa7bbe3d7628d5bd202bf7a2427acfe89aff8023f3"
+      },
+      "previous_page_count": 422,
+      "authorized_by": "user",
+      "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom34_package\\verification.json"
+    }
   },
   "store_price_cents": 3000,
   "store_featured": false,
@@ -388,5 +427,44 @@
   "store_set_slug": "calvin-commentary-on-john",
   "store_set_title": "Commentary on John",
   "store_set_genre": "Theology",
-  "store_set_description": "John Calvin's commentary on the Gospel of John, in two volumes."
+  "store_set_description": "John Calvin's commentary on the Gospel of John, in two volumes.",
+  "layout_repair_20260927": {
+    "id": "calcom34_package",
+    "slug": "john_calvin_calcom34_commentary_on_john_volume_1",
+    "source_id": "calcom34",
+    "copy": "package",
+    "status": "verified",
+    "old_page_count": 422,
+    "page_count": 421,
+    "body_page_count": 419,
+    "contents_entries": 14,
+    "full_body_character_comparison_passed": true,
+    "body_characters": 793133,
+    "all_pages_rendered": 421,
+    "all_fonts_embedded_truetype": true,
+    "source_sha256": "16fad26b285d9b25069137f7fd78a576c58ba579756a964699f147e0b217186c",
+    "before_sha256": "542dbc488be754ca067a2fcf555ceebf47bb7304b869da960162f21477d8a3ac",
+    "raw_source_unchanged": true,
+    "existing_heading_style_preserved": "current",
+    "files": [
+      {
+        "name": "john_calvin_calcom34_commentary_on_john_volume_1_interior.pdf",
+        "sha256": "8f9fc03b0ede8a9dacf771a6ff46d66f300f5e0b1024f763e4c061dc5ecca8cb"
+      },
+      {
+        "name": "john_calvin_calcom34_commentary_on_john_volume_1_paperback_cover.pdf",
+        "sha256": "ee042b9659d728be1d61de001e00baf5b3501d473fc15113b8fb709c99084608"
+      },
+      {
+        "name": "john_calvin_calcom34_commentary_on_john_volume_1_hardcover_cover.pdf",
+        "sha256": "b4cc9c340090b2b0d7d5fade28bdcb92041571b6291276b2904c860fc3a934cc"
+      }
+    ],
+    "independent_contents_check_passed": true,
+    "visual_review_complete": true,
+    "visual_review_pages": [
+      2,
+      10
+    ]
+  }
 }
