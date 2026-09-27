@@ -117,6 +117,21 @@ npm run lulu:test -- federalist-papers
 npm run lulu:test -- federalist-papers --submit
 ```
 
+### Order status updates
+
+Lulu pushes every print job status change to the site, which records it against
+the order and emails the customer their tracking link when it ships. Subscribe
+the endpoint once per environment:
+
+```bash
+npm run lulu:test -- --register-webhook https://outofprintpress.store/api/webhooks/lulu --test
+npm run lulu:test -- --webhooks     # confirm it is active
+```
+
+Deliveries are signed with your API secret, so no extra configuration is needed.
+Lulu deactivates a subscription after five consecutive failed deliveries — if
+status updates stop arriving, check `--webhooks` for `INACTIVE`.
+
 ### Print product
 
 Books default to `0600X0900.BW.STD.PB.060UC444.MXX` — a 6" x 9" black-and-white
@@ -209,6 +224,7 @@ website/
 │   │   │       ├── page.tsx          ← Multi-volume set page
 │   │   │       ├── SetPurchasePanel.tsx  ← Pick one volume or the set (client)
 │   │   │       └── success/page.tsx  ← Post-purchase page
+│   │   ├── orders/[id]/page.tsx      ← Customer order status page
 │   │   ├── cart/
 │   │   │   ├── page.tsx              ← Cart page
 │   │   │   ├── CartClient.tsx        ← Cart UI (client)
@@ -219,7 +235,8 @@ website/
 │   │   └── api/
 │   │       ├── checkout/route.ts     ← Creates Stripe session
 │   │       ├── submissions/route.ts  ← Saves submission + uploads file
-│   │       └── webhooks/stripe/route.ts  ← Fires print job after payment
+│   │       ├── webhooks/stripe/route.ts  ← Fires print job after payment
+│   │       └── webhooks/lulu/route.ts    ← Print status + tracking updates
 │   ├── components/
 │   │   ├── cart/
 │   │   │   ├── CartProvider.tsx      ← localStorage cart + useCart()

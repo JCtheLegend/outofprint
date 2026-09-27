@@ -4,6 +4,7 @@ import { stripe, webhookCryptoProvider } from "@/lib/stripe";
 import { supabaseAdmin } from "@/lib/supabase";
 import type { Book } from "@/lib/supabase";
 import { sortVolumes, volumeLabel } from "@/lib/sets";
+import { orderStatusUrl, resolveSiteUrl } from "@/lib/site";
 import { createPrintJob } from "@/lib/print";
 import {
   sendCartOrderConfirmation,
@@ -40,7 +41,7 @@ export async function POST(req: NextRequest) {
   if (event.type === "checkout.session.completed") {
     const session = event.data.object as Stripe.Checkout.Session;
     try {
-      await handleSuccessfulPayment(session);
+      await handleSuccessfulPayment(session, resolveSiteUrl(req));
     } catch (err) {
       // The customer has paid. Acknowledging a failure here would drop the
       // order on the floor, so report it and let Stripe redeliver — the
@@ -96,7 +97,7 @@ async function purchasedQuantities(
   return quantities;
 }
 
-async function handleSuccessfulPayment(session: Stripe.Checkout.Session) {
+async function handleSuccessfulPayment(session: Stripe.Checkout.Session, siteUrl: string) {
   const db = supabaseAdmin();
   const { bookId, bookTitle, setId, setTitle } = session.metadata ?? {};
 
@@ -248,21 +249,24 @@ async function handleSuccessfulPayment(session: Stripe.Checkout.Session) {
         customerName,
         setTitle ?? books[0].title,
         books.map(titleOf),
-        orderIds[0]
+        orderIds[0],
+        orderStatusUrl(siteUrl, orderIds[0])
       );
     } else if (books.length === 1 && quantityFor(books[0]) === 1) {
       await sendOrderConfirmation(
         customerEmail,
         customerName,
         bookTitle ?? books[0].title,
-        orderIds[0]
+        orderIds[0],
+        orderStatusUrl(siteUrl, orderIds[0])
       );
     } else {
       await sendCartOrderConfirmation(
         customerEmail,
         customerName,
         books.map((book) => ({ title: titleOf(book), quantity: quantityFor(book) })),
-        orderIds[0]
+        orderIds[0],
+        orderStatusUrl(siteUrl, orderIds[0])
       );
     }
   } catch (err) {
