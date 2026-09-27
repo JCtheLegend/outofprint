@@ -1,0 +1,794 @@
+{
+  "title": "Shakespeare",
+  "subtitle": "Preface and Notes",
+  "display_title": "Shakespeare: Preface and Notes",
+  "authors": [
+    "Samuel Johnson"
+  ],
+  "author_lifespan": "1709-1784",
+  "language": "English",
+  "publication_type": "multi-year collection",
+  "original_publication_years": [
+    1745,
+    1765,
+    1773,
+    1778,
+    1785
+  ],
+  "original_publication_note": "1745 Macbeth material, 1765 Preface/notes, later revised notes and source-recorded variants through the posthumous 1785 edition.",
+  "reader_facing_imprint": "Samuel Johnson",
+  "cover_style_year": 1745,
+  "trim_size": "6 x 9 in",
+  "page_count": 714,
+  "word_count": 222657,
+  "interior_filename": "samuel_johnson_shakespeare_preface_and_notes_interior.pdf",
+  "paperback_cover_filename": "samuel_johnson_shakespeare_preface_and_notes_paperback_cover.pdf",
+  "hardcover_cover_filename": "samuel_johnson_shakespeare_preface_and_notes_hardcover_cover.pdf",
+  "source_basis": {
+    "sources": [
+      {
+        "title": "Preface to Shakespeare, together with selected notes on some of the plays",
+        "use": "Complete Preface only. The earlier selected Henry IV/V passages are superseded by the expanded history commentary.",
+        "source_edition": "The Gutenberg record does not identify the printed edition transcribed; Johnson's Preface was originally published in 1765.",
+        "gutenberg_id": 5429,
+        "catalog_url": "https://www.gutenberg.org/ebooks/5429",
+        "text_url": "https://www.gutenberg.org/cache/epub/5429/pg5429-images.html",
+        "local_file": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\source_texts\\johnson_shakespeare\\pg5429.html",
+        "sha256": "9923a231f7593500896325d5fd994981ccff44e63d2efd270585d15f038c6918",
+        "rights_status": "Project Gutenberg catalog identifies the eBook as public domain in the USA.",
+        "retrieved_date": "2026-08-30"
+      },
+      {
+        "title": "Notes to Shakespeare, Volume I: Comedies",
+        "use": "All commentary from The Tempest through The Winter's Tale; 14 plays.",
+        "source_edition": "Arthur Sherbo, ed., Augustan Reprint Society nos. 59-60 (1956). Principally the 1773 notes with recorded 1765 and later variants. The reprint itself omits notes that merely list variant readings.",
+        "gutenberg_id": 7780,
+        "catalog_url": "https://www.gutenberg.org/ebooks/7780",
+        "text_url": "https://www.gutenberg.org/cache/epub/7780/pg7780-images.html",
+        "local_file": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\source_texts\\johnson_shakespeare\\pg7780.html",
+        "sha256": "0bf8425e7f38ffada8d8a1ae9ee9476b3d38dfaf70bc3c393338ca04e2914468",
+        "rights_status": "Project Gutenberg catalog identifies the eBook as public domain in the USA.",
+        "retrieved_date": "2026-08-30"
+      },
+      {
+        "title": "Notes to Shakespeare, Volume III: Tragedies",
+        "use": "All commentary from Macbeth through Othello, including the concluding Appendix paragraph; 12 plays.",
+        "source_edition": "Arthur Sherbo, ed., Augustan Reprint Society nos. 71-73 (1958), from the same commentary series as Volume I.",
+        "gutenberg_id": 15566,
+        "catalog_url": "https://www.gutenberg.org/ebooks/15566",
+        "text_url": "https://www.gutenberg.org/cache/epub/15566/pg15566-images.html",
+        "local_file": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\source_texts\\johnson_shakespeare\\pg15566.html",
+        "sha256": "ea6bf87ee4a85df404031fa9c242cc21d34f47de77723c4f09ce79bc3b4018b8",
+        "rights_status": "Project Gutenberg catalog identifies the eBook as public domain in the USA.",
+        "retrieved_date": "2026-08-30"
+      },
+      {
+        "title": "Johnson on Shakespeare: history-play commentary",
+        "source_edition": "Arthur Sherbo, ed., Yale Edition volumes 7-8 (1968), digital edition.",
+        "use": "Public-domain Johnson commentary and historical quotations for all ten history plays. Modern footnotes and narrative summaries are excluded; minimal variant labels supply context. The source itself omits some brief glosses and uncommented variants.",
+        "catalog_url": "https://yalejohnson.com/view/sjsa/",
+        "local_file": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\source_texts\\johnson_shakespeare\\histories\\yale_histories_v7_selected.json",
+        "sha256": "ec4dd2155f98534d83d9f40508ae2d6a6159d2c4267539b0aef09424fd53ca8c",
+        "retrieved_date": "2026-08-30",
+        "rights_status": "Johnson and Shakespeare's historical texts are public domain. No republication right is claimed over Yale's modern editorial material, which is excluded.",
+        "collation_sources": "Public original-edition OCR: 1765 volumes III-V and 1773 volumes V-VII; original scans used for selected visual checks and repairs. Not a full critical collation."
+      },
+      {
+        "title": "Johnson on Shakespeare: history-play commentary",
+        "source_edition": "Arthur Sherbo, ed., Yale Edition volumes 7-8 (1968), digital edition.",
+        "use": "Public-domain Johnson commentary and historical quotations for all ten history plays. Modern footnotes and narrative summaries are excluded; minimal variant labels supply context. The source itself omits some brief glosses and uncommented variants.",
+        "catalog_url": "https://yalejohnson.com/view/sjsb/",
+        "local_file": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\source_texts\\johnson_shakespeare\\histories\\yale_histories_v8_selected.json",
+        "sha256": "0c9fa4c0752db434dd69f7e6cae1f68115771ac2e49a9fd71852d9636b95c47c",
+        "retrieved_date": "2026-08-30",
+        "rights_status": "Johnson and Shakespeare's historical texts are public domain. No republication right is claimed over Yale's modern editorial material, which is excluded.",
+        "collation_sources": "Public original-edition OCR: 1765 volumes III-V and 1773 volumes V-VII; original scans used for selected visual checks and repairs. Not a full critical collation."
+      }
+    ],
+    "coverage": [
+      {
+        "part": "Preface",
+        "title": "Preface to Shakespeare",
+        "source": 5429
+      },
+      {
+        "part": "Notes on the Comedies",
+        "title": "The Tempest",
+        "source": 7780
+      },
+      {
+        "part": "Notes on the Comedies",
+        "title": "The Two Gentlemen of Verona",
+        "source": 7780
+      },
+      {
+        "part": "Notes on the Comedies",
+        "title": "The Merry Wives of Windsor",
+        "source": 7780
+      },
+      {
+        "part": "Notes on the Comedies",
+        "title": "Measure for Measure",
+        "source": 7780
+      },
+      {
+        "part": "Notes on the Comedies",
+        "title": "The Comedy of Errors",
+        "source": 7780
+      },
+      {
+        "part": "Notes on the Comedies",
+        "title": "Much Ado About Nothing",
+        "source": 7780
+      },
+      {
+        "part": "Notes on the Comedies",
+        "title": "Love's Labour's Lost",
+        "source": 7780
+      },
+      {
+        "part": "Notes on the Comedies",
+        "title": "A Midsummer-Night's Dream",
+        "source": 7780
+      },
+      {
+        "part": "Notes on the Comedies",
+        "title": "The Merchant of Venice",
+        "source": 7780
+      },
+      {
+        "part": "Notes on the Comedies",
+        "title": "As You Like It",
+        "source": 7780
+      },
+      {
+        "part": "Notes on the Comedies",
+        "title": "The Taming of the Shrew",
+        "source": 7780
+      },
+      {
+        "part": "Notes on the Comedies",
+        "title": "All's Well That Ends Well",
+        "source": 7780
+      },
+      {
+        "part": "Notes on the Comedies",
+        "title": "Twelfth-Night",
+        "source": 7780
+      },
+      {
+        "part": "Notes on the Comedies",
+        "title": "The Winter's Tale",
+        "source": 7780
+      },
+      {
+        "part": "Notes on the Histories",
+        "title": "King John",
+        "source": "SJSA-dc-0006-0015"
+      },
+      {
+        "part": "Notes on the Histories",
+        "title": "Richard II",
+        "source": "SJSA-dc-0006-0016"
+      },
+      {
+        "part": "Notes on the Histories",
+        "title": "Henry IV, Part 1",
+        "source": "SJSA-dc-0006-0017"
+      },
+      {
+        "part": "Notes on the Histories",
+        "title": "Henry IV, Part 2",
+        "source": "SJSA-dc-0006-0018"
+      },
+      {
+        "part": "Notes on the Histories",
+        "title": "Henry V",
+        "source": "SJSB-dc-0001-0001"
+      },
+      {
+        "part": "Notes on the Histories",
+        "title": "Henry VI, Part 1",
+        "source": "SJSB-dc-0001-0002"
+      },
+      {
+        "part": "Notes on the Histories",
+        "title": "Henry VI, Part 2",
+        "source": "SJSB-dc-0001-0003"
+      },
+      {
+        "part": "Notes on the Histories",
+        "title": "Henry VI, Part 3",
+        "source": "SJSB-dc-0001-0004"
+      },
+      {
+        "part": "Notes on the Histories",
+        "title": "Richard III",
+        "source": "SJSB-dc-0001-0005"
+      },
+      {
+        "part": "Notes on the Histories",
+        "title": "Henry VIII",
+        "source": "SJSB-dc-0001-0006"
+      },
+      {
+        "part": "Notes on the Tragedies",
+        "title": "Macbeth",
+        "source": 15566
+      },
+      {
+        "part": "Notes on the Tragedies",
+        "title": "Coriolanus",
+        "source": 15566
+      },
+      {
+        "part": "Notes on the Tragedies",
+        "title": "Julius Caesar",
+        "source": 15566
+      },
+      {
+        "part": "Notes on the Tragedies",
+        "title": "Antony and Cleopatra",
+        "source": 15566
+      },
+      {
+        "part": "Notes on the Tragedies",
+        "title": "Timon of Athens",
+        "source": 15566
+      },
+      {
+        "part": "Notes on the Tragedies",
+        "title": "Titus Andronicus",
+        "source": 15566
+      },
+      {
+        "part": "Notes on the Tragedies",
+        "title": "Troilus and Cressida",
+        "source": 15566
+      },
+      {
+        "part": "Notes on the Tragedies",
+        "title": "Cymbeline",
+        "source": 15566
+      },
+      {
+        "part": "Notes on the Tragedies",
+        "title": "King Lear",
+        "source": 15566
+      },
+      {
+        "part": "Notes on the Tragedies",
+        "title": "Romeo and Juliet",
+        "source": 15566
+      },
+      {
+        "part": "Notes on the Tragedies",
+        "title": "Hamlet",
+        "source": 15566
+      },
+      {
+        "part": "Notes on the Tragedies",
+        "title": "Othello",
+        "source": 15566
+      }
+    ],
+    "complete_johnson_shakespeare_corpus": false,
+    "all_36_plays_represented": true,
+    "history_play_count": 10,
+    "known_gap": {
+      "title": "Notes to Shakespeare, Volume II: Histories",
+      "edition": "Arthur Sherbo, ed., Augustan Reprint Society nos. 65-66 (1957), 123 pages.",
+      "verified_catalog_url": "https://natlib.govt.nz/records/32341854",
+      "status": "The play-coverage gap is filled: all ten history sections are incorporated from Yale's transcription of Johnson's public-domain text. This does not reproduce the 1957 reprint or every original annotation/variant; Yale's source omissions and the excluded modern apparatus remain outside this edition.",
+      "contents": [
+        "King John",
+        "Richard II",
+        "Henry IV, Part 1",
+        "Henry IV, Part 2",
+        "Henry V",
+        "Henry VI, Part 1",
+        "Henry VI, Part 2",
+        "Henry VI, Part 3",
+        "Richard III",
+        "Henry VIII"
+      ]
+    },
+    "additional_source_research": {
+      "researched_date": "2026-08-30",
+      "finding": "Sources covering every history play are available. The earlier failure to locate them was incomplete research, not an absence of digitized sources.",
+      "rebuilt_book_status": "Expanded on 2026-08-30 to 714 pages and 222657 words. The Preface and commentary on all 36 plays in Johnson's edition are represented, including all ten history plays. Not an exhaustive critical edition of every annotation or revision.",
+      "sources": [
+        {
+          "title": "The Plays of William Shakespeare (1773), edited by Samuel Johnson and George Steevens",
+          "role": "Original public-domain scan set for collation, repair verification, and future recovery of annotations omitted by the transcription editions.",
+          "volume_count": 10,
+          "set_url": "https://commons.wikimedia.org/wiki/Category:The_Plays_of_William_Shakespeare_(1773)",
+          "scan_provider": "Brandeis University Libraries, digitized by Internet Archive",
+          "local_directory": "source_texts/johnson_shakespeare/1773_original",
+          "local_downloads": "All ten original PDFs and all ten uncorrected OCR text files; checksums and sizes verified against Internet Archive metadata.",
+          "download_manifest": "source_texts/johnson_shakespeare/1773_original/download_manifest.json",
+          "scan_inventory_checks": "source_texts/johnson_shakespeare/1773_original/scan_inventory_checks.json",
+          "rights": "Eighteenth-century public-domain edition; source scans are publicly downloadable without borrowing or authentication.",
+          "limitations": "Contains Shakespeare's plays and annotations by several editors. Johnson's notes must be identified by attribution and extracted with their quoted passages. OCR is uncorrected and is not publication-ready. A complete 1773 set does not by itself capture every earlier or later revision.",
+          "histories": [
+            {
+              "volume": 5,
+              "url": "https://archive.org/details/playsofwilliamsh573shak",
+              "plays": [
+                "King John",
+                "Richard II",
+                "Henry IV, Part 1",
+                "Henry IV, Part 2"
+              ]
+            },
+            {
+              "volume": 6,
+              "url": "https://archive.org/details/playsofwilliamsh673shak",
+              "plays": [
+                "Henry V",
+                "Henry VI, Part 1",
+                "Henry VI, Part 2",
+                "Henry VI, Part 3"
+              ]
+            },
+            {
+              "volume": 7,
+              "url": "https://archive.org/details/playsofwilliamsh773shak",
+              "plays": [
+                "Richard III",
+                "Henry VIII"
+              ],
+              "also_contains": "Coriolanus"
+            }
+          ],
+          "contents_verification": "The contents printed on the title pages of volumes V, VI, and VII identify all ten history plays. Sample notes carry Johnson's attribution. Full page-by-page completeness/collation has not been performed.",
+          "download_total_bytes": 373558429,
+          "scan_total_pages": 5232,
+          "histories_scan_checks": [
+            {
+              "volume": 5,
+              "contents_scan_page": 9,
+              "sample_johnson_note_scan_page": 13
+            },
+            {
+              "volume": 6,
+              "contents_scan_page": 9,
+              "sample_johnson_note_scan_page": 13
+            },
+            {
+              "volume": 7,
+              "contents_scan_page": 9,
+              "sample_johnson_note_scan_page": 14
+            }
+          ],
+          "visual_check": "Title/contents pages of volumes V-VII and a King John page bearing Johnson-attributed commentary inspected as rendered images. Text is readable; OCR still needs proofreading."
+        },
+        {
+          "title": "Johnson on Shakespeare, edited by Arthur Sherbo, Yale Edition volumes 7 and 8 (1968), digital edition",
+          "role": "Source of Johnson's public-domain body commentary for all ten history plays, with the associated historical quotations.",
+          "urls": [
+            "https://yalejohnson.com/view/sjsa/",
+            "https://yalejohnson.com/view/sjsb/"
+          ],
+          "about_url": "https://yalejohnson.com/about/",
+          "verification": "Both contents lists and actual history commentary opened in the interactive reader without authentication.",
+          "histories_pages": {
+            "volume_7": {
+              "King John": 405,
+              "Richard II": 429,
+              "Henry IV, Part 1": 453,
+              "Henry IV, Part 2": 490
+            },
+            "volume_8": {
+              "Henry V": 527,
+              "Henry VI, Part 1": 567,
+              "Henry VI, Part 2": 582,
+              "Henry VI, Part 3": 597,
+              "Richard III": 613,
+              "Henry VIII": 633
+            }
+          },
+          "completeness_caveat": "Complete digital presentation of the published Yale volumes, not literally every annotation: Sherbo's textual policy omits some factual glosses, uncommented variant readings, and other editors' unannotated notes.",
+          "reuse_caveat": "Selected history body sections were read through the public reader. Modern footnotes, introductions, and narrative summaries are excluded from the rebuilt book; brief historical reading labels and original quotations supply context. No unrestricted republication right is claimed for Yale's modern edition."
+        },
+        {
+          "title": "The Plays of William Shakespeare (1765), edited by Samuel Johnson",
+          "role": "Original eight-volume edition for checking earlier readings and notes changed or omitted later.",
+          "url": "https://commons.wikimedia.org/wiki/Category:The_Plays_of_William_Shakespeare_(1765)",
+          "status": "Eight-volume scan set located. Original-edition OCR for volumes III-V downloaded and checksum-verified for passage comparison; these 1765 PDFs were not downloaded."
+        },
+        {
+          "title": "The Plays of William Shakespeare (1778), with Malone's Supplement (1780)",
+          "role": "Sources for later lifetime revisions and supplementary Johnson notes.",
+          "url": "https://commons.wikimedia.org/wiki/Category:The_Plays_of_William_Shakespeare_(1778)",
+          "status": "Category checked: nine numbered volume PDFs, a DjVu item, and two 1780 supplement PDFs. The DjVu volume identity and individual scans still require verification; none downloaded here."
+        }
+      ],
+      "remaining_editorial_work": [
+        "An exhaustive edition would require recovering omitted brief glosses and uncommented variants, and collating revisions and supplements across editions. This rebuild does not claim that scope.",
+        "The original-edition OCR comparison is supporting evidence, not a complete line-by-line collation. Some OCR passages could not be matched automatically."
+      ],
+      "completed_in_rebuild": {
+        "history_play_count": 10,
+        "history_words": 64926,
+        "history_blocks": 4122,
+        "book_pages": 714,
+        "book_words": 222657,
+        "book_blocks_checked": 9207,
+        "old_package_archive": "output/archive/samuel_johnson_shakespeare_partial_478pp",
+        "extraction_audit": "source_texts/johnson_shakespeare/histories/extraction_audit.json",
+        "original_edition_comparison": "source_texts/johnson_shakespeare/histories/original_edition_comparison.json"
+      }
+    },
+    "additional_source_not_used_for_body": {
+      "title": "Johnson on Shakespeare: essays and notes (1908), selected by Walter Raleigh",
+      "url": "https://archive.org/details/johnsononshakesp00johnuoft",
+      "status": "Archive metadata verified and preserved; a selected anthology, not a replacement for the missing Histories commentary."
+    },
+    "editorial_policy": [
+      "Johnson's own Preface is retained. Sherbo's later introductions, editor rosters, old contents, publisher material, and Gutenberg wrappers are omitted from the rebuilt interior.",
+      "All commentary in the selected Comedies/Tragedies source ranges is retained, including quotations, scene/page references, inline editorial explanations and variant annotations. The source edition already omits notes consisting solely of variant-reading lists.",
+      "Historical spelling is retained, including romanized Greek supplied by the source. Obvious digit/letter and spacing errors and leftover emphasis markers are repaired and recorded in the parse audit. No independent line-by-line collation against original scans is claimed.",
+      "All ten history plays now have separate sections. Johnson's body commentary, Shakespeare quotations, and relevant historical quotations are retained; modern Yale footnotes and narrative summaries are excluded. The extraction audit records every context change, repair, and text-conservation check."
+    ]
+  },
+  "verification_facts": {
+    "page_count": 714,
+    "blank_pages": [],
+    "image_count": 0,
+    "body_first_pdf_page": 4,
+    "source_blocks_checked": 9207,
+    "missing_source_blocks": [],
+    "text_sequence_check_passed": true,
+    "out_of_bounds_words": [],
+    "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
+    "running_header_standard_enforced": true,
+    "running_header_alignment": "centered",
+    "running_header_size_pt": 9.93,
+    "running_header_size_standard_enforced": true,
+    "running_header_left": "Shakespeare",
+    "running_header_right": "Samuel Johnson",
+    "observed_running_header_sizes_pt": [
+      9.96
+    ],
+    "observed_left_running_heads": [
+      "Shakespeare"
+    ],
+    "observed_right_running_heads": [
+      "Samuel Johnson"
+    ],
+    "interior_standard": "prose-6x9-v1",
+    "interior_standard_enforced": true,
+    "dominant_body_font": "PalatinoLinotype-Roman",
+    "dominant_body_size_pt": 10.91,
+    "max_horizontal_overflow_pt": 0.10641,
+    "horizontal_overflow_tolerance_pt": 0.2,
+    "all_fonts_embedded_truetype": true,
+    "text_outlined": false,
+    "text_searchable": true,
+    "page_text_and_character_sequence_preserved": true,
+    "original_character_positions_preserved": true,
+    "page_boxes_and_bookmarks_preserved": true,
+    "all_interior_pages_rendered_for_font_update": 714,
+    "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\samuel_johnson_shakespeare_preface_and_notes.json"
+  },
+  "source_quality_review": {
+    "raw_counts": {
+      "blocker": 1,
+      "warning": 10
+    },
+    "reviewed_findings": [
+      {
+        "token": "lier",
+        "reason": "Johnson writes 'a late lier down', contrasting lying down late with rising early; not OCR for 'her'."
+      },
+      {
+        "token": "4vo",
+        "reason": "Historical bibliographic format notation, retained as supplied."
+      },
+      {
+        "token": "4to",
+        "reason": "Standard historical abbreviation for quarto, used in Johnson's edition references."
+      },
+      {
+        "token": "12mo",
+        "reason": "Standard historical abbreviation for duodecimo, used in Johnson's edition references."
+      },
+      {
+        "token": "9I",
+        "reason": "Ambiguous original-edition volume reference in pg7780:id00429 ('1765, 9I,294,5'); retained rather than guessing the intended numeral. Does not affect the commentary wording."
+      }
+    ],
+    "ambiguous_source_references_retained": 1,
+    "unreviewed_issue_count": 0,
+    "replacement_character_count": 0
+  },
+  "cover_facts": {
+    "paperback": {
+      "front_width_px": 1800,
+      "height_px": 2700,
+      "spine_width_px": 500,
+      "spine_thickness_in": 1.6681081081081082,
+      "era_label": "18th century",
+      "cover_color": "red",
+      "band_color_rgb": [
+        160,
+        45,
+        45
+      ],
+      "accent_color_rgb": [
+        247,
+        226,
+        174
+      ],
+      "front_border_pattern": "eighteenth_century_georgian",
+      "back_border_pattern": "eighteenth_century_georgian",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 4100,
+      "output_width_px": 4176,
+      "output_height_px": 2776,
+      "cover_format": "paperback",
+      "front_panel_width_in": 6,
+      "cover_panel_height_in": 9,
+      "wrap_px": 0,
+      "wrap_in": 0,
+      "hinge_px": 0,
+      "hinge_in": 0,
+      "safety_margin_px": 84,
+      "safety_margin_in": 0.28,
+      "expand_with_bleed": true,
+      "bleed_px": 38,
+      "bleed_in": 0.125,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.45,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 3238,
+      "front_author_text": "Samuel Johnson",
+      "hardcover_border_board_centered": false,
+      "hardcover_border_standard_inset_px": 0,
+      "hardcover_border_visual_inset_x_px": 0,
+      "hardcover_border_visual_inset_y_px": 0,
+      "hardcover_border_alignment_adjustment_x_px": 0,
+      "hardcover_border_alignment_adjustment_y_px": 0,
+      "hardcover_border_source_compensation_x_px": 0,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 0,
+      "hardcover_border_art_height_px": 0,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": false,
+      "hardcover_border_reference_texture_preserved": false,
+      "front_text_side_inset_in": 0.85,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        2647,
+        347,
+        3829,
+        2429
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 972,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 1,
+      "front_title_lines": [
+        "Shakespeare"
+      ],
+      "front_title_max_line_width_px": 525.9375,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15,
+      "spine_author_standard_pt": 15,
+      "spine_volume_standard_pt": 24,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": null,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 0,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 0,
+      "spine_title_line_count": 1,
+      "spine_title_lines": [
+        "Shakespeare"
+      ],
+      "spine_author_text": "Johnson",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true
+    },
+    "hardcover": {
+      "front_width_px": 1838,
+      "height_px": 2775,
+      "spine_width_px": 562,
+      "spine_thickness_in": 1.875,
+      "era_label": "18th century",
+      "cover_color": "red",
+      "band_color_rgb": [
+        160,
+        45,
+        45
+      ],
+      "accent_color_rgb": [
+        247,
+        226,
+        174
+      ],
+      "front_border_pattern": "eighteenth_century_georgian",
+      "back_border_pattern": "eighteenth_century_georgian",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 4238,
+      "output_width_px": 4688,
+      "output_height_px": 3225,
+      "cover_format": "lulu_casewrap_hardcover",
+      "front_panel_width_in": 6.125,
+      "cover_panel_height_in": 9.25,
+      "wrap_px": 225,
+      "wrap_in": 0.75,
+      "hinge_px": 75,
+      "hinge_in": 0.25,
+      "safety_margin_px": 225,
+      "safety_margin_in": 0.75,
+      "expand_with_bleed": true,
+      "bleed_px": 225,
+      "bleed_in": 0,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.45,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 3544,
+      "front_author_text": "Samuel Johnson",
+      "hardcover_border_board_centered": false,
+      "hardcover_border_standard_inset_px": 0,
+      "hardcover_border_visual_inset_x_px": 0,
+      "hardcover_border_visual_inset_y_px": 0,
+      "hardcover_border_alignment_adjustment_x_px": 0,
+      "hardcover_border_alignment_adjustment_y_px": 0,
+      "hardcover_border_source_compensation_x_px": 0,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 0,
+      "hardcover_border_art_height_px": 0,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": false,
+      "hardcover_border_reference_texture_preserved": false,
+      "front_text_side_inset_in": 0.85,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        3075,
+        675,
+        4013,
+        2550
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 728,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 1,
+      "front_title_lines": [
+        "Shakespeare"
+      ],
+      "front_title_max_line_width_px": 525.9375,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15,
+      "spine_author_standard_pt": 15,
+      "spine_volume_standard_pt": 24,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": null,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 0,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 0,
+      "spine_title_line_count": 1,
+      "spine_title_lines": [
+        "Shakespeare"
+      ],
+      "spine_author_text": "Johnson",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true
+    }
+  },
+  "publication_status": "Approved by the user; GitHub publishing tracked in the local delivery receipt.",
+  "visual_qa_status": "Passed: rendered title and contents, all ten history openings, representative body pages, repaired quotation, final Greek accent correction, last page, and both resized covers inspected.",
+  "visual_qa": {
+    "status": "passed",
+    "proof_directory": "C:/Users/timle/OneDrive/Documents/ChatGPT/books/output/verification/johnson_shakespeare/expanded",
+    "interior_pdf_pages_reviewed": [
+      1,
+      2,
+      3,
+      221,
+      222,
+      244,
+      267,
+      302,
+      319,
+      335,
+      373,
+      387,
+      401,
+      417,
+      436,
+      714
+    ],
+    "final_greek_proof": "greek_final.png",
+    "covers_reviewed": [
+      "paperback",
+      "hardcover"
+    ],
+    "scope": "Representative visual inspection plus automated checks across every interior page; not a visual review of all 714 pages."
+  },
+  "final_directory": "C:/Users/timle/OneDrive/Documents/ChatGPT/books/output/book_packages/samuel_johnson_shakespeare_preface_and_notes",
+  "revision": {
+    "previous_page_count": 478,
+    "previous_word_count": 158412,
+    "additional_pages": 236,
+    "additional_words": 64245,
+    "change": "Replace short Henry IV/V selection with all ten history-play commentary sections.",
+    "previous_package_archive": "C:/Users/timle/OneDrive/Documents/ChatGPT/books/output/archive/samuel_johnson_shakespeare_partial_478pp"
+  },
+  "file_sha256": {
+    "samuel_johnson_shakespeare_preface_and_notes_interior.pdf": "3191a4dad4dffe1dda3a583a4dd597f913875e737fbd7c6bc8a4d0d4f5ff4515",
+    "samuel_johnson_shakespeare_preface_and_notes_paperback_cover.pdf": "30582ec47f64a7bdd8bfc65f6369fcd7dc824c9ad12bc7d1d020cf902492bdc7",
+    "samuel_johnson_shakespeare_preface_and_notes_hardcover_cover.pdf": "c31850110ab73373462b2e55ef963402a860c479354ae92d347a09e9407e4469"
+  },
+  "body_font_family": "Palatino Linotype (embedded TrueType)",
+  "font_update_20260926": {
+    "font_format": "embedded TrueType",
+    "prose_font": "Palatino Linotype",
+    "specialized_glyphs_and_facsimiles_preserved": true,
+    "text_searchable": true,
+    "text_outlined": false,
+    "page_count_unchanged": true,
+    "cover_dimensions_unchanged": true,
+    "method": "Replace embedded font programs while preserving PDF character positions, widths, and Unicode mappings",
+    "original_package_backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\archive\\package_fonts_originals_20260926\\samuel_johnson_shakespeare_preface_and_notes",
+    "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\samuel_johnson_shakespeare_preface_and_notes.json",
+    "current_pdf_sha256": {
+      "samuel_johnson_shakespeare_preface_and_notes_hardcover_cover.pdf": "c31850110ab73373462b2e55ef963402a860c479354ae92d347a09e9407e4469",
+      "samuel_johnson_shakespeare_preface_and_notes_interior.pdf": "3191a4dad4dffe1dda3a583a4dd597f913875e737fbd7c6bc8a4d0d4f5ff4515",
+      "samuel_johnson_shakespeare_preface_and_notes_paperback_cover.pdf": "30582ec47f64a7bdd8bfc65f6369fcd7dc824c9ad12bc7d1d020cf902492bdc7"
+    },
+    "earlier_visual_review_and_dated_repair_evidence_retained": true
+  },
+  "review_approval": {
+    "status": "approved",
+    "approved_at": "2026-09-27T10:00:13-04:00",
+    "approved_by": "user",
+    "edition_title": "Shakespeare: Preface and Notes",
+    "approved_page_count": 714,
+    "approved_pdf_sha256": {
+      "samuel_johnson_shakespeare_preface_and_notes_hardcover_cover.pdf": "c31850110ab73373462b2e55ef963402a860c479354ae92d347a09e9407e4469",
+      "samuel_johnson_shakespeare_preface_and_notes_interior.pdf": "3191a4dad4dffe1dda3a583a4dd597f913875e737fbd7c6bc8a4d0d4f5ff4515",
+      "samuel_johnson_shakespeare_preface_and_notes_paperback_cover.pdf": "30582ec47f64a7bdd8bfc65f6369fcd7dc824c9ad12bc7d1d020cf902492bdc7"
+    },
+    "github_update_authorized": true
+  },
+  "store_price_cents": 3000,
+  "store_featured": false,
+  "store_genre": "Literary Criticism",
+  "store_description": "Samuel Johnson's Preface to Shakespeare and commentary on all 36 plays, collected in one 714-page volume. Includes quoted passages, but not the full plays. The source editions omit some annotations and variants."
+}
