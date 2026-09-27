@@ -38,7 +38,16 @@ export async function POST(req: NextRequest) {
 
   if (event.type === "checkout.session.completed") {
     const session = event.data.object as Stripe.Checkout.Session;
-    await handleSuccessfulPayment(session);
+    try {
+      await handleSuccessfulPayment(session);
+    } catch (err) {
+      // The customer has paid. Acknowledging a failure here would drop the
+      // order on the floor, so report it and let Stripe redeliver — the
+      // handler is idempotent, so a retry picks up wherever this left off.
+      const reason = err instanceof Error ? err.message : String(err);
+      console.error(`Failed to fulfil session ${session.id}:`, err);
+      return NextResponse.json({ error: reason }, { status: 500 });
+    }
   }
 
   return NextResponse.json({ received: true });
@@ -90,34 +99,54 @@ async function handleSuccessfulPayment(session: Stripe.Checkout.Session) {
 
   // All the books in this checkout print and ship together as one Lulu job,
   // but each keeps its own order row so a volume can be tracked individually.
-  const orders: { id: string; book: Book }[] = [];
+  // Rows are keyed on (stripe_session_id, book_id), so a redelivered event
+  // re-uses the rows it already wrote rather than duplicating the order.
+  const { error: insertError } = await db.from("orders").upsert(
+    books.map((book) => ({
+      book_id: book.id,
+      set_id: setId ?? null,
+      stripe_session_id: session.id,
+      customer_email: customerEmail,
+      customer_name: customerName,
+      shipping_address: shipping ?? {},
+      status: "paid",
+    })),
+    { onConflict: "stripe_session_id,book_id", ignoreDuplicates: true }
+  );
 
-  for (const book of books) {
-    // Create order record in Supabase
-    const { data: order, error: orderError } = await db
-      .from("orders")
-      .insert({
-        book_id: book.id,
-        set_id: setId ?? null,
-        stripe_session_id: session.id,
-        customer_email: customerEmail,
-        customer_name: customerName,
-        shipping_address: shipping ?? {},
-        status: "paid",
-      })
-      .select()
-      .single();
-
-    if (orderError || !order) {
-      console.error(`Failed to create order for book ${book.id}:`, orderError);
-      continue;
-    }
-
-    orders.push({ id: order.id, book });
+  if (insertError) {
+    // Almost always a credentials problem: writing orders needs the service
+    // role key, since RLS gives the anon key no access to the table.
+    throw new Error(
+      `Could not record the order for session ${session.id}: ${insertError.message} ` +
+        `(code ${insertError.code}). Check SUPABASE_SERVICE_ROLE_KEY.`
+    );
   }
 
+  const { data: orderRows, error: readError } = await db
+    .from("orders")
+    .select("*")
+    .eq("stripe_session_id", session.id);
+
+  if (readError || !orderRows?.length) {
+    throw new Error(
+      `No order rows for session ${session.id} after writing them: ${readError?.message ?? "none found"}`
+    );
+  }
+
+  const booksById = new Map(books.map((b) => [b.id, b]));
+  const orders = orderRows
+    .map((row) => ({ id: row.id as string, printJobId: row.print_job_id as string | null, book: booksById.get(row.book_id)! }))
+    .filter((o) => o.book);
+
   const orderIds = orders.map((o) => o.id);
-  if (orderIds.length === 0) return;
+
+  // A redelivery after the print job already went through must not order a
+  // second copy of the book.
+  if (orders.every((o) => o.printJobId)) {
+    console.log(`Session ${session.id} already has print job ${orders[0].printJobId}; nothing to do`);
+    return;
+  }
 
   try {
     // Send the print request to Lulu
@@ -158,6 +187,9 @@ async function handleSuccessfulPayment(session: Stripe.Checkout.Session) {
     } catch (alertErr) {
       console.error("Could not send the print-job failure alert:", alertErr);
     }
+    // Let Stripe redeliver: the orders are already recorded, so a retry only
+    // repeats the print request.
+    throw new Error(`Lulu print job failed: ${reason}`);
   }
 
   try {
