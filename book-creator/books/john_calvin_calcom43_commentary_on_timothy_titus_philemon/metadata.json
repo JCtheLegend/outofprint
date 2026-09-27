@@ -1,0 +1,849 @@
+{
+  "title": "Commentary on Timothy, Titus, Philemon",
+  "subtitle": "",
+  "authors": [
+    "John Calvin"
+  ],
+  "translator": "Calvin Translation Society",
+  "original_publication": "1548",
+  "reader_facing_imprint": "1548",
+  "publication_type": "single work",
+  "language": "English",
+  "volume": "",
+  "trim_size": "6 x 9 in",
+  "interior_standard": "prose-6x9-v1",
+  "page_count": 344,
+  "body_page_count": 342,
+  "generated_contents_entries": 22,
+  "generated_contents_entries_in_pdf": 22,
+  "detected_heading_count": 22,
+  "interior_filename": "john_calvin_calcom43_commentary_on_timothy_titus_philemon_interior.pdf",
+  "hardcover_cover_filename": "john_calvin_calcom43_commentary_on_timothy_titus_philemon_hardcover_cover.pdf",
+  "paperback_cover_filename": "john_calvin_calcom43_commentary_on_timothy_titus_philemon_paperback_cover.pdf",
+  "source_basis": {
+    "status": "Retained public-domain source with documented transcription corrections; uncertain readings preserved.",
+    "source_kind": "CCEL cached plain text",
+    "source_url": "https://www.ccel.org/ccel/calvin/calcom43/cache/calcom43.txt",
+    "source_note": "CCEL cached plain text. The Meeter Center describes these linked English editions as mid-nineteenth-century Calvin Translation Society translations.",
+    "local_source_file": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\source_texts\\john_calvin_plain_text\\calcom43.txt",
+    "source_translation_year": "mid-19th century translation; CCEL cache based on public-domain text"
+  },
+  "intentionally_omitted_material": [
+    "Project Gutenberg or CCEL boilerplate and license text",
+    "duplicate original title pages",
+    "source-site navigation and metadata",
+    "scan facsimile images and decorative images where present",
+    "Introductions, forewords, prefaces, and afterwords by editors, translators, publishers, or other contributors are omitted; author-written front matter is retained."
+  ],
+  "verification_facts": {
+    "interior_standard": "prose-6x9-v1",
+    "interior_standard_enforced": true,
+    "dominant_body_font": "Palatino Linotype Regula",
+    "dominant_body_size_pt": 11.0,
+    "interior_image_count": 0,
+    "quality_blockers": 0,
+    "quality_warnings": 0,
+    "quality_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom43\\repair_log.json",
+    "verification_sample_pages": [
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom43\\p0001.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom43\\p0003.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom43\\p0012.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom43\\p0038.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom43\\p0346.png"
+    ],
+    "single_rebuilt_title_page": true,
+    "generated_contents_from_rebuilt_pdf": true,
+    "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
+    "running_header_standard_enforced": true,
+    "running_header_alignment": "centered",
+    "running_header_size_pt": 9.93,
+    "running_header_size_standard_enforced": true,
+    "running_header_left": "Commentary on Timothy, Titus, Philemon",
+    "running_header_right": "John Calvin",
+    "observed_running_header_sizes_pt": [
+      9.93
+    ],
+    "observed_left_running_heads": [
+      "Commentary on Timothy, Titus, Philemon"
+    ],
+    "observed_right_running_heads": [
+      "John Calvin"
+    ],
+    "every_rendered_body_character_matches_corrected_source": true,
+    "verified_body_characters": 652117,
+    "missing_glyph_count": 0,
+    "recovered_note_references": 4,
+    "transcription_repair_date": "2026-09-18",
+    "all_fonts_embedded_truetype": true,
+    "text_outlined": false,
+    "text_searchable": true,
+    "page_text_and_character_sequence_preserved": false,
+    "original_character_positions_preserved": false,
+    "page_boxes_and_bookmarks_preserved": true,
+    "all_interior_pages_rendered_for_font_update": 346,
+    "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom43_commentary_on_timothy_titus_philemon.json",
+    "full_body_text_preserved": true,
+    "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom43_package\\verification.json",
+    "page_count": 344,
+    "rendered_body_character_count": 652117,
+    "visual_sample_pages": [
+      2,
+      3,
+      344
+    ],
+    "all_interior_pages_rendered": 344,
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom43_contents_case_20260927\\verification.json",
+    "original_editions_preserved_in_backup": true,
+    "capitalization_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom43_contents_case_20260927\\verification.json"
+  },
+  "cover_facts": {
+    "paperback": {
+      "front_width_px": 1800,
+      "height_px": 2700,
+      "spine_width_px": 250,
+      "spine_thickness_in": 0.8347747747747747,
+      "era_label": "before 17th century",
+      "cover_color": "brown",
+      "band_color_rgb": [
+        88,
+        62,
+        39
+      ],
+      "accent_color_rgb": [
+        247,
+        198,
+        112
+      ],
+      "front_border_pattern": "renaissance_cartouche_approved",
+      "back_border_pattern": "renaissance_cartouche_approved",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 3850,
+      "output_width_px": 3926,
+      "output_height_px": 2776,
+      "cover_format": "paperback",
+      "front_panel_width_in": 6.0,
+      "cover_panel_height_in": 9.0,
+      "wrap_px": 0,
+      "wrap_in": 0,
+      "hinge_px": 0,
+      "hinge_in": 0,
+      "safety_margin_px": 84,
+      "safety_margin_in": 0.28,
+      "expand_with_bleed": true,
+      "bleed_px": 38,
+      "bleed_in": 0.125,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.45,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 2988,
+      "front_author_text": "John Calvin",
+      "hardcover_border_board_centered": false,
+      "hardcover_border_standard_inset_px": 0,
+      "hardcover_border_visual_inset_x_px": 0,
+      "hardcover_border_visual_inset_y_px": 0,
+      "hardcover_border_alignment_adjustment_x_px": 0,
+      "hardcover_border_alignment_adjustment_y_px": 0,
+      "hardcover_border_source_compensation_x_px": 0,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 0,
+      "hardcover_border_art_height_px": 0,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": false,
+      "hardcover_border_reference_texture_preserved": false,
+      "front_text_side_inset_in": 1.1,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        2418,
+        347,
+        3558,
+        2429
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 930,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 3,
+      "front_title_lines": [
+        "Commentary on",
+        "Timothy, Titus,",
+        "Philemon"
+      ],
+      "front_title_max_line_width_px": 685.0,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15.0,
+      "spine_author_standard_pt": 15.0,
+      "spine_volume_standard_pt": 24.0,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": 0.06,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 0,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 0,
+      "spine_title_line_count": 2,
+      "spine_title_lines": [
+        "Commentary on",
+        "Timothy, Titus, Philemon"
+      ],
+      "spine_author_text": "Calvin",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 344
+    },
+    "hardcover": {
+      "front_width_px": 1838,
+      "height_px": 2775,
+      "spine_width_px": 319,
+      "spine_thickness_in": 1.0625,
+      "era_label": "before 17th century",
+      "cover_color": "brown",
+      "band_color_rgb": [
+        88,
+        62,
+        39
+      ],
+      "accent_color_rgb": [
+        247,
+        198,
+        112
+      ],
+      "front_border_pattern": "renaissance_cartouche_approved",
+      "back_border_pattern": "renaissance_cartouche_approved",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 3995,
+      "output_width_px": 4445,
+      "output_height_px": 3225,
+      "cover_format": "lulu_casewrap_hardcover",
+      "front_panel_width_in": 6.125,
+      "cover_panel_height_in": 9.25,
+      "wrap_px": 225,
+      "wrap_in": 0.75,
+      "hinge_px": 75,
+      "hinge_in": 0.25,
+      "safety_margin_px": 225,
+      "safety_margin_in": 0.75,
+      "expand_with_bleed": true,
+      "bleed_px": 225,
+      "bleed_in": 0,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.45,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 3301,
+      "front_author_text": "John Calvin",
+      "hardcover_border_board_centered": true,
+      "hardcover_border_standard_inset_px": 225,
+      "hardcover_border_visual_inset_x_px": 243,
+      "hardcover_border_visual_inset_y_px": 245,
+      "hardcover_border_alignment_adjustment_x_px": 18,
+      "hardcover_border_alignment_adjustment_y_px": 20,
+      "hardcover_border_source_compensation_x_px": -1,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 1353,
+      "hardcover_border_art_height_px": 2286,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": true,
+      "hardcover_border_reference_texture_preserved": true,
+      "front_text_side_inset_in": 1.35,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        2832,
+        675,
+        3770,
+        2550
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 728,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 3,
+      "front_title_lines": [
+        "Commentary on",
+        "Timothy, Titus,",
+        "Philemon"
+      ],
+      "front_title_max_line_width_px": 685.0,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15.0,
+      "spine_author_standard_pt": 15.0,
+      "spine_volume_standard_pt": 24.0,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": 0.06,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 0,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 0,
+      "spine_title_line_count": 2,
+      "spine_title_lines": [
+        "Commentary on",
+        "Timothy, Titus, Philemon"
+      ],
+      "spine_author_text": "Calvin",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 344
+    }
+  },
+  "transcription_repairs": {
+    "date": "2026-09-18",
+    "audit": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\findings.json",
+    "ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom43\\repair_log.json",
+    "original_interior_sha256": "6a108c25acceacb70d83bfabe23489d5fae477b717a8b30cb621f2544dcd98b0",
+    "raw_source_unchanged": true
+  },
+  "body_font_family": "Palatino Linotype (embedded TrueType)",
+  "font_update_20260926": {
+    "font_format": "embedded TrueType",
+    "prose_font": "Palatino Linotype",
+    "specialized_glyphs_and_facsimiles_preserved": true,
+    "text_searchable": true,
+    "text_outlined": false,
+    "page_count_unchanged": true,
+    "cover_dimensions_unchanged": true,
+    "method": "Replace embedded font programs while preserving PDF character positions, widths, and Unicode mappings",
+    "original_package_backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\archive\\package_fonts_originals_20260926\\john_calvin_calcom43_commentary_on_timothy_titus_philemon",
+    "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom43_commentary_on_timothy_titus_philemon.json",
+    "current_pdf_sha256": {
+      "john_calvin_calcom43_commentary_on_timothy_titus_philemon_interior.pdf": "7e3d27d5dfcf979bf1eee37aae2f85d78fc58203d77c360937970e6073da8f8b",
+      "john_calvin_calcom43_commentary_on_timothy_titus_philemon_paperback_cover.pdf": "792984d4ef599b7d43430b10d907ecf49c32295939951d7281ab170b15c7f9c7",
+      "john_calvin_calcom43_commentary_on_timothy_titus_philemon_hardcover_cover.pdf": "137ac9870a17cb1f92265e994734db706f0117a25ecb45f248bebb25ac68488b"
+    },
+    "earlier_visual_review_and_dated_repair_evidence_retained": true
+  },
+  "layout_repair_20260927": {
+    "id": "calcom43_package",
+    "slug": "john_calvin_calcom43_commentary_on_timothy_titus_philemon",
+    "source_id": "calcom43",
+    "copy": "package",
+    "status": "verified",
+    "old_page_count": 346,
+    "page_count": 344,
+    "body_page_count": 342,
+    "contents_entries": 28,
+    "full_body_character_comparison_passed": true,
+    "body_characters": 652117,
+    "all_pages_rendered": 344,
+    "all_fonts_embedded_truetype": true,
+    "source_sha256": "026e74293640b2923698d64366f2e874de13125c72e7f760b7a09a66aa473612",
+    "before_sha256": "c582eb7e348367959d3cea6f566fec2276f19f3473260d02deec20d9a0ac8381",
+    "raw_source_unchanged": true,
+    "existing_heading_style_preserved": "current",
+    "files": [
+      {
+        "name": "john_calvin_calcom43_commentary_on_timothy_titus_philemon_interior.pdf",
+        "sha256": "973da0f79d474efd2105eb75b6f6cf6ea34c1ca9398da94ab162e27bf97d4a82"
+      },
+      {
+        "name": "john_calvin_calcom43_commentary_on_timothy_titus_philemon_paperback_cover.pdf",
+        "sha256": "792984d4ef599b7d43430b10d907ecf49c32295939951d7281ab170b15c7f9c7"
+      },
+      {
+        "name": "john_calvin_calcom43_commentary_on_timothy_titus_philemon_hardcover_cover.pdf",
+        "sha256": "137ac9870a17cb1f92265e994734db706f0117a25ecb45f248bebb25ac68488b"
+      }
+    ],
+    "independent_contents_check_passed": true,
+    "visual_review_complete": true,
+    "visual_review_pages": [
+      2,
+      3,
+      344
+    ]
+  },
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "8d72ae9984233ffad08bbbfe6e7d5f07095b439283b19ab982837dc8cd788aeb",
+    "after_sha256": "7e3d27d5dfcf979bf1eee37aae2f85d78fc58203d77c360937970e6073da8f8b",
+    "page_count": 344,
+    "old_entries": 26,
+    "entry_count": 22,
+    "all_non_contents_page_text_and_streams_unchanged": false,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2,
+      3,
+      166
+    ],
+    "entries": [
+      {
+        "title": "To Edward, Duke of Somerset",
+        "destination": 3,
+        "level": 1,
+        "aliases": [
+          "To Edward, Duke of Somerset"
+        ]
+      },
+      {
+        "title": "The Argument on the First Epistle to Timothy",
+        "destination": 6,
+        "level": 1,
+        "aliases": [
+          "The Argument on the First Epistle to Timothy"
+        ]
+      },
+      {
+        "title": "Commentaries on the First Epistle to Timothy",
+        "destination": 10,
+        "level": 1,
+        "aliases": [
+          "Commentaries on the First Epistle to Timothy"
+        ]
+      },
+      {
+        "title": "1 Timothy 1",
+        "destination": 10,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "1 Timothy 2",
+        "destination": 39,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "1 Timothy 3",
+        "destination": 63,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "1 Timothy 4",
+        "destination": 86,
+        "level": 1,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "1 Timothy 5",
+        "destination": 109,
+        "level": 1,
+        "aliases": [
+          "Chapter 5"
+        ]
+      },
+      {
+        "title": "1 Timothy 6",
+        "destination": 140,
+        "level": 1,
+        "aliases": [
+          "Chapter 6"
+        ]
+      },
+      {
+        "title": "The Argument on the Second Epistle to Timothy",
+        "destination": 166,
+        "level": 1,
+        "aliases": [
+          "The Argument on the Second Epistle to Timothy"
+        ]
+      },
+      {
+        "title": "Commentaries on the Second Epistle to Timothy",
+        "destination": 169,
+        "level": 1,
+        "aliases": [
+          "Commentaries on the Second Epistle to Timothy"
+        ]
+      },
+      {
+        "title": "2 Timothy 1",
+        "destination": 169,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "2 Timothy 2",
+        "destination": 194,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "2 Timothy 3",
+        "destination": 223,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "2 Timothy 4",
+        "destination": 239,
+        "level": 1,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "To William Farell and Peter Viret",
+        "destination": 260,
+        "level": 1,
+        "aliases": [
+          "To William Farell and Peter Viret"
+        ]
+      },
+      {
+        "title": "Commentaries on the Epistle to Titus",
+        "destination": 262,
+        "level": 1,
+        "aliases": [
+          "Commentaries on the Epistle to Titus"
+        ]
+      },
+      {
+        "title": "The Argument on the Epistle to Titus",
+        "destination": 262,
+        "level": 1,
+        "aliases": [
+          "The Argument on the Epistle to Titus"
+        ]
+      },
+      {
+        "title": "Titus 1",
+        "destination": 264,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Titus 2",
+        "destination": 293,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Titus 3",
+        "destination": 309,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Commentary on Philemon",
+        "destination": 330,
+        "level": 1,
+        "aliases": [
+          "Philemon 1-7"
+        ],
+        "source_anchor": "Philemon 1-7"
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true,
+    "body_text_preserved_except_case": true,
+    "superseded_by": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom43_contents_case_20260927\\verification.json"
+  },
+  "contents_and_case_correction_20260927": {
+    "source_id": "calcom43",
+    "status": "verified",
+    "page_count": 344,
+    "old_entry_count": 26,
+    "entry_count": 22,
+    "entries": [
+      {
+        "title": "To Edward, Duke of Somerset",
+        "destination": 3,
+        "level": 1,
+        "aliases": [
+          "To Edward, Duke of Somerset"
+        ]
+      },
+      {
+        "title": "The Argument on the First Epistle to Timothy",
+        "destination": 6,
+        "level": 1,
+        "aliases": [
+          "The Argument on the First Epistle to Timothy"
+        ]
+      },
+      {
+        "title": "Commentaries on the First Epistle to Timothy",
+        "destination": 10,
+        "level": 1,
+        "aliases": [
+          "Commentaries on the First Epistle to Timothy"
+        ]
+      },
+      {
+        "title": "1 Timothy 1",
+        "destination": 10,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "1 Timothy 2",
+        "destination": 39,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "1 Timothy 3",
+        "destination": 63,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "1 Timothy 4",
+        "destination": 86,
+        "level": 1,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "1 Timothy 5",
+        "destination": 109,
+        "level": 1,
+        "aliases": [
+          "Chapter 5"
+        ]
+      },
+      {
+        "title": "1 Timothy 6",
+        "destination": 140,
+        "level": 1,
+        "aliases": [
+          "Chapter 6"
+        ]
+      },
+      {
+        "title": "The Argument on the Second Epistle to Timothy",
+        "destination": 166,
+        "level": 1,
+        "aliases": [
+          "The Argument on the Second Epistle to Timothy"
+        ]
+      },
+      {
+        "title": "Commentaries on the Second Epistle to Timothy",
+        "destination": 169,
+        "level": 1,
+        "aliases": [
+          "Commentaries on the Second Epistle to Timothy"
+        ]
+      },
+      {
+        "title": "2 Timothy 1",
+        "destination": 169,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "2 Timothy 2",
+        "destination": 194,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "2 Timothy 3",
+        "destination": 223,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "2 Timothy 4",
+        "destination": 239,
+        "level": 1,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "To William Farell and Peter Viret",
+        "destination": 260,
+        "level": 1,
+        "aliases": [
+          "To William Farell and Peter Viret"
+        ]
+      },
+      {
+        "title": "Commentaries on the Epistle to Titus",
+        "destination": 262,
+        "level": 1,
+        "aliases": [
+          "Commentaries on the Epistle to Titus"
+        ]
+      },
+      {
+        "title": "The Argument on the Epistle to Titus",
+        "destination": 262,
+        "level": 1,
+        "aliases": [
+          "The Argument on the Epistle to Titus"
+        ]
+      },
+      {
+        "title": "Titus 1",
+        "destination": 264,
+        "level": 1,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Titus 2",
+        "destination": 293,
+        "level": 1,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Titus 3",
+        "destination": 309,
+        "level": 1,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Commentary on Philemon",
+        "destination": 330,
+        "level": 1,
+        "aliases": [
+          "Philemon 1-7"
+        ],
+        "source_anchor": "Philemon 1-7"
+      }
+    ],
+    "changed_pages": [
+      2,
+      3,
+      166
+    ],
+    "corrections": {
+      "3": [
+        [
+          "EARL OF HERTFORD, etc. PROTECTOR OF ENGLAND AND",
+          "Earl of Hertford, etc. protector of England and"
+        ],
+        [
+          "IRELAND, AND ROYAL TUTOR,",
+          "Ireland, and royal tutor,"
+        ]
+      ],
+      "166": [
+        [
+          "IT cannot be absolutely ascertained",
+          "It cannot be absolutely ascertained"
+        ]
+      ]
+    },
+    "case_only_body_changes": true,
+    "all_other_pages_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "all_fonts_embedded_truetype": true,
+    "reviewer_sections_match_contents": true,
+    "all_source_blocks_retained": true,
+    "philemon_entire_commentary_in_one_section": true,
+    "raw_source_sha256": "026e74293640b2923698d64366f2e874de13125c72e7f760b7a09a66aa473612",
+    "raw_source_unchanged": true,
+    "retained_abbreviations_and_numerals": [
+      {
+        "page": 52,
+        "word": "LXX"
+      },
+      {
+        "page": 74,
+        "word": "MSS"
+      },
+      {
+        "page": 320,
+        "word": "II"
+      },
+      {
+        "page": 321,
+        "word": "III"
+      }
+    ],
+    "before_sha256": "8d72ae9984233ffad08bbbfe6e7d5f07095b439283b19ab982837dc8cd788aeb",
+    "after_sha256": "7e3d27d5dfcf979bf1eee37aae2f85d78fc58203d77c360937970e6073da8f8b",
+    "candidate": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom43_contents_case_20260927\\john_calvin_calcom43_commentary_on_timothy_titus_philemon_interior.pdf",
+    "covers": [
+      {
+        "name": "john_calvin_calcom43_commentary_on_timothy_titus_philemon_hardcover_cover.pdf",
+        "sha256": "137ac9870a17cb1f92265e994734db706f0117a25ecb45f248bebb25ac68488b"
+      },
+      {
+        "name": "john_calvin_calcom43_commentary_on_timothy_titus_philemon_paperback_cover.pdf",
+        "sha256": "792984d4ef599b7d43430b10d907ecf49c32295939951d7281ab170b15c7f9c7"
+      }
+    ],
+    "visual_review_complete": true,
+    "future_build_philemon_single_entry_verified": true
+  },
+  "review_approval": {
+    "status": "approved",
+    "approved_at": "2026-09-27T18:48:41-04:00",
+    "approved_by": "user",
+    "edition_title": "Commentary on Timothy, Titus, Philemon",
+    "approved_page_count": 344,
+    "approved_pdf_sha256": {
+      "john_calvin_calcom43_commentary_on_timothy_titus_philemon_interior.pdf": "7e3d27d5dfcf979bf1eee37aae2f85d78fc58203d77c360937970e6073da8f8b",
+      "john_calvin_calcom43_commentary_on_timothy_titus_philemon_paperback_cover.pdf": "792984d4ef599b7d43430b10d907ecf49c32295939951d7281ab170b15c7f9c7",
+      "john_calvin_calcom43_commentary_on_timothy_titus_philemon_hardcover_cover.pdf": "137ac9870a17cb1f92265e994734db706f0117a25ecb45f248bebb25ac68488b"
+    },
+    "github_update_authorized": true
+  },
+  "store_price_cents": 3000,
+  "store_featured": false,
+  "store_genre": "Theology",
+  "store_description": "John Calvin's commentaries on Paul's Epistles to Timothy, Titus, and Philemon."
+}
