@@ -1,0 +1,440 @@
+{
+  "title": "Commentary on Corinthians",
+  "subtitle": "Volume I",
+  "authors": [
+    "John Calvin"
+  ],
+  "translator": "Calvin Translation Society",
+  "original_publication": "1546",
+  "reader_facing_imprint": "1546",
+  "publication_type": "single work",
+  "language": "English",
+  "volume": "I",
+  "trim_size": "6 x 9 in",
+  "interior_standard": "prose-6x9-v1",
+  "page_count": 453,
+  "body_page_count": 451,
+  "generated_contents_entries": 18,
+  "generated_contents_entries_in_pdf": 18,
+  "detected_heading_count": 18,
+  "interior_filename": "john_calvin_calcom39_commentary_on_corinthians_volume_1_interior.pdf",
+  "hardcover_cover_filename": "john_calvin_calcom39_commentary_on_corinthians_volume_1_hardcover_cover.pdf",
+  "paperback_cover_filename": "john_calvin_calcom39_commentary_on_corinthians_volume_1_paperback_cover.pdf",
+  "source_basis": {
+    "status": "Retained public-domain source with documented transcription corrections; uncertain readings preserved.",
+    "source_kind": "CCEL cached plain text",
+    "source_url": "https://www.ccel.org/ccel/calvin/calcom39/cache/calcom39.txt",
+    "source_note": "CCEL cached plain text. The Meeter Center describes these linked English editions as mid-nineteenth-century Calvin Translation Society translations.",
+    "local_source_file": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\source_texts\\john_calvin_plain_text\\calcom39.txt",
+    "source_translation_year": "mid-19th century translation; CCEL cache based on public-domain text"
+  },
+  "intentionally_omitted_material": [
+    "Project Gutenberg or CCEL boilerplate and license text",
+    "duplicate original title pages",
+    "source-site navigation and metadata",
+    "scan facsimile images and decorative images where present",
+    "Introductions, forewords, prefaces, and afterwords by editors, translators, publishers, or other contributors are omitted; author-written front matter is retained."
+  ],
+  "verification_facts": {
+    "interior_standard": "prose-6x9-v1",
+    "interior_standard_enforced": true,
+    "dominant_body_font": "PalatinoLinotype-Roman",
+    "dominant_body_size_pt": 11.0,
+    "interior_image_count": 0,
+    "quality_blockers": 0,
+    "quality_warnings": 12,
+    "quality_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom39\\repair_log.json",
+    "verification_sample_pages": [
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom39\\p0001.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom39\\p0003.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom39\\p0118.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom39\\p0152.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom39\\p0159.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom39\\p0260.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom39\\p0453.png"
+    ],
+    "single_rebuilt_title_page": true,
+    "generated_contents_from_rebuilt_pdf": true,
+    "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
+    "running_header_standard_enforced": true,
+    "running_header_alignment": "centered",
+    "running_header_size_pt": 9.93,
+    "running_header_size_standard_enforced": true,
+    "running_header_left": "Commentary on Corinthians",
+    "running_header_right": "John Calvin",
+    "observed_running_header_sizes_pt": [
+      9.93
+    ],
+    "observed_left_running_heads": [
+      "Commentary on Corinthians"
+    ],
+    "observed_right_running_heads": [
+      "John Calvin"
+    ],
+    "every_rendered_body_character_matches_corrected_source": true,
+    "verified_body_characters": 864313,
+    "missing_glyph_count": 0,
+    "recovered_note_references": 8,
+    "transcription_repair_date": "2026-09-18",
+    "all_fonts_embedded_truetype": true,
+    "text_outlined": false,
+    "text_searchable": true,
+    "page_text_and_character_sequence_preserved": true,
+    "original_character_positions_preserved": true,
+    "page_boxes_and_bookmarks_preserved": true,
+    "all_interior_pages_rendered_for_font_update": 453,
+    "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom39_commentary_on_corinthians_volume_1.json",
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom39_contents_20260927\\verification.json"
+  },
+  "cover_facts": {
+    "paperback": {
+      "front_width_px": 1800,
+      "height_px": 2700,
+      "spine_width_px": 324,
+      "spine_thickness_in": 1.0802702702702702,
+      "era_label": "before 17th century",
+      "cover_color": "brown",
+      "band_color_rgb": [
+        88,
+        62,
+        39
+      ],
+      "accent_color_rgb": [
+        247,
+        198,
+        112
+      ],
+      "front_border_pattern": "renaissance_cartouche_approved",
+      "back_border_pattern": "renaissance_cartouche_approved",
+      "border_rendering": "approved_imagegen_reference_full_panel",
+      "border_pdf_encoding": "lossless_reference_raster",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 3924,
+      "output_width_px": 4000,
+      "output_height_px": 2776,
+      "cover_format": "paperback",
+      "front_panel_width_in": 6.0,
+      "cover_panel_height_in": 9.0,
+      "wrap_px": 0,
+      "wrap_in": 0,
+      "hinge_px": 0,
+      "hinge_in": 0,
+      "safety_margin_px": 84,
+      "safety_margin_in": 0.28,
+      "expand_with_bleed": true,
+      "bleed_px": 38,
+      "bleed_in": 0.125,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.45,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "front_text_side_inset_in": 1.1,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        2492,
+        347,
+        3632,
+        2429
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 930,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 2,
+      "front_title_lines": [
+        "Commentary on",
+        "Corinthians"
+      ],
+      "front_title_max_line_width_px": 685.0,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15.0,
+      "spine_author_standard_pt": 15.0,
+      "spine_volume_standard_pt": 24.0,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": null,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 100,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 24.0,
+      "spine_title_line_count": 1,
+      "spine_title_lines": [
+        "Commentary on Corinthians"
+      ],
+      "spine_author_text": "Calvin",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 453,
+      "approved_panel_sha256": "7fad1d57fe6b5a3b04f98ad31b4a0f529122672c629a1099263c332ad919fccb"
+    },
+    "hardcover": {
+      "front_width_px": 1838,
+      "height_px": 2775,
+      "spine_width_px": 394,
+      "spine_thickness_in": 1.3125,
+      "era_label": "before 17th century",
+      "cover_color": "brown",
+      "band_color_rgb": [
+        88,
+        62,
+        39
+      ],
+      "accent_color_rgb": [
+        247,
+        198,
+        112
+      ],
+      "front_border_pattern": "renaissance_cartouche_approved",
+      "back_border_pattern": "renaissance_cartouche_approved",
+      "border_rendering": "approved_imagegen_reference_full_panel",
+      "border_pdf_encoding": "lossless_reference_raster",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 4070,
+      "output_width_px": 4520,
+      "output_height_px": 3225,
+      "cover_format": "lulu_casewrap_hardcover",
+      "front_panel_width_in": 6.125,
+      "cover_panel_height_in": 9.25,
+      "wrap_px": 225,
+      "wrap_in": 0.75,
+      "hinge_px": 75,
+      "hinge_in": 0.25,
+      "safety_margin_px": 225,
+      "safety_margin_in": 0.75,
+      "expand_with_bleed": true,
+      "bleed_px": 225,
+      "bleed_in": 0,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.45,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "hardcover_border_board_centered": true,
+      "hardcover_border_standard_inset_px": 225,
+      "hardcover_border_visual_inset_x_px": 243,
+      "hardcover_border_visual_inset_y_px": 245,
+      "hardcover_border_alignment_adjustment_x_px": 18,
+      "hardcover_border_alignment_adjustment_y_px": 20,
+      "hardcover_border_source_compensation_x_px": -1,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 1353,
+      "hardcover_border_art_height_px": 2286,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": true,
+      "hardcover_border_reference_texture_preserved": true,
+      "front_text_side_inset_in": 1.35,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        2907,
+        675,
+        3845,
+        2550
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 728,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 2,
+      "front_title_lines": [
+        "Commentary on",
+        "Corinthians"
+      ],
+      "front_title_max_line_width_px": 685.0,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15.0,
+      "spine_author_standard_pt": 15.0,
+      "spine_volume_standard_pt": 24.0,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": null,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 100,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 24.0,
+      "spine_title_line_count": 1,
+      "spine_title_lines": [
+        "Commentary on Corinthians"
+      ],
+      "spine_author_text": "Calvin",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 453,
+      "approved_panel_sha256": "7fad1d57fe6b5a3b04f98ad31b4a0f529122672c629a1099263c332ad919fccb"
+    }
+  },
+  "transcription_repairs": {
+    "date": "2026-09-18",
+    "audit": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\findings.json",
+    "ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom39\\repair_log.json",
+    "original_interior_sha256": "ca2877da8f5a417d4c20345ffee6a8f002a6944967e5ff6639dc940dc0392b2e",
+    "raw_source_unchanged": true
+  },
+  "body_font_family": "Palatino Linotype (embedded TrueType)",
+  "font_update_20260926": {
+    "font_format": "embedded TrueType",
+    "prose_font": "Palatino Linotype",
+    "specialized_glyphs_and_facsimiles_preserved": true,
+    "text_searchable": true,
+    "text_outlined": false,
+    "page_count_unchanged": true,
+    "cover_dimensions_unchanged": true,
+    "method": "Replace embedded font programs while preserving PDF character positions, widths, and Unicode mappings",
+    "original_package_backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\archive\\package_fonts_originals_20260926\\john_calvin_calcom39_commentary_on_corinthians_volume_1",
+    "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom39_commentary_on_corinthians_volume_1.json",
+    "current_pdf_sha256": {
+      "john_calvin_calcom39_commentary_on_corinthians_volume_1_hardcover_cover.pdf": "a7488d7a5b5e8cf3368d312d46d1e6c5e36890fc1375cab67ae740312b9dec51",
+      "john_calvin_calcom39_commentary_on_corinthians_volume_1_interior.pdf": "05c67f34bfe0dc3d775444be101ce54833d8e0e31ba60065068217466576eb66",
+      "john_calvin_calcom39_commentary_on_corinthians_volume_1_paperback_cover.pdf": "5f833d26582c9995fa3ce246bf105971cafadeccdad5179f177821b66e4749ef"
+    },
+    "earlier_visual_review_and_dated_repair_evidence_retained": true
+  },
+  "contents_correction_20260927": {
+    "source_id": "calcom39",
+    "status": "verified",
+    "page_count": 453,
+    "changed_pages": [
+      2
+    ],
+    "old_entry_count": 20,
+    "entry_count": 18,
+    "entries": [
+      {
+        "title": "First Dedication to James of Burgundy",
+        "page": 3
+      },
+      {
+        "title": "Second Dedication to Lord Galliazus Caracciolus",
+        "page": 6
+      },
+      {
+        "title": "The Argument on the First Epistle to the Corinthians",
+        "page": 10
+      },
+      {
+        "title": "Commentary on the First Epistle to the Corinthians",
+        "page": 19
+      },
+      {
+        "title": "Chapter 1",
+        "page": 19
+      },
+      {
+        "title": "Chapter 2",
+        "page": 68
+      },
+      {
+        "title": "Chapter 3",
+        "page": 93
+      },
+      {
+        "title": "Chapter 4",
+        "page": 121
+      },
+      {
+        "title": "Chapter 5",
+        "page": 152
+      },
+      {
+        "title": "Chapter 6",
+        "page": 170
+      },
+      {
+        "title": "Chapter 7",
+        "page": 195
+      },
+      {
+        "title": "Chapter 8",
+        "page": 245
+      },
+      {
+        "title": "Chapter 9",
+        "page": 260
+      },
+      {
+        "title": "Chapter 10",
+        "page": 286
+      },
+      {
+        "title": "Chapter 11",
+        "page": 324
+      },
+      {
+        "title": "Chapter 12",
+        "page": 371
+      },
+      {
+        "title": "Chapter 13",
+        "page": 395
+      },
+      {
+        "title": "Chapter 14",
+        "page": 411
+      }
+    ],
+    "removed_toc_entries": [
+      "1 Corinthians 13:9-13-",
+      "Farther"
+    ],
+    "renamed_toc_entries": {
+      "The Author's First Epistle Dedicatory to James of Burgundy": "First Dedication to James of Burgundy",
+      "The Author's Second Epistle Dedicatory to Lord Galliazus Caracciolus": "Second Dedication to Lord Galliazus Caracciolus"
+    },
+    "reviewer_sections_match_contents": true,
+    "all_other_pages_text_streams_and_rendering_unchanged": true,
+    "all_fonts_embedded_truetype": true,
+    "raw_source_unchanged": true,
+    "raw_source_sha256": "801ed9f9dd5a564d46c1d185fc20bd6560365438ac3ec5c310a6d65e66fb5233",
+    "before_sha256": "c0e6af731d0d454bcf0ea598482f22027c5eff163fa4cf233e0fa9cc21e14d34",
+    "after_sha256": "05c67f34bfe0dc3d775444be101ce54833d8e0e31ba60065068217466576eb66",
+    "backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom39_contents_20260927\\original_interior.pdf",
+    "covers": [
+      {
+        "name": "john_calvin_calcom39_commentary_on_corinthians_volume_1_hardcover_cover.pdf",
+        "sha256": "a7488d7a5b5e8cf3368d312d46d1e6c5e36890fc1375cab67ae740312b9dec51"
+      },
+      {
+        "name": "john_calvin_calcom39_commentary_on_corinthians_volume_1_paperback_cover.pdf",
+        "sha256": "5f833d26582c9995fa3ce246bf105971cafadeccdad5179f177821b66e4749ef"
+      }
+    ]
+  },
+  "review_approval": {
+    "status": "approved",
+    "approved_at": "2026-09-27T09:58:44-04:00",
+    "approved_by": "user",
+    "edition_title": "Commentary on Corinthians, Volume I",
+    "approved_page_count": 453,
+    "approved_pdf_sha256": {
+      "john_calvin_calcom39_commentary_on_corinthians_volume_1_hardcover_cover.pdf": "a7488d7a5b5e8cf3368d312d46d1e6c5e36890fc1375cab67ae740312b9dec51",
+      "john_calvin_calcom39_commentary_on_corinthians_volume_1_interior.pdf": "05c67f34bfe0dc3d775444be101ce54833d8e0e31ba60065068217466576eb66",
+      "john_calvin_calcom39_commentary_on_corinthians_volume_1_paperback_cover.pdf": "5f833d26582c9995fa3ce246bf105971cafadeccdad5179f177821b66e4749ef"
+    },
+    "github_update_authorized": true
+  },
+  "store_price_cents": 3000,
+  "store_featured": false,
+  "store_genre": "Theology",
+  "store_description": "Volume I of John Calvin's Commentary on Corinthians, covering chapters 1 through 14 of the First Epistle to the Corinthians.",
+  "store_set_slug": "calvin-commentary-on-corinthians",
+  "store_set_title": "Commentary on Corinthians",
+  "store_set_genre": "Theology",
+  "store_set_description": "John Calvin's commentary on the First and Second Epistles to the Corinthians, in two volumes."
+}
