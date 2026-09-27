@@ -227,18 +227,21 @@
       "spine_edge_clearance_standard_in": 0.125,
       "spine_two_line_gap_in": null,
       "spine_title_font_size_px": 63,
-      "spine_author_font_size_px": 63,
+      "spine_author_font_size_px": 0,
       "spine_volume_font_size_px": 100,
       "spine_title_line_count": 1,
       "spine_title_lines": [
         "Ἡ Ἑβδομήκοντα"
       ],
-      "spine_author_text": "Bce)",
+      "spine_author_text": "",
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
       "page_count_used": 473,
-      "existing_artwork_preserved": true
+      "existing_artwork_preserved": true,
+      "front_author_text": "",
+      "cover_author_suppressed_for_unknown_or_collective": true,
+      "author_text_removed": true
     },
     "hardcover": {
       "front_width_px": 1838,
@@ -311,18 +314,21 @@
       "spine_edge_clearance_standard_in": 0.125,
       "spine_two_line_gap_in": null,
       "spine_title_font_size_px": 63,
-      "spine_author_font_size_px": 63,
+      "spine_author_font_size_px": 0,
       "spine_volume_font_size_px": 100,
       "spine_title_line_count": 1,
       "spine_title_lines": [
         "Ἡ Ἑβδομήκοντα"
       ],
-      "spine_author_text": "Bce)",
+      "spine_author_text": "",
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
       "page_count_used": 473,
-      "existing_artwork_preserved": true
+      "existing_artwork_preserved": true,
+      "front_author_text": "",
+      "cover_author_suppressed_for_unknown_or_collective": true,
+      "author_text_removed": true
     }
   },
   "interior_standard": "specialized-greek-times-10.5",
@@ -350,6 +356,19 @@
         "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_paperback_cover.pdf": "e3c2fc6afa0ca95536aa19b8ac65cc510e02b2a64956ba5ff9f794e62b7d0a5b"
       },
       "earlier_visual_review_and_dated_repair_evidence_retained": true
+    },
+    "review_approval_before_cover_author_removal_20260927": {
+      "status": "approved",
+      "approved_by": "user",
+      "approved_at": "2026-09-27T18:00:00-04:00",
+      "approved_page_count": 473,
+      "approved_pdf_sha256": {
+        "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_hardcover_cover.pdf": "358df6f093a45118e28cfc494a4a573d85f62a55e20acf35d1df77885b405b3f",
+        "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_interior.pdf": "3383a3722489911455f0fcdac51222614c12fcee44476507d98f0baf0de3c9b0",
+        "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_paperback_cover.pdf": "f958379a69bf379aee18dd58cc8754b7c5d0273e7a41fe730f9ac8e2683a967d"
+      },
+      "approved_revision": "20260927-paragraphing",
+      "github_update_authorized": true
     }
   },
   "paragraphing_revision_20260927": {
@@ -388,11 +407,28 @@
     "approved_at": "2026-09-27T18:00:00-04:00",
     "approved_page_count": 473,
     "approved_pdf_sha256": {
-      "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_hardcover_cover.pdf": "358df6f093a45118e28cfc494a4a573d85f62a55e20acf35d1df77885b405b3f",
       "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_interior.pdf": "3383a3722489911455f0fcdac51222614c12fcee44476507d98f0baf0de3c9b0",
-      "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_paperback_cover.pdf": "f958379a69bf379aee18dd58cc8754b7c5d0273e7a41fe730f9ac8e2683a967d"
+      "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_paperback_cover.pdf": "b2162a26a63a7bff1b5637891340a3aade07d27d3006649b70bc8885c36c55db",
+      "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_hardcover_cover.pdf": "bb2c283ff57d3bdb5fd963d7f66a2d1f6eaba324ec5b0d4f6436c6bda9a26025"
     },
     "approved_revision": "20260927-paragraphing",
-    "github_update_authorized": true
+    "github_update_authorized": true,
+    "cover_revision_authorized_at": "2026-09-27T18:39:57-04:00",
+    "cover_revision_basis": "User explicitly requested removing all author mentions from all six covers and reuploading all three approved volumes."
+  },
+  "cover_author_revision_20260927": {
+    "author_credits_omitted": true,
+    "reason": "Unknown or numerous authors",
+    "revised_at": "2026-09-27T18:39:57-04:00",
+    "interior_preserved": true,
+    "cover_dimensions_preserved": true,
+    "all_other_cover_pixels_preserved": true,
+    "current_pdf_sha256": {
+      "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_interior.pdf": "3383a3722489911455f0fcdac51222614c12fcee44476507d98f0baf0de3c9b0",
+      "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_paperback_cover.pdf": "b2162a26a63a7bff1b5637891340a3aade07d27d3006649b70bc8885c36c55db",
+      "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_hardcover_cover.pdf": "bb2c283ff57d3bdb5fd963d7f66a2d1f6eaba324ec5b0d4f6436c6bda9a26025"
+    },
+    "backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\archive\\septuagint_cover_authors_20260927\\septuagint_swete_1930_vol_1_genesis_to_4_kingdoms",
+    "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\septuagint_cover_authors_20260927\\verification.json"
   }
 }
