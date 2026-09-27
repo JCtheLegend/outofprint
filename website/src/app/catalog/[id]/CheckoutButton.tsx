@@ -61,13 +61,13 @@ export function CheckoutButton({
       <button
         onClick={() => handleCheckout("book")}
         disabled={pending !== null}
-        className="btn-primary w-full disabled:opacity-60 disabled:cursor-not-allowed"
+        className="btn-outline w-full disabled:opacity-60 disabled:cursor-not-allowed"
       >
         {pending === "book"
           ? "Preparing checkout…"
           : setOption
-            ? "Purchase this volume"
-            : "Purchase — Print to Order"}
+            ? "Buy this volume now"
+            : "Buy Now — Print to Order"}
       </button>
 
       {setOption && (

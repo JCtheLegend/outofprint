@@ -111,6 +111,14 @@ alter table books add column if not exists cover_pdf_url text;
 -- perfect-bound paperback on 60# cream stock.
 alter table books add column if not exists pod_package_id text;
 
+-- ============================================================
+-- Shopping cart
+-- ============================================================
+
+-- A cart can hold several copies of the same book, so an order row records how
+-- many were bought. One row per (session, book) still holds.
+alter table orders add column if not exists quantity int not null default 1;
+
 -- Indexes
 create index if not exists books_featured_idx on books (featured);
 create index if not exists orders_book_id_idx on orders (book_id);

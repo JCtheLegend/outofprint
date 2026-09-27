@@ -90,6 +90,32 @@ export async function sendPrintJobFailureAlert(
   });
 }
 
+export async function sendCartOrderConfirmation(
+  to: string,
+  name: string,
+  lines: { title: string; quantity: number }[],
+  orderId: string
+) {
+  const items = lines
+    .map((line) => `<li>${line.title}${line.quantity > 1 ? ` &times; ${line.quantity}` : ""}</li>`)
+    .join("");
+  const bookCount = lines.reduce((total, line) => total + line.quantity, 0);
+
+  await resend.emails.send({
+    from: FROM,
+    to,
+    subject: `Your order of ${bookCount} book${bookCount === 1 ? "" : "s"} is confirmed`,
+    html: `
+      <p>Hi ${name},</p>
+      <p>Your order has been confirmed (order #${orderId}):</p>
+      <ul>${items}</ul>
+      <p>Everything is being printed to order and ships together where possible —
+      we'll email you tracking information as it leaves the printer.</p>
+      <p>— The Out of Print Press Team</p>
+    `,
+  });
+}
+
 export async function sendShippingNotification(
   to: string,
   name: string,

@@ -209,6 +209,10 @@ website/
 │   │   │       ├── page.tsx          ← Multi-volume set page
 │   │   │       ├── SetPurchasePanel.tsx  ← Pick one volume or the set (client)
 │   │   │       └── success/page.tsx  ← Post-purchase page
+│   │   ├── cart/
+│   │   │   ├── page.tsx              ← Cart page
+│   │   │   ├── CartClient.tsx        ← Cart UI (client)
+│   │   │   └── success/page.tsx      ← Post-purchase, clears the cart
 │   │   ├── submit/
 │   │   │   ├── page.tsx              ← Submission page
 │   │   │   └── SubmissionForm.tsx    ← Form (client)
@@ -217,12 +221,16 @@ website/
 │   │       ├── submissions/route.ts  ← Saves submission + uploads file
 │   │       └── webhooks/stripe/route.ts  ← Fires print job after payment
 │   ├── components/
+│   │   ├── cart/
+│   │   │   ├── CartProvider.tsx      ← localStorage cart + useCart()
+│   │   │   └── AddToCartButton.tsx
 │   │   ├── layout/Nav.tsx
 │   │   └── ui/
 │   │       ├── BookCard.tsx
 │   │       └── SetCard.tsx           ← One card standing for a whole set
 │   └── lib/
 │       ├── supabase.ts               ← DB client + types
+│       ├── cart.ts                   ← Cart model + storage
 │       ├── sets.ts                   ← Volume grouping + set pricing
 │       ├── stripe.ts                 ← Stripe client
 │       ├── print.ts                  ← Order → Lulu print job

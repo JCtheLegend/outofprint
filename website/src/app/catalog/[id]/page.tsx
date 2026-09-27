@@ -5,6 +5,7 @@ import { supabase } from "@/lib/supabase";
 import { formatPrice } from "@/lib/stripe";
 import { getSetForBook, setPriceCents, setSavingsCents, volumeLabel } from "@/lib/sets";
 import { CheckoutButton, type SetOption } from "./CheckoutButton";
+import { AddToCartButton } from "@/components/cart/AddToCartButton";
 
 export async function generateStaticParams() {
   const { data } = await supabase.from("books").select("id");
@@ -82,6 +83,9 @@ export default async function BookPage({ params }: { params: Promise<{ id: strin
                 {formatPrice(book.price_cents)}
               </span>
               <span className="text-xs text-muted">Printed &amp; shipped to order</span>
+            </div>
+            <div className="mb-3">
+              <AddToCartButton kind="book" id={book.id} className="btn-primary w-full" />
             </div>
             <CheckoutButton bookId={book.id} setOption={setOption} />
             {inSet && set && (

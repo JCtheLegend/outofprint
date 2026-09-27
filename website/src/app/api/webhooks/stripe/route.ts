@@ -6,6 +6,7 @@ import type { Book } from "@/lib/supabase";
 import { sortVolumes, volumeLabel } from "@/lib/sets";
 import { createPrintJob } from "@/lib/print";
 import {
+  sendCartOrderConfirmation,
   sendOrderConfirmation,
   sendPrintJobFailureAlert,
   sendSetOrderConfirmation,
@@ -53,14 +54,51 @@ export async function POST(req: NextRequest) {
   return NextResponse.json({ received: true });
 }
 
+/**
+ * How many of each book a session bought.
+ *
+ * Every line item carries its book id in the product metadata, which is the
+ * only place a cart of several books fits — session metadata is capped at 500
+ * characters per value. Sessions created before carts existed have no such
+ * metadata, so fall back to the bookId/setId they did carry.
+ */
+async function purchasedQuantities(
+  session: Stripe.Checkout.Session,
+  db: ReturnType<typeof supabaseAdmin>
+): Promise<Map<string, number>> {
+  const quantities = new Map<string, number>();
+
+  const lineItems = await stripe.checkout.sessions.listLineItems(session.id, {
+    limit: 100,
+    expand: ["data.price.product"],
+  });
+
+  for (const line of lineItems.data) {
+    const product = line.price?.product;
+    const bookId =
+      product && typeof product !== "string" && !("deleted" in product && product.deleted)
+        ? product.metadata?.bookId
+        : undefined;
+    if (!bookId) continue;
+    quantities.set(bookId, (quantities.get(bookId) ?? 0) + (line.quantity ?? 1));
+  }
+
+  if (quantities.size > 0) return quantities;
+
+  const { bookId, setId } = session.metadata ?? {};
+  if (setId) {
+    const { data } = await db.from("books").select("id").eq("set_id", setId);
+    for (const row of data ?? []) quantities.set(row.id, 1);
+  } else if (bookId) {
+    quantities.set(bookId, 1);
+  }
+
+  return quantities;
+}
+
 async function handleSuccessfulPayment(session: Stripe.Checkout.Session) {
   const db = supabaseAdmin();
   const { bookId, bookTitle, setId, setTitle } = session.metadata ?? {};
-
-  if (!bookId && !setId) {
-    console.error("No bookId or setId in session metadata");
-    return;
-  }
 
   // Extract shipping address
   const shipping = session.shipping_details?.address;
@@ -68,25 +106,27 @@ async function handleSuccessfulPayment(session: Stripe.Checkout.Session) {
     session.shipping_details?.name ?? session.customer_details?.name ?? "Customer";
   const customerEmail = session.customer_details?.email ?? "";
 
-  // One purchase can cover several volumes — each is its own book, order row
-  // and print job.
-  let books: Book[];
+  // One purchase can cover several books and several copies of each — every
+  // book is its own order row, and all of them print as one job.
+  const quantities = await purchasedQuantities(session, db);
 
-  if (setId) {
-    const { data, error } = await db.from("books").select("*").eq("set_id", setId);
-    if (error || !data?.length) {
-      console.error("No volumes found for set:", setId, error);
-      return;
-    }
-    books = sortVolumes(data);
-  } else {
-    const { data, error } = await db.from("books").select("*").eq("id", bookId).single();
-    if (error || !data) {
-      console.error("Book not found for order:", bookId, error);
-      return;
-    }
-    books = [data];
+  if (quantities.size === 0) {
+    throw new Error(`Could not tell what session ${session.id} bought`);
   }
+
+  const { data: bookRows, error: booksError } = await db
+    .from("books")
+    .select("*")
+    .in("id", Array.from(quantities.keys()));
+
+  if (booksError || !bookRows?.length) {
+    throw new Error(
+      `Books not found for session ${session.id}: ${booksError?.message ?? "none matched"}`
+    );
+  }
+
+  const books: Book[] = sortVolumes(bookRows);
+  const quantityFor = (book: Book) => quantities.get(book.id) ?? 1;
 
   const shippingAddress = {
     line1: shipping?.line1 ?? "",
@@ -109,6 +149,7 @@ async function handleSuccessfulPayment(session: Stripe.Checkout.Session) {
       customer_email: customerEmail,
       customer_name: customerName,
       shipping_address: shipping ?? {},
+      quantity: quantityFor(book),
       status: "paid",
     })),
     { onConflict: "stripe_session_id,book_id", ignoreDuplicates: true }
@@ -164,6 +205,7 @@ async function handleSuccessfulPayment(session: Stripe.Checkout.Session) {
           interiorUrl: book.pdf_url,
           coverUrl: book.cover_pdf_url,
           podPackageId: book.pod_package_id,
+          quantity: quantityFor(book),
         };
       }),
     });
@@ -193,23 +235,33 @@ async function handleSuccessfulPayment(session: Stripe.Checkout.Session) {
   }
 
   try {
-    // Send confirmation email
+    // Send confirmation email — one bought a set, one bought a single book,
+    // and anything else came from a cart.
+    const titleOf = (book: Book) => {
+      const volume = volumeLabel(book);
+      return volume ? `${volume} — ${book.title}` : book.title;
+    };
+
     if (setId) {
       await sendSetOrderConfirmation(
         customerEmail,
         customerName,
         setTitle ?? books[0].title,
-        books.map((b) => {
-          const volume = volumeLabel(b);
-          return volume ? `${volume} — ${b.title}` : b.title;
-        }),
+        books.map(titleOf),
         orderIds[0]
       );
-    } else {
+    } else if (books.length === 1 && quantityFor(books[0]) === 1) {
       await sendOrderConfirmation(
         customerEmail,
         customerName,
         bookTitle ?? books[0].title,
+        orderIds[0]
+      );
+    } else {
+      await sendCartOrderConfirmation(
+        customerEmail,
+        customerName,
+        books.map((book) => ({ title: titleOf(book), quantity: quantityFor(book) })),
         orderIds[0]
       );
     }

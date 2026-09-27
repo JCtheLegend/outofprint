@@ -35,6 +35,8 @@ export type PrintableBook = {
   /** Stored Storage URL of the print-ready wraparound cover PDF */
   coverUrl: string | null;
   podPackageId?: string | null;
+  /** Copies of this book to print — defaults to one */
+  quantity?: number;
 };
 
 export type PrintJobRequest = {
@@ -63,7 +65,7 @@ export type PrintJobResponse = {
 function lineItemFor(book: PrintableBook, interior: string, cover: string): LuluLineItem {
   return {
     title: book.title,
-    quantity: 1,
+    quantity: Math.max(1, Math.round(book.quantity ?? 1)),
     external_id: book.orderId,
     printable_normalization: {
       pod_package_id:
