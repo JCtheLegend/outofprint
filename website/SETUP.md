@@ -263,6 +263,55 @@ website/
 
 ---
 
+## Environment Variables — where each one goes
+
+Cloudflare keeps **build variables** and **runtime variables** separately, and the
+difference is not cosmetic:
+
+- `NEXT_PUBLIC_*` values are **compiled into the bundles** by `next build`. They
+  must be **build** variables. Setting them at runtime does nothing at all —
+  there is no `process.env` lookup left in the built code to read.
+- Everything else is read per request and must be a **runtime** variable.
+- Two runtime secrets are *also* needed at build time, because their clients are
+  constructed at module scope and `next build` loads those modules:
+  `STRIPE_SECRET_KEY` and `RESEND_API_KEY`. Without them the build fails.
+
+### Build variables
+
+| Variable | Type | Value |
+|---|---|---|
+| `NEXT_PUBLIC_SUPABASE_URL` | Variable | `https://<project>.supabase.co` |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Variable | anon key (public by design — it ships in the browser bundle) |
+| `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Variable | `pk_test_…` / `pk_live_…` |
+| `NEXT_PUBLIC_SITE_URL` | Variable | `https://yourdomain.com` — optional; the app falls back to the request origin |
+| `STRIPE_SECRET_KEY` | Secret | needed to build, not only to run |
+| `RESEND_API_KEY` | Secret | needed to build, not only to run |
+
+### Runtime variables
+
+| Variable | Type | Value |
+|---|---|---|
+| `STRIPE_SECRET_KEY` | Secret | `sk_test_…` / `sk_live_…` |
+| `STRIPE_WEBHOOK_SECRET` | Secret | `whsec_…` from the webhook endpoint **of the same mode** |
+| `SUPABASE_SERVICE_ROLE_KEY` | Secret | service role JWT — the anon key cannot write `orders` |
+| `RESEND_API_KEY` | Secret | `re_…` |
+| `RESEND_FROM_EMAIL` | Variable | a sender on your verified domain. `onboarding@resend.dev` only delivers to the Resend account owner, so real customers get nothing |
+| `LULU_CLIENT_KEY` | Variable | must come from the **same Lulu account** as the secret |
+| `LULU_CLIENT_SECRET` | Secret | also the key Lulu signs status webhooks with |
+| `LULU_API_URL` | Variable | `https://api.sandbox.lulu.com` while testing. **Defaults to production Lulu**, which rejects sandbox credentials with a 401 |
+| `LULU_CONTACT_EMAIL` | Variable | where Lulu and the print-failure alert reach you |
+| `LULU_DEFAULT_PHONE` | Variable | fallback phone for the carrier when Stripe collected none |
+
+Optional runtime overrides, all with defaults in code: `LULU_POD_PACKAGE_ID`
+(6x9 B&W paperback), `LULU_SHIPPING_LEVEL` (`MAIL`),
+`LULU_PRODUCTION_DELAY_MINUTES` (120), `LULU_FILE_URL_TTL_SECONDS` (7 days).
+
+`NEXT_PUBLIC_*` variables do **not** need runtime copies — they are already
+compiled in. Lulu and Stripe credentials are per environment: sandbox/test
+credentials and their webhook subscriptions do not carry over to production.
+
+---
+
 ## Estimated Monthly Costs (at low volume)
 
 | Service | Free Tier | Paid |
