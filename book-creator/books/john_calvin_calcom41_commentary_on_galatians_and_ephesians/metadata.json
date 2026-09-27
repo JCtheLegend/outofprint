@@ -1,0 +1,592 @@
+{
+  "title": "Commentary on Galatians and Ephesians",
+  "subtitle": "",
+  "authors": [
+    "John Calvin"
+  ],
+  "translator": "Calvin Translation Society",
+  "original_publication": "1548",
+  "reader_facing_imprint": "1548",
+  "publication_type": "single work",
+  "language": "English",
+  "volume": "",
+  "trim_size": "6 x 9 in",
+  "interior_standard": "prose-6x9-v1",
+  "page_count": 333,
+  "body_page_count": 331,
+  "generated_contents_entries": 17,
+  "generated_contents_entries_in_pdf": 17,
+  "detected_heading_count": 17,
+  "interior_filename": "john_calvin_calcom41_commentary_on_galatians_and_ephesians_interior.pdf",
+  "hardcover_cover_filename": "john_calvin_calcom41_commentary_on_galatians_and_ephesians_hardcover_cover.pdf",
+  "paperback_cover_filename": "john_calvin_calcom41_commentary_on_galatians_and_ephesians_paperback_cover.pdf",
+  "source_basis": {
+    "status": "Retained public-domain source with documented transcription corrections; uncertain readings preserved.",
+    "source_kind": "CCEL cached plain text",
+    "source_url": "https://www.ccel.org/ccel/calvin/calcom41/cache/calcom41.txt",
+    "source_note": "CCEL cached plain text. The Meeter Center describes these linked English editions as mid-nineteenth-century Calvin Translation Society translations.",
+    "local_source_file": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\source_texts\\john_calvin_plain_text\\calcom41.txt",
+    "source_translation_year": "mid-19th century translation; CCEL cache based on public-domain text"
+  },
+  "intentionally_omitted_material": [
+    "Project Gutenberg or CCEL boilerplate and license text",
+    "duplicate original title pages",
+    "source-site navigation and metadata",
+    "scan facsimile images and decorative images where present",
+    "Introductions, forewords, prefaces, and afterwords by editors, translators, publishers, or other contributors are omitted; author-written front matter is retained."
+  ],
+  "verification_facts": {
+    "interior_standard": "prose-6x9-v1",
+    "interior_standard_enforced": true,
+    "dominant_body_font": "PalatinoLinotype-Roman",
+    "dominant_body_size_pt": 11.0,
+    "interior_image_count": 0,
+    "quality_blockers": 0,
+    "quality_warnings": 2,
+    "quality_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom41\\repair_log.json",
+    "verification_sample_pages": [
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom41_split_heading_20260927\\page_2.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom41_split_heading_20260927\\page_4.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom41_split_heading_20260927\\page_5.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom41_split_heading_20260927\\page_6.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom41_split_heading_20260927\\page_10.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom41_split_heading_20260927\\page_11.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom41_split_heading_20260927\\page_12.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom41_split_heading_20260927\\page_177.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom41_split_heading_20260927\\page_178.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom41_split_heading_20260927\\page_181.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom41_split_heading_20260927\\page_182.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom41_split_heading_20260927\\page_332.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom41_split_heading_20260927\\page_333.png"
+    ],
+    "single_rebuilt_title_page": true,
+    "generated_contents_from_rebuilt_pdf": true,
+    "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
+    "running_header_standard_enforced": true,
+    "running_header_alignment": "centered",
+    "running_header_size_pt": 9.93,
+    "running_header_size_standard_enforced": true,
+    "running_header_left": "Commentary on Galatians and Ephesians",
+    "running_header_right": "John Calvin",
+    "observed_running_header_sizes_pt": [
+      9.93
+    ],
+    "observed_left_running_heads": [
+      "Commentary on Galatians and Ephesians"
+    ],
+    "observed_right_running_heads": [
+      "John Calvin"
+    ],
+    "every_rendered_body_character_matches_corrected_source": true,
+    "verified_body_characters": 624292,
+    "missing_glyph_count": 0,
+    "recovered_note_references": 1,
+    "transcription_repair_date": "2026-09-18",
+    "all_fonts_embedded_truetype": true,
+    "text_outlined": false,
+    "text_searchable": true,
+    "page_text_and_character_sequence_preserved": false,
+    "original_character_positions_preserved": false,
+    "page_boxes_and_bookmarks_preserved": true,
+    "all_interior_pages_rendered_for_font_update": 337,
+    "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom41_commentary_on_galatians_and_ephesians.json",
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom41_split_heading_20260927\\verification.json",
+    "full_body_text_preserved_except_heading_case": true,
+    "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom41_split_heading_20260927\\verification.json"
+  },
+  "cover_facts": {
+    "paperback": {
+      "front_width_px": 1800,
+      "height_px": 2700,
+      "spine_width_px": 243,
+      "spine_thickness_in": 0.81,
+      "era_label": "before 17th century",
+      "cover_color": "brown",
+      "band_color_rgb": [
+        88,
+        62,
+        39
+      ],
+      "accent_color_rgb": [
+        247,
+        198,
+        112
+      ],
+      "front_border_pattern": "renaissance_cartouche_approved",
+      "back_border_pattern": "renaissance_cartouche_approved",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 3843,
+      "output_width_px": 3919,
+      "output_height_px": 2776,
+      "cover_format": "paperback",
+      "front_panel_width_in": 6.0,
+      "cover_panel_height_in": 9.0,
+      "wrap_px": 0,
+      "wrap_in": 0,
+      "hinge_px": 0,
+      "hinge_in": 0,
+      "safety_margin_px": 84,
+      "safety_margin_in": 0.28,
+      "expand_with_bleed": true,
+      "bleed_px": 38,
+      "bleed_in": 0.125,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.45,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 2981,
+      "front_author_text": "John Calvin",
+      "hardcover_border_board_centered": false,
+      "hardcover_border_standard_inset_px": 0,
+      "hardcover_border_visual_inset_x_px": 0,
+      "hardcover_border_visual_inset_y_px": 0,
+      "hardcover_border_alignment_adjustment_x_px": 0,
+      "hardcover_border_alignment_adjustment_y_px": 0,
+      "hardcover_border_source_compensation_x_px": 0,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 0,
+      "hardcover_border_art_height_px": 0,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": false,
+      "hardcover_border_reference_texture_preserved": false,
+      "front_text_side_inset_in": 1.1,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        2411,
+        347,
+        3551,
+        2429
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 930,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 3,
+      "front_title_lines": [
+        "Commentary on",
+        "Galatians and",
+        "Ephesians"
+      ],
+      "front_title_max_line_width_px": 685.0,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15.0,
+      "spine_author_standard_pt": 15.0,
+      "spine_volume_standard_pt": 24.0,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": 0.06,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 0,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 0,
+      "spine_title_line_count": 2,
+      "spine_title_lines": [
+        "Commentary on",
+        "Galatians and Ephesians"
+      ],
+      "spine_author_text": "Calvin",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 333
+    },
+    "hardcover": {
+      "front_width_px": 1838,
+      "height_px": 2775,
+      "spine_width_px": 300,
+      "spine_thickness_in": 1.0,
+      "era_label": "before 17th century",
+      "cover_color": "brown",
+      "band_color_rgb": [
+        88,
+        62,
+        39
+      ],
+      "accent_color_rgb": [
+        247,
+        198,
+        112
+      ],
+      "front_border_pattern": "renaissance_cartouche_approved",
+      "back_border_pattern": "renaissance_cartouche_approved",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 3976,
+      "output_width_px": 4426,
+      "output_height_px": 3225,
+      "cover_format": "lulu_casewrap_hardcover",
+      "front_panel_width_in": 6.125,
+      "cover_panel_height_in": 9.25,
+      "wrap_px": 225,
+      "wrap_in": 0.75,
+      "hinge_px": 75,
+      "hinge_in": 0.25,
+      "safety_margin_px": 225,
+      "safety_margin_in": 0.75,
+      "expand_with_bleed": true,
+      "bleed_px": 225,
+      "bleed_in": 0,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.45,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 3282,
+      "front_author_text": "John Calvin",
+      "hardcover_border_board_centered": true,
+      "hardcover_border_standard_inset_px": 225,
+      "hardcover_border_visual_inset_x_px": 243,
+      "hardcover_border_visual_inset_y_px": 245,
+      "hardcover_border_alignment_adjustment_x_px": 18,
+      "hardcover_border_alignment_adjustment_y_px": 20,
+      "hardcover_border_source_compensation_x_px": -1,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 1353,
+      "hardcover_border_art_height_px": 2286,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": true,
+      "hardcover_border_reference_texture_preserved": true,
+      "front_text_side_inset_in": 1.35,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        2813,
+        675,
+        3751,
+        2550
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 728,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 3,
+      "front_title_lines": [
+        "Commentary on",
+        "Galatians and",
+        "Ephesians"
+      ],
+      "front_title_max_line_width_px": 685.0,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15.0,
+      "spine_author_standard_pt": 15.0,
+      "spine_volume_standard_pt": 24.0,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": 0.06,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 0,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 0,
+      "spine_title_line_count": 2,
+      "spine_title_lines": [
+        "Commentary on",
+        "Galatians and Ephesians"
+      ],
+      "spine_author_text": "Calvin",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 333
+    }
+  },
+  "transcription_repairs": {
+    "date": "2026-09-18",
+    "audit": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\findings.json",
+    "ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom41\\repair_log.json",
+    "original_interior_sha256": "693ab7af5333d2b074037cc2e56a4dad1f6bf77285a6918bc4624f56e005aff4",
+    "raw_source_unchanged": true
+  },
+  "body_font_family": "Palatino Linotype (embedded TrueType)",
+  "font_update_20260926": {
+    "font_format": "embedded TrueType",
+    "prose_font": "Palatino Linotype",
+    "specialized_glyphs_and_facsimiles_preserved": true,
+    "text_searchable": true,
+    "text_outlined": false,
+    "page_count_unchanged": true,
+    "cover_dimensions_unchanged": true,
+    "method": "Replace embedded font programs while preserving PDF character positions, widths, and Unicode mappings",
+    "original_package_backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\archive\\package_fonts_originals_20260926\\john_calvin_calcom41_commentary_on_galatians_and_ephesians",
+    "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom41_commentary_on_galatians_and_ephesians.json",
+    "current_pdf_sha256": {
+      "john_calvin_calcom41_commentary_on_galatians_and_ephesians_hardcover_cover.pdf": "f617731e1c99e49af96f345fbbd74c3fcdb18c9880324490cd2022814334d847",
+      "john_calvin_calcom41_commentary_on_galatians_and_ephesians_interior.pdf": "02cd3b013957c2304f95564c7e289bfd50ca8bec0dd56439fe47bfcb462322ac",
+      "john_calvin_calcom41_commentary_on_galatians_and_ephesians_paperback_cover.pdf": "dfadc0ac6a935b4491f96d4eec751ea4bc142b26652916b410a80065139e3218"
+    },
+    "earlier_visual_review_and_dated_repair_evidence_retained": true
+  },
+  "contents_correction_20260927": {
+    "source_id": "calcom41",
+    "status": "verified",
+    "page_count": 337,
+    "changed_pages": [
+      2
+    ],
+    "old_entry_count": 20,
+    "entry_count": 17,
+    "entries": [
+      {
+        "title": "Dedication to Christopher, Duke of Wirtemberg",
+        "page": 3
+      },
+      {
+        "title": "Introduction to Galatians",
+        "page": 5
+      },
+      {
+        "title": "Commentary on Galatians",
+        "page": 12
+      },
+      {
+        "title": "Galatians 1",
+        "page": 12
+      },
+      {
+        "title": "Galatians 2",
+        "page": 37
+      },
+      {
+        "title": "Galatians 3",
+        "page": 69
+      },
+      {
+        "title": "Galatians 4",
+        "page": 103
+      },
+      {
+        "title": "Galatians 5",
+        "page": 136
+      },
+      {
+        "title": "Galatians 6",
+        "page": 161
+      },
+      {
+        "title": "Introduction to Ephesians",
+        "page": 179
+      },
+      {
+        "title": "Commentary on Ephesians",
+        "page": 183
+      },
+      {
+        "title": "Ephesians 1",
+        "page": 183
+      },
+      {
+        "title": "Ephesians 2",
+        "page": 207
+      },
+      {
+        "title": "Ephesians 3",
+        "page": 235
+      },
+      {
+        "title": "Ephesians 4",
+        "page": 256
+      },
+      {
+        "title": "Ephesians 5",
+        "page": 294
+      },
+      {
+        "title": "Ephesians 6",
+        "page": 318
+      }
+    ],
+    "removed_toc_entries": [
+      "End of the Commentaries on the Epistle to the Ephesians",
+      "End of the Commentaries on the Epistle to the Galatians",
+      "Ephesians 5: 3-7"
+    ],
+    "renamed_toc_entries": {
+      "To the Most Illustrious Prince Christopher, Duke of Wirtemberg": "Dedication to Christopher, Duke of Wirtemberg",
+      "The Argument on the Epistle of Paul to the Galatians": "Introduction to Galatians",
+      "Commentaries on the Epistle of Paul to the Galatians": "Commentary on Galatians",
+      "The Argument on the Epistle of Paul to the Ephesians": "Introduction to Ephesians",
+      "Commentaries on the Epistle of Paul to the Ephesians": "Commentary on Ephesians"
+    },
+    "reviewer_sections_match_contents": true,
+    "chapter_links_disambiguated_by_epistle": true,
+    "all_other_pages_text_streams_and_rendering_unchanged": true,
+    "all_fonts_embedded_truetype": true,
+    "raw_source_unchanged": true,
+    "raw_source_sha256": "f1b96a880b69f0aa75adf598cf4c6ebe8091796bdf49dd5b23b9bd373eb800e9",
+    "before_sha256": "27647c6ee5ac325d20946db08f3fc91589ef3898a584908cf4ce6305c8ab60bc",
+    "after_sha256": "95b485dd03fcca26326bae393d6f2e32394cd60b231f13c4c6c21d7972111957",
+    "backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom41_contents_20260927\\original_interior.pdf",
+    "covers": [
+      {
+        "name": "john_calvin_calcom41_commentary_on_galatians_and_ephesians_hardcover_cover.pdf",
+        "sha256": "c36b67e13cf899183541cc62d4ba59e7c141a85ed046a3a651716f48acb0220b"
+      },
+      {
+        "name": "john_calvin_calcom41_commentary_on_galatians_and_ephesians_paperback_cover.pdf",
+        "sha256": "84d6bd7a740fcb41ce2b1206031e881689a29667443e30e54311ad3a1a2eb27c"
+      }
+    ]
+  },
+  "layout_correction_20260927": {
+    "source_id": "calcom41",
+    "status": "verified",
+    "old_page_count": 337,
+    "page_count": 333,
+    "entry_count": 17,
+    "before_sha256": "95b485dd03fcca26326bae393d6f2e32394cd60b231f13c4c6c21d7972111957",
+    "after_sha256": "02cd3b013957c2304f95564c7e289bfd50ca8bec0dd56439fe47bfcb462322ac",
+    "source_sha256": "f1b96a880b69f0aa75adf598cf4c6ebe8091796bdf49dd5b23b9bd373eb800e9",
+    "raw_source_unchanged": true,
+    "full_body_preserved_except_OF_to_of_in_heading": true,
+    "full_body_character_comparison_passed": true,
+    "all_interior_pages_rendered": 333,
+    "all_fonts_embedded_truetype": true,
+    "introduction_heading_and_opening_paragraph_on_page_5": true,
+    "closing_labels_kept_with_preceding_text": true,
+    "reviewer_sections_match_contents": true,
+    "covers_rebuilt_for_page_count": 333,
+    "entries": [
+      {
+        "title": "Dedication to Christopher, Duke of Wirtemberg",
+        "page": 3
+      },
+      {
+        "title": "Introduction to Galatians",
+        "page": 5
+      },
+      {
+        "title": "Commentary on Galatians",
+        "page": 11
+      },
+      {
+        "title": "Galatians 1",
+        "page": 11
+      },
+      {
+        "title": "Galatians 2",
+        "page": 36
+      },
+      {
+        "title": "Galatians 3",
+        "page": 68
+      },
+      {
+        "title": "Galatians 4",
+        "page": 102
+      },
+      {
+        "title": "Galatians 5",
+        "page": 135
+      },
+      {
+        "title": "Galatians 6",
+        "page": 160
+      },
+      {
+        "title": "Introduction to Ephesians",
+        "page": 178
+      },
+      {
+        "title": "Commentary on Ephesians",
+        "page": 182
+      },
+      {
+        "title": "Ephesians 1",
+        "page": 182
+      },
+      {
+        "title": "Ephesians 2",
+        "page": 206
+      },
+      {
+        "title": "Ephesians 3",
+        "page": 233
+      },
+      {
+        "title": "Ephesians 4",
+        "page": 254
+      },
+      {
+        "title": "Ephesians 5",
+        "page": 291
+      },
+      {
+        "title": "Ephesians 6",
+        "page": 315
+      }
+    ],
+    "short_body_pages_for_visual_review": [],
+    "backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom41_split_heading_20260927\\original_package",
+    "files": [
+      {
+        "name": "john_calvin_calcom41_commentary_on_galatians_and_ephesians_interior.pdf",
+        "sha256": "02cd3b013957c2304f95564c7e289bfd50ca8bec0dd56439fe47bfcb462322ac"
+      },
+      {
+        "name": "john_calvin_calcom41_commentary_on_galatians_and_ephesians_paperback_cover.pdf",
+        "sha256": "dfadc0ac6a935b4491f96d4eec751ea4bc142b26652916b410a80065139e3218"
+      },
+      {
+        "name": "john_calvin_calcom41_commentary_on_galatians_and_ephesians_hardcover_cover.pdf",
+        "sha256": "f617731e1c99e49af96f345fbbd74c3fcdb18c9880324490cd2022814334d847"
+      }
+    ],
+    "visual_review_complete": true,
+    "visually_reviewed_interior_pages": [
+      2,
+      4,
+      5,
+      6,
+      10,
+      11,
+      12,
+      177,
+      178,
+      181,
+      182,
+      332,
+      333
+    ],
+    "visually_reviewed_covers": [
+      "paperback",
+      "hardcover"
+    ]
+  },
+  "review_approval": {
+    "status": "approved",
+    "approved_at": "2026-09-27T14:23:06-04:00",
+    "approved_by": "user",
+    "edition_title": "Commentary on Galatians and Ephesians",
+    "approved_page_count": 333,
+    "approved_pdf_sha256": {
+      "john_calvin_calcom41_commentary_on_galatians_and_ephesians_hardcover_cover.pdf": "f617731e1c99e49af96f345fbbd74c3fcdb18c9880324490cd2022814334d847",
+      "john_calvin_calcom41_commentary_on_galatians_and_ephesians_interior.pdf": "02cd3b013957c2304f95564c7e289bfd50ca8bec0dd56439fe47bfcb462322ac",
+      "john_calvin_calcom41_commentary_on_galatians_and_ephesians_paperback_cover.pdf": "dfadc0ac6a935b4491f96d4eec751ea4bc142b26652916b410a80065139e3218"
+    },
+    "github_update_authorized": true
+  },
+  "store_price_cents": 3000,
+  "store_featured": false,
+  "store_genre": "Theology",
+  "store_description": "John Calvin's commentaries on Paul's Epistles to the Galatians and Ephesians."
+}
