@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { stripe } from "@/lib/stripe";
+import { sessionShipping, stripe } from "@/lib/stripe";
 import { getSetBySlug } from "@/lib/sets";
 
 export default async function SetSuccessPage({
@@ -18,7 +18,7 @@ export default async function SetSuccessPage({
     try {
       const session = await stripe.checkout.sessions.retrieve(session_id);
       customerName =
-        session.shipping_details?.name ?? session.customer_details?.name ?? "there";
+        sessionShipping(session).name ?? session.customer_details?.name ?? "there";
     } catch {
       // Silently ignore — still show success
     }

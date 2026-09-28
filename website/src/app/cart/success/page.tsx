@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { stripe } from "@/lib/stripe";
+import { sessionShipping, stripe } from "@/lib/stripe";
 import { ClearCartOnMount } from "./ClearCartOnMount";
 
 export default async function CartSuccessPage({
@@ -17,7 +17,7 @@ export default async function CartSuccessPage({
         expand: ["line_items"],
       });
       customerName =
-        session.shipping_details?.name ?? session.customer_details?.name ?? "there";
+        sessionShipping(session).name ?? session.customer_details?.name ?? "there";
       bookCount =
         session.line_items?.data.reduce((total, line) => total + (line.quantity ?? 1), 0) ?? 0;
     } catch {

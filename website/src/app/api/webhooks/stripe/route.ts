@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
-import { stripe, webhookCryptoProvider } from "@/lib/stripe";
+import { sessionShipping, stripe, webhookCryptoProvider } from "@/lib/stripe";
 import { supabaseAdmin } from "@/lib/supabase";
 import type { Book } from "@/lib/supabase";
 import { sortVolumes, volumeLabel } from "@/lib/sets";
@@ -102,9 +102,10 @@ async function handleSuccessfulPayment(session: Stripe.Checkout.Session, siteUrl
   const { bookId, bookTitle, setId, setTitle } = session.metadata ?? {};
 
   // Extract shipping address
-  const shipping = session.shipping_details?.address;
+  const shippingSnapshot = sessionShipping(session);
+  const shipping = shippingSnapshot.address;
   const customerName =
-    session.shipping_details?.name ?? session.customer_details?.name ?? "Customer";
+    shippingSnapshot.name ?? session.customer_details?.name ?? "Customer";
   const customerEmail = session.customer_details?.email ?? "";
 
   // One purchase can cover several books and several copies of each — every
