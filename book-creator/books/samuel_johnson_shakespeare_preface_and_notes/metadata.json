@@ -711,7 +711,7 @@
       "spine_volume_hierarchy_valid": true
     }
   },
-  "publication_status": "Approved by the user; GitHub publishing tracked in the local delivery receipt.",
+  "publication_status": "withdrawn",
   "visual_qa_status": "Passed: rendered title and contents, all ten history openings, representative body pages, repaired quotation, final Greek accent correction, last page, and both resized covers inspected.",
   "visual_qa": {
     "status": "passed",
@@ -790,5 +790,12 @@
   "store_price_cents": 3000,
   "store_featured": false,
   "store_genre": "Literary Criticism",
-  "store_description": "Samuel Johnson's Preface to Shakespeare and commentary on all 36 plays, collected in one 714-page volume. Includes quoted passages, but not the full plays. The source editions omit some annotations and variants."
+  "store_description": "Samuel Johnson's Preface to Shakespeare and commentary on all 36 plays, collected in one 714-page volume. Includes quoted passages, but not the full plays. The source editions omit some annotations and variants.",
+  "withdrawal": {
+    "reason": "User requested removal of the current Johnson Shakespeare from the website while deciding how to proceed.",
+    "requested_by": "user",
+    "date": "2026-09-28T22:59:38.512541+00:00",
+    "files_preserved": true,
+    "republication_requires_user_instruction": true
+  }
 }
