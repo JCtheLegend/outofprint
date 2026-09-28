@@ -312,6 +312,73 @@ credentials and their webhook subscriptions do not carry over to production.
 
 ---
 
+## Going Live
+
+Everything below is test/sandbox until you change it. Work top to bottom — the
+non-variable steps are the ones that fail silently.
+
+### Values to change
+
+**Build variables** (Cloudflare → Settings → Build):
+
+| Variable | Change to |
+|---|---|
+| `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | `pk_live_…` |
+| `STRIPE_SECRET_KEY` | `sk_live_…` — needed at build as well as runtime |
+| `NEXT_PUBLIC_SITE_URL` | `https://yourdomain.com` |
+
+`NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY` and `RESEND_API_KEY`
+stay as they are. Delete `RESEND_FROM_EMAIL`, `STRIPE_WEBHOOK_SECRET` and
+`SUPABASE_SERVICE_ROLE_KEY` from the build variables — they are never read there.
+
+**Runtime plain variables** (`wrangler.toml` `[vars]`, which replaces the
+dashboard's plain variables on every deploy):
+
+| Variable | Change to |
+|---|---|
+| `LULU_API_URL` | `https://api.lulu.com` |
+| `LULU_CLIENT_KEY` | production Lulu account key |
+
+**Runtime secrets** (dashboard):
+
+| Secret | Change to |
+|---|---|
+| `STRIPE_SECRET_KEY` | `sk_live_…` |
+| `STRIPE_WEBHOOK_SECRET` | signing secret of the **live-mode** webhook endpoint |
+| `LULU_CLIENT_SECRET` | production Lulu account secret |
+
+`SUPABASE_SERVICE_ROLE_KEY` and `RESEND_API_KEY` are unchanged. Remove any
+`NEXT_PUBLIC_*` runtime copies — they are compiled in and never read at runtime.
+
+### Steps that are not variables
+
+1. **Stripe**: activate live payments, then create a **live-mode** webhook
+   endpoint at `https://yourdomain.com/api/webhooks/stripe` for
+   `checkout.session.completed` and take its signing secret. Endpoints are per
+   mode; the test one never fires for live payments.
+2. **Lulu**: production credentials are a different account from the sandbox.
+   Then, and this is the step that silently stops everything:
+   **put a credit card on file**. Without one every job sits at `UNPAID` and
+   nothing is ever printed.
+3. **Lulu webhook**: register the status subscription again on the production
+   account — `npm run lulu:test -- --register-webhook https://yourdomain.com/api/webhooks/lulu`.
+   Subscriptions do not carry over between environments.
+4. **Clear test orders** from the `orders` table so the first real order is
+   unambiguous.
+5. **Turn on Workers observability/logs** in Cloudflare. Without it, a failing
+   webhook or a rejected print job leaves no trace you can read.
+
+### First live order
+
+Buy one cheap book with a real card. `LULU_PRODUCTION_DELAY_MINUTES` (default
+120) is how long Lulu waits before production, and a job can still be canceled
+during that window — so you have a safety net. Watch it move `UNPAID` →
+`PRODUCTION_DELAYED` → `IN_PRODUCTION` with
+`npm run lulu:test -- --status <job id>`, and confirm the confirmation email
+arrives with a working `/orders/…` link.
+
+---
+
 ## Estimated Monthly Costs (at low volume)
 
 | Service | Free Tier | Paid |
