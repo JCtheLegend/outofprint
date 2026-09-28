@@ -325,7 +325,7 @@
       "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom25_approved\\verification.json"
     },
     "approved_pdf_sha256": {
-      "john_calvin_calcom25_commentary_on_daniel_volume_2_interior.pdf": "1862ff2296a8f6e93246885d20c931f751a851c85532f3cc8bf3ae7c9f46fbd5",
+      "john_calvin_calcom25_commentary_on_daniel_volume_2_interior.pdf": "1fcd410d1509211eb2c7ad4c755f0b9be785bdf2e5e2ad0482ef0a7721a027fc",
       "john_calvin_calcom25_commentary_on_daniel_volume_2_paperback_cover.pdf": "95111e7b9dd5089f1fa24a4c6e538ad5a862d323b1281de673814e2aab514ebe",
       "john_calvin_calcom25_commentary_on_daniel_volume_2_hardcover_cover.pdf": "7627daa04775e0929941153eb580c02fd31ee1dc19d8c8fa07aa9d0b2421ca2a"
     }
@@ -398,7 +398,7 @@
   "contents_audit_20260927": {
     "status": "verified",
     "before_sha256": "4b2ae0b4509fe78386315fe275d798f40f1662bc4d91c0da48f24c91072aad21",
-    "after_sha256": "1862ff2296a8f6e93246885d20c931f751a851c85532f3cc8bf3ae7c9f46fbd5",
+    "after_sha256": "1fcd410d1509211eb2c7ad4c755f0b9be785bdf2e5e2ad0482ef0a7721a027fc",
     "page_count": 508,
     "old_entries": 78,
     "entry_count": 79,
@@ -931,7 +931,7 @@
       {
         "title": "Alexander and His Successors",
         "destination": 417,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Alexander and His Successors"
         ],
@@ -1275,7 +1275,7 @@
   },
   "font_update_20260926": {
     "current_pdf_sha256": {
-      "john_calvin_calcom25_commentary_on_daniel_volume_2_interior.pdf": "1862ff2296a8f6e93246885d20c931f751a851c85532f3cc8bf3ae7c9f46fbd5"
+      "john_calvin_calcom25_commentary_on_daniel_volume_2_interior.pdf": "1fcd410d1509211eb2c7ad4c755f0b9be785bdf2e5e2ad0482ef0a7721a027fc"
     }
   },
   "contents_standard": "calvin-contents-v2",
@@ -1798,7 +1798,7 @@
     {
       "title": "Alexander and His Successors",
       "destination": 417,
-      "level": 2,
+      "level": 3,
       "aliases": [
         "Alexander and His Successors"
       ],
@@ -2139,7 +2139,7 @@
   "contents_revision_20260927": {
     "authorized_by": "user",
     "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom25_approved\\verification.json",
-    "current_interior_sha256": "1862ff2296a8f6e93246885d20c931f751a851c85532f3cc8bf3ae7c9f46fbd5",
+    "current_interior_sha256": "1fcd410d1509211eb2c7ad4c755f0b9be785bdf2e5e2ad0482ef0a7721a027fc",
     "previous_interior_sha256": "4b2ae0b4509fe78386315fe275d798f40f1662bc4d91c0da48f24c91072aad21",
     "approved_edition_updated": true
   }

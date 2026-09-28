@@ -22,7 +22,7 @@
       "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom24_approved\\verification.json"
     },
     "approved_pdf_sha256": {
-      "john_calvin_calcom24_commentary_on_daniel_volume_1_interior.pdf": "c77666eb127a2551953a96dc0c65a065fd43326eb0a458fd35fca2c629c7bd7a",
+      "john_calvin_calcom24_commentary_on_daniel_volume_1_interior.pdf": "11360dff06ceab580caa93a470063b6e7ec0ca73fea632e5f16f3e29ec8c6847",
       "john_calvin_calcom24_commentary_on_daniel_volume_1_paperback_cover.pdf": "cdd9fc9660fb2e9d142dc8efee4aabd4c02bc43b50b4628dc8a0e625fa9a43da",
       "john_calvin_calcom24_commentary_on_daniel_volume_1_hardcover_cover.pdf": "b122b63589526be2f04b5ad4b3e7d7bc46df1b69e56702711a369ef729915eab"
     }
@@ -396,7 +396,7 @@
   "contents_audit_20260927": {
     "status": "verified",
     "before_sha256": "cc522f4dd7c4fabffecc1da0aaa00ed26962627fe8dafaa705458001b677ca74",
-    "after_sha256": "c77666eb127a2551953a96dc0c65a065fd43326eb0a458fd35fca2c629c7bd7a",
+    "after_sha256": "11360dff06ceab580caa93a470063b6e7ec0ca73fea632e5f16f3e29ec8c6847",
     "page_count": 430,
     "old_entries": 69,
     "entry_count": 69,
@@ -878,7 +878,7 @@
       {
         "title": "I. Ashpenaz, a Chief of the Eunuchs",
         "destination": 368,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "I. Ashpenaz, a Chief of the Eunuchs"
         ],
@@ -888,7 +888,7 @@
       {
         "title": "II. The Names of the Three Children",
         "destination": 370,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "II. The Names of the Three Children"
         ],
@@ -898,7 +898,7 @@
       {
         "title": "III. The Pulse",
         "destination": 371,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "III. The Pulse"
         ],
@@ -1160,7 +1160,7 @@
   },
   "font_update_20260926": {
     "current_pdf_sha256": {
-      "john_calvin_calcom24_commentary_on_daniel_volume_1_interior.pdf": "c77666eb127a2551953a96dc0c65a065fd43326eb0a458fd35fca2c629c7bd7a"
+      "john_calvin_calcom24_commentary_on_daniel_volume_1_interior.pdf": "11360dff06ceab580caa93a470063b6e7ec0ca73fea632e5f16f3e29ec8c6847"
     }
   },
   "contents_standard": "calvin-contents-v2",
@@ -1633,7 +1633,7 @@
     {
       "title": "I. Ashpenaz, a Chief of the Eunuchs",
       "destination": 368,
-      "level": 2,
+      "level": 3,
       "aliases": [
         "I. Ashpenaz, a Chief of the Eunuchs"
       ],
@@ -1643,7 +1643,7 @@
     {
       "title": "II. The Names of the Three Children",
       "destination": 370,
-      "level": 2,
+      "level": 3,
       "aliases": [
         "II. The Names of the Three Children"
       ],
@@ -1653,7 +1653,7 @@
     {
       "title": "III. The Pulse",
       "destination": 371,
-      "level": 2,
+      "level": 3,
       "aliases": [
         "III. The Pulse"
       ],
@@ -1912,7 +1912,7 @@
   "contents_revision_20260927": {
     "authorized_by": "user",
     "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom24_approved\\verification.json",
-    "current_interior_sha256": "c77666eb127a2551953a96dc0c65a065fd43326eb0a458fd35fca2c629c7bd7a",
+    "current_interior_sha256": "11360dff06ceab580caa93a470063b6e7ec0ca73fea632e5f16f3e29ec8c6847",
     "previous_interior_sha256": "cc522f4dd7c4fabffecc1da0aaa00ed26962627fe8dafaa705458001b677ca74",
     "approved_edition_updated": true
   }
