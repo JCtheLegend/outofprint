@@ -22,7 +22,7 @@
       "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom13_approved\\verification.json"
     },
     "approved_pdf_sha256": {
-      "john_calvin_calcom13_commentary_on_isaiah_volume_1_interior.pdf": "59779c361afe28e445fcb619b89b48281fbf5af9a4017d27f7eab14454817f61",
+      "john_calvin_calcom13_commentary_on_isaiah_volume_1_interior.pdf": "098a06e62fa9f403ccb1ea93f5336200ca540410988487e6da1c3bd4fdd1f8a6",
       "john_calvin_calcom13_commentary_on_isaiah_volume_1_paperback_cover.pdf": "7c653480b48f21e769f9268ef5e16f2ffee56c8ddb4fd6c0e14cac1f4a9a12ad",
       "john_calvin_calcom13_commentary_on_isaiah_volume_1_hardcover_cover.pdf": "c4b90b6e56dca1ad0eb7a3d63d727ab8a75ebb06edde102f44f41e871188c3fd"
     }
@@ -111,7 +111,7 @@
     "full_body_text_preserved": true,
     "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom13_approved\\verification.json",
     "all_interior_pages_rendered": 472,
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom13_approved\\verification.json",
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom13_approved\\verification.json",
     "original_character_positions_preserved": false,
     "page_text_and_character_sequence_preserved": false,
     "original_editions_preserved_in_backup": true
@@ -399,10 +399,10 @@
   },
   "contents_audit_20260927": {
     "status": "verified",
-    "before_sha256": "59779c361afe28e445fcb619b89b48281fbf5af9a4017d27f7eab14454817f61",
-    "after_sha256": "a2f56bcc9a9f3a8ab26cd2d96d5f570d80b99bc7f63161eaa61a22a366929109",
+    "before_sha256": "a2f56bcc9a9f3a8ab26cd2d96d5f570d80b99bc7f63161eaa61a22a366929109",
+    "after_sha256": "098a06e62fa9f403ccb1ea93f5336200ca540410988487e6da1c3bd4fdd1f8a6",
     "page_count": 472,
-    "old_entries": 22,
+    "old_entries": 20,
     "entry_count": 20,
     "all_non_contents_page_text_and_streams_unchanged": true,
     "sample_body_renders_identical": true,
@@ -413,172 +413,423 @@
     ],
     "entries": [
       {
-        "title": "To Her Serene Highness Elizabeth, Queen of England",
+        "title": "Dedication to Elizabeth, Queen of England",
         "destination": 3,
         "level": 1,
         "aliases": [
           "To Her Serene Highness Elizabeth, Queen of England"
-        ]
+        ],
+        "source_index": 0,
+        "source_anchor": "TO HER SERENE HIGHNESS,"
       },
       {
-        "title": "To His Serene Highness, a Truly Christian Prince",
+        "title": "Dedication to His Serene Highness, a Truly Christian Prince",
         "destination": 6,
         "level": 1,
         "aliases": [
           "To His Serene Highness, a Truly Christian Prince"
-        ]
+        ],
+        "source_index": 10,
+        "source_anchor": "TO HIS SERENE HIGHNESS,"
       },
       {
-        "title": "The Preface to the Prophet Isaiah",
+        "title": "Isaiah",
         "destination": 13,
         "level": 1,
         "aliases": [
           "The Preface to the Prophet Isaiah"
-        ]
+        ],
+        "source_index": 31,
+        "source_anchor": "THE PREFACE TO THE PROPHET ISAIAH"
       },
       {
-        "title": "Commentary on the Prophet Isaiah",
-        "destination": 19,
-        "level": 1,
+        "title": "Preface",
+        "destination": 13,
+        "level": 2,
         "aliases": [
-          "Commentary on the Prophet Isaiah"
-        ]
+          "The Preface to the Prophet Isaiah"
+        ],
+        "source_index": 31,
+        "source_anchor": "THE PREFACE TO THE PROPHET ISAIAH"
       },
       {
         "title": "Chapter 1",
         "destination": 19,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 1"
-        ]
+        ],
+        "source_index": 54,
+        "source_anchor": "CHAPTER 1"
       },
       {
         "title": "Chapter 2",
         "destination": 72,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 2"
-        ]
+        ],
+        "source_index": 302,
+        "source_anchor": "CHAPTER 2"
       },
       {
         "title": "Chapter 3",
         "destination": 105,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 3"
-        ]
+        ],
+        "source_index": 455,
+        "source_anchor": "CHAPTER 3"
       },
       {
         "title": "Chapter 4",
         "destination": 132,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 4"
-        ]
+        ],
+        "source_index": 604,
+        "source_anchor": "CHAPTER 4"
       },
       {
         "title": "Chapter 5",
         "destination": 143,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 5"
-        ]
+        ],
+        "source_index": 666,
+        "source_anchor": "CHAPTER 5."
       },
       {
         "title": "Chapter 6",
         "destination": 180,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 6"
-        ]
+        ],
+        "source_index": 860,
+        "source_anchor": "CHAPTER 6."
       },
       {
         "title": "Chapter 7",
         "destination": 208,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 7"
-        ]
+        ],
+        "source_index": 976,
+        "source_anchor": "CHAPTER 7"
       },
       {
         "title": "Chapter 8",
         "destination": 240,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 8"
-        ]
+        ],
+        "source_index": 1134,
+        "source_anchor": "CHAPTER 8"
       },
       {
         "title": "Chapter 9",
         "destination": 274,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 9"
-        ]
+        ],
+        "source_index": 1299,
+        "source_anchor": "CHAPTER 9"
       },
       {
         "title": "Chapter 10",
         "destination": 309,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 10"
-        ]
+        ],
+        "source_index": 1464,
+        "source_anchor": "CHAPTER 10"
       },
       {
         "title": "Chapter 11",
         "destination": 348,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 11"
-        ]
+        ],
+        "source_index": 1671,
+        "source_anchor": "CHAPTER 11"
       },
       {
         "title": "Chapter 12",
         "destination": 374,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 12"
-        ]
+        ],
+        "source_index": 1801,
+        "source_anchor": "CHAPTER 12"
       },
       {
         "title": "Chapter 13",
         "destination": 382,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 13"
-        ]
+        ],
+        "source_index": 1845,
+        "source_anchor": "CHAPTER 13"
       },
       {
         "title": "Chapter 14",
         "destination": 408,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 14"
-        ]
+        ],
+        "source_index": 1984,
+        "source_anchor": "CHAPTER 14"
       },
       {
         "title": "Chapter 15",
         "destination": 444,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 15"
-        ]
+        ],
+        "source_index": 2179,
+        "source_anchor": "CHAPTER 15."
       },
       {
         "title": "Chapter 16",
         "destination": 453,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 16"
-        ]
+        ],
+        "source_index": 2237,
+        "source_anchor": "CHAPTER 16"
       }
     ],
     "visual_review_complete": true,
-    "reviewer_navigation_uses_audited_entries": true
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
   },
   "font_update_20260926": {
     "current_pdf_sha256": {
-      "john_calvin_calcom13_commentary_on_isaiah_volume_1_interior.pdf": "a2f56bcc9a9f3a8ab26cd2d96d5f570d80b99bc7f63161eaa61a22a366929109"
+      "john_calvin_calcom13_commentary_on_isaiah_volume_1_interior.pdf": "098a06e62fa9f403ccb1ea93f5336200ca540410988487e6da1c3bd4fdd1f8a6"
     }
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Dedication to Elizabeth, Queen of England",
+      "destination": 3,
+      "level": 1,
+      "aliases": [
+        "To Her Serene Highness Elizabeth, Queen of England"
+      ],
+      "source_index": 0,
+      "source_anchor": "TO HER SERENE HIGHNESS,"
+    },
+    {
+      "title": "Dedication to His Serene Highness, a Truly Christian Prince",
+      "destination": 6,
+      "level": 1,
+      "aliases": [
+        "To His Serene Highness, a Truly Christian Prince"
+      ],
+      "source_index": 10,
+      "source_anchor": "TO HIS SERENE HIGHNESS,"
+    },
+    {
+      "title": "Isaiah",
+      "destination": 13,
+      "level": 1,
+      "aliases": [
+        "The Preface to the Prophet Isaiah"
+      ],
+      "source_index": 31,
+      "source_anchor": "THE PREFACE TO THE PROPHET ISAIAH"
+    },
+    {
+      "title": "Preface",
+      "destination": 13,
+      "level": 2,
+      "aliases": [
+        "The Preface to the Prophet Isaiah"
+      ],
+      "source_index": 31,
+      "source_anchor": "THE PREFACE TO THE PROPHET ISAIAH"
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 19,
+      "level": 2,
+      "aliases": [
+        "Chapter 1"
+      ],
+      "source_index": 54,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 72,
+      "level": 2,
+      "aliases": [
+        "Chapter 2"
+      ],
+      "source_index": 302,
+      "source_anchor": "CHAPTER 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 105,
+      "level": 2,
+      "aliases": [
+        "Chapter 3"
+      ],
+      "source_index": 455,
+      "source_anchor": "CHAPTER 3"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 132,
+      "level": 2,
+      "aliases": [
+        "Chapter 4"
+      ],
+      "source_index": 604,
+      "source_anchor": "CHAPTER 4"
+    },
+    {
+      "title": "Chapter 5",
+      "destination": 143,
+      "level": 2,
+      "aliases": [
+        "Chapter 5"
+      ],
+      "source_index": 666,
+      "source_anchor": "CHAPTER 5."
+    },
+    {
+      "title": "Chapter 6",
+      "destination": 180,
+      "level": 2,
+      "aliases": [
+        "Chapter 6"
+      ],
+      "source_index": 860,
+      "source_anchor": "CHAPTER 6."
+    },
+    {
+      "title": "Chapter 7",
+      "destination": 208,
+      "level": 2,
+      "aliases": [
+        "Chapter 7"
+      ],
+      "source_index": 976,
+      "source_anchor": "CHAPTER 7"
+    },
+    {
+      "title": "Chapter 8",
+      "destination": 240,
+      "level": 2,
+      "aliases": [
+        "Chapter 8"
+      ],
+      "source_index": 1134,
+      "source_anchor": "CHAPTER 8"
+    },
+    {
+      "title": "Chapter 9",
+      "destination": 274,
+      "level": 2,
+      "aliases": [
+        "Chapter 9"
+      ],
+      "source_index": 1299,
+      "source_anchor": "CHAPTER 9"
+    },
+    {
+      "title": "Chapter 10",
+      "destination": 309,
+      "level": 2,
+      "aliases": [
+        "Chapter 10"
+      ],
+      "source_index": 1464,
+      "source_anchor": "CHAPTER 10"
+    },
+    {
+      "title": "Chapter 11",
+      "destination": 348,
+      "level": 2,
+      "aliases": [
+        "Chapter 11"
+      ],
+      "source_index": 1671,
+      "source_anchor": "CHAPTER 11"
+    },
+    {
+      "title": "Chapter 12",
+      "destination": 374,
+      "level": 2,
+      "aliases": [
+        "Chapter 12"
+      ],
+      "source_index": 1801,
+      "source_anchor": "CHAPTER 12"
+    },
+    {
+      "title": "Chapter 13",
+      "destination": 382,
+      "level": 2,
+      "aliases": [
+        "Chapter 13"
+      ],
+      "source_index": 1845,
+      "source_anchor": "CHAPTER 13"
+    },
+    {
+      "title": "Chapter 14",
+      "destination": 408,
+      "level": 2,
+      "aliases": [
+        "Chapter 14"
+      ],
+      "source_index": 1984,
+      "source_anchor": "CHAPTER 14"
+    },
+    {
+      "title": "Chapter 15",
+      "destination": 444,
+      "level": 2,
+      "aliases": [
+        "Chapter 15"
+      ],
+      "source_index": 2179,
+      "source_anchor": "CHAPTER 15."
+    },
+    {
+      "title": "Chapter 16",
+      "destination": 453,
+      "level": 2,
+      "aliases": [
+        "Chapter 16"
+      ],
+      "source_index": 2237,
+      "source_anchor": "CHAPTER 16"
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom13_approved\\verification.json",
+    "current_interior_sha256": "098a06e62fa9f403ccb1ea93f5336200ca540410988487e6da1c3bd4fdd1f8a6",
+    "previous_interior_sha256": "a2f56bcc9a9f3a8ab26cd2d96d5f570d80b99bc7f63161eaa61a22a366929109",
+    "approved_edition_updated": true
   }
 }

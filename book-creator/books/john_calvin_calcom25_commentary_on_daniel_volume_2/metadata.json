@@ -14,9 +14,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 508,
   "body_page_count": 503,
-  "generated_contents_entries": 78,
-  "generated_contents_entries_in_pdf": 78,
-  "detected_heading_count": 78,
+  "generated_contents_entries": 79,
+  "generated_contents_entries_in_pdf": 79,
+  "detected_heading_count": 79,
   "interior_filename": "john_calvin_calcom25_commentary_on_daniel_volume_2_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom25_commentary_on_daniel_volume_2_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom25_commentary_on_daniel_volume_2_paperback_cover.pdf",
@@ -91,7 +91,7 @@
     "full_body_text_preserved": true,
     "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom25_approved\\verification.json",
     "all_interior_pages_rendered": 508,
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom25_approved\\verification.json",
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom25_approved\\verification.json",
     "original_character_positions_preserved": false,
     "page_text_and_character_sequence_preserved": false,
     "original_editions_preserved_in_backup": true
@@ -325,7 +325,7 @@
       "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom25_approved\\verification.json"
     },
     "approved_pdf_sha256": {
-      "john_calvin_calcom25_commentary_on_daniel_volume_2_interior.pdf": "454510457f4a1b01b80bc206e6695a3f4a3e6ea651562c4d085e4ba076bb3c5e",
+      "john_calvin_calcom25_commentary_on_daniel_volume_2_interior.pdf": "1862ff2296a8f6e93246885d20c931f751a851c85532f3cc8bf3ae7c9f46fbd5",
       "john_calvin_calcom25_commentary_on_daniel_volume_2_paperback_cover.pdf": "95111e7b9dd5089f1fa24a4c6e538ad5a862d323b1281de673814e2aab514ebe",
       "john_calvin_calcom25_commentary_on_daniel_volume_2_hardcover_cover.pdf": "7627daa04775e0929941153eb580c02fd31ee1dc19d8c8fa07aa9d0b2421ca2a"
     }
@@ -397,11 +397,11 @@
   },
   "contents_audit_20260927": {
     "status": "verified",
-    "before_sha256": "454510457f4a1b01b80bc206e6695a3f4a3e6ea651562c4d085e4ba076bb3c5e",
-    "after_sha256": "4b2ae0b4509fe78386315fe275d798f40f1662bc4d91c0da48f24c91072aad21",
+    "before_sha256": "4b2ae0b4509fe78386315fe275d798f40f1662bc4d91c0da48f24c91072aad21",
+    "after_sha256": "1862ff2296a8f6e93246885d20c931f751a851c85532f3cc8bf3ae7c9f46fbd5",
     "page_count": 508,
-    "old_entries": 119,
-    "entry_count": 78,
+    "old_entries": 78,
+    "entry_count": 79,
     "all_non_contents_page_text_and_streams_unchanged": true,
     "sample_body_renders_identical": true,
     "embedded_truetype_fonts": true,
@@ -414,623 +414,829 @@
     ],
     "entries": [
       {
-        "title": "Daniel 7",
+        "title": "Daniel",
         "destination": 6,
         "level": 1,
         "aliases": [
+          "Daniel 7",
           "Chapter 7"
-        ]
+        ],
+        "source_index": 0,
+        "source_anchor": "CHAPTER 7"
       },
       {
-        "title": "Lecture Thirty-Third",
-        "destination": 17,
+        "title": "Chapter 7",
+        "destination": 6,
         "level": 2,
+        "aliases": [
+          "Daniel 7",
+          "Chapter 7"
+        ],
+        "source_index": 0,
+        "source_anchor": "CHAPTER 7"
+      },
+      {
+        "title": "Lecture 33",
+        "destination": 17,
+        "level": 3,
         "aliases": [
           "Lecture Thirty-Third"
-        ]
+        ],
+        "source_index": 33,
+        "source_anchor": "Lecture Thirty Third."
       },
       {
-        "title": "Lecture Thirty-Fourth",
+        "title": "Lecture 34",
         "destination": 28,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Thirty-Fourth"
-        ]
+        ],
+        "source_index": 58,
+        "source_anchor": "Lecture Thirty-Fourth."
       },
       {
-        "title": "Lecture Thirty-Fifth",
+        "title": "Lecture 35",
         "destination": 38,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Thirty-Fifth",
           "Lecture Thirty-Five"
-        ]
+        ],
+        "source_index": 89,
+        "source_anchor": "Lecture Thirty-Five"
       },
       {
-        "title": "Lecture Thirty-Sixth",
+        "title": "Lecture 36",
         "destination": 49,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Thirty-Sixth"
-        ]
+        ],
+        "source_index": 121,
+        "source_anchor": "Lecture Thirty-Sixth."
       },
       {
-        "title": "Lecture Thirty-Seventh",
+        "title": "Lecture 37",
         "destination": 59,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Thirty-Seventh"
-        ]
+        ],
+        "source_index": 151,
+        "source_anchor": "Lecture Thirty-Seventh."
       },
       {
-        "title": "Lecture Thirty-Eighth",
+        "title": "Lecture 38",
         "destination": 70,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Thirty-Eighth",
           "Lecture Thirty-Eight"
-        ]
+        ],
+        "source_index": 183,
+        "source_anchor": "Lecture Thirty-Eight."
       },
       {
-        "title": "Daniel 8",
+        "title": "Chapter 8",
         "destination": 80,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Daniel 8",
           "Chapter 8"
-        ]
+        ],
+        "source_index": 210,
+        "source_anchor": "CHAPTER 8"
       },
       {
-        "title": "Lecture Thirty-Ninth",
+        "title": "Lecture 39",
         "destination": 82,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Thirty-Ninth"
-        ]
+        ],
+        "source_index": 218,
+        "source_anchor": "Lecture Thirty-Ninth"
       },
       {
-        "title": "Lecture Fortieth",
+        "title": "Lecture 40",
         "destination": 93,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Fortieth"
-        ]
+        ],
+        "source_index": 258,
+        "source_anchor": "Lecture Fortieth."
       },
       {
-        "title": "Lecture Forty-First",
+        "title": "Lecture 41",
         "destination": 104,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Forty-First"
-        ]
+        ],
+        "source_index": 294,
+        "source_anchor": "Lecture FORTY-First."
       },
       {
-        "title": "Lecture Forty-Second",
+        "title": "Lecture 42",
         "destination": 115,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Forty-Second"
-        ]
+        ],
+        "source_index": 323,
+        "source_anchor": "Lecture Forty-Second."
       },
       {
-        "title": "Lecture Forty-Third",
+        "title": "Lecture 43",
         "destination": 127,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Forty-Third"
-        ]
+        ],
+        "source_index": 373,
+        "source_anchor": "Lecture Forty-Third."
       },
       {
-        "title": "Daniel 9",
+        "title": "Chapter 9",
         "destination": 136,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Daniel 9",
           "Chapter 9"
-        ]
+        ],
+        "source_index": 392,
+        "source_anchor": "CHAPTER 9"
       },
       {
-        "title": "Lecture Forty-Fourth",
+        "title": "Lecture 44",
         "destination": 138,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Forty-Fourth"
-        ]
+        ],
+        "source_index": 407,
+        "source_anchor": "Lecture Forty-Fourth."
       },
       {
-        "title": "Lecture Forty-Fifth",
+        "title": "Lecture 45",
         "destination": 148,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Forty-Fifth"
-        ]
+        ],
+        "source_index": 426,
+        "source_anchor": "Lecture Forty-Fifth."
       },
       {
-        "title": "Lecture Forty-Sixth",
+        "title": "Lecture 46",
         "destination": 159,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Forty-Sixth"
-        ]
+        ],
+        "source_index": 447,
+        "source_anchor": "Lecture Forty-Sixth"
       },
       {
-        "title": "Lecture Forty-Seventh",
+        "title": "Lecture 47",
         "destination": 171,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Forty-Seventh"
-        ]
+        ],
+        "source_index": 487,
+        "source_anchor": "Lecture Forty-Seventh."
       },
       {
-        "title": "Lecture Forty-Eighth",
+        "title": "Lecture 48",
         "destination": 182,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Forty-Eighth"
-        ]
+        ],
+        "source_index": 517,
+        "source_anchor": "Lecture Forty-Eighth"
       },
       {
-        "title": "Lecture Forty-Ninth",
+        "title": "Lecture 49",
         "destination": 193,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Forty-Ninth"
-        ]
+        ],
+        "source_index": 551,
+        "source_anchor": "Lecture Forty Ninth"
       },
       {
-        "title": "Lecture Fiftieth",
+        "title": "Lecture 50",
         "destination": 205,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Fiftieth"
-        ]
+        ],
+        "source_index": 579,
+        "source_anchor": "Lecture Fiftieth"
       },
       {
-        "title": "Lecture Fifty-First",
+        "title": "Lecture 51",
         "destination": 216,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Fifty-First"
-        ]
+        ],
+        "source_index": 602,
+        "source_anchor": "Lecture Fifty-First."
       },
       {
-        "title": "Lecture Fifty-Second",
+        "title": "Lecture 52",
         "destination": 227,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Fifty-Second"
-        ]
+        ],
+        "source_index": 624,
+        "source_anchor": "Lecture Fifty-Second."
       },
       {
-        "title": "Daniel 10",
+        "title": "Chapter 10",
         "destination": 232,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Daniel 10",
           "Chapter 10"
-        ]
+        ],
+        "source_index": 632,
+        "source_anchor": "Chapter 10"
       },
       {
-        "title": "Lecture Fifty-Third",
+        "title": "Lecture 53",
         "destination": 238,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Fifty-Third"
-        ]
+        ],
+        "source_index": 652,
+        "source_anchor": "Lecture Fifty-Third"
       },
       {
-        "title": "Lecture Fifty-Fourth",
+        "title": "Lecture 54",
         "destination": 248,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Fifty-Fourth"
-        ]
+        ],
+        "source_index": 684,
+        "source_anchor": "Lecture Fifty-Fourth."
       },
       {
-        "title": "Lecture Fifty-Fifth",
+        "title": "Lecture 55",
         "destination": 259,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Fifty-Fifth"
-        ]
+        ],
+        "source_index": 721,
+        "source_anchor": "Lecture fifty-fifth."
       },
       {
-        "title": "Daniel 11",
+        "title": "Chapter 11",
         "destination": 269,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Daniel 11",
           "Chapter 11"
-        ]
+        ],
+        "source_index": 758,
+        "source_anchor": "CHAPTER 11"
       },
       {
-        "title": "Lecture Fifty-Sixth",
+        "title": "Lecture 56",
         "destination": 271,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fifty-Sixth",
           "Lecture Fify Sixth"
-        ]
+        ],
+        "source_index": 766,
+        "source_anchor": "Lecture Fify-Sixth"
       },
       {
-        "title": "Lecture Fifty-Seventh",
+        "title": "Lecture 57",
         "destination": 282,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Fifty-Seventh"
-        ]
+        ],
+        "source_index": 796,
+        "source_anchor": "Lecture Fifty-Seventh"
       },
       {
-        "title": "Lecture Fifty-Eighth",
+        "title": "Lecture 58",
         "destination": 293,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Fifty-Eighth"
-        ]
+        ],
+        "source_index": 834,
+        "source_anchor": "Lecture Fifty-Eighth"
       },
       {
-        "title": "Lecture Fifty-Ninth",
+        "title": "Lecture 59",
         "destination": 305,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Fifty-Ninth"
-        ]
+        ],
+        "source_index": 875,
+        "source_anchor": "Lecture fifty-ninth"
       },
       {
-        "title": "Lecture Sixtieth",
+        "title": "Lecture 60",
         "destination": 317,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Sixtieth"
-        ]
+        ],
+        "source_index": 916,
+        "source_anchor": "Lecture sixtieth"
       },
       {
-        "title": "Lecture Sixty-First",
+        "title": "Lecture 61",
         "destination": 327,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Sixty-First"
-        ]
+        ],
+        "source_index": 955,
+        "source_anchor": "Lecture Sixty-First"
       },
       {
-        "title": "Lecture Sixty-Second",
+        "title": "Lecture 62",
         "destination": 337,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Sixty-Second"
-        ]
+        ],
+        "source_index": 975,
+        "source_anchor": "Lecture Sixty-Second"
       },
       {
-        "title": "Lecture Sixty-Third",
+        "title": "Lecture 63",
         "destination": 348,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Sixty-Third"
-        ]
+        ],
+        "source_index": 1001,
+        "source_anchor": "Lecture Sixty-Third"
       },
       {
-        "title": "Lecture Sixty-Fourth",
+        "title": "Lecture 64",
         "destination": 361,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Sixty-Fourth"
-        ]
+        ],
+        "source_index": 1026,
+        "source_anchor": "Lecture Sixty-Fourth"
       },
       {
-        "title": "Daniel 12",
+        "title": "Chapter 12",
         "destination": 371,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Daniel 12",
           "Chapter 12"
-        ]
+        ],
+        "source_index": 1055,
+        "source_anchor": "CHAPTER 12"
       },
       {
-        "title": "Lecture Sixty-Fifth",
+        "title": "Lecture 65",
         "destination": 373,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Sixty-Fifth",
           "Lecture Sixty-Five"
-        ]
+        ],
+        "source_index": 1062,
+        "source_anchor": "Lecture Sixty-Five."
       },
       {
-        "title": "Lecture Sixty-Sixth",
+        "title": "Lecture 66",
         "destination": 384,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture Sixty-Sixth"
-        ]
+        ],
+        "source_index": 1087,
+        "source_anchor": "Lecture Sixty-Sixth."
       },
       {
         "title": "Dissertations",
         "destination": 397,
         "level": 1,
-        "aliases": []
+        "aliases": [
+          "Dissertations"
+        ],
+        "source_index": 1134,
+        "source_anchor": "Dissertation 1."
       },
       {
         "title": "Dissertation 1: The Vision of the Four Beasts",
         "destination": 397,
         "level": 2,
         "aliases": [
+          "Dissertation 1: The Vision of the Four Beasts",
           "Dissertation 1",
           "The Vision of the Four Beasts"
-        ]
+        ],
+        "source_index": 1134,
+        "source_anchor": "Dissertation 1."
       },
       {
         "title": "Dissertation 2: The Ten Horns",
         "destination": 400,
         "level": 2,
         "aliases": [
+          "Dissertation 2: The Ten Horns",
           "Dissertation 2",
           "The Ten Horns"
-        ]
+        ],
+        "source_index": 1146,
+        "source_anchor": "Dissertation 2."
       },
       {
         "title": "Dissertation 3: The Little Horn",
         "destination": 402,
         "level": 2,
         "aliases": [
+          "Dissertation 3: The Little Horn",
           "Dissertation 3",
           "The Little Horn"
-        ]
+        ],
+        "source_index": 1152,
+        "source_anchor": "Dissertation 3."
       },
       {
         "title": "Dissertation 4: The Ancient of Days -- the Son of Man",
         "destination": 404,
         "level": 2,
         "aliases": [
+          "Dissertation 4: The Ancient of Days -- the Son of Man",
           "Dissertation 4",
           "The Ancient of Days -- the Son of Man"
-        ]
+        ],
+        "source_index": 1158,
+        "source_anchor": "Dissertation 4."
       },
       {
-        "title": "Dissertation 5: The Prophetic Meaning of \"a Time.\"",
+        "title": "Dissertation 5: The Prophetic Meaning of \"A Time.\"",
         "destination": 411,
         "level": 2,
         "aliases": [
+          "Dissertation 5: The Prophetic Meaning of \"a Time.\"",
           "Dissertation 5",
           "The Prophetic Meaning of \"a Time.\""
-        ]
+        ],
+        "source_index": 1177,
+        "source_anchor": "Dissertation 5."
       },
       {
         "title": "Dissertation 6: The Place of the Vision",
         "destination": 415,
         "level": 2,
         "aliases": [
+          "Dissertation 6: The Place of the Vision",
           "Dissertation 6",
           "The Place of the Vision"
-        ]
+        ],
+        "source_index": 1183,
+        "source_anchor": "Dissertation 6."
       },
       {
         "title": "Dissertation 7: The Ram and the He-goat",
         "destination": 416,
         "level": 2,
         "aliases": [
+          "Dissertation 7: The Ram and the He-goat",
           "Dissertation 7",
           "The Ram and the He-goat"
-        ]
+        ],
+        "source_index": 1188,
+        "source_anchor": "Dissertation 7."
       },
       {
         "title": "Alexander and His Successors",
         "destination": 417,
-        "level": 3,
+        "level": 2,
         "aliases": [
           "Alexander and His Successors"
-        ]
+        ],
+        "source_index": 1193,
+        "source_anchor": "ALEXANDER AND HIS SUCCESSORS"
       },
       {
         "title": "Dissertation 8: The Wonderful Numberer -- One Holy One Speaking to Another",
         "destination": 418,
         "level": 2,
         "aliases": [
+          "Dissertation 8: The Wonderful Numberer -- One Holy One Speaking to Another",
           "Dissertation 8",
           "The Wonderful Numberer -- One Holy One Speaking to Another"
-        ]
+        ],
+        "source_index": 1206,
+        "source_anchor": "Dissertation 8."
       },
       {
         "title": "Dissertation 9: The Seventy Weeks",
         "destination": 421,
         "level": 2,
         "aliases": [
+          "Dissertation 9: The Seventy Weeks",
           "Dissertation 9",
           "The Seventy Weeks"
-        ]
+        ],
+        "source_index": 1217,
+        "source_anchor": "Dissertation 9."
       },
       {
-        "title": "Dissertation 10: Hippolytus, Nicolaus Lyranus, etc",
+        "title": "Dissertation 10: Hippolytus, Nicolaus Lyranus, Etc",
         "destination": 425,
         "level": 2,
         "aliases": [
+          "Dissertation 10: Hippolytus, Nicolaus Lyranus, etc",
           "Dissertation 10",
           "Hippolytus, Nicolaus Lyranus, etc"
-        ]
+        ],
+        "source_index": 1226,
+        "source_anchor": "Dissertation 10."
       },
       {
         "title": "Dissertation 11: Abomination of Desolation",
         "destination": 430,
         "level": 2,
         "aliases": [
+          "Dissertation 11: Abomination of Desolation",
           "Dissertation 11",
           "Abomination of Desolation"
-        ]
+        ],
+        "source_index": 1236,
+        "source_anchor": "Dissertation 11."
       },
       {
         "title": "Dissertation 12: The Vision on the Banks of the Hiddekel",
         "destination": 432,
         "level": 2,
         "aliases": [
+          "Dissertation 12: The Vision on the Banks of the Hiddekel",
           "Dissertation 12",
           "The Vision on the Banks of the Hiddekel"
-        ]
+        ],
+        "source_index": 1242,
+        "source_anchor": "Dissertation 12."
       },
       {
         "title": "Dissertation 13: Michael the Prince",
         "destination": 434,
         "level": 2,
         "aliases": [
+          "Dissertation 13: Michael the Prince",
           "Dissertation 13",
           "Michael the Prince"
-        ]
+        ],
+        "source_index": 1248,
+        "source_anchor": "Dissertation 13."
       },
       {
         "title": "Dissertation 14: Historical Proofs. Three Kings of Persia",
         "destination": 434,
         "level": 2,
         "aliases": [
+          "Dissertation 14: Historical Proofs. Three Kings of Persia",
           "Dissertation 14",
           "Historical Proofs. Three Kings of Persia"
-        ]
+        ],
+        "source_index": 1252,
+        "source_anchor": "Dissertation 14."
       },
       {
         "title": "Dissertation 15: The Wilful King",
         "destination": 438,
         "level": 2,
         "aliases": [
+          "Dissertation 15: The Wilful King",
           "Dissertation 15",
           "The Wilful King"
-        ]
+        ],
+        "source_index": 1278,
+        "source_anchor": "Dissertation 15."
       },
       {
         "title": "Dissertation 16: The Pollution of the Sanctuary",
         "destination": 442,
         "level": 2,
         "aliases": [
+          "Dissertation 16: The Pollution of the Sanctuary",
           "Dissertation 16",
           "The Pollution of the Sanctuary"
-        ]
+        ],
+        "source_index": 1289,
+        "source_anchor": "Dissertation 16."
       },
       {
         "title": "Dissertation 17: The Conquest of the Glorious Land",
         "destination": 443,
         "level": 2,
         "aliases": [
+          "Dissertation 17: The Conquest of the Glorious Land",
           "Dissertation 17",
           "The Conquest of the Glorious Land"
-        ]
+        ],
+        "source_index": 1299,
+        "source_anchor": "Dissertation 17."
       },
       {
         "title": "Dissertation 18: The Sealing of the Book",
         "destination": 444,
         "level": 2,
         "aliases": [
+          "Dissertation 18: The Sealing of the Book",
           "Dissertation 18",
           "The Sealing of the Book"
-        ]
+        ],
+        "source_index": 1305,
+        "source_anchor": "Dissertation 18."
       },
       {
         "title": "Dissertation 19: The Expressions Relative to Time",
         "destination": 445,
         "level": 2,
         "aliases": [
+          "Dissertation 19: The Expressions Relative to Time",
           "Dissertation 19",
           "The Expressions Relative to Time"
-        ]
+        ],
+        "source_index": 1309,
+        "source_anchor": "Dissertation 19."
       },
       {
         "title": "Dissertation 20: Modern Discovery Throwing Its Light on Daniel's Prophecies",
         "destination": 448,
         "level": 2,
         "aliases": [
+          "Dissertation 20: Modern Discovery Throwing Its Light on Daniel's Prophecies",
           "Dissertation 20",
           "Modern Discovery Throwing Its Light on Daniel's Prophecies"
-        ]
+        ],
+        "source_index": 1316,
+        "source_anchor": "Dissertation 20."
       },
       {
         "title": "Connected Translation of Daniel",
         "destination": 459,
         "level": 1,
         "aliases": [
+          "Connected Translation of Daniel",
           "The Prophecies of Daniel",
           "According to the Views of Calvin's Commentaries"
-        ]
+        ],
+        "source_index": 1333,
+        "source_anchor": "THE PROPHECIES OF DANIEL"
       },
       {
-        "title": "Translation: Daniel 1",
+        "title": "Chapter 1",
         "destination": 459,
         "level": 2,
         "aliases": [
+          "Translation: Daniel 1",
           "Chapter 1"
-        ]
+        ],
+        "source_index": 1335,
+        "source_anchor": "CHAPTER 1"
       },
       {
-        "title": "Translation: Daniel 2",
+        "title": "Chapter 2",
         "destination": 461,
         "level": 2,
         "aliases": [
+          "Translation: Daniel 2",
           "Chapter 2"
-        ]
+        ],
+        "source_index": 1357,
+        "source_anchor": "CHAPTER 2"
       },
       {
-        "title": "Translation: Daniel 3",
+        "title": "Chapter 3",
         "destination": 465,
         "level": 2,
         "aliases": [
+          "Translation: Daniel 3",
           "Chapter 3"
-        ]
+        ],
+        "source_index": 1407,
+        "source_anchor": "CHAPTER 3"
       },
       {
-        "title": "Translation: Daniel 4",
+        "title": "Chapter 4",
         "destination": 468,
         "level": 2,
         "aliases": [
+          "Translation: Daniel 4",
           "Chapter 4"
-        ]
+        ],
+        "source_index": 1438,
+        "source_anchor": "CHAPTER 4"
       },
       {
-        "title": "Translation: Daniel 5",
+        "title": "Chapter 5",
         "destination": 472,
         "level": 2,
         "aliases": [
+          "Translation: Daniel 5",
           "Chapter 5"
-        ]
+        ],
+        "source_index": 1476,
+        "source_anchor": "CHAPTER 5"
       },
       {
-        "title": "Translation: Daniel 6",
+        "title": "Chapter 6",
         "destination": 475,
         "level": 2,
         "aliases": [
+          "Translation: Daniel 6",
           "Chapter 6"
-        ]
+        ],
+        "source_index": 1508,
+        "source_anchor": "CHAPTER 6"
       },
       {
-        "title": "Translation: Daniel 7",
+        "title": "Chapter 7",
         "destination": 478,
         "level": 2,
         "aliases": [
+          "Translation: Daniel 7",
           "Chapter 7"
-        ]
+        ],
+        "source_index": 1537,
+        "source_anchor": "CHAPTER 7"
       },
       {
-        "title": "Translation: Daniel 8",
+        "title": "Chapter 8",
         "destination": 481,
         "level": 2,
         "aliases": [
+          "Translation: Daniel 8",
           "Chapter 8"
-        ]
+        ],
+        "source_index": 1566,
+        "source_anchor": "CHAPTER 8"
       },
       {
-        "title": "Translation: Daniel 9",
+        "title": "Chapter 9",
         "destination": 484,
         "level": 2,
         "aliases": [
+          "Translation: Daniel 9",
           "Chapter 9"
-        ]
+        ],
+        "source_index": 1594,
+        "source_anchor": "CHAPTER 9"
       },
       {
-        "title": "Translation: Daniel 10",
+        "title": "Chapter 10",
         "destination": 487,
         "level": 2,
         "aliases": [
+          "Translation: Daniel 10",
           "Chapter 10"
-        ]
+        ],
+        "source_index": 1622,
+        "source_anchor": "CHAPTER 10"
       },
       {
-        "title": "Translation: Daniel 11",
+        "title": "Chapter 11",
         "destination": 489,
         "level": 2,
         "aliases": [
+          "Translation: Daniel 11",
           "Chapter 11"
-        ]
+        ],
+        "source_index": 1644,
+        "source_anchor": "CHAPTER 11"
       },
       {
-        "title": "Translation: Daniel 12",
+        "title": "Chapter 12",
         "destination": 493,
         "level": 2,
         "aliases": [
+          "Translation: Daniel 12",
           "Chapter 12"
-        ]
+        ],
+        "source_index": 1690,
+        "source_anchor": "CHAPTER 12"
       },
       {
         "title": "An Analysis of the Contents of the Book of Daniel",
@@ -1038,7 +1244,9 @@
         "level": 1,
         "aliases": [
           "An Analysis of the Contents of the Book of Daniel"
-        ]
+        ],
+        "source_index": 1705,
+        "source_anchor": "AN ANALYSIS OF THE CONTENTS OF THE BOOK OF DANIEL."
       },
       {
         "title": "A Notice of Some Ancient Codexes and Versions",
@@ -1046,7 +1254,9 @@
         "level": 1,
         "aliases": [
           "A Notice of Some Ancient Codexes and Versions"
-        ]
+        ],
+        "source_index": 1726,
+        "source_anchor": "A NOTICE OF SOME ANCIENT CODEXES AND VERSIONS."
       },
       {
         "title": "Versions",
@@ -1054,15 +1264,883 @@
         "level": 2,
         "aliases": [
           "Versions"
-        ]
+        ],
+        "source_index": 1729,
+        "source_anchor": "Versions."
       }
     ],
     "visual_review_complete": true,
-    "reviewer_navigation_uses_audited_entries": true
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
   },
   "font_update_20260926": {
     "current_pdf_sha256": {
-      "john_calvin_calcom25_commentary_on_daniel_volume_2_interior.pdf": "4b2ae0b4509fe78386315fe275d798f40f1662bc4d91c0da48f24c91072aad21"
+      "john_calvin_calcom25_commentary_on_daniel_volume_2_interior.pdf": "1862ff2296a8f6e93246885d20c931f751a851c85532f3cc8bf3ae7c9f46fbd5"
     }
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Daniel",
+      "destination": 6,
+      "level": 1,
+      "aliases": [
+        "Daniel 7",
+        "Chapter 7"
+      ],
+      "source_index": 0,
+      "source_anchor": "CHAPTER 7"
+    },
+    {
+      "title": "Chapter 7",
+      "destination": 6,
+      "level": 2,
+      "aliases": [
+        "Daniel 7",
+        "Chapter 7"
+      ],
+      "source_index": 0,
+      "source_anchor": "CHAPTER 7"
+    },
+    {
+      "title": "Lecture 33",
+      "destination": 17,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-Third"
+      ],
+      "source_index": 33,
+      "source_anchor": "Lecture Thirty Third."
+    },
+    {
+      "title": "Lecture 34",
+      "destination": 28,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-Fourth"
+      ],
+      "source_index": 58,
+      "source_anchor": "Lecture Thirty-Fourth."
+    },
+    {
+      "title": "Lecture 35",
+      "destination": 38,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-Fifth",
+        "Lecture Thirty-Five"
+      ],
+      "source_index": 89,
+      "source_anchor": "Lecture Thirty-Five"
+    },
+    {
+      "title": "Lecture 36",
+      "destination": 49,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-Sixth"
+      ],
+      "source_index": 121,
+      "source_anchor": "Lecture Thirty-Sixth."
+    },
+    {
+      "title": "Lecture 37",
+      "destination": 59,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-Seventh"
+      ],
+      "source_index": 151,
+      "source_anchor": "Lecture Thirty-Seventh."
+    },
+    {
+      "title": "Lecture 38",
+      "destination": 70,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-Eighth",
+        "Lecture Thirty-Eight"
+      ],
+      "source_index": 183,
+      "source_anchor": "Lecture Thirty-Eight."
+    },
+    {
+      "title": "Chapter 8",
+      "destination": 80,
+      "level": 2,
+      "aliases": [
+        "Daniel 8",
+        "Chapter 8"
+      ],
+      "source_index": 210,
+      "source_anchor": "CHAPTER 8"
+    },
+    {
+      "title": "Lecture 39",
+      "destination": 82,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-Ninth"
+      ],
+      "source_index": 218,
+      "source_anchor": "Lecture Thirty-Ninth"
+    },
+    {
+      "title": "Lecture 40",
+      "destination": 93,
+      "level": 3,
+      "aliases": [
+        "Lecture Fortieth"
+      ],
+      "source_index": 258,
+      "source_anchor": "Lecture Fortieth."
+    },
+    {
+      "title": "Lecture 41",
+      "destination": 104,
+      "level": 3,
+      "aliases": [
+        "Lecture Forty-First"
+      ],
+      "source_index": 294,
+      "source_anchor": "Lecture FORTY-First."
+    },
+    {
+      "title": "Lecture 42",
+      "destination": 115,
+      "level": 3,
+      "aliases": [
+        "Lecture Forty-Second"
+      ],
+      "source_index": 323,
+      "source_anchor": "Lecture Forty-Second."
+    },
+    {
+      "title": "Lecture 43",
+      "destination": 127,
+      "level": 3,
+      "aliases": [
+        "Lecture Forty-Third"
+      ],
+      "source_index": 373,
+      "source_anchor": "Lecture Forty-Third."
+    },
+    {
+      "title": "Chapter 9",
+      "destination": 136,
+      "level": 2,
+      "aliases": [
+        "Daniel 9",
+        "Chapter 9"
+      ],
+      "source_index": 392,
+      "source_anchor": "CHAPTER 9"
+    },
+    {
+      "title": "Lecture 44",
+      "destination": 138,
+      "level": 3,
+      "aliases": [
+        "Lecture Forty-Fourth"
+      ],
+      "source_index": 407,
+      "source_anchor": "Lecture Forty-Fourth."
+    },
+    {
+      "title": "Lecture 45",
+      "destination": 148,
+      "level": 3,
+      "aliases": [
+        "Lecture Forty-Fifth"
+      ],
+      "source_index": 426,
+      "source_anchor": "Lecture Forty-Fifth."
+    },
+    {
+      "title": "Lecture 46",
+      "destination": 159,
+      "level": 3,
+      "aliases": [
+        "Lecture Forty-Sixth"
+      ],
+      "source_index": 447,
+      "source_anchor": "Lecture Forty-Sixth"
+    },
+    {
+      "title": "Lecture 47",
+      "destination": 171,
+      "level": 3,
+      "aliases": [
+        "Lecture Forty-Seventh"
+      ],
+      "source_index": 487,
+      "source_anchor": "Lecture Forty-Seventh."
+    },
+    {
+      "title": "Lecture 48",
+      "destination": 182,
+      "level": 3,
+      "aliases": [
+        "Lecture Forty-Eighth"
+      ],
+      "source_index": 517,
+      "source_anchor": "Lecture Forty-Eighth"
+    },
+    {
+      "title": "Lecture 49",
+      "destination": 193,
+      "level": 3,
+      "aliases": [
+        "Lecture Forty-Ninth"
+      ],
+      "source_index": 551,
+      "source_anchor": "Lecture Forty Ninth"
+    },
+    {
+      "title": "Lecture 50",
+      "destination": 205,
+      "level": 3,
+      "aliases": [
+        "Lecture Fiftieth"
+      ],
+      "source_index": 579,
+      "source_anchor": "Lecture Fiftieth"
+    },
+    {
+      "title": "Lecture 51",
+      "destination": 216,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifty-First"
+      ],
+      "source_index": 602,
+      "source_anchor": "Lecture Fifty-First."
+    },
+    {
+      "title": "Lecture 52",
+      "destination": 227,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifty-Second"
+      ],
+      "source_index": 624,
+      "source_anchor": "Lecture Fifty-Second."
+    },
+    {
+      "title": "Chapter 10",
+      "destination": 232,
+      "level": 2,
+      "aliases": [
+        "Daniel 10",
+        "Chapter 10"
+      ],
+      "source_index": 632,
+      "source_anchor": "Chapter 10"
+    },
+    {
+      "title": "Lecture 53",
+      "destination": 238,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifty-Third"
+      ],
+      "source_index": 652,
+      "source_anchor": "Lecture Fifty-Third"
+    },
+    {
+      "title": "Lecture 54",
+      "destination": 248,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifty-Fourth"
+      ],
+      "source_index": 684,
+      "source_anchor": "Lecture Fifty-Fourth."
+    },
+    {
+      "title": "Lecture 55",
+      "destination": 259,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifty-Fifth"
+      ],
+      "source_index": 721,
+      "source_anchor": "Lecture fifty-fifth."
+    },
+    {
+      "title": "Chapter 11",
+      "destination": 269,
+      "level": 2,
+      "aliases": [
+        "Daniel 11",
+        "Chapter 11"
+      ],
+      "source_index": 758,
+      "source_anchor": "CHAPTER 11"
+    },
+    {
+      "title": "Lecture 56",
+      "destination": 271,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifty-Sixth",
+        "Lecture Fify Sixth"
+      ],
+      "source_index": 766,
+      "source_anchor": "Lecture Fify-Sixth"
+    },
+    {
+      "title": "Lecture 57",
+      "destination": 282,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifty-Seventh"
+      ],
+      "source_index": 796,
+      "source_anchor": "Lecture Fifty-Seventh"
+    },
+    {
+      "title": "Lecture 58",
+      "destination": 293,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifty-Eighth"
+      ],
+      "source_index": 834,
+      "source_anchor": "Lecture Fifty-Eighth"
+    },
+    {
+      "title": "Lecture 59",
+      "destination": 305,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifty-Ninth"
+      ],
+      "source_index": 875,
+      "source_anchor": "Lecture fifty-ninth"
+    },
+    {
+      "title": "Lecture 60",
+      "destination": 317,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixtieth"
+      ],
+      "source_index": 916,
+      "source_anchor": "Lecture sixtieth"
+    },
+    {
+      "title": "Lecture 61",
+      "destination": 327,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixty-First"
+      ],
+      "source_index": 955,
+      "source_anchor": "Lecture Sixty-First"
+    },
+    {
+      "title": "Lecture 62",
+      "destination": 337,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixty-Second"
+      ],
+      "source_index": 975,
+      "source_anchor": "Lecture Sixty-Second"
+    },
+    {
+      "title": "Lecture 63",
+      "destination": 348,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixty-Third"
+      ],
+      "source_index": 1001,
+      "source_anchor": "Lecture Sixty-Third"
+    },
+    {
+      "title": "Lecture 64",
+      "destination": 361,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixty-Fourth"
+      ],
+      "source_index": 1026,
+      "source_anchor": "Lecture Sixty-Fourth"
+    },
+    {
+      "title": "Chapter 12",
+      "destination": 371,
+      "level": 2,
+      "aliases": [
+        "Daniel 12",
+        "Chapter 12"
+      ],
+      "source_index": 1055,
+      "source_anchor": "CHAPTER 12"
+    },
+    {
+      "title": "Lecture 65",
+      "destination": 373,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixty-Fifth",
+        "Lecture Sixty-Five"
+      ],
+      "source_index": 1062,
+      "source_anchor": "Lecture Sixty-Five."
+    },
+    {
+      "title": "Lecture 66",
+      "destination": 384,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixty-Sixth"
+      ],
+      "source_index": 1087,
+      "source_anchor": "Lecture Sixty-Sixth."
+    },
+    {
+      "title": "Dissertations",
+      "destination": 397,
+      "level": 1,
+      "aliases": [
+        "Dissertations"
+      ],
+      "source_index": 1134,
+      "source_anchor": "Dissertation 1."
+    },
+    {
+      "title": "Dissertation 1: The Vision of the Four Beasts",
+      "destination": 397,
+      "level": 2,
+      "aliases": [
+        "Dissertation 1: The Vision of the Four Beasts",
+        "Dissertation 1",
+        "The Vision of the Four Beasts"
+      ],
+      "source_index": 1134,
+      "source_anchor": "Dissertation 1."
+    },
+    {
+      "title": "Dissertation 2: The Ten Horns",
+      "destination": 400,
+      "level": 2,
+      "aliases": [
+        "Dissertation 2: The Ten Horns",
+        "Dissertation 2",
+        "The Ten Horns"
+      ],
+      "source_index": 1146,
+      "source_anchor": "Dissertation 2."
+    },
+    {
+      "title": "Dissertation 3: The Little Horn",
+      "destination": 402,
+      "level": 2,
+      "aliases": [
+        "Dissertation 3: The Little Horn",
+        "Dissertation 3",
+        "The Little Horn"
+      ],
+      "source_index": 1152,
+      "source_anchor": "Dissertation 3."
+    },
+    {
+      "title": "Dissertation 4: The Ancient of Days -- the Son of Man",
+      "destination": 404,
+      "level": 2,
+      "aliases": [
+        "Dissertation 4: The Ancient of Days -- the Son of Man",
+        "Dissertation 4",
+        "The Ancient of Days -- the Son of Man"
+      ],
+      "source_index": 1158,
+      "source_anchor": "Dissertation 4."
+    },
+    {
+      "title": "Dissertation 5: The Prophetic Meaning of \"A Time.\"",
+      "destination": 411,
+      "level": 2,
+      "aliases": [
+        "Dissertation 5: The Prophetic Meaning of \"a Time.\"",
+        "Dissertation 5",
+        "The Prophetic Meaning of \"a Time.\""
+      ],
+      "source_index": 1177,
+      "source_anchor": "Dissertation 5."
+    },
+    {
+      "title": "Dissertation 6: The Place of the Vision",
+      "destination": 415,
+      "level": 2,
+      "aliases": [
+        "Dissertation 6: The Place of the Vision",
+        "Dissertation 6",
+        "The Place of the Vision"
+      ],
+      "source_index": 1183,
+      "source_anchor": "Dissertation 6."
+    },
+    {
+      "title": "Dissertation 7: The Ram and the He-goat",
+      "destination": 416,
+      "level": 2,
+      "aliases": [
+        "Dissertation 7: The Ram and the He-goat",
+        "Dissertation 7",
+        "The Ram and the He-goat"
+      ],
+      "source_index": 1188,
+      "source_anchor": "Dissertation 7."
+    },
+    {
+      "title": "Alexander and His Successors",
+      "destination": 417,
+      "level": 2,
+      "aliases": [
+        "Alexander and His Successors"
+      ],
+      "source_index": 1193,
+      "source_anchor": "ALEXANDER AND HIS SUCCESSORS"
+    },
+    {
+      "title": "Dissertation 8: The Wonderful Numberer -- One Holy One Speaking to Another",
+      "destination": 418,
+      "level": 2,
+      "aliases": [
+        "Dissertation 8: The Wonderful Numberer -- One Holy One Speaking to Another",
+        "Dissertation 8",
+        "The Wonderful Numberer -- One Holy One Speaking to Another"
+      ],
+      "source_index": 1206,
+      "source_anchor": "Dissertation 8."
+    },
+    {
+      "title": "Dissertation 9: The Seventy Weeks",
+      "destination": 421,
+      "level": 2,
+      "aliases": [
+        "Dissertation 9: The Seventy Weeks",
+        "Dissertation 9",
+        "The Seventy Weeks"
+      ],
+      "source_index": 1217,
+      "source_anchor": "Dissertation 9."
+    },
+    {
+      "title": "Dissertation 10: Hippolytus, Nicolaus Lyranus, Etc",
+      "destination": 425,
+      "level": 2,
+      "aliases": [
+        "Dissertation 10: Hippolytus, Nicolaus Lyranus, etc",
+        "Dissertation 10",
+        "Hippolytus, Nicolaus Lyranus, etc"
+      ],
+      "source_index": 1226,
+      "source_anchor": "Dissertation 10."
+    },
+    {
+      "title": "Dissertation 11: Abomination of Desolation",
+      "destination": 430,
+      "level": 2,
+      "aliases": [
+        "Dissertation 11: Abomination of Desolation",
+        "Dissertation 11",
+        "Abomination of Desolation"
+      ],
+      "source_index": 1236,
+      "source_anchor": "Dissertation 11."
+    },
+    {
+      "title": "Dissertation 12: The Vision on the Banks of the Hiddekel",
+      "destination": 432,
+      "level": 2,
+      "aliases": [
+        "Dissertation 12: The Vision on the Banks of the Hiddekel",
+        "Dissertation 12",
+        "The Vision on the Banks of the Hiddekel"
+      ],
+      "source_index": 1242,
+      "source_anchor": "Dissertation 12."
+    },
+    {
+      "title": "Dissertation 13: Michael the Prince",
+      "destination": 434,
+      "level": 2,
+      "aliases": [
+        "Dissertation 13: Michael the Prince",
+        "Dissertation 13",
+        "Michael the Prince"
+      ],
+      "source_index": 1248,
+      "source_anchor": "Dissertation 13."
+    },
+    {
+      "title": "Dissertation 14: Historical Proofs. Three Kings of Persia",
+      "destination": 434,
+      "level": 2,
+      "aliases": [
+        "Dissertation 14: Historical Proofs. Three Kings of Persia",
+        "Dissertation 14",
+        "Historical Proofs. Three Kings of Persia"
+      ],
+      "source_index": 1252,
+      "source_anchor": "Dissertation 14."
+    },
+    {
+      "title": "Dissertation 15: The Wilful King",
+      "destination": 438,
+      "level": 2,
+      "aliases": [
+        "Dissertation 15: The Wilful King",
+        "Dissertation 15",
+        "The Wilful King"
+      ],
+      "source_index": 1278,
+      "source_anchor": "Dissertation 15."
+    },
+    {
+      "title": "Dissertation 16: The Pollution of the Sanctuary",
+      "destination": 442,
+      "level": 2,
+      "aliases": [
+        "Dissertation 16: The Pollution of the Sanctuary",
+        "Dissertation 16",
+        "The Pollution of the Sanctuary"
+      ],
+      "source_index": 1289,
+      "source_anchor": "Dissertation 16."
+    },
+    {
+      "title": "Dissertation 17: The Conquest of the Glorious Land",
+      "destination": 443,
+      "level": 2,
+      "aliases": [
+        "Dissertation 17: The Conquest of the Glorious Land",
+        "Dissertation 17",
+        "The Conquest of the Glorious Land"
+      ],
+      "source_index": 1299,
+      "source_anchor": "Dissertation 17."
+    },
+    {
+      "title": "Dissertation 18: The Sealing of the Book",
+      "destination": 444,
+      "level": 2,
+      "aliases": [
+        "Dissertation 18: The Sealing of the Book",
+        "Dissertation 18",
+        "The Sealing of the Book"
+      ],
+      "source_index": 1305,
+      "source_anchor": "Dissertation 18."
+    },
+    {
+      "title": "Dissertation 19: The Expressions Relative to Time",
+      "destination": 445,
+      "level": 2,
+      "aliases": [
+        "Dissertation 19: The Expressions Relative to Time",
+        "Dissertation 19",
+        "The Expressions Relative to Time"
+      ],
+      "source_index": 1309,
+      "source_anchor": "Dissertation 19."
+    },
+    {
+      "title": "Dissertation 20: Modern Discovery Throwing Its Light on Daniel's Prophecies",
+      "destination": 448,
+      "level": 2,
+      "aliases": [
+        "Dissertation 20: Modern Discovery Throwing Its Light on Daniel's Prophecies",
+        "Dissertation 20",
+        "Modern Discovery Throwing Its Light on Daniel's Prophecies"
+      ],
+      "source_index": 1316,
+      "source_anchor": "Dissertation 20."
+    },
+    {
+      "title": "Connected Translation of Daniel",
+      "destination": 459,
+      "level": 1,
+      "aliases": [
+        "Connected Translation of Daniel",
+        "The Prophecies of Daniel",
+        "According to the Views of Calvin's Commentaries"
+      ],
+      "source_index": 1333,
+      "source_anchor": "THE PROPHECIES OF DANIEL"
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 459,
+      "level": 2,
+      "aliases": [
+        "Translation: Daniel 1",
+        "Chapter 1"
+      ],
+      "source_index": 1335,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 461,
+      "level": 2,
+      "aliases": [
+        "Translation: Daniel 2",
+        "Chapter 2"
+      ],
+      "source_index": 1357,
+      "source_anchor": "CHAPTER 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 465,
+      "level": 2,
+      "aliases": [
+        "Translation: Daniel 3",
+        "Chapter 3"
+      ],
+      "source_index": 1407,
+      "source_anchor": "CHAPTER 3"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 468,
+      "level": 2,
+      "aliases": [
+        "Translation: Daniel 4",
+        "Chapter 4"
+      ],
+      "source_index": 1438,
+      "source_anchor": "CHAPTER 4"
+    },
+    {
+      "title": "Chapter 5",
+      "destination": 472,
+      "level": 2,
+      "aliases": [
+        "Translation: Daniel 5",
+        "Chapter 5"
+      ],
+      "source_index": 1476,
+      "source_anchor": "CHAPTER 5"
+    },
+    {
+      "title": "Chapter 6",
+      "destination": 475,
+      "level": 2,
+      "aliases": [
+        "Translation: Daniel 6",
+        "Chapter 6"
+      ],
+      "source_index": 1508,
+      "source_anchor": "CHAPTER 6"
+    },
+    {
+      "title": "Chapter 7",
+      "destination": 478,
+      "level": 2,
+      "aliases": [
+        "Translation: Daniel 7",
+        "Chapter 7"
+      ],
+      "source_index": 1537,
+      "source_anchor": "CHAPTER 7"
+    },
+    {
+      "title": "Chapter 8",
+      "destination": 481,
+      "level": 2,
+      "aliases": [
+        "Translation: Daniel 8",
+        "Chapter 8"
+      ],
+      "source_index": 1566,
+      "source_anchor": "CHAPTER 8"
+    },
+    {
+      "title": "Chapter 9",
+      "destination": 484,
+      "level": 2,
+      "aliases": [
+        "Translation: Daniel 9",
+        "Chapter 9"
+      ],
+      "source_index": 1594,
+      "source_anchor": "CHAPTER 9"
+    },
+    {
+      "title": "Chapter 10",
+      "destination": 487,
+      "level": 2,
+      "aliases": [
+        "Translation: Daniel 10",
+        "Chapter 10"
+      ],
+      "source_index": 1622,
+      "source_anchor": "CHAPTER 10"
+    },
+    {
+      "title": "Chapter 11",
+      "destination": 489,
+      "level": 2,
+      "aliases": [
+        "Translation: Daniel 11",
+        "Chapter 11"
+      ],
+      "source_index": 1644,
+      "source_anchor": "CHAPTER 11"
+    },
+    {
+      "title": "Chapter 12",
+      "destination": 493,
+      "level": 2,
+      "aliases": [
+        "Translation: Daniel 12",
+        "Chapter 12"
+      ],
+      "source_index": 1690,
+      "source_anchor": "CHAPTER 12"
+    },
+    {
+      "title": "An Analysis of the Contents of the Book of Daniel",
+      "destination": 495,
+      "level": 1,
+      "aliases": [
+        "An Analysis of the Contents of the Book of Daniel"
+      ],
+      "source_index": 1705,
+      "source_anchor": "AN ANALYSIS OF THE CONTENTS OF THE BOOK OF DANIEL."
+    },
+    {
+      "title": "A Notice of Some Ancient Codexes and Versions",
+      "destination": 499,
+      "level": 1,
+      "aliases": [
+        "A Notice of Some Ancient Codexes and Versions"
+      ],
+      "source_index": 1726,
+      "source_anchor": "A NOTICE OF SOME ANCIENT CODEXES AND VERSIONS."
+    },
+    {
+      "title": "Versions",
+      "destination": 499,
+      "level": 2,
+      "aliases": [
+        "Versions"
+      ],
+      "source_index": 1729,
+      "source_anchor": "Versions."
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom25_approved\\verification.json",
+    "current_interior_sha256": "1862ff2296a8f6e93246885d20c931f751a851c85532f3cc8bf3ae7c9f46fbd5",
+    "previous_interior_sha256": "4b2ae0b4509fe78386315fe275d798f40f1662bc4d91c0da48f24c91072aad21",
+    "approved_edition_updated": true
   }
 }

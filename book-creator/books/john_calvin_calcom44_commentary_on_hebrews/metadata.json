@@ -14,9 +14,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 344,
   "body_page_count": 342,
-  "generated_contents_entries": 16,
-  "generated_contents_entries_in_pdf": 16,
-  "detected_heading_count": 16,
+  "generated_contents_entries": 15,
+  "generated_contents_entries_in_pdf": 15,
+  "detected_heading_count": 15,
   "interior_filename": "john_calvin_calcom44_commentary_on_hebrews_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom44_commentary_on_hebrews_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom44_commentary_on_hebrews_paperback_cover.pdf",
@@ -99,7 +99,7 @@
       344
     ],
     "all_interior_pages_rendered": 344,
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom44_remove_appendix_20260927\\verification.json",
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom44_package\\verification.json",
     "original_editions_preserved_in_backup": true,
     "full_body_text_preserved_except_requested_appendix_removal": true
   },
@@ -337,7 +337,7 @@
     "original_package_backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\archive\\package_fonts_originals_20260926\\john_calvin_calcom44_commentary_on_hebrews",
     "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom44_commentary_on_hebrews.json",
     "current_pdf_sha256": {
-      "john_calvin_calcom44_commentary_on_hebrews_interior.pdf": "6b6eca23b82e63121afd406c42ee8ee8a3a35e51c0c15e0d31ec9acb1aa96902",
+      "john_calvin_calcom44_commentary_on_hebrews_interior.pdf": "11b4ec5f36e618a126938e166eda17e3e26e133f50bcd8ba575de1e02ce2fde4",
       "john_calvin_calcom44_commentary_on_hebrews_paperback_cover.pdf": "dfd2e4b69c7f1676cac04b06d7ed488ae92a92e264c3859f09b0ed78ee7f8c57",
       "john_calvin_calcom44_commentary_on_hebrews_hardcover_cover.pdf": "fcb391b3ced7e0905711bdd3ee588167e3a3507ad8a011f46461a6993c626133"
     },
@@ -384,144 +384,173 @@
   },
   "contents_audit_20260927": {
     "status": "verified",
-    "before_sha256": "b79fbc4c578851867673756a4d7ce9a6cad24b0e5a43f650ebd662d4e6c24e78",
-    "after_sha256": "6b6eca23b82e63121afd406c42ee8ee8a3a35e51c0c15e0d31ec9acb1aa96902",
+    "before_sha256": "6b6eca23b82e63121afd406c42ee8ee8a3a35e51c0c15e0d31ec9acb1aa96902",
+    "after_sha256": "11b4ec5f36e618a126938e166eda17e3e26e133f50bcd8ba575de1e02ce2fde4",
     "page_count": 344,
-    "old_entries": 71,
-    "entry_count": 16,
+    "old_entries": 16,
+    "entry_count": 15,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2
+    ],
     "entries": [
       {
-        "title": "Epistle Dedicatory to Sigismund Augustus",
+        "title": "Dedication to Sigismund Augustus",
         "destination": 3,
         "level": 1,
         "aliases": [
           "Epistle Dedicatory to Sigismund Augustus"
-        ]
+        ],
+        "source_index": 0,
+        "source_anchor": "EPISTLE DEDICATORY"
       },
       {
-        "title": "The Argument on the Epistle to the Hebrews",
+        "title": "Hebrews",
         "destination": 10,
         "level": 1,
         "aliases": [
           "The Argument on the Epistle to the Hebrews"
-        ]
-      },
-      {
-        "title": "Commentaries on the Epistle of St. Paul to the Hebrews",
-        "destination": 15,
-        "level": 1,
-        "aliases": [
-          "Commentaries on the Epistle of St. Paul to the Hebrews"
-        ]
+        ],
+        "source_index": 18,
+        "source_anchor": "THE EPISTLE TO THE HEBREWS"
       },
       {
         "title": "Chapter 1",
         "destination": 15,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 1"
-        ]
+        ],
+        "source_index": 40,
+        "source_anchor": "CHAPTER 1"
       },
       {
         "title": "Chapter 2",
         "destination": 35,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 2"
-        ]
+        ],
+        "source_index": 144,
+        "source_anchor": "CHAPTER 2"
       },
       {
         "title": "Chapter 3",
         "destination": 60,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 3"
-        ]
+        ],
+        "source_index": 268,
+        "source_anchor": "CHAPTER 3"
       },
       {
         "title": "Chapter 4",
         "destination": 76,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 4"
-        ]
+        ],
+        "source_index": 364,
+        "source_anchor": "CHAPTER 4"
       },
       {
         "title": "Chapter 5",
         "destination": 95,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 5"
-        ]
+        ],
+        "source_index": 464,
+        "source_anchor": "CHAPTER 5"
       },
       {
         "title": "Chapter 6",
         "destination": 114,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 6"
-        ]
+        ],
+        "source_index": 547,
+        "source_anchor": "CHAPTER 6"
       },
       {
         "title": "Chapter 7",
         "destination": 138,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 7"
-        ]
+        ],
+        "source_index": 663,
+        "source_anchor": "CHAPTER 7"
       },
       {
         "title": "Chapter 8",
         "destination": 161,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 8"
-        ]
+        ],
+        "source_index": 788,
+        "source_anchor": "CHAPTER 8"
       },
       {
         "title": "Chapter 9",
         "destination": 176,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 9"
-        ]
+        ],
+        "source_index": 864,
+        "source_anchor": "CHAPTER 9"
       },
       {
         "title": "Chapter 10",
         "destination": 204,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 10"
-        ]
+        ],
+        "source_index": 1011,
+        "source_anchor": "CHAPTER 10"
       },
       {
         "title": "Chapter 11",
         "destination": 244,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 11"
-        ]
+        ],
+        "source_index": 1219,
+        "source_anchor": "CHAPTER 11"
       },
       {
         "title": "Chapter 12",
         "destination": 295,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 12"
-        ]
+        ],
+        "source_index": 1469,
+        "source_anchor": "CHAPTER 12"
       },
       {
         "title": "Chapter 13",
         "destination": 323,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 13"
-        ]
+        ],
+        "source_index": 1626,
+        "source_anchor": "CHAPTER 13"
       }
     ],
-    "embedded_truetype_fonts": true,
-    "contents_geometry_passed": true,
-    "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom44_remove_appendix_20260927\\verification.json"
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
   },
   "appendix_removal_20260927": {
     "source_id": "calcom44",
@@ -709,7 +738,7 @@
     "edition_title": "Commentary on Hebrews",
     "approved_page_count": 344,
     "approved_pdf_sha256": {
-      "john_calvin_calcom44_commentary_on_hebrews_interior.pdf": "6b6eca23b82e63121afd406c42ee8ee8a3a35e51c0c15e0d31ec9acb1aa96902",
+      "john_calvin_calcom44_commentary_on_hebrews_interior.pdf": "11b4ec5f36e618a126938e166eda17e3e26e133f50bcd8ba575de1e02ce2fde4",
       "john_calvin_calcom44_commentary_on_hebrews_paperback_cover.pdf": "dfd2e4b69c7f1676cac04b06d7ed488ae92a92e264c3859f09b0ed78ee7f8c57",
       "john_calvin_calcom44_commentary_on_hebrews_hardcover_cover.pdf": "fcb391b3ced7e0905711bdd3ee588167e3a3507ad8a011f46461a6993c626133"
     },
@@ -718,5 +747,165 @@
   "store_price_cents": 3000,
   "store_featured": false,
   "store_genre": "Theology",
-  "store_description": "John Calvin's commentary on the Epistle to the Hebrews."
+  "store_description": "John Calvin's commentary on the Epistle to the Hebrews.",
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Dedication to Sigismund Augustus",
+      "destination": 3,
+      "level": 1,
+      "aliases": [
+        "Epistle Dedicatory to Sigismund Augustus"
+      ],
+      "source_index": 0,
+      "source_anchor": "EPISTLE DEDICATORY"
+    },
+    {
+      "title": "Hebrews",
+      "destination": 10,
+      "level": 1,
+      "aliases": [
+        "The Argument on the Epistle to the Hebrews"
+      ],
+      "source_index": 18,
+      "source_anchor": "THE EPISTLE TO THE HEBREWS"
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 15,
+      "level": 2,
+      "aliases": [
+        "Chapter 1"
+      ],
+      "source_index": 40,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 35,
+      "level": 2,
+      "aliases": [
+        "Chapter 2"
+      ],
+      "source_index": 144,
+      "source_anchor": "CHAPTER 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 60,
+      "level": 2,
+      "aliases": [
+        "Chapter 3"
+      ],
+      "source_index": 268,
+      "source_anchor": "CHAPTER 3"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 76,
+      "level": 2,
+      "aliases": [
+        "Chapter 4"
+      ],
+      "source_index": 364,
+      "source_anchor": "CHAPTER 4"
+    },
+    {
+      "title": "Chapter 5",
+      "destination": 95,
+      "level": 2,
+      "aliases": [
+        "Chapter 5"
+      ],
+      "source_index": 464,
+      "source_anchor": "CHAPTER 5"
+    },
+    {
+      "title": "Chapter 6",
+      "destination": 114,
+      "level": 2,
+      "aliases": [
+        "Chapter 6"
+      ],
+      "source_index": 547,
+      "source_anchor": "CHAPTER 6"
+    },
+    {
+      "title": "Chapter 7",
+      "destination": 138,
+      "level": 2,
+      "aliases": [
+        "Chapter 7"
+      ],
+      "source_index": 663,
+      "source_anchor": "CHAPTER 7"
+    },
+    {
+      "title": "Chapter 8",
+      "destination": 161,
+      "level": 2,
+      "aliases": [
+        "Chapter 8"
+      ],
+      "source_index": 788,
+      "source_anchor": "CHAPTER 8"
+    },
+    {
+      "title": "Chapter 9",
+      "destination": 176,
+      "level": 2,
+      "aliases": [
+        "Chapter 9"
+      ],
+      "source_index": 864,
+      "source_anchor": "CHAPTER 9"
+    },
+    {
+      "title": "Chapter 10",
+      "destination": 204,
+      "level": 2,
+      "aliases": [
+        "Chapter 10"
+      ],
+      "source_index": 1011,
+      "source_anchor": "CHAPTER 10"
+    },
+    {
+      "title": "Chapter 11",
+      "destination": 244,
+      "level": 2,
+      "aliases": [
+        "Chapter 11"
+      ],
+      "source_index": 1219,
+      "source_anchor": "CHAPTER 11"
+    },
+    {
+      "title": "Chapter 12",
+      "destination": 295,
+      "level": 2,
+      "aliases": [
+        "Chapter 12"
+      ],
+      "source_index": 1469,
+      "source_anchor": "CHAPTER 12"
+    },
+    {
+      "title": "Chapter 13",
+      "destination": 323,
+      "level": 2,
+      "aliases": [
+        "Chapter 13"
+      ],
+      "source_index": 1626,
+      "source_anchor": "CHAPTER 13"
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom44_package\\verification.json",
+    "current_interior_sha256": "11b4ec5f36e618a126938e166eda17e3e26e133f50bcd8ba575de1e02ce2fde4",
+    "previous_interior_sha256": "6b6eca23b82e63121afd406c42ee8ee8a3a35e51c0c15e0d31ec9acb1aa96902",
+    "approved_edition_updated": true
+  }
 }

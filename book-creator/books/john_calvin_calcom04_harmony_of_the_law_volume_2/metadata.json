@@ -22,7 +22,7 @@
       "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom04_approved\\verification.json"
     },
     "approved_pdf_sha256": {
-      "john_calvin_calcom04_harmony_of_the_law_volume_2_interior.pdf": "9dd7f1fda122ffdbc7696b437f0b24b1d3498bd82312b4c79c3943bf4cb8aaf3",
+      "john_calvin_calcom04_harmony_of_the_law_volume_2_interior.pdf": "e31bed4ea0c602eaa97f5d61c7ac5eb7d83a9468377287cb5978b32288839770",
       "john_calvin_calcom04_harmony_of_the_law_volume_2_paperback_cover.pdf": "de52755ea6eaee4fed6edfe039096a3264371873023f0022d284f7f8208caaf1",
       "john_calvin_calcom04_harmony_of_the_law_volume_2_hardcover_cover.pdf": "b5ef53da1577cfbcd5dec6c6dd806b21e3477739d86d1f74910f8eb245218785"
     }
@@ -108,7 +108,7 @@
     "full_body_text_preserved": true,
     "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom04_approved\\verification.json",
     "all_interior_pages_rendered": 532,
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom04_approved\\verification.json",
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom04_approved\\verification.json",
     "original_character_positions_preserved": false,
     "page_text_and_character_sequence_preserved": false,
     "original_editions_preserved_in_backup": true
@@ -392,10 +392,10 @@
   },
   "contents_audit_20260927": {
     "status": "verified",
-    "before_sha256": "9dd7f1fda122ffdbc7696b437f0b24b1d3498bd82312b4c79c3943bf4cb8aaf3",
-    "after_sha256": "00fa5a02f27e6fc4b39f6ff9110741b0b34305146fd3615227d0a0ad03de815d",
+    "before_sha256": "00fa5a02f27e6fc4b39f6ff9110741b0b34305146fd3615227d0a0ad03de815d",
+    "after_sha256": "e31bed4ea0c602eaa97f5d61c7ac5eb7d83a9468377287cb5978b32288839770",
     "page_count": 532,
-    "old_entries": 206,
+    "old_entries": 170,
     "entry_count": 170,
     "all_non_contents_page_text_and_streams_unchanged": true,
     "sample_body_renders_identical": true,
@@ -411,162 +411,219 @@
     ],
     "entries": [
       {
-        "title": "Another Supplement as to the Shutting up of the Leprous",
+        "title": "Another Supplement as to the Shutting Up of the Leprous",
         "destination": 8,
         "level": 1,
         "aliases": [
+          "Another Supplement as to the Shutting up of the Leprous",
           "Another Supplement as to the Shutting. up of the Leprous [1]"
-        ]
+        ],
+        "source_index": 0,
+        "source_anchor": "Another Supplement as to the Shutting. up of the Leprous [1]"
       },
       {
         "title": "Deuteronomy 24:8-9",
         "destination": 8,
         "level": 2,
         "aliases": [
+          "Deuteronomy 24:8-9",
           "Deuteronomy 24",
           "Deuteronomy 24:8, 9"
-        ]
+        ],
+        "source_index": 1,
+        "source_anchor": "Deuteronomy 24"
       },
       {
         "title": "Numbers 5:1-3",
         "destination": 9,
         "level": 2,
         "aliases": [
+          "Numbers 5:1-3",
           "Numbers 5"
-        ]
+        ],
+        "source_index": 8,
+        "source_anchor": "Numbers 5"
       },
       {
         "title": "Leviticus 13:1-59",
         "destination": 10,
         "level": 2,
         "aliases": [
+          "Leviticus 13:1-59",
           "Leviticus 13"
-        ]
+        ],
+        "source_index": 19,
+        "source_anchor": "Leviticus 13"
       },
       {
         "title": "Leviticus 14:1-57",
         "destination": 24,
         "level": 2,
         "aliases": [
+          "Leviticus 14:1-57",
           "Leviticus 14"
-        ]
+        ],
+        "source_index": 158,
+        "source_anchor": "Leviticus 14"
       },
       {
         "title": "Leviticus 15:1-33",
         "destination": 36,
         "level": 2,
         "aliases": [
+          "Leviticus 15:1-33",
           "Leviticus 15"
-        ]
+        ],
+        "source_index": 283,
+        "source_anchor": "Leviticus 15"
       },
       {
         "title": "Deuteronomy 23:1-2",
         "destination": 43,
         "level": 2,
         "aliases": [
+          "Deuteronomy 23:1-2",
           "Deuteronomy 23",
           "Deuteronomy 23:1, 2"
-        ]
+        ],
+        "source_index": 360,
+        "source_anchor": "Deuteronomy 23"
       },
       {
         "title": "Numbers 19:1-22",
         "destination": 45,
         "level": 2,
         "aliases": [
+          "Numbers 19:1-22",
           "Numbers 19"
-        ]
+        ],
+        "source_index": 372,
+        "source_anchor": "Numbers 19"
       },
       {
         "title": "Deuteronomy 23:9-14",
         "destination": 55,
         "level": 2,
         "aliases": [
+          "Deuteronomy 23:9-14",
           "Deuteronomy 23"
-        ]
+        ],
+        "source_index": 435,
+        "source_anchor": "Deuteronomy 23"
       },
       {
         "title": "Deuteronomy 22:9-11",
         "destination": 57,
         "level": 2,
         "aliases": [
+          "Deuteronomy 22:9-11",
           "Deuteronomy 22"
-        ]
+        ],
+        "source_index": 452,
+        "source_anchor": "Deuteronomy 22"
       },
       {
         "title": "Deuteronomy 14:1-2",
         "destination": 58,
         "level": 2,
         "aliases": [
+          "Deuteronomy 14:1-2",
           "Deuteronomy 14",
           "Deuteronomy 14:1, 2"
-        ]
+        ],
+        "source_index": 460,
+        "source_anchor": "Deuteronomy 14"
       },
       {
         "title": "Leviticus 19:19, 23-25, 27-28",
         "destination": 60,
         "level": 2,
         "aliases": [
+          "Leviticus 19:19, 23-25, 27-28",
           "Leviticus 19",
           "Leviticus 19:19, 23-25, 27, 28"
-        ]
+        ],
+        "source_index": 469,
+        "source_anchor": "Leviticus 19"
       },
       {
         "title": "Leviticus 20:25-26",
         "destination": 64,
         "level": 2,
         "aliases": [
+          "Leviticus 20:25-26",
           "Leviticus 20",
           "Leviticus 20:25, 26"
-        ]
+        ],
+        "source_index": 491,
+        "source_anchor": "Leviticus 20"
       },
       {
         "title": "Deuteronomy 14:3-20",
         "destination": 65,
         "level": 2,
         "aliases": [
+          "Deuteronomy 14:3-20",
           "Deuteronomy 14"
-        ]
+        ],
+        "source_index": 497,
+        "source_anchor": "Deuteronomy 14"
       },
       {
         "title": "Leviticus 11:1-47",
         "destination": 67,
         "level": 2,
         "aliases": [
+          "Leviticus 11:1-47",
           "Leviticus 11"
-        ]
+        ],
+        "source_index": 536,
+        "source_anchor": "Leviticus 11"
       },
       {
         "title": "Deuteronomy 14:21",
         "destination": 82,
         "level": 2,
         "aliases": [
+          "Deuteronomy 14:21",
           "Deuteronomy 14"
-        ]
+        ],
+        "source_index": 665,
+        "source_anchor": "Deuteronomy 14"
       },
       {
         "title": "Exodus 22:31",
         "destination": 83,
         "level": 2,
         "aliases": [
+          "Exodus 22:31",
           "Exodus 22"
-        ]
+        ],
+        "source_index": 669,
+        "source_anchor": "Exodus 22"
       },
       {
         "title": "Leviticus 17:15-16",
         "destination": 83,
         "level": 2,
         "aliases": [
+          "Leviticus 17:15-16",
           "Leviticus 17",
           "Leviticus 17:15, 16"
-        ]
+        ],
+        "source_index": 673,
+        "source_anchor": "Leviticus 17"
       },
       {
         "title": "Deuteronomy 21:10-13",
         "destination": 85,
         "level": 2,
         "aliases": [
+          "Deuteronomy 21:10-13",
           "Deuteronomy 21"
-        ]
+        ],
+        "source_index": 682,
+        "source_anchor": "Deuteronomy 21"
       },
       {
         "title": "Judicial Supplements",
@@ -574,107 +631,143 @@
         "level": 1,
         "aliases": [
           "Judicial Supplements"
-        ]
+        ],
+        "source_index": 695,
+        "source_anchor": "Judicial Supplements"
       },
       {
         "title": "Deuteronomy 18:19",
         "destination": 87,
         "level": 2,
         "aliases": [
+          "Deuteronomy 18:19",
           "Deuteronomy 18"
-        ]
+        ],
+        "source_index": 696,
+        "source_anchor": "Deuteronomy 18"
       },
       {
         "title": "Deuteronomy 13:5",
         "destination": 89,
         "level": 2,
         "aliases": [
+          "Deuteronomy 13:5",
           "Deuteronomy 13"
-        ]
+        ],
+        "source_index": 705,
+        "source_anchor": "Deuteronomy 13"
       },
       {
         "title": "Deuteronomy 17:12-13",
         "destination": 93,
         "level": 2,
         "aliases": [
+          "Deuteronomy 17:12-13",
           "Deuteronomy 17",
           "Deuteronomy 17:12, 13"
-        ]
+        ],
+        "source_index": 716,
+        "source_anchor": "Deuteronomy 17"
       },
       {
         "title": "Deuteronomy 13:6-11",
         "destination": 95,
         "level": 2,
         "aliases": [
+          "Deuteronomy 13:6-11",
           "Deuteronomy 13"
-        ]
+        ],
+        "source_index": 726,
+        "source_anchor": "Deuteronomy 13"
       },
       {
         "title": "Deuteronomy 13:12-17",
         "destination": 99,
         "level": 2,
         "aliases": [
+          "Deuteronomy 13:12-17",
           "Deuteronomy 13"
-        ]
+        ],
+        "source_index": 748,
+        "source_anchor": "Deuteronomy 13"
       },
       {
         "title": "Exodus 22:18",
         "destination": 104,
         "level": 2,
         "aliases": [
+          "Exodus 22:18",
           "Exodus 22"
-        ]
+        ],
+        "source_index": 770,
+        "source_anchor": "Exodus 22"
       },
       {
         "title": "Numbers 15:30-31",
         "destination": 105,
         "level": 2,
         "aliases": [
+          "Numbers 15:30-31",
           "Numbers 15",
           "Numbers 15:30, 31"
-        ]
+        ],
+        "source_index": 778,
+        "source_anchor": "Numbers 15"
       },
       {
         "title": "Leviticus 20:1-6, 27",
         "destination": 106,
         "level": 2,
         "aliases": [
-          "Leviticus 20",
-          "Leviticus 20:1-6, 27"
-        ]
+          "Leviticus 20:1-6, 27",
+          "Leviticus 20"
+        ],
+        "source_index": 786,
+        "source_anchor": "Leviticus 20"
       },
       {
         "title": "Exodus 12:15, 19",
         "destination": 108,
         "level": 2,
         "aliases": [
-          "Exodus 12",
-          "Exodus 12:15, 19"
-        ]
+          "Exodus 12:15, 19",
+          "Exodus 12"
+        ],
+        "source_index": 803,
+        "source_anchor": "Exodus 12"
       },
       {
         "title": "Deuteronomy 17:14-20",
         "destination": 109,
         "level": 2,
         "aliases": [
+          "Deuteronomy 17:14-20",
           "Deuteronomy 17"
-        ]
+        ],
+        "source_index": 811,
+        "source_anchor": "Deuteronomy 17"
       },
       {
         "title": "Deuteronomy 20:1-4",
         "destination": 116,
         "level": 2,
         "aliases": [
+          "Deuteronomy 20:1-4",
           "Deuteronomy 20"
-        ]
+        ],
+        "source_index": 839,
+        "source_anchor": "Deuteronomy 20"
       },
       {
         "title": "Numbers 10:1-10",
         "destination": 118,
         "level": 2,
         "aliases": [
+          "Numbers 10:1-10",
           "Numbers 10"
-        ]
+        ],
+        "source_index": 851,
+        "source_anchor": "Numbers 10"
       },
       {
         "title": "The Second Commandment",
@@ -682,238 +775,324 @@
         "level": 1,
         "aliases": [
           "The Second Commandment"
-        ]
+        ],
+        "source_index": 882,
+        "source_anchor": "The Second Commandment"
       },
       {
         "title": "Exodus 20:4-6",
         "destination": 122,
         "level": 2,
         "aliases": [
+          "Exodus 20:4-6",
           "Exodus 20"
-        ]
+        ],
+        "source_index": 883,
+        "source_anchor": "Exodus 20"
       },
       {
         "title": "Deuteronomy 5:8-10",
         "destination": 125,
         "level": 2,
         "aliases": [
+          "Deuteronomy 5:8-10",
           "Deuteronomy 5"
-        ]
+        ],
+        "source_index": 896,
+        "source_anchor": "Deuteronomy 5"
       },
       {
         "title": "Exodus 34:17",
         "destination": 131,
         "level": 2,
         "aliases": [
+          "Exodus 34:17",
           "Exodus 34"
-        ]
+        ],
+        "source_index": 920,
+        "source_anchor": "Exodus 34"
       },
       {
         "title": "Leviticus 19:4",
         "destination": 132,
         "level": 2,
         "aliases": [
+          "Leviticus 19:4",
           "Leviticus 19"
-        ]
+        ],
+        "source_index": 924,
+        "source_anchor": "Leviticus 19"
       },
       {
         "title": "Leviticus 26:1",
         "destination": 132,
         "level": 2,
         "aliases": [
+          "Leviticus 26:1",
           "Leviticus 26"
-        ]
+        ],
+        "source_index": 928,
+        "source_anchor": "Leviticus 26"
       },
       {
         "title": "Exodus 20:22-23",
         "destination": 132,
         "level": 2,
         "aliases": [
+          "Exodus 20:22-23",
           "Exodus 20",
           "Exodus 20:22, 23"
-        ]
+        ],
+        "source_index": 932,
+        "source_anchor": "Exodus 20"
       },
       {
         "title": "Deuteronomy 4:12-19, 23-24",
         "destination": 135,
         "level": 2,
         "aliases": [
+          "Deuteronomy 4:12-19, 23-24",
           "Deuteronomy 4",
           "Deuteronomy 4:12-19, 23, 24"
-        ]
+        ],
+        "source_index": 943,
+        "source_anchor": "Deuteronomy 4"
       },
       {
         "title": "Exodus 34:14",
         "destination": 136,
         "level": 2,
         "aliases": [
+          "Exodus 34:14",
           "Exodus 34"
-        ]
+        ],
+        "source_index": 965,
+        "source_anchor": "Exodus 34"
       },
       {
         "title": "Deuteronomy 8:19-20",
         "destination": 136,
         "level": 2,
         "aliases": [
+          "Deuteronomy 8:19-20",
           "Deuteronomy 8",
           "Deuteronomy 8:19, 20"
-        ]
+        ],
+        "source_index": 969,
+        "source_anchor": "Deuteronomy 8"
       },
       {
         "title": "Deuteronomy 11:16-17",
         "destination": 143,
         "level": 2,
         "aliases": [
+          "Deuteronomy 11:16-17",
           "Deuteronomy 11",
           "Deuteronomy 11:16, 17"
-        ]
+        ],
+        "source_index": 986,
+        "source_anchor": "Deuteronomy 11"
       },
       {
         "title": "Deuteronomy 16:22",
         "destination": 144,
         "level": 2,
         "aliases": [
+          "Deuteronomy 16:22",
           "Deuteronomy 16"
-        ]
+        ],
+        "source_index": 993,
+        "source_anchor": "Deuteronomy 16"
       },
       {
         "title": "Exodus 23:24",
         "destination": 145,
         "level": 2,
         "aliases": [
+          "Exodus 23:24",
           "Exodus 23"
-        ]
+        ],
+        "source_index": 1001,
+        "source_anchor": "Exodus 23"
       },
       {
         "title": "Deuteronomy 12:4-14, 17-18, 26-27",
         "destination": 145,
         "level": 2,
         "aliases": [
+          "Deuteronomy 12:4-14, 17-18, 26-27",
           "Deuteronomy 12",
           "Deuteronomy 12:4-14, 17, 18, 26, 27"
-        ]
+        ],
+        "source_index": 1006,
+        "source_anchor": "Deuteronomy 12"
       },
       {
         "title": "Deuteronomy 14:23-26",
         "destination": 153,
         "level": 2,
         "aliases": [
+          "Deuteronomy 14:23-26",
           "Deuteronomy 14"
-        ]
+        ],
+        "source_index": 1061,
+        "source_anchor": "Deuteronomy 14"
       },
       {
         "title": "Exodus 20:24-25",
         "destination": 156,
         "level": 2,
         "aliases": [
+          "Exodus 20:24-25",
           "Exodus 20",
           "Exodus 20:24, 25"
-        ]
+        ],
+        "source_index": 1074,
+        "source_anchor": "Exodus 20"
       },
       {
         "title": "Deuteronomy 27:5-7",
         "destination": 158,
         "level": 2,
         "aliases": [
+          "Deuteronomy 27:5-7",
           "Deuteronomy 27"
-        ]
+        ],
+        "source_index": 1084,
+        "source_anchor": "Deuteronomy 27"
       },
       {
         "title": "Exodus 25:1-22",
         "destination": 159,
         "level": 2,
         "aliases": [
+          "Exodus 25:1-22",
           "Exodus 25"
-        ]
+        ],
+        "source_index": 1095,
+        "source_anchor": "Exodus 25"
       },
       {
         "title": "Exodus 35:4-19",
         "destination": 176,
         "level": 2,
         "aliases": [
+          "Exodus 35:4-19",
           "Exodus 35"
-        ]
+        ],
+        "source_index": 1174,
+        "source_anchor": "Exodus 35"
       },
       {
         "title": "Exodus 25:23-30",
         "destination": 180,
         "level": 2,
         "aliases": [
+          "Exodus 25:23-30",
           "Exodus 25"
-        ]
+        ],
+        "source_index": 1211,
+        "source_anchor": "Exodus 25"
       },
       {
         "title": "Exodus 25:31-40",
         "destination": 182,
         "level": 2,
         "aliases": [
+          "Exodus 25:31-40",
           "Exodus 25"
-        ]
+        ],
+        "source_index": 1232,
+        "source_anchor": "Exodus 25"
       },
       {
         "title": "Deuteronomy 27:5-7",
         "destination": 187,
         "level": 2,
         "aliases": [
+          "Deuteronomy 27:5-7",
           "Deuteronomy 27"
-        ]
+        ],
+        "source_index": 1264,
+        "source_anchor": "Deuteronomy 27"
       },
       {
         "title": "Leviticus 24:1-4",
         "destination": 187,
         "level": 2,
         "aliases": [
+          "Leviticus 24:1-4",
           "Leviticus 24"
-        ]
+        ],
+        "source_index": 1272,
+        "source_anchor": "Leviticus 24"
       },
       {
         "title": "Numbers 8:1-4",
         "destination": 189,
         "level": 2,
         "aliases": [
+          "Numbers 8:1-4",
           "Numbers 8"
-        ]
+        ],
+        "source_index": 1286,
+        "source_anchor": "Numbers 8"
       },
       {
         "title": "Exodus 26:1-37",
         "destination": 190,
         "level": 2,
         "aliases": [
+          "Exodus 26:1-37",
           "Exodus 26"
-        ]
+        ],
+        "source_index": 1297,
+        "source_anchor": "Exodus 26"
       },
       {
         "title": "Exodus 27:1-8",
         "destination": 199,
         "level": 2,
         "aliases": [
+          "Exodus 27:1-8",
           "Exodus 27"
-        ]
+        ],
+        "source_index": 1390,
+        "source_anchor": "Exodus 27"
       },
       {
         "title": "Exodus 27:9-19",
         "destination": 202,
         "level": 2,
         "aliases": [
+          "Exodus 27:9-19",
           "Exodus 27"
-        ]
+        ],
+        "source_index": 1411,
+        "source_anchor": "Exodus 27"
       },
       {
         "title": "Exodus 29:36-37",
         "destination": 205,
         "level": 2,
         "aliases": [
+          "Exodus 29:36-37",
           "Exodus 29",
           "Exodus 29:36, 37"
-        ]
+        ],
+        "source_index": 1438,
+        "source_anchor": "Exodus 29"
       },
       {
         "title": "Exodus 30:1-10, 17-21, 34-38",
         "destination": 206,
         "level": 2,
         "aliases": [
+          "Exodus 30:1-10, 17-21, 34-38",
           "Exodus 30"
-        ]
+        ],
+        "source_index": 1446,
+        "source_anchor": "Exodus 30"
       },
       {
         "title": "The Priesthood",
@@ -921,289 +1100,386 @@
         "level": 1,
         "aliases": [
           "The Priesthood"
-        ]
+        ],
+        "source_index": 1505,
+        "source_anchor": "The Priesthood"
       },
       {
         "title": "Exodus 28:1-43",
         "destination": 212,
         "level": 2,
         "aliases": [
+          "Exodus 28:1-43",
           "Exodus 28"
-        ]
+        ],
+        "source_index": 1506,
+        "source_anchor": "Exodus 28"
       },
       {
-        "title": "The tabernacle",
+        "title": "The Tabernacle",
         "destination": 218,
         "level": 1,
         "aliases": [
+          "The tabernacle",
           "1. the Tabernacle"
-        ]
+        ],
+        "source_index": 1595,
+        "source_anchor": "1. The Tabernacle;"
       },
       {
-        "title": "The sacrifices",
+        "title": "The Sacrifices",
         "destination": 218,
         "level": 1,
         "aliases": [
+          "The sacrifices",
           "3. the Sacrifices"
-        ]
+        ],
+        "source_index": 1597,
+        "source_anchor": "3. The Sacrifices."
       },
       {
         "title": "Exodus 29:1-35",
         "destination": 233,
         "level": 2,
         "aliases": [
+          "Exodus 29:1-35",
           "Exodus 29"
-        ]
+        ],
+        "source_index": 1633,
+        "source_anchor": "Exodus 29"
       },
       {
         "title": "Leviticus 8:1-3",
         "destination": 241,
         "level": 2,
         "aliases": [
+          "Leviticus 8:1-3",
           "Leviticus 8"
-        ]
+        ],
+        "source_index": 1711,
+        "source_anchor": "Leviticus 8"
       },
       {
         "title": "Numbers 8:5-19, 23-26",
         "destination": 242,
         "level": 2,
         "aliases": [
-          "Numbers 8",
-          "Numbers 8:5-19, 23-26"
-        ]
+          "Numbers 8:5-19, 23-26",
+          "Numbers 8"
+        ],
+        "source_index": 1720,
+        "source_anchor": "Numbers 8"
       },
       {
         "title": "Numbers 3:5-10",
         "destination": 248,
         "level": 2,
         "aliases": [
+          "Numbers 3:5-10",
           "Numbers 3"
-        ]
+        ],
+        "source_index": 1769,
+        "source_anchor": "Numbers 3"
       },
       {
         "title": "Exodus 30:22-33",
         "destination": 250,
         "level": 2,
         "aliases": [
+          "Exodus 30:22-33",
           "Exodus 30"
-        ]
+        ],
+        "source_index": 1785,
+        "source_anchor": "Exodus 30"
       },
       {
         "title": "Leviticus 8:1-3",
         "destination": 255,
         "level": 2,
         "aliases": [
+          "Leviticus 8:1-3",
           "Leviticus 8"
-        ]
+        ],
+        "source_index": 1819,
+        "source_anchor": "Leviticus 8"
       },
       {
         "title": "Leviticus 21:1-6, 10-12",
         "destination": 255,
         "level": 2,
         "aliases": [
-          "Leviticus 21",
-          "Leviticus 21:1-6, 10-12"
-        ]
+          "Leviticus 21:1-6, 10-12",
+          "Leviticus 21"
+        ],
+        "source_index": 1828,
+        "source_anchor": "Leviticus 21"
       },
       {
         "title": "Deuteronomy 31:9",
         "destination": 259,
         "level": 2,
         "aliases": [
+          "Deuteronomy 31:9",
           "Deuteronomy 31"
-        ]
+        ],
+        "source_index": 1852,
+        "source_anchor": "Deuteronomy 31"
       },
       {
         "title": "Leviticus 10:8-11",
         "destination": 263,
         "level": 2,
         "aliases": [
+          "Leviticus 10:8-11",
           "Leviticus 10"
-        ]
+        ],
+        "source_index": 1861,
+        "source_anchor": "Leviticus 10"
       },
       {
         "title": "Leviticus 21:1-6, 10-12",
         "destination": 265,
         "level": 2,
         "aliases": [
-          "Leviticus 21",
-          "Leviticus 21:1-6, 10-12"
-        ]
+          "Leviticus 21:1-6, 10-12",
+          "Leviticus 21"
+        ],
+        "source_index": 1874,
+        "source_anchor": "Leviticus 21"
       },
       {
         "title": "Leviticus 21:16-24",
         "destination": 269,
         "level": 2,
         "aliases": [
+          "Leviticus 21:16-24",
           "Leviticus 21"
-        ]
+        ],
+        "source_index": 1900,
+        "source_anchor": "Leviticus 21"
       },
       {
         "title": "Leviticus 22:1-16",
         "destination": 271,
         "level": 2,
         "aliases": [
+          "Leviticus 22:1-16",
           "Leviticus 22"
-        ]
+        ],
+        "source_index": 1924,
+        "source_anchor": "Leviticus 22"
       },
       {
         "title": "Exodus 20:26",
         "destination": 276,
         "level": 2,
         "aliases": [
+          "Exodus 20:26",
           "Exodus 20"
-        ]
+        ],
+        "source_index": 1964,
+        "source_anchor": "Exodus 20"
       },
       {
         "title": "Numbers 6:22-27",
         "destination": 276,
         "level": 2,
         "aliases": [
+          "Numbers 6:22-27",
           "Numbers 6"
-        ]
+        ],
+        "source_index": 1969,
+        "source_anchor": "Numbers 6"
       },
       {
         "title": "Numbers 35:1-8",
         "destination": 279,
         "level": 2,
         "aliases": [
+          "Numbers 35:1-8",
           "Numbers 35"
-        ]
+        ],
+        "source_index": 1992,
+        "source_anchor": "Numbers 35"
       },
       {
         "title": "Numbers 18:1-7, 22-23",
         "destination": 283,
         "level": 2,
         "aliases": [
+          "Numbers 18:1-7, 22-23",
           "Numbers 18",
           "Numbers 18:1-7, 22, 23"
-        ]
+        ],
+        "source_index": 2014,
+        "source_anchor": "Numbers 18"
       },
       {
         "title": "Numbers 4:4-20, 24-28, 31-33",
         "destination": 287,
         "level": 2,
         "aliases": [
-          "Numbers 4",
-          "Numbers 4:4-20, 24-28, 31-33"
-        ]
+          "Numbers 4:4-20, 24-28, 31-33",
+          "Numbers 4"
+        ],
+        "source_index": 2042,
+        "source_anchor": "Numbers 4"
       },
       {
         "title": "Leviticus 17:1-9",
         "destination": 293,
         "level": 2,
         "aliases": [
+          "Leviticus 17:1-9",
           "Leviticus 17"
-        ]
+        ],
+        "source_index": 2097,
+        "source_anchor": "Leviticus 17"
       },
       {
         "title": "Deuteronomy 17:8-11",
         "destination": 296,
         "level": 2,
         "aliases": [
+          "Deuteronomy 17:8-11",
           "Deuteronomy 17"
-        ]
+        ],
+        "source_index": 2121,
+        "source_anchor": "Deuteronomy 17"
       },
       {
         "title": "Numbers 5:9-10",
         "destination": 299,
         "level": 2,
         "aliases": [
+          "Numbers 5:9-10",
           "Numbers 5",
           "Numbers 5:9, 10"
-        ]
+        ],
+        "source_index": 2135,
+        "source_anchor": "Numbers 5"
       },
       {
         "title": "Numbers 18:8-19",
         "destination": 300,
         "level": 2,
         "aliases": [
+          "Numbers 18:8-19",
           "Numbers 18"
-        ]
+        ],
+        "source_index": 2143,
+        "source_anchor": "Numbers 18"
       },
       {
         "title": "Leviticus 6:16-18, 26-29",
         "destination": 305,
         "level": 2,
         "aliases": [
-          "Leviticus 6",
-          "Leviticus 6:16-18, 26-29"
-        ]
+          "Leviticus 6:16-18, 26-29",
+          "Leviticus 6"
+        ],
+        "source_index": 2176,
+        "source_anchor": "Leviticus 6"
       },
       {
         "title": "Numbers 5:8",
         "destination": 307,
         "level": 2,
         "aliases": [
+          "Numbers 5:8",
           "Numbers 5"
-        ]
+        ],
+        "source_index": 2194,
+        "source_anchor": "Numbers 5"
       },
       {
         "title": "Leviticus 7:6-10, 14, 31-36",
         "destination": 308,
         "level": 2,
         "aliases": [
-          "Leviticus 7",
-          "Leviticus 7:6-10, 14, 31-36"
-        ]
+          "Leviticus 7:6-10, 14, 31-36",
+          "Leviticus 7"
+        ],
+        "source_index": 2200,
+        "source_anchor": "Leviticus 7"
       },
       {
         "title": "Numbers 18:20-21, 23-24",
         "destination": 311,
         "level": 2,
         "aliases": [
+          "Numbers 18:20-21, 23-24",
           "Numbers 18",
           "Numbers 18:20, 21, 23, 24"
-        ]
+        ],
+        "source_index": 2228,
+        "source_anchor": "Numbers 18"
       },
       {
         "title": "Deuteronomy 12:19",
         "destination": 311,
         "level": 2,
         "aliases": [
+          "Deuteronomy 12:19",
           "Deuteronomy 12"
-        ]
+        ],
+        "source_index": 2238,
+        "source_anchor": "Deuteronomy 12"
       },
       {
         "title": "Leviticus 27:30-33",
         "destination": 315,
         "level": 2,
         "aliases": [
+          "Leviticus 27:30-33",
           "Leviticus 27"
-        ]
+        ],
+        "source_index": 2252,
+        "source_anchor": "Leviticus 27"
       },
       {
         "title": "Deuteronomy 14:22, 27-29",
         "destination": 316,
         "level": 2,
         "aliases": [
-          "Deuteronomy 14",
-          "Deuteronomy 14:22, 27-29"
-        ]
+          "Deuteronomy 14:22, 27-29",
+          "Deuteronomy 14"
+        ],
+        "source_index": 2264,
+        "source_anchor": "Deuteronomy 14"
       },
       {
         "title": "Deuteronomy 26:12-15",
         "destination": 318,
         "level": 2,
         "aliases": [
+          "Deuteronomy 26:12-15",
           "Deuteronomy 26"
-        ]
+        ],
+        "source_index": 2278,
+        "source_anchor": "Deuteronomy 26"
       },
       {
         "title": "Numbers 18:25-32",
         "destination": 322,
         "level": 2,
         "aliases": [
+          "Numbers 18:25-32",
           "Numbers 18"
-        ]
+        ],
+        "source_index": 2296,
+        "source_anchor": "Numbers 18"
       },
       {
         "title": "Deuteronomy 18:1-8",
         "destination": 324,
         "level": 2,
         "aliases": [
+          "Deuteronomy 18:1-8",
           "Deuteronomy 18"
-        ]
+        ],
+        "source_index": 2318,
+        "source_anchor": "Deuteronomy 18"
       },
       {
         "title": "The Sacred Oblations",
@@ -1211,15 +1487,20 @@
         "level": 1,
         "aliases": [
           "The Sacred Oblations"
-        ]
+        ],
+        "source_index": 2340,
+        "source_anchor": "The Sacred Oblations"
       },
       {
         "title": "Leviticus 24:5-9",
         "destination": 328,
         "level": 2,
         "aliases": [
+          "Leviticus 24:5-9",
           "Leviticus 24"
-        ]
+        ],
+        "source_index": 2341,
+        "source_anchor": "Leviticus 24"
       },
       {
         "title": "Sacrifices",
@@ -1227,340 +1508,463 @@
         "level": 1,
         "aliases": [
           "Sacrifices"
-        ]
+        ],
+        "source_index": 2355,
+        "source_anchor": "Sacrifices"
       },
       {
         "title": "Exodus 29:38-46",
         "destination": 329,
         "level": 2,
         "aliases": [
+          "Exodus 29:38-46",
           "Exodus 29"
-        ]
+        ],
+        "source_index": 2356,
+        "source_anchor": "Exodus 29"
       },
       {
         "title": "Numbers 28:1-15",
         "destination": 336,
         "level": 2,
         "aliases": [
+          "Numbers 28:1-15",
           "Numbers 28"
-        ]
+        ],
+        "source_index": 2395,
+        "source_anchor": "Numbers 28"
       },
       {
         "title": "Numbers 28:16-31",
         "destination": 340,
         "level": 2,
         "aliases": [
+          "Numbers 28:16-31",
           "Numbers 28"
-        ]
+        ],
+        "source_index": 2432,
+        "source_anchor": "Numbers 28"
       },
       {
         "title": "Numbers 29:1-39",
         "destination": 343,
         "level": 2,
         "aliases": [
+          "Numbers 29:1-39",
           "Numbers 29"
-        ]
+        ],
+        "source_index": 2470,
+        "source_anchor": "Numbers 29"
       },
       {
         "title": "Leviticus 16:1-34",
         "destination": 350,
         "level": 2,
         "aliases": [
+          "Leviticus 16:1-34",
           "Leviticus 16"
-        ]
+        ],
+        "source_index": 2558,
+        "source_anchor": "Leviticus 16"
       },
       {
         "title": "Leviticus 1:1-17",
         "destination": 363,
         "level": 2,
         "aliases": [
+          "Leviticus 1:1-17",
           "Leviticus 1"
-        ]
+        ],
+        "source_index": 2649,
+        "source_anchor": "Leviticus 1"
       },
       {
         "title": "Leviticus 2:1-16",
         "destination": 369,
         "level": 2,
         "aliases": [
+          "Leviticus 2:1-16",
           "Leviticus 2"
-        ]
+        ],
+        "source_index": 2690,
+        "source_anchor": "Leviticus 2"
       },
       {
         "title": "Leviticus 3:1-17",
         "destination": 374,
         "level": 2,
         "aliases": [
+          "Leviticus 3:1-17",
           "Leviticus 3"
-        ]
+        ],
+        "source_index": 2731,
+        "source_anchor": "Leviticus 3"
       },
       {
         "title": "Leviticus 4:1-35",
         "destination": 380,
         "level": 2,
         "aliases": [
+          "Leviticus 4:1-35",
           "Leviticus 4"
-        ]
+        ],
+        "source_index": 2774,
+        "source_anchor": "Leviticus 4"
       },
       {
         "title": "Numbers 15:22-29",
         "destination": 390,
         "level": 2,
         "aliases": [
+          "Numbers 15:22-29",
           "Numbers 15"
-        ]
+        ],
+        "source_index": 2861,
+        "source_anchor": "Numbers 15"
       },
       {
         "title": "Leviticus 5:1-13",
         "destination": 393,
         "level": 2,
         "aliases": [
+          "Leviticus 5:1-13",
           "Leviticus 5"
-        ]
+        ],
+        "source_index": 2882,
+        "source_anchor": "Leviticus 5"
       },
       {
         "title": "Leviticus 5:14-19",
         "destination": 399,
         "level": 2,
         "aliases": [
+          "Leviticus 5:14-19",
           "Leviticus 5"
-        ]
+        ],
+        "source_index": 2917,
+        "source_anchor": "Leviticus 5"
       },
       {
         "title": "Leviticus 6:1-7",
         "destination": 402,
         "level": 2,
         "aliases": [
+          "Leviticus 6:1-7",
           "Leviticus 6"
-        ]
+        ],
+        "source_index": 2936,
+        "source_anchor": "Leviticus 6"
       },
       {
         "title": "Leviticus 6:8-15, 23-25, 30",
         "destination": 409,
         "level": 2,
         "aliases": [
-          "Leviticus 6",
-          "Leviticus 6:8-15, 23-25, 30"
-        ]
+          "Leviticus 6:8-15, 23-25, 30",
+          "Leviticus 6"
+        ],
+        "source_index": 2962,
+        "source_anchor": "Leviticus 6"
       },
       {
         "title": "Leviticus 7:1-5",
         "destination": 415,
         "level": 2,
         "aliases": [
+          "Leviticus 7:1-5",
           "Leviticus 7"
-        ]
+        ],
+        "source_index": 3000,
+        "source_anchor": "Leviticus 7"
       },
       {
         "title": "Leviticus 7:11-18",
         "destination": 416,
         "level": 2,
         "aliases": [
+          "Leviticus 7:11-18",
           "Leviticus 7"
-        ]
+        ],
+        "source_index": 3013,
+        "source_anchor": "Leviticus 7"
       },
       {
         "title": "Leviticus 22:29-30",
         "destination": 417,
         "level": 2,
         "aliases": [
+          "Leviticus 22:29-30",
           "Leviticus 22",
           "Leviticus 22:29, 30"
-        ]
+        ],
+        "source_index": 3031,
+        "source_anchor": "Leviticus 22"
       },
       {
         "title": "Leviticus 19:5-8",
         "destination": 417,
         "level": 2,
         "aliases": [
+          "Leviticus 19:5-8",
           "Leviticus 19"
-        ]
+        ],
+        "source_index": 3037,
+        "source_anchor": "Leviticus 19"
       },
       {
         "title": "Leviticus 7:19-25, 28-31, 37-38",
         "destination": 421,
         "level": 2,
         "aliases": [
+          "Leviticus 7:19-25, 28-31, 37-38",
           "Leviticus 7",
           "Leviticus 7:19-25, 28-31, 37, 38"
-        ]
+        ],
+        "source_index": 3055,
+        "source_anchor": "Leviticus 7"
       },
       {
         "title": "Numbers 15:1-16",
         "destination": 424,
         "level": 2,
         "aliases": [
+          "Numbers 15:1-16",
           "Numbers 15"
-        ]
+        ],
+        "source_index": 3089,
+        "source_anchor": "Numbers 15"
       },
       {
         "title": "Leviticus 22:17-25",
         "destination": 427,
         "level": 2,
         "aliases": [
+          "Leviticus 22:17-25",
           "Leviticus 22"
-        ]
+        ],
+        "source_index": 3126,
+        "source_anchor": "Leviticus 22"
       },
       {
         "title": "Deuteronomy 17:1",
         "destination": 429,
         "level": 2,
         "aliases": [
+          "Deuteronomy 17:1",
           "Deuteronomy 17"
-        ]
+        ],
+        "source_index": 3146,
+        "source_anchor": "Deuteronomy 17"
       },
       {
         "title": "Deuteronomy 23:18",
         "destination": 433,
         "level": 2,
         "aliases": [
+          "Deuteronomy 23:18",
           "Deuteronomy 23"
-        ]
+        ],
+        "source_index": 3158,
+        "source_anchor": "Deuteronomy 23"
       },
       {
         "title": "Leviticus 22:26-28",
         "destination": 433,
         "level": 2,
         "aliases": [
+          "Leviticus 22:26-28",
           "Leviticus 22"
-        ]
+        ],
+        "source_index": 3163,
+        "source_anchor": "Leviticus 22"
       },
       {
         "title": "Exodus 22:30",
         "destination": 434,
         "level": 2,
         "aliases": [
+          "Exodus 22:30",
           "Exodus 22"
-        ]
+        ],
+        "source_index": 3171,
+        "source_anchor": "Exodus 22"
       },
       {
         "title": "Exodus 34:26",
         "destination": 434,
         "level": 2,
         "aliases": [
+          "Exodus 34:26",
           "Exodus 34"
-        ]
+        ],
+        "source_index": 3175,
+        "source_anchor": "Exodus 34"
       },
       {
         "title": "Deuteronomy 14:21",
         "destination": 434,
         "level": 2,
         "aliases": [
+          "Deuteronomy 14:21",
           "Deuteronomy 14"
-        ]
+        ],
+        "source_index": 3179,
+        "source_anchor": "Deuteronomy 14"
       },
       {
         "title": "Exodus 23:19",
         "destination": 435,
         "level": 2,
         "aliases": [
+          "Exodus 23:19",
           "Exodus 23"
-        ]
+        ],
+        "source_index": 3186,
+        "source_anchor": "Exodus 23"
       },
       {
         "title": "Exodus 23:24",
         "destination": 437,
         "level": 2,
         "aliases": [
+          "Exodus 23:24",
           "Exodus 23"
-        ]
+        ],
+        "source_index": 3192,
+        "source_anchor": "Exodus 23"
       },
       {
         "title": "Deuteronomy 12:1-3",
         "destination": 437,
         "level": 2,
         "aliases": [
+          "Deuteronomy 12:1-3",
           "Deuteronomy 12"
-        ]
+        ],
+        "source_index": 3196,
+        "source_anchor": "Deuteronomy 12"
       },
       {
         "title": "Exodus 34:13",
         "destination": 438,
         "level": 2,
         "aliases": [
+          "Exodus 34:13",
           "Exodus 34"
-        ]
+        ],
+        "source_index": 3204,
+        "source_anchor": "Exodus 34"
       },
       {
         "title": "Deuteronomy 7:5",
         "destination": 438,
         "level": 2,
         "aliases": [
+          "Deuteronomy 7:5",
           "Deuteronomy 7"
-        ]
+        ],
+        "source_index": 3208,
+        "source_anchor": "Deuteronomy 7"
       },
       {
         "title": "Numbers 33:52",
         "destination": 438,
         "level": 2,
         "aliases": [
+          "Numbers 33:52",
           "Numbers 33"
-        ]
+        ],
+        "source_index": 3212,
+        "source_anchor": "Numbers 33"
       },
       {
         "title": "Deuteronomy 16:21",
         "destination": 440,
         "level": 2,
         "aliases": [
+          "Deuteronomy 16:21",
           "Deuteronomy 16"
-        ]
+        ],
+        "source_index": 3220,
+        "source_anchor": "Deuteronomy 16"
       },
       {
         "title": "Exodus 34:11-12, 15-16",
         "destination": 441,
         "level": 2,
         "aliases": [
+          "Exodus 34:11-12, 15-16",
           "Exodus 34",
           "Exodus 34:11, 12, 15, 16"
-        ]
+        ],
+        "source_index": 3226,
+        "source_anchor": "Exodus 34"
       },
       {
         "title": "Exodus 23:31-33",
         "destination": 442,
         "level": 2,
         "aliases": [
+          "Exodus 23:31-33",
           "Exodus 23"
-        ]
+        ],
+        "source_index": 3236,
+        "source_anchor": "Exodus 23"
       },
       {
         "title": "Deuteronomy 7:1-4",
         "destination": 445,
         "level": 2,
         "aliases": [
+          "Deuteronomy 7:1-4",
           "Deuteronomy 7"
-        ]
+        ],
+        "source_index": 3249,
+        "source_anchor": "Deuteronomy 7"
       },
       {
         "title": "Deuteronomy 7:16-26",
         "destination": 448,
         "level": 2,
         "aliases": [
+          "Deuteronomy 7:16-26",
           "Deuteronomy 7"
-        ]
+        ],
+        "source_index": 3261,
+        "source_anchor": "Deuteronomy 7"
       },
       {
         "title": "Deuteronomy 25:17-19",
         "destination": 452,
         "level": 2,
         "aliases": [
+          "Deuteronomy 25:17-19",
           "Deuteronomy 25"
-        ]
+        ],
+        "source_index": 3289,
+        "source_anchor": "Deuteronomy 25"
       },
       {
         "title": "Deuteronomy 23:3-8",
         "destination": 454,
         "level": 2,
         "aliases": [
+          "Deuteronomy 23:3-8",
           "Deuteronomy 23"
-        ]
+        ],
+        "source_index": 3299,
+        "source_anchor": "Deuteronomy 23"
       },
       {
         "title": "Deuteronomy 17:2-5, 7",
         "destination": 457,
         "level": 2,
         "aliases": [
-          "Deuteronomy 17",
-          "Deuteronomy 17:2-5, 7"
-        ]
+          "Deuteronomy 17:2-5, 7",
+          "Deuteronomy 17"
+        ],
+        "source_index": 3319,
+        "source_anchor": "Deuteronomy 17"
       },
       {
         "title": "The Third Commandment",
@@ -1568,89 +1972,120 @@
         "level": 1,
         "aliases": [
           "The Third Commandment"
-        ]
+        ],
+        "source_index": 3335,
+        "source_anchor": "The Third Commandment"
       },
       {
         "title": "Exodus 20:7",
         "destination": 461,
         "level": 2,
         "aliases": [
+          "Exodus 20:7",
           "Exodus 20"
-        ]
+        ],
+        "source_index": 3336,
+        "source_anchor": "Exodus 20"
       },
       {
         "title": "Deuteronomy 5:11",
         "destination": 461,
         "level": 2,
         "aliases": [
+          "Deuteronomy 5:11",
           "Deuteronomy 5"
-        ]
+        ],
+        "source_index": 3341,
+        "source_anchor": "Deuteronomy 5"
       },
       {
         "title": "Leviticus 19:12",
         "destination": 463,
         "level": 2,
         "aliases": [
+          "Leviticus 19:12",
           "Leviticus 19"
-        ]
+        ],
+        "source_index": 3350,
+        "source_anchor": "Leviticus 19"
       },
       {
         "title": "Deuteronomy 6:13",
         "destination": 463,
         "level": 2,
         "aliases": [
+          "Deuteronomy 6:13",
           "Deuteronomy 6"
-        ]
+        ],
+        "source_index": 3354,
+        "source_anchor": "Deuteronomy 6"
       },
       {
         "title": "Deuteronomy 10:20",
         "destination": 463,
         "level": 2,
         "aliases": [
+          "Deuteronomy 10:20",
           "Deuteronomy 10"
-        ]
+        ],
+        "source_index": 3358,
+        "source_anchor": "Deuteronomy 10"
       },
       {
         "title": "Exodus 23:13",
         "destination": 465,
         "level": 2,
         "aliases": [
+          "Exodus 23:13",
           "Exodus 23"
-        ]
+        ],
+        "source_index": 3364,
+        "source_anchor": "Exodus 23"
       },
       {
         "title": "Deuteronomy 23:21-23",
         "destination": 466,
         "level": 2,
         "aliases": [
+          "Deuteronomy 23:21-23",
           "Deuteronomy 23"
-        ]
+        ],
+        "source_index": 3370,
+        "source_anchor": "Deuteronomy 23"
       },
       {
         "title": "Leviticus 27:1-25, 27-29",
         "destination": 471,
         "level": 2,
         "aliases": [
-          "Leviticus 27",
-          "Leviticus 27:1-25, 27-29"
-        ]
+          "Leviticus 27:1-25, 27-29",
+          "Leviticus 27"
+        ],
+        "source_index": 3391,
+        "source_anchor": "Leviticus 27"
       },
       {
         "title": "Numbers 30:1-16",
         "destination": 481,
         "level": 2,
         "aliases": [
+          "Numbers 30:1-16",
           "Numbers 30"
-        ]
+        ],
+        "source_index": 3463,
+        "source_anchor": "Numbers 30"
       },
       {
         "title": "Leviticus 24:15-16",
         "destination": 486,
         "level": 2,
         "aliases": [
+          "Leviticus 24:15-16",
           "Leviticus 24",
           "Leviticus 24:15, 16"
-        ]
+        ],
+        "source_index": 3505,
+        "source_anchor": "Leviticus 24"
       },
       {
         "title": "The Fourth Commandment",
@@ -1658,162 +2093,2115 @@
         "level": 1,
         "aliases": [
           "The Fourth Commandment"
-        ]
+        ],
+        "source_index": 3513,
+        "source_anchor": "The Fourth Commandment"
       },
       {
         "title": "Exodus 20:8-11",
         "destination": 487,
         "level": 2,
         "aliases": [
+          "Exodus 20:8-11",
           "Exodus 20"
-        ]
+        ],
+        "source_index": 3514,
+        "source_anchor": "Exodus 20"
       },
       {
         "title": "Deuteronomy 5:12-15",
         "destination": 488,
         "level": 2,
         "aliases": [
+          "Deuteronomy 5:12-15",
           "Deuteronomy 5"
-        ]
+        ],
+        "source_index": 3525,
+        "source_anchor": "Deuteronomy 5"
       },
       {
         "title": "Leviticus 19:30",
         "destination": 495,
         "level": 2,
         "aliases": [
+          "Leviticus 19:30",
           "Leviticus 19"
-        ]
+        ],
+        "source_index": 3550,
+        "source_anchor": "Leviticus 19"
       },
       {
         "title": "Leviticus 26:2",
         "destination": 495,
         "level": 2,
         "aliases": [
+          "Leviticus 26:2",
           "Leviticus 26"
-        ]
+        ],
+        "source_index": 3554,
+        "source_anchor": "Leviticus 26"
       },
       {
         "title": "Leviticus 23:3",
         "destination": 496,
         "level": 2,
         "aliases": [
+          "Leviticus 23:3",
           "Leviticus 23"
-        ]
+        ],
+        "source_index": 3558,
+        "source_anchor": "Leviticus 23"
       },
       {
         "title": "Exodus 34:21",
         "destination": 496,
         "level": 2,
         "aliases": [
+          "Exodus 34:21",
           "Exodus 34"
-        ]
+        ],
+        "source_index": 3562,
+        "source_anchor": "Exodus 34"
       },
       {
         "title": "Exodus 35:1-3",
         "destination": 496,
         "level": 2,
         "aliases": [
+          "Exodus 35:1-3",
           "Exodus 35"
-        ]
+        ],
+        "source_index": 3566,
+        "source_anchor": "Exodus 35"
       },
       {
         "title": "Leviticus 19:3",
         "destination": 497,
         "level": 2,
         "aliases": [
+          "Leviticus 19:3",
           "Leviticus 19"
-        ]
+        ],
+        "source_index": 3574,
+        "source_anchor": "Leviticus 19"
       },
       {
         "title": "Exodus 23:12",
         "destination": 497,
         "level": 2,
         "aliases": [
+          "Exodus 23:12",
           "Exodus 23"
-        ]
+        ],
+        "source_index": 3580,
+        "source_anchor": "Exodus 23"
       },
       {
         "title": "Exodus 31:12-17",
         "destination": 498,
         "level": 2,
         "aliases": [
+          "Exodus 31:12-17",
           "Exodus 31"
-        ]
+        ],
+        "source_index": 3585,
+        "source_anchor": "Exodus 31"
       },
       {
         "title": "Exodus 23:10-11",
         "destination": 501,
         "level": 2,
         "aliases": [
+          "Exodus 23:10-11",
           "Exodus 23",
           "Exodus 23:10, 11"
-        ]
+        ],
+        "source_index": 3605,
+        "source_anchor": "Exodus 23"
       },
       {
         "title": "Leviticus 25:1-7, 20-22",
         "destination": 504,
         "level": 2,
         "aliases": [
-          "Leviticus 25",
-          "Leviticus 25:1-7, 20-22"
-        ]
+          "Leviticus 25:1-7, 20-22",
+          "Leviticus 25"
+        ],
+        "source_index": 3618,
+        "source_anchor": "Leviticus 25"
       },
       {
         "title": "Leviticus 25:8-13",
         "destination": 507,
         "level": 2,
         "aliases": [
+          "Leviticus 25:8-13",
           "Leviticus 25"
-        ]
+        ],
+        "source_index": 3642,
+        "source_anchor": "Leviticus 25"
       },
       {
         "title": "Leviticus 23:1-44",
         "destination": 508,
         "level": 2,
         "aliases": [
+          "Leviticus 23:1-44",
           "Leviticus 23"
-        ]
+        ],
+        "source_index": 3657,
+        "source_anchor": "Leviticus 23"
       },
       {
         "title": "Exodus 23:14-17",
         "destination": 523,
         "level": 2,
         "aliases": [
+          "Exodus 23:14-17",
           "Exodus 23"
-        ]
+        ],
+        "source_index": 3769,
+        "source_anchor": "Exodus 23"
       },
       {
         "title": "Exodus 34:22-24",
         "destination": 524,
         "level": 2,
         "aliases": [
+          "Exodus 34:22-24",
           "Exodus 34"
-        ]
+        ],
+        "source_index": 3779,
+        "source_anchor": "Exodus 34"
       },
       {
         "title": "Exodus 34:20",
         "destination": 524,
         "level": 2,
         "aliases": [
+          "Exodus 34:20",
           "Exodus 34"
-        ]
+        ],
+        "source_index": 3787,
+        "source_anchor": "Exodus 34"
       },
       {
         "title": "Deuteronomy 16:1-2, 5-17",
         "destination": 525,
         "level": 2,
         "aliases": [
+          "Deuteronomy 16:1-2, 5-17",
           "Deuteronomy 16",
           "Deuteronomy 16:1, 2, 5-17"
-        ]
+        ],
+        "source_index": 3794,
+        "source_anchor": "Deuteronomy 16"
       }
     ],
     "visual_review_complete": true,
-    "reviewer_navigation_uses_audited_entries": true
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
   },
   "font_update_20260926": {
     "current_pdf_sha256": {
-      "john_calvin_calcom04_harmony_of_the_law_volume_2_interior.pdf": "00fa5a02f27e6fc4b39f6ff9110741b0b34305146fd3615227d0a0ad03de815d"
+      "john_calvin_calcom04_harmony_of_the_law_volume_2_interior.pdf": "e31bed4ea0c602eaa97f5d61c7ac5eb7d83a9468377287cb5978b32288839770"
     }
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Another Supplement as to the Shutting Up of the Leprous",
+      "destination": 8,
+      "level": 1,
+      "aliases": [
+        "Another Supplement as to the Shutting up of the Leprous",
+        "Another Supplement as to the Shutting. up of the Leprous [1]"
+      ],
+      "source_index": 0,
+      "source_anchor": "Another Supplement as to the Shutting. up of the Leprous [1]"
+    },
+    {
+      "title": "Deuteronomy 24:8-9",
+      "destination": 8,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 24:8-9",
+        "Deuteronomy 24",
+        "Deuteronomy 24:8, 9"
+      ],
+      "source_index": 1,
+      "source_anchor": "Deuteronomy 24"
+    },
+    {
+      "title": "Numbers 5:1-3",
+      "destination": 9,
+      "level": 2,
+      "aliases": [
+        "Numbers 5:1-3",
+        "Numbers 5"
+      ],
+      "source_index": 8,
+      "source_anchor": "Numbers 5"
+    },
+    {
+      "title": "Leviticus 13:1-59",
+      "destination": 10,
+      "level": 2,
+      "aliases": [
+        "Leviticus 13:1-59",
+        "Leviticus 13"
+      ],
+      "source_index": 19,
+      "source_anchor": "Leviticus 13"
+    },
+    {
+      "title": "Leviticus 14:1-57",
+      "destination": 24,
+      "level": 2,
+      "aliases": [
+        "Leviticus 14:1-57",
+        "Leviticus 14"
+      ],
+      "source_index": 158,
+      "source_anchor": "Leviticus 14"
+    },
+    {
+      "title": "Leviticus 15:1-33",
+      "destination": 36,
+      "level": 2,
+      "aliases": [
+        "Leviticus 15:1-33",
+        "Leviticus 15"
+      ],
+      "source_index": 283,
+      "source_anchor": "Leviticus 15"
+    },
+    {
+      "title": "Deuteronomy 23:1-2",
+      "destination": 43,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 23:1-2",
+        "Deuteronomy 23",
+        "Deuteronomy 23:1, 2"
+      ],
+      "source_index": 360,
+      "source_anchor": "Deuteronomy 23"
+    },
+    {
+      "title": "Numbers 19:1-22",
+      "destination": 45,
+      "level": 2,
+      "aliases": [
+        "Numbers 19:1-22",
+        "Numbers 19"
+      ],
+      "source_index": 372,
+      "source_anchor": "Numbers 19"
+    },
+    {
+      "title": "Deuteronomy 23:9-14",
+      "destination": 55,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 23:9-14",
+        "Deuteronomy 23"
+      ],
+      "source_index": 435,
+      "source_anchor": "Deuteronomy 23"
+    },
+    {
+      "title": "Deuteronomy 22:9-11",
+      "destination": 57,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 22:9-11",
+        "Deuteronomy 22"
+      ],
+      "source_index": 452,
+      "source_anchor": "Deuteronomy 22"
+    },
+    {
+      "title": "Deuteronomy 14:1-2",
+      "destination": 58,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 14:1-2",
+        "Deuteronomy 14",
+        "Deuteronomy 14:1, 2"
+      ],
+      "source_index": 460,
+      "source_anchor": "Deuteronomy 14"
+    },
+    {
+      "title": "Leviticus 19:19, 23-25, 27-28",
+      "destination": 60,
+      "level": 2,
+      "aliases": [
+        "Leviticus 19:19, 23-25, 27-28",
+        "Leviticus 19",
+        "Leviticus 19:19, 23-25, 27, 28"
+      ],
+      "source_index": 469,
+      "source_anchor": "Leviticus 19"
+    },
+    {
+      "title": "Leviticus 20:25-26",
+      "destination": 64,
+      "level": 2,
+      "aliases": [
+        "Leviticus 20:25-26",
+        "Leviticus 20",
+        "Leviticus 20:25, 26"
+      ],
+      "source_index": 491,
+      "source_anchor": "Leviticus 20"
+    },
+    {
+      "title": "Deuteronomy 14:3-20",
+      "destination": 65,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 14:3-20",
+        "Deuteronomy 14"
+      ],
+      "source_index": 497,
+      "source_anchor": "Deuteronomy 14"
+    },
+    {
+      "title": "Leviticus 11:1-47",
+      "destination": 67,
+      "level": 2,
+      "aliases": [
+        "Leviticus 11:1-47",
+        "Leviticus 11"
+      ],
+      "source_index": 536,
+      "source_anchor": "Leviticus 11"
+    },
+    {
+      "title": "Deuteronomy 14:21",
+      "destination": 82,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 14:21",
+        "Deuteronomy 14"
+      ],
+      "source_index": 665,
+      "source_anchor": "Deuteronomy 14"
+    },
+    {
+      "title": "Exodus 22:31",
+      "destination": 83,
+      "level": 2,
+      "aliases": [
+        "Exodus 22:31",
+        "Exodus 22"
+      ],
+      "source_index": 669,
+      "source_anchor": "Exodus 22"
+    },
+    {
+      "title": "Leviticus 17:15-16",
+      "destination": 83,
+      "level": 2,
+      "aliases": [
+        "Leviticus 17:15-16",
+        "Leviticus 17",
+        "Leviticus 17:15, 16"
+      ],
+      "source_index": 673,
+      "source_anchor": "Leviticus 17"
+    },
+    {
+      "title": "Deuteronomy 21:10-13",
+      "destination": 85,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 21:10-13",
+        "Deuteronomy 21"
+      ],
+      "source_index": 682,
+      "source_anchor": "Deuteronomy 21"
+    },
+    {
+      "title": "Judicial Supplements",
+      "destination": 87,
+      "level": 1,
+      "aliases": [
+        "Judicial Supplements"
+      ],
+      "source_index": 695,
+      "source_anchor": "Judicial Supplements"
+    },
+    {
+      "title": "Deuteronomy 18:19",
+      "destination": 87,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 18:19",
+        "Deuteronomy 18"
+      ],
+      "source_index": 696,
+      "source_anchor": "Deuteronomy 18"
+    },
+    {
+      "title": "Deuteronomy 13:5",
+      "destination": 89,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 13:5",
+        "Deuteronomy 13"
+      ],
+      "source_index": 705,
+      "source_anchor": "Deuteronomy 13"
+    },
+    {
+      "title": "Deuteronomy 17:12-13",
+      "destination": 93,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 17:12-13",
+        "Deuteronomy 17",
+        "Deuteronomy 17:12, 13"
+      ],
+      "source_index": 716,
+      "source_anchor": "Deuteronomy 17"
+    },
+    {
+      "title": "Deuteronomy 13:6-11",
+      "destination": 95,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 13:6-11",
+        "Deuteronomy 13"
+      ],
+      "source_index": 726,
+      "source_anchor": "Deuteronomy 13"
+    },
+    {
+      "title": "Deuteronomy 13:12-17",
+      "destination": 99,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 13:12-17",
+        "Deuteronomy 13"
+      ],
+      "source_index": 748,
+      "source_anchor": "Deuteronomy 13"
+    },
+    {
+      "title": "Exodus 22:18",
+      "destination": 104,
+      "level": 2,
+      "aliases": [
+        "Exodus 22:18",
+        "Exodus 22"
+      ],
+      "source_index": 770,
+      "source_anchor": "Exodus 22"
+    },
+    {
+      "title": "Numbers 15:30-31",
+      "destination": 105,
+      "level": 2,
+      "aliases": [
+        "Numbers 15:30-31",
+        "Numbers 15",
+        "Numbers 15:30, 31"
+      ],
+      "source_index": 778,
+      "source_anchor": "Numbers 15"
+    },
+    {
+      "title": "Leviticus 20:1-6, 27",
+      "destination": 106,
+      "level": 2,
+      "aliases": [
+        "Leviticus 20:1-6, 27",
+        "Leviticus 20"
+      ],
+      "source_index": 786,
+      "source_anchor": "Leviticus 20"
+    },
+    {
+      "title": "Exodus 12:15, 19",
+      "destination": 108,
+      "level": 2,
+      "aliases": [
+        "Exodus 12:15, 19",
+        "Exodus 12"
+      ],
+      "source_index": 803,
+      "source_anchor": "Exodus 12"
+    },
+    {
+      "title": "Deuteronomy 17:14-20",
+      "destination": 109,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 17:14-20",
+        "Deuteronomy 17"
+      ],
+      "source_index": 811,
+      "source_anchor": "Deuteronomy 17"
+    },
+    {
+      "title": "Deuteronomy 20:1-4",
+      "destination": 116,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 20:1-4",
+        "Deuteronomy 20"
+      ],
+      "source_index": 839,
+      "source_anchor": "Deuteronomy 20"
+    },
+    {
+      "title": "Numbers 10:1-10",
+      "destination": 118,
+      "level": 2,
+      "aliases": [
+        "Numbers 10:1-10",
+        "Numbers 10"
+      ],
+      "source_index": 851,
+      "source_anchor": "Numbers 10"
+    },
+    {
+      "title": "The Second Commandment",
+      "destination": 122,
+      "level": 1,
+      "aliases": [
+        "The Second Commandment"
+      ],
+      "source_index": 882,
+      "source_anchor": "The Second Commandment"
+    },
+    {
+      "title": "Exodus 20:4-6",
+      "destination": 122,
+      "level": 2,
+      "aliases": [
+        "Exodus 20:4-6",
+        "Exodus 20"
+      ],
+      "source_index": 883,
+      "source_anchor": "Exodus 20"
+    },
+    {
+      "title": "Deuteronomy 5:8-10",
+      "destination": 125,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 5:8-10",
+        "Deuteronomy 5"
+      ],
+      "source_index": 896,
+      "source_anchor": "Deuteronomy 5"
+    },
+    {
+      "title": "Exodus 34:17",
+      "destination": 131,
+      "level": 2,
+      "aliases": [
+        "Exodus 34:17",
+        "Exodus 34"
+      ],
+      "source_index": 920,
+      "source_anchor": "Exodus 34"
+    },
+    {
+      "title": "Leviticus 19:4",
+      "destination": 132,
+      "level": 2,
+      "aliases": [
+        "Leviticus 19:4",
+        "Leviticus 19"
+      ],
+      "source_index": 924,
+      "source_anchor": "Leviticus 19"
+    },
+    {
+      "title": "Leviticus 26:1",
+      "destination": 132,
+      "level": 2,
+      "aliases": [
+        "Leviticus 26:1",
+        "Leviticus 26"
+      ],
+      "source_index": 928,
+      "source_anchor": "Leviticus 26"
+    },
+    {
+      "title": "Exodus 20:22-23",
+      "destination": 132,
+      "level": 2,
+      "aliases": [
+        "Exodus 20:22-23",
+        "Exodus 20",
+        "Exodus 20:22, 23"
+      ],
+      "source_index": 932,
+      "source_anchor": "Exodus 20"
+    },
+    {
+      "title": "Deuteronomy 4:12-19, 23-24",
+      "destination": 135,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 4:12-19, 23-24",
+        "Deuteronomy 4",
+        "Deuteronomy 4:12-19, 23, 24"
+      ],
+      "source_index": 943,
+      "source_anchor": "Deuteronomy 4"
+    },
+    {
+      "title": "Exodus 34:14",
+      "destination": 136,
+      "level": 2,
+      "aliases": [
+        "Exodus 34:14",
+        "Exodus 34"
+      ],
+      "source_index": 965,
+      "source_anchor": "Exodus 34"
+    },
+    {
+      "title": "Deuteronomy 8:19-20",
+      "destination": 136,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 8:19-20",
+        "Deuteronomy 8",
+        "Deuteronomy 8:19, 20"
+      ],
+      "source_index": 969,
+      "source_anchor": "Deuteronomy 8"
+    },
+    {
+      "title": "Deuteronomy 11:16-17",
+      "destination": 143,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 11:16-17",
+        "Deuteronomy 11",
+        "Deuteronomy 11:16, 17"
+      ],
+      "source_index": 986,
+      "source_anchor": "Deuteronomy 11"
+    },
+    {
+      "title": "Deuteronomy 16:22",
+      "destination": 144,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 16:22",
+        "Deuteronomy 16"
+      ],
+      "source_index": 993,
+      "source_anchor": "Deuteronomy 16"
+    },
+    {
+      "title": "Exodus 23:24",
+      "destination": 145,
+      "level": 2,
+      "aliases": [
+        "Exodus 23:24",
+        "Exodus 23"
+      ],
+      "source_index": 1001,
+      "source_anchor": "Exodus 23"
+    },
+    {
+      "title": "Deuteronomy 12:4-14, 17-18, 26-27",
+      "destination": 145,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 12:4-14, 17-18, 26-27",
+        "Deuteronomy 12",
+        "Deuteronomy 12:4-14, 17, 18, 26, 27"
+      ],
+      "source_index": 1006,
+      "source_anchor": "Deuteronomy 12"
+    },
+    {
+      "title": "Deuteronomy 14:23-26",
+      "destination": 153,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 14:23-26",
+        "Deuteronomy 14"
+      ],
+      "source_index": 1061,
+      "source_anchor": "Deuteronomy 14"
+    },
+    {
+      "title": "Exodus 20:24-25",
+      "destination": 156,
+      "level": 2,
+      "aliases": [
+        "Exodus 20:24-25",
+        "Exodus 20",
+        "Exodus 20:24, 25"
+      ],
+      "source_index": 1074,
+      "source_anchor": "Exodus 20"
+    },
+    {
+      "title": "Deuteronomy 27:5-7",
+      "destination": 158,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 27:5-7",
+        "Deuteronomy 27"
+      ],
+      "source_index": 1084,
+      "source_anchor": "Deuteronomy 27"
+    },
+    {
+      "title": "Exodus 25:1-22",
+      "destination": 159,
+      "level": 2,
+      "aliases": [
+        "Exodus 25:1-22",
+        "Exodus 25"
+      ],
+      "source_index": 1095,
+      "source_anchor": "Exodus 25"
+    },
+    {
+      "title": "Exodus 35:4-19",
+      "destination": 176,
+      "level": 2,
+      "aliases": [
+        "Exodus 35:4-19",
+        "Exodus 35"
+      ],
+      "source_index": 1174,
+      "source_anchor": "Exodus 35"
+    },
+    {
+      "title": "Exodus 25:23-30",
+      "destination": 180,
+      "level": 2,
+      "aliases": [
+        "Exodus 25:23-30",
+        "Exodus 25"
+      ],
+      "source_index": 1211,
+      "source_anchor": "Exodus 25"
+    },
+    {
+      "title": "Exodus 25:31-40",
+      "destination": 182,
+      "level": 2,
+      "aliases": [
+        "Exodus 25:31-40",
+        "Exodus 25"
+      ],
+      "source_index": 1232,
+      "source_anchor": "Exodus 25"
+    },
+    {
+      "title": "Deuteronomy 27:5-7",
+      "destination": 187,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 27:5-7",
+        "Deuteronomy 27"
+      ],
+      "source_index": 1264,
+      "source_anchor": "Deuteronomy 27"
+    },
+    {
+      "title": "Leviticus 24:1-4",
+      "destination": 187,
+      "level": 2,
+      "aliases": [
+        "Leviticus 24:1-4",
+        "Leviticus 24"
+      ],
+      "source_index": 1272,
+      "source_anchor": "Leviticus 24"
+    },
+    {
+      "title": "Numbers 8:1-4",
+      "destination": 189,
+      "level": 2,
+      "aliases": [
+        "Numbers 8:1-4",
+        "Numbers 8"
+      ],
+      "source_index": 1286,
+      "source_anchor": "Numbers 8"
+    },
+    {
+      "title": "Exodus 26:1-37",
+      "destination": 190,
+      "level": 2,
+      "aliases": [
+        "Exodus 26:1-37",
+        "Exodus 26"
+      ],
+      "source_index": 1297,
+      "source_anchor": "Exodus 26"
+    },
+    {
+      "title": "Exodus 27:1-8",
+      "destination": 199,
+      "level": 2,
+      "aliases": [
+        "Exodus 27:1-8",
+        "Exodus 27"
+      ],
+      "source_index": 1390,
+      "source_anchor": "Exodus 27"
+    },
+    {
+      "title": "Exodus 27:9-19",
+      "destination": 202,
+      "level": 2,
+      "aliases": [
+        "Exodus 27:9-19",
+        "Exodus 27"
+      ],
+      "source_index": 1411,
+      "source_anchor": "Exodus 27"
+    },
+    {
+      "title": "Exodus 29:36-37",
+      "destination": 205,
+      "level": 2,
+      "aliases": [
+        "Exodus 29:36-37",
+        "Exodus 29",
+        "Exodus 29:36, 37"
+      ],
+      "source_index": 1438,
+      "source_anchor": "Exodus 29"
+    },
+    {
+      "title": "Exodus 30:1-10, 17-21, 34-38",
+      "destination": 206,
+      "level": 2,
+      "aliases": [
+        "Exodus 30:1-10, 17-21, 34-38",
+        "Exodus 30"
+      ],
+      "source_index": 1446,
+      "source_anchor": "Exodus 30"
+    },
+    {
+      "title": "The Priesthood",
+      "destination": 212,
+      "level": 1,
+      "aliases": [
+        "The Priesthood"
+      ],
+      "source_index": 1505,
+      "source_anchor": "The Priesthood"
+    },
+    {
+      "title": "Exodus 28:1-43",
+      "destination": 212,
+      "level": 2,
+      "aliases": [
+        "Exodus 28:1-43",
+        "Exodus 28"
+      ],
+      "source_index": 1506,
+      "source_anchor": "Exodus 28"
+    },
+    {
+      "title": "The Tabernacle",
+      "destination": 218,
+      "level": 1,
+      "aliases": [
+        "The tabernacle",
+        "1. the Tabernacle"
+      ],
+      "source_index": 1595,
+      "source_anchor": "1. The Tabernacle;"
+    },
+    {
+      "title": "The Sacrifices",
+      "destination": 218,
+      "level": 1,
+      "aliases": [
+        "The sacrifices",
+        "3. the Sacrifices"
+      ],
+      "source_index": 1597,
+      "source_anchor": "3. The Sacrifices."
+    },
+    {
+      "title": "Exodus 29:1-35",
+      "destination": 233,
+      "level": 2,
+      "aliases": [
+        "Exodus 29:1-35",
+        "Exodus 29"
+      ],
+      "source_index": 1633,
+      "source_anchor": "Exodus 29"
+    },
+    {
+      "title": "Leviticus 8:1-3",
+      "destination": 241,
+      "level": 2,
+      "aliases": [
+        "Leviticus 8:1-3",
+        "Leviticus 8"
+      ],
+      "source_index": 1711,
+      "source_anchor": "Leviticus 8"
+    },
+    {
+      "title": "Numbers 8:5-19, 23-26",
+      "destination": 242,
+      "level": 2,
+      "aliases": [
+        "Numbers 8:5-19, 23-26",
+        "Numbers 8"
+      ],
+      "source_index": 1720,
+      "source_anchor": "Numbers 8"
+    },
+    {
+      "title": "Numbers 3:5-10",
+      "destination": 248,
+      "level": 2,
+      "aliases": [
+        "Numbers 3:5-10",
+        "Numbers 3"
+      ],
+      "source_index": 1769,
+      "source_anchor": "Numbers 3"
+    },
+    {
+      "title": "Exodus 30:22-33",
+      "destination": 250,
+      "level": 2,
+      "aliases": [
+        "Exodus 30:22-33",
+        "Exodus 30"
+      ],
+      "source_index": 1785,
+      "source_anchor": "Exodus 30"
+    },
+    {
+      "title": "Leviticus 8:1-3",
+      "destination": 255,
+      "level": 2,
+      "aliases": [
+        "Leviticus 8:1-3",
+        "Leviticus 8"
+      ],
+      "source_index": 1819,
+      "source_anchor": "Leviticus 8"
+    },
+    {
+      "title": "Leviticus 21:1-6, 10-12",
+      "destination": 255,
+      "level": 2,
+      "aliases": [
+        "Leviticus 21:1-6, 10-12",
+        "Leviticus 21"
+      ],
+      "source_index": 1828,
+      "source_anchor": "Leviticus 21"
+    },
+    {
+      "title": "Deuteronomy 31:9",
+      "destination": 259,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 31:9",
+        "Deuteronomy 31"
+      ],
+      "source_index": 1852,
+      "source_anchor": "Deuteronomy 31"
+    },
+    {
+      "title": "Leviticus 10:8-11",
+      "destination": 263,
+      "level": 2,
+      "aliases": [
+        "Leviticus 10:8-11",
+        "Leviticus 10"
+      ],
+      "source_index": 1861,
+      "source_anchor": "Leviticus 10"
+    },
+    {
+      "title": "Leviticus 21:1-6, 10-12",
+      "destination": 265,
+      "level": 2,
+      "aliases": [
+        "Leviticus 21:1-6, 10-12",
+        "Leviticus 21"
+      ],
+      "source_index": 1874,
+      "source_anchor": "Leviticus 21"
+    },
+    {
+      "title": "Leviticus 21:16-24",
+      "destination": 269,
+      "level": 2,
+      "aliases": [
+        "Leviticus 21:16-24",
+        "Leviticus 21"
+      ],
+      "source_index": 1900,
+      "source_anchor": "Leviticus 21"
+    },
+    {
+      "title": "Leviticus 22:1-16",
+      "destination": 271,
+      "level": 2,
+      "aliases": [
+        "Leviticus 22:1-16",
+        "Leviticus 22"
+      ],
+      "source_index": 1924,
+      "source_anchor": "Leviticus 22"
+    },
+    {
+      "title": "Exodus 20:26",
+      "destination": 276,
+      "level": 2,
+      "aliases": [
+        "Exodus 20:26",
+        "Exodus 20"
+      ],
+      "source_index": 1964,
+      "source_anchor": "Exodus 20"
+    },
+    {
+      "title": "Numbers 6:22-27",
+      "destination": 276,
+      "level": 2,
+      "aliases": [
+        "Numbers 6:22-27",
+        "Numbers 6"
+      ],
+      "source_index": 1969,
+      "source_anchor": "Numbers 6"
+    },
+    {
+      "title": "Numbers 35:1-8",
+      "destination": 279,
+      "level": 2,
+      "aliases": [
+        "Numbers 35:1-8",
+        "Numbers 35"
+      ],
+      "source_index": 1992,
+      "source_anchor": "Numbers 35"
+    },
+    {
+      "title": "Numbers 18:1-7, 22-23",
+      "destination": 283,
+      "level": 2,
+      "aliases": [
+        "Numbers 18:1-7, 22-23",
+        "Numbers 18",
+        "Numbers 18:1-7, 22, 23"
+      ],
+      "source_index": 2014,
+      "source_anchor": "Numbers 18"
+    },
+    {
+      "title": "Numbers 4:4-20, 24-28, 31-33",
+      "destination": 287,
+      "level": 2,
+      "aliases": [
+        "Numbers 4:4-20, 24-28, 31-33",
+        "Numbers 4"
+      ],
+      "source_index": 2042,
+      "source_anchor": "Numbers 4"
+    },
+    {
+      "title": "Leviticus 17:1-9",
+      "destination": 293,
+      "level": 2,
+      "aliases": [
+        "Leviticus 17:1-9",
+        "Leviticus 17"
+      ],
+      "source_index": 2097,
+      "source_anchor": "Leviticus 17"
+    },
+    {
+      "title": "Deuteronomy 17:8-11",
+      "destination": 296,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 17:8-11",
+        "Deuteronomy 17"
+      ],
+      "source_index": 2121,
+      "source_anchor": "Deuteronomy 17"
+    },
+    {
+      "title": "Numbers 5:9-10",
+      "destination": 299,
+      "level": 2,
+      "aliases": [
+        "Numbers 5:9-10",
+        "Numbers 5",
+        "Numbers 5:9, 10"
+      ],
+      "source_index": 2135,
+      "source_anchor": "Numbers 5"
+    },
+    {
+      "title": "Numbers 18:8-19",
+      "destination": 300,
+      "level": 2,
+      "aliases": [
+        "Numbers 18:8-19",
+        "Numbers 18"
+      ],
+      "source_index": 2143,
+      "source_anchor": "Numbers 18"
+    },
+    {
+      "title": "Leviticus 6:16-18, 26-29",
+      "destination": 305,
+      "level": 2,
+      "aliases": [
+        "Leviticus 6:16-18, 26-29",
+        "Leviticus 6"
+      ],
+      "source_index": 2176,
+      "source_anchor": "Leviticus 6"
+    },
+    {
+      "title": "Numbers 5:8",
+      "destination": 307,
+      "level": 2,
+      "aliases": [
+        "Numbers 5:8",
+        "Numbers 5"
+      ],
+      "source_index": 2194,
+      "source_anchor": "Numbers 5"
+    },
+    {
+      "title": "Leviticus 7:6-10, 14, 31-36",
+      "destination": 308,
+      "level": 2,
+      "aliases": [
+        "Leviticus 7:6-10, 14, 31-36",
+        "Leviticus 7"
+      ],
+      "source_index": 2200,
+      "source_anchor": "Leviticus 7"
+    },
+    {
+      "title": "Numbers 18:20-21, 23-24",
+      "destination": 311,
+      "level": 2,
+      "aliases": [
+        "Numbers 18:20-21, 23-24",
+        "Numbers 18",
+        "Numbers 18:20, 21, 23, 24"
+      ],
+      "source_index": 2228,
+      "source_anchor": "Numbers 18"
+    },
+    {
+      "title": "Deuteronomy 12:19",
+      "destination": 311,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 12:19",
+        "Deuteronomy 12"
+      ],
+      "source_index": 2238,
+      "source_anchor": "Deuteronomy 12"
+    },
+    {
+      "title": "Leviticus 27:30-33",
+      "destination": 315,
+      "level": 2,
+      "aliases": [
+        "Leviticus 27:30-33",
+        "Leviticus 27"
+      ],
+      "source_index": 2252,
+      "source_anchor": "Leviticus 27"
+    },
+    {
+      "title": "Deuteronomy 14:22, 27-29",
+      "destination": 316,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 14:22, 27-29",
+        "Deuteronomy 14"
+      ],
+      "source_index": 2264,
+      "source_anchor": "Deuteronomy 14"
+    },
+    {
+      "title": "Deuteronomy 26:12-15",
+      "destination": 318,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 26:12-15",
+        "Deuteronomy 26"
+      ],
+      "source_index": 2278,
+      "source_anchor": "Deuteronomy 26"
+    },
+    {
+      "title": "Numbers 18:25-32",
+      "destination": 322,
+      "level": 2,
+      "aliases": [
+        "Numbers 18:25-32",
+        "Numbers 18"
+      ],
+      "source_index": 2296,
+      "source_anchor": "Numbers 18"
+    },
+    {
+      "title": "Deuteronomy 18:1-8",
+      "destination": 324,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 18:1-8",
+        "Deuteronomy 18"
+      ],
+      "source_index": 2318,
+      "source_anchor": "Deuteronomy 18"
+    },
+    {
+      "title": "The Sacred Oblations",
+      "destination": 328,
+      "level": 1,
+      "aliases": [
+        "The Sacred Oblations"
+      ],
+      "source_index": 2340,
+      "source_anchor": "The Sacred Oblations"
+    },
+    {
+      "title": "Leviticus 24:5-9",
+      "destination": 328,
+      "level": 2,
+      "aliases": [
+        "Leviticus 24:5-9",
+        "Leviticus 24"
+      ],
+      "source_index": 2341,
+      "source_anchor": "Leviticus 24"
+    },
+    {
+      "title": "Sacrifices",
+      "destination": 329,
+      "level": 1,
+      "aliases": [
+        "Sacrifices"
+      ],
+      "source_index": 2355,
+      "source_anchor": "Sacrifices"
+    },
+    {
+      "title": "Exodus 29:38-46",
+      "destination": 329,
+      "level": 2,
+      "aliases": [
+        "Exodus 29:38-46",
+        "Exodus 29"
+      ],
+      "source_index": 2356,
+      "source_anchor": "Exodus 29"
+    },
+    {
+      "title": "Numbers 28:1-15",
+      "destination": 336,
+      "level": 2,
+      "aliases": [
+        "Numbers 28:1-15",
+        "Numbers 28"
+      ],
+      "source_index": 2395,
+      "source_anchor": "Numbers 28"
+    },
+    {
+      "title": "Numbers 28:16-31",
+      "destination": 340,
+      "level": 2,
+      "aliases": [
+        "Numbers 28:16-31",
+        "Numbers 28"
+      ],
+      "source_index": 2432,
+      "source_anchor": "Numbers 28"
+    },
+    {
+      "title": "Numbers 29:1-39",
+      "destination": 343,
+      "level": 2,
+      "aliases": [
+        "Numbers 29:1-39",
+        "Numbers 29"
+      ],
+      "source_index": 2470,
+      "source_anchor": "Numbers 29"
+    },
+    {
+      "title": "Leviticus 16:1-34",
+      "destination": 350,
+      "level": 2,
+      "aliases": [
+        "Leviticus 16:1-34",
+        "Leviticus 16"
+      ],
+      "source_index": 2558,
+      "source_anchor": "Leviticus 16"
+    },
+    {
+      "title": "Leviticus 1:1-17",
+      "destination": 363,
+      "level": 2,
+      "aliases": [
+        "Leviticus 1:1-17",
+        "Leviticus 1"
+      ],
+      "source_index": 2649,
+      "source_anchor": "Leviticus 1"
+    },
+    {
+      "title": "Leviticus 2:1-16",
+      "destination": 369,
+      "level": 2,
+      "aliases": [
+        "Leviticus 2:1-16",
+        "Leviticus 2"
+      ],
+      "source_index": 2690,
+      "source_anchor": "Leviticus 2"
+    },
+    {
+      "title": "Leviticus 3:1-17",
+      "destination": 374,
+      "level": 2,
+      "aliases": [
+        "Leviticus 3:1-17",
+        "Leviticus 3"
+      ],
+      "source_index": 2731,
+      "source_anchor": "Leviticus 3"
+    },
+    {
+      "title": "Leviticus 4:1-35",
+      "destination": 380,
+      "level": 2,
+      "aliases": [
+        "Leviticus 4:1-35",
+        "Leviticus 4"
+      ],
+      "source_index": 2774,
+      "source_anchor": "Leviticus 4"
+    },
+    {
+      "title": "Numbers 15:22-29",
+      "destination": 390,
+      "level": 2,
+      "aliases": [
+        "Numbers 15:22-29",
+        "Numbers 15"
+      ],
+      "source_index": 2861,
+      "source_anchor": "Numbers 15"
+    },
+    {
+      "title": "Leviticus 5:1-13",
+      "destination": 393,
+      "level": 2,
+      "aliases": [
+        "Leviticus 5:1-13",
+        "Leviticus 5"
+      ],
+      "source_index": 2882,
+      "source_anchor": "Leviticus 5"
+    },
+    {
+      "title": "Leviticus 5:14-19",
+      "destination": 399,
+      "level": 2,
+      "aliases": [
+        "Leviticus 5:14-19",
+        "Leviticus 5"
+      ],
+      "source_index": 2917,
+      "source_anchor": "Leviticus 5"
+    },
+    {
+      "title": "Leviticus 6:1-7",
+      "destination": 402,
+      "level": 2,
+      "aliases": [
+        "Leviticus 6:1-7",
+        "Leviticus 6"
+      ],
+      "source_index": 2936,
+      "source_anchor": "Leviticus 6"
+    },
+    {
+      "title": "Leviticus 6:8-15, 23-25, 30",
+      "destination": 409,
+      "level": 2,
+      "aliases": [
+        "Leviticus 6:8-15, 23-25, 30",
+        "Leviticus 6"
+      ],
+      "source_index": 2962,
+      "source_anchor": "Leviticus 6"
+    },
+    {
+      "title": "Leviticus 7:1-5",
+      "destination": 415,
+      "level": 2,
+      "aliases": [
+        "Leviticus 7:1-5",
+        "Leviticus 7"
+      ],
+      "source_index": 3000,
+      "source_anchor": "Leviticus 7"
+    },
+    {
+      "title": "Leviticus 7:11-18",
+      "destination": 416,
+      "level": 2,
+      "aliases": [
+        "Leviticus 7:11-18",
+        "Leviticus 7"
+      ],
+      "source_index": 3013,
+      "source_anchor": "Leviticus 7"
+    },
+    {
+      "title": "Leviticus 22:29-30",
+      "destination": 417,
+      "level": 2,
+      "aliases": [
+        "Leviticus 22:29-30",
+        "Leviticus 22",
+        "Leviticus 22:29, 30"
+      ],
+      "source_index": 3031,
+      "source_anchor": "Leviticus 22"
+    },
+    {
+      "title": "Leviticus 19:5-8",
+      "destination": 417,
+      "level": 2,
+      "aliases": [
+        "Leviticus 19:5-8",
+        "Leviticus 19"
+      ],
+      "source_index": 3037,
+      "source_anchor": "Leviticus 19"
+    },
+    {
+      "title": "Leviticus 7:19-25, 28-31, 37-38",
+      "destination": 421,
+      "level": 2,
+      "aliases": [
+        "Leviticus 7:19-25, 28-31, 37-38",
+        "Leviticus 7",
+        "Leviticus 7:19-25, 28-31, 37, 38"
+      ],
+      "source_index": 3055,
+      "source_anchor": "Leviticus 7"
+    },
+    {
+      "title": "Numbers 15:1-16",
+      "destination": 424,
+      "level": 2,
+      "aliases": [
+        "Numbers 15:1-16",
+        "Numbers 15"
+      ],
+      "source_index": 3089,
+      "source_anchor": "Numbers 15"
+    },
+    {
+      "title": "Leviticus 22:17-25",
+      "destination": 427,
+      "level": 2,
+      "aliases": [
+        "Leviticus 22:17-25",
+        "Leviticus 22"
+      ],
+      "source_index": 3126,
+      "source_anchor": "Leviticus 22"
+    },
+    {
+      "title": "Deuteronomy 17:1",
+      "destination": 429,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 17:1",
+        "Deuteronomy 17"
+      ],
+      "source_index": 3146,
+      "source_anchor": "Deuteronomy 17"
+    },
+    {
+      "title": "Deuteronomy 23:18",
+      "destination": 433,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 23:18",
+        "Deuteronomy 23"
+      ],
+      "source_index": 3158,
+      "source_anchor": "Deuteronomy 23"
+    },
+    {
+      "title": "Leviticus 22:26-28",
+      "destination": 433,
+      "level": 2,
+      "aliases": [
+        "Leviticus 22:26-28",
+        "Leviticus 22"
+      ],
+      "source_index": 3163,
+      "source_anchor": "Leviticus 22"
+    },
+    {
+      "title": "Exodus 22:30",
+      "destination": 434,
+      "level": 2,
+      "aliases": [
+        "Exodus 22:30",
+        "Exodus 22"
+      ],
+      "source_index": 3171,
+      "source_anchor": "Exodus 22"
+    },
+    {
+      "title": "Exodus 34:26",
+      "destination": 434,
+      "level": 2,
+      "aliases": [
+        "Exodus 34:26",
+        "Exodus 34"
+      ],
+      "source_index": 3175,
+      "source_anchor": "Exodus 34"
+    },
+    {
+      "title": "Deuteronomy 14:21",
+      "destination": 434,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 14:21",
+        "Deuteronomy 14"
+      ],
+      "source_index": 3179,
+      "source_anchor": "Deuteronomy 14"
+    },
+    {
+      "title": "Exodus 23:19",
+      "destination": 435,
+      "level": 2,
+      "aliases": [
+        "Exodus 23:19",
+        "Exodus 23"
+      ],
+      "source_index": 3186,
+      "source_anchor": "Exodus 23"
+    },
+    {
+      "title": "Exodus 23:24",
+      "destination": 437,
+      "level": 2,
+      "aliases": [
+        "Exodus 23:24",
+        "Exodus 23"
+      ],
+      "source_index": 3192,
+      "source_anchor": "Exodus 23"
+    },
+    {
+      "title": "Deuteronomy 12:1-3",
+      "destination": 437,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 12:1-3",
+        "Deuteronomy 12"
+      ],
+      "source_index": 3196,
+      "source_anchor": "Deuteronomy 12"
+    },
+    {
+      "title": "Exodus 34:13",
+      "destination": 438,
+      "level": 2,
+      "aliases": [
+        "Exodus 34:13",
+        "Exodus 34"
+      ],
+      "source_index": 3204,
+      "source_anchor": "Exodus 34"
+    },
+    {
+      "title": "Deuteronomy 7:5",
+      "destination": 438,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 7:5",
+        "Deuteronomy 7"
+      ],
+      "source_index": 3208,
+      "source_anchor": "Deuteronomy 7"
+    },
+    {
+      "title": "Numbers 33:52",
+      "destination": 438,
+      "level": 2,
+      "aliases": [
+        "Numbers 33:52",
+        "Numbers 33"
+      ],
+      "source_index": 3212,
+      "source_anchor": "Numbers 33"
+    },
+    {
+      "title": "Deuteronomy 16:21",
+      "destination": 440,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 16:21",
+        "Deuteronomy 16"
+      ],
+      "source_index": 3220,
+      "source_anchor": "Deuteronomy 16"
+    },
+    {
+      "title": "Exodus 34:11-12, 15-16",
+      "destination": 441,
+      "level": 2,
+      "aliases": [
+        "Exodus 34:11-12, 15-16",
+        "Exodus 34",
+        "Exodus 34:11, 12, 15, 16"
+      ],
+      "source_index": 3226,
+      "source_anchor": "Exodus 34"
+    },
+    {
+      "title": "Exodus 23:31-33",
+      "destination": 442,
+      "level": 2,
+      "aliases": [
+        "Exodus 23:31-33",
+        "Exodus 23"
+      ],
+      "source_index": 3236,
+      "source_anchor": "Exodus 23"
+    },
+    {
+      "title": "Deuteronomy 7:1-4",
+      "destination": 445,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 7:1-4",
+        "Deuteronomy 7"
+      ],
+      "source_index": 3249,
+      "source_anchor": "Deuteronomy 7"
+    },
+    {
+      "title": "Deuteronomy 7:16-26",
+      "destination": 448,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 7:16-26",
+        "Deuteronomy 7"
+      ],
+      "source_index": 3261,
+      "source_anchor": "Deuteronomy 7"
+    },
+    {
+      "title": "Deuteronomy 25:17-19",
+      "destination": 452,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 25:17-19",
+        "Deuteronomy 25"
+      ],
+      "source_index": 3289,
+      "source_anchor": "Deuteronomy 25"
+    },
+    {
+      "title": "Deuteronomy 23:3-8",
+      "destination": 454,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 23:3-8",
+        "Deuteronomy 23"
+      ],
+      "source_index": 3299,
+      "source_anchor": "Deuteronomy 23"
+    },
+    {
+      "title": "Deuteronomy 17:2-5, 7",
+      "destination": 457,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 17:2-5, 7",
+        "Deuteronomy 17"
+      ],
+      "source_index": 3319,
+      "source_anchor": "Deuteronomy 17"
+    },
+    {
+      "title": "The Third Commandment",
+      "destination": 461,
+      "level": 1,
+      "aliases": [
+        "The Third Commandment"
+      ],
+      "source_index": 3335,
+      "source_anchor": "The Third Commandment"
+    },
+    {
+      "title": "Exodus 20:7",
+      "destination": 461,
+      "level": 2,
+      "aliases": [
+        "Exodus 20:7",
+        "Exodus 20"
+      ],
+      "source_index": 3336,
+      "source_anchor": "Exodus 20"
+    },
+    {
+      "title": "Deuteronomy 5:11",
+      "destination": 461,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 5:11",
+        "Deuteronomy 5"
+      ],
+      "source_index": 3341,
+      "source_anchor": "Deuteronomy 5"
+    },
+    {
+      "title": "Leviticus 19:12",
+      "destination": 463,
+      "level": 2,
+      "aliases": [
+        "Leviticus 19:12",
+        "Leviticus 19"
+      ],
+      "source_index": 3350,
+      "source_anchor": "Leviticus 19"
+    },
+    {
+      "title": "Deuteronomy 6:13",
+      "destination": 463,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 6:13",
+        "Deuteronomy 6"
+      ],
+      "source_index": 3354,
+      "source_anchor": "Deuteronomy 6"
+    },
+    {
+      "title": "Deuteronomy 10:20",
+      "destination": 463,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 10:20",
+        "Deuteronomy 10"
+      ],
+      "source_index": 3358,
+      "source_anchor": "Deuteronomy 10"
+    },
+    {
+      "title": "Exodus 23:13",
+      "destination": 465,
+      "level": 2,
+      "aliases": [
+        "Exodus 23:13",
+        "Exodus 23"
+      ],
+      "source_index": 3364,
+      "source_anchor": "Exodus 23"
+    },
+    {
+      "title": "Deuteronomy 23:21-23",
+      "destination": 466,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 23:21-23",
+        "Deuteronomy 23"
+      ],
+      "source_index": 3370,
+      "source_anchor": "Deuteronomy 23"
+    },
+    {
+      "title": "Leviticus 27:1-25, 27-29",
+      "destination": 471,
+      "level": 2,
+      "aliases": [
+        "Leviticus 27:1-25, 27-29",
+        "Leviticus 27"
+      ],
+      "source_index": 3391,
+      "source_anchor": "Leviticus 27"
+    },
+    {
+      "title": "Numbers 30:1-16",
+      "destination": 481,
+      "level": 2,
+      "aliases": [
+        "Numbers 30:1-16",
+        "Numbers 30"
+      ],
+      "source_index": 3463,
+      "source_anchor": "Numbers 30"
+    },
+    {
+      "title": "Leviticus 24:15-16",
+      "destination": 486,
+      "level": 2,
+      "aliases": [
+        "Leviticus 24:15-16",
+        "Leviticus 24",
+        "Leviticus 24:15, 16"
+      ],
+      "source_index": 3505,
+      "source_anchor": "Leviticus 24"
+    },
+    {
+      "title": "The Fourth Commandment",
+      "destination": 487,
+      "level": 1,
+      "aliases": [
+        "The Fourth Commandment"
+      ],
+      "source_index": 3513,
+      "source_anchor": "The Fourth Commandment"
+    },
+    {
+      "title": "Exodus 20:8-11",
+      "destination": 487,
+      "level": 2,
+      "aliases": [
+        "Exodus 20:8-11",
+        "Exodus 20"
+      ],
+      "source_index": 3514,
+      "source_anchor": "Exodus 20"
+    },
+    {
+      "title": "Deuteronomy 5:12-15",
+      "destination": 488,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 5:12-15",
+        "Deuteronomy 5"
+      ],
+      "source_index": 3525,
+      "source_anchor": "Deuteronomy 5"
+    },
+    {
+      "title": "Leviticus 19:30",
+      "destination": 495,
+      "level": 2,
+      "aliases": [
+        "Leviticus 19:30",
+        "Leviticus 19"
+      ],
+      "source_index": 3550,
+      "source_anchor": "Leviticus 19"
+    },
+    {
+      "title": "Leviticus 26:2",
+      "destination": 495,
+      "level": 2,
+      "aliases": [
+        "Leviticus 26:2",
+        "Leviticus 26"
+      ],
+      "source_index": 3554,
+      "source_anchor": "Leviticus 26"
+    },
+    {
+      "title": "Leviticus 23:3",
+      "destination": 496,
+      "level": 2,
+      "aliases": [
+        "Leviticus 23:3",
+        "Leviticus 23"
+      ],
+      "source_index": 3558,
+      "source_anchor": "Leviticus 23"
+    },
+    {
+      "title": "Exodus 34:21",
+      "destination": 496,
+      "level": 2,
+      "aliases": [
+        "Exodus 34:21",
+        "Exodus 34"
+      ],
+      "source_index": 3562,
+      "source_anchor": "Exodus 34"
+    },
+    {
+      "title": "Exodus 35:1-3",
+      "destination": 496,
+      "level": 2,
+      "aliases": [
+        "Exodus 35:1-3",
+        "Exodus 35"
+      ],
+      "source_index": 3566,
+      "source_anchor": "Exodus 35"
+    },
+    {
+      "title": "Leviticus 19:3",
+      "destination": 497,
+      "level": 2,
+      "aliases": [
+        "Leviticus 19:3",
+        "Leviticus 19"
+      ],
+      "source_index": 3574,
+      "source_anchor": "Leviticus 19"
+    },
+    {
+      "title": "Exodus 23:12",
+      "destination": 497,
+      "level": 2,
+      "aliases": [
+        "Exodus 23:12",
+        "Exodus 23"
+      ],
+      "source_index": 3580,
+      "source_anchor": "Exodus 23"
+    },
+    {
+      "title": "Exodus 31:12-17",
+      "destination": 498,
+      "level": 2,
+      "aliases": [
+        "Exodus 31:12-17",
+        "Exodus 31"
+      ],
+      "source_index": 3585,
+      "source_anchor": "Exodus 31"
+    },
+    {
+      "title": "Exodus 23:10-11",
+      "destination": 501,
+      "level": 2,
+      "aliases": [
+        "Exodus 23:10-11",
+        "Exodus 23",
+        "Exodus 23:10, 11"
+      ],
+      "source_index": 3605,
+      "source_anchor": "Exodus 23"
+    },
+    {
+      "title": "Leviticus 25:1-7, 20-22",
+      "destination": 504,
+      "level": 2,
+      "aliases": [
+        "Leviticus 25:1-7, 20-22",
+        "Leviticus 25"
+      ],
+      "source_index": 3618,
+      "source_anchor": "Leviticus 25"
+    },
+    {
+      "title": "Leviticus 25:8-13",
+      "destination": 507,
+      "level": 2,
+      "aliases": [
+        "Leviticus 25:8-13",
+        "Leviticus 25"
+      ],
+      "source_index": 3642,
+      "source_anchor": "Leviticus 25"
+    },
+    {
+      "title": "Leviticus 23:1-44",
+      "destination": 508,
+      "level": 2,
+      "aliases": [
+        "Leviticus 23:1-44",
+        "Leviticus 23"
+      ],
+      "source_index": 3657,
+      "source_anchor": "Leviticus 23"
+    },
+    {
+      "title": "Exodus 23:14-17",
+      "destination": 523,
+      "level": 2,
+      "aliases": [
+        "Exodus 23:14-17",
+        "Exodus 23"
+      ],
+      "source_index": 3769,
+      "source_anchor": "Exodus 23"
+    },
+    {
+      "title": "Exodus 34:22-24",
+      "destination": 524,
+      "level": 2,
+      "aliases": [
+        "Exodus 34:22-24",
+        "Exodus 34"
+      ],
+      "source_index": 3779,
+      "source_anchor": "Exodus 34"
+    },
+    {
+      "title": "Exodus 34:20",
+      "destination": 524,
+      "level": 2,
+      "aliases": [
+        "Exodus 34:20",
+        "Exodus 34"
+      ],
+      "source_index": 3787,
+      "source_anchor": "Exodus 34"
+    },
+    {
+      "title": "Deuteronomy 16:1-2, 5-17",
+      "destination": 525,
+      "level": 2,
+      "aliases": [
+        "Deuteronomy 16:1-2, 5-17",
+        "Deuteronomy 16",
+        "Deuteronomy 16:1, 2, 5-17"
+      ],
+      "source_index": 3794,
+      "source_anchor": "Deuteronomy 16"
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom04_approved\\verification.json",
+    "current_interior_sha256": "e31bed4ea0c602eaa97f5d61c7ac5eb7d83a9468377287cb5978b32288839770",
+    "previous_interior_sha256": "00fa5a02f27e6fc4b39f6ff9110741b0b34305146fd3615227d0a0ad03de815d",
+    "approved_edition_updated": true
   }
 }

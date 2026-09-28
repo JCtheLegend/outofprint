@@ -14,9 +14,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 468,
   "body_page_count": 465,
-  "generated_contents_entries": 49,
-  "generated_contents_entries_in_pdf": 49,
-  "detected_heading_count": 49,
+  "generated_contents_entries": 50,
+  "generated_contents_entries_in_pdf": 50,
+  "detected_heading_count": 50,
   "interior_filename": "john_calvin_calcom19_commentary_on_jeremiah_and_lamentations_volume_3_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom19_commentary_on_jeremiah_and_lamentations_volume_3_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom19_commentary_on_jeremiah_and_lamentations_volume_3_paperback_cover.pdf",
@@ -92,7 +92,7 @@
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
     "body_text_matches_previous_approved_edition": true,
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom19_approved\\verification.json"
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom19_approved\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -328,11 +328,11 @@
   },
   "contents_audit_20260927": {
     "status": "verified",
-    "before_sha256": "8844b83dbee881fd819652ba19bbb107e4f24e6398b7ce4b74ff51652ea756c5",
-    "after_sha256": "ca3fd36b490ee44b3a2f7c6fdccba4558012bcc7e597789edcee171c43006e6d",
+    "before_sha256": "ca3fd36b490ee44b3a2f7c6fdccba4558012bcc7e597789edcee171c43006e6d",
+    "after_sha256": "089e7d1f33b1efa053a139d5962a9c84305ac50829a3b66f2b63b39d0d2f3073",
     "page_count": 468,
     "old_entries": 49,
-    "entry_count": 49,
+    "entry_count": 50,
     "all_non_contents_page_text_and_streams_unchanged": true,
     "sample_body_renders_identical": true,
     "embedded_truetype_fonts": true,
@@ -343,404 +343,1123 @@
     ],
     "entries": [
       {
-        "title": "Lecture Seventy-Fifth",
+        "title": "Jeremiah",
         "destination": 4,
-        "level": 2,
+        "level": 1,
         "aliases": [
+          "Lecture Seventy-Fifth",
           "Lecture Seventy-Fifth"
-        ]
+        ],
+        "source_index": 0,
+        "source_anchor": "Lecture Seventy-Fifth"
       },
       {
-        "title": "Jeremiah 20",
+        "title": "Lecture 75",
         "destination": 4,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Lecture Seventy-Fifth",
+          "Lecture Seventy-Fifth"
+        ],
+        "source_index": 0,
+        "source_anchor": "Lecture Seventy-Fifth"
+      },
+      {
+        "title": "Chapter 20",
+        "destination": 4,
+        "level": 2,
+        "aliases": [
+          "Jeremiah 20",
           "Chapter 20"
-        ]
+        ],
+        "source_index": 1,
+        "source_anchor": "CHAPTER 20"
       },
       {
-        "title": "Lecture Seventy-Six",
+        "title": "Lecture 76",
         "destination": 14,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Seventy-Six",
           "Lecture Seventy-Six"
-        ]
+        ],
+        "source_index": 41,
+        "source_anchor": "Lecture Seventy-Six"
       },
       {
-        "title": "Lecture Seventy-Seventh",
+        "title": "Lecture 77",
         "destination": 26,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Seventy-Seventh",
           "Lecture Seventy-Seventh"
-        ]
+        ],
+        "source_index": 91,
+        "source_anchor": "Lecture Seventy-Seventh"
       },
       {
-        "title": "Lecture Seventy-Eighth",
+        "title": "Lecture 78",
         "destination": 38,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Seventy-Eighth",
           "Lecture Seventy-Eight"
-        ]
+        ],
+        "source_index": 146,
+        "source_anchor": "Lecture Seventy-Eight"
       },
       {
-        "title": "Jeremiah 21",
+        "title": "Chapter 21",
         "destination": 42,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Jeremiah 21",
           "Chapter 21"
-        ]
+        ],
+        "source_index": 161,
+        "source_anchor": "CHAPTER 21"
       },
       {
-        "title": "Lecture Seventy-Ninth",
+        "title": "Lecture 79",
         "destination": 49,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Seventy-Ninth",
           "Lecture Seventy-Ninth"
-        ]
+        ],
+        "source_index": 192,
+        "source_anchor": "Lecture Seventy-Ninth"
       },
       {
-        "title": "Lecture Eightieth",
+        "title": "Lecture 80",
         "destination": 61,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Eightieth",
           "Lecture Eightieth"
-        ]
+        ],
+        "source_index": 241,
+        "source_anchor": "Lecture Eightieth"
       },
       {
-        "title": "Jeremiah 22",
+        "title": "Chapter 22",
         "destination": 64,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Jeremiah 22",
           "Chapter 22"
-        ]
+        ],
+        "source_index": 258,
+        "source_anchor": "CHAPTER 22"
       },
       {
-        "title": "Lecture Eighty-First",
+        "title": "Lecture 81",
         "destination": 74,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Eighty-First",
           "Lecture Eighty-First"
-        ]
+        ],
+        "source_index": 295,
+        "source_anchor": "Lecture Eighty-First"
       },
       {
-        "title": "Lecture Eighty-Second",
+        "title": "Lecture 82",
         "destination": 88,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Eighty-Second",
           "Lecture Eighty-Second"
-        ]
+        ],
+        "source_index": 359,
+        "source_anchor": "Lecture Eighty-Second"
       },
       {
-        "title": "Lecture Eighty-Third",
+        "title": "Lecture 83",
         "destination": 102,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Eighty-Third",
           "Lecture Eighty-Third"
-        ]
+        ],
+        "source_index": 422,
+        "source_anchor": "Lecture Eighty-Third"
       },
       {
-        "title": "Lecture Eighty-Fourth",
+        "title": "Lecture 84",
         "destination": 115,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Eighty-Fourth",
           "Lecture Eighty-Fourth"
-        ]
+        ],
+        "source_index": 484,
+        "source_anchor": "Lecture Eighty-Fourth"
       },
       {
-        "title": "Jeremiah 23",
+        "title": "Chapter 23",
         "destination": 120,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Jeremiah 23",
           "Chapter 23"
-        ]
+        ],
+        "source_index": 510,
+        "source_anchor": "CHAPTER 23"
       },
       {
-        "title": "Lecture Eighty-Fifth",
+        "title": "Lecture 85",
         "destination": 128,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Eighty-Fifth",
           "Lecture Eighty-Fifth"
-        ]
+        ],
+        "source_index": 542,
+        "source_anchor": "Lecture Eighty-Fifth"
       },
       {
-        "title": "Lecture Eighty-Sixth",
+        "title": "Lecture 86",
         "destination": 140,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Eighty-Sixth",
           "Lecture Eighty-Sixth"
-        ]
+        ],
+        "source_index": 590,
+        "source_anchor": "Lecture Eighty-Sixth"
       },
       {
-        "title": "Lecture Eighty-Seventh",
+        "title": "Lecture 87",
         "destination": 153,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Eighty-Seventh",
           "Lecture Eighty-Seventh"
-        ]
+        ],
+        "source_index": 643,
+        "source_anchor": "Lecture Eighty-Seventh"
       },
       {
-        "title": "Lecture Eighty-Eighth",
+        "title": "Lecture 88",
         "destination": 166,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Eighty-Eighth",
           "Lecture Eighty-Eighth"
-        ]
+        ],
+        "source_index": 698,
+        "source_anchor": "Lecture Eighty-Eighth"
       },
       {
-        "title": "Lecture Eighty-Ninth",
+        "title": "Lecture 89",
         "destination": 179,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Eighty-Ninth",
           "Lecture Eighty-Ninth"
-        ]
+        ],
+        "source_index": 754,
+        "source_anchor": "Lecture Eighty-Ninth"
       },
       {
-        "title": "Lecture Ninetieth",
+        "title": "Lecture 90",
         "destination": 191,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Ninetieth",
           "Lecture Ninetieth"
-        ]
+        ],
+        "source_index": 804,
+        "source_anchor": "Lecture Ninetieth"
       },
       {
-        "title": "Lecture Ninety-First",
+        "title": "Lecture 91",
         "destination": 204,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Ninety-First",
           "Lecture Ninety-First"
-        ]
+        ],
+        "source_index": 862,
+        "source_anchor": "Lecture Ninety-First"
       },
       {
-        "title": "Jeremiah 24",
+        "title": "Chapter 24",
         "destination": 212,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Jeremiah 24",
           "Chapter 24"
-        ]
+        ],
+        "source_index": 897,
+        "source_anchor": "CHAPTER 24"
       },
       {
-        "title": "Lecture Ninety-Second",
+        "title": "Lecture 92",
         "destination": 217,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Ninety-Second",
           "Lecture Ninety-Second"
-        ]
+        ],
+        "source_index": 915,
+        "source_anchor": "Lecture Ninety-Second"
       },
       {
-        "title": "Lecture Ninety-Third",
+        "title": "Lecture 93",
         "destination": 228,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Ninety-Third",
           "Lecture Ninety-Third"
-        ]
+        ],
+        "source_index": 968,
+        "source_anchor": "Lecture Ninety-Third"
       },
       {
-        "title": "Jeremiah 25",
+        "title": "Chapter 25",
         "destination": 234,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Jeremiah 25",
           "Chapter 25"
-        ]
+        ],
+        "source_index": 994,
+        "source_anchor": "CHAPTER 25"
       },
       {
-        "title": "Lecture Ninety-Fourth",
+        "title": "Lecture 94",
         "destination": 241,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Ninety-Fourth",
           "Lecture Ninety-Fourth"
-        ]
+        ],
+        "source_index": 1026,
+        "source_anchor": "Lecture Ninety-Fourth"
       },
       {
-        "title": "Lecture Ninety-Fifth",
+        "title": "Lecture 95",
         "destination": 254,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Ninety-Fifth",
           "Lecture Ninety-Fifth"
-        ]
+        ],
+        "source_index": 1084,
+        "source_anchor": "Lecture Ninety-Fifth"
       },
       {
-        "title": "Lecture Ninety-Sixth",
+        "title": "Lecture 96",
         "destination": 267,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Ninety-Sixth",
           "Lecture Ninety-Sixth"
-        ]
+        ],
+        "source_index": 1143,
+        "source_anchor": "Lecture Ninety-Sixth"
       },
       {
-        "title": "Lecture Ninety-Seventh",
+        "title": "Lecture 97",
         "destination": 279,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Ninety-Seventh",
           "Lecture Ninety-Seventh"
-        ]
+        ],
+        "source_index": 1205,
+        "source_anchor": "Lecture Ninety-Seventh"
       },
       {
-        "title": "Lecture Ninety-Eighth",
+        "title": "Lecture 98",
         "destination": 292,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Ninety-Eighth",
           "Lecture Ninety-Eighth"
-        ]
+        ],
+        "source_index": 1254,
+        "source_anchor": "Lecture Ninety-Eighth"
       },
       {
-        "title": "Lecture Ninety-Ninth",
+        "title": "Lecture 99",
         "destination": 304,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Ninety-Ninth",
           "Lecture Ninety-Ninth"
-        ]
+        ],
+        "source_index": 1310,
+        "source_anchor": "Lecture Ninety-Ninth"
       },
       {
-        "title": "Jeremiah 26",
+        "title": "Chapter 26",
         "destination": 304,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Jeremiah 26",
           "Chapter 26"
-        ]
+        ],
+        "source_index": 1311,
+        "source_anchor": "CHAPTER 26"
       },
       {
-        "title": "Lecture One Hundredth",
+        "title": "Lecture 100",
         "destination": 316,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundredth",
           "Lecture One Hundredth"
-        ]
+        ],
+        "source_index": 1365,
+        "source_anchor": "Lecture One Hundredth"
       },
       {
-        "title": "Lecture One Hundred and First",
+        "title": "Lecture 101",
         "destination": 327,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and First",
           "Lecture One Hundred and First"
-        ]
+        ],
+        "source_index": 1418,
+        "source_anchor": "Lecture One Hundred and First"
       },
       {
-        "title": "Lecture One Hundred and Second",
+        "title": "Lecture 102",
         "destination": 338,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Second",
           "Lecture One Hundred and Second"
-        ]
+        ],
+        "source_index": 1471,
+        "source_anchor": "Lecture One Hundred and Second"
       },
       {
-        "title": "Jeremiah 27",
+        "title": "Chapter 27",
         "destination": 348,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Jeremiah 27",
           "Chapter 27"
-        ]
+        ],
+        "source_index": 1504,
+        "source_anchor": "CHAPTER 27"
       },
       {
-        "title": "Lecture One Hundred and Third",
+        "title": "Lecture 103",
         "destination": 351,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Third",
           "Lecture One Hundred and Third"
-        ]
+        ],
+        "source_index": 1521,
+        "source_anchor": "Lecture one Hundred and Third"
       },
       {
-        "title": "Lecture One Hundred and Fourth",
+        "title": "Lecture 104",
         "destination": 362,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Fourth",
           "Lecture One Hundred and Fourth"
-        ]
+        ],
+        "source_index": 1561,
+        "source_anchor": "Lecture One Hundred and Fourth"
       },
       {
-        "title": "Lecture One Hundred and Fifth",
+        "title": "Lecture 105",
         "destination": 373,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Fifth",
           "Lecture One Hundred and Fifth"
-        ]
+        ],
+        "source_index": 1608,
+        "source_anchor": "Lecture One Hundred and Fifth"
       },
       {
-        "title": "Lecture One Hundred and Sixth",
+        "title": "Lecture 106",
         "destination": 384,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Sixth",
           "Lecture One Hundred and Sixth"
-        ]
+        ],
+        "source_index": 1653,
+        "source_anchor": "Lecture One Hundred and Sixth"
       },
       {
-        "title": "Jeremiah 28",
+        "title": "Chapter 28",
         "destination": 388,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Jeremiah 28",
           "Chapter 28"
-        ]
+        ],
+        "source_index": 1672,
+        "source_anchor": "CHAPTER 28"
       },
       {
-        "title": "Lecture One Hundred and Seventh",
+        "title": "Lecture 107",
         "destination": 396,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Seventh",
           "Lecture One Hundred and Seventh"
-        ]
+        ],
+        "source_index": 1708,
+        "source_anchor": "Lecture One Hundred and Seventh"
       },
       {
-        "title": "Lecture One Hundred and Eighth",
+        "title": "Lecture 108",
         "destination": 407,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Eighth",
           "Lecture One Hundred and Eighth"
-        ]
+        ],
+        "source_index": 1750,
+        "source_anchor": "Lecture one Hundred and Eighth"
       },
       {
-        "title": "Lecture One Hundred and Ninth",
+        "title": "Lecture 109",
         "destination": 417,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Ninth",
           "Lecture One Hundred and Ninth"
-        ]
+        ],
+        "source_index": 1789,
+        "source_anchor": "Lecture One Hundred and Ninth"
       },
       {
-        "title": "Jeremiah 29",
+        "title": "Chapter 29",
         "destination": 417,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Jeremiah 29",
           "Chapter 29"
-        ]
+        ],
+        "source_index": 1790,
+        "source_anchor": "CHAPTER 29"
       },
       {
-        "title": "Lecture One Hundred and Tenth",
+        "title": "Lecture 110",
         "destination": 428,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Tenth",
           "Lecture One Hundred and Tenth"
-        ]
+        ],
+        "source_index": 1841,
+        "source_anchor": "Lecture One Hundred and Tenth"
       },
       {
-        "title": "Lecture One Hundred and Eleventh",
+        "title": "Lecture 111",
         "destination": 440,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Eleventh",
           "Lecture One Hundred and Eleventh"
-        ]
+        ],
+        "source_index": 1894,
+        "source_anchor": "Lecture One Hundred and Eleventh"
       },
       {
-        "title": "Lecture One Hundred and Twelfth",
+        "title": "Lecture 112",
         "destination": 452,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Twelfth",
           "Lecture One Hundred and Twelfth"
-        ]
+        ],
+        "source_index": 1949,
+        "source_anchor": "Lecture One Hundred and Twelfth"
       },
       {
-        "title": "Lecture One Hundred and Thirteenth",
+        "title": "Lecture 113",
         "destination": 464,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Thirteenth",
           "Lecture One Hundred and Thirteenth"
-        ]
+        ],
+        "source_index": 2000,
+        "source_anchor": "Lecture One Hundred and Thirteenth"
       }
     ],
     "visual_review_complete": true,
-    "reviewer_navigation_uses_audited_entries": true
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
   },
   "font_update_20260926": {
     "current_pdf_sha256": {
-      "john_calvin_calcom19_commentary_on_jeremiah_and_lamentations_volume_3_interior.pdf": "ca3fd36b490ee44b3a2f7c6fdccba4558012bcc7e597789edcee171c43006e6d"
+      "john_calvin_calcom19_commentary_on_jeremiah_and_lamentations_volume_3_interior.pdf": "089e7d1f33b1efa053a139d5962a9c84305ac50829a3b66f2b63b39d0d2f3073"
     }
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Jeremiah",
+      "destination": 4,
+      "level": 1,
+      "aliases": [
+        "Lecture Seventy-Fifth",
+        "Lecture Seventy-Fifth"
+      ],
+      "source_index": 0,
+      "source_anchor": "Lecture Seventy-Fifth"
+    },
+    {
+      "title": "Lecture 75",
+      "destination": 4,
+      "level": 2,
+      "aliases": [
+        "Lecture Seventy-Fifth",
+        "Lecture Seventy-Fifth"
+      ],
+      "source_index": 0,
+      "source_anchor": "Lecture Seventy-Fifth"
+    },
+    {
+      "title": "Chapter 20",
+      "destination": 4,
+      "level": 2,
+      "aliases": [
+        "Jeremiah 20",
+        "Chapter 20"
+      ],
+      "source_index": 1,
+      "source_anchor": "CHAPTER 20"
+    },
+    {
+      "title": "Lecture 76",
+      "destination": 14,
+      "level": 3,
+      "aliases": [
+        "Lecture Seventy-Six",
+        "Lecture Seventy-Six"
+      ],
+      "source_index": 41,
+      "source_anchor": "Lecture Seventy-Six"
+    },
+    {
+      "title": "Lecture 77",
+      "destination": 26,
+      "level": 3,
+      "aliases": [
+        "Lecture Seventy-Seventh",
+        "Lecture Seventy-Seventh"
+      ],
+      "source_index": 91,
+      "source_anchor": "Lecture Seventy-Seventh"
+    },
+    {
+      "title": "Lecture 78",
+      "destination": 38,
+      "level": 3,
+      "aliases": [
+        "Lecture Seventy-Eighth",
+        "Lecture Seventy-Eight"
+      ],
+      "source_index": 146,
+      "source_anchor": "Lecture Seventy-Eight"
+    },
+    {
+      "title": "Chapter 21",
+      "destination": 42,
+      "level": 2,
+      "aliases": [
+        "Jeremiah 21",
+        "Chapter 21"
+      ],
+      "source_index": 161,
+      "source_anchor": "CHAPTER 21"
+    },
+    {
+      "title": "Lecture 79",
+      "destination": 49,
+      "level": 3,
+      "aliases": [
+        "Lecture Seventy-Ninth",
+        "Lecture Seventy-Ninth"
+      ],
+      "source_index": 192,
+      "source_anchor": "Lecture Seventy-Ninth"
+    },
+    {
+      "title": "Lecture 80",
+      "destination": 61,
+      "level": 3,
+      "aliases": [
+        "Lecture Eightieth",
+        "Lecture Eightieth"
+      ],
+      "source_index": 241,
+      "source_anchor": "Lecture Eightieth"
+    },
+    {
+      "title": "Chapter 22",
+      "destination": 64,
+      "level": 2,
+      "aliases": [
+        "Jeremiah 22",
+        "Chapter 22"
+      ],
+      "source_index": 258,
+      "source_anchor": "CHAPTER 22"
+    },
+    {
+      "title": "Lecture 81",
+      "destination": 74,
+      "level": 3,
+      "aliases": [
+        "Lecture Eighty-First",
+        "Lecture Eighty-First"
+      ],
+      "source_index": 295,
+      "source_anchor": "Lecture Eighty-First"
+    },
+    {
+      "title": "Lecture 82",
+      "destination": 88,
+      "level": 3,
+      "aliases": [
+        "Lecture Eighty-Second",
+        "Lecture Eighty-Second"
+      ],
+      "source_index": 359,
+      "source_anchor": "Lecture Eighty-Second"
+    },
+    {
+      "title": "Lecture 83",
+      "destination": 102,
+      "level": 3,
+      "aliases": [
+        "Lecture Eighty-Third",
+        "Lecture Eighty-Third"
+      ],
+      "source_index": 422,
+      "source_anchor": "Lecture Eighty-Third"
+    },
+    {
+      "title": "Lecture 84",
+      "destination": 115,
+      "level": 3,
+      "aliases": [
+        "Lecture Eighty-Fourth",
+        "Lecture Eighty-Fourth"
+      ],
+      "source_index": 484,
+      "source_anchor": "Lecture Eighty-Fourth"
+    },
+    {
+      "title": "Chapter 23",
+      "destination": 120,
+      "level": 2,
+      "aliases": [
+        "Jeremiah 23",
+        "Chapter 23"
+      ],
+      "source_index": 510,
+      "source_anchor": "CHAPTER 23"
+    },
+    {
+      "title": "Lecture 85",
+      "destination": 128,
+      "level": 3,
+      "aliases": [
+        "Lecture Eighty-Fifth",
+        "Lecture Eighty-Fifth"
+      ],
+      "source_index": 542,
+      "source_anchor": "Lecture Eighty-Fifth"
+    },
+    {
+      "title": "Lecture 86",
+      "destination": 140,
+      "level": 3,
+      "aliases": [
+        "Lecture Eighty-Sixth",
+        "Lecture Eighty-Sixth"
+      ],
+      "source_index": 590,
+      "source_anchor": "Lecture Eighty-Sixth"
+    },
+    {
+      "title": "Lecture 87",
+      "destination": 153,
+      "level": 3,
+      "aliases": [
+        "Lecture Eighty-Seventh",
+        "Lecture Eighty-Seventh"
+      ],
+      "source_index": 643,
+      "source_anchor": "Lecture Eighty-Seventh"
+    },
+    {
+      "title": "Lecture 88",
+      "destination": 166,
+      "level": 3,
+      "aliases": [
+        "Lecture Eighty-Eighth",
+        "Lecture Eighty-Eighth"
+      ],
+      "source_index": 698,
+      "source_anchor": "Lecture Eighty-Eighth"
+    },
+    {
+      "title": "Lecture 89",
+      "destination": 179,
+      "level": 3,
+      "aliases": [
+        "Lecture Eighty-Ninth",
+        "Lecture Eighty-Ninth"
+      ],
+      "source_index": 754,
+      "source_anchor": "Lecture Eighty-Ninth"
+    },
+    {
+      "title": "Lecture 90",
+      "destination": 191,
+      "level": 3,
+      "aliases": [
+        "Lecture Ninetieth",
+        "Lecture Ninetieth"
+      ],
+      "source_index": 804,
+      "source_anchor": "Lecture Ninetieth"
+    },
+    {
+      "title": "Lecture 91",
+      "destination": 204,
+      "level": 3,
+      "aliases": [
+        "Lecture Ninety-First",
+        "Lecture Ninety-First"
+      ],
+      "source_index": 862,
+      "source_anchor": "Lecture Ninety-First"
+    },
+    {
+      "title": "Chapter 24",
+      "destination": 212,
+      "level": 2,
+      "aliases": [
+        "Jeremiah 24",
+        "Chapter 24"
+      ],
+      "source_index": 897,
+      "source_anchor": "CHAPTER 24"
+    },
+    {
+      "title": "Lecture 92",
+      "destination": 217,
+      "level": 3,
+      "aliases": [
+        "Lecture Ninety-Second",
+        "Lecture Ninety-Second"
+      ],
+      "source_index": 915,
+      "source_anchor": "Lecture Ninety-Second"
+    },
+    {
+      "title": "Lecture 93",
+      "destination": 228,
+      "level": 3,
+      "aliases": [
+        "Lecture Ninety-Third",
+        "Lecture Ninety-Third"
+      ],
+      "source_index": 968,
+      "source_anchor": "Lecture Ninety-Third"
+    },
+    {
+      "title": "Chapter 25",
+      "destination": 234,
+      "level": 2,
+      "aliases": [
+        "Jeremiah 25",
+        "Chapter 25"
+      ],
+      "source_index": 994,
+      "source_anchor": "CHAPTER 25"
+    },
+    {
+      "title": "Lecture 94",
+      "destination": 241,
+      "level": 3,
+      "aliases": [
+        "Lecture Ninety-Fourth",
+        "Lecture Ninety-Fourth"
+      ],
+      "source_index": 1026,
+      "source_anchor": "Lecture Ninety-Fourth"
+    },
+    {
+      "title": "Lecture 95",
+      "destination": 254,
+      "level": 3,
+      "aliases": [
+        "Lecture Ninety-Fifth",
+        "Lecture Ninety-Fifth"
+      ],
+      "source_index": 1084,
+      "source_anchor": "Lecture Ninety-Fifth"
+    },
+    {
+      "title": "Lecture 96",
+      "destination": 267,
+      "level": 3,
+      "aliases": [
+        "Lecture Ninety-Sixth",
+        "Lecture Ninety-Sixth"
+      ],
+      "source_index": 1143,
+      "source_anchor": "Lecture Ninety-Sixth"
+    },
+    {
+      "title": "Lecture 97",
+      "destination": 279,
+      "level": 3,
+      "aliases": [
+        "Lecture Ninety-Seventh",
+        "Lecture Ninety-Seventh"
+      ],
+      "source_index": 1205,
+      "source_anchor": "Lecture Ninety-Seventh"
+    },
+    {
+      "title": "Lecture 98",
+      "destination": 292,
+      "level": 3,
+      "aliases": [
+        "Lecture Ninety-Eighth",
+        "Lecture Ninety-Eighth"
+      ],
+      "source_index": 1254,
+      "source_anchor": "Lecture Ninety-Eighth"
+    },
+    {
+      "title": "Lecture 99",
+      "destination": 304,
+      "level": 3,
+      "aliases": [
+        "Lecture Ninety-Ninth",
+        "Lecture Ninety-Ninth"
+      ],
+      "source_index": 1310,
+      "source_anchor": "Lecture Ninety-Ninth"
+    },
+    {
+      "title": "Chapter 26",
+      "destination": 304,
+      "level": 2,
+      "aliases": [
+        "Jeremiah 26",
+        "Chapter 26"
+      ],
+      "source_index": 1311,
+      "source_anchor": "CHAPTER 26"
+    },
+    {
+      "title": "Lecture 100",
+      "destination": 316,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundredth",
+        "Lecture One Hundredth"
+      ],
+      "source_index": 1365,
+      "source_anchor": "Lecture One Hundredth"
+    },
+    {
+      "title": "Lecture 101",
+      "destination": 327,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and First",
+        "Lecture One Hundred and First"
+      ],
+      "source_index": 1418,
+      "source_anchor": "Lecture One Hundred and First"
+    },
+    {
+      "title": "Lecture 102",
+      "destination": 338,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Second",
+        "Lecture One Hundred and Second"
+      ],
+      "source_index": 1471,
+      "source_anchor": "Lecture One Hundred and Second"
+    },
+    {
+      "title": "Chapter 27",
+      "destination": 348,
+      "level": 2,
+      "aliases": [
+        "Jeremiah 27",
+        "Chapter 27"
+      ],
+      "source_index": 1504,
+      "source_anchor": "CHAPTER 27"
+    },
+    {
+      "title": "Lecture 103",
+      "destination": 351,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Third",
+        "Lecture One Hundred and Third"
+      ],
+      "source_index": 1521,
+      "source_anchor": "Lecture one Hundred and Third"
+    },
+    {
+      "title": "Lecture 104",
+      "destination": 362,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Fourth",
+        "Lecture One Hundred and Fourth"
+      ],
+      "source_index": 1561,
+      "source_anchor": "Lecture One Hundred and Fourth"
+    },
+    {
+      "title": "Lecture 105",
+      "destination": 373,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Fifth",
+        "Lecture One Hundred and Fifth"
+      ],
+      "source_index": 1608,
+      "source_anchor": "Lecture One Hundred and Fifth"
+    },
+    {
+      "title": "Lecture 106",
+      "destination": 384,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Sixth",
+        "Lecture One Hundred and Sixth"
+      ],
+      "source_index": 1653,
+      "source_anchor": "Lecture One Hundred and Sixth"
+    },
+    {
+      "title": "Chapter 28",
+      "destination": 388,
+      "level": 2,
+      "aliases": [
+        "Jeremiah 28",
+        "Chapter 28"
+      ],
+      "source_index": 1672,
+      "source_anchor": "CHAPTER 28"
+    },
+    {
+      "title": "Lecture 107",
+      "destination": 396,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Seventh",
+        "Lecture One Hundred and Seventh"
+      ],
+      "source_index": 1708,
+      "source_anchor": "Lecture One Hundred and Seventh"
+    },
+    {
+      "title": "Lecture 108",
+      "destination": 407,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Eighth",
+        "Lecture One Hundred and Eighth"
+      ],
+      "source_index": 1750,
+      "source_anchor": "Lecture one Hundred and Eighth"
+    },
+    {
+      "title": "Lecture 109",
+      "destination": 417,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Ninth",
+        "Lecture One Hundred and Ninth"
+      ],
+      "source_index": 1789,
+      "source_anchor": "Lecture One Hundred and Ninth"
+    },
+    {
+      "title": "Chapter 29",
+      "destination": 417,
+      "level": 2,
+      "aliases": [
+        "Jeremiah 29",
+        "Chapter 29"
+      ],
+      "source_index": 1790,
+      "source_anchor": "CHAPTER 29"
+    },
+    {
+      "title": "Lecture 110",
+      "destination": 428,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Tenth",
+        "Lecture One Hundred and Tenth"
+      ],
+      "source_index": 1841,
+      "source_anchor": "Lecture One Hundred and Tenth"
+    },
+    {
+      "title": "Lecture 111",
+      "destination": 440,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Eleventh",
+        "Lecture One Hundred and Eleventh"
+      ],
+      "source_index": 1894,
+      "source_anchor": "Lecture One Hundred and Eleventh"
+    },
+    {
+      "title": "Lecture 112",
+      "destination": 452,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Twelfth",
+        "Lecture One Hundred and Twelfth"
+      ],
+      "source_index": 1949,
+      "source_anchor": "Lecture One Hundred and Twelfth"
+    },
+    {
+      "title": "Lecture 113",
+      "destination": 464,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Thirteenth",
+        "Lecture One Hundred and Thirteenth"
+      ],
+      "source_index": 2000,
+      "source_anchor": "Lecture One Hundred and Thirteenth"
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom19_approved\\verification.json",
+    "current_interior_sha256": "089e7d1f33b1efa053a139d5962a9c84305ac50829a3b66f2b63b39d0d2f3073",
+    "previous_interior_sha256": "ca3fd36b490ee44b3a2f7c6fdccba4558012bcc7e597789edcee171c43006e6d",
+    "approved_edition_updated": true
   }
 }

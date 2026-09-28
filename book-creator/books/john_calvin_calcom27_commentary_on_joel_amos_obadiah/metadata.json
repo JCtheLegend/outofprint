@@ -14,9 +14,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 439,
   "body_page_count": 436,
-  "generated_contents_entries": 47,
-  "generated_contents_entries_in_pdf": 47,
-  "detected_heading_count": 47,
+  "generated_contents_entries": 49,
+  "generated_contents_entries_in_pdf": 49,
+  "detected_heading_count": 49,
   "interior_filename": "john_calvin_calcom27_commentary_on_joel_amos_obadiah_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom27_commentary_on_joel_amos_obadiah_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom27_commentary_on_joel_amos_obadiah_paperback_cover.pdf",
@@ -92,7 +92,7 @@
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
     "body_text_matches_previous_approved_edition": true,
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom27_approved\\verification.json"
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom27_approved\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -323,11 +323,11 @@
   },
   "contents_audit_20260927": {
     "status": "verified",
-    "before_sha256": "1697aee8027a558bed2fe907b263ed84e1861c3e483e134591eb7b3fe4172edf",
-    "after_sha256": "6650c8e99ec359331d7360596237371740eb0e73503892d6d267ea6f2a351671",
+    "before_sha256": "6650c8e99ec359331d7360596237371740eb0e73503892d6d267ea6f2a351671",
+    "after_sha256": "61a03aacc0c7c259dd6f8833400b815c98a1b864bf33b55cda66a228d524fd75",
     "page_count": 439,
-    "old_entries": 59,
-    "entry_count": 47,
+    "old_entries": 47,
+    "entry_count": 49,
     "all_non_contents_page_text_and_streams_unchanged": true,
     "sample_body_renders_identical": true,
     "embedded_truetype_fonts": true,
@@ -338,356 +338,510 @@
     ],
     "entries": [
       {
-        "title": "Joel 1",
+        "title": "Joel",
         "destination": 4,
         "level": 1,
         "aliases": [
+          "Joel 1",
           "Chapter 1"
-        ]
+        ],
+        "source_index": 0,
+        "source_anchor": "Chapter 1"
       },
       {
-        "title": "Lecture Thirty-Eighth",
+        "title": "Chapter 1",
         "destination": 4,
         "level": 2,
         "aliases": [
+          "Joel 1",
+          "Chapter 1"
+        ],
+        "source_index": 0,
+        "source_anchor": "Chapter 1"
+      },
+      {
+        "title": "Lecture 38",
+        "destination": 4,
+        "level": 3,
+        "aliases": [
+          "Lecture Thirty-Eighth",
           "Lecture Thirty-Eighth"
-        ]
+        ],
+        "source_index": 1,
+        "source_anchor": "Lecture Thirty-eighth"
       },
       {
-        "title": "Lecture Thirty-Ninth",
+        "title": "Lecture 39",
         "destination": 8,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Thirty-Ninth",
           "Lecture Thirty-Ninth"
-        ]
+        ],
+        "source_index": 19,
+        "source_anchor": "Lecture Thirty-ninth."
       },
       {
-        "title": "Lecture Fortieth",
+        "title": "Lecture 40",
         "destination": 20,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fortieth",
           "Lecture Fortieth"
-        ]
+        ],
+        "source_index": 69,
+        "source_anchor": "Lecture Fortieth"
       },
       {
-        "title": "Joel 2",
+        "title": "Chapter 2",
         "destination": 31,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Joel 2",
           "Chapter 2"
-        ]
+        ],
+        "source_index": 111,
+        "source_anchor": "Chapter 2"
       },
       {
-        "title": "Lecture Forty-First",
+        "title": "Lecture 41",
         "destination": 31,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Forty-First",
           "Lecture Forty-First"
-        ]
+        ],
+        "source_index": 112,
+        "source_anchor": "Lecture Forty-first"
       },
       {
-        "title": "Lecture Forty-Second",
+        "title": "Lecture 42",
         "destination": 44,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Forty-Second",
           "Lecture Forty-Second"
-        ]
+        ],
+        "source_index": 158,
+        "source_anchor": "Lecture Forty-second"
       },
       {
-        "title": "Lecture Forty-Third",
+        "title": "Lecture 43",
         "destination": 55,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Forty-Third",
           "Lecture Forty-Third"
-        ]
+        ],
+        "source_index": 185,
+        "source_anchor": "Lecture Forty-third"
       },
       {
-        "title": "Lecture Forty-Fourth",
+        "title": "Lecture 44",
         "destination": 68,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Forty-Fourth",
           "Lecture Forty-Fourth"
-        ]
+        ],
+        "source_index": 229,
+        "source_anchor": "Lecture Forty-fourth"
       },
       {
-        "title": "Lecture Forty-Fifth",
+        "title": "Lecture 45",
         "destination": 81,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Forty-Fifth",
           "Lecture Forty-Fifth"
-        ]
+        ],
+        "source_index": 279,
+        "source_anchor": "Lecture Forty-fifth"
       },
       {
-        "title": "Lecture Forty-Sixth",
+        "title": "Lecture 46",
         "destination": 94,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Forty-Sixth",
           "Lecture Forty-Sixth"
-        ]
+        ],
+        "source_index": 312,
+        "source_anchor": "Lecture Forty-sixth"
       },
       {
-        "title": "Joel 3",
+        "title": "Chapter 3",
         "destination": 101,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Joel 3",
           "Chapter 3"
-        ]
+        ],
+        "source_index": 330,
+        "source_anchor": "Chapter 3"
       },
       {
-        "title": "Lecture Forty-Seventh",
+        "title": "Lecture 47",
         "destination": 107,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Forty-Seventh",
           "Lecture Forty-Seventh"
-        ]
+        ],
+        "source_index": 350,
+        "source_anchor": "Lecture Forty-seventh."
       },
       {
-        "title": "Lecture Forty-Eighth",
+        "title": "Lecture 48",
         "destination": 120,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Forty-Eighth",
           "Lecture Forty-Eighth"
-        ]
+        ],
+        "source_index": 395,
+        "source_anchor": "Lecture Forty-eighth"
       },
       {
-        "title": "Lecture Forty-Ninth",
+        "title": "Lecture 49",
         "destination": 133,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Forty-Ninth",
           "Lecture Forty-Ninth"
-        ]
+        ],
+        "source_index": 452,
+        "source_anchor": "Lecture Forty-ninth"
       },
       {
-        "title": "Amos 1",
+        "title": "Amos",
         "destination": 134,
         "level": 1,
         "aliases": [
+          "Amos 1",
           "Chapter 1"
-        ]
+        ],
+        "source_index": 454,
+        "source_anchor": "Chapter 1."
       },
       {
-        "title": "Lecture Fiftieth",
+        "title": "Chapter 1",
+        "destination": 134,
+        "level": 2,
+        "aliases": [
+          "Amos 1",
+          "Chapter 1"
+        ],
+        "source_index": 454,
+        "source_anchor": "Chapter 1."
+      },
+      {
+        "title": "Lecture 50",
         "destination": 146,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fiftieth",
           "Lecture Fiftieth"
-        ]
+        ],
+        "source_index": 496,
+        "source_anchor": "Lecture Fiftieth"
       },
       {
-        "title": "Amos 2",
+        "title": "Chapter 2",
         "destination": 158,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Amos 2",
           "Amos 2:1-3"
-        ]
+        ],
+        "source_index": 547,
+        "source_anchor": "Lecture Fifty-first"
       },
       {
-        "title": "Lecture Fifty-First",
+        "title": "Lecture 51",
         "destination": 158,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fifty-First",
           "Lecture Fifty-First"
-        ]
+        ],
+        "source_index": 547,
+        "source_anchor": "Lecture Fifty-first"
       },
       {
-        "title": "Lecture Fifty-Second",
+        "title": "Lecture 52",
         "destination": 171,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fifty-Second",
           "Lecture Fifty-Second"
-        ]
+        ],
+        "source_index": 595,
+        "source_anchor": "Lecture Fifty-second"
       },
       {
-        "title": "Lecture Fifty-Third",
+        "title": "Lecture 53",
         "destination": 185,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fifty-Third",
           "Lecture Fifty-Third"
-        ]
+        ],
+        "source_index": 639,
+        "source_anchor": "Lecture Fifty-third"
       },
       {
-        "title": "Amos 3",
+        "title": "Chapter 3",
         "destination": 187,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Amos 3",
           "Chapter 3"
-        ]
+        ],
+        "source_index": 651,
+        "source_anchor": "Chapter 3."
       },
       {
-        "title": "Lecture Fifty-Fourth",
+        "title": "Lecture 54",
         "destination": 197,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fifty-Fourth",
           "Lecture Fifty-Fourth"
-        ]
+        ],
+        "source_index": 688,
+        "source_anchor": "Lecture Fifty-fourth"
       },
       {
-        "title": "Lecture Fifty-Fifth",
+        "title": "Lecture 55",
         "destination": 209,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fifty-Fifth",
           "Lecture Fifty-Fifth"
-        ]
+        ],
+        "source_index": 728,
+        "source_anchor": "Lecture Fifty-fifth"
       },
       {
-        "title": "Amos 4",
+        "title": "Chapter 4",
         "destination": 211,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Amos 4",
           "Chapter 4"
-        ]
+        ],
+        "source_index": 735,
+        "source_anchor": "Chapter 4."
       },
       {
-        "title": "Lecture Fifty-Sixth",
+        "title": "Lecture 56",
         "destination": 222,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fifty-Sixth",
           "Lecture Fifty-Sixth"
-        ]
+        ],
+        "source_index": 777,
+        "source_anchor": "Lecture Fifty-sixth"
       },
       {
-        "title": "Lecture Fifty-Seventh",
+        "title": "Lecture 57",
         "destination": 235,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fifty-Seventh",
           "Lecture Fifty-Seventh"
-        ]
+        ],
+        "source_index": 829,
+        "source_anchor": "Lecture Fifty-seventh"
       },
       {
-        "title": "Amos 5",
+        "title": "Chapter 5",
         "destination": 237,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Amos 5",
           "Chapter 5"
-        ]
+        ],
+        "source_index": 835,
+        "source_anchor": "Chapter 5"
       },
       {
-        "title": "Lecture Fifty-Eighth",
+        "title": "Lecture 58",
         "destination": 248,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fifty-Eighth",
           "Lecture Fifty-Eighth"
-        ]
+        ],
+        "source_index": 879,
+        "source_anchor": "Lecture fifty-eighth"
       },
       {
-        "title": "Lecture Fifty-Ninth",
+        "title": "Lecture 59",
         "destination": 262,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fifty-Ninth",
           "Lecture Fifty-Ninth"
-        ]
+        ],
+        "source_index": 932,
+        "source_anchor": "Lecture Fifty-ninth"
       },
       {
-        "title": "Lecture Sixtieth",
+        "title": "Lecture 60",
         "destination": 275,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Sixtieth",
           "Lecture Sixtieth"
-        ]
+        ],
+        "source_index": 980,
+        "source_anchor": "Lecture Sixtieth"
       },
       {
-        "title": "Amos 6",
+        "title": "Chapter 6",
         "destination": 289,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Amos 6",
           "Chapter 6"
-        ]
+        ],
+        "source_index": 1034,
+        "source_anchor": "Chapter 6."
       },
       {
-        "title": "Lecture Sixty-First",
+        "title": "Lecture 61",
         "destination": 289,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Sixty-First",
           "Lecture Sixty-First"
-        ]
+        ],
+        "source_index": 1035,
+        "source_anchor": "Lecture Sixty-first"
       },
       {
-        "title": "Lecture Sixty-Second",
+        "title": "Lecture 62",
         "destination": 302,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Sixty-Second",
           "Lecture Sixty-Second"
-        ]
+        ],
+        "source_index": 1090,
+        "source_anchor": "Lecture Sixty-second"
       },
       {
-        "title": "Amos 7",
+        "title": "Chapter 7",
         "destination": 315,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Amos 7",
           "Chapter 7"
-        ]
+        ],
+        "source_index": 1141,
+        "source_anchor": "Chapter 7."
       },
       {
-        "title": "Lecture Sixty-Third",
+        "title": "Lecture 63",
         "destination": 315,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Sixty-Third",
           "Lecture Sixty-Third"
-        ]
+        ],
+        "source_index": 1142,
+        "source_anchor": "Lecture Sixty-third"
       },
       {
-        "title": "Lecture Sixty-Fourth",
+        "title": "Lecture 64",
         "destination": 328,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Sixty-Fourth",
           "Lecture Sixty-Fourth"
-        ]
+        ],
+        "source_index": 1191,
+        "source_anchor": "Lecture Sixty-fourth"
       },
       {
-        "title": "Lecture Sixty-Fifth",
+        "title": "Lecture 65",
         "destination": 343,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Sixty-Fifth",
           "Lecture Sixty-Fifth"
-        ]
+        ],
+        "source_index": 1240,
+        "source_anchor": "Lecture Sixty-fifth"
       },
       {
-        "title": "Amos 8",
+        "title": "Chapter 8",
         "destination": 348,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Amos 8",
           "Chapter 8"
-        ]
+        ],
+        "source_index": 1256,
+        "source_anchor": "Chapter 8."
       },
       {
-        "title": "Lecture Sixty-Sixth",
+        "title": "Lecture 66",
         "destination": 356,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Sixty-Sixth",
           "Lecture Sixty-Sixth"
-        ]
+        ],
+        "source_index": 1283,
+        "source_anchor": "Lecture Sixty-sixth"
       },
       {
-        "title": "Lecture Sixty-Seventh",
+        "title": "Lecture 67",
         "destination": 370,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Sixty-Seventh",
           "Lecture Sixty-Seventh"
-        ]
+        ],
+        "source_index": 1331,
+        "source_anchor": "Lecture Sixty-seventh"
       },
       {
-        "title": "Amos 9",
+        "title": "Chapter 9",
         "destination": 372,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Amos 9",
           "Chapter 9"
-        ]
+        ],
+        "source_index": 1341,
+        "source_anchor": "Chapter 9"
       },
       {
-        "title": "Lecture Sixty-Eighth",
+        "title": "Lecture 68",
         "destination": 384,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Sixty-Eighth",
           "Lecture Sixty-Eighth"
-        ]
+        ],
+        "source_index": 1390,
+        "source_anchor": "Lecture Sixty-eighth"
       },
       {
-        "title": "Lecture Sixty-Ninth",
+        "title": "Lecture 69",
         "destination": 397,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Sixty-Ninth",
           "Lecture Sixty-Ninth"
-        ]
+        ],
+        "source_index": 1436,
+        "source_anchor": "Lecture Sixty-ninth"
       },
       {
         "title": "Obadiah",
@@ -695,31 +849,588 @@
         "level": 1,
         "aliases": [
           "Obadiah"
-        ]
+        ],
+        "source_index": 1464,
+        "source_anchor": "Obadiah"
       },
       {
-        "title": "Lecture Seventieth",
+        "title": "Lecture 70",
         "destination": 411,
         "level": 2,
         "aliases": [
+          "Lecture Seventieth",
           "Lecture Seventieth"
-        ]
+        ],
+        "source_index": 1503,
+        "source_anchor": "Lecture Seventieth"
       },
       {
-        "title": "Lecture Seventy-First",
+        "title": "Lecture 71",
         "destination": 424,
         "level": 2,
         "aliases": [
+          "Lecture Seventy-First",
           "Lecture Seventy-First"
-        ]
+        ],
+        "source_index": 1554,
+        "source_anchor": "Lecture Seventy-first."
       }
     ],
     "visual_review_complete": true,
-    "reviewer_navigation_uses_audited_entries": true
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
   },
   "font_update_20260926": {
     "current_pdf_sha256": {
-      "john_calvin_calcom27_commentary_on_joel_amos_obadiah_interior.pdf": "6650c8e99ec359331d7360596237371740eb0e73503892d6d267ea6f2a351671"
+      "john_calvin_calcom27_commentary_on_joel_amos_obadiah_interior.pdf": "61a03aacc0c7c259dd6f8833400b815c98a1b864bf33b55cda66a228d524fd75"
     }
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Joel",
+      "destination": 4,
+      "level": 1,
+      "aliases": [
+        "Joel 1",
+        "Chapter 1"
+      ],
+      "source_index": 0,
+      "source_anchor": "Chapter 1"
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 4,
+      "level": 2,
+      "aliases": [
+        "Joel 1",
+        "Chapter 1"
+      ],
+      "source_index": 0,
+      "source_anchor": "Chapter 1"
+    },
+    {
+      "title": "Lecture 38",
+      "destination": 4,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-Eighth",
+        "Lecture Thirty-Eighth"
+      ],
+      "source_index": 1,
+      "source_anchor": "Lecture Thirty-eighth"
+    },
+    {
+      "title": "Lecture 39",
+      "destination": 8,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-Ninth",
+        "Lecture Thirty-Ninth"
+      ],
+      "source_index": 19,
+      "source_anchor": "Lecture Thirty-ninth."
+    },
+    {
+      "title": "Lecture 40",
+      "destination": 20,
+      "level": 3,
+      "aliases": [
+        "Lecture Fortieth",
+        "Lecture Fortieth"
+      ],
+      "source_index": 69,
+      "source_anchor": "Lecture Fortieth"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 31,
+      "level": 2,
+      "aliases": [
+        "Joel 2",
+        "Chapter 2"
+      ],
+      "source_index": 111,
+      "source_anchor": "Chapter 2"
+    },
+    {
+      "title": "Lecture 41",
+      "destination": 31,
+      "level": 3,
+      "aliases": [
+        "Lecture Forty-First",
+        "Lecture Forty-First"
+      ],
+      "source_index": 112,
+      "source_anchor": "Lecture Forty-first"
+    },
+    {
+      "title": "Lecture 42",
+      "destination": 44,
+      "level": 3,
+      "aliases": [
+        "Lecture Forty-Second",
+        "Lecture Forty-Second"
+      ],
+      "source_index": 158,
+      "source_anchor": "Lecture Forty-second"
+    },
+    {
+      "title": "Lecture 43",
+      "destination": 55,
+      "level": 3,
+      "aliases": [
+        "Lecture Forty-Third",
+        "Lecture Forty-Third"
+      ],
+      "source_index": 185,
+      "source_anchor": "Lecture Forty-third"
+    },
+    {
+      "title": "Lecture 44",
+      "destination": 68,
+      "level": 3,
+      "aliases": [
+        "Lecture Forty-Fourth",
+        "Lecture Forty-Fourth"
+      ],
+      "source_index": 229,
+      "source_anchor": "Lecture Forty-fourth"
+    },
+    {
+      "title": "Lecture 45",
+      "destination": 81,
+      "level": 3,
+      "aliases": [
+        "Lecture Forty-Fifth",
+        "Lecture Forty-Fifth"
+      ],
+      "source_index": 279,
+      "source_anchor": "Lecture Forty-fifth"
+    },
+    {
+      "title": "Lecture 46",
+      "destination": 94,
+      "level": 3,
+      "aliases": [
+        "Lecture Forty-Sixth",
+        "Lecture Forty-Sixth"
+      ],
+      "source_index": 312,
+      "source_anchor": "Lecture Forty-sixth"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 101,
+      "level": 2,
+      "aliases": [
+        "Joel 3",
+        "Chapter 3"
+      ],
+      "source_index": 330,
+      "source_anchor": "Chapter 3"
+    },
+    {
+      "title": "Lecture 47",
+      "destination": 107,
+      "level": 3,
+      "aliases": [
+        "Lecture Forty-Seventh",
+        "Lecture Forty-Seventh"
+      ],
+      "source_index": 350,
+      "source_anchor": "Lecture Forty-seventh."
+    },
+    {
+      "title": "Lecture 48",
+      "destination": 120,
+      "level": 3,
+      "aliases": [
+        "Lecture Forty-Eighth",
+        "Lecture Forty-Eighth"
+      ],
+      "source_index": 395,
+      "source_anchor": "Lecture Forty-eighth"
+    },
+    {
+      "title": "Lecture 49",
+      "destination": 133,
+      "level": 3,
+      "aliases": [
+        "Lecture Forty-Ninth",
+        "Lecture Forty-Ninth"
+      ],
+      "source_index": 452,
+      "source_anchor": "Lecture Forty-ninth"
+    },
+    {
+      "title": "Amos",
+      "destination": 134,
+      "level": 1,
+      "aliases": [
+        "Amos 1",
+        "Chapter 1"
+      ],
+      "source_index": 454,
+      "source_anchor": "Chapter 1."
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 134,
+      "level": 2,
+      "aliases": [
+        "Amos 1",
+        "Chapter 1"
+      ],
+      "source_index": 454,
+      "source_anchor": "Chapter 1."
+    },
+    {
+      "title": "Lecture 50",
+      "destination": 146,
+      "level": 3,
+      "aliases": [
+        "Lecture Fiftieth",
+        "Lecture Fiftieth"
+      ],
+      "source_index": 496,
+      "source_anchor": "Lecture Fiftieth"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 158,
+      "level": 2,
+      "aliases": [
+        "Amos 2",
+        "Amos 2:1-3"
+      ],
+      "source_index": 547,
+      "source_anchor": "Lecture Fifty-first"
+    },
+    {
+      "title": "Lecture 51",
+      "destination": 158,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifty-First",
+        "Lecture Fifty-First"
+      ],
+      "source_index": 547,
+      "source_anchor": "Lecture Fifty-first"
+    },
+    {
+      "title": "Lecture 52",
+      "destination": 171,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifty-Second",
+        "Lecture Fifty-Second"
+      ],
+      "source_index": 595,
+      "source_anchor": "Lecture Fifty-second"
+    },
+    {
+      "title": "Lecture 53",
+      "destination": 185,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifty-Third",
+        "Lecture Fifty-Third"
+      ],
+      "source_index": 639,
+      "source_anchor": "Lecture Fifty-third"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 187,
+      "level": 2,
+      "aliases": [
+        "Amos 3",
+        "Chapter 3"
+      ],
+      "source_index": 651,
+      "source_anchor": "Chapter 3."
+    },
+    {
+      "title": "Lecture 54",
+      "destination": 197,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifty-Fourth",
+        "Lecture Fifty-Fourth"
+      ],
+      "source_index": 688,
+      "source_anchor": "Lecture Fifty-fourth"
+    },
+    {
+      "title": "Lecture 55",
+      "destination": 209,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifty-Fifth",
+        "Lecture Fifty-Fifth"
+      ],
+      "source_index": 728,
+      "source_anchor": "Lecture Fifty-fifth"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 211,
+      "level": 2,
+      "aliases": [
+        "Amos 4",
+        "Chapter 4"
+      ],
+      "source_index": 735,
+      "source_anchor": "Chapter 4."
+    },
+    {
+      "title": "Lecture 56",
+      "destination": 222,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifty-Sixth",
+        "Lecture Fifty-Sixth"
+      ],
+      "source_index": 777,
+      "source_anchor": "Lecture Fifty-sixth"
+    },
+    {
+      "title": "Lecture 57",
+      "destination": 235,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifty-Seventh",
+        "Lecture Fifty-Seventh"
+      ],
+      "source_index": 829,
+      "source_anchor": "Lecture Fifty-seventh"
+    },
+    {
+      "title": "Chapter 5",
+      "destination": 237,
+      "level": 2,
+      "aliases": [
+        "Amos 5",
+        "Chapter 5"
+      ],
+      "source_index": 835,
+      "source_anchor": "Chapter 5"
+    },
+    {
+      "title": "Lecture 58",
+      "destination": 248,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifty-Eighth",
+        "Lecture Fifty-Eighth"
+      ],
+      "source_index": 879,
+      "source_anchor": "Lecture fifty-eighth"
+    },
+    {
+      "title": "Lecture 59",
+      "destination": 262,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifty-Ninth",
+        "Lecture Fifty-Ninth"
+      ],
+      "source_index": 932,
+      "source_anchor": "Lecture Fifty-ninth"
+    },
+    {
+      "title": "Lecture 60",
+      "destination": 275,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixtieth",
+        "Lecture Sixtieth"
+      ],
+      "source_index": 980,
+      "source_anchor": "Lecture Sixtieth"
+    },
+    {
+      "title": "Chapter 6",
+      "destination": 289,
+      "level": 2,
+      "aliases": [
+        "Amos 6",
+        "Chapter 6"
+      ],
+      "source_index": 1034,
+      "source_anchor": "Chapter 6."
+    },
+    {
+      "title": "Lecture 61",
+      "destination": 289,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixty-First",
+        "Lecture Sixty-First"
+      ],
+      "source_index": 1035,
+      "source_anchor": "Lecture Sixty-first"
+    },
+    {
+      "title": "Lecture 62",
+      "destination": 302,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixty-Second",
+        "Lecture Sixty-Second"
+      ],
+      "source_index": 1090,
+      "source_anchor": "Lecture Sixty-second"
+    },
+    {
+      "title": "Chapter 7",
+      "destination": 315,
+      "level": 2,
+      "aliases": [
+        "Amos 7",
+        "Chapter 7"
+      ],
+      "source_index": 1141,
+      "source_anchor": "Chapter 7."
+    },
+    {
+      "title": "Lecture 63",
+      "destination": 315,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixty-Third",
+        "Lecture Sixty-Third"
+      ],
+      "source_index": 1142,
+      "source_anchor": "Lecture Sixty-third"
+    },
+    {
+      "title": "Lecture 64",
+      "destination": 328,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixty-Fourth",
+        "Lecture Sixty-Fourth"
+      ],
+      "source_index": 1191,
+      "source_anchor": "Lecture Sixty-fourth"
+    },
+    {
+      "title": "Lecture 65",
+      "destination": 343,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixty-Fifth",
+        "Lecture Sixty-Fifth"
+      ],
+      "source_index": 1240,
+      "source_anchor": "Lecture Sixty-fifth"
+    },
+    {
+      "title": "Chapter 8",
+      "destination": 348,
+      "level": 2,
+      "aliases": [
+        "Amos 8",
+        "Chapter 8"
+      ],
+      "source_index": 1256,
+      "source_anchor": "Chapter 8."
+    },
+    {
+      "title": "Lecture 66",
+      "destination": 356,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixty-Sixth",
+        "Lecture Sixty-Sixth"
+      ],
+      "source_index": 1283,
+      "source_anchor": "Lecture Sixty-sixth"
+    },
+    {
+      "title": "Lecture 67",
+      "destination": 370,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixty-Seventh",
+        "Lecture Sixty-Seventh"
+      ],
+      "source_index": 1331,
+      "source_anchor": "Lecture Sixty-seventh"
+    },
+    {
+      "title": "Chapter 9",
+      "destination": 372,
+      "level": 2,
+      "aliases": [
+        "Amos 9",
+        "Chapter 9"
+      ],
+      "source_index": 1341,
+      "source_anchor": "Chapter 9"
+    },
+    {
+      "title": "Lecture 68",
+      "destination": 384,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixty-Eighth",
+        "Lecture Sixty-Eighth"
+      ],
+      "source_index": 1390,
+      "source_anchor": "Lecture Sixty-eighth"
+    },
+    {
+      "title": "Lecture 69",
+      "destination": 397,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixty-Ninth",
+        "Lecture Sixty-Ninth"
+      ],
+      "source_index": 1436,
+      "source_anchor": "Lecture Sixty-ninth"
+    },
+    {
+      "title": "Obadiah",
+      "destination": 402,
+      "level": 1,
+      "aliases": [
+        "Obadiah"
+      ],
+      "source_index": 1464,
+      "source_anchor": "Obadiah"
+    },
+    {
+      "title": "Lecture 70",
+      "destination": 411,
+      "level": 2,
+      "aliases": [
+        "Lecture Seventieth",
+        "Lecture Seventieth"
+      ],
+      "source_index": 1503,
+      "source_anchor": "Lecture Seventieth"
+    },
+    {
+      "title": "Lecture 71",
+      "destination": 424,
+      "level": 2,
+      "aliases": [
+        "Lecture Seventy-First",
+        "Lecture Seventy-First"
+      ],
+      "source_index": 1554,
+      "source_anchor": "Lecture Seventy-first."
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom27_approved\\verification.json",
+    "current_interior_sha256": "61a03aacc0c7c259dd6f8833400b815c98a1b864bf33b55cda66a228d524fd75",
+    "previous_interior_sha256": "6650c8e99ec359331d7360596237371740eb0e73503892d6d267ea6f2a351671",
+    "approved_edition_updated": true
   }
 }

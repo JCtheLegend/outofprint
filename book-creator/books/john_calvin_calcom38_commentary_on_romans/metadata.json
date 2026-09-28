@@ -14,9 +14,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 542,
   "body_page_count": 540,
-  "generated_contents_entries": 19,
-  "generated_contents_entries_in_pdf": 19,
-  "detected_heading_count": 19,
+  "generated_contents_entries": 18,
+  "generated_contents_entries_in_pdf": 18,
+  "detected_heading_count": 18,
   "interior_filename": "john_calvin_calcom38_commentary_on_romans_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom38_commentary_on_romans_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom38_commentary_on_romans_paperback_cover.pdf",
@@ -86,7 +86,7 @@
     "page_boxes_and_bookmarks_preserved": true,
     "all_interior_pages_rendered_for_font_update": 542,
     "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom38_commentary_on_romans.json",
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom38_package\\verification.json"
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom38_package\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -321,7 +321,7 @@
     "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom38_commentary_on_romans.json",
     "current_pdf_sha256": {
       "john_calvin_calcom38_commentary_on_romans_hardcover_cover.pdf": "102fe214def62702dc5c7376b747c855297665669d37d924354b76b5539dbeb7",
-      "john_calvin_calcom38_commentary_on_romans_interior.pdf": "db859b37fe2869a23b6e6511b0f75b0ab5b2c15472a9b925bbc41c9638bbe11d",
+      "john_calvin_calcom38_commentary_on_romans_interior.pdf": "b874bcdb9d1acc0d7af1c7aedc8bae7d6a219c735a297694aee91735c92935aa",
       "john_calvin_calcom38_commentary_on_romans_paperback_cover.pdf": "cc15e573f757cb4208ec859aae64b86024ce69d9c42e42a89f54731abc7bc38a"
     },
     "earlier_visual_review_and_dated_repair_evidence_retained": true
@@ -334,7 +334,7 @@
     "approved_page_count": 542,
     "approved_pdf_sha256": {
       "john_calvin_calcom38_commentary_on_romans_hardcover_cover.pdf": "102fe214def62702dc5c7376b747c855297665669d37d924354b76b5539dbeb7",
-      "john_calvin_calcom38_commentary_on_romans_interior.pdf": "11b1cc66a3c0007e717e5766e69bfbc8956074ad7c42e50e5252743cc9a639a2",
+      "john_calvin_calcom38_commentary_on_romans_interior.pdf": "b874bcdb9d1acc0d7af1c7aedc8bae7d6a219c735a297694aee91735c92935aa",
       "john_calvin_calcom38_commentary_on_romans_paperback_cover.pdf": "cc15e573f757cb4208ec859aae64b86024ce69d9c42e42a89f54731abc7bc38a"
     },
     "github_update_authorized": true
@@ -345,11 +345,11 @@
   "store_description": "John Calvin's commentary on Paul's Epistle to the Romans, covering all sixteen chapters.",
   "contents_audit_20260927": {
     "status": "verified",
-    "before_sha256": "11b1cc66a3c0007e717e5766e69bfbc8956074ad7c42e50e5252743cc9a639a2",
-    "after_sha256": "db859b37fe2869a23b6e6511b0f75b0ab5b2c15472a9b925bbc41c9638bbe11d",
+    "before_sha256": "db859b37fe2869a23b6e6511b0f75b0ab5b2c15472a9b925bbc41c9638bbe11d",
+    "after_sha256": "b874bcdb9d1acc0d7af1c7aedc8bae7d6a219c735a297694aee91735c92935aa",
     "page_count": 542,
-    "old_entries": 20,
-    "entry_count": 19,
+    "old_entries": 19,
+    "entry_count": 18,
     "all_non_contents_page_text_and_streams_unchanged": true,
     "sample_body_renders_identical": true,
     "embedded_truetype_fonts": true,
@@ -359,159 +359,378 @@
     ],
     "entries": [
       {
-        "title": "The Epistle Dedicatory to Simon Grynaeus",
+        "title": "Dedication to Simon Grynaeus",
         "destination": 3,
         "level": 1,
         "aliases": [
           "The Epistle Dedicatory to Simon Grynaeus"
-        ]
+        ],
+        "source_index": 0,
+        "source_anchor": "THE EPISTLE DEDICATORY"
       },
       {
-        "title": "The Argument on the Epistle to the Romans",
+        "title": "Romans",
         "destination": 8,
         "level": 1,
         "aliases": [
           "The Argument on the Epistle to the Romans"
-        ]
-      },
-      {
-        "title": "Commentaries on the Epistle of St. Paul to the Romans",
-        "destination": 16,
-        "level": 1,
-        "aliases": [
-          "Commentaries on the Epistle of St. Paul to the Romans"
-        ]
+        ],
+        "source_index": 16,
+        "source_anchor": "EPISTLE TO THE ROMANS."
       },
       {
         "title": "Chapter 1",
         "destination": 16,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 1"
-        ]
+        ],
+        "source_index": 37,
+        "source_anchor": "CHAPTER 1"
       },
       {
         "title": "Chapter 2",
         "destination": 61,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 2"
-        ]
+        ],
+        "source_index": 257,
+        "source_anchor": "CHAPTER 2"
       },
       {
         "title": "Chapter 3",
         "destination": 91,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 3"
-        ]
+        ],
+        "source_index": 411,
+        "source_anchor": "CHAPTER 3"
       },
       {
         "title": "Chapter 4",
         "destination": 131,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 4"
-        ]
+        ],
+        "source_index": 605,
+        "source_anchor": "CHAPTER 4"
       },
       {
         "title": "Chapter 5",
         "destination": 165,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 5"
-        ]
+        ],
+        "source_index": 758,
+        "source_anchor": "CHAPTER 5"
       },
       {
         "title": "Chapter 6",
         "destination": 196,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 6"
-        ]
+        ],
+        "source_index": 889,
+        "source_anchor": "CHAPTER 6"
       },
       {
         "title": "Chapter 7",
         "destination": 222,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 7"
-        ]
+        ],
+        "source_index": 1011,
+        "source_anchor": "CHAPTER 7"
       },
       {
         "title": "Chapter 8",
         "destination": 254,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 8"
-        ]
+        ],
+        "source_index": 1169,
+        "source_anchor": "CHAPTER 8"
       },
       {
         "title": "Chapter 9",
         "destination": 312,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 9"
-        ]
+        ],
+        "source_index": 1431,
+        "source_anchor": "CHAPTER 9"
       },
       {
         "title": "Chapter 10",
         "destination": 361,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 10"
-        ]
+        ],
+        "source_index": 1638,
+        "source_anchor": "CHAPTER 10"
       },
       {
         "title": "Chapter 11",
         "destination": 387,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 11"
-        ]
+        ],
+        "source_index": 1765,
+        "source_anchor": "CHAPTER 11"
       },
       {
         "title": "Chapter 12",
         "destination": 429,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 12"
-        ]
+        ],
+        "source_index": 1967,
+        "source_anchor": "CHAPTER 12"
       },
       {
         "title": "Chapter 13",
         "destination": 458,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 13"
-        ]
+        ],
+        "source_index": 2106,
+        "source_anchor": "CHAPTER 13"
       },
       {
         "title": "Chapter 14",
         "destination": 473,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 14"
-        ]
+        ],
+        "source_index": 2187,
+        "source_anchor": "CHAPTER 14"
       },
       {
         "title": "Chapter 15",
         "destination": 496,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 15"
-        ]
+        ],
+        "source_index": 2315,
+        "source_anchor": "CHAPTER 15 [436]"
       },
       {
         "title": "Chapter 16",
         "destination": 525,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Chapter 16"
-        ]
+        ],
+        "source_index": 2488,
+        "source_anchor": "CHAPTER 16"
       }
     ],
     "visual_review_complete": true,
-    "reviewer_navigation_uses_audited_entries": true
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Dedication to Simon Grynaeus",
+      "destination": 3,
+      "level": 1,
+      "aliases": [
+        "The Epistle Dedicatory to Simon Grynaeus"
+      ],
+      "source_index": 0,
+      "source_anchor": "THE EPISTLE DEDICATORY"
+    },
+    {
+      "title": "Romans",
+      "destination": 8,
+      "level": 1,
+      "aliases": [
+        "The Argument on the Epistle to the Romans"
+      ],
+      "source_index": 16,
+      "source_anchor": "EPISTLE TO THE ROMANS."
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 16,
+      "level": 2,
+      "aliases": [
+        "Chapter 1"
+      ],
+      "source_index": 37,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 61,
+      "level": 2,
+      "aliases": [
+        "Chapter 2"
+      ],
+      "source_index": 257,
+      "source_anchor": "CHAPTER 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 91,
+      "level": 2,
+      "aliases": [
+        "Chapter 3"
+      ],
+      "source_index": 411,
+      "source_anchor": "CHAPTER 3"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 131,
+      "level": 2,
+      "aliases": [
+        "Chapter 4"
+      ],
+      "source_index": 605,
+      "source_anchor": "CHAPTER 4"
+    },
+    {
+      "title": "Chapter 5",
+      "destination": 165,
+      "level": 2,
+      "aliases": [
+        "Chapter 5"
+      ],
+      "source_index": 758,
+      "source_anchor": "CHAPTER 5"
+    },
+    {
+      "title": "Chapter 6",
+      "destination": 196,
+      "level": 2,
+      "aliases": [
+        "Chapter 6"
+      ],
+      "source_index": 889,
+      "source_anchor": "CHAPTER 6"
+    },
+    {
+      "title": "Chapter 7",
+      "destination": 222,
+      "level": 2,
+      "aliases": [
+        "Chapter 7"
+      ],
+      "source_index": 1011,
+      "source_anchor": "CHAPTER 7"
+    },
+    {
+      "title": "Chapter 8",
+      "destination": 254,
+      "level": 2,
+      "aliases": [
+        "Chapter 8"
+      ],
+      "source_index": 1169,
+      "source_anchor": "CHAPTER 8"
+    },
+    {
+      "title": "Chapter 9",
+      "destination": 312,
+      "level": 2,
+      "aliases": [
+        "Chapter 9"
+      ],
+      "source_index": 1431,
+      "source_anchor": "CHAPTER 9"
+    },
+    {
+      "title": "Chapter 10",
+      "destination": 361,
+      "level": 2,
+      "aliases": [
+        "Chapter 10"
+      ],
+      "source_index": 1638,
+      "source_anchor": "CHAPTER 10"
+    },
+    {
+      "title": "Chapter 11",
+      "destination": 387,
+      "level": 2,
+      "aliases": [
+        "Chapter 11"
+      ],
+      "source_index": 1765,
+      "source_anchor": "CHAPTER 11"
+    },
+    {
+      "title": "Chapter 12",
+      "destination": 429,
+      "level": 2,
+      "aliases": [
+        "Chapter 12"
+      ],
+      "source_index": 1967,
+      "source_anchor": "CHAPTER 12"
+    },
+    {
+      "title": "Chapter 13",
+      "destination": 458,
+      "level": 2,
+      "aliases": [
+        "Chapter 13"
+      ],
+      "source_index": 2106,
+      "source_anchor": "CHAPTER 13"
+    },
+    {
+      "title": "Chapter 14",
+      "destination": 473,
+      "level": 2,
+      "aliases": [
+        "Chapter 14"
+      ],
+      "source_index": 2187,
+      "source_anchor": "CHAPTER 14"
+    },
+    {
+      "title": "Chapter 15",
+      "destination": 496,
+      "level": 2,
+      "aliases": [
+        "Chapter 15"
+      ],
+      "source_index": 2315,
+      "source_anchor": "CHAPTER 15 [436]"
+    },
+    {
+      "title": "Chapter 16",
+      "destination": 525,
+      "level": 2,
+      "aliases": [
+        "Chapter 16"
+      ],
+      "source_index": 2488,
+      "source_anchor": "CHAPTER 16"
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom38_package\\verification.json",
+    "current_interior_sha256": "b874bcdb9d1acc0d7af1c7aedc8bae7d6a219c735a297694aee91735c92935aa",
+    "previous_interior_sha256": "db859b37fe2869a23b6e6511b0f75b0ab5b2c15472a9b925bbc41c9638bbe11d",
+    "approved_edition_updated": true
   }
 }

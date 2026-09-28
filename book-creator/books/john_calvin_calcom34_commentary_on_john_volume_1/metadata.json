@@ -14,9 +14,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 421,
   "body_page_count": 419,
-  "generated_contents_entries": 14,
-  "generated_contents_entries_in_pdf": 14,
-  "detected_heading_count": 14,
+  "generated_contents_entries": 13,
+  "generated_contents_entries_in_pdf": 13,
+  "detected_heading_count": 13,
   "interior_filename": "john_calvin_calcom34_commentary_on_john_volume_1_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom34_commentary_on_john_volume_1_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom34_commentary_on_john_volume_1_paperback_cover.pdf",
@@ -91,7 +91,7 @@
       10
     ],
     "all_interior_pages_rendered": 421,
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom34_package\\verification.json",
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom34_package\\verification.json",
     "original_editions_preserved_in_backup": true
   },
   "cover_facts": {
@@ -325,7 +325,7 @@
     "original_package_backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\archive\\package_fonts_originals_20260926\\john_calvin_calcom34_commentary_on_john_volume_1",
     "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom34_commentary_on_john_volume_1.json",
     "current_pdf_sha256": {
-      "john_calvin_calcom34_commentary_on_john_volume_1_interior.pdf": "8f9fc03b0ede8a9dacf771a6ff46d66f300f5e0b1024f763e4c061dc5ecca8cb",
+      "john_calvin_calcom34_commentary_on_john_volume_1_interior.pdf": "355e72520bef0bc4abec9a2377327726ccd1e915ed91e5b340ef48b0898034d9",
       "john_calvin_calcom34_commentary_on_john_volume_1_paperback_cover.pdf": "ee042b9659d728be1d61de001e00baf5b3501d473fc15113b8fb709c99084608",
       "john_calvin_calcom34_commentary_on_john_volume_1_hardcover_cover.pdf": "b4cc9c340090b2b0d7d5fade28bdcb92041571b6291276b2904c860fc3a934cc"
     },
@@ -404,7 +404,7 @@
     "edition_title": "Commentary on John, Volume I",
     "approved_page_count": 421,
     "approved_pdf_sha256": {
-      "john_calvin_calcom34_commentary_on_john_volume_1_interior.pdf": "8f9fc03b0ede8a9dacf771a6ff46d66f300f5e0b1024f763e4c061dc5ecca8cb",
+      "john_calvin_calcom34_commentary_on_john_volume_1_interior.pdf": "355e72520bef0bc4abec9a2377327726ccd1e915ed91e5b340ef48b0898034d9",
       "john_calvin_calcom34_commentary_on_john_volume_1_paperback_cover.pdf": "ee042b9659d728be1d61de001e00baf5b3501d473fc15113b8fb709c99084608",
       "john_calvin_calcom34_commentary_on_john_volume_1_hardcover_cover.pdf": "b4cc9c340090b2b0d7d5fade28bdcb92041571b6291276b2904c860fc3a934cc"
     },
@@ -466,5 +466,295 @@
       2,
       10
     ]
+  },
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "8f9fc03b0ede8a9dacf771a6ff46d66f300f5e0b1024f763e4c061dc5ecca8cb",
+    "after_sha256": "355e72520bef0bc4abec9a2377327726ccd1e915ed91e5b340ef48b0898034d9",
+    "page_count": 421,
+    "old_entries": 14,
+    "entry_count": 13,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2
+    ],
+    "entries": [
+      {
+        "title": "Dedication to the Syndics and Council of Geneva",
+        "destination": 3,
+        "level": 1,
+        "aliases": [
+          "The Author's Epistle Dedicatory to the Syndics and Council of Geneva"
+        ],
+        "source_index": 0,
+        "source_anchor": "THE AUTHOR'S EPISTLE DEDICATORY"
+      },
+      {
+        "title": "John",
+        "destination": 7,
+        "level": 1,
+        "aliases": [
+          "The Argument of the Gospel of John"
+        ],
+        "source_index": 18,
+        "source_anchor": "THE ARGUMENT"
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 10,
+        "level": 2,
+        "aliases": [
+          "Chapter 1"
+        ],
+        "source_index": 36,
+        "source_anchor": "CHAPTER 1"
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 64,
+        "level": 2,
+        "aliases": [
+          "Chapter 2"
+        ],
+        "source_index": 234,
+        "source_anchor": "CHAPTER 2"
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 85,
+        "level": 2,
+        "aliases": [
+          "Chapter 3"
+        ],
+        "source_index": 307,
+        "source_anchor": "CHAPTER 3"
+      },
+      {
+        "title": "Chapter 4",
+        "destination": 122,
+        "level": 2,
+        "aliases": [
+          "Chapter 4"
+        ],
+        "source_index": 438,
+        "source_anchor": "CHAPTER 4"
+      },
+      {
+        "title": "Chapter 5",
+        "destination": 161,
+        "level": 2,
+        "aliases": [
+          "Chapter 5"
+        ],
+        "source_index": 579,
+        "source_anchor": "CHAPTER 5"
+      },
+      {
+        "title": "Chapter 6",
+        "destination": 200,
+        "level": 2,
+        "aliases": [
+          "Chapter 6"
+        ],
+        "source_index": 721,
+        "source_anchor": "CHAPTER 6"
+      },
+      {
+        "title": "Chapter 7",
+        "destination": 253,
+        "level": 2,
+        "aliases": [
+          "Chapter 7"
+        ],
+        "source_index": 952,
+        "source_anchor": "CHAPTER 7"
+      },
+      {
+        "title": "Chapter 8",
+        "destination": 289,
+        "level": 2,
+        "aliases": [
+          "Chapter 8"
+        ],
+        "source_index": 1101,
+        "source_anchor": "CHAPTER 8"
+      },
+      {
+        "title": "Chapter 9",
+        "destination": 332,
+        "level": 2,
+        "aliases": [
+          "Chapter 9"
+        ],
+        "source_index": 1289,
+        "source_anchor": "CHAPTER 9"
+      },
+      {
+        "title": "Chapter 10",
+        "destination": 361,
+        "level": 2,
+        "aliases": [
+          "Chapter 10"
+        ],
+        "source_index": 1420,
+        "source_anchor": "CHAPTER 10"
+      },
+      {
+        "title": "Chapter 11",
+        "destination": 390,
+        "level": 2,
+        "aliases": [
+          "Chapter 11"
+        ],
+        "source_index": 1566,
+        "source_anchor": "CHAPTER 11"
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Dedication to the Syndics and Council of Geneva",
+      "destination": 3,
+      "level": 1,
+      "aliases": [
+        "The Author's Epistle Dedicatory to the Syndics and Council of Geneva"
+      ],
+      "source_index": 0,
+      "source_anchor": "THE AUTHOR'S EPISTLE DEDICATORY"
+    },
+    {
+      "title": "John",
+      "destination": 7,
+      "level": 1,
+      "aliases": [
+        "The Argument of the Gospel of John"
+      ],
+      "source_index": 18,
+      "source_anchor": "THE ARGUMENT"
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 10,
+      "level": 2,
+      "aliases": [
+        "Chapter 1"
+      ],
+      "source_index": 36,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 64,
+      "level": 2,
+      "aliases": [
+        "Chapter 2"
+      ],
+      "source_index": 234,
+      "source_anchor": "CHAPTER 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 85,
+      "level": 2,
+      "aliases": [
+        "Chapter 3"
+      ],
+      "source_index": 307,
+      "source_anchor": "CHAPTER 3"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 122,
+      "level": 2,
+      "aliases": [
+        "Chapter 4"
+      ],
+      "source_index": 438,
+      "source_anchor": "CHAPTER 4"
+    },
+    {
+      "title": "Chapter 5",
+      "destination": 161,
+      "level": 2,
+      "aliases": [
+        "Chapter 5"
+      ],
+      "source_index": 579,
+      "source_anchor": "CHAPTER 5"
+    },
+    {
+      "title": "Chapter 6",
+      "destination": 200,
+      "level": 2,
+      "aliases": [
+        "Chapter 6"
+      ],
+      "source_index": 721,
+      "source_anchor": "CHAPTER 6"
+    },
+    {
+      "title": "Chapter 7",
+      "destination": 253,
+      "level": 2,
+      "aliases": [
+        "Chapter 7"
+      ],
+      "source_index": 952,
+      "source_anchor": "CHAPTER 7"
+    },
+    {
+      "title": "Chapter 8",
+      "destination": 289,
+      "level": 2,
+      "aliases": [
+        "Chapter 8"
+      ],
+      "source_index": 1101,
+      "source_anchor": "CHAPTER 8"
+    },
+    {
+      "title": "Chapter 9",
+      "destination": 332,
+      "level": 2,
+      "aliases": [
+        "Chapter 9"
+      ],
+      "source_index": 1289,
+      "source_anchor": "CHAPTER 9"
+    },
+    {
+      "title": "Chapter 10",
+      "destination": 361,
+      "level": 2,
+      "aliases": [
+        "Chapter 10"
+      ],
+      "source_index": 1420,
+      "source_anchor": "CHAPTER 10"
+    },
+    {
+      "title": "Chapter 11",
+      "destination": 390,
+      "level": 2,
+      "aliases": [
+        "Chapter 11"
+      ],
+      "source_index": 1566,
+      "source_anchor": "CHAPTER 11"
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom34_package\\verification.json",
+    "current_interior_sha256": "355e72520bef0bc4abec9a2377327726ccd1e915ed91e5b340ef48b0898034d9",
+    "previous_interior_sha256": "8f9fc03b0ede8a9dacf771a6ff46d66f300f5e0b1024f763e4c061dc5ecca8cb",
+    "approved_edition_updated": true
   }
 }

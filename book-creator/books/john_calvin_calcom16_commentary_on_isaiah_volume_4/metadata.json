@@ -14,9 +14,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 427,
   "body_page_count": 425,
-  "generated_contents_entries": 18,
-  "generated_contents_entries_in_pdf": 18,
-  "detected_heading_count": 18,
+  "generated_contents_entries": 19,
+  "generated_contents_entries_in_pdf": 19,
+  "detected_heading_count": 19,
   "interior_filename": "john_calvin_calcom16_commentary_on_isaiah_volume_4_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom16_commentary_on_isaiah_volume_4_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom16_commentary_on_isaiah_volume_4_paperback_cover.pdf",
@@ -91,7 +91,8 @@
     "page_count": 427,
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
-    "body_text_matches_previous_approved_edition": true
+    "body_text_matches_previous_approved_edition": true,
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom16_approved\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -320,5 +321,458 @@
     "font_change_scope": "Palatino Linotype body and running headers",
     "special_glyph_fallback": null,
     "math_font": null
+  },
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "7a26ddb52dfbe3edaafae43449740fa3a15082b26d56335aeaa9f558f36d9b9a",
+    "after_sha256": "974b2b18b34efa50338bcd0b0b84bf72ef276d862b3c18554cab1190efb07a6c",
+    "page_count": 427,
+    "old_entries": 18,
+    "entry_count": 19,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2
+    ],
+    "entries": [
+      {
+        "title": "Isaiah",
+        "destination": 3,
+        "level": 1,
+        "aliases": [
+          "Chapter 49",
+          "Chapter 49"
+        ],
+        "source_index": 0,
+        "source_anchor": "CHAPTER 49."
+      },
+      {
+        "title": "Chapter 49",
+        "destination": 3,
+        "level": 2,
+        "aliases": [
+          "Chapter 49",
+          "Chapter 49"
+        ],
+        "source_index": 0,
+        "source_anchor": "CHAPTER 49."
+      },
+      {
+        "title": "Chapter 50",
+        "destination": 42,
+        "level": 2,
+        "aliases": [
+          "Chapter 50",
+          "Chapter 50"
+        ],
+        "source_index": 179,
+        "source_anchor": "CHAPTER 50."
+      },
+      {
+        "title": "Chapter 51",
+        "destination": 59,
+        "level": 2,
+        "aliases": [
+          "Chapter 51",
+          "Chapter 51"
+        ],
+        "source_index": 256,
+        "source_anchor": "CHAPTER 51."
+      },
+      {
+        "title": "Chapter 52",
+        "destination": 86,
+        "level": 2,
+        "aliases": [
+          "Chapter 52",
+          "Chapter 52"
+        ],
+        "source_index": 411,
+        "source_anchor": "CHAPTER 52."
+      },
+      {
+        "title": "Chapter 53",
+        "destination": 104,
+        "level": 2,
+        "aliases": [
+          "Chapter 53",
+          "Chapter 53"
+        ],
+        "source_index": 512,
+        "source_anchor": "CHAPTER 53."
+      },
+      {
+        "title": "Chapter 54",
+        "destination": 126,
+        "level": 2,
+        "aliases": [
+          "Chapter 54",
+          "Chapter 54"
+        ],
+        "source_index": 611,
+        "source_anchor": "CHAPTER 54."
+      },
+      {
+        "title": "Chapter 55",
+        "destination": 147,
+        "level": 2,
+        "aliases": [
+          "Chapter 55",
+          "Chapter 55"
+        ],
+        "source_index": 727,
+        "source_anchor": "CHAPTER 55."
+      },
+      {
+        "title": "Chapter 56",
+        "destination": 167,
+        "level": 2,
+        "aliases": [
+          "Chapter 56",
+          "Chapter 56"
+        ],
+        "source_index": 830,
+        "source_anchor": "CHAPTER 56."
+      },
+      {
+        "title": "Chapter 57",
+        "destination": 185,
+        "level": 2,
+        "aliases": [
+          "Chapter 57",
+          "Chapter 57"
+        ],
+        "source_index": 925,
+        "source_anchor": "CHAPTER 57."
+      },
+      {
+        "title": "Chapter 58",
+        "destination": 213,
+        "level": 2,
+        "aliases": [
+          "Chapter 58",
+          "Chapter 58"
+        ],
+        "source_index": 1066,
+        "source_anchor": "CHAPTER 58."
+      },
+      {
+        "title": "Chapter 59",
+        "destination": 235,
+        "level": 2,
+        "aliases": [
+          "Chapter 59",
+          "Chapter 59"
+        ],
+        "source_index": 1163,
+        "source_anchor": "CHAPTER 59."
+      },
+      {
+        "title": "Chapter 60",
+        "destination": 263,
+        "level": 2,
+        "aliases": [
+          "Chapter 60",
+          "Chapter 60"
+        ],
+        "source_index": 1305,
+        "source_anchor": "CHAPTER 60."
+      },
+      {
+        "title": "Chapter 61",
+        "destination": 291,
+        "level": 2,
+        "aliases": [
+          "Chapter 61",
+          "Chapter 61"
+        ],
+        "source_index": 1449,
+        "source_anchor": "CHAPTER 61."
+      },
+      {
+        "title": "Chapter 62",
+        "destination": 308,
+        "level": 2,
+        "aliases": [
+          "Chapter 62",
+          "Chapter 62"
+        ],
+        "source_index": 1531,
+        "source_anchor": "CHAPTER 62."
+      },
+      {
+        "title": "Chapter 63",
+        "destination": 324,
+        "level": 2,
+        "aliases": [
+          "Chapter 63",
+          "Chapter 63"
+        ],
+        "source_index": 1616,
+        "source_anchor": "CHAPTER 63."
+      },
+      {
+        "title": "Chapter 64",
+        "destination": 349,
+        "level": 2,
+        "aliases": [
+          "Chapter 64",
+          "Chapter 64"
+        ],
+        "source_index": 1754,
+        "source_anchor": "CHAPTER 64."
+      },
+      {
+        "title": "Chapter 65",
+        "destination": 364,
+        "level": 2,
+        "aliases": [
+          "Chapter 65",
+          "Chapter 65"
+        ],
+        "source_index": 1836,
+        "source_anchor": "CHAPTER 65."
+      },
+      {
+        "title": "Chapter 66",
+        "destination": 395,
+        "level": 2,
+        "aliases": [
+          "Chapter 66",
+          "Chapter 66"
+        ],
+        "source_index": 1995,
+        "source_anchor": "CHAPTER 66."
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Isaiah",
+      "destination": 3,
+      "level": 1,
+      "aliases": [
+        "Chapter 49",
+        "Chapter 49"
+      ],
+      "source_index": 0,
+      "source_anchor": "CHAPTER 49."
+    },
+    {
+      "title": "Chapter 49",
+      "destination": 3,
+      "level": 2,
+      "aliases": [
+        "Chapter 49",
+        "Chapter 49"
+      ],
+      "source_index": 0,
+      "source_anchor": "CHAPTER 49."
+    },
+    {
+      "title": "Chapter 50",
+      "destination": 42,
+      "level": 2,
+      "aliases": [
+        "Chapter 50",
+        "Chapter 50"
+      ],
+      "source_index": 179,
+      "source_anchor": "CHAPTER 50."
+    },
+    {
+      "title": "Chapter 51",
+      "destination": 59,
+      "level": 2,
+      "aliases": [
+        "Chapter 51",
+        "Chapter 51"
+      ],
+      "source_index": 256,
+      "source_anchor": "CHAPTER 51."
+    },
+    {
+      "title": "Chapter 52",
+      "destination": 86,
+      "level": 2,
+      "aliases": [
+        "Chapter 52",
+        "Chapter 52"
+      ],
+      "source_index": 411,
+      "source_anchor": "CHAPTER 52."
+    },
+    {
+      "title": "Chapter 53",
+      "destination": 104,
+      "level": 2,
+      "aliases": [
+        "Chapter 53",
+        "Chapter 53"
+      ],
+      "source_index": 512,
+      "source_anchor": "CHAPTER 53."
+    },
+    {
+      "title": "Chapter 54",
+      "destination": 126,
+      "level": 2,
+      "aliases": [
+        "Chapter 54",
+        "Chapter 54"
+      ],
+      "source_index": 611,
+      "source_anchor": "CHAPTER 54."
+    },
+    {
+      "title": "Chapter 55",
+      "destination": 147,
+      "level": 2,
+      "aliases": [
+        "Chapter 55",
+        "Chapter 55"
+      ],
+      "source_index": 727,
+      "source_anchor": "CHAPTER 55."
+    },
+    {
+      "title": "Chapter 56",
+      "destination": 167,
+      "level": 2,
+      "aliases": [
+        "Chapter 56",
+        "Chapter 56"
+      ],
+      "source_index": 830,
+      "source_anchor": "CHAPTER 56."
+    },
+    {
+      "title": "Chapter 57",
+      "destination": 185,
+      "level": 2,
+      "aliases": [
+        "Chapter 57",
+        "Chapter 57"
+      ],
+      "source_index": 925,
+      "source_anchor": "CHAPTER 57."
+    },
+    {
+      "title": "Chapter 58",
+      "destination": 213,
+      "level": 2,
+      "aliases": [
+        "Chapter 58",
+        "Chapter 58"
+      ],
+      "source_index": 1066,
+      "source_anchor": "CHAPTER 58."
+    },
+    {
+      "title": "Chapter 59",
+      "destination": 235,
+      "level": 2,
+      "aliases": [
+        "Chapter 59",
+        "Chapter 59"
+      ],
+      "source_index": 1163,
+      "source_anchor": "CHAPTER 59."
+    },
+    {
+      "title": "Chapter 60",
+      "destination": 263,
+      "level": 2,
+      "aliases": [
+        "Chapter 60",
+        "Chapter 60"
+      ],
+      "source_index": 1305,
+      "source_anchor": "CHAPTER 60."
+    },
+    {
+      "title": "Chapter 61",
+      "destination": 291,
+      "level": 2,
+      "aliases": [
+        "Chapter 61",
+        "Chapter 61"
+      ],
+      "source_index": 1449,
+      "source_anchor": "CHAPTER 61."
+    },
+    {
+      "title": "Chapter 62",
+      "destination": 308,
+      "level": 2,
+      "aliases": [
+        "Chapter 62",
+        "Chapter 62"
+      ],
+      "source_index": 1531,
+      "source_anchor": "CHAPTER 62."
+    },
+    {
+      "title": "Chapter 63",
+      "destination": 324,
+      "level": 2,
+      "aliases": [
+        "Chapter 63",
+        "Chapter 63"
+      ],
+      "source_index": 1616,
+      "source_anchor": "CHAPTER 63."
+    },
+    {
+      "title": "Chapter 64",
+      "destination": 349,
+      "level": 2,
+      "aliases": [
+        "Chapter 64",
+        "Chapter 64"
+      ],
+      "source_index": 1754,
+      "source_anchor": "CHAPTER 64."
+    },
+    {
+      "title": "Chapter 65",
+      "destination": 364,
+      "level": 2,
+      "aliases": [
+        "Chapter 65",
+        "Chapter 65"
+      ],
+      "source_index": 1836,
+      "source_anchor": "CHAPTER 65."
+    },
+    {
+      "title": "Chapter 66",
+      "destination": 395,
+      "level": 2,
+      "aliases": [
+        "Chapter 66",
+        "Chapter 66"
+      ],
+      "source_index": 1995,
+      "source_anchor": "CHAPTER 66."
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom16_approved\\verification.json",
+    "current_interior_sha256": "974b2b18b34efa50338bcd0b0b84bf72ef276d862b3c18554cab1190efb07a6c",
+    "previous_interior_sha256": "7a26ddb52dfbe3edaafae43449740fa3a15082b26d56335aeaa9f558f36d9b9a",
+    "approved_edition_updated": true
+  },
+  "font_update_20260926": {
+    "current_pdf_sha256": {
+      "john_calvin_calcom16_commentary_on_isaiah_volume_4_interior.pdf": "974b2b18b34efa50338bcd0b0b84bf72ef276d862b3c18554cab1190efb07a6c"
+    }
   }
 }

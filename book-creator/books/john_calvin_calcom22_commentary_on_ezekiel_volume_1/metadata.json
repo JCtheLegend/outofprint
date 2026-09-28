@@ -21,9 +21,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 389,
   "body_page_count": 386,
-  "generated_contents_entries": 47,
-  "generated_contents_entries_in_pdf": 47,
-  "detected_heading_count": 47,
+  "generated_contents_entries": 48,
+  "generated_contents_entries_in_pdf": 48,
+  "detected_heading_count": 48,
   "interior_filename": "john_calvin_calcom22_commentary_on_ezekiel_volume_1_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom22_commentary_on_ezekiel_volume_1_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom22_commentary_on_ezekiel_volume_1_paperback_cover.pdf",
@@ -99,7 +99,7 @@
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
     "body_text_matches_previous_approved_edition": true,
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom22_approved\\verification.json"
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom22_approved\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -324,11 +324,11 @@
   },
   "contents_audit_20260927": {
     "status": "verified",
-    "before_sha256": "3cd58ae1466c1741cec995ee4805f1687f96cbae7b030aa56a42aa9175848a99",
-    "after_sha256": "1848532ebfc5804c8e504b93bfee528b0acb534172c61cd3ac68666b4218fffb",
+    "before_sha256": "1848532ebfc5804c8e504b93bfee528b0acb534172c61cd3ac68666b4218fffb",
+    "after_sha256": "abaadc6d5897aadbfcb23f5d8db78c7124ed9f17c9d10627934316e1456e9b51",
     "page_count": 389,
-    "old_entries": 48,
-    "entry_count": 47,
+    "old_entries": 47,
+    "entry_count": 48,
     "all_non_contents_page_text_and_streams_unchanged": true,
     "sample_body_renders_identical": true,
     "embedded_truetype_fonts": true,
@@ -343,384 +343,1075 @@
         "destination": 4,
         "level": 1,
         "aliases": [
+          "Dedication to D. Gaspar de Coligny",
           "Dedication to D. Gaspar de Coligny"
-        ]
+        ],
+        "source_index": 0,
+        "source_anchor": "DEDICATION"
       },
       {
-        "title": "To All Truly Christian Readers. Health",
+        "title": "To the Christian Reader",
         "destination": 12,
         "level": 1,
         "aliases": [
+          "To All Truly Christian Readers. Health",
           "To All Truly Christian Readers. Health"
-        ]
+        ],
+        "source_index": 21,
+        "source_anchor": "TO ALL TRULY CHRISTIAN READERS. HEALTH."
       },
       {
-        "title": "Ezekiel 1",
+        "title": "Ezekiel",
         "destination": 15,
         "level": 1,
         "aliases": [
+          "Ezekiel 1",
           "Chapter 1"
-        ]
+        ],
+        "source_index": 28,
+        "source_anchor": "CHAPTER 1"
       },
       {
-        "title": "Lecture First",
+        "title": "Chapter 1",
         "destination": 15,
         "level": 2,
         "aliases": [
+          "Ezekiel 1",
+          "Chapter 1"
+        ],
+        "source_index": 28,
+        "source_anchor": "CHAPTER 1"
+      },
+      {
+        "title": "Lecture 1",
+        "destination": 15,
+        "level": 3,
+        "aliases": [
+          "Lecture First",
           "Lecture First"
-        ]
+        ],
+        "source_index": 29,
+        "source_anchor": "Lecture First"
       },
       {
-        "title": "Lecture Second",
+        "title": "Lecture 2",
         "destination": 26,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Second",
           "Lecture Second"
-        ]
+        ],
+        "source_index": 51,
+        "source_anchor": "Lecture Second."
       },
       {
-        "title": "Lecture Third",
+        "title": "Lecture 3",
         "destination": 37,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Third",
           "Lecture Third"
-        ]
+        ],
+        "source_index": 93,
+        "source_anchor": "Lecture Third"
       },
       {
-        "title": "Lecture Fourth",
+        "title": "Lecture 4",
         "destination": 49,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fourth",
           "Lecture Fourth"
-        ]
+        ],
+        "source_index": 138,
+        "source_anchor": "Lecture Fourth"
       },
       {
-        "title": "Lecture Fifth",
+        "title": "Lecture 5",
         "destination": 59,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fifth",
           "Lecture Fifth"
-        ]
+        ],
+        "source_index": 187,
+        "source_anchor": "Lecture fifth."
       },
       {
-        "title": "Lecture Sixth",
+        "title": "Lecture 6",
         "destination": 71,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Sixth",
           "Lecture Sixth"
-        ]
+        ],
+        "source_index": 222,
+        "source_anchor": "Lecture Sixth."
       },
       {
-        "title": "Ezekiel 2",
+        "title": "Chapter 2",
         "destination": 72,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Ezekiel 2",
           "Chapter 2"
-        ]
+        ],
+        "source_index": 224,
+        "source_anchor": "CHAPTER 2"
       },
       {
-        "title": "Lecture Seventh",
+        "title": "Lecture 7",
         "destination": 83,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Seventh",
           "Lecture Seventh"
-        ]
+        ],
+        "source_index": 257,
+        "source_anchor": "Lecture Seventh."
       },
       {
-        "title": "Lecture Eighth",
+        "title": "Lecture 8",
         "destination": 94,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Eighth",
           "Lecture Eighth"
-        ]
+        ],
+        "source_index": 290,
+        "source_anchor": "Lecture Eighth."
       },
       {
-        "title": "Ezekiel 3",
+        "title": "Chapter 3",
         "destination": 94,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Ezekiel 3",
           "Chapter 3"
-        ]
+        ],
+        "source_index": 291,
+        "source_anchor": "CHAPTER 3"
       },
       {
-        "title": "Lecture Ninth",
+        "title": "Lecture 9",
         "destination": 106,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Ninth",
           "Lecture Ninth"
-        ]
+        ],
+        "source_index": 337,
+        "source_anchor": "Lecture Ninth."
       },
       {
-        "title": "Lecture Tenth",
+        "title": "Lecture 10",
         "destination": 117,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Tenth",
           "Lecture Tenth"
-        ]
+        ],
+        "source_index": 376,
+        "source_anchor": "Lecture Tenth."
       },
       {
-        "title": "Lecture Eleventh",
+        "title": "Lecture 11",
         "destination": 128,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Eleventh",
           "Lecture Eleventh"
-        ]
+        ],
+        "source_index": 403,
+        "source_anchor": "Lecture Eleventh."
       },
       {
-        "title": "Ezekiel 4",
+        "title": "Chapter 4",
         "destination": 136,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Ezekiel 4",
           "Chapter 4"
-        ]
+        ],
+        "source_index": 439,
+        "source_anchor": "CHAPTER 4"
       },
       {
-        "title": "Lecture Twelfth",
+        "title": "Lecture 12",
         "destination": 139,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twelfth",
           "Lecture Twelfth"
-        ]
+        ],
+        "source_index": 452,
+        "source_anchor": "Lecture twelfth"
       },
       {
-        "title": "Lecture Thirteenth",
+        "title": "Lecture 13",
         "destination": 151,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Thirteenth",
           "Lecture Thirteen"
-        ]
+        ],
+        "source_index": 492,
+        "source_anchor": "Lecture Thirteen"
       },
       {
-        "title": "Ezekiel 5",
+        "title": "Chapter 5",
         "destination": 157,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Ezekiel 5",
           "Chapter 5"
-        ]
+        ],
+        "source_index": 524,
+        "source_anchor": "CHAPTER 5"
       },
       {
-        "title": "Lecture Fourteenth",
+        "title": "Lecture 14",
         "destination": 163,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fourteenth",
           "Lecture Fourteen"
-        ]
+        ],
+        "source_index": 547,
+        "source_anchor": "Lecture fourteen."
       },
       {
-        "title": "Lecture Fifteen",
+        "title": "Lecture 15",
         "destination": 174,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fifteen",
           "Lecture Fifteen"
-        ]
+        ],
+        "source_index": 588,
+        "source_anchor": "Lecture fifteen"
       },
       {
-        "title": "Lecture Sixteenth",
+        "title": "Lecture 16",
         "destination": 185,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Sixteenth",
           "Lecture Sixteenth"
-        ]
+        ],
+        "source_index": 628,
+        "source_anchor": "Lecture sixteenth"
       },
       {
-        "title": "Ezekiel 6",
+        "title": "Chapter 6",
         "destination": 185,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Ezekiel 6",
           "Chapter 6"
-        ]
+        ],
+        "source_index": 629,
+        "source_anchor": "CHAPTER 6"
       },
       {
-        "title": "Lecture Seventeenth",
+        "title": "Lecture 17",
         "destination": 196,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Seventeenth",
           "Lecture Seventeenth"
-        ]
+        ],
+        "source_index": 681,
+        "source_anchor": "Lecture Seventeenth."
       },
       {
-        "title": "Lecture Eighteenth",
+        "title": "Lecture 18",
         "destination": 207,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Eighteenth",
           "Lecture Eighteenth"
-        ]
+        ],
+        "source_index": 716,
+        "source_anchor": "Lecture Eighteenth"
       },
       {
-        "title": "Ezekiel 7",
+        "title": "Chapter 7",
         "destination": 210,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Ezekiel 7",
           "Chapter 7"
-        ]
+        ],
+        "source_index": 723,
+        "source_anchor": "CHAPTER 7"
       },
       {
-        "title": "Lecture Nineteenth",
+        "title": "Lecture 19",
         "destination": 219,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Nineteenth",
           "Lecture Nineteenth"
-        ]
+        ],
+        "source_index": 762,
+        "source_anchor": "Lecture Nineteenth."
       },
       {
-        "title": "Lecture Twentieth",
+        "title": "Lecture 20",
         "destination": 232,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twentieth",
           "Lecture Twentieth"
-        ]
+        ],
+        "source_index": 818,
+        "source_anchor": "Lecture Twentieth."
       },
       {
-        "title": "Lecture Twenty-First",
+        "title": "Lecture 21",
         "destination": 243,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twenty-First",
           "Lecture Twenty-First"
-        ]
+        ],
+        "source_index": 864,
+        "source_anchor": "Lecture twenty first."
       },
       {
-        "title": "Ezekiel 8",
+        "title": "Chapter 8",
         "destination": 246,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Ezekiel 8",
           "Chapter 8"
-        ]
+        ],
+        "source_index": 872,
+        "source_anchor": "Chapter 8"
       },
       {
-        "title": "Lecture Twenty-Second",
+        "title": "Lecture 22",
         "destination": 254,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twenty-Second",
           "Lecture Twenty-Second"
-        ]
+        ],
+        "source_index": 907,
+        "source_anchor": "Lecture Twenty-Second."
       },
       {
-        "title": "Lecture Twenty-Third",
+        "title": "Lecture 23",
         "destination": 264,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twenty-Third",
           "Lecture Twenty-Third"
-        ]
+        ],
+        "source_index": 944,
+        "source_anchor": "Lecture Twenty-third"
       },
       {
-        "title": "Ezekiel 9",
+        "title": "Chapter 9",
         "destination": 270,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Ezekiel 9",
           "Chapter 9"
-        ]
+        ],
+        "source_index": 965,
+        "source_anchor": "CHAPTER 9"
       },
       {
-        "title": "Lecture Twenty-Fourth",
+        "title": "Lecture 24",
         "destination": 276,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twenty-Fourth",
           "Lecture Twenty-Fourth"
-        ]
+        ],
+        "source_index": 995,
+        "source_anchor": "Lecture Twenty-fourth."
       },
       {
-        "title": "Lecture Twenty-Fifth",
+        "title": "Lecture 25",
         "destination": 287,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twenty-Fifth",
           "Lecture Twenty-Fifth"
-        ]
+        ],
+        "source_index": 1028,
+        "source_anchor": "Lecture Twenty fifth."
       },
       {
-        "title": "Ezekiel 10",
+        "title": "Chapter 10",
         "destination": 291,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Ezekiel 10",
           "Chapter 10"
-        ]
+        ],
+        "source_index": 1041,
+        "source_anchor": "CHAPTER 10"
       },
       {
-        "title": "Lecture Twenty-Sixth",
+        "title": "Lecture 26",
         "destination": 299,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twenty-Sixth",
           "Lecture Twenty-Sixth"
-        ]
+        ],
+        "source_index": 1075,
+        "source_anchor": "Lecture Twenty sixth."
       },
       {
-        "title": "Lecture Twenty-Seventh",
+        "title": "Lecture 27",
         "destination": 311,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twenty-Seventh",
           "Lecture Twenty-Seventh"
-        ]
+        ],
+        "source_index": 1128,
+        "source_anchor": "Lecture Twenty seventh."
       },
       {
-        "title": "Ezekiel 11",
+        "title": "Chapter 11",
         "destination": 319,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Ezekiel 11",
           "Chapter 11"
-        ]
+        ],
+        "source_index": 1163,
+        "source_anchor": "CHAPTER 11"
       },
       {
-        "title": "Lecture Twenty-Eighth",
+        "title": "Lecture 28",
         "destination": 324,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twenty-Eighth",
           "Lecture Twenty-Eighth"
-        ]
+        ],
+        "source_index": 1182,
+        "source_anchor": "Lecture Twenty eighth."
       },
       {
-        "title": "Lecture Twenty-Ninth",
+        "title": "Lecture 29",
         "destination": 335,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twenty-Ninth",
           "Lecture Twenty-Ninth"
-        ]
+        ],
+        "source_index": 1227,
+        "source_anchor": "Lecture Twenty-ninth"
       },
       {
-        "title": "Lecture Thirtieth",
+        "title": "Lecture 30",
         "destination": 345,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Thirtieth",
           "Lecture Thirtieth"
-        ]
+        ],
+        "source_index": 1262,
+        "source_anchor": "Lecture Thirtieth."
       },
       {
-        "title": "Lecture Thirty-First",
+        "title": "Lecture 31",
         "destination": 357,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Thirty-First",
           "Lecture Thirty-First"
-        ]
+        ],
+        "source_index": 1284,
+        "source_anchor": "Lecture Thirty First,"
       },
       {
-        "title": "Ezekiel 12",
+        "title": "Chapter 12",
         "destination": 361,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Ezekiel 12",
           "Chapter 12"
-        ]
+        ],
+        "source_index": 1303,
+        "source_anchor": "Chapter 12"
       },
       {
-        "title": "Lecture Thirty-Second",
+        "title": "Lecture 32",
         "destination": 369,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Thirty-Second",
           "Lecture Thirty-Second"
-        ]
+        ],
+        "source_index": 1338,
+        "source_anchor": "Lecture Thirty-second"
       },
       {
-        "title": "Lecture Thirty-Third",
+        "title": "Lecture 33",
         "destination": 380,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Thirty-Third",
           "Lecture Thirty-Third"
-        ]
+        ],
+        "source_index": 1385,
+        "source_anchor": "Lecture Thirty third"
       }
     ],
     "visual_review_complete": true,
-    "reviewer_navigation_uses_audited_entries": true
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
   },
   "font_update_20260926": {
     "current_pdf_sha256": {
-      "john_calvin_calcom22_commentary_on_ezekiel_volume_1_interior.pdf": "1848532ebfc5804c8e504b93bfee528b0acb534172c61cd3ac68666b4218fffb"
+      "john_calvin_calcom22_commentary_on_ezekiel_volume_1_interior.pdf": "abaadc6d5897aadbfcb23f5d8db78c7124ed9f17c9d10627934316e1456e9b51"
     }
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Dedication to D. Gaspar de Coligny",
+      "destination": 4,
+      "level": 1,
+      "aliases": [
+        "Dedication to D. Gaspar de Coligny",
+        "Dedication to D. Gaspar de Coligny"
+      ],
+      "source_index": 0,
+      "source_anchor": "DEDICATION"
+    },
+    {
+      "title": "To the Christian Reader",
+      "destination": 12,
+      "level": 1,
+      "aliases": [
+        "To All Truly Christian Readers. Health",
+        "To All Truly Christian Readers. Health"
+      ],
+      "source_index": 21,
+      "source_anchor": "TO ALL TRULY CHRISTIAN READERS. HEALTH."
+    },
+    {
+      "title": "Ezekiel",
+      "destination": 15,
+      "level": 1,
+      "aliases": [
+        "Ezekiel 1",
+        "Chapter 1"
+      ],
+      "source_index": 28,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 15,
+      "level": 2,
+      "aliases": [
+        "Ezekiel 1",
+        "Chapter 1"
+      ],
+      "source_index": 28,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Lecture 1",
+      "destination": 15,
+      "level": 3,
+      "aliases": [
+        "Lecture First",
+        "Lecture First"
+      ],
+      "source_index": 29,
+      "source_anchor": "Lecture First"
+    },
+    {
+      "title": "Lecture 2",
+      "destination": 26,
+      "level": 3,
+      "aliases": [
+        "Lecture Second",
+        "Lecture Second"
+      ],
+      "source_index": 51,
+      "source_anchor": "Lecture Second."
+    },
+    {
+      "title": "Lecture 3",
+      "destination": 37,
+      "level": 3,
+      "aliases": [
+        "Lecture Third",
+        "Lecture Third"
+      ],
+      "source_index": 93,
+      "source_anchor": "Lecture Third"
+    },
+    {
+      "title": "Lecture 4",
+      "destination": 49,
+      "level": 3,
+      "aliases": [
+        "Lecture Fourth",
+        "Lecture Fourth"
+      ],
+      "source_index": 138,
+      "source_anchor": "Lecture Fourth"
+    },
+    {
+      "title": "Lecture 5",
+      "destination": 59,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifth",
+        "Lecture Fifth"
+      ],
+      "source_index": 187,
+      "source_anchor": "Lecture fifth."
+    },
+    {
+      "title": "Lecture 6",
+      "destination": 71,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixth",
+        "Lecture Sixth"
+      ],
+      "source_index": 222,
+      "source_anchor": "Lecture Sixth."
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 72,
+      "level": 2,
+      "aliases": [
+        "Ezekiel 2",
+        "Chapter 2"
+      ],
+      "source_index": 224,
+      "source_anchor": "CHAPTER 2"
+    },
+    {
+      "title": "Lecture 7",
+      "destination": 83,
+      "level": 3,
+      "aliases": [
+        "Lecture Seventh",
+        "Lecture Seventh"
+      ],
+      "source_index": 257,
+      "source_anchor": "Lecture Seventh."
+    },
+    {
+      "title": "Lecture 8",
+      "destination": 94,
+      "level": 3,
+      "aliases": [
+        "Lecture Eighth",
+        "Lecture Eighth"
+      ],
+      "source_index": 290,
+      "source_anchor": "Lecture Eighth."
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 94,
+      "level": 2,
+      "aliases": [
+        "Ezekiel 3",
+        "Chapter 3"
+      ],
+      "source_index": 291,
+      "source_anchor": "CHAPTER 3"
+    },
+    {
+      "title": "Lecture 9",
+      "destination": 106,
+      "level": 3,
+      "aliases": [
+        "Lecture Ninth",
+        "Lecture Ninth"
+      ],
+      "source_index": 337,
+      "source_anchor": "Lecture Ninth."
+    },
+    {
+      "title": "Lecture 10",
+      "destination": 117,
+      "level": 3,
+      "aliases": [
+        "Lecture Tenth",
+        "Lecture Tenth"
+      ],
+      "source_index": 376,
+      "source_anchor": "Lecture Tenth."
+    },
+    {
+      "title": "Lecture 11",
+      "destination": 128,
+      "level": 3,
+      "aliases": [
+        "Lecture Eleventh",
+        "Lecture Eleventh"
+      ],
+      "source_index": 403,
+      "source_anchor": "Lecture Eleventh."
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 136,
+      "level": 2,
+      "aliases": [
+        "Ezekiel 4",
+        "Chapter 4"
+      ],
+      "source_index": 439,
+      "source_anchor": "CHAPTER 4"
+    },
+    {
+      "title": "Lecture 12",
+      "destination": 139,
+      "level": 3,
+      "aliases": [
+        "Lecture Twelfth",
+        "Lecture Twelfth"
+      ],
+      "source_index": 452,
+      "source_anchor": "Lecture twelfth"
+    },
+    {
+      "title": "Lecture 13",
+      "destination": 151,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirteenth",
+        "Lecture Thirteen"
+      ],
+      "source_index": 492,
+      "source_anchor": "Lecture Thirteen"
+    },
+    {
+      "title": "Chapter 5",
+      "destination": 157,
+      "level": 2,
+      "aliases": [
+        "Ezekiel 5",
+        "Chapter 5"
+      ],
+      "source_index": 524,
+      "source_anchor": "CHAPTER 5"
+    },
+    {
+      "title": "Lecture 14",
+      "destination": 163,
+      "level": 3,
+      "aliases": [
+        "Lecture Fourteenth",
+        "Lecture Fourteen"
+      ],
+      "source_index": 547,
+      "source_anchor": "Lecture fourteen."
+    },
+    {
+      "title": "Lecture 15",
+      "destination": 174,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifteen",
+        "Lecture Fifteen"
+      ],
+      "source_index": 588,
+      "source_anchor": "Lecture fifteen"
+    },
+    {
+      "title": "Lecture 16",
+      "destination": 185,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixteenth",
+        "Lecture Sixteenth"
+      ],
+      "source_index": 628,
+      "source_anchor": "Lecture sixteenth"
+    },
+    {
+      "title": "Chapter 6",
+      "destination": 185,
+      "level": 2,
+      "aliases": [
+        "Ezekiel 6",
+        "Chapter 6"
+      ],
+      "source_index": 629,
+      "source_anchor": "CHAPTER 6"
+    },
+    {
+      "title": "Lecture 17",
+      "destination": 196,
+      "level": 3,
+      "aliases": [
+        "Lecture Seventeenth",
+        "Lecture Seventeenth"
+      ],
+      "source_index": 681,
+      "source_anchor": "Lecture Seventeenth."
+    },
+    {
+      "title": "Lecture 18",
+      "destination": 207,
+      "level": 3,
+      "aliases": [
+        "Lecture Eighteenth",
+        "Lecture Eighteenth"
+      ],
+      "source_index": 716,
+      "source_anchor": "Lecture Eighteenth"
+    },
+    {
+      "title": "Chapter 7",
+      "destination": 210,
+      "level": 2,
+      "aliases": [
+        "Ezekiel 7",
+        "Chapter 7"
+      ],
+      "source_index": 723,
+      "source_anchor": "CHAPTER 7"
+    },
+    {
+      "title": "Lecture 19",
+      "destination": 219,
+      "level": 3,
+      "aliases": [
+        "Lecture Nineteenth",
+        "Lecture Nineteenth"
+      ],
+      "source_index": 762,
+      "source_anchor": "Lecture Nineteenth."
+    },
+    {
+      "title": "Lecture 20",
+      "destination": 232,
+      "level": 3,
+      "aliases": [
+        "Lecture Twentieth",
+        "Lecture Twentieth"
+      ],
+      "source_index": 818,
+      "source_anchor": "Lecture Twentieth."
+    },
+    {
+      "title": "Lecture 21",
+      "destination": 243,
+      "level": 3,
+      "aliases": [
+        "Lecture Twenty-First",
+        "Lecture Twenty-First"
+      ],
+      "source_index": 864,
+      "source_anchor": "Lecture twenty first."
+    },
+    {
+      "title": "Chapter 8",
+      "destination": 246,
+      "level": 2,
+      "aliases": [
+        "Ezekiel 8",
+        "Chapter 8"
+      ],
+      "source_index": 872,
+      "source_anchor": "Chapter 8"
+    },
+    {
+      "title": "Lecture 22",
+      "destination": 254,
+      "level": 3,
+      "aliases": [
+        "Lecture Twenty-Second",
+        "Lecture Twenty-Second"
+      ],
+      "source_index": 907,
+      "source_anchor": "Lecture Twenty-Second."
+    },
+    {
+      "title": "Lecture 23",
+      "destination": 264,
+      "level": 3,
+      "aliases": [
+        "Lecture Twenty-Third",
+        "Lecture Twenty-Third"
+      ],
+      "source_index": 944,
+      "source_anchor": "Lecture Twenty-third"
+    },
+    {
+      "title": "Chapter 9",
+      "destination": 270,
+      "level": 2,
+      "aliases": [
+        "Ezekiel 9",
+        "Chapter 9"
+      ],
+      "source_index": 965,
+      "source_anchor": "CHAPTER 9"
+    },
+    {
+      "title": "Lecture 24",
+      "destination": 276,
+      "level": 3,
+      "aliases": [
+        "Lecture Twenty-Fourth",
+        "Lecture Twenty-Fourth"
+      ],
+      "source_index": 995,
+      "source_anchor": "Lecture Twenty-fourth."
+    },
+    {
+      "title": "Lecture 25",
+      "destination": 287,
+      "level": 3,
+      "aliases": [
+        "Lecture Twenty-Fifth",
+        "Lecture Twenty-Fifth"
+      ],
+      "source_index": 1028,
+      "source_anchor": "Lecture Twenty fifth."
+    },
+    {
+      "title": "Chapter 10",
+      "destination": 291,
+      "level": 2,
+      "aliases": [
+        "Ezekiel 10",
+        "Chapter 10"
+      ],
+      "source_index": 1041,
+      "source_anchor": "CHAPTER 10"
+    },
+    {
+      "title": "Lecture 26",
+      "destination": 299,
+      "level": 3,
+      "aliases": [
+        "Lecture Twenty-Sixth",
+        "Lecture Twenty-Sixth"
+      ],
+      "source_index": 1075,
+      "source_anchor": "Lecture Twenty sixth."
+    },
+    {
+      "title": "Lecture 27",
+      "destination": 311,
+      "level": 3,
+      "aliases": [
+        "Lecture Twenty-Seventh",
+        "Lecture Twenty-Seventh"
+      ],
+      "source_index": 1128,
+      "source_anchor": "Lecture Twenty seventh."
+    },
+    {
+      "title": "Chapter 11",
+      "destination": 319,
+      "level": 2,
+      "aliases": [
+        "Ezekiel 11",
+        "Chapter 11"
+      ],
+      "source_index": 1163,
+      "source_anchor": "CHAPTER 11"
+    },
+    {
+      "title": "Lecture 28",
+      "destination": 324,
+      "level": 3,
+      "aliases": [
+        "Lecture Twenty-Eighth",
+        "Lecture Twenty-Eighth"
+      ],
+      "source_index": 1182,
+      "source_anchor": "Lecture Twenty eighth."
+    },
+    {
+      "title": "Lecture 29",
+      "destination": 335,
+      "level": 3,
+      "aliases": [
+        "Lecture Twenty-Ninth",
+        "Lecture Twenty-Ninth"
+      ],
+      "source_index": 1227,
+      "source_anchor": "Lecture Twenty-ninth"
+    },
+    {
+      "title": "Lecture 30",
+      "destination": 345,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirtieth",
+        "Lecture Thirtieth"
+      ],
+      "source_index": 1262,
+      "source_anchor": "Lecture Thirtieth."
+    },
+    {
+      "title": "Lecture 31",
+      "destination": 357,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-First",
+        "Lecture Thirty-First"
+      ],
+      "source_index": 1284,
+      "source_anchor": "Lecture Thirty First,"
+    },
+    {
+      "title": "Chapter 12",
+      "destination": 361,
+      "level": 2,
+      "aliases": [
+        "Ezekiel 12",
+        "Chapter 12"
+      ],
+      "source_index": 1303,
+      "source_anchor": "Chapter 12"
+    },
+    {
+      "title": "Lecture 32",
+      "destination": 369,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-Second",
+        "Lecture Thirty-Second"
+      ],
+      "source_index": 1338,
+      "source_anchor": "Lecture Thirty-second"
+    },
+    {
+      "title": "Lecture 33",
+      "destination": 380,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-Third",
+        "Lecture Thirty-Third"
+      ],
+      "source_index": 1385,
+      "source_anchor": "Lecture Thirty third"
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom22_approved\\verification.json",
+    "current_interior_sha256": "abaadc6d5897aadbfcb23f5d8db78c7124ed9f17c9d10627934316e1456e9b51",
+    "previous_interior_sha256": "1848532ebfc5804c8e504b93bfee528b0acb534172c61cd3ac68666b4218fffb",
+    "approved_edition_updated": true
   }
 }

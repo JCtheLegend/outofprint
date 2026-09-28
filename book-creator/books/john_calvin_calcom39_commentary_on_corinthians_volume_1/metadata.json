@@ -14,9 +14,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 453,
   "body_page_count": 451,
-  "generated_contents_entries": 18,
-  "generated_contents_entries_in_pdf": 18,
-  "detected_heading_count": 18,
+  "generated_contents_entries": 17,
+  "generated_contents_entries_in_pdf": 17,
+  "detected_heading_count": 17,
   "interior_filename": "john_calvin_calcom39_commentary_on_corinthians_volume_1_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom39_commentary_on_corinthians_volume_1_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom39_commentary_on_corinthians_volume_1_paperback_cover.pdf",
@@ -84,7 +84,7 @@
     "page_boxes_and_bookmarks_preserved": true,
     "all_interior_pages_rendered_for_font_update": 453,
     "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom39_commentary_on_corinthians_volume_1.json",
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom39_contents_20260927\\verification.json"
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom39_package\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -301,7 +301,7 @@
     "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom39_commentary_on_corinthians_volume_1.json",
     "current_pdf_sha256": {
       "john_calvin_calcom39_commentary_on_corinthians_volume_1_hardcover_cover.pdf": "a7488d7a5b5e8cf3368d312d46d1e6c5e36890fc1375cab67ae740312b9dec51",
-      "john_calvin_calcom39_commentary_on_corinthians_volume_1_interior.pdf": "05c67f34bfe0dc3d775444be101ce54833d8e0e31ba60065068217466576eb66",
+      "john_calvin_calcom39_commentary_on_corinthians_volume_1_interior.pdf": "cc16bd7bd52403d17255e73852e6efbee3cf62d988154045472fcbd8c6b71c38",
       "john_calvin_calcom39_commentary_on_corinthians_volume_1_paperback_cover.pdf": "5f833d26582c9995fa3ce246bf105971cafadeccdad5179f177821b66e4749ef"
     },
     "earlier_visual_review_and_dated_repair_evidence_retained": true
@@ -424,7 +424,7 @@
     "approved_page_count": 453,
     "approved_pdf_sha256": {
       "john_calvin_calcom39_commentary_on_corinthians_volume_1_hardcover_cover.pdf": "a7488d7a5b5e8cf3368d312d46d1e6c5e36890fc1375cab67ae740312b9dec51",
-      "john_calvin_calcom39_commentary_on_corinthians_volume_1_interior.pdf": "05c67f34bfe0dc3d775444be101ce54833d8e0e31ba60065068217466576eb66",
+      "john_calvin_calcom39_commentary_on_corinthians_volume_1_interior.pdf": "cc16bd7bd52403d17255e73852e6efbee3cf62d988154045472fcbd8c6b71c38",
       "john_calvin_calcom39_commentary_on_corinthians_volume_1_paperback_cover.pdf": "5f833d26582c9995fa3ce246bf105971cafadeccdad5179f177821b66e4749ef"
     },
     "github_update_authorized": true
@@ -436,5 +436,375 @@
   "store_set_slug": "calvin-commentary-on-corinthians",
   "store_set_title": "Commentary on Corinthians",
   "store_set_genre": "Theology",
-  "store_set_description": "John Calvin's commentary on the First and Second Epistles to the Corinthians, in two volumes."
+  "store_set_description": "John Calvin's commentary on the First and Second Epistles to the Corinthians, in two volumes.",
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "05c67f34bfe0dc3d775444be101ce54833d8e0e31ba60065068217466576eb66",
+    "after_sha256": "cc16bd7bd52403d17255e73852e6efbee3cf62d988154045472fcbd8c6b71c38",
+    "page_count": 453,
+    "old_entries": 18,
+    "entry_count": 17,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2
+    ],
+    "entries": [
+      {
+        "title": "First Dedication to James of Burgundy",
+        "destination": 3,
+        "level": 1,
+        "aliases": [
+          "First Dedication to James of Burgundy"
+        ],
+        "source_index": 0,
+        "source_anchor": "THE AUTHOR'S FIRST EPISTLE DEDICATORY"
+      },
+      {
+        "title": "Second Dedication to Lord Galliazus Caracciolus",
+        "destination": 6,
+        "level": 1,
+        "aliases": [
+          "Second Dedication to Lord Galliazus Caracciolus"
+        ],
+        "source_index": 12,
+        "source_anchor": "THE AUTHOR'S SECOND EPISTLE DEDICATORY"
+      },
+      {
+        "title": "1 Corinthians",
+        "destination": 10,
+        "level": 1,
+        "aliases": [
+          "The Argument on the First Epistle to the Corinthians"
+        ],
+        "source_index": 29,
+        "source_anchor": "THE ARGUMENT"
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 19,
+        "level": 2,
+        "aliases": [
+          "Chapter 1"
+        ],
+        "source_index": 64,
+        "source_anchor": "CHAPTER 1"
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 68,
+        "level": 2,
+        "aliases": [
+          "Chapter 2"
+        ],
+        "source_index": 299,
+        "source_anchor": "CHAPTER 2"
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 93,
+        "level": 2,
+        "aliases": [
+          "Chapter 3"
+        ],
+        "source_index": 426,
+        "source_anchor": "CHAPTER 3"
+      },
+      {
+        "title": "Chapter 4",
+        "destination": 121,
+        "level": 2,
+        "aliases": [
+          "Chapter 4"
+        ],
+        "source_index": 592,
+        "source_anchor": "CHAPTER 4"
+      },
+      {
+        "title": "Chapter 5",
+        "destination": 152,
+        "level": 2,
+        "aliases": [
+          "Chapter 5"
+        ],
+        "source_index": 761,
+        "source_anchor": "CHAPTER 5"
+      },
+      {
+        "title": "Chapter 6",
+        "destination": 170,
+        "level": 2,
+        "aliases": [
+          "Chapter 6"
+        ],
+        "source_index": 868,
+        "source_anchor": "CHAPTER 6"
+      },
+      {
+        "title": "Chapter 7",
+        "destination": 195,
+        "level": 2,
+        "aliases": [
+          "Chapter 7"
+        ],
+        "source_index": 1026,
+        "source_anchor": "CHAPTER 7"
+      },
+      {
+        "title": "Chapter 8",
+        "destination": 245,
+        "level": 2,
+        "aliases": [
+          "Chapter 8"
+        ],
+        "source_index": 1303,
+        "source_anchor": "CHAPTER 8"
+      },
+      {
+        "title": "Chapter 9",
+        "destination": 260,
+        "level": 2,
+        "aliases": [
+          "Chapter 9"
+        ],
+        "source_index": 1381,
+        "source_anchor": "CHAPTER 9"
+      },
+      {
+        "title": "Chapter 10",
+        "destination": 286,
+        "level": 2,
+        "aliases": [
+          "Chapter 10"
+        ],
+        "source_index": 1540,
+        "source_anchor": "CHAPTER 10"
+      },
+      {
+        "title": "Chapter 11",
+        "destination": 324,
+        "level": 2,
+        "aliases": [
+          "Chapter 11"
+        ],
+        "source_index": 1779,
+        "source_anchor": "CHAPTER 11"
+      },
+      {
+        "title": "Chapter 12",
+        "destination": 371,
+        "level": 2,
+        "aliases": [
+          "Chapter 12"
+        ],
+        "source_index": 2064,
+        "source_anchor": "CHAPTER 12"
+      },
+      {
+        "title": "Chapter 13",
+        "destination": 395,
+        "level": 2,
+        "aliases": [
+          "Chapter 13"
+        ],
+        "source_index": 2227,
+        "source_anchor": "CHAPTER 13"
+      },
+      {
+        "title": "Chapter 14",
+        "destination": 411,
+        "level": 2,
+        "aliases": [
+          "Chapter 14"
+        ],
+        "source_index": 2327,
+        "source_anchor": "CHAPTER 14"
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "First Dedication to James of Burgundy",
+      "destination": 3,
+      "level": 1,
+      "aliases": [
+        "First Dedication to James of Burgundy"
+      ],
+      "source_index": 0,
+      "source_anchor": "THE AUTHOR'S FIRST EPISTLE DEDICATORY"
+    },
+    {
+      "title": "Second Dedication to Lord Galliazus Caracciolus",
+      "destination": 6,
+      "level": 1,
+      "aliases": [
+        "Second Dedication to Lord Galliazus Caracciolus"
+      ],
+      "source_index": 12,
+      "source_anchor": "THE AUTHOR'S SECOND EPISTLE DEDICATORY"
+    },
+    {
+      "title": "1 Corinthians",
+      "destination": 10,
+      "level": 1,
+      "aliases": [
+        "The Argument on the First Epistle to the Corinthians"
+      ],
+      "source_index": 29,
+      "source_anchor": "THE ARGUMENT"
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 19,
+      "level": 2,
+      "aliases": [
+        "Chapter 1"
+      ],
+      "source_index": 64,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 68,
+      "level": 2,
+      "aliases": [
+        "Chapter 2"
+      ],
+      "source_index": 299,
+      "source_anchor": "CHAPTER 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 93,
+      "level": 2,
+      "aliases": [
+        "Chapter 3"
+      ],
+      "source_index": 426,
+      "source_anchor": "CHAPTER 3"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 121,
+      "level": 2,
+      "aliases": [
+        "Chapter 4"
+      ],
+      "source_index": 592,
+      "source_anchor": "CHAPTER 4"
+    },
+    {
+      "title": "Chapter 5",
+      "destination": 152,
+      "level": 2,
+      "aliases": [
+        "Chapter 5"
+      ],
+      "source_index": 761,
+      "source_anchor": "CHAPTER 5"
+    },
+    {
+      "title": "Chapter 6",
+      "destination": 170,
+      "level": 2,
+      "aliases": [
+        "Chapter 6"
+      ],
+      "source_index": 868,
+      "source_anchor": "CHAPTER 6"
+    },
+    {
+      "title": "Chapter 7",
+      "destination": 195,
+      "level": 2,
+      "aliases": [
+        "Chapter 7"
+      ],
+      "source_index": 1026,
+      "source_anchor": "CHAPTER 7"
+    },
+    {
+      "title": "Chapter 8",
+      "destination": 245,
+      "level": 2,
+      "aliases": [
+        "Chapter 8"
+      ],
+      "source_index": 1303,
+      "source_anchor": "CHAPTER 8"
+    },
+    {
+      "title": "Chapter 9",
+      "destination": 260,
+      "level": 2,
+      "aliases": [
+        "Chapter 9"
+      ],
+      "source_index": 1381,
+      "source_anchor": "CHAPTER 9"
+    },
+    {
+      "title": "Chapter 10",
+      "destination": 286,
+      "level": 2,
+      "aliases": [
+        "Chapter 10"
+      ],
+      "source_index": 1540,
+      "source_anchor": "CHAPTER 10"
+    },
+    {
+      "title": "Chapter 11",
+      "destination": 324,
+      "level": 2,
+      "aliases": [
+        "Chapter 11"
+      ],
+      "source_index": 1779,
+      "source_anchor": "CHAPTER 11"
+    },
+    {
+      "title": "Chapter 12",
+      "destination": 371,
+      "level": 2,
+      "aliases": [
+        "Chapter 12"
+      ],
+      "source_index": 2064,
+      "source_anchor": "CHAPTER 12"
+    },
+    {
+      "title": "Chapter 13",
+      "destination": 395,
+      "level": 2,
+      "aliases": [
+        "Chapter 13"
+      ],
+      "source_index": 2227,
+      "source_anchor": "CHAPTER 13"
+    },
+    {
+      "title": "Chapter 14",
+      "destination": 411,
+      "level": 2,
+      "aliases": [
+        "Chapter 14"
+      ],
+      "source_index": 2327,
+      "source_anchor": "CHAPTER 14"
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom39_package\\verification.json",
+    "current_interior_sha256": "cc16bd7bd52403d17255e73852e6efbee3cf62d988154045472fcbd8c6b71c38",
+    "previous_interior_sha256": "05c67f34bfe0dc3d775444be101ce54833d8e0e31ba60065068217466576eb66",
+    "approved_edition_updated": true
+  }
 }

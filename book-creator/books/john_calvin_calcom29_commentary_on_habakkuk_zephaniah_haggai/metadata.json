@@ -21,9 +21,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 365,
   "body_page_count": 362,
-  "generated_contents_entries": 40,
-  "generated_contents_entries_in_pdf": 40,
-  "detected_heading_count": 40,
+  "generated_contents_entries": 42,
+  "generated_contents_entries_in_pdf": 42,
+  "detected_heading_count": 42,
   "interior_filename": "john_calvin_calcom29_commentary_on_habakkuk_zephaniah_haggai_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom29_commentary_on_habakkuk_zephaniah_haggai_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom29_commentary_on_habakkuk_zephaniah_haggai_paperback_cover.pdf",
@@ -99,7 +99,7 @@
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
     "body_text_matches_previous_approved_edition": true,
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom29_approved\\verification.json"
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom29_approved\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -325,11 +325,11 @@
   },
   "contents_audit_20260927": {
     "status": "verified",
-    "before_sha256": "d88509d61e2c3385ebc0d1f10e2000f7dc48bc3cb0c281e5aae71ce4dd4dfbbb",
-    "after_sha256": "3665a2fe399b87fd4e580363df247618aa04608ee4297c30ceb7e2ecc3e87dc3",
+    "before_sha256": "3665a2fe399b87fd4e580363df247618aa04608ee4297c30ceb7e2ecc3e87dc3",
+    "after_sha256": "b38cd154813d7b6f210983d732abe63e65fa9482d948be1a8ccf06e9900fe1a4",
     "page_count": 365,
-    "old_entries": 60,
-    "entry_count": 40,
+    "old_entries": 40,
+    "entry_count": 42,
     "all_non_contents_page_text_and_streams_unchanged": true,
     "sample_body_renders_identical": true,
     "embedded_truetype_fonts": true,
@@ -340,332 +340,947 @@
     ],
     "entries": [
       {
-        "title": "The Commentaries on Habakkuk",
+        "title": "Habakkuk",
         "destination": 4,
         "level": 1,
         "aliases": [
+          "The Commentaries on Habakkuk",
           "The Commentaries on Habakkuk"
-        ]
+        ],
+        "source_index": 0,
+        "source_anchor": "The Commentaries"
       },
       {
-        "title": "Calvin's Preface to Habakkuk",
+        "title": "Preface",
         "destination": 4,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Calvin's Preface to Habakkuk",
           "Calvin's Preface to Habakkuk"
-        ]
+        ],
+        "source_index": 4,
+        "source_anchor": "Calvin's Preface to Habakkuk"
       },
       {
-        "title": "Habakkuk 1",
+        "title": "Chapter 1",
         "destination": 5,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Habakkuk 1",
           "Chapter 1"
-        ]
+        ],
+        "source_index": 10,
+        "source_anchor": "CHAPTER 1"
       },
       {
-        "title": "Lecture One Hundred and Sixth",
+        "title": "Lecture 106",
         "destination": 5,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Sixth",
           "Lecture One Hundred and Sixth"
-        ]
+        ],
+        "source_index": 11,
+        "source_anchor": "Lecture One Hundred and Sixth."
       },
       {
-        "title": "Lecture One Hundred and Seventh",
+        "title": "Lecture 107",
         "destination": 18,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Seventh",
           "Lecture One Hundred and Seventh"
-        ]
+        ],
+        "source_index": 58,
+        "source_anchor": "Lecture One Hundred and Seventh"
       },
       {
-        "title": "Lecture One Hundred and Eighth",
+        "title": "Lecture 108",
         "destination": 32,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Eighth",
           "Lecture One Hundred and Eighth"
-        ]
+        ],
+        "source_index": 111,
+        "source_anchor": "Lecture One hundred and Eighth"
       },
       {
-        "title": "Habakkuk 2",
+        "title": "Chapter 2",
         "destination": 46,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Habakkuk 2",
           "Chapter 2"
-        ]
+        ],
+        "source_index": 157,
+        "source_anchor": "CHAPTER 2"
       },
       {
-        "title": "Lecture One Hundred and Ninth",
+        "title": "Lecture 109",
         "destination": 46,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Ninth",
           "Lecture One Hundred and Ninth"
-        ]
+        ],
+        "source_index": 158,
+        "source_anchor": "Lecture One Hundred and Ninth"
       },
       {
-        "title": "Lecture One Hundred and Tenth",
+        "title": "Lecture 110",
         "destination": 60,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Tenth",
           "Lecture One Hundred and Tenth"
-        ]
+        ],
+        "source_index": 202,
+        "source_anchor": "Lecture One Hundred and Tenth"
       },
       {
-        "title": "Lecture One Hundred and Eleventh",
+        "title": "Lecture 111",
         "destination": 73,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Eleventh",
           "Lecture One Hundred and Eleventh"
-        ]
+        ],
+        "source_index": 238,
+        "source_anchor": "Lecture One Hundred and Eleventh"
       },
       {
-        "title": "Lecture One Hundred and Twelfth",
+        "title": "Lecture 112",
         "destination": 86,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Twelfth",
           "Lecture One Hundred and Twelfth"
-        ]
+        ],
+        "source_index": 272,
+        "source_anchor": "Lecture One Hundred and Twelfth"
       },
       {
-        "title": "Lecture One Hundred and Thirteenth",
+        "title": "Lecture 113",
         "destination": 100,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Thirteenth",
           "Lecture One Hundred and Thirteenth"
-        ]
+        ],
+        "source_index": 328,
+        "source_anchor": "Lecture One Hundred and Thirteenth"
       },
       {
-        "title": "Lecture One Hundred and Fourteenth",
+        "title": "Lecture 114",
         "destination": 114,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Fourteenth",
           "Lecture One Hundred and Fourteenth"
-        ]
+        ],
+        "source_index": 374,
+        "source_anchor": "Lecture One Hundred and Fourteenth"
       },
       {
-        "title": "Habakkuk 3",
+        "title": "Chapter 3",
         "destination": 121,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Habakkuk 3",
           "Chapter 3"
-        ]
+        ],
+        "source_index": 391,
+        "source_anchor": "CHAPTER 3"
       },
       {
-        "title": "Lecture One Hundred and Fifteenth",
+        "title": "Lecture 115",
         "destination": 124,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Fifteenth",
           "Lecture One Hundred and Fifteenth"
-        ]
+        ],
+        "source_index": 404,
+        "source_anchor": "Lecture One Hundred and Fifteenth"
       },
       {
-        "title": "Lecture One Hundred and Sixteenth",
+        "title": "Lecture 116",
         "destination": 138,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Sixteenth",
           "Lecture One Hundred and Sixteenth"
-        ]
+        ],
+        "source_index": 461,
+        "source_anchor": "Lecture One Hundred and Sixteenth"
       },
       {
-        "title": "Lecture One Hundred and Seventeenth",
+        "title": "Lecture 117",
         "destination": 152,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Seventeenth",
           "Lecture One Hundred and Seventeenth"
-        ]
+        ],
+        "source_index": 513,
+        "source_anchor": "Lecture One Hundred and Seventeenth"
       },
       {
-        "title": "Calvin's Preface to Zephaniah",
+        "title": "Zephaniah",
         "destination": 165,
         "level": 1,
         "aliases": [
+          "Calvin's Preface to Zephaniah",
           "Calvin's Preface to Zephaniah"
-        ]
+        ],
+        "source_index": 566,
+        "source_anchor": "Calvin's Preface to Zephaniah."
       },
       {
-        "title": "Zephaniah 1",
-        "destination": 166,
-        "level": 1,
+        "title": "Preface",
+        "destination": 165,
+        "level": 2,
         "aliases": [
+          "Calvin's Preface to Zephaniah",
+          "Calvin's Preface to Zephaniah"
+        ],
+        "source_index": 566,
+        "source_anchor": "Calvin's Preface to Zephaniah."
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 166,
+        "level": 2,
+        "aliases": [
+          "Zephaniah 1",
           "Chapter 1"
-        ]
+        ],
+        "source_index": 569,
+        "source_anchor": "CHAPTER 1"
       },
       {
-        "title": "Lecture One Hundred and Eighteenth",
+        "title": "Lecture 118",
         "destination": 166,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Eighteenth",
           "Lecture One Hundred and Eighteenth"
-        ]
+        ],
+        "source_index": 570,
+        "source_anchor": "Lecture One Hundred and Eighteenth"
       },
       {
-        "title": "Lecture One Hundred and Nineteenth",
+        "title": "Lecture 119",
         "destination": 177,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Nineteenth",
           "Lecture One Hundred and Nineteenth"
-        ]
+        ],
+        "source_index": 603,
+        "source_anchor": "Lecture One Hundred and Nineteenth"
       },
       {
-        "title": "Lecture One Hundred and Twentieth",
+        "title": "Lecture 120",
         "destination": 189,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Twentieth",
           "Lecture One Hundred and Twentieth"
-        ]
+        ],
+        "source_index": 643,
+        "source_anchor": "Lecture One Hundred and Twentieth"
       },
       {
-        "title": "Lecture One Hundred and Twenty-First",
+        "title": "Lecture 121",
         "destination": 202,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Twenty-First",
           "Lecture One Hundred and Twenty-First"
-        ]
+        ],
+        "source_index": 682,
+        "source_anchor": "Lecture One Hundred and Twenty-First"
       },
       {
-        "title": "Zephaniah 2",
+        "title": "Chapter 2",
         "destination": 211,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Zephaniah 2",
           "Chapter 2"
-        ]
+        ],
+        "source_index": 723,
+        "source_anchor": "CHAPTER 2"
       },
       {
-        "title": "Lecture One Hundred and Twenty-Second",
+        "title": "Lecture 122",
         "destination": 216,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Twenty-Second",
           "Lecture One Hundred and Twenty-Second"
-        ]
+        ],
+        "source_index": 741,
+        "source_anchor": "Lecture One Hundred and Twenty-second"
       },
       {
-        "title": "Lecture One Hundred and Twenty-Third",
+        "title": "Lecture 123",
         "destination": 230,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Twenty-Third",
           "Lecture One Hundred and Twenty-Third"
-        ]
+        ],
+        "source_index": 789,
+        "source_anchor": "Lecture One Hundred and Twenty-third."
       },
       {
-        "title": "Zephaniah 3",
+        "title": "Chapter 3",
         "destination": 242,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Zephaniah 3",
           "Chapter 3"
-        ]
+        ],
+        "source_index": 842,
+        "source_anchor": "CHAPTER 3"
       },
       {
-        "title": "Lecture One Hundred and Twenty-Fourth",
+        "title": "Lecture 124",
         "destination": 242,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Twenty-Fourth",
           "Lecture One Hundred and Twenty-Fourth"
-        ]
+        ],
+        "source_index": 843,
+        "source_anchor": "Lecture One Hundred and Twenty-fourth"
       },
       {
-        "title": "Lecture One Hundred and Twenty-Fifth",
+        "title": "Lecture 125",
         "destination": 254,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Twenty-Fifth",
           "Lecture One Hundred and Twenty-Fifth"
-        ]
+        ],
+        "source_index": 885,
+        "source_anchor": "Lecture One Hundred and Twenty-fifth"
       },
       {
-        "title": "Lecture One Hundred and Twenty-Sixth",
+        "title": "Lecture 126",
         "destination": 267,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Twenty-Sixth",
           "Lecture One Hundred and Twenty-Sixth"
-        ]
+        ],
+        "source_index": 936,
+        "source_anchor": "Lecture One hundred and Twenty-sixth"
       },
       {
-        "title": "Lecture One Hundred and Twenty-Seventh",
+        "title": "Lecture 127",
         "destination": 279,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Twenty-Seventh",
           "Lecture One Hundred and Twenty-Seventh"
-        ]
+        ],
+        "source_index": 978,
+        "source_anchor": "Lecture One Hundred and Twenty-seventh"
       },
       {
-        "title": "Lecture One Hundred and Twenty-Eighth",
+        "title": "Lecture 128",
         "destination": 291,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Twenty-Eighth",
           "Lecture One Hundred and Twenty-Eighth"
-        ]
+        ],
+        "source_index": 1027,
+        "source_anchor": "Lecture One Hundred and Twenty-eighth"
       },
       {
-        "title": "Calvin's Preface to Haggai",
+        "title": "Haggai",
         "destination": 292,
         "level": 1,
         "aliases": [
+          "Calvin's Preface to Haggai",
           "Calvin's Preface to Haggai"
-        ]
+        ],
+        "source_index": 1035,
+        "source_anchor": "Calvin's Preface to Haggai"
       },
       {
-        "title": "Haggai 1",
+        "title": "Preface",
+        "destination": 292,
+        "level": 2,
+        "aliases": [
+          "Calvin's Preface to Haggai",
+          "Calvin's Preface to Haggai"
+        ],
+        "source_index": 1035,
+        "source_anchor": "Calvin's Preface to Haggai"
+      },
+      {
+        "title": "Chapter 1",
         "destination": 294,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Haggai 1",
           "Chapter 1"
-        ]
+        ],
+        "source_index": 1043,
+        "source_anchor": "Chapter 1"
       },
       {
-        "title": "Lecture One Hundred and Twenty-Ninth",
+        "title": "Lecture 129",
         "destination": 304,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Twenty-Ninth",
           "Lecture One Hundred and Twenty-Ninth"
-        ]
+        ],
+        "source_index": 1078,
+        "source_anchor": "Lecture One Hundred and Twenty-ninth"
       },
       {
-        "title": "Lecture One Hundred and Thirtieth",
+        "title": "Lecture 130",
         "destination": 317,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Thirtieth",
           "Lecture One Hundred and Thirtieth"
-        ]
+        ],
+        "source_index": 1128,
+        "source_anchor": "Lecture One hundred and Thirtieth"
       },
       {
-        "title": "Haggai 2",
+        "title": "Chapter 2",
         "destination": 325,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Haggai 2",
           "Chapter 2"
-        ]
+        ],
+        "source_index": 1169,
+        "source_anchor": "CHAPTER 2"
       },
       {
-        "title": "Lecture One Hundred and Thirty-First",
+        "title": "Lecture 131",
         "destination": 330,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Thirty-First",
           "Lecture One Hundred and Thirty-First"
-        ]
+        ],
+        "source_index": 1190,
+        "source_anchor": "Lecture One Hundred and Thirty-first"
       },
       {
-        "title": "Lecture One Hundred and Thirty-Second",
+        "title": "Lecture 132",
         "destination": 342,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Thirty-Second",
           "Lecture One Hundred and Thirty-Second"
-        ]
+        ],
+        "source_index": 1229,
+        "source_anchor": "Lecture one hundred and Thirty-second"
       },
       {
-        "title": "Lecture One Hundred and Thirty-Third",
+        "title": "Lecture 133",
         "destination": 354,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Thirty-Third",
           "Lecture One Hundred and Thirty-Third"
-        ]
+        ],
+        "source_index": 1276,
+        "source_anchor": "Lecture One Hundred and Thirty-third"
       }
     ],
     "visual_review_complete": true,
-    "reviewer_navigation_uses_audited_entries": true
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
   },
   "font_update_20260926": {
     "current_pdf_sha256": {
-      "john_calvin_calcom29_commentary_on_habakkuk_zephaniah_haggai_interior.pdf": "3665a2fe399b87fd4e580363df247618aa04608ee4297c30ceb7e2ecc3e87dc3"
+      "john_calvin_calcom29_commentary_on_habakkuk_zephaniah_haggai_interior.pdf": "b38cd154813d7b6f210983d732abe63e65fa9482d948be1a8ccf06e9900fe1a4"
     }
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Habakkuk",
+      "destination": 4,
+      "level": 1,
+      "aliases": [
+        "The Commentaries on Habakkuk",
+        "The Commentaries on Habakkuk"
+      ],
+      "source_index": 0,
+      "source_anchor": "The Commentaries"
+    },
+    {
+      "title": "Preface",
+      "destination": 4,
+      "level": 2,
+      "aliases": [
+        "Calvin's Preface to Habakkuk",
+        "Calvin's Preface to Habakkuk"
+      ],
+      "source_index": 4,
+      "source_anchor": "Calvin's Preface to Habakkuk"
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 5,
+      "level": 2,
+      "aliases": [
+        "Habakkuk 1",
+        "Chapter 1"
+      ],
+      "source_index": 10,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Lecture 106",
+      "destination": 5,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Sixth",
+        "Lecture One Hundred and Sixth"
+      ],
+      "source_index": 11,
+      "source_anchor": "Lecture One Hundred and Sixth."
+    },
+    {
+      "title": "Lecture 107",
+      "destination": 18,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Seventh",
+        "Lecture One Hundred and Seventh"
+      ],
+      "source_index": 58,
+      "source_anchor": "Lecture One Hundred and Seventh"
+    },
+    {
+      "title": "Lecture 108",
+      "destination": 32,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Eighth",
+        "Lecture One Hundred and Eighth"
+      ],
+      "source_index": 111,
+      "source_anchor": "Lecture One hundred and Eighth"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 46,
+      "level": 2,
+      "aliases": [
+        "Habakkuk 2",
+        "Chapter 2"
+      ],
+      "source_index": 157,
+      "source_anchor": "CHAPTER 2"
+    },
+    {
+      "title": "Lecture 109",
+      "destination": 46,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Ninth",
+        "Lecture One Hundred and Ninth"
+      ],
+      "source_index": 158,
+      "source_anchor": "Lecture One Hundred and Ninth"
+    },
+    {
+      "title": "Lecture 110",
+      "destination": 60,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Tenth",
+        "Lecture One Hundred and Tenth"
+      ],
+      "source_index": 202,
+      "source_anchor": "Lecture One Hundred and Tenth"
+    },
+    {
+      "title": "Lecture 111",
+      "destination": 73,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Eleventh",
+        "Lecture One Hundred and Eleventh"
+      ],
+      "source_index": 238,
+      "source_anchor": "Lecture One Hundred and Eleventh"
+    },
+    {
+      "title": "Lecture 112",
+      "destination": 86,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Twelfth",
+        "Lecture One Hundred and Twelfth"
+      ],
+      "source_index": 272,
+      "source_anchor": "Lecture One Hundred and Twelfth"
+    },
+    {
+      "title": "Lecture 113",
+      "destination": 100,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Thirteenth",
+        "Lecture One Hundred and Thirteenth"
+      ],
+      "source_index": 328,
+      "source_anchor": "Lecture One Hundred and Thirteenth"
+    },
+    {
+      "title": "Lecture 114",
+      "destination": 114,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Fourteenth",
+        "Lecture One Hundred and Fourteenth"
+      ],
+      "source_index": 374,
+      "source_anchor": "Lecture One Hundred and Fourteenth"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 121,
+      "level": 2,
+      "aliases": [
+        "Habakkuk 3",
+        "Chapter 3"
+      ],
+      "source_index": 391,
+      "source_anchor": "CHAPTER 3"
+    },
+    {
+      "title": "Lecture 115",
+      "destination": 124,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Fifteenth",
+        "Lecture One Hundred and Fifteenth"
+      ],
+      "source_index": 404,
+      "source_anchor": "Lecture One Hundred and Fifteenth"
+    },
+    {
+      "title": "Lecture 116",
+      "destination": 138,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Sixteenth",
+        "Lecture One Hundred and Sixteenth"
+      ],
+      "source_index": 461,
+      "source_anchor": "Lecture One Hundred and Sixteenth"
+    },
+    {
+      "title": "Lecture 117",
+      "destination": 152,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Seventeenth",
+        "Lecture One Hundred and Seventeenth"
+      ],
+      "source_index": 513,
+      "source_anchor": "Lecture One Hundred and Seventeenth"
+    },
+    {
+      "title": "Zephaniah",
+      "destination": 165,
+      "level": 1,
+      "aliases": [
+        "Calvin's Preface to Zephaniah",
+        "Calvin's Preface to Zephaniah"
+      ],
+      "source_index": 566,
+      "source_anchor": "Calvin's Preface to Zephaniah."
+    },
+    {
+      "title": "Preface",
+      "destination": 165,
+      "level": 2,
+      "aliases": [
+        "Calvin's Preface to Zephaniah",
+        "Calvin's Preface to Zephaniah"
+      ],
+      "source_index": 566,
+      "source_anchor": "Calvin's Preface to Zephaniah."
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 166,
+      "level": 2,
+      "aliases": [
+        "Zephaniah 1",
+        "Chapter 1"
+      ],
+      "source_index": 569,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Lecture 118",
+      "destination": 166,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Eighteenth",
+        "Lecture One Hundred and Eighteenth"
+      ],
+      "source_index": 570,
+      "source_anchor": "Lecture One Hundred and Eighteenth"
+    },
+    {
+      "title": "Lecture 119",
+      "destination": 177,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Nineteenth",
+        "Lecture One Hundred and Nineteenth"
+      ],
+      "source_index": 603,
+      "source_anchor": "Lecture One Hundred and Nineteenth"
+    },
+    {
+      "title": "Lecture 120",
+      "destination": 189,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Twentieth",
+        "Lecture One Hundred and Twentieth"
+      ],
+      "source_index": 643,
+      "source_anchor": "Lecture One Hundred and Twentieth"
+    },
+    {
+      "title": "Lecture 121",
+      "destination": 202,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Twenty-First",
+        "Lecture One Hundred and Twenty-First"
+      ],
+      "source_index": 682,
+      "source_anchor": "Lecture One Hundred and Twenty-First"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 211,
+      "level": 2,
+      "aliases": [
+        "Zephaniah 2",
+        "Chapter 2"
+      ],
+      "source_index": 723,
+      "source_anchor": "CHAPTER 2"
+    },
+    {
+      "title": "Lecture 122",
+      "destination": 216,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Twenty-Second",
+        "Lecture One Hundred and Twenty-Second"
+      ],
+      "source_index": 741,
+      "source_anchor": "Lecture One Hundred and Twenty-second"
+    },
+    {
+      "title": "Lecture 123",
+      "destination": 230,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Twenty-Third",
+        "Lecture One Hundred and Twenty-Third"
+      ],
+      "source_index": 789,
+      "source_anchor": "Lecture One Hundred and Twenty-third."
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 242,
+      "level": 2,
+      "aliases": [
+        "Zephaniah 3",
+        "Chapter 3"
+      ],
+      "source_index": 842,
+      "source_anchor": "CHAPTER 3"
+    },
+    {
+      "title": "Lecture 124",
+      "destination": 242,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Twenty-Fourth",
+        "Lecture One Hundred and Twenty-Fourth"
+      ],
+      "source_index": 843,
+      "source_anchor": "Lecture One Hundred and Twenty-fourth"
+    },
+    {
+      "title": "Lecture 125",
+      "destination": 254,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Twenty-Fifth",
+        "Lecture One Hundred and Twenty-Fifth"
+      ],
+      "source_index": 885,
+      "source_anchor": "Lecture One Hundred and Twenty-fifth"
+    },
+    {
+      "title": "Lecture 126",
+      "destination": 267,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Twenty-Sixth",
+        "Lecture One Hundred and Twenty-Sixth"
+      ],
+      "source_index": 936,
+      "source_anchor": "Lecture One hundred and Twenty-sixth"
+    },
+    {
+      "title": "Lecture 127",
+      "destination": 279,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Twenty-Seventh",
+        "Lecture One Hundred and Twenty-Seventh"
+      ],
+      "source_index": 978,
+      "source_anchor": "Lecture One Hundred and Twenty-seventh"
+    },
+    {
+      "title": "Lecture 128",
+      "destination": 291,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Twenty-Eighth",
+        "Lecture One Hundred and Twenty-Eighth"
+      ],
+      "source_index": 1027,
+      "source_anchor": "Lecture One Hundred and Twenty-eighth"
+    },
+    {
+      "title": "Haggai",
+      "destination": 292,
+      "level": 1,
+      "aliases": [
+        "Calvin's Preface to Haggai",
+        "Calvin's Preface to Haggai"
+      ],
+      "source_index": 1035,
+      "source_anchor": "Calvin's Preface to Haggai"
+    },
+    {
+      "title": "Preface",
+      "destination": 292,
+      "level": 2,
+      "aliases": [
+        "Calvin's Preface to Haggai",
+        "Calvin's Preface to Haggai"
+      ],
+      "source_index": 1035,
+      "source_anchor": "Calvin's Preface to Haggai"
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 294,
+      "level": 2,
+      "aliases": [
+        "Haggai 1",
+        "Chapter 1"
+      ],
+      "source_index": 1043,
+      "source_anchor": "Chapter 1"
+    },
+    {
+      "title": "Lecture 129",
+      "destination": 304,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Twenty-Ninth",
+        "Lecture One Hundred and Twenty-Ninth"
+      ],
+      "source_index": 1078,
+      "source_anchor": "Lecture One Hundred and Twenty-ninth"
+    },
+    {
+      "title": "Lecture 130",
+      "destination": 317,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Thirtieth",
+        "Lecture One Hundred and Thirtieth"
+      ],
+      "source_index": 1128,
+      "source_anchor": "Lecture One hundred and Thirtieth"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 325,
+      "level": 2,
+      "aliases": [
+        "Haggai 2",
+        "Chapter 2"
+      ],
+      "source_index": 1169,
+      "source_anchor": "CHAPTER 2"
+    },
+    {
+      "title": "Lecture 131",
+      "destination": 330,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Thirty-First",
+        "Lecture One Hundred and Thirty-First"
+      ],
+      "source_index": 1190,
+      "source_anchor": "Lecture One Hundred and Thirty-first"
+    },
+    {
+      "title": "Lecture 132",
+      "destination": 342,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Thirty-Second",
+        "Lecture One Hundred and Thirty-Second"
+      ],
+      "source_index": 1229,
+      "source_anchor": "Lecture one hundred and Thirty-second"
+    },
+    {
+      "title": "Lecture 133",
+      "destination": 354,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Thirty-Third",
+        "Lecture One Hundred and Thirty-Third"
+      ],
+      "source_index": 1276,
+      "source_anchor": "Lecture One Hundred and Thirty-third"
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom29_approved\\verification.json",
+    "current_interior_sha256": "b38cd154813d7b6f210983d732abe63e65fa9482d948be1a8ccf06e9900fe1a4",
+    "previous_interior_sha256": "3665a2fe399b87fd4e580363df247618aa04608ee4297c30ceb7e2ecc3e87dc3",
+    "approved_edition_updated": true
   }
 }

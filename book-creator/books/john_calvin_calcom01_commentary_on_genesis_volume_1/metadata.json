@@ -99,7 +99,8 @@
     "page_count": 541,
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
-    "body_text_matches_previous_approved_edition": true
+    "body_text_matches_previous_approved_edition": true,
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom01_approved\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -342,5 +343,588 @@
     "font_change_scope": "Palatino Linotype body and running headers",
     "special_glyph_fallback": null,
     "math_font": null
+  },
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "e5d7e01b937ac95b9ff0024a281d3d3d0196a1a42249e87e4db62dacc5e0e88a",
+    "after_sha256": "bd53d8f42f33cc2b023ec419cbfa327f974cc8729163e8a20946864691d2da7f",
+    "page_count": 541,
+    "old_entries": 25,
+    "entry_count": 25,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2
+    ],
+    "entries": [
+      {
+        "title": "Dedication",
+        "destination": 3,
+        "level": 1,
+        "aliases": [
+          "The Author's Epistle Dedicatory",
+          "The Author's Epistle Dedicatory"
+        ],
+        "source_index": 0,
+        "source_anchor": "THE AUTHOR'S EPISTLE DEDICATORY"
+      },
+      {
+        "title": "Genesis",
+        "destination": 12,
+        "level": 1,
+        "aliases": [
+          "Argument"
+        ],
+        "source_index": 27,
+        "source_anchor": "Argument."
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 22,
+        "level": 2,
+        "aliases": [
+          "Chapter 1",
+          "Chapter 1"
+        ],
+        "source_index": 44,
+        "source_anchor": "Chapter 1"
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 56,
+        "level": 2,
+        "aliases": [
+          "Chapter 2",
+          "Chapter 2"
+        ],
+        "source_index": 220,
+        "source_anchor": "CHAPTER 2."
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 93,
+        "level": 2,
+        "aliases": [
+          "Chapter 3",
+          "Chapter 3"
+        ],
+        "source_index": 362,
+        "source_anchor": "CHAPTER 3."
+      },
+      {
+        "title": "Chapter 4",
+        "destination": 141,
+        "level": 2,
+        "aliases": [
+          "Chapter 4",
+          "Chapter 4"
+        ],
+        "source_index": 544,
+        "source_anchor": "CHAPTER 4."
+      },
+      {
+        "title": "Chapter 5",
+        "destination": 177,
+        "level": 2,
+        "aliases": [
+          "Chapter 5",
+          "Chapter 5"
+        ],
+        "source_index": 666,
+        "source_anchor": "CHAPTER 5."
+      },
+      {
+        "title": "Chapter 6",
+        "destination": 189,
+        "level": 2,
+        "aliases": [
+          "Chapter 6",
+          "Chapter 6"
+        ],
+        "source_index": 750,
+        "source_anchor": "CHAPTER 6."
+      },
+      {
+        "title": "Chapter 7",
+        "destination": 214,
+        "level": 2,
+        "aliases": [
+          "Chapter 7",
+          "Chapter 7"
+        ],
+        "source_index": 842,
+        "source_anchor": "CHAPTER 7."
+      },
+      {
+        "title": "Chapter 8",
+        "destination": 227,
+        "level": 2,
+        "aliases": [
+          "Chapter 8",
+          "Chapter 8"
+        ],
+        "source_index": 905,
+        "source_anchor": "CHAPTER 8."
+      },
+      {
+        "title": "Chapter 9",
+        "destination": 240,
+        "level": 2,
+        "aliases": [
+          "Chapter 9",
+          "Chapter 9"
+        ],
+        "source_index": 972,
+        "source_anchor": "CHAPTER 9."
+      },
+      {
+        "title": "Chapter 10",
+        "destination": 264,
+        "level": 2,
+        "aliases": [
+          "Chapter 10",
+          "Chapter 10"
+        ],
+        "source_index": 1080,
+        "source_anchor": "CHAPTER 10."
+      },
+      {
+        "title": "Chapter 11",
+        "destination": 275,
+        "level": 2,
+        "aliases": [
+          "Chapter 11",
+          "Chapter 11"
+        ],
+        "source_index": 1167,
+        "source_anchor": "CHAPTER 11."
+      },
+      {
+        "title": "Chapter 12",
+        "destination": 294,
+        "level": 2,
+        "aliases": [
+          "Chapter 12",
+          "Chapter 12"
+        ],
+        "source_index": 1276,
+        "source_anchor": "CHAPTER 12."
+      },
+      {
+        "title": "Chapter 13",
+        "destination": 319,
+        "level": 2,
+        "aliases": [
+          "Chapter 13",
+          "Chapter 13"
+        ],
+        "source_index": 1361,
+        "source_anchor": "CHAPTER 13."
+      },
+      {
+        "title": "Chapter 14",
+        "destination": 331,
+        "level": 2,
+        "aliases": [
+          "Chapter 14",
+          "Chapter 14"
+        ],
+        "source_index": 1415,
+        "source_anchor": "CHAPTER 14."
+      },
+      {
+        "title": "Chapter 15",
+        "destination": 349,
+        "level": 2,
+        "aliases": [
+          "Chapter 15",
+          "Chapter 15"
+        ],
+        "source_index": 1500,
+        "source_anchor": "CHAPTER 15."
+      },
+      {
+        "title": "Chapter 16",
+        "destination": 373,
+        "level": 2,
+        "aliases": [
+          "Chapter 16",
+          "Chapter 16"
+        ],
+        "source_index": 1584,
+        "source_anchor": "CHAPTER 16."
+      },
+      {
+        "title": "Chapter 17",
+        "destination": 391,
+        "level": 2,
+        "aliases": [
+          "Chapter 17",
+          "Chapter 17"
+        ],
+        "source_index": 1658,
+        "source_anchor": "CHAPTER 17."
+      },
+      {
+        "title": "Chapter 18",
+        "destination": 417,
+        "level": 2,
+        "aliases": [
+          "Chapter 18",
+          "Chapter 18"
+        ],
+        "source_index": 1759,
+        "source_anchor": "CHAPTER 18."
+      },
+      {
+        "title": "Chapter 19",
+        "destination": 443,
+        "level": 2,
+        "aliases": [
+          "Chapter 19",
+          "Chapter 19"
+        ],
+        "source_index": 1869,
+        "source_anchor": "CHAPTER 19."
+      },
+      {
+        "title": "Chapter 20",
+        "destination": 475,
+        "level": 2,
+        "aliases": [
+          "Chapter 20",
+          "Chapter 20"
+        ],
+        "source_index": 1997,
+        "source_anchor": "CHAPTER 20."
+      },
+      {
+        "title": "Chapter 21",
+        "destination": 491,
+        "level": 2,
+        "aliases": [
+          "Chapter 21",
+          "Chapter 21"
+        ],
+        "source_index": 2064,
+        "source_anchor": "CHAPTER 21."
+      },
+      {
+        "title": "Chapter 22",
+        "destination": 514,
+        "level": 2,
+        "aliases": [
+          "Chapter 22",
+          "Chapter 22"
+        ],
+        "source_index": 2178,
+        "source_anchor": "CHAPTER 22."
+      },
+      {
+        "title": "Chapter 23",
+        "destination": 531,
+        "level": 2,
+        "aliases": [
+          "Chapter 23",
+          "Chapter 23"
+        ],
+        "source_index": 2253,
+        "source_anchor": "CHAPTER 23."
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Dedication",
+      "destination": 3,
+      "level": 1,
+      "aliases": [
+        "The Author's Epistle Dedicatory",
+        "The Author's Epistle Dedicatory"
+      ],
+      "source_index": 0,
+      "source_anchor": "THE AUTHOR'S EPISTLE DEDICATORY"
+    },
+    {
+      "title": "Genesis",
+      "destination": 12,
+      "level": 1,
+      "aliases": [
+        "Argument"
+      ],
+      "source_index": 27,
+      "source_anchor": "Argument."
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 22,
+      "level": 2,
+      "aliases": [
+        "Chapter 1",
+        "Chapter 1"
+      ],
+      "source_index": 44,
+      "source_anchor": "Chapter 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 56,
+      "level": 2,
+      "aliases": [
+        "Chapter 2",
+        "Chapter 2"
+      ],
+      "source_index": 220,
+      "source_anchor": "CHAPTER 2."
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 93,
+      "level": 2,
+      "aliases": [
+        "Chapter 3",
+        "Chapter 3"
+      ],
+      "source_index": 362,
+      "source_anchor": "CHAPTER 3."
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 141,
+      "level": 2,
+      "aliases": [
+        "Chapter 4",
+        "Chapter 4"
+      ],
+      "source_index": 544,
+      "source_anchor": "CHAPTER 4."
+    },
+    {
+      "title": "Chapter 5",
+      "destination": 177,
+      "level": 2,
+      "aliases": [
+        "Chapter 5",
+        "Chapter 5"
+      ],
+      "source_index": 666,
+      "source_anchor": "CHAPTER 5."
+    },
+    {
+      "title": "Chapter 6",
+      "destination": 189,
+      "level": 2,
+      "aliases": [
+        "Chapter 6",
+        "Chapter 6"
+      ],
+      "source_index": 750,
+      "source_anchor": "CHAPTER 6."
+    },
+    {
+      "title": "Chapter 7",
+      "destination": 214,
+      "level": 2,
+      "aliases": [
+        "Chapter 7",
+        "Chapter 7"
+      ],
+      "source_index": 842,
+      "source_anchor": "CHAPTER 7."
+    },
+    {
+      "title": "Chapter 8",
+      "destination": 227,
+      "level": 2,
+      "aliases": [
+        "Chapter 8",
+        "Chapter 8"
+      ],
+      "source_index": 905,
+      "source_anchor": "CHAPTER 8."
+    },
+    {
+      "title": "Chapter 9",
+      "destination": 240,
+      "level": 2,
+      "aliases": [
+        "Chapter 9",
+        "Chapter 9"
+      ],
+      "source_index": 972,
+      "source_anchor": "CHAPTER 9."
+    },
+    {
+      "title": "Chapter 10",
+      "destination": 264,
+      "level": 2,
+      "aliases": [
+        "Chapter 10",
+        "Chapter 10"
+      ],
+      "source_index": 1080,
+      "source_anchor": "CHAPTER 10."
+    },
+    {
+      "title": "Chapter 11",
+      "destination": 275,
+      "level": 2,
+      "aliases": [
+        "Chapter 11",
+        "Chapter 11"
+      ],
+      "source_index": 1167,
+      "source_anchor": "CHAPTER 11."
+    },
+    {
+      "title": "Chapter 12",
+      "destination": 294,
+      "level": 2,
+      "aliases": [
+        "Chapter 12",
+        "Chapter 12"
+      ],
+      "source_index": 1276,
+      "source_anchor": "CHAPTER 12."
+    },
+    {
+      "title": "Chapter 13",
+      "destination": 319,
+      "level": 2,
+      "aliases": [
+        "Chapter 13",
+        "Chapter 13"
+      ],
+      "source_index": 1361,
+      "source_anchor": "CHAPTER 13."
+    },
+    {
+      "title": "Chapter 14",
+      "destination": 331,
+      "level": 2,
+      "aliases": [
+        "Chapter 14",
+        "Chapter 14"
+      ],
+      "source_index": 1415,
+      "source_anchor": "CHAPTER 14."
+    },
+    {
+      "title": "Chapter 15",
+      "destination": 349,
+      "level": 2,
+      "aliases": [
+        "Chapter 15",
+        "Chapter 15"
+      ],
+      "source_index": 1500,
+      "source_anchor": "CHAPTER 15."
+    },
+    {
+      "title": "Chapter 16",
+      "destination": 373,
+      "level": 2,
+      "aliases": [
+        "Chapter 16",
+        "Chapter 16"
+      ],
+      "source_index": 1584,
+      "source_anchor": "CHAPTER 16."
+    },
+    {
+      "title": "Chapter 17",
+      "destination": 391,
+      "level": 2,
+      "aliases": [
+        "Chapter 17",
+        "Chapter 17"
+      ],
+      "source_index": 1658,
+      "source_anchor": "CHAPTER 17."
+    },
+    {
+      "title": "Chapter 18",
+      "destination": 417,
+      "level": 2,
+      "aliases": [
+        "Chapter 18",
+        "Chapter 18"
+      ],
+      "source_index": 1759,
+      "source_anchor": "CHAPTER 18."
+    },
+    {
+      "title": "Chapter 19",
+      "destination": 443,
+      "level": 2,
+      "aliases": [
+        "Chapter 19",
+        "Chapter 19"
+      ],
+      "source_index": 1869,
+      "source_anchor": "CHAPTER 19."
+    },
+    {
+      "title": "Chapter 20",
+      "destination": 475,
+      "level": 2,
+      "aliases": [
+        "Chapter 20",
+        "Chapter 20"
+      ],
+      "source_index": 1997,
+      "source_anchor": "CHAPTER 20."
+    },
+    {
+      "title": "Chapter 21",
+      "destination": 491,
+      "level": 2,
+      "aliases": [
+        "Chapter 21",
+        "Chapter 21"
+      ],
+      "source_index": 2064,
+      "source_anchor": "CHAPTER 21."
+    },
+    {
+      "title": "Chapter 22",
+      "destination": 514,
+      "level": 2,
+      "aliases": [
+        "Chapter 22",
+        "Chapter 22"
+      ],
+      "source_index": 2178,
+      "source_anchor": "CHAPTER 22."
+    },
+    {
+      "title": "Chapter 23",
+      "destination": 531,
+      "level": 2,
+      "aliases": [
+        "Chapter 23",
+        "Chapter 23"
+      ],
+      "source_index": 2253,
+      "source_anchor": "CHAPTER 23."
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom01_approved\\verification.json",
+    "current_interior_sha256": "bd53d8f42f33cc2b023ec419cbfa327f974cc8729163e8a20946864691d2da7f",
+    "previous_interior_sha256": "e5d7e01b937ac95b9ff0024a281d3d3d0196a1a42249e87e4db62dacc5e0e88a",
+    "approved_edition_updated": true
+  },
+  "font_update_20260926": {
+    "current_pdf_sha256": {
+      "john_calvin_calcom01_commentary_on_genesis_volume_1_interior.pdf": "bd53d8f42f33cc2b023ec419cbfa327f974cc8729163e8a20946864691d2da7f"
+    }
   }
 }

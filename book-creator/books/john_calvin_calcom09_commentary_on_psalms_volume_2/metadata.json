@@ -14,9 +14,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 459,
   "body_page_count": 457,
-  "generated_contents_entries": 31,
-  "generated_contents_entries_in_pdf": 31,
-  "detected_heading_count": 31,
+  "generated_contents_entries": 32,
+  "generated_contents_entries_in_pdf": 32,
+  "detected_heading_count": 32,
   "interior_filename": "john_calvin_calcom09_commentary_on_psalms_volume_2_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom09_commentary_on_psalms_volume_2_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom09_commentary_on_psalms_volume_2_paperback_cover.pdf",
@@ -91,7 +91,8 @@
     "page_count": 459,
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
-    "body_text_matches_previous_approved_edition": true
+    "body_text_matches_previous_approved_edition": true,
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom09_approved\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -322,5 +323,744 @@
     "font_change_scope": "Palatino Linotype body and running headers",
     "special_glyph_fallback": null,
     "math_font": null
+  },
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "ab5c3063df0abb5e436ae8ef7419ff1e396a83072b324ae304bfc09d50e98167",
+    "after_sha256": "40f055c269af77ea51cd4a7518a25578c55b1217429d58f7c621a6af25f31998",
+    "page_count": 459,
+    "old_entries": 31,
+    "entry_count": 32,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2
+    ],
+    "entries": [
+      {
+        "title": "Psalms",
+        "destination": 3,
+        "level": 1,
+        "aliases": [
+          "Psalm 36",
+          "Psalm 36"
+        ],
+        "source_index": 0,
+        "source_anchor": "Psalm 36"
+      },
+      {
+        "title": "Psalm 36",
+        "destination": 3,
+        "level": 2,
+        "aliases": [
+          "Psalm 36",
+          "Psalm 36"
+        ],
+        "source_index": 0,
+        "source_anchor": "Psalm 36"
+      },
+      {
+        "title": "Psalm 37",
+        "destination": 16,
+        "level": 2,
+        "aliases": [
+          "Psalm 37",
+          "Psalm 37"
+        ],
+        "source_index": 41,
+        "source_anchor": "PSALM 37"
+      },
+      {
+        "title": "Psalm 38",
+        "destination": 52,
+        "level": 2,
+        "aliases": [
+          "Psalm 38",
+          "Psalm 38"
+        ],
+        "source_index": 141,
+        "source_anchor": "PSALM 38"
+      },
+      {
+        "title": "Psalm 39",
+        "destination": 69,
+        "level": 2,
+        "aliases": [
+          "Psalm 39",
+          "Psalm 39"
+        ],
+        "source_index": 201,
+        "source_anchor": "PSALM 39"
+      },
+      {
+        "title": "Psalm 40",
+        "destination": 86,
+        "level": 2,
+        "aliases": [
+          "Psalm 40",
+          "Psalm 40"
+        ],
+        "source_index": 247,
+        "source_anchor": "PSALM 40"
+      },
+      {
+        "title": "Psalm 41",
+        "destination": 108,
+        "level": 2,
+        "aliases": [
+          "Psalm 41",
+          "Psalm 41"
+        ],
+        "source_index": 302,
+        "source_anchor": "PSALM 41"
+      },
+      {
+        "title": "Psalm 42",
+        "destination": 122,
+        "level": 2,
+        "aliases": [
+          "Psalm 42",
+          "Psalm 42"
+        ],
+        "source_index": 341,
+        "source_anchor": "PSALM 42"
+      },
+      {
+        "title": "Psalm 43",
+        "destination": 138,
+        "level": 2,
+        "aliases": [
+          "Psalm 43",
+          "Psalm 43"
+        ],
+        "source_index": 379,
+        "source_anchor": "PSALM 43"
+      },
+      {
+        "title": "Psalm 44",
+        "destination": 142,
+        "level": 2,
+        "aliases": [
+          "Psalm 44",
+          "Psalm 44"
+        ],
+        "source_index": 389,
+        "source_anchor": "PSALM 44"
+      },
+      {
+        "title": "Psalm 45",
+        "destination": 166,
+        "level": 2,
+        "aliases": [
+          "Psalm 45",
+          "Psalm 45"
+        ],
+        "source_index": 460,
+        "source_anchor": "PSALM 45"
+      },
+      {
+        "title": "Psalm 46",
+        "destination": 187,
+        "level": 2,
+        "aliases": [
+          "Psalm 46",
+          "Psalm 46"
+        ],
+        "source_index": 514,
+        "source_anchor": "PSALM 46"
+      },
+      {
+        "title": "Psalm 47",
+        "destination": 197,
+        "level": 2,
+        "aliases": [
+          "Psalm 47",
+          "Psalm 47"
+        ],
+        "source_index": 546,
+        "source_anchor": "PSALM 47"
+      },
+      {
+        "title": "Psalm 48",
+        "destination": 207,
+        "level": 2,
+        "aliases": [
+          "Psalm 48",
+          "Psalm 48"
+        ],
+        "source_index": 572,
+        "source_anchor": "PSALM 48"
+      },
+      {
+        "title": "Psalm 49",
+        "destination": 224,
+        "level": 2,
+        "aliases": [
+          "Psalm 49",
+          "Psalm 49"
+        ],
+        "source_index": 618,
+        "source_anchor": "PSALM 49"
+      },
+      {
+        "title": "Psalm 50",
+        "destination": 246,
+        "level": 2,
+        "aliases": [
+          "Psalm 50",
+          "Psalm 50"
+        ],
+        "source_index": 686,
+        "source_anchor": "PSALM 50"
+      },
+      {
+        "title": "Psalm 51",
+        "destination": 269,
+        "level": 2,
+        "aliases": [
+          "Psalm 51",
+          "Psalm 51"
+        ],
+        "source_index": 748,
+        "source_anchor": "PSALM 51"
+      },
+      {
+        "title": "Psalm 52",
+        "destination": 295,
+        "level": 2,
+        "aliases": [
+          "Psalm 52",
+          "Psalm 52"
+        ],
+        "source_index": 805,
+        "source_anchor": "PSALM 52"
+      },
+      {
+        "title": "Psalm 53",
+        "destination": 306,
+        "level": 2,
+        "aliases": [
+          "Psalm 53",
+          "Psalm 53"
+        ],
+        "source_index": 832,
+        "source_anchor": "PSALM 53"
+      },
+      {
+        "title": "Psalm 54",
+        "destination": 307,
+        "level": 2,
+        "aliases": [
+          "Psalm 54",
+          "Psalm 54"
+        ],
+        "source_index": 841,
+        "source_anchor": "PSALM 54"
+      },
+      {
+        "title": "Psalm 55",
+        "destination": 313,
+        "level": 2,
+        "aliases": [
+          "Psalm 55",
+          "Psalm 55"
+        ],
+        "source_index": 859,
+        "source_anchor": "PSALM 55"
+      },
+      {
+        "title": "Psalm 56",
+        "destination": 332,
+        "level": 2,
+        "aliases": [
+          "Psalm 56",
+          "Psalm 56"
+        ],
+        "source_index": 917,
+        "source_anchor": "PSALM 56"
+      },
+      {
+        "title": "Psalm 57",
+        "destination": 344,
+        "level": 2,
+        "aliases": [
+          "Psalm 57",
+          "Psalm 57"
+        ],
+        "source_index": 952,
+        "source_anchor": "PSALM 57"
+      },
+      {
+        "title": "Psalm 58",
+        "destination": 352,
+        "level": 2,
+        "aliases": [
+          "Psalm 58",
+          "Psalm 58"
+        ],
+        "source_index": 980,
+        "source_anchor": "PSALM 58"
+      },
+      {
+        "title": "Psalm 59",
+        "destination": 364,
+        "level": 2,
+        "aliases": [
+          "Psalm 59",
+          "Psalm 59"
+        ],
+        "source_index": 1017,
+        "source_anchor": "PSALM 59"
+      },
+      {
+        "title": "Psalm 60",
+        "destination": 378,
+        "level": 2,
+        "aliases": [
+          "Psalm 60",
+          "Psalm 60"
+        ],
+        "source_index": 1059,
+        "source_anchor": "PSALM 60"
+      },
+      {
+        "title": "Psalm 61",
+        "destination": 393,
+        "level": 2,
+        "aliases": [
+          "Psalm 61",
+          "Psalm 61"
+        ],
+        "source_index": 1101,
+        "source_anchor": "PSALM 61"
+      },
+      {
+        "title": "Psalm 62",
+        "destination": 400,
+        "level": 2,
+        "aliases": [
+          "Psalm 62",
+          "Psalm 62"
+        ],
+        "source_index": 1121,
+        "source_anchor": "PSALM 62"
+      },
+      {
+        "title": "Psalm 63",
+        "destination": 415,
+        "level": 2,
+        "aliases": [
+          "Psalm 63",
+          "Psalm 63"
+        ],
+        "source_index": 1163,
+        "source_anchor": "PSALM 63"
+      },
+      {
+        "title": "Psalm 64",
+        "destination": 425,
+        "level": 2,
+        "aliases": [
+          "Psalm 64",
+          "Psalm 64"
+        ],
+        "source_index": 1201,
+        "source_anchor": "PSALM 64"
+      },
+      {
+        "title": "Psalm 65",
+        "destination": 432,
+        "level": 2,
+        "aliases": [
+          "Psalm 65",
+          "Psalm 65"
+        ],
+        "source_index": 1220,
+        "source_anchor": "PSALM 65"
+      },
+      {
+        "title": "Psalm 66",
+        "destination": 446,
+        "level": 2,
+        "aliases": [
+          "Psalm 66",
+          "Psalm 66"
+        ],
+        "source_index": 1264,
+        "source_anchor": "PSALM 66"
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Psalms",
+      "destination": 3,
+      "level": 1,
+      "aliases": [
+        "Psalm 36",
+        "Psalm 36"
+      ],
+      "source_index": 0,
+      "source_anchor": "Psalm 36"
+    },
+    {
+      "title": "Psalm 36",
+      "destination": 3,
+      "level": 2,
+      "aliases": [
+        "Psalm 36",
+        "Psalm 36"
+      ],
+      "source_index": 0,
+      "source_anchor": "Psalm 36"
+    },
+    {
+      "title": "Psalm 37",
+      "destination": 16,
+      "level": 2,
+      "aliases": [
+        "Psalm 37",
+        "Psalm 37"
+      ],
+      "source_index": 41,
+      "source_anchor": "PSALM 37"
+    },
+    {
+      "title": "Psalm 38",
+      "destination": 52,
+      "level": 2,
+      "aliases": [
+        "Psalm 38",
+        "Psalm 38"
+      ],
+      "source_index": 141,
+      "source_anchor": "PSALM 38"
+    },
+    {
+      "title": "Psalm 39",
+      "destination": 69,
+      "level": 2,
+      "aliases": [
+        "Psalm 39",
+        "Psalm 39"
+      ],
+      "source_index": 201,
+      "source_anchor": "PSALM 39"
+    },
+    {
+      "title": "Psalm 40",
+      "destination": 86,
+      "level": 2,
+      "aliases": [
+        "Psalm 40",
+        "Psalm 40"
+      ],
+      "source_index": 247,
+      "source_anchor": "PSALM 40"
+    },
+    {
+      "title": "Psalm 41",
+      "destination": 108,
+      "level": 2,
+      "aliases": [
+        "Psalm 41",
+        "Psalm 41"
+      ],
+      "source_index": 302,
+      "source_anchor": "PSALM 41"
+    },
+    {
+      "title": "Psalm 42",
+      "destination": 122,
+      "level": 2,
+      "aliases": [
+        "Psalm 42",
+        "Psalm 42"
+      ],
+      "source_index": 341,
+      "source_anchor": "PSALM 42"
+    },
+    {
+      "title": "Psalm 43",
+      "destination": 138,
+      "level": 2,
+      "aliases": [
+        "Psalm 43",
+        "Psalm 43"
+      ],
+      "source_index": 379,
+      "source_anchor": "PSALM 43"
+    },
+    {
+      "title": "Psalm 44",
+      "destination": 142,
+      "level": 2,
+      "aliases": [
+        "Psalm 44",
+        "Psalm 44"
+      ],
+      "source_index": 389,
+      "source_anchor": "PSALM 44"
+    },
+    {
+      "title": "Psalm 45",
+      "destination": 166,
+      "level": 2,
+      "aliases": [
+        "Psalm 45",
+        "Psalm 45"
+      ],
+      "source_index": 460,
+      "source_anchor": "PSALM 45"
+    },
+    {
+      "title": "Psalm 46",
+      "destination": 187,
+      "level": 2,
+      "aliases": [
+        "Psalm 46",
+        "Psalm 46"
+      ],
+      "source_index": 514,
+      "source_anchor": "PSALM 46"
+    },
+    {
+      "title": "Psalm 47",
+      "destination": 197,
+      "level": 2,
+      "aliases": [
+        "Psalm 47",
+        "Psalm 47"
+      ],
+      "source_index": 546,
+      "source_anchor": "PSALM 47"
+    },
+    {
+      "title": "Psalm 48",
+      "destination": 207,
+      "level": 2,
+      "aliases": [
+        "Psalm 48",
+        "Psalm 48"
+      ],
+      "source_index": 572,
+      "source_anchor": "PSALM 48"
+    },
+    {
+      "title": "Psalm 49",
+      "destination": 224,
+      "level": 2,
+      "aliases": [
+        "Psalm 49",
+        "Psalm 49"
+      ],
+      "source_index": 618,
+      "source_anchor": "PSALM 49"
+    },
+    {
+      "title": "Psalm 50",
+      "destination": 246,
+      "level": 2,
+      "aliases": [
+        "Psalm 50",
+        "Psalm 50"
+      ],
+      "source_index": 686,
+      "source_anchor": "PSALM 50"
+    },
+    {
+      "title": "Psalm 51",
+      "destination": 269,
+      "level": 2,
+      "aliases": [
+        "Psalm 51",
+        "Psalm 51"
+      ],
+      "source_index": 748,
+      "source_anchor": "PSALM 51"
+    },
+    {
+      "title": "Psalm 52",
+      "destination": 295,
+      "level": 2,
+      "aliases": [
+        "Psalm 52",
+        "Psalm 52"
+      ],
+      "source_index": 805,
+      "source_anchor": "PSALM 52"
+    },
+    {
+      "title": "Psalm 53",
+      "destination": 306,
+      "level": 2,
+      "aliases": [
+        "Psalm 53",
+        "Psalm 53"
+      ],
+      "source_index": 832,
+      "source_anchor": "PSALM 53"
+    },
+    {
+      "title": "Psalm 54",
+      "destination": 307,
+      "level": 2,
+      "aliases": [
+        "Psalm 54",
+        "Psalm 54"
+      ],
+      "source_index": 841,
+      "source_anchor": "PSALM 54"
+    },
+    {
+      "title": "Psalm 55",
+      "destination": 313,
+      "level": 2,
+      "aliases": [
+        "Psalm 55",
+        "Psalm 55"
+      ],
+      "source_index": 859,
+      "source_anchor": "PSALM 55"
+    },
+    {
+      "title": "Psalm 56",
+      "destination": 332,
+      "level": 2,
+      "aliases": [
+        "Psalm 56",
+        "Psalm 56"
+      ],
+      "source_index": 917,
+      "source_anchor": "PSALM 56"
+    },
+    {
+      "title": "Psalm 57",
+      "destination": 344,
+      "level": 2,
+      "aliases": [
+        "Psalm 57",
+        "Psalm 57"
+      ],
+      "source_index": 952,
+      "source_anchor": "PSALM 57"
+    },
+    {
+      "title": "Psalm 58",
+      "destination": 352,
+      "level": 2,
+      "aliases": [
+        "Psalm 58",
+        "Psalm 58"
+      ],
+      "source_index": 980,
+      "source_anchor": "PSALM 58"
+    },
+    {
+      "title": "Psalm 59",
+      "destination": 364,
+      "level": 2,
+      "aliases": [
+        "Psalm 59",
+        "Psalm 59"
+      ],
+      "source_index": 1017,
+      "source_anchor": "PSALM 59"
+    },
+    {
+      "title": "Psalm 60",
+      "destination": 378,
+      "level": 2,
+      "aliases": [
+        "Psalm 60",
+        "Psalm 60"
+      ],
+      "source_index": 1059,
+      "source_anchor": "PSALM 60"
+    },
+    {
+      "title": "Psalm 61",
+      "destination": 393,
+      "level": 2,
+      "aliases": [
+        "Psalm 61",
+        "Psalm 61"
+      ],
+      "source_index": 1101,
+      "source_anchor": "PSALM 61"
+    },
+    {
+      "title": "Psalm 62",
+      "destination": 400,
+      "level": 2,
+      "aliases": [
+        "Psalm 62",
+        "Psalm 62"
+      ],
+      "source_index": 1121,
+      "source_anchor": "PSALM 62"
+    },
+    {
+      "title": "Psalm 63",
+      "destination": 415,
+      "level": 2,
+      "aliases": [
+        "Psalm 63",
+        "Psalm 63"
+      ],
+      "source_index": 1163,
+      "source_anchor": "PSALM 63"
+    },
+    {
+      "title": "Psalm 64",
+      "destination": 425,
+      "level": 2,
+      "aliases": [
+        "Psalm 64",
+        "Psalm 64"
+      ],
+      "source_index": 1201,
+      "source_anchor": "PSALM 64"
+    },
+    {
+      "title": "Psalm 65",
+      "destination": 432,
+      "level": 2,
+      "aliases": [
+        "Psalm 65",
+        "Psalm 65"
+      ],
+      "source_index": 1220,
+      "source_anchor": "PSALM 65"
+    },
+    {
+      "title": "Psalm 66",
+      "destination": 446,
+      "level": 2,
+      "aliases": [
+        "Psalm 66",
+        "Psalm 66"
+      ],
+      "source_index": 1264,
+      "source_anchor": "PSALM 66"
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom09_approved\\verification.json",
+    "current_interior_sha256": "40f055c269af77ea51cd4a7518a25578c55b1217429d58f7c621a6af25f31998",
+    "previous_interior_sha256": "ab5c3063df0abb5e436ae8ef7419ff1e396a83072b324ae304bfc09d50e98167",
+    "approved_edition_updated": true
+  },
+  "font_update_20260926": {
+    "current_pdf_sha256": {
+      "john_calvin_calcom09_commentary_on_psalms_volume_2_interior.pdf": "40f055c269af77ea51cd4a7518a25578c55b1217429d58f7c621a6af25f31998"
+    }
   }
 }

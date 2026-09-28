@@ -22,7 +22,7 @@
       "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom30_approved\\verification.json"
     },
     "approved_pdf_sha256": {
-      "john_calvin_calcom30_commentary_on_zechariah_malachi_interior.pdf": "d8020507fd9b2d320fadcbb68c53bd97bd222558a68254a321eea2b98a13819f",
+      "john_calvin_calcom30_commentary_on_zechariah_malachi_interior.pdf": "f42edc937de1c1932bbbfaf6928e373f5794801c3b9f61dfc614ae52ad93e3d2",
       "john_calvin_calcom30_commentary_on_zechariah_malachi_paperback_cover.pdf": "9c96c22a3998977f4acec751f1fb5c2c793f325dbc5c4c51245a1fcbcbf40ddb",
       "john_calvin_calcom30_commentary_on_zechariah_malachi_hardcover_cover.pdf": "2a581b9a545ba6e226f81772e02777c9fa0bfc05501fb6a30248a7653a309304"
     }
@@ -32,9 +32,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 619,
   "body_page_count": 615,
-  "generated_contents_entries": 70,
-  "generated_contents_entries_in_pdf": 70,
-  "detected_heading_count": 70,
+  "generated_contents_entries": 71,
+  "generated_contents_entries_in_pdf": 71,
+  "detected_heading_count": 71,
   "interior_filename": "john_calvin_calcom30_commentary_on_zechariah_malachi_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom30_commentary_on_zechariah_malachi_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom30_commentary_on_zechariah_malachi_paperback_cover.pdf",
@@ -108,7 +108,7 @@
     "full_body_text_preserved": true,
     "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom30_approved\\verification.json",
     "all_interior_pages_rendered": 619,
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom30_approved\\verification.json",
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom30_approved\\verification.json",
     "original_character_positions_preserved": false,
     "page_text_and_character_sequence_preserved": false,
     "original_editions_preserved_in_backup": true
@@ -392,11 +392,11 @@
   },
   "contents_audit_20260927": {
     "status": "verified",
-    "before_sha256": "d8020507fd9b2d320fadcbb68c53bd97bd222558a68254a321eea2b98a13819f",
-    "after_sha256": "d504690db22301586bda375d6d86ff42856f63471e2f4745279690f661b48091",
+    "before_sha256": "d504690db22301586bda375d6d86ff42856f63471e2f4745279690f661b48091",
+    "after_sha256": "f42edc937de1c1932bbbfaf6928e373f5794801c3b9f61dfc614ae52ad93e3d2",
     "page_count": 619,
-    "old_entries": 90,
-    "entry_count": 70,
+    "old_entries": 70,
+    "entry_count": 71,
     "all_non_contents_page_text_and_streams_unchanged": true,
     "sample_body_renders_identical": true,
     "embedded_truetype_fonts": true,
@@ -408,572 +408,1481 @@
     ],
     "entries": [
       {
-        "title": "The Commentaries on Zechariah",
+        "title": "Zechariah",
         "destination": 5,
         "level": 1,
         "aliases": [
           "The Commentaries on Zechariah"
-        ]
+        ],
+        "source_index": 0,
+        "source_anchor": "The Commentaries"
       },
       {
-        "title": "Calvin's Preface to Zechariah",
+        "title": "Preface",
         "destination": 5,
-        "level": 1,
+        "level": 2,
         "aliases": [
           "Calvin's Preface to Zechariah"
-        ]
+        ],
+        "source_index": 4,
+        "source_anchor": "Calvin's Preface to Zechariah"
       },
       {
-        "title": "Zechariah 1",
-        "destination": 6,
-        "level": 1,
-        "aliases": [
-          "Chapter 1"
-        ]
-      },
-      {
-        "title": "Lecture One Hundred and Thirty-Fourth",
+        "title": "Chapter 1",
         "destination": 6,
         "level": 2,
+        "aliases": [
+          "Zechariah 1",
+          "Chapter 1"
+        ],
+        "source_index": 8,
+        "source_anchor": "CHAPTER 1"
+      },
+      {
+        "title": "Lecture 134",
+        "destination": 6,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Thirty-Fourth"
-        ]
+        ],
+        "source_index": 9,
+        "source_anchor": "Lecture One Hundred and Thirty-fourth"
       },
       {
-        "title": "Lecture One Hundred and Thirty-Fifth",
+        "title": "Lecture 135",
         "destination": 17,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture One Hundred and Thirty-Fifth",
           "Lecture One Hundred and Thirty-Five"
-        ]
+        ],
+        "source_index": 49,
+        "source_anchor": "Lecture One Hundred and Thirty Five"
       },
       {
-        "title": "Lecture One Hundred and Thirty-Sixth",
+        "title": "Lecture 136",
         "destination": 29,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Thirty-Sixth"
-        ]
+        ],
+        "source_index": 95,
+        "source_anchor": "Lecture One Hundred and Thirty-sixth"
       },
       {
-        "title": "Lecture One Hundred and Thirty-Seventh",
+        "title": "Lecture 137",
         "destination": 41,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Thirty-Seventh"
-        ]
+        ],
+        "source_index": 149,
+        "source_anchor": "Lecture One Hundred and Thirty-seventh"
       },
       {
-        "title": "Zechariah 2",
+        "title": "Chapter 2",
         "destination": 48,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Zechariah 2",
           "Chapter 2"
-        ]
+        ],
+        "source_index": 177,
+        "source_anchor": "Chapter 2"
       },
       {
-        "title": "Lecture One Hundred and Thirty-Eighth",
+        "title": "Lecture 138",
         "destination": 54,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Thirty-Eighth"
-        ]
+        ],
+        "source_index": 204,
+        "source_anchor": "Lecture One Hundred and Thirty-eighth"
       },
       {
-        "title": "Lecture One Hundred and Thirty-Ninth",
+        "title": "Lecture 139",
         "destination": 67,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Thirty-Ninth"
-        ]
+        ],
+        "source_index": 254,
+        "source_anchor": "Lecture One Hundred and Thirty-ninth"
       },
       {
-        "title": "Zechariah 3",
+        "title": "Chapter 3",
         "destination": 72,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Zechariah 3",
           "Chapter 3"
-        ]
+        ],
+        "source_index": 272,
+        "source_anchor": "Chapter 3"
       },
       {
-        "title": "Lecture One Hundred and Fortieth",
+        "title": "Lecture 140",
         "destination": 80,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Fortieth"
-        ]
+        ],
+        "source_index": 306,
+        "source_anchor": "Lecture One Hundred and Fortieth"
       },
       {
-        "title": "Lecture One Hundred and Forty-First",
+        "title": "Lecture 141",
         "destination": 94,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Forty-First"
-        ]
+        ],
+        "source_index": 355,
+        "source_anchor": "Lecture One Hundred and Forty-first"
       },
       {
-        "title": "Zechariah 4",
+        "title": "Chapter 4",
         "destination": 96,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Zechariah 4",
           "Chapter 4"
-        ]
+        ],
+        "source_index": 363,
+        "source_anchor": "Chapter 4."
       },
       {
-        "title": "Lecture One Hundred and Forty-Second",
+        "title": "Lecture 142",
         "destination": 105,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Forty-Second"
-        ]
+        ],
+        "source_index": 396,
+        "source_anchor": "Lecture One Hundred and Forty-second"
       },
       {
-        "title": "Zechariah 5",
-        "destination": 118,
-        "level": 1,
-        "aliases": [
-          "Chapter 5"
-        ]
-      },
-      {
-        "title": "Lecture One Hundred and Forty-Third",
+        "title": "Chapter 5",
         "destination": 118,
         "level": 2,
+        "aliases": [
+          "Zechariah 5",
+          "Chapter 5"
+        ],
+        "source_index": 453,
+        "source_anchor": "Chapter 5"
+      },
+      {
+        "title": "Lecture 143",
+        "destination": 118,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Forty-Third"
-        ]
+        ],
+        "source_index": 454,
+        "source_anchor": "Lecture One Hundred and Forty-third"
       },
       {
-        "title": "Zechariah 6",
-        "destination": 132,
-        "level": 1,
-        "aliases": [
-          "Chapter 6"
-        ]
-      },
-      {
-        "title": "Lecture One Hundred and Forty-Fourth",
+        "title": "Chapter 6",
         "destination": 132,
         "level": 2,
+        "aliases": [
+          "Zechariah 6",
+          "Chapter 6"
+        ],
+        "source_index": 512,
+        "source_anchor": "Chapter 6"
+      },
+      {
+        "title": "Lecture 144",
+        "destination": 132,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Forty-Fourth"
-        ]
+        ],
+        "source_index": 513,
+        "source_anchor": "Lecture One Hundred and Forty-fourth"
       },
       {
-        "title": "Lecture One Hundred and Forty-Fifth",
+        "title": "Lecture 145",
         "destination": 144,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Forty-Fifth"
-        ]
+        ],
+        "source_index": 558,
+        "source_anchor": "Lecture One Hundred and Forty-fifth"
       },
       {
-        "title": "Zechariah 7",
-        "destination": 157,
-        "level": 1,
-        "aliases": [
-          "Chapter 7"
-        ]
-      },
-      {
-        "title": "Lecture One Hundred and Forty-Sixth",
+        "title": "Chapter 7",
         "destination": 157,
         "level": 2,
+        "aliases": [
+          "Zechariah 7",
+          "Chapter 7"
+        ],
+        "source_index": 604,
+        "source_anchor": "Chapter 7"
+      },
+      {
+        "title": "Lecture 146",
+        "destination": 157,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Forty-Sixth"
-        ]
+        ],
+        "source_index": 605,
+        "source_anchor": "Lecture One Hundred and Forty-sixth"
       },
       {
-        "title": "Lecture One Hundred and Forty-Seventh",
+        "title": "Lecture 147",
         "destination": 170,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Forty-Seventh"
-        ]
+        ],
+        "source_index": 657,
+        "source_anchor": "Lecture One Hundred and Forty-seventh"
       },
       {
-        "title": "Zechariah 8",
-        "destination": 182,
-        "level": 1,
-        "aliases": [
-          "Chapter 8"
-        ]
-      },
-      {
-        "title": "Lecture One Hundred and Forty-Eighth",
+        "title": "Chapter 8",
         "destination": 182,
         "level": 2,
+        "aliases": [
+          "Zechariah 8",
+          "Chapter 8"
+        ],
+        "source_index": 704,
+        "source_anchor": "Chapter 8"
+      },
+      {
+        "title": "Lecture 148",
+        "destination": 182,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Forty-Eighth"
-        ]
+        ],
+        "source_index": 705,
+        "source_anchor": "Lecture One Hundred and forty-eighth"
       },
       {
-        "title": "Lecture One Hundred and Forty-Ninth",
+        "title": "Lecture 149",
         "destination": 194,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Forty-Ninth"
-        ]
+        ],
+        "source_index": 760,
+        "source_anchor": "Lecture One Hundred and Forty-ninth"
       },
       {
-        "title": "Lecture One Hundred and Fiftieth",
+        "title": "Lecture 150",
         "destination": 206,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Fiftieth"
-        ]
+        ],
+        "source_index": 804,
+        "source_anchor": "Lecture One Hundred and Fiftieth"
       },
       {
-        "title": "Lecture One Hundred and Fifty-First",
+        "title": "Lecture 151",
         "destination": 216,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Fifty-First"
-        ]
+        ],
+        "source_index": 842,
+        "source_anchor": "Lecture One Hundred and Fifty-first"
       },
       {
-        "title": "Zechariah 9",
+        "title": "Chapter 9",
         "destination": 224,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Zechariah 9",
           "Chapter 9"
-        ]
+        ],
+        "source_index": 872,
+        "source_anchor": "Chapter 9"
       },
       {
-        "title": "Lecture One Hundred and Fifty-Second",
+        "title": "Lecture 152",
         "destination": 229,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Fifty-Second"
-        ]
+        ],
+        "source_index": 890,
+        "source_anchor": "Lecture One Hundred and Fifty-second"
       },
       {
-        "title": "Lecture One Hundred and Fifty-Third",
+        "title": "Lecture 153",
         "destination": 242,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Fifty-Third"
-        ]
+        ],
+        "source_index": 940,
+        "source_anchor": "Lecture One Hundred and Fifty-third"
       },
       {
-        "title": "Lecture One Hundred and Fifty-Fourth",
+        "title": "Lecture 154",
         "destination": 255,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Fifty-Fourth"
-        ]
+        ],
+        "source_index": 989,
+        "source_anchor": "Lecture One Hundred and Fifty-fourth"
       },
       {
-        "title": "Zechariah 10",
-        "destination": 268,
-        "level": 1,
-        "aliases": [
-          "Chapter 10"
-        ]
-      },
-      {
-        "title": "Lecture One Hundred and Fifty-Fifth",
+        "title": "Chapter 10",
         "destination": 268,
         "level": 2,
+        "aliases": [
+          "Zechariah 10",
+          "Chapter 10"
+        ],
+        "source_index": 1034,
+        "source_anchor": "Chapter 10"
+      },
+      {
+        "title": "Lecture 155",
+        "destination": 268,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Fifty-Fifth"
-        ]
+        ],
+        "source_index": 1035,
+        "source_anchor": "Lecture One Hundred and Fifty-fifth"
       },
       {
-        "title": "Lecture One Hundred and Fifty-Sixth",
+        "title": "Lecture 156",
         "destination": 280,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Fifty-Sixth"
-        ]
+        ],
+        "source_index": 1082,
+        "source_anchor": "Lecture One Hundred and Fifty-sixth"
       },
       {
-        "title": "Zechariah 11",
-        "destination": 294,
-        "level": 1,
-        "aliases": [
-          "Chapter 11"
-        ]
-      },
-      {
-        "title": "Lecture One Hundred and Fifty-Seventh",
+        "title": "Chapter 11",
         "destination": 294,
         "level": 2,
+        "aliases": [
+          "Zechariah 11",
+          "Chapter 11"
+        ],
+        "source_index": 1142,
+        "source_anchor": "Chapter 11"
+      },
+      {
+        "title": "Lecture 157",
+        "destination": 294,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Fifty-Seventh"
-        ]
+        ],
+        "source_index": 1143,
+        "source_anchor": "Lecture One Hundred and Fifty-seventh"
       },
       {
-        "title": "Lecture One Hundred and Fifty-Eighth",
+        "title": "Lecture 158",
         "destination": 307,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Fifty-Eighth"
-        ]
+        ],
+        "source_index": 1194,
+        "source_anchor": "Lecture One Hundred and Fifty-eighth"
       },
       {
-        "title": "Lecture One Hundred and Fifty-Ninth",
+        "title": "Lecture 159",
         "destination": 320,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Fifty-Ninth"
-        ]
+        ],
+        "source_index": 1249,
+        "source_anchor": "Lecture One Hundred and Fifty-ninth"
       },
       {
-        "title": "Zechariah 12",
-        "destination": 332,
-        "level": 1,
-        "aliases": [
-          "Chapter 12"
-        ]
-      },
-      {
-        "title": "Lecture One Hundred and Sixtieth",
+        "title": "Chapter 12",
         "destination": 332,
         "level": 2,
+        "aliases": [
+          "Zechariah 12",
+          "Chapter 12"
+        ],
+        "source_index": 1293,
+        "source_anchor": "Chapter 12"
+      },
+      {
+        "title": "Lecture 160",
+        "destination": 332,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Sixtieth"
-        ]
+        ],
+        "source_index": 1294,
+        "source_anchor": "Lecture One Hundred and Sixtieth"
       },
       {
-        "title": "Lecture One Hundred and Sixty-First",
+        "title": "Lecture 161",
         "destination": 345,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Sixty-First"
-        ]
+        ],
+        "source_index": 1348,
+        "source_anchor": "Lecture One Hundred and Sixty-first"
       },
       {
-        "title": "Lecture One Hundred and Sixty-Second",
+        "title": "Lecture 162",
         "destination": 357,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Sixty-Second"
-        ]
+        ],
+        "source_index": 1396,
+        "source_anchor": "Lecture One Hundred and Sixty-second"
       },
       {
-        "title": "Zechariah 13",
+        "title": "Chapter 13",
         "destination": 367,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Zechariah 13",
           "Chapter 13"
-        ]
+        ],
+        "source_index": 1437,
+        "source_anchor": "Chapter 13"
       },
       {
-        "title": "Lecture One Hundred and Sixty-Third",
+        "title": "Lecture 163",
         "destination": 371,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Sixty-Third"
-        ]
+        ],
+        "source_index": 1452,
+        "source_anchor": "Lecture One Hundred and Sixty-third"
       },
       {
-        "title": "Lecture One Hundred and Sixty-Fourth",
+        "title": "Lecture 164",
         "destination": 385,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Sixty-Fourth"
-        ]
+        ],
+        "source_index": 1509,
+        "source_anchor": "Lecture One Hundred and Sixty-fourth"
       },
       {
-        "title": "Zechariah 14",
-        "destination": 397,
-        "level": 1,
-        "aliases": [
-          "Chapter 14"
-        ]
-      },
-      {
-        "title": "Lecture One Hundred and Sixty-Fifth",
+        "title": "Chapter 14",
         "destination": 397,
         "level": 2,
+        "aliases": [
+          "Zechariah 14",
+          "Chapter 14"
+        ],
+        "source_index": 1561,
+        "source_anchor": "chapter 14"
+      },
+      {
+        "title": "Lecture 165",
+        "destination": 397,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Sixty-Fifth"
-        ]
+        ],
+        "source_index": 1562,
+        "source_anchor": "Lecture One Hundred and Sixty-fifth"
       },
       {
-        "title": "Lecture One Hundred and Sixty-Sixth",
+        "title": "Lecture 166",
         "destination": 410,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Sixty-Sixth"
-        ]
+        ],
+        "source_index": 1618,
+        "source_anchor": "Lecture One Hundred and Sixty-sixth"
       },
       {
-        "title": "Lecture One Hundred and Sixty-Seventh",
+        "title": "Lecture 167",
         "destination": 423,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Sixty-Seventh"
-        ]
+        ],
+        "source_index": 1676,
+        "source_anchor": "Lecture One Hundred and Sixty-seventh"
       },
       {
-        "title": "Lecture One Hundred and Sixty-Eighth",
+        "title": "Lecture 168",
         "destination": 435,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Sixty-Eighth"
-        ]
+        ],
+        "source_index": 1723,
+        "source_anchor": "Lecture One Hundred and Sixty-eighth"
       },
       {
-        "title": "Calvin's Preface to Malachi",
+        "title": "Malachi",
         "destination": 448,
         "level": 1,
         "aliases": [
           "Calvin's Preface to Malachi"
-        ]
+        ],
+        "source_index": 1778,
+        "source_anchor": "CALVIN'S PREFACE TO MALACHI"
       },
       {
-        "title": "Lecture One Hundred and Sixty-Ninth",
+        "title": "Preface",
+        "destination": 448,
+        "level": 2,
+        "aliases": [
+          "Calvin's Preface to Malachi"
+        ],
+        "source_index": 1778,
+        "source_anchor": "CALVIN'S PREFACE TO MALACHI"
+      },
+      {
+        "title": "Lecture 169",
         "destination": 448,
         "level": 2,
         "aliases": [
           "Lecture One Hundred and Sixty-Ninth"
-        ]
+        ],
+        "source_index": 1779,
+        "source_anchor": "Lecture One Hundred and Sixty-ninth"
       },
       {
-        "title": "Malachi 1",
+        "title": "Chapter 1",
         "destination": 450,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Malachi 1",
           "Chapter 1"
-        ]
+        ],
+        "source_index": 1786,
+        "source_anchor": "CHAPTER 1"
       },
       {
-        "title": "Lecture One Hundred and Seventieth",
+        "title": "Lecture 170",
         "destination": 460,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Seventieth"
-        ]
+        ],
+        "source_index": 1825,
+        "source_anchor": "Lecture One Hundred and Seventieth"
       },
       {
-        "title": "Lecture One Hundred and Seventy-First",
+        "title": "Lecture 171",
         "destination": 471,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Seventy-First"
-        ]
+        ],
+        "source_index": 1854,
+        "source_anchor": "Lecture One Hundred and Seventy-first"
       },
       {
-        "title": "Lecture One Hundred and Seventy-Second",
+        "title": "Lecture 172",
         "destination": 485,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Seventy-Second"
-        ]
+        ],
+        "source_index": 1903,
+        "source_anchor": "Lecture One Hundred and Seventy-second"
       },
       {
-        "title": "Lecture One Hundred and Seventy-Third",
+        "title": "Lecture 173",
         "destination": 498,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Seventy-Third"
-        ]
+        ],
+        "source_index": 1962,
+        "source_anchor": "Lecture One Hundred and Seventy Third"
       },
       {
-        "title": "Malachi 2",
+        "title": "Chapter 2",
         "destination": 500,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Malachi 2",
           "Chapter 2"
-        ]
+        ],
+        "source_index": 1970,
+        "source_anchor": "CHAPTER 2"
       },
       {
-        "title": "Lecture One Hundred and Seventy-Fourth",
+        "title": "Lecture 174",
         "destination": 511,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Seventy-Fourth"
-        ]
+        ],
+        "source_index": 2015,
+        "source_anchor": "Lecture One Hundred and Seventy-fourth"
       },
       {
-        "title": "Lecture One Hundred and Seventy-Fifth",
+        "title": "Lecture 175",
         "destination": 523,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Seventy-Fifth"
-        ]
+        ],
+        "source_index": 2068,
+        "source_anchor": "Lecture One Hundred and Seventy-fifth"
       },
       {
-        "title": "Lecture One Hundred and Seventy-Sixth",
+        "title": "Lecture 176",
         "destination": 536,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Seventy-Sixth"
-        ]
+        ],
+        "source_index": 2109,
+        "source_anchor": "Lecture One Hundred and Seventy-sixth"
       },
       {
-        "title": "Lecture One Hundred and Seventy-Seventh",
+        "title": "Lecture 177",
         "destination": 549,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Seventy-Seventh"
-        ]
+        ],
+        "source_index": 2157,
+        "source_anchor": "Lecture One Hundred and Seventy Seventh"
       },
       {
-        "title": "Malachi 3",
+        "title": "Chapter 3",
         "destination": 553,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Malachi 3",
           "Chapter 3"
-        ]
+        ],
+        "source_index": 2177,
+        "source_anchor": "CHAPTER 3"
       },
       {
-        "title": "Lecture One Hundred and Seventy-Eighth",
+        "title": "Lecture 178",
         "destination": 561,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Seventy-Eighth"
-        ]
+        ],
+        "source_index": 2213,
+        "source_anchor": "Lecture One Hundred and Seventy-eighth"
       },
       {
-        "title": "Lecture One Hundred and Seventy-Ninth",
+        "title": "Lecture 179",
         "destination": 574,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Seventy-Ninth"
-        ]
+        ],
+        "source_index": 2271,
+        "source_anchor": "Lecture One Hundred and Seventy-ninth"
       },
       {
-        "title": "Lecture One Hundred and Eightieth",
+        "title": "Lecture 180",
         "destination": 586,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Eightieth"
-        ]
+        ],
+        "source_index": 2328,
+        "source_anchor": "Lecture One Hundred and Eightieth"
       },
       {
-        "title": "Lecture One Hundred and Eighty-First",
+        "title": "Lecture 181",
         "destination": 598,
-        "level": 2,
+        "level": 3,
         "aliases": [
           "Lecture One Hundred and Eighty-First"
-        ]
+        ],
+        "source_index": 2371,
+        "source_anchor": "Lecture One Hundred and Eighty-first"
       },
       {
-        "title": "Malachi 4",
+        "title": "Chapter 4",
         "destination": 601,
-        "level": 1,
-        "aliases": [
-          "Chapter 4"
-        ]
-      },
-      {
-        "title": "Lecture One Hundred and Eighty-Second",
-        "destination": 609,
         "level": 2,
         "aliases": [
+          "Malachi 4",
+          "Chapter 4"
+        ],
+        "source_index": 2383,
+        "source_anchor": "Chapter 4"
+      },
+      {
+        "title": "Lecture 182",
+        "destination": 609,
+        "level": 3,
+        "aliases": [
           "Lecture One Hundred and Eighty-Second"
-        ]
+        ],
+        "source_index": 2419,
+        "source_anchor": "Lecture One Hundred and Eighty-second"
       }
     ],
     "visual_review_complete": true,
-    "reviewer_navigation_uses_audited_entries": true
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
   },
   "font_update_20260926": {
     "current_pdf_sha256": {
-      "john_calvin_calcom30_commentary_on_zechariah_malachi_interior.pdf": "d504690db22301586bda375d6d86ff42856f63471e2f4745279690f661b48091"
+      "john_calvin_calcom30_commentary_on_zechariah_malachi_interior.pdf": "f42edc937de1c1932bbbfaf6928e373f5794801c3b9f61dfc614ae52ad93e3d2"
     }
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Zechariah",
+      "destination": 5,
+      "level": 1,
+      "aliases": [
+        "The Commentaries on Zechariah"
+      ],
+      "source_index": 0,
+      "source_anchor": "The Commentaries"
+    },
+    {
+      "title": "Preface",
+      "destination": 5,
+      "level": 2,
+      "aliases": [
+        "Calvin's Preface to Zechariah"
+      ],
+      "source_index": 4,
+      "source_anchor": "Calvin's Preface to Zechariah"
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 6,
+      "level": 2,
+      "aliases": [
+        "Zechariah 1",
+        "Chapter 1"
+      ],
+      "source_index": 8,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Lecture 134",
+      "destination": 6,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Thirty-Fourth"
+      ],
+      "source_index": 9,
+      "source_anchor": "Lecture One Hundred and Thirty-fourth"
+    },
+    {
+      "title": "Lecture 135",
+      "destination": 17,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Thirty-Fifth",
+        "Lecture One Hundred and Thirty-Five"
+      ],
+      "source_index": 49,
+      "source_anchor": "Lecture One Hundred and Thirty Five"
+    },
+    {
+      "title": "Lecture 136",
+      "destination": 29,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Thirty-Sixth"
+      ],
+      "source_index": 95,
+      "source_anchor": "Lecture One Hundred and Thirty-sixth"
+    },
+    {
+      "title": "Lecture 137",
+      "destination": 41,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Thirty-Seventh"
+      ],
+      "source_index": 149,
+      "source_anchor": "Lecture One Hundred and Thirty-seventh"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 48,
+      "level": 2,
+      "aliases": [
+        "Zechariah 2",
+        "Chapter 2"
+      ],
+      "source_index": 177,
+      "source_anchor": "Chapter 2"
+    },
+    {
+      "title": "Lecture 138",
+      "destination": 54,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Thirty-Eighth"
+      ],
+      "source_index": 204,
+      "source_anchor": "Lecture One Hundred and Thirty-eighth"
+    },
+    {
+      "title": "Lecture 139",
+      "destination": 67,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Thirty-Ninth"
+      ],
+      "source_index": 254,
+      "source_anchor": "Lecture One Hundred and Thirty-ninth"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 72,
+      "level": 2,
+      "aliases": [
+        "Zechariah 3",
+        "Chapter 3"
+      ],
+      "source_index": 272,
+      "source_anchor": "Chapter 3"
+    },
+    {
+      "title": "Lecture 140",
+      "destination": 80,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Fortieth"
+      ],
+      "source_index": 306,
+      "source_anchor": "Lecture One Hundred and Fortieth"
+    },
+    {
+      "title": "Lecture 141",
+      "destination": 94,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Forty-First"
+      ],
+      "source_index": 355,
+      "source_anchor": "Lecture One Hundred and Forty-first"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 96,
+      "level": 2,
+      "aliases": [
+        "Zechariah 4",
+        "Chapter 4"
+      ],
+      "source_index": 363,
+      "source_anchor": "Chapter 4."
+    },
+    {
+      "title": "Lecture 142",
+      "destination": 105,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Forty-Second"
+      ],
+      "source_index": 396,
+      "source_anchor": "Lecture One Hundred and Forty-second"
+    },
+    {
+      "title": "Chapter 5",
+      "destination": 118,
+      "level": 2,
+      "aliases": [
+        "Zechariah 5",
+        "Chapter 5"
+      ],
+      "source_index": 453,
+      "source_anchor": "Chapter 5"
+    },
+    {
+      "title": "Lecture 143",
+      "destination": 118,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Forty-Third"
+      ],
+      "source_index": 454,
+      "source_anchor": "Lecture One Hundred and Forty-third"
+    },
+    {
+      "title": "Chapter 6",
+      "destination": 132,
+      "level": 2,
+      "aliases": [
+        "Zechariah 6",
+        "Chapter 6"
+      ],
+      "source_index": 512,
+      "source_anchor": "Chapter 6"
+    },
+    {
+      "title": "Lecture 144",
+      "destination": 132,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Forty-Fourth"
+      ],
+      "source_index": 513,
+      "source_anchor": "Lecture One Hundred and Forty-fourth"
+    },
+    {
+      "title": "Lecture 145",
+      "destination": 144,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Forty-Fifth"
+      ],
+      "source_index": 558,
+      "source_anchor": "Lecture One Hundred and Forty-fifth"
+    },
+    {
+      "title": "Chapter 7",
+      "destination": 157,
+      "level": 2,
+      "aliases": [
+        "Zechariah 7",
+        "Chapter 7"
+      ],
+      "source_index": 604,
+      "source_anchor": "Chapter 7"
+    },
+    {
+      "title": "Lecture 146",
+      "destination": 157,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Forty-Sixth"
+      ],
+      "source_index": 605,
+      "source_anchor": "Lecture One Hundred and Forty-sixth"
+    },
+    {
+      "title": "Lecture 147",
+      "destination": 170,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Forty-Seventh"
+      ],
+      "source_index": 657,
+      "source_anchor": "Lecture One Hundred and Forty-seventh"
+    },
+    {
+      "title": "Chapter 8",
+      "destination": 182,
+      "level": 2,
+      "aliases": [
+        "Zechariah 8",
+        "Chapter 8"
+      ],
+      "source_index": 704,
+      "source_anchor": "Chapter 8"
+    },
+    {
+      "title": "Lecture 148",
+      "destination": 182,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Forty-Eighth"
+      ],
+      "source_index": 705,
+      "source_anchor": "Lecture One Hundred and forty-eighth"
+    },
+    {
+      "title": "Lecture 149",
+      "destination": 194,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Forty-Ninth"
+      ],
+      "source_index": 760,
+      "source_anchor": "Lecture One Hundred and Forty-ninth"
+    },
+    {
+      "title": "Lecture 150",
+      "destination": 206,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Fiftieth"
+      ],
+      "source_index": 804,
+      "source_anchor": "Lecture One Hundred and Fiftieth"
+    },
+    {
+      "title": "Lecture 151",
+      "destination": 216,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Fifty-First"
+      ],
+      "source_index": 842,
+      "source_anchor": "Lecture One Hundred and Fifty-first"
+    },
+    {
+      "title": "Chapter 9",
+      "destination": 224,
+      "level": 2,
+      "aliases": [
+        "Zechariah 9",
+        "Chapter 9"
+      ],
+      "source_index": 872,
+      "source_anchor": "Chapter 9"
+    },
+    {
+      "title": "Lecture 152",
+      "destination": 229,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Fifty-Second"
+      ],
+      "source_index": 890,
+      "source_anchor": "Lecture One Hundred and Fifty-second"
+    },
+    {
+      "title": "Lecture 153",
+      "destination": 242,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Fifty-Third"
+      ],
+      "source_index": 940,
+      "source_anchor": "Lecture One Hundred and Fifty-third"
+    },
+    {
+      "title": "Lecture 154",
+      "destination": 255,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Fifty-Fourth"
+      ],
+      "source_index": 989,
+      "source_anchor": "Lecture One Hundred and Fifty-fourth"
+    },
+    {
+      "title": "Chapter 10",
+      "destination": 268,
+      "level": 2,
+      "aliases": [
+        "Zechariah 10",
+        "Chapter 10"
+      ],
+      "source_index": 1034,
+      "source_anchor": "Chapter 10"
+    },
+    {
+      "title": "Lecture 155",
+      "destination": 268,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Fifty-Fifth"
+      ],
+      "source_index": 1035,
+      "source_anchor": "Lecture One Hundred and Fifty-fifth"
+    },
+    {
+      "title": "Lecture 156",
+      "destination": 280,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Fifty-Sixth"
+      ],
+      "source_index": 1082,
+      "source_anchor": "Lecture One Hundred and Fifty-sixth"
+    },
+    {
+      "title": "Chapter 11",
+      "destination": 294,
+      "level": 2,
+      "aliases": [
+        "Zechariah 11",
+        "Chapter 11"
+      ],
+      "source_index": 1142,
+      "source_anchor": "Chapter 11"
+    },
+    {
+      "title": "Lecture 157",
+      "destination": 294,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Fifty-Seventh"
+      ],
+      "source_index": 1143,
+      "source_anchor": "Lecture One Hundred and Fifty-seventh"
+    },
+    {
+      "title": "Lecture 158",
+      "destination": 307,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Fifty-Eighth"
+      ],
+      "source_index": 1194,
+      "source_anchor": "Lecture One Hundred and Fifty-eighth"
+    },
+    {
+      "title": "Lecture 159",
+      "destination": 320,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Fifty-Ninth"
+      ],
+      "source_index": 1249,
+      "source_anchor": "Lecture One Hundred and Fifty-ninth"
+    },
+    {
+      "title": "Chapter 12",
+      "destination": 332,
+      "level": 2,
+      "aliases": [
+        "Zechariah 12",
+        "Chapter 12"
+      ],
+      "source_index": 1293,
+      "source_anchor": "Chapter 12"
+    },
+    {
+      "title": "Lecture 160",
+      "destination": 332,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Sixtieth"
+      ],
+      "source_index": 1294,
+      "source_anchor": "Lecture One Hundred and Sixtieth"
+    },
+    {
+      "title": "Lecture 161",
+      "destination": 345,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Sixty-First"
+      ],
+      "source_index": 1348,
+      "source_anchor": "Lecture One Hundred and Sixty-first"
+    },
+    {
+      "title": "Lecture 162",
+      "destination": 357,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Sixty-Second"
+      ],
+      "source_index": 1396,
+      "source_anchor": "Lecture One Hundred and Sixty-second"
+    },
+    {
+      "title": "Chapter 13",
+      "destination": 367,
+      "level": 2,
+      "aliases": [
+        "Zechariah 13",
+        "Chapter 13"
+      ],
+      "source_index": 1437,
+      "source_anchor": "Chapter 13"
+    },
+    {
+      "title": "Lecture 163",
+      "destination": 371,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Sixty-Third"
+      ],
+      "source_index": 1452,
+      "source_anchor": "Lecture One Hundred and Sixty-third"
+    },
+    {
+      "title": "Lecture 164",
+      "destination": 385,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Sixty-Fourth"
+      ],
+      "source_index": 1509,
+      "source_anchor": "Lecture One Hundred and Sixty-fourth"
+    },
+    {
+      "title": "Chapter 14",
+      "destination": 397,
+      "level": 2,
+      "aliases": [
+        "Zechariah 14",
+        "Chapter 14"
+      ],
+      "source_index": 1561,
+      "source_anchor": "chapter 14"
+    },
+    {
+      "title": "Lecture 165",
+      "destination": 397,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Sixty-Fifth"
+      ],
+      "source_index": 1562,
+      "source_anchor": "Lecture One Hundred and Sixty-fifth"
+    },
+    {
+      "title": "Lecture 166",
+      "destination": 410,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Sixty-Sixth"
+      ],
+      "source_index": 1618,
+      "source_anchor": "Lecture One Hundred and Sixty-sixth"
+    },
+    {
+      "title": "Lecture 167",
+      "destination": 423,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Sixty-Seventh"
+      ],
+      "source_index": 1676,
+      "source_anchor": "Lecture One Hundred and Sixty-seventh"
+    },
+    {
+      "title": "Lecture 168",
+      "destination": 435,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Sixty-Eighth"
+      ],
+      "source_index": 1723,
+      "source_anchor": "Lecture One Hundred and Sixty-eighth"
+    },
+    {
+      "title": "Malachi",
+      "destination": 448,
+      "level": 1,
+      "aliases": [
+        "Calvin's Preface to Malachi"
+      ],
+      "source_index": 1778,
+      "source_anchor": "CALVIN'S PREFACE TO MALACHI"
+    },
+    {
+      "title": "Preface",
+      "destination": 448,
+      "level": 2,
+      "aliases": [
+        "Calvin's Preface to Malachi"
+      ],
+      "source_index": 1778,
+      "source_anchor": "CALVIN'S PREFACE TO MALACHI"
+    },
+    {
+      "title": "Lecture 169",
+      "destination": 448,
+      "level": 2,
+      "aliases": [
+        "Lecture One Hundred and Sixty-Ninth"
+      ],
+      "source_index": 1779,
+      "source_anchor": "Lecture One Hundred and Sixty-ninth"
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 450,
+      "level": 2,
+      "aliases": [
+        "Malachi 1",
+        "Chapter 1"
+      ],
+      "source_index": 1786,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Lecture 170",
+      "destination": 460,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Seventieth"
+      ],
+      "source_index": 1825,
+      "source_anchor": "Lecture One Hundred and Seventieth"
+    },
+    {
+      "title": "Lecture 171",
+      "destination": 471,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Seventy-First"
+      ],
+      "source_index": 1854,
+      "source_anchor": "Lecture One Hundred and Seventy-first"
+    },
+    {
+      "title": "Lecture 172",
+      "destination": 485,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Seventy-Second"
+      ],
+      "source_index": 1903,
+      "source_anchor": "Lecture One Hundred and Seventy-second"
+    },
+    {
+      "title": "Lecture 173",
+      "destination": 498,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Seventy-Third"
+      ],
+      "source_index": 1962,
+      "source_anchor": "Lecture One Hundred and Seventy Third"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 500,
+      "level": 2,
+      "aliases": [
+        "Malachi 2",
+        "Chapter 2"
+      ],
+      "source_index": 1970,
+      "source_anchor": "CHAPTER 2"
+    },
+    {
+      "title": "Lecture 174",
+      "destination": 511,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Seventy-Fourth"
+      ],
+      "source_index": 2015,
+      "source_anchor": "Lecture One Hundred and Seventy-fourth"
+    },
+    {
+      "title": "Lecture 175",
+      "destination": 523,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Seventy-Fifth"
+      ],
+      "source_index": 2068,
+      "source_anchor": "Lecture One Hundred and Seventy-fifth"
+    },
+    {
+      "title": "Lecture 176",
+      "destination": 536,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Seventy-Sixth"
+      ],
+      "source_index": 2109,
+      "source_anchor": "Lecture One Hundred and Seventy-sixth"
+    },
+    {
+      "title": "Lecture 177",
+      "destination": 549,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Seventy-Seventh"
+      ],
+      "source_index": 2157,
+      "source_anchor": "Lecture One Hundred and Seventy Seventh"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 553,
+      "level": 2,
+      "aliases": [
+        "Malachi 3",
+        "Chapter 3"
+      ],
+      "source_index": 2177,
+      "source_anchor": "CHAPTER 3"
+    },
+    {
+      "title": "Lecture 178",
+      "destination": 561,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Seventy-Eighth"
+      ],
+      "source_index": 2213,
+      "source_anchor": "Lecture One Hundred and Seventy-eighth"
+    },
+    {
+      "title": "Lecture 179",
+      "destination": 574,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Seventy-Ninth"
+      ],
+      "source_index": 2271,
+      "source_anchor": "Lecture One Hundred and Seventy-ninth"
+    },
+    {
+      "title": "Lecture 180",
+      "destination": 586,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Eightieth"
+      ],
+      "source_index": 2328,
+      "source_anchor": "Lecture One Hundred and Eightieth"
+    },
+    {
+      "title": "Lecture 181",
+      "destination": 598,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Eighty-First"
+      ],
+      "source_index": 2371,
+      "source_anchor": "Lecture One Hundred and Eighty-first"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 601,
+      "level": 2,
+      "aliases": [
+        "Malachi 4",
+        "Chapter 4"
+      ],
+      "source_index": 2383,
+      "source_anchor": "Chapter 4"
+    },
+    {
+      "title": "Lecture 182",
+      "destination": 609,
+      "level": 3,
+      "aliases": [
+        "Lecture One Hundred and Eighty-Second"
+      ],
+      "source_index": 2419,
+      "source_anchor": "Lecture One Hundred and Eighty-second"
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom30_approved\\verification.json",
+    "current_interior_sha256": "f42edc937de1c1932bbbfaf6928e373f5794801c3b9f61dfc614ae52ad93e3d2",
+    "previous_interior_sha256": "d504690db22301586bda375d6d86ff42856f63471e2f4745279690f661b48091",
+    "approved_edition_updated": true
   }
 }

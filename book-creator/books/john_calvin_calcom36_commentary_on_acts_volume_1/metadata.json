@@ -14,9 +14,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 488,
   "body_page_count": 486,
-  "generated_contents_entries": 16,
-  "generated_contents_entries_in_pdf": 16,
-  "detected_heading_count": 20,
+  "generated_contents_entries": 15,
+  "generated_contents_entries_in_pdf": 15,
+  "detected_heading_count": 15,
   "interior_filename": "john_calvin_calcom36_commentary_on_acts_volume_1_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom36_commentary_on_acts_volume_1_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom36_commentary_on_acts_volume_1_paperback_cover.pdf",
@@ -85,7 +85,7 @@
     "page_boxes_and_bookmarks_preserved": true,
     "all_interior_pages_rendered_for_font_update": 488,
     "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom36_commentary_on_acts_volume_1.json",
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom36_contents_case_20260927\\verification.json"
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom36_package\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -301,7 +301,7 @@
     "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom36_commentary_on_acts_volume_1.json",
     "current_pdf_sha256": {
       "john_calvin_calcom36_commentary_on_acts_volume_1_hardcover_cover.pdf": "752d49ad6662b20d5ad1bbde4e17eb4c5de567192bb59b958c496584bc5e767c",
-      "john_calvin_calcom36_commentary_on_acts_volume_1_interior.pdf": "2b6bd7f2f9c191358d2737695959229ef9599255d8333b71420dc90a167d53f8",
+      "john_calvin_calcom36_commentary_on_acts_volume_1_interior.pdf": "dfcf381b9a1e10d53458f75e2a224d3cb5fb3f904ffad3b0ae81851be7613df4",
       "john_calvin_calcom36_commentary_on_acts_volume_1_paperback_cover.pdf": "f3aef331e5e33d6d85eb7fb910c80ebfb541c1bd9e23a8776d0ec99fdce109f1"
     },
     "earlier_visual_review_and_dated_repair_evidence_retained": true
@@ -452,7 +452,7 @@
     "approved_page_count": 488,
     "approved_pdf_sha256": {
       "john_calvin_calcom36_commentary_on_acts_volume_1_hardcover_cover.pdf": "752d49ad6662b20d5ad1bbde4e17eb4c5de567192bb59b958c496584bc5e767c",
-      "john_calvin_calcom36_commentary_on_acts_volume_1_interior.pdf": "2b6bd7f2f9c191358d2737695959229ef9599255d8333b71420dc90a167d53f8",
+      "john_calvin_calcom36_commentary_on_acts_volume_1_interior.pdf": "dfcf381b9a1e10d53458f75e2a224d3cb5fb3f904ffad3b0ae81851be7613df4",
       "john_calvin_calcom36_commentary_on_acts_volume_1_paperback_cover.pdf": "f3aef331e5e33d6d85eb7fb910c80ebfb541c1bd9e23a8776d0ec99fdce109f1"
     },
     "github_update_authorized": true
@@ -464,5 +464,335 @@
   "store_set_slug": "calvin-commentary-on-acts",
   "store_set_title": "Commentary on Acts",
   "store_set_genre": "Theology",
-  "store_set_description": "John Calvin's commentary on the Acts of the Apostles, in two volumes."
+  "store_set_description": "John Calvin's commentary on the Acts of the Apostles, in two volumes.",
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "2b6bd7f2f9c191358d2737695959229ef9599255d8333b71420dc90a167d53f8",
+    "after_sha256": "dfcf381b9a1e10d53458f75e2a224d3cb5fb3f904ffad3b0ae81851be7613df4",
+    "page_count": 488,
+    "old_entries": 16,
+    "entry_count": 15,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2
+    ],
+    "entries": [
+      {
+        "title": "Dedication to Nicolas Radziwill",
+        "destination": 3,
+        "level": 1,
+        "aliases": [
+          "Dedication to Nicolas Radziwill"
+        ],
+        "source_index": 0,
+        "source_anchor": "To the most renowned prince, the lord Nicolas Radziwill, duke in Olika,"
+      },
+      {
+        "title": "Acts",
+        "destination": 13,
+        "level": 1,
+        "aliases": [
+          "The Argument upon the Acts of the Apostles"
+        ],
+        "source_index": 29,
+        "source_anchor": "THE ARGUMENT"
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 18,
+        "level": 2,
+        "aliases": [
+          "Chapter 1"
+        ],
+        "source_index": 49,
+        "source_anchor": "CHAPTER 1"
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 55,
+        "level": 2,
+        "aliases": [
+          "Chapter 2"
+        ],
+        "source_index": 195,
+        "source_anchor": "CHAPTER 2"
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 111,
+        "level": 2,
+        "aliases": [
+          "Chapter 3"
+        ],
+        "source_index": 398,
+        "source_anchor": "CHAPTER 3"
+      },
+      {
+        "title": "Chapter 4",
+        "destination": 137,
+        "level": 2,
+        "aliases": [
+          "Chapter 4"
+        ],
+        "source_index": 500,
+        "source_anchor": "CHAPTER 4"
+      },
+      {
+        "title": "Chapter 5",
+        "destination": 163,
+        "level": 2,
+        "aliases": [
+          "Chapter 5"
+        ],
+        "source_index": 590,
+        "source_anchor": "Chapter 5"
+      },
+      {
+        "title": "Chapter 6",
+        "destination": 194,
+        "level": 2,
+        "aliases": [
+          "Chapter 6"
+        ],
+        "source_index": 726,
+        "source_anchor": "CHAPTER 6"
+      },
+      {
+        "title": "Chapter 7",
+        "destination": 213,
+        "level": 2,
+        "aliases": [
+          "Chapter 7"
+        ],
+        "source_index": 817,
+        "source_anchor": "CHAPTER 7"
+      },
+      {
+        "title": "Chapter 8",
+        "destination": 278,
+        "level": 2,
+        "aliases": [
+          "Chapter 8"
+        ],
+        "source_index": 1092,
+        "source_anchor": "CHAPTER 8"
+      },
+      {
+        "title": "Chapter 9",
+        "destination": 318,
+        "level": 2,
+        "aliases": [
+          "Chapter 9"
+        ],
+        "source_index": 1248,
+        "source_anchor": "CHAPTER 9"
+      },
+      {
+        "title": "Chapter 10",
+        "destination": 352,
+        "level": 2,
+        "aliases": [
+          "Chapter 10"
+        ],
+        "source_index": 1411,
+        "source_anchor": "CHAPTER 10"
+      },
+      {
+        "title": "Chapter 11",
+        "destination": 397,
+        "level": 2,
+        "aliases": [
+          "Chapter 11"
+        ],
+        "source_index": 1599,
+        "source_anchor": "CHAPTER 11"
+      },
+      {
+        "title": "Chapter 12",
+        "destination": 416,
+        "level": 2,
+        "aliases": [
+          "Chapter 12"
+        ],
+        "source_index": 1663,
+        "source_anchor": "CHAPTER 12"
+      },
+      {
+        "title": "Chapter 13",
+        "destination": 432,
+        "level": 2,
+        "aliases": [
+          "Chapter 13"
+        ],
+        "source_index": 1728,
+        "source_anchor": "CHAPTER 13"
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Dedication to Nicolas Radziwill",
+      "destination": 3,
+      "level": 1,
+      "aliases": [
+        "Dedication to Nicolas Radziwill"
+      ],
+      "source_index": 0,
+      "source_anchor": "To the most renowned prince, the lord Nicolas Radziwill, duke in Olika,"
+    },
+    {
+      "title": "Acts",
+      "destination": 13,
+      "level": 1,
+      "aliases": [
+        "The Argument upon the Acts of the Apostles"
+      ],
+      "source_index": 29,
+      "source_anchor": "THE ARGUMENT"
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 18,
+      "level": 2,
+      "aliases": [
+        "Chapter 1"
+      ],
+      "source_index": 49,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 55,
+      "level": 2,
+      "aliases": [
+        "Chapter 2"
+      ],
+      "source_index": 195,
+      "source_anchor": "CHAPTER 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 111,
+      "level": 2,
+      "aliases": [
+        "Chapter 3"
+      ],
+      "source_index": 398,
+      "source_anchor": "CHAPTER 3"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 137,
+      "level": 2,
+      "aliases": [
+        "Chapter 4"
+      ],
+      "source_index": 500,
+      "source_anchor": "CHAPTER 4"
+    },
+    {
+      "title": "Chapter 5",
+      "destination": 163,
+      "level": 2,
+      "aliases": [
+        "Chapter 5"
+      ],
+      "source_index": 590,
+      "source_anchor": "Chapter 5"
+    },
+    {
+      "title": "Chapter 6",
+      "destination": 194,
+      "level": 2,
+      "aliases": [
+        "Chapter 6"
+      ],
+      "source_index": 726,
+      "source_anchor": "CHAPTER 6"
+    },
+    {
+      "title": "Chapter 7",
+      "destination": 213,
+      "level": 2,
+      "aliases": [
+        "Chapter 7"
+      ],
+      "source_index": 817,
+      "source_anchor": "CHAPTER 7"
+    },
+    {
+      "title": "Chapter 8",
+      "destination": 278,
+      "level": 2,
+      "aliases": [
+        "Chapter 8"
+      ],
+      "source_index": 1092,
+      "source_anchor": "CHAPTER 8"
+    },
+    {
+      "title": "Chapter 9",
+      "destination": 318,
+      "level": 2,
+      "aliases": [
+        "Chapter 9"
+      ],
+      "source_index": 1248,
+      "source_anchor": "CHAPTER 9"
+    },
+    {
+      "title": "Chapter 10",
+      "destination": 352,
+      "level": 2,
+      "aliases": [
+        "Chapter 10"
+      ],
+      "source_index": 1411,
+      "source_anchor": "CHAPTER 10"
+    },
+    {
+      "title": "Chapter 11",
+      "destination": 397,
+      "level": 2,
+      "aliases": [
+        "Chapter 11"
+      ],
+      "source_index": 1599,
+      "source_anchor": "CHAPTER 11"
+    },
+    {
+      "title": "Chapter 12",
+      "destination": 416,
+      "level": 2,
+      "aliases": [
+        "Chapter 12"
+      ],
+      "source_index": 1663,
+      "source_anchor": "CHAPTER 12"
+    },
+    {
+      "title": "Chapter 13",
+      "destination": 432,
+      "level": 2,
+      "aliases": [
+        "Chapter 13"
+      ],
+      "source_index": 1728,
+      "source_anchor": "CHAPTER 13"
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom36_package\\verification.json",
+    "current_interior_sha256": "dfcf381b9a1e10d53458f75e2a224d3cb5fb3f904ffad3b0ae81851be7613df4",
+    "previous_interior_sha256": "2b6bd7f2f9c191358d2737695959229ef9599255d8333b71420dc90a167d53f8",
+    "approved_edition_updated": true
+  }
 }

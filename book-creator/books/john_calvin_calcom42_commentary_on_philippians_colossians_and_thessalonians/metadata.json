@@ -14,9 +14,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 354,
   "body_page_count": 352,
-  "generated_contents_entries": 24,
-  "generated_contents_entries_in_pdf": 24,
-  "detected_heading_count": 24,
+  "generated_contents_entries": 22,
+  "generated_contents_entries_in_pdf": 22,
+  "detected_heading_count": 22,
   "interior_filename": "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_paperback_cover.pdf",
@@ -87,7 +87,7 @@
     "page_boxes_and_bookmarks_preserved": true,
     "all_interior_pages_rendered_for_font_update": 355,
     "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians.json",
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom42_headings_20260927\\verification.json",
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom42_package\\verification.json",
     "capitalization_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom42_capitalization_20260927\\verification.json",
     "full_body_text_preserved_except_joined_heading_case": true,
     "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom42_headings_20260927\\verification.json"
@@ -331,7 +331,7 @@
     "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians.json",
     "current_pdf_sha256": {
       "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_hardcover_cover.pdf": "de77e984d75f43e37a2f843a9b62dbe1a2f60098462242c482f2840198290219",
-      "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_interior.pdf": "742970e070f2519d1e38c19a5ffc6a816b82044fe6580340a5a4155ea320542d",
+      "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_interior.pdf": "ca7ef25fad169efe9a504f2f679055f819a82c54664f1a28c4147edd040e8979",
       "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_paperback_cover.pdf": "a644e6a0ae5032b5a960eb568e66a6199b6105cf313133204059f6d0d86644f8"
     },
     "earlier_visual_review_and_dated_repair_evidence_retained": true
@@ -817,7 +817,7 @@
     "approved_page_count": 354,
     "approved_pdf_sha256": {
       "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_hardcover_cover.pdf": "de77e984d75f43e37a2f843a9b62dbe1a2f60098462242c482f2840198290219",
-      "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_interior.pdf": "742970e070f2519d1e38c19a5ffc6a816b82044fe6580340a5a4155ea320542d",
+      "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_interior.pdf": "ca7ef25fad169efe9a504f2f679055f819a82c54664f1a28c4147edd040e8979",
       "john_calvin_calcom42_commentary_on_philippians_colossians_and_thessalonians_paperback_cover.pdf": "a644e6a0ae5032b5a960eb568e66a6199b6105cf313133204059f6d0d86644f8"
     },
     "github_update_authorized": true
@@ -825,5 +825,507 @@
   "store_price_cents": 3000,
   "store_featured": false,
   "store_genre": "Theology",
-  "store_description": "John Calvin's commentaries on Paul's Epistles to the Philippians, Colossians, and Thessalonians."
+  "store_description": "John Calvin's commentaries on Paul's Epistles to the Philippians, Colossians, and Thessalonians.",
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "742970e070f2519d1e38c19a5ffc6a816b82044fe6580340a5a4155ea320542d",
+    "after_sha256": "ca7ef25fad169efe9a504f2f679055f819a82c54664f1a28c4147edd040e8979",
+    "page_count": 354,
+    "old_entries": 24,
+    "entry_count": 22,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2
+    ],
+    "entries": [
+      {
+        "title": "Philippians",
+        "destination": 3,
+        "level": 1,
+        "aliases": [
+          "Introduction to Philippians"
+        ],
+        "source_index": 0,
+        "source_anchor": "The Argument on the Epistle of Paul to the Philippians"
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 5,
+        "level": 2,
+        "aliases": [
+          "Philippians 1",
+          "Chapter 1"
+        ],
+        "source_index": 17,
+        "source_anchor": "CHAPTER 1"
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 34,
+        "level": 2,
+        "aliases": [
+          "Philippians 2",
+          "Chapter 2"
+        ],
+        "source_index": 208,
+        "source_anchor": "CHAPTER 2"
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 70,
+        "level": 2,
+        "aliases": [
+          "Philippians 3",
+          "Chapter 3"
+        ],
+        "source_index": 425,
+        "source_anchor": "CHAPTER 3"
+      },
+      {
+        "title": "Chapter 4",
+        "destination": 97,
+        "level": 2,
+        "aliases": [
+          "Philippians 4",
+          "Chapter 4"
+        ],
+        "source_index": 578,
+        "source_anchor": "CHAPTER 4"
+      },
+      {
+        "title": "Colossians",
+        "destination": 117,
+        "level": 1,
+        "aliases": [
+          "Introduction to Colossians"
+        ],
+        "source_index": 733,
+        "source_anchor": "The Argument on the Epistle of Paul to the Colossians"
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 121,
+        "level": 2,
+        "aliases": [
+          "Colossians 1",
+          "Chapter 1"
+        ],
+        "source_index": 758,
+        "source_anchor": "CHAPTER 1"
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 157,
+        "level": 2,
+        "aliases": [
+          "Colossians 2",
+          "Chapter 2"
+        ],
+        "source_index": 994,
+        "source_anchor": "CHAPTER 2"
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 190,
+        "level": 2,
+        "aliases": [
+          "Colossians 3",
+          "Chapter 3"
+        ],
+        "source_index": 1227,
+        "source_anchor": "CHAPTER 3"
+      },
+      {
+        "title": "Chapter 4",
+        "destination": 209,
+        "level": 2,
+        "aliases": [
+          "Colossians 4",
+          "Chapter 4"
+        ],
+        "source_index": 1361,
+        "source_anchor": "CHAPTER 4"
+      },
+      {
+        "title": "Dedication to Maturinus Corderius",
+        "destination": 220,
+        "level": 1,
+        "aliases": [
+          "Dedication to Maturinus Corderius"
+        ],
+        "source_index": 1454,
+        "source_anchor": "The Author's Dedicatory Epistle to Maturinus Corderius"
+      },
+      {
+        "title": "1 Thessalonians",
+        "destination": 222,
+        "level": 1,
+        "aliases": [
+          "Introduction to 1 Thessalonians"
+        ],
+        "source_index": 1459,
+        "source_anchor": "Argument on the First Epistle to the Thessalonians"
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 223,
+        "level": 2,
+        "aliases": [
+          "1 Thessalonians 1",
+          "Chapter 1"
+        ],
+        "source_index": 1466,
+        "source_anchor": "CHAPTER 1"
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 235,
+        "level": 2,
+        "aliases": [
+          "1 Thessalonians 2",
+          "Chapter 2"
+        ],
+        "source_index": 1546,
+        "source_anchor": "CHAPTER 2"
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 253,
+        "level": 2,
+        "aliases": [
+          "1 Thessalonians 3",
+          "Chapter 3"
+        ],
+        "source_index": 1659,
+        "source_anchor": "CHAPTER 3"
+      },
+      {
+        "title": "Chapter 4",
+        "destination": 262,
+        "level": 2,
+        "aliases": [
+          "1 Thessalonians 4",
+          "Chapter 4"
+        ],
+        "source_index": 1717,
+        "source_anchor": "CHAPTER 4"
+      },
+      {
+        "title": "Chapter 5",
+        "destination": 275,
+        "level": 2,
+        "aliases": [
+          "1 Thessalonians 5",
+          "Chapter 5"
+        ],
+        "source_index": 1808,
+        "source_anchor": "CHAPTER 5"
+      },
+      {
+        "title": "Dedication to Benedict Textor",
+        "destination": 298,
+        "level": 1,
+        "aliases": [
+          "Dedication to Benedict Textor"
+        ],
+        "source_index": 1962,
+        "source_anchor": "The Author's Dedicatory Epistle to That Distinguished Man Benedict Textor, Physician"
+      },
+      {
+        "title": "2 Thessalonians",
+        "destination": 300,
+        "level": 1,
+        "aliases": [
+          "Introduction to 2 Thessalonians"
+        ],
+        "source_index": 1965,
+        "source_anchor": "The Argument on the Second Epistle to the Thessalonians"
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 301,
+        "level": 2,
+        "aliases": [
+          "2 Thessalonians 1",
+          "Chapter 1"
+        ],
+        "source_index": 1968,
+        "source_anchor": "CHAPTER 1"
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 313,
+        "level": 2,
+        "aliases": [
+          "2 Thessalonians 2",
+          "Chapter 2"
+        ],
+        "source_index": 2035,
+        "source_anchor": "CHAPTER 2"
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 338,
+        "level": 2,
+        "aliases": [
+          "2 Thessalonians 3",
+          "Chapter 3"
+        ],
+        "source_index": 2185,
+        "source_anchor": "CHAPTER 3"
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Philippians",
+      "destination": 3,
+      "level": 1,
+      "aliases": [
+        "Introduction to Philippians"
+      ],
+      "source_index": 0,
+      "source_anchor": "The Argument on the Epistle of Paul to the Philippians"
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 5,
+      "level": 2,
+      "aliases": [
+        "Philippians 1",
+        "Chapter 1"
+      ],
+      "source_index": 17,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 34,
+      "level": 2,
+      "aliases": [
+        "Philippians 2",
+        "Chapter 2"
+      ],
+      "source_index": 208,
+      "source_anchor": "CHAPTER 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 70,
+      "level": 2,
+      "aliases": [
+        "Philippians 3",
+        "Chapter 3"
+      ],
+      "source_index": 425,
+      "source_anchor": "CHAPTER 3"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 97,
+      "level": 2,
+      "aliases": [
+        "Philippians 4",
+        "Chapter 4"
+      ],
+      "source_index": 578,
+      "source_anchor": "CHAPTER 4"
+    },
+    {
+      "title": "Colossians",
+      "destination": 117,
+      "level": 1,
+      "aliases": [
+        "Introduction to Colossians"
+      ],
+      "source_index": 733,
+      "source_anchor": "The Argument on the Epistle of Paul to the Colossians"
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 121,
+      "level": 2,
+      "aliases": [
+        "Colossians 1",
+        "Chapter 1"
+      ],
+      "source_index": 758,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 157,
+      "level": 2,
+      "aliases": [
+        "Colossians 2",
+        "Chapter 2"
+      ],
+      "source_index": 994,
+      "source_anchor": "CHAPTER 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 190,
+      "level": 2,
+      "aliases": [
+        "Colossians 3",
+        "Chapter 3"
+      ],
+      "source_index": 1227,
+      "source_anchor": "CHAPTER 3"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 209,
+      "level": 2,
+      "aliases": [
+        "Colossians 4",
+        "Chapter 4"
+      ],
+      "source_index": 1361,
+      "source_anchor": "CHAPTER 4"
+    },
+    {
+      "title": "Dedication to Maturinus Corderius",
+      "destination": 220,
+      "level": 1,
+      "aliases": [
+        "Dedication to Maturinus Corderius"
+      ],
+      "source_index": 1454,
+      "source_anchor": "The Author's Dedicatory Epistle to Maturinus Corderius"
+    },
+    {
+      "title": "1 Thessalonians",
+      "destination": 222,
+      "level": 1,
+      "aliases": [
+        "Introduction to 1 Thessalonians"
+      ],
+      "source_index": 1459,
+      "source_anchor": "Argument on the First Epistle to the Thessalonians"
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 223,
+      "level": 2,
+      "aliases": [
+        "1 Thessalonians 1",
+        "Chapter 1"
+      ],
+      "source_index": 1466,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 235,
+      "level": 2,
+      "aliases": [
+        "1 Thessalonians 2",
+        "Chapter 2"
+      ],
+      "source_index": 1546,
+      "source_anchor": "CHAPTER 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 253,
+      "level": 2,
+      "aliases": [
+        "1 Thessalonians 3",
+        "Chapter 3"
+      ],
+      "source_index": 1659,
+      "source_anchor": "CHAPTER 3"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 262,
+      "level": 2,
+      "aliases": [
+        "1 Thessalonians 4",
+        "Chapter 4"
+      ],
+      "source_index": 1717,
+      "source_anchor": "CHAPTER 4"
+    },
+    {
+      "title": "Chapter 5",
+      "destination": 275,
+      "level": 2,
+      "aliases": [
+        "1 Thessalonians 5",
+        "Chapter 5"
+      ],
+      "source_index": 1808,
+      "source_anchor": "CHAPTER 5"
+    },
+    {
+      "title": "Dedication to Benedict Textor",
+      "destination": 298,
+      "level": 1,
+      "aliases": [
+        "Dedication to Benedict Textor"
+      ],
+      "source_index": 1962,
+      "source_anchor": "The Author's Dedicatory Epistle to That Distinguished Man Benedict Textor, Physician"
+    },
+    {
+      "title": "2 Thessalonians",
+      "destination": 300,
+      "level": 1,
+      "aliases": [
+        "Introduction to 2 Thessalonians"
+      ],
+      "source_index": 1965,
+      "source_anchor": "The Argument on the Second Epistle to the Thessalonians"
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 301,
+      "level": 2,
+      "aliases": [
+        "2 Thessalonians 1",
+        "Chapter 1"
+      ],
+      "source_index": 1968,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 313,
+      "level": 2,
+      "aliases": [
+        "2 Thessalonians 2",
+        "Chapter 2"
+      ],
+      "source_index": 2035,
+      "source_anchor": "CHAPTER 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 338,
+      "level": 2,
+      "aliases": [
+        "2 Thessalonians 3",
+        "Chapter 3"
+      ],
+      "source_index": 2185,
+      "source_anchor": "CHAPTER 3"
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom42_package\\verification.json",
+    "current_interior_sha256": "ca7ef25fad169efe9a504f2f679055f819a82c54664f1a28c4147edd040e8979",
+    "previous_interior_sha256": "742970e070f2519d1e38c19a5ffc6a816b82044fe6580340a5a4155ea320542d",
+    "approved_edition_updated": true
+  }
 }

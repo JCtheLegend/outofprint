@@ -21,9 +21,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 511,
   "body_page_count": 508,
-  "generated_contents_entries": 50,
-  "generated_contents_entries_in_pdf": 50,
-  "detected_heading_count": 50,
+  "generated_contents_entries": 51,
+  "generated_contents_entries_in_pdf": 51,
+  "detected_heading_count": 51,
   "interior_filename": "john_calvin_calcom17_commentary_on_jeremiah_and_lamentations_volume_1_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom17_commentary_on_jeremiah_and_lamentations_volume_1_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom17_commentary_on_jeremiah_and_lamentations_volume_1_paperback_cover.pdf",
@@ -99,7 +99,7 @@
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
     "body_text_matches_previous_approved_edition": true,
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom17_approved\\verification.json"
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom17_approved\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -328,11 +328,11 @@
   },
   "contents_audit_20260927": {
     "status": "verified",
-    "before_sha256": "b5b47779eb673006ae99b593c3f62524c6894679790ebe459fd27e1c0d543d96",
-    "after_sha256": "935f5fedca456c5605180646d70985c7d19c98d1fde0fb15d012dc84f6751b79",
+    "before_sha256": "935f5fedca456c5605180646d70985c7d19c98d1fde0fb15d012dc84f6751b79",
+    "after_sha256": "bdabd0606aefd5d0083f454c0712cfde46898b330c524a69422cd872fc366879",
     "page_count": 511,
     "old_entries": 50,
-    "entry_count": 50,
+    "entry_count": 51,
     "all_non_contents_page_text_and_streams_unchanged": true,
     "sample_body_renders_identical": true,
     "embedded_truetype_fonts": true,
@@ -343,412 +343,1145 @@
     ],
     "entries": [
       {
-        "title": "To D. Frederick, Lord Palatine of the Rhine",
+        "title": "Dedication to D. Frederick, Lord Palatine of the Rhine",
         "destination": 4,
         "level": 1,
         "aliases": [
+          "To D. Frederick, Lord Palatine of the Rhine",
           "To D. Frederick, Lord Palatine of the Rhine"
-        ]
+        ],
+        "source_index": 0,
+        "source_anchor": "MOST ILLUSTRIOUS PRINCE,"
       },
       {
         "title": "The Printer to the Christian Reader",
         "destination": 14,
         "level": 1,
         "aliases": [
+          "The Printer to the Christian Reader",
           "The Printer to the Christian Reader"
-        ]
+        ],
+        "source_index": 31,
+        "source_anchor": "THE PRINTER TO THE CHRISTIAN READER,"
       },
       {
-        "title": "Calvin's Preface to the Book of the Prophet Jeremiah",
+        "title": "Jeremiah",
         "destination": 16,
         "level": 1,
         "aliases": [
+          "Calvin's Preface to the Book of the Prophet Jeremiah",
           "Calvin's Preface to the Book of the Prophet Jeremiah"
-        ]
+        ],
+        "source_index": 40,
+        "source_anchor": "CALVIN'S PREFACE"
       },
       {
-        "title": "Lecture First",
+        "title": "Preface",
         "destination": 16,
         "level": 2,
         "aliases": [
+          "Calvin's Preface to the Book of the Prophet Jeremiah",
+          "Calvin's Preface to the Book of the Prophet Jeremiah"
+        ],
+        "source_index": 40,
+        "source_anchor": "CALVIN'S PREFACE"
+      },
+      {
+        "title": "Lecture 1",
+        "destination": 16,
+        "level": 2,
+        "aliases": [
+          "Lecture First",
           "Lecture First"
-        ]
+        ],
+        "source_index": 43,
+        "source_anchor": "Lecture First."
       },
       {
-        "title": "Jeremiah 1",
+        "title": "Chapter 1",
         "destination": 20,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Jeremiah 1",
           "Chapter 1"
-        ]
+        ],
+        "source_index": 55,
+        "source_anchor": "CHAPTER 1"
       },
       {
-        "title": "Lecture Second",
+        "title": "Lecture 2",
         "destination": 29,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Second",
           "Lecture Second"
-        ]
+        ],
+        "source_index": 97,
+        "source_anchor": "Lecture Second"
       },
       {
-        "title": "Lecture Third",
+        "title": "Lecture 3",
         "destination": 42,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Third",
           "Lecture Third"
-        ]
+        ],
+        "source_index": 147,
+        "source_anchor": "Lecture Third"
       },
       {
-        "title": "Lecture Fourth",
+        "title": "Lecture 4",
         "destination": 56,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fourth",
           "Lecture Fourth"
-        ]
+        ],
+        "source_index": 198,
+        "source_anchor": "Lecture Fourth"
       },
       {
-        "title": "Jeremiah 2",
+        "title": "Chapter 2",
         "destination": 60,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Jeremiah 2",
           "Chapter 2"
-        ]
+        ],
+        "source_index": 216,
+        "source_anchor": "CHAPTER 2"
       },
       {
-        "title": "Lecture Fifth",
+        "title": "Lecture 5",
         "destination": 68,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fifth",
           "Lecture Fifth"
-        ]
+        ],
+        "source_index": 250,
+        "source_anchor": "Lecture Fifth"
       },
       {
-        "title": "Lecture Sixth",
+        "title": "Lecture 6",
         "destination": 83,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Sixth",
           "Lecture Sixth"
-        ]
+        ],
+        "source_index": 309,
+        "source_anchor": "Lecture Sixth."
       },
       {
-        "title": "Lecture Seventh",
+        "title": "Lecture 7",
         "destination": 99,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Seventh",
           "Lecture Seventh"
-        ]
+        ],
+        "source_index": 375,
+        "source_anchor": "Lecture Seventh"
       },
       {
-        "title": "Lecture Eighth",
+        "title": "Lecture 8",
         "destination": 113,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Eighth",
           "Lecture Eighth"
-        ]
+        ],
+        "source_index": 424,
+        "source_anchor": "Lecture Eighth"
       },
       {
-        "title": "Lecture Ninth",
+        "title": "Lecture 9",
         "destination": 126,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Ninth",
           "Lecture Ninth"
-        ]
+        ],
+        "source_index": 479,
+        "source_anchor": "Lecture Ninth"
       },
       {
-        "title": "Lecture Tenth",
+        "title": "Lecture 10",
         "destination": 139,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Tenth",
           "Lecture Tenth"
-        ]
+        ],
+        "source_index": 531,
+        "source_anchor": "Lecture Tenth"
       },
       {
-        "title": "Jeremiah 3",
+        "title": "Chapter 3",
         "destination": 143,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Jeremiah 3",
           "Chapter 3"
-        ]
+        ],
+        "source_index": 550,
+        "source_anchor": "CHAPTER 3"
       },
       {
-        "title": "Lecture Eleventh",
+        "title": "Lecture 11",
         "destination": 153,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Eleventh",
           "Lecture Eleventh"
-        ]
+        ],
+        "source_index": 586,
+        "source_anchor": "Lecture Eleventh"
       },
       {
-        "title": "Lecture Twelfth",
+        "title": "Lecture 12",
         "destination": 165,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twelfth",
           "Lecture Twelfth"
-        ]
+        ],
+        "source_index": 638,
+        "source_anchor": "Lecture Twelfth"
       },
       {
-        "title": "Lecture Thirteenth",
+        "title": "Lecture 13",
         "destination": 178,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Thirteenth",
           "Lecture Thirteenth"
-        ]
+        ],
+        "source_index": 692,
+        "source_anchor": "Lecture Thirteenth"
       },
       {
-        "title": "Jeremiah 4",
+        "title": "Chapter 4",
         "destination": 191,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Jeremiah 4",
           "Chapter 4"
-        ]
+        ],
+        "source_index": 750,
+        "source_anchor": "CHAPTER 4"
       },
       {
-        "title": "Lecture Fourteenth",
+        "title": "Lecture 14",
         "destination": 191,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fourteenth",
           "Lecture Fourteenth"
-        ]
+        ],
+        "source_index": 751,
+        "source_anchor": "Lecture Fourteenth"
       },
       {
-        "title": "Lecture Fifteenth",
+        "title": "Lecture 15",
         "destination": 203,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Fifteenth",
           "Lecture Fifteenth"
-        ]
+        ],
+        "source_index": 800,
+        "source_anchor": "Lecture Fifteenth"
       },
       {
-        "title": "Lecture Sixteenth",
+        "title": "Lecture 16",
         "destination": 216,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Sixteenth",
           "Lecture Sixteenth"
-        ]
+        ],
+        "source_index": 866,
+        "source_anchor": "Lecture Sixteenth"
       },
       {
-        "title": "Lecture Seventeenth",
+        "title": "Lecture 17",
         "destination": 229,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Seventeenth",
           "Lecture Seventeenth"
-        ]
+        ],
+        "source_index": 931,
+        "source_anchor": "Lecture Seventeenth"
       },
       {
-        "title": "Lecture Eighteenth",
+        "title": "Lecture 18",
         "destination": 243,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Eighteenth",
           "Lecture Eighteenth"
-        ]
+        ],
+        "source_index": 990,
+        "source_anchor": "Lecture Eighteenth"
       },
       {
-        "title": "Jeremiah 5",
+        "title": "Chapter 5",
         "destination": 246,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Jeremiah 5",
           "Chapter 5"
-        ]
+        ],
+        "source_index": 1001,
+        "source_anchor": "CHAPTER 5"
       },
       {
-        "title": "Lecture Nineteenth",
+        "title": "Lecture 19",
         "destination": 257,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Nineteenth",
           "Lecture Nineteenth"
-        ]
+        ],
+        "source_index": 1040,
+        "source_anchor": "Lecture Nineteenth"
       },
       {
-        "title": "Lecture Twentieth",
+        "title": "Lecture 20",
         "destination": 270,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twentieth",
           "Lecture Twentieth"
-        ]
+        ],
+        "source_index": 1096,
+        "source_anchor": "Lecture Twentieth"
       },
       {
-        "title": "Lecture Twenty-First",
+        "title": "Lecture 21",
         "destination": 283,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twenty-First",
           "Lecture Twenty-First"
-        ]
+        ],
+        "source_index": 1151,
+        "source_anchor": "Lecture Twenty-First"
       },
       {
-        "title": "Lecture Twenty-Second",
+        "title": "Lecture 22",
         "destination": 296,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twenty-Second",
           "Lecture Twenty-Second"
-        ]
+        ],
+        "source_index": 1217,
+        "source_anchor": "Lecture Twenty-Second"
       },
       {
-        "title": "Jeremiah 6",
+        "title": "Chapter 6",
         "destination": 309,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Jeremiah 6",
           "Chapter 6"
-        ]
+        ],
+        "source_index": 1275,
+        "source_anchor": "CHAPTER 6"
       },
       {
-        "title": "Lecture Twenty-Third",
+        "title": "Lecture 23",
         "destination": 309,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twenty-Third",
           "Lecture Twenty-Third"
-        ]
+        ],
+        "source_index": 1276,
+        "source_anchor": "Lecture Twenty-Third"
       },
       {
-        "title": "Lecture Twenty-Fourth",
+        "title": "Lecture 24",
         "destination": 324,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twenty-Fourth",
           "Lecture Twenty-Fourth"
-        ]
+        ],
+        "source_index": 1344,
+        "source_anchor": "LECTURE TWENTY-FOURTH"
       },
       {
-        "title": "Lecture Twenty-Fifth",
+        "title": "Lecture 25",
         "destination": 338,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twenty-Fifth",
           "Lecture Twenty-Fifth"
-        ]
+        ],
+        "source_index": 1399,
+        "source_anchor": "Lecture Twenty-Fifth"
       },
       {
-        "title": "Lecture Twenty-Sixth",
+        "title": "Lecture 26",
         "destination": 350,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twenty-Sixth",
           "Lecture Twenty-Sixth"
-        ]
+        ],
+        "source_index": 1464,
+        "source_anchor": "Lecture Twenty-Sixth"
       },
       {
-        "title": "Jeremiah 7",
+        "title": "Chapter 7",
         "destination": 360,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Jeremiah 7",
           "Chapter 7"
-        ]
+        ],
+        "source_index": 1519,
+        "source_anchor": "CHAPTER 7"
       },
       {
-        "title": "Lecture Twenty-Seventh",
+        "title": "Lecture 27",
         "destination": 365,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twenty-Seventh",
           "Lecture Twenty-Seventh"
-        ]
+        ],
+        "source_index": 1541,
+        "source_anchor": "Lecture Twenty-Seventh"
       },
       {
-        "title": "Lecture Twenty-Eighth",
+        "title": "Lecture 28",
         "destination": 377,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twenty-Eighth",
           "Lecture Twenty-Eighth"
-        ]
+        ],
+        "source_index": 1590,
+        "source_anchor": "Lecture Twenty-Eighth"
       },
       {
-        "title": "Lecture Twenty-Ninth",
+        "title": "Lecture 29",
         "destination": 389,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Twenty-Ninth",
           "Lecture Twenty-Ninth"
-        ]
+        ],
+        "source_index": 1643,
+        "source_anchor": "Lecture Twenty-Ninth"
       },
       {
-        "title": "Lecture Thirtieth",
+        "title": "Lecture 30",
         "destination": 400,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Thirtieth",
           "Lecture Thirtieth"
-        ]
+        ],
+        "source_index": 1684,
+        "source_anchor": "Lecture Thirtieth"
       },
       {
-        "title": "Lecture Thirty-First",
+        "title": "Lecture 31",
         "destination": 412,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Thirty-First",
           "Lecture Thirty-First"
-        ]
+        ],
+        "source_index": 1731,
+        "source_anchor": "Lecture Thirty-First"
       },
       {
-        "title": "Jeremiah 8",
+        "title": "Chapter 8",
         "destination": 419,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Jeremiah 8",
           "Chapter 8"
-        ]
+        ],
+        "source_index": 1762,
+        "source_anchor": "CHAPTER 8"
       },
       {
-        "title": "Lecture Thirty-Second",
+        "title": "Lecture 32",
         "destination": 424,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Thirty-Second",
           "Lecture Thirty-Second"
-        ]
+        ],
+        "source_index": 1784,
+        "source_anchor": "Lecture Thirty-Second"
       },
       {
-        "title": "Lecture Thirty-Third",
+        "title": "Lecture 33",
         "destination": 436,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Thirty-Third",
           "Lecture Thirty-Third"
-        ]
+        ],
+        "source_index": 1835,
+        "source_anchor": "Lecture Thirty-Third"
       },
       {
-        "title": "Lecture Thirty-Fourth",
+        "title": "Lecture 34",
         "destination": 450,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Thirty-Fourth",
           "Lecture Thirty-Fourth"
-        ]
+        ],
+        "source_index": 1899,
+        "source_anchor": "Lecture Thirty-Fourth"
       },
       {
-        "title": "Jeremiah 9",
+        "title": "Chapter 9",
         "destination": 458,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Jeremiah 9",
           "Chapter 9"
-        ]
+        ],
+        "source_index": 1935,
+        "source_anchor": "CHAPTER 9"
       },
       {
-        "title": "Lecture Thirty-Fifth",
+        "title": "Lecture 35",
         "destination": 463,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Thirty-Fifth",
           "Lecture Thirty-Fifth"
-        ]
+        ],
+        "source_index": 1952,
+        "source_anchor": "LECTURE THIRTy-FIFTH"
       },
       {
-        "title": "Lecture Thirty-Sixth",
+        "title": "Lecture 36",
         "destination": 476,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Thirty-Sixth",
           "Lecture Thirty-Sixth"
-        ]
+        ],
+        "source_index": 2013,
+        "source_anchor": "Lecture Thirty-Sixth"
       },
       {
-        "title": "Lecture Thirty-Seventh",
+        "title": "Lecture 37",
         "destination": 488,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Thirty-Seventh",
           "Lecture Thirty-Seventh"
-        ]
+        ],
+        "source_index": 2065,
+        "source_anchor": "Lecture Thirty-Seventh"
       },
       {
-        "title": "Lecture Thirty-Eighth",
+        "title": "Lecture 38",
         "destination": 501,
-        "level": 2,
+        "level": 3,
         "aliases": [
+          "Lecture Thirty-Eighth",
           "Lecture Thirty-Eighth"
-        ]
+        ],
+        "source_index": 2131,
+        "source_anchor": "Lecture Thirty-Eighth"
       }
     ],
     "visual_review_complete": true,
-    "reviewer_navigation_uses_audited_entries": true
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
   },
   "font_update_20260926": {
     "current_pdf_sha256": {
-      "john_calvin_calcom17_commentary_on_jeremiah_and_lamentations_volume_1_interior.pdf": "935f5fedca456c5605180646d70985c7d19c98d1fde0fb15d012dc84f6751b79"
+      "john_calvin_calcom17_commentary_on_jeremiah_and_lamentations_volume_1_interior.pdf": "bdabd0606aefd5d0083f454c0712cfde46898b330c524a69422cd872fc366879"
     }
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Dedication to D. Frederick, Lord Palatine of the Rhine",
+      "destination": 4,
+      "level": 1,
+      "aliases": [
+        "To D. Frederick, Lord Palatine of the Rhine",
+        "To D. Frederick, Lord Palatine of the Rhine"
+      ],
+      "source_index": 0,
+      "source_anchor": "MOST ILLUSTRIOUS PRINCE,"
+    },
+    {
+      "title": "The Printer to the Christian Reader",
+      "destination": 14,
+      "level": 1,
+      "aliases": [
+        "The Printer to the Christian Reader",
+        "The Printer to the Christian Reader"
+      ],
+      "source_index": 31,
+      "source_anchor": "THE PRINTER TO THE CHRISTIAN READER,"
+    },
+    {
+      "title": "Jeremiah",
+      "destination": 16,
+      "level": 1,
+      "aliases": [
+        "Calvin's Preface to the Book of the Prophet Jeremiah",
+        "Calvin's Preface to the Book of the Prophet Jeremiah"
+      ],
+      "source_index": 40,
+      "source_anchor": "CALVIN'S PREFACE"
+    },
+    {
+      "title": "Preface",
+      "destination": 16,
+      "level": 2,
+      "aliases": [
+        "Calvin's Preface to the Book of the Prophet Jeremiah",
+        "Calvin's Preface to the Book of the Prophet Jeremiah"
+      ],
+      "source_index": 40,
+      "source_anchor": "CALVIN'S PREFACE"
+    },
+    {
+      "title": "Lecture 1",
+      "destination": 16,
+      "level": 2,
+      "aliases": [
+        "Lecture First",
+        "Lecture First"
+      ],
+      "source_index": 43,
+      "source_anchor": "Lecture First."
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 20,
+      "level": 2,
+      "aliases": [
+        "Jeremiah 1",
+        "Chapter 1"
+      ],
+      "source_index": 55,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Lecture 2",
+      "destination": 29,
+      "level": 3,
+      "aliases": [
+        "Lecture Second",
+        "Lecture Second"
+      ],
+      "source_index": 97,
+      "source_anchor": "Lecture Second"
+    },
+    {
+      "title": "Lecture 3",
+      "destination": 42,
+      "level": 3,
+      "aliases": [
+        "Lecture Third",
+        "Lecture Third"
+      ],
+      "source_index": 147,
+      "source_anchor": "Lecture Third"
+    },
+    {
+      "title": "Lecture 4",
+      "destination": 56,
+      "level": 3,
+      "aliases": [
+        "Lecture Fourth",
+        "Lecture Fourth"
+      ],
+      "source_index": 198,
+      "source_anchor": "Lecture Fourth"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 60,
+      "level": 2,
+      "aliases": [
+        "Jeremiah 2",
+        "Chapter 2"
+      ],
+      "source_index": 216,
+      "source_anchor": "CHAPTER 2"
+    },
+    {
+      "title": "Lecture 5",
+      "destination": 68,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifth",
+        "Lecture Fifth"
+      ],
+      "source_index": 250,
+      "source_anchor": "Lecture Fifth"
+    },
+    {
+      "title": "Lecture 6",
+      "destination": 83,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixth",
+        "Lecture Sixth"
+      ],
+      "source_index": 309,
+      "source_anchor": "Lecture Sixth."
+    },
+    {
+      "title": "Lecture 7",
+      "destination": 99,
+      "level": 3,
+      "aliases": [
+        "Lecture Seventh",
+        "Lecture Seventh"
+      ],
+      "source_index": 375,
+      "source_anchor": "Lecture Seventh"
+    },
+    {
+      "title": "Lecture 8",
+      "destination": 113,
+      "level": 3,
+      "aliases": [
+        "Lecture Eighth",
+        "Lecture Eighth"
+      ],
+      "source_index": 424,
+      "source_anchor": "Lecture Eighth"
+    },
+    {
+      "title": "Lecture 9",
+      "destination": 126,
+      "level": 3,
+      "aliases": [
+        "Lecture Ninth",
+        "Lecture Ninth"
+      ],
+      "source_index": 479,
+      "source_anchor": "Lecture Ninth"
+    },
+    {
+      "title": "Lecture 10",
+      "destination": 139,
+      "level": 3,
+      "aliases": [
+        "Lecture Tenth",
+        "Lecture Tenth"
+      ],
+      "source_index": 531,
+      "source_anchor": "Lecture Tenth"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 143,
+      "level": 2,
+      "aliases": [
+        "Jeremiah 3",
+        "Chapter 3"
+      ],
+      "source_index": 550,
+      "source_anchor": "CHAPTER 3"
+    },
+    {
+      "title": "Lecture 11",
+      "destination": 153,
+      "level": 3,
+      "aliases": [
+        "Lecture Eleventh",
+        "Lecture Eleventh"
+      ],
+      "source_index": 586,
+      "source_anchor": "Lecture Eleventh"
+    },
+    {
+      "title": "Lecture 12",
+      "destination": 165,
+      "level": 3,
+      "aliases": [
+        "Lecture Twelfth",
+        "Lecture Twelfth"
+      ],
+      "source_index": 638,
+      "source_anchor": "Lecture Twelfth"
+    },
+    {
+      "title": "Lecture 13",
+      "destination": 178,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirteenth",
+        "Lecture Thirteenth"
+      ],
+      "source_index": 692,
+      "source_anchor": "Lecture Thirteenth"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 191,
+      "level": 2,
+      "aliases": [
+        "Jeremiah 4",
+        "Chapter 4"
+      ],
+      "source_index": 750,
+      "source_anchor": "CHAPTER 4"
+    },
+    {
+      "title": "Lecture 14",
+      "destination": 191,
+      "level": 3,
+      "aliases": [
+        "Lecture Fourteenth",
+        "Lecture Fourteenth"
+      ],
+      "source_index": 751,
+      "source_anchor": "Lecture Fourteenth"
+    },
+    {
+      "title": "Lecture 15",
+      "destination": 203,
+      "level": 3,
+      "aliases": [
+        "Lecture Fifteenth",
+        "Lecture Fifteenth"
+      ],
+      "source_index": 800,
+      "source_anchor": "Lecture Fifteenth"
+    },
+    {
+      "title": "Lecture 16",
+      "destination": 216,
+      "level": 3,
+      "aliases": [
+        "Lecture Sixteenth",
+        "Lecture Sixteenth"
+      ],
+      "source_index": 866,
+      "source_anchor": "Lecture Sixteenth"
+    },
+    {
+      "title": "Lecture 17",
+      "destination": 229,
+      "level": 3,
+      "aliases": [
+        "Lecture Seventeenth",
+        "Lecture Seventeenth"
+      ],
+      "source_index": 931,
+      "source_anchor": "Lecture Seventeenth"
+    },
+    {
+      "title": "Lecture 18",
+      "destination": 243,
+      "level": 3,
+      "aliases": [
+        "Lecture Eighteenth",
+        "Lecture Eighteenth"
+      ],
+      "source_index": 990,
+      "source_anchor": "Lecture Eighteenth"
+    },
+    {
+      "title": "Chapter 5",
+      "destination": 246,
+      "level": 2,
+      "aliases": [
+        "Jeremiah 5",
+        "Chapter 5"
+      ],
+      "source_index": 1001,
+      "source_anchor": "CHAPTER 5"
+    },
+    {
+      "title": "Lecture 19",
+      "destination": 257,
+      "level": 3,
+      "aliases": [
+        "Lecture Nineteenth",
+        "Lecture Nineteenth"
+      ],
+      "source_index": 1040,
+      "source_anchor": "Lecture Nineteenth"
+    },
+    {
+      "title": "Lecture 20",
+      "destination": 270,
+      "level": 3,
+      "aliases": [
+        "Lecture Twentieth",
+        "Lecture Twentieth"
+      ],
+      "source_index": 1096,
+      "source_anchor": "Lecture Twentieth"
+    },
+    {
+      "title": "Lecture 21",
+      "destination": 283,
+      "level": 3,
+      "aliases": [
+        "Lecture Twenty-First",
+        "Lecture Twenty-First"
+      ],
+      "source_index": 1151,
+      "source_anchor": "Lecture Twenty-First"
+    },
+    {
+      "title": "Lecture 22",
+      "destination": 296,
+      "level": 3,
+      "aliases": [
+        "Lecture Twenty-Second",
+        "Lecture Twenty-Second"
+      ],
+      "source_index": 1217,
+      "source_anchor": "Lecture Twenty-Second"
+    },
+    {
+      "title": "Chapter 6",
+      "destination": 309,
+      "level": 2,
+      "aliases": [
+        "Jeremiah 6",
+        "Chapter 6"
+      ],
+      "source_index": 1275,
+      "source_anchor": "CHAPTER 6"
+    },
+    {
+      "title": "Lecture 23",
+      "destination": 309,
+      "level": 3,
+      "aliases": [
+        "Lecture Twenty-Third",
+        "Lecture Twenty-Third"
+      ],
+      "source_index": 1276,
+      "source_anchor": "Lecture Twenty-Third"
+    },
+    {
+      "title": "Lecture 24",
+      "destination": 324,
+      "level": 3,
+      "aliases": [
+        "Lecture Twenty-Fourth",
+        "Lecture Twenty-Fourth"
+      ],
+      "source_index": 1344,
+      "source_anchor": "LECTURE TWENTY-FOURTH"
+    },
+    {
+      "title": "Lecture 25",
+      "destination": 338,
+      "level": 3,
+      "aliases": [
+        "Lecture Twenty-Fifth",
+        "Lecture Twenty-Fifth"
+      ],
+      "source_index": 1399,
+      "source_anchor": "Lecture Twenty-Fifth"
+    },
+    {
+      "title": "Lecture 26",
+      "destination": 350,
+      "level": 3,
+      "aliases": [
+        "Lecture Twenty-Sixth",
+        "Lecture Twenty-Sixth"
+      ],
+      "source_index": 1464,
+      "source_anchor": "Lecture Twenty-Sixth"
+    },
+    {
+      "title": "Chapter 7",
+      "destination": 360,
+      "level": 2,
+      "aliases": [
+        "Jeremiah 7",
+        "Chapter 7"
+      ],
+      "source_index": 1519,
+      "source_anchor": "CHAPTER 7"
+    },
+    {
+      "title": "Lecture 27",
+      "destination": 365,
+      "level": 3,
+      "aliases": [
+        "Lecture Twenty-Seventh",
+        "Lecture Twenty-Seventh"
+      ],
+      "source_index": 1541,
+      "source_anchor": "Lecture Twenty-Seventh"
+    },
+    {
+      "title": "Lecture 28",
+      "destination": 377,
+      "level": 3,
+      "aliases": [
+        "Lecture Twenty-Eighth",
+        "Lecture Twenty-Eighth"
+      ],
+      "source_index": 1590,
+      "source_anchor": "Lecture Twenty-Eighth"
+    },
+    {
+      "title": "Lecture 29",
+      "destination": 389,
+      "level": 3,
+      "aliases": [
+        "Lecture Twenty-Ninth",
+        "Lecture Twenty-Ninth"
+      ],
+      "source_index": 1643,
+      "source_anchor": "Lecture Twenty-Ninth"
+    },
+    {
+      "title": "Lecture 30",
+      "destination": 400,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirtieth",
+        "Lecture Thirtieth"
+      ],
+      "source_index": 1684,
+      "source_anchor": "Lecture Thirtieth"
+    },
+    {
+      "title": "Lecture 31",
+      "destination": 412,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-First",
+        "Lecture Thirty-First"
+      ],
+      "source_index": 1731,
+      "source_anchor": "Lecture Thirty-First"
+    },
+    {
+      "title": "Chapter 8",
+      "destination": 419,
+      "level": 2,
+      "aliases": [
+        "Jeremiah 8",
+        "Chapter 8"
+      ],
+      "source_index": 1762,
+      "source_anchor": "CHAPTER 8"
+    },
+    {
+      "title": "Lecture 32",
+      "destination": 424,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-Second",
+        "Lecture Thirty-Second"
+      ],
+      "source_index": 1784,
+      "source_anchor": "Lecture Thirty-Second"
+    },
+    {
+      "title": "Lecture 33",
+      "destination": 436,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-Third",
+        "Lecture Thirty-Third"
+      ],
+      "source_index": 1835,
+      "source_anchor": "Lecture Thirty-Third"
+    },
+    {
+      "title": "Lecture 34",
+      "destination": 450,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-Fourth",
+        "Lecture Thirty-Fourth"
+      ],
+      "source_index": 1899,
+      "source_anchor": "Lecture Thirty-Fourth"
+    },
+    {
+      "title": "Chapter 9",
+      "destination": 458,
+      "level": 2,
+      "aliases": [
+        "Jeremiah 9",
+        "Chapter 9"
+      ],
+      "source_index": 1935,
+      "source_anchor": "CHAPTER 9"
+    },
+    {
+      "title": "Lecture 35",
+      "destination": 463,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-Fifth",
+        "Lecture Thirty-Fifth"
+      ],
+      "source_index": 1952,
+      "source_anchor": "LECTURE THIRTy-FIFTH"
+    },
+    {
+      "title": "Lecture 36",
+      "destination": 476,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-Sixth",
+        "Lecture Thirty-Sixth"
+      ],
+      "source_index": 2013,
+      "source_anchor": "Lecture Thirty-Sixth"
+    },
+    {
+      "title": "Lecture 37",
+      "destination": 488,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-Seventh",
+        "Lecture Thirty-Seventh"
+      ],
+      "source_index": 2065,
+      "source_anchor": "Lecture Thirty-Seventh"
+    },
+    {
+      "title": "Lecture 38",
+      "destination": 501,
+      "level": 3,
+      "aliases": [
+        "Lecture Thirty-Eighth",
+        "Lecture Thirty-Eighth"
+      ],
+      "source_index": 2131,
+      "source_anchor": "Lecture Thirty-Eighth"
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom17_approved\\verification.json",
+    "current_interior_sha256": "bdabd0606aefd5d0083f454c0712cfde46898b330c524a69422cd872fc366879",
+    "previous_interior_sha256": "935f5fedca456c5605180646d70985c7d19c98d1fde0fb15d012dc84f6751b79",
+    "approved_edition_updated": true
   }
 }

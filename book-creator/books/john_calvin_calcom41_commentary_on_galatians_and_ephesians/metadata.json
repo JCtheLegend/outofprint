@@ -14,9 +14,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 333,
   "body_page_count": 331,
-  "generated_contents_entries": 17,
-  "generated_contents_entries_in_pdf": 17,
-  "detected_heading_count": 17,
+  "generated_contents_entries": 15,
+  "generated_contents_entries_in_pdf": 15,
+  "detected_heading_count": 15,
   "interior_filename": "john_calvin_calcom41_commentary_on_galatians_and_ephesians_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom41_commentary_on_galatians_and_ephesians_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom41_commentary_on_galatians_and_ephesians_paperback_cover.pdf",
@@ -90,7 +90,7 @@
     "page_boxes_and_bookmarks_preserved": true,
     "all_interior_pages_rendered_for_font_update": 337,
     "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom41_commentary_on_galatians_and_ephesians.json",
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom41_split_heading_20260927\\verification.json",
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom41_package\\verification.json",
     "full_body_text_preserved_except_heading_case": true,
     "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom41_split_heading_20260927\\verification.json"
   },
@@ -331,7 +331,7 @@
     "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom41_commentary_on_galatians_and_ephesians.json",
     "current_pdf_sha256": {
       "john_calvin_calcom41_commentary_on_galatians_and_ephesians_hardcover_cover.pdf": "f617731e1c99e49af96f345fbbd74c3fcdb18c9880324490cd2022814334d847",
-      "john_calvin_calcom41_commentary_on_galatians_and_ephesians_interior.pdf": "02cd3b013957c2304f95564c7e289bfd50ca8bec0dd56439fe47bfcb462322ac",
+      "john_calvin_calcom41_commentary_on_galatians_and_ephesians_interior.pdf": "04ce7ae6b0e0e053656b8f559e12c69c76176117350bf1d5d7ca241144dfff3f",
       "john_calvin_calcom41_commentary_on_galatians_and_ephesians_paperback_cover.pdf": "dfadc0ac6a935b4491f96d4eec751ea4bc142b26652916b410a80065139e3218"
     },
     "earlier_visual_review_and_dated_repair_evidence_retained": true
@@ -580,7 +580,7 @@
     "approved_page_count": 333,
     "approved_pdf_sha256": {
       "john_calvin_calcom41_commentary_on_galatians_and_ephesians_hardcover_cover.pdf": "f617731e1c99e49af96f345fbbd74c3fcdb18c9880324490cd2022814334d847",
-      "john_calvin_calcom41_commentary_on_galatians_and_ephesians_interior.pdf": "02cd3b013957c2304f95564c7e289bfd50ca8bec0dd56439fe47bfcb462322ac",
+      "john_calvin_calcom41_commentary_on_galatians_and_ephesians_interior.pdf": "04ce7ae6b0e0e053656b8f559e12c69c76176117350bf1d5d7ca241144dfff3f",
       "john_calvin_calcom41_commentary_on_galatians_and_ephesians_paperback_cover.pdf": "dfadc0ac6a935b4491f96d4eec751ea4bc142b26652916b410a80065139e3218"
     },
     "github_update_authorized": true
@@ -588,5 +588,359 @@
   "store_price_cents": 3000,
   "store_featured": false,
   "store_genre": "Theology",
-  "store_description": "John Calvin's commentaries on Paul's Epistles to the Galatians and Ephesians."
+  "store_description": "John Calvin's commentaries on Paul's Epistles to the Galatians and Ephesians.",
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "02cd3b013957c2304f95564c7e289bfd50ca8bec0dd56439fe47bfcb462322ac",
+    "after_sha256": "04ce7ae6b0e0e053656b8f559e12c69c76176117350bf1d5d7ca241144dfff3f",
+    "page_count": 333,
+    "old_entries": 17,
+    "entry_count": 15,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2
+    ],
+    "entries": [
+      {
+        "title": "Dedication to Christopher, Duke of Wirtemberg",
+        "destination": 3,
+        "level": 1,
+        "aliases": [
+          "Dedication to Christopher, Duke of Wirtemberg"
+        ],
+        "source_index": 0,
+        "source_anchor": "TO THE MOST ILLUSTRIOUS PRINCE"
+      },
+      {
+        "title": "Galatians",
+        "destination": 5,
+        "level": 1,
+        "aliases": [
+          "Introduction to Galatians"
+        ],
+        "source_index": 10,
+        "source_anchor": "THE ARGUMENT OF THE EPISTLE OF PAUL TO THE GALATIANS."
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 11,
+        "level": 2,
+        "aliases": [
+          "Galatians 1",
+          "Chapter 1"
+        ],
+        "source_index": 43,
+        "source_anchor": "CHAPTER 1"
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 36,
+        "level": 2,
+        "aliases": [
+          "Galatians 2",
+          "Chapter 2"
+        ],
+        "source_index": 198,
+        "source_anchor": "CHAPTER 2"
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 68,
+        "level": 2,
+        "aliases": [
+          "Galatians 3",
+          "Chapter 3"
+        ],
+        "source_index": 357,
+        "source_anchor": "CHAPTER 3"
+      },
+      {
+        "title": "Chapter 4",
+        "destination": 102,
+        "level": 2,
+        "aliases": [
+          "Galatians 4",
+          "Chapter 4"
+        ],
+        "source_index": 540,
+        "source_anchor": "CHAPTER 4"
+      },
+      {
+        "title": "Chapter 5",
+        "destination": 135,
+        "level": 2,
+        "aliases": [
+          "Galatians 5",
+          "Chapter 5"
+        ],
+        "source_index": 732,
+        "source_anchor": "CHAPTER 5"
+      },
+      {
+        "title": "Chapter 6",
+        "destination": 160,
+        "level": 2,
+        "aliases": [
+          "Galatians 6",
+          "Chapter 6"
+        ],
+        "source_index": 864,
+        "source_anchor": "CHAPTER 6"
+      },
+      {
+        "title": "Ephesians",
+        "destination": 178,
+        "level": 1,
+        "aliases": [
+          "Introduction to Ephesians"
+        ],
+        "source_anchor": "THE ARGUMENT",
+        "source_index": 974
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 182,
+        "level": 2,
+        "aliases": [
+          "Ephesians 1",
+          "Chapter 1"
+        ],
+        "source_index": 988,
+        "source_anchor": "CHAPTER 1"
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 206,
+        "level": 2,
+        "aliases": [
+          "Ephesians 2",
+          "Chapter 2"
+        ],
+        "source_index": 1124,
+        "source_anchor": "CHAPTER 2"
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 233,
+        "level": 2,
+        "aliases": [
+          "Ephesians 3",
+          "Chapter 3"
+        ],
+        "source_index": 1287,
+        "source_anchor": "CHAPTER 3"
+      },
+      {
+        "title": "Chapter 4",
+        "destination": 254,
+        "level": 2,
+        "aliases": [
+          "Ephesians 4",
+          "Chapter 4"
+        ],
+        "source_index": 1413,
+        "source_anchor": "CHAPTER 4"
+      },
+      {
+        "title": "Chapter 5",
+        "destination": 291,
+        "level": 2,
+        "aliases": [
+          "Ephesians 5",
+          "Chapter 5"
+        ],
+        "source_index": 1621,
+        "source_anchor": "CHAPTER 5"
+      },
+      {
+        "title": "Chapter 6",
+        "destination": 315,
+        "level": 2,
+        "aliases": [
+          "Ephesians 6",
+          "Chapter 6"
+        ],
+        "source_index": 1781,
+        "source_anchor": "CHAPTER 6"
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Dedication to Christopher, Duke of Wirtemberg",
+      "destination": 3,
+      "level": 1,
+      "aliases": [
+        "Dedication to Christopher, Duke of Wirtemberg"
+      ],
+      "source_index": 0,
+      "source_anchor": "TO THE MOST ILLUSTRIOUS PRINCE"
+    },
+    {
+      "title": "Galatians",
+      "destination": 5,
+      "level": 1,
+      "aliases": [
+        "Introduction to Galatians"
+      ],
+      "source_index": 10,
+      "source_anchor": "THE ARGUMENT OF THE EPISTLE OF PAUL TO THE GALATIANS."
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 11,
+      "level": 2,
+      "aliases": [
+        "Galatians 1",
+        "Chapter 1"
+      ],
+      "source_index": 43,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 36,
+      "level": 2,
+      "aliases": [
+        "Galatians 2",
+        "Chapter 2"
+      ],
+      "source_index": 198,
+      "source_anchor": "CHAPTER 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 68,
+      "level": 2,
+      "aliases": [
+        "Galatians 3",
+        "Chapter 3"
+      ],
+      "source_index": 357,
+      "source_anchor": "CHAPTER 3"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 102,
+      "level": 2,
+      "aliases": [
+        "Galatians 4",
+        "Chapter 4"
+      ],
+      "source_index": 540,
+      "source_anchor": "CHAPTER 4"
+    },
+    {
+      "title": "Chapter 5",
+      "destination": 135,
+      "level": 2,
+      "aliases": [
+        "Galatians 5",
+        "Chapter 5"
+      ],
+      "source_index": 732,
+      "source_anchor": "CHAPTER 5"
+    },
+    {
+      "title": "Chapter 6",
+      "destination": 160,
+      "level": 2,
+      "aliases": [
+        "Galatians 6",
+        "Chapter 6"
+      ],
+      "source_index": 864,
+      "source_anchor": "CHAPTER 6"
+    },
+    {
+      "title": "Ephesians",
+      "destination": 178,
+      "level": 1,
+      "aliases": [
+        "Introduction to Ephesians"
+      ],
+      "source_anchor": "THE ARGUMENT",
+      "source_index": 974
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 182,
+      "level": 2,
+      "aliases": [
+        "Ephesians 1",
+        "Chapter 1"
+      ],
+      "source_index": 988,
+      "source_anchor": "CHAPTER 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 206,
+      "level": 2,
+      "aliases": [
+        "Ephesians 2",
+        "Chapter 2"
+      ],
+      "source_index": 1124,
+      "source_anchor": "CHAPTER 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 233,
+      "level": 2,
+      "aliases": [
+        "Ephesians 3",
+        "Chapter 3"
+      ],
+      "source_index": 1287,
+      "source_anchor": "CHAPTER 3"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 254,
+      "level": 2,
+      "aliases": [
+        "Ephesians 4",
+        "Chapter 4"
+      ],
+      "source_index": 1413,
+      "source_anchor": "CHAPTER 4"
+    },
+    {
+      "title": "Chapter 5",
+      "destination": 291,
+      "level": 2,
+      "aliases": [
+        "Ephesians 5",
+        "Chapter 5"
+      ],
+      "source_index": 1621,
+      "source_anchor": "CHAPTER 5"
+    },
+    {
+      "title": "Chapter 6",
+      "destination": 315,
+      "level": 2,
+      "aliases": [
+        "Ephesians 6",
+        "Chapter 6"
+      ],
+      "source_index": 1781,
+      "source_anchor": "CHAPTER 6"
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom41_package\\verification.json",
+    "current_interior_sha256": "04ce7ae6b0e0e053656b8f559e12c69c76176117350bf1d5d7ca241144dfff3f",
+    "previous_interior_sha256": "02cd3b013957c2304f95564c7e289bfd50ca8bec0dd56439fe47bfcb462322ac",
+    "approved_edition_updated": true
+  }
 }

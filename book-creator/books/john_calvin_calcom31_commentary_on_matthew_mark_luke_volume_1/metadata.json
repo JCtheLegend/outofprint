@@ -21,9 +21,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 495,
   "body_page_count": 491,
-  "generated_contents_entries": 91,
-  "generated_contents_entries_in_pdf": 91,
-  "detected_heading_count": 91,
+  "generated_contents_entries": 90,
+  "generated_contents_entries_in_pdf": 90,
+  "detected_heading_count": 90,
   "interior_filename": "john_calvin_calcom31_commentary_on_matthew_mark_luke_volume_1_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom31_commentary_on_matthew_mark_luke_volume_1_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom31_commentary_on_matthew_mark_luke_volume_1_paperback_cover.pdf",
@@ -99,7 +99,7 @@
     "all_fonts_embedded_truetype": true,
     "text_outlined": false,
     "body_text_matches_previous_approved_edition": true,
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_audit_20260927\\repairs\\calcom31_approved\\verification.json"
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom31_approved\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -346,11 +346,11 @@
   },
   "contents_audit_20260927": {
     "status": "verified",
-    "before_sha256": "afb925cf70a3e47ee4d2cbd8dac878bafa58a617c5437a5432a682838e048613",
-    "after_sha256": "8c04104f1842ba411b059b6d98ac2e4ef308a365fb05f131372ae996d2351dd1",
+    "before_sha256": "8c04104f1842ba411b059b6d98ac2e4ef308a365fb05f131372ae996d2351dd1",
+    "after_sha256": "db628caf417aa4746533249f9b7e69fe3f3484b1104be0695004edcc9a32f048",
     "page_count": 495,
-    "old_entries": 93,
-    "entry_count": 91,
+    "old_entries": 91,
+    "entry_count": 90,
     "all_non_contents_page_text_and_streams_unchanged": true,
     "sample_body_renders_identical": true,
     "embedded_truetype_fonts": true,
@@ -362,742 +362,2007 @@
     ],
     "entries": [
       {
-        "title": "Author's Epistle Dedicatory to the Burgomasters and Council of Frankfort",
+        "title": "Dedication to the Burgomasters and Council of Frankfort",
         "destination": 5,
         "level": 1,
         "aliases": [
+          "Author's Epistle Dedicatory to the Burgomasters and Council of Frankfort",
           "Author's Epistle Dedicatory to the Burgomasters and Council of Frankfort"
-        ]
+        ],
+        "source_index": 0,
+        "source_anchor": "AUTHOR'S EPISTLE DEDICATORY"
       },
       {
-        "title": "The Argument on the Gospel According to Matthew, Mark, and Luke",
+        "title": "Harmony of the Gospels",
         "destination": 9,
         "level": 1,
         "aliases": [
+          "The Argument on the Gospel According to Matthew, Mark, and Luke",
           "The Argument on the Gospel According to Matthew, Mark, and Luke"
-        ]
-      },
-      {
-        "title": "Commentary on a Harmony of the Evangelists",
-        "destination": 14,
-        "level": 1,
-        "aliases": [
-          "Commentary on a Harmony of the Evangelists"
-        ]
+        ],
+        "source_index": 17,
+        "source_anchor": "THE ARGUMENT"
       },
       {
         "title": "Luke 1:1-4",
         "destination": 14,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 1:1-4",
           "Luke 1:1-4"
-        ]
+        ],
+        "source_index": 46,
+        "source_anchor": "LUKE 1:1-4"
       },
       {
         "title": "Luke 1:5-13",
         "destination": 19,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 1:5-13",
           "Luke 1:5-13"
-        ]
+        ],
+        "source_index": 59,
+        "source_anchor": "LUKE 1:5-13"
       },
       {
         "title": "Luke 1:18-20",
         "destination": 34,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 1:18-20",
           "Luke 1:18-20"
-        ]
+        ],
+        "source_index": 92,
+        "source_anchor": "LUKE 1:18-20"
       },
       {
         "title": "Luke 1:21-25",
         "destination": 39,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 1:21-25",
           "Luke 1:21-25"
-        ]
+        ],
+        "source_index": 107,
+        "source_anchor": "LUKE 1:21-25"
       },
       {
         "title": "Luke 1:26-33",
         "destination": 44,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 1:26-33",
           "Luke 1:26-33"
-        ]
+        ],
+        "source_index": 123,
+        "source_anchor": "LUKE 1:26-33"
       },
       {
         "title": "Luke 1:34-38",
         "destination": 52,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 1:34-38",
           "Luke 1:34-38"
-        ]
+        ],
+        "source_index": 149,
+        "source_anchor": "LUKE 1:34-38"
       },
       {
         "title": "Luke 1:39-45",
         "destination": 59,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 1:39-45",
           "Luke 1:39-45"
-        ]
+        ],
+        "source_index": 175,
+        "source_anchor": "LUKE 1:39-45"
       },
       {
         "title": "Luke 1:46-50",
         "destination": 64,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 1:46-50",
           "Luke 1:46-50"
-        ]
+        ],
+        "source_index": 195,
+        "source_anchor": "LUKE 1:46-50"
       },
       {
         "title": "Luke 1:51-55",
         "destination": 69,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 1:51-55",
           "Luke 1:51-55"
-        ]
+        ],
+        "source_index": 224,
+        "source_anchor": "LUKE 1:51-55"
       },
       {
         "title": "Luke 1:56-66",
         "destination": 75,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 1:56-66",
           "Luke 1:56-66"
-        ]
+        ],
+        "source_index": 250,
+        "source_anchor": "LUKE 1:56-66"
       },
       {
         "title": "Luke 1:67-75",
         "destination": 79,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 1:67-75",
           "Luke 1:67-75"
-        ]
+        ],
+        "source_index": 264,
+        "source_anchor": "LUKE 1:67-75"
       },
       {
         "title": "Luke 1:76-80",
         "destination": 87,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 1:76-80",
           "Luke 1:76-80"
-        ]
+        ],
+        "source_index": 301,
+        "source_anchor": "LUKE 1:76-80"
       },
       {
         "title": "Matthew 1:1-17; Luke 3:23-38",
         "destination": 91,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 1:1-17; Luke 3:23-38",
           "Matthew 1:1-17; Luke 3:23-38"
-        ]
+        ],
+        "source_index": 324,
+        "source_anchor": "MATTHEW 1:1-17; LUKE 3:23-38"
       },
       {
         "title": "Matthew 1:18-25",
         "destination": 104,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 1:18-25",
           "Matthew 1:18-25"
-        ]
+        ],
+        "source_index": 380,
+        "source_anchor": "MATTHEW 1:18-25"
       },
       {
         "title": "Luke 2:1-7",
         "destination": 118,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 2:1-7",
           "Luke 2:1-7"
-        ]
+        ],
+        "source_index": 444,
+        "source_anchor": "LUKE 2:1-7"
       },
       {
         "title": "Luke 2:8-14",
         "destination": 123,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 2:8-14",
           "Luke 2:8-14"
-        ]
+        ],
+        "source_index": 474,
+        "source_anchor": "LUKE 2:8-14"
       },
       {
         "title": "Luke 2:15-21",
         "destination": 132,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 2:15-21",
           "Luke 2:15-21"
-        ]
+        ],
+        "source_index": 520,
+        "source_anchor": "LUKE 2:15-21"
       },
       {
         "title": "Matthew 2:1-6",
         "destination": 137,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 2:1-6",
           "Matthew 2:1-6"
-        ]
+        ],
+        "source_index": 545,
+        "source_anchor": "MATTHEW 2:1-6"
       },
       {
         "title": "Matthew 2:7-12",
         "destination": 144,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 2:7-12",
           "Matthew 2:7-12"
-        ]
+        ],
+        "source_index": 577,
+        "source_anchor": "MATTHEW 2:7-12"
       },
       {
         "title": "Luke 2:22-32",
         "destination": 148,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 2:22-32",
           "Luke 2:22-32"
-        ]
+        ],
+        "source_index": 588,
+        "source_anchor": "LUKE 2:22-32"
       },
       {
         "title": "Luke 2:33-39",
         "destination": 155,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 2:33-39",
           "Luke 2:33-39"
-        ]
+        ],
+        "source_index": 622,
+        "source_anchor": "LUKE 2:33-39"
       },
       {
         "title": "Matthew 2:13-18",
         "destination": 163,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 2:13-18",
           "Matthew 2:13-18"
-        ]
+        ],
+        "source_index": 656,
+        "source_anchor": "MATTHEW 2:13-18"
       },
       {
         "title": "Matthew 2:19-23",
         "destination": 170,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 2:19-23",
           "Matthew 2:19-23"
-        ]
+        ],
+        "source_index": 685,
+        "source_anchor": "MATTHEW 2:19-23"
       },
       {
         "title": "Luke 2:48-52",
         "destination": 178,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 2:48-52",
           "Luke 2:48-52"
-        ]
+        ],
+        "source_index": 729,
+        "source_anchor": "LUKE 2:48-52"
       },
       {
         "title": "Matthew 3:1-6; Mark 1:1-6; Luke 3:1-6",
         "destination": 181,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 3:1-6; Mark 1:1-6; Luke 3:1-6",
           "Matthew 3:1-6; Mark 1:1-6; Luke 3:1-6"
-        ]
+        ],
+        "source_index": 741,
+        "source_anchor": "MATTHEW 3:1-6; MARK 1:1-6; LUKE 3:1-6"
       },
       {
         "title": "Matthew 3:7-10; Luke 3:7-14",
         "destination": 193,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 3:7-10; Luke 3:7-14",
           "Matthew 3:7-10; Luke 3:7-14"
-        ]
+        ],
+        "source_index": 798,
+        "source_anchor": "MATTHEW 3:7-10; LUKE 3:7-14"
       },
       {
         "title": "Matthew 3:11-12; Mark 1:7-8; Luke 3:15-18",
         "destination": 204,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 3:11-12; Mark 1:7-8; Luke 3:15-18",
           "Matthew 3:11-12; Mark 1:7-8; Luke 3:15-18"
-        ]
+        ],
+        "source_index": 844,
+        "source_anchor": "MATTHEW 3:11-12; MARK 1:7-8; LUKE 3:15-18"
       },
       {
         "title": "Matthew 3:13-17; Mark 1:9-11; Luke 3:21-23",
         "destination": 209,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 3:13-17; Mark 1:9-11; Luke 3:21-23",
           "Matthew 3:13-17; Mark 1:9-11; Luke 3:21-23"
-        ]
+        ],
+        "source_index": 871,
+        "source_anchor": "MATTHEW 3:13-17; MARK 1:9-11; LUKE 3:21-23"
       },
       {
         "title": "Matthew 4:1-4; Mark 1:12-13; Luke 4:1-4",
         "destination": 215,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 4:1-4; Mark 1:12-13; Luke 4:1-4",
           "Matthew 4:1-4; Mark 1:12-13; Luke 4:1-4"
-        ]
+        ],
+        "source_index": 908,
+        "source_anchor": "MATTHEW 4:1-4; MARK 1:12-13; LUKE 4:1-4"
       },
       {
         "title": "Matthew 4:5-11; Mark 1:13; Luke 4:5-13",
         "destination": 224,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 4:5-11; Mark 1:13; Luke 4:5-13",
           "Matthew 4:5-11; Mark 1:13; Luke 4:5-13"
-        ]
+        ],
+        "source_index": 943,
+        "source_anchor": "MATTHEW 4:5-11; MARK 1:13; LUKE 4:5-13"
       },
       {
         "title": "Matthew 4:12, 17; Mark 1:14-15",
         "destination": 231,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 4:12, 17; Mark 1:14-15",
           "Matthew 4:12, 17; Mark 1:14-15",
           "Matthew 4:12, 17"
-        ]
+        ],
+        "source_index": 967,
+        "source_anchor": "MATTHEW 4:12, 17; MARK 1:14-15;"
       },
       {
         "title": "Luke 3:19-20; 4:14",
         "destination": 231,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 3:19-20; 4:14",
           "Luke 3:19-20; 4:14"
-        ]
+        ],
+        "source_index": 968,
+        "source_anchor": "LUKE 3:19-20; 4:14"
       },
       {
         "title": "Luke 4:16-22",
         "destination": 235,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 4:16-22",
           "Luke 4:16-22"
-        ]
+        ],
+        "source_index": 988,
+        "source_anchor": "LUKE 4:16-22"
       },
       {
         "title": "Luke 4:23-30",
         "destination": 240,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 4:23-30",
           "Luke 4:23-30"
-        ]
+        ],
+        "source_index": 1004,
+        "source_anchor": "LUKE 4:23-30"
       },
       {
         "title": "Matthew 4:13-16",
         "destination": 244,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 4:13-16",
           "Matthew 4:13-16"
-        ]
+        ],
+        "source_index": 1022,
+        "source_anchor": "MATTHEW 4:13-16"
       },
       {
         "title": "Matthew 4:18-25; Mark 1:16-20; Luke 5:1-11",
         "destination": 247,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 4:18-25; Mark 1:16-20; Luke 5:1-11",
           "Matthew 4:18-25; Mark 1:16-20; Luke 5:1-11"
-        ]
+        ],
+        "source_index": 1034,
+        "source_anchor": "MATTHEW 4:18-25; MARK 1:16-20; LUKE 5:1-11"
       },
       {
         "title": "Mark 1:21-28; Luke 4:31-36",
         "destination": 255,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Mark 1:21-28; Luke 4:31-36",
           "Mark 1:21-28; Luke 4:31-36"
-        ]
+        ],
+        "source_index": 1065,
+        "source_anchor": "MARK 1:21-28; LUKE 4:31-36"
       },
       {
         "title": "Matthew 8:14-18; Mark 1:29-39; Luke 4:38-44",
         "destination": 259,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 8:14-18; Mark 1:29-39; Luke 4:38-44",
           "Matthew 8:14-18; Mark 1:29-39; Luke 4:38-44"
-        ]
+        ],
+        "source_index": 1079,
+        "source_anchor": "MATTHEW 8:14-18; MARK 1:29-39; LUKE 4:38-44"
       },
       {
         "title": "Mark 3:13-19; Luke 6:12-19",
         "destination": 263,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Mark 3:13-19; Luke 6:12-19",
           "Mark 3:13-19; Luke 6:12-19"
-        ]
+        ],
+        "source_index": 1093,
+        "source_anchor": "MARK 3:13-19; LUKE 6:12-19"
       },
       {
         "title": "Matthew 5:1-12; Luke 6:20-26",
         "destination": 267,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 5:1-12; Luke 6:20-26",
           "Matthew 5:1-12; Luke 6:20-26"
-        ]
+        ],
+        "source_index": 1114,
+        "source_anchor": "MATTHEW 5:1-12; LUKE 6:20-26"
       },
       {
         "title": "Matthew 5:13-16; Mark 9:49-50; 4:21; Luke 14:34-35; 8:16; 11:33",
         "destination": 279,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 5:13-16; Mark 9:49-50; 4:21; Luke 14:34-35; 8:16; 11:33",
           "Matthew 5:13-16; Mark 9:49-50; 4:21; Luke 14:34-35; 8:16; 11:33"
-        ]
+        ],
+        "source_index": 1161,
+        "source_anchor": "MATTHEW 5:13-16; MARK 9:49-50; 4:21; LUKE 14:34-35; 8:16; 11:33"
       },
       {
         "title": "Matthew 5:17-19; Luke 16:17",
         "destination": 285,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 5:17-19; Luke 16:17",
           "Matthew 5:17-19; Luke 16:17"
-        ]
+        ],
+        "source_index": 1196,
+        "source_anchor": "MATTHEW 5:17-19; LUKE 16:17"
       },
       {
         "title": "Matthew 5:20-22",
         "destination": 290,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 5:20-22",
           "Matthew 5:20-22"
-        ]
+        ],
+        "source_index": 1221,
+        "source_anchor": "MATTHEW 5:20-22"
       },
       {
         "title": "Matthew 5:23-26; Luke 12:58-59",
         "destination": 295,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 5:23-26; Luke 12:58-59",
           "Matthew 5:23-26; Luke 12:58-59"
-        ]
+        ],
+        "source_index": 1251,
+        "source_anchor": "MATTHEW 5:23-26; LUKE 12:58-59"
       },
       {
         "title": "Matthew 5:27-30",
         "destination": 300,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 5:27-30",
           "Matthew 5:27-30"
-        ]
+        ],
+        "source_index": 1267,
+        "source_anchor": "MATTHEW 5:27-30"
       },
       {
         "title": "Matthew 5:31-32; Luke 16:18",
         "destination": 302,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 5:31-32; Luke 16:18",
           "Matthew 5:31-32; Luke 16:18"
-        ]
+        ],
+        "source_index": 1276,
+        "source_anchor": "MATTHEW 5:31-32; LUKE 16:18"
       },
       {
         "title": "Matthew 5:33-37",
         "destination": 304,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 5:33-37",
           "Matthew 5:33-37"
-        ]
+        ],
+        "source_index": 1286,
+        "source_anchor": "MATTHEW 5:33-37"
       },
       {
         "title": "Matthew 5:38-41; Luke 6:29-30",
         "destination": 308,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 5:38-41; Luke 6:29-30",
           "Matthew 5:38-41; Luke 6:29-30"
-        ]
+        ],
+        "source_index": 1299,
+        "source_anchor": "MATTHEW 5:38-41; LUKE 6:29-30"
       },
       {
         "title": "Matthew 5:42; Luke 6:34-35",
         "destination": 312,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 5:42; Luke 6:34-35",
           "Matthew 5:42; Luke 6:34-35"
-        ]
+        ],
+        "source_index": 1318,
+        "source_anchor": "MATTHEW 5:42; LUKE 6:34-35"
       },
       {
         "title": "Matthew 5:43-48; Luke 6:27-36",
         "destination": 314,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 5:43-48; Luke 6:27-36",
           "Matthew 5:43-48; Luke 6:27-36"
-        ]
+        ],
+        "source_index": 1328,
+        "source_anchor": "MATTHEW 5:43-48; LUKE 6:27-36"
       },
       {
         "title": "Matthew 6: 1-4",
         "destination": 319,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 6: 1-4",
           "Matthew 6: 1-4"
-        ]
+        ],
+        "source_index": 1347,
+        "source_anchor": "MATTHEW 6: 1-4"
       },
       {
         "title": "Matthew 6:5-8",
         "destination": 322,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 6:5-8",
           "Matthew 6:5-8"
-        ]
+        ],
+        "source_index": 1360,
+        "source_anchor": "MATTHEW 6:5-8"
       },
       {
         "title": "Matthew 6:9-13; Luke 11:1-4",
         "destination": 325,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 6:9-13; Luke 11:1-4",
           "Matthew 6:9-13; Luke 11:1-4"
-        ]
+        ],
+        "source_index": 1369,
+        "source_anchor": "MATTHEW 6:9-13; LUKE 11:1-4"
       },
       {
         "title": "Matthew 6:16-19",
         "destination": 341,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 6:16-19",
           "Matthew 6:16-19"
-        ]
+        ],
+        "source_index": 1432,
+        "source_anchor": "MATTHEW 6:16-19"
       },
       {
         "title": "Matthew 6:19-21; Luke 12:33-34",
         "destination": 343,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 6:19-21; Luke 12:33-34",
           "Matthew 6:19-21; Luke 12:33-34"
-        ]
+        ],
+        "source_index": 1440,
+        "source_anchor": "MATTHEW 6:19-21; LUKE 12:33-34"
       },
       {
         "title": "Matthew 6:22-24; Luke 11:34-36; 16:13",
         "destination": 346,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 6:22-24; Luke 11:34-36; 16:13",
           "Matthew 6:22-24; Luke 11:34-36; 16:13"
-        ]
+        ],
+        "source_index": 1454,
+        "source_anchor": "MATTHEW 6:22-24; LUKE 11:34-36; 16:13"
       },
       {
         "title": "Matthew 6:25-30; Luke 12:22-28",
         "destination": 350,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 6:25-30; Luke 12:22-28",
           "Matthew 6:25-30; Luke 12:22-28"
-        ]
+        ],
+        "source_index": 1473,
+        "source_anchor": "MATTHEW 6:25-30; LUKE 12:22-28"
       },
       {
         "title": "Matthew 6:31-34; Luke 12:29-32",
         "destination": 354,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 6:31-34; Luke 12:29-32",
           "Matthew 6:31-34; Luke 12:29-32"
-        ]
+        ],
+        "source_index": 1490,
+        "source_anchor": "MATTHEW 6:31-34; LUKE 12:29-32"
       },
       {
         "title": "Matthew 7:1-5; Mark 4:24; Luke 6:37-42",
         "destination": 357,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 7:1-5; Mark 4:24; Luke 6:37-42",
           "Matthew 7:1-5; Mark 4:24; Luke 6:37-42"
-        ]
+        ],
+        "source_index": 1505,
+        "source_anchor": "MATTHEW 7:1-5; MARK 4:24; LUKE 6:37-42"
       },
       {
         "title": "Matthew 7:6",
         "destination": 361,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 7:6",
           "Matthew 7:6"
-        ]
+        ],
+        "source_index": 1519,
+        "source_anchor": "MATTHEW 7:6"
       },
       {
         "title": "Matthew 7:7-11; Luke 11:5-13",
         "destination": 363,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 7:7-11; Luke 11:5-13",
           "Matthew 7:7-11; Luke 11:5-13"
-        ]
+        ],
+        "source_index": 1527,
+        "source_anchor": "MATTHEW 7:7-11; LUKE 11:5-13"
       },
       {
         "title": "Matthew 7:12-14; Luke 6:31",
         "destination": 367,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 7:12-14; Luke 6:31",
           "Matthew 7:12-14; Luke 6:31"
-        ]
+        ],
+        "source_index": 1544,
+        "source_anchor": "MATTHEW 7:12-14; LUKE 6:31"
       },
       {
         "title": "Luke 13:23-24",
         "destination": 370,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 13:23-24",
           "Luke 13:23-24"
-        ]
+        ],
+        "source_index": 1561,
+        "source_anchor": "LUKE 13:23-24"
       },
       {
         "title": "Luke 13:25-30",
         "destination": 372,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 13:25-30",
           "Luke 13:25-30"
-        ]
+        ],
+        "source_index": 1567,
+        "source_anchor": "LUKE 13:25-30"
       },
       {
         "title": "Matthew 7:15-20; Luke 6:43-45",
         "destination": 375,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 7:15-20; Luke 6:43-45",
           "Matthew 7:15-20; Luke 6:43-45"
-        ]
+        ],
+        "source_index": 1579,
+        "source_anchor": "MATTHEW 7:15-20; LUKE 6:43-45"
       },
       {
         "title": "Matthew 7:21-23; Luke 6:46",
         "destination": 380,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 7:21-23; Luke 6:46",
           "Matthew 7:21-23; Luke 6:46"
-        ]
+        ],
+        "source_index": 1597,
+        "source_anchor": "MATTHEW 7:21-23; LUKE 6:46"
       },
       {
         "title": "Matthew 7:24-29; Luke 6:47-49",
         "destination": 383,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 7:24-29; Luke 6:47-49",
           "Matthew 7:24-29; Luke 6:47-49",
           "Luke 6:47:49"
-        ]
+        ],
+        "source_index": 1618,
+        "source_anchor": "MATTHEW 7:24-29; LUKE 6:47-49"
       },
       {
         "title": "Matthew 8:1-4; Mark 1:40-45; Luke 5:12-16",
         "destination": 385,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 8:1-4; Mark 1:40-45; Luke 5:12-16",
           "Matthew 8:1-4; Mark 1:40-45; Luke 5:12-16"
-        ]
+        ],
+        "source_index": 1630,
+        "source_anchor": "MATTHEW 8:1-4; MARK 1:40-45; LUKE 5:12-16"
       },
       {
         "title": "Matthew 8:5-13; Luke 7:1-10",
         "destination": 391,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 8:5-13; Luke 7:1-10",
           "Matthew 8:5-13; Luke 7:1-10"
-        ]
+        ],
+        "source_index": 1657,
+        "source_anchor": "MATTHEW 8:5-13; LUKE 7:1-10"
       },
       {
         "title": "Luke 7:11-17",
         "destination": 399,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 7:11-17",
           "Luke 7:11-17"
-        ]
+        ],
+        "source_index": 1684,
+        "source_anchor": "LUKE 7:11-17"
       },
       {
         "title": "Matthew 8:19-22; Luke 9:57-62",
         "destination": 402,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 8:19-22; Luke 9:57-62",
           "Matthew 8:19-22; Luke 9:57-62"
-        ]
+        ],
+        "source_index": 1693,
+        "source_anchor": "MATTHEW 8:19-22; LUKE 9:57-62"
       },
       {
         "title": "Matthew 9:1-8; Mark 2:1-12; Luke 5:17-26",
         "destination": 406,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 9:1-8; Mark 2:1-12; Luke 5:17-26",
           "Matthew 9:1-8; Mark 2:1-12; Luke 5:17-26"
-        ]
+        ],
+        "source_index": 1707,
+        "source_anchor": "MATTHEW 9:1-8; MARK 2:1-12; LUKE 5:17-26"
       },
       {
         "title": "Matthew 9:9-13; Mark 2:13-17; Luke 5:27-32",
         "destination": 413,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 9:9-13; Mark 2:13-17; Luke 5:27-32",
           "Matthew 9:9-13; Mark 2:13-17; Luke 5:27-32"
-        ]
+        ],
+        "source_index": 1733,
+        "source_anchor": "MATTHEW 9:9-13; MARK 2:13-17; LUKE 5:27-32"
       },
       {
         "title": "Matthew 9:14-17; Mark 2:18-22; Luke 5:33-39",
         "destination": 420,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 9:14-17; Mark 2:18-22; Luke 5:33-39",
           "Matthew 9:14-17; Mark 2:18-22; Luke 5:33-39"
-        ]
+        ],
+        "source_index": 1766,
+        "source_anchor": "MATTHEW 9:14-17; MARK 2:18-22; LUKE 5:33-39"
       },
       {
         "title": "Matthew 9:18-22; Mark 5:22-34; Luke 8:40-48",
         "destination": 424,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 9:18-22; Mark 5:22-34; Luke 8:40-48",
           "Matthew 9:18-22; Mark 5:22-34; Luke 8:40-48"
-        ]
+        ],
+        "source_index": 1785,
+        "source_anchor": "MATTHEW 9:18-22; MARK 5:22-34; LUKE 8:40-48"
       },
       {
         "title": "Matthew 9:23-26; Mark 5:35-43; Luke 8:49-56",
         "destination": 430,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 9:23-26; Mark 5:35-43; Luke 8:49-56",
           "Matthew 9:23-26; Mark 5:35-43; Luke 8:49-56"
-        ]
+        ],
+        "source_index": 1803,
+        "source_anchor": "MATTHEW 9:23-26; MARK 5:35-43; LUKE 8:49-56"
       },
       {
         "title": "Matthew 9:27-34",
         "destination": 434,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 9:27-34",
           "Matthew 9:27-34"
-        ]
+        ],
+        "source_index": 1818,
+        "source_anchor": "MATTHEW 9:27-34"
       },
       {
         "title": "Matthew 9:35-38",
         "destination": 437,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 9:35-38",
           "Matthew 9:35-38"
-        ]
+        ],
+        "source_index": 1830,
+        "source_anchor": "MATTHEW 9:35-38"
       },
       {
         "title": "Matthew 8:23-27; Mark 4:35-41; Luke 8:22-25",
         "destination": 439,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 8:23-27; Mark 4:35-41; Luke 8:22-25",
           "Matthew 8:23-27; Mark 4:35-41; Luke 8:22-25"
-        ]
+        ],
+        "source_index": 1839,
+        "source_anchor": "MATTHEW 8:23-27; MARK 4:35-41; LUKE 8:22-25"
       },
       {
         "title": "Matthew 8:28-34; Mark 5:1-20; Luke 8:26-39",
         "destination": 444,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 8:28-34; Mark 5:1-20; Luke 8:26-39",
           "Matthew 8:28-34; Mark 5:1-20; Luke 8:26-39"
-        ]
+        ],
+        "source_index": 1864,
+        "source_anchor": "MATTHEW 8:28-34; MARK 5:1-20; LUKE 8:26-39"
       },
       {
         "title": "Matthew 10:1-8; Mark 6:7; Luke 9:1-2",
         "destination": 454,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 10:1-8; Mark 6:7; Luke 9:1-2",
           "Matthew 10:1-8; Mark 6:7; Luke 9:1-2"
-        ]
+        ],
+        "source_index": 1911,
+        "source_anchor": "MATTHEW 10:1-8; MARK 6:7; LUKE 9:1-2"
       },
       {
         "title": "Matthew 10:9-15; Mark 6:8-11; Luke 9:3-5",
         "destination": 460,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 10:9-15; Mark 6:8-11; Luke 9:3-5",
           "Matthew 10:9-15; Mark 6:8-11; Luke 9:3-5"
-        ]
+        ],
+        "source_index": 1946,
+        "source_anchor": "MATTHEW 10:9-15; MARK 6:8-11; LUKE 9:3-5"
       },
       {
         "title": "Matthew 10:16-20; Luke 12:11-12",
         "destination": 466,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 10:16-20; Luke 12:11-12",
           "Matthew 10:16-20; Luke 12:11-12"
-        ]
+        ],
+        "source_index": 1971,
+        "source_anchor": "MATTHEW 10:16-20; LUKE 12:11-12"
       },
       {
         "title": "Matthew 10:21-25; Luke 6:40",
         "destination": 472,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 10:21-25; Luke 6:40",
           "Matthew 10:21-25; Luke 6:40"
-        ]
+        ],
+        "source_index": 1999,
+        "source_anchor": "MATTHEW 10:21-25; LUKE 6:40"
       },
       {
         "title": "Matthew 10:26-31; Mark 4:22-23; Luke 8:17; 12:2-7",
         "destination": 478,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 10:26-31; Mark 4:22-23; Luke 8:17; 12:2-7",
           "Matthew 10:26-31; Mark 4:22-23; Luke 8:17; 12:2-7"
-        ]
+        ],
+        "source_index": 2022,
+        "source_anchor": "MATTHEW 10:26-31; MARK 4:22-23; LUKE 8:17; 12:2-7"
       },
       {
         "title": "Matthew 10:32-35; Mark 8:38; Luke 9:26; 12:8-9, 51-53",
         "destination": 484,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 10:32-35; Mark 8:38; Luke 9:26; 12:8-9, 51-53",
           "Matthew 10:32-35; Mark 8:38; Luke 9:26; 12:8-9, 51-53"
-        ]
+        ],
+        "source_index": 2048,
+        "source_anchor": "MATTHEW 10:32-35; MARK 8:38; LUKE 9:26; 12:8-9, 51-53"
       },
       {
         "title": "Luke 12:8-9, 51-53",
         "destination": 484,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Luke 12:8-9, 51-53",
           "Luke 12:8-9, 51-53"
-        ]
+        ],
+        "source_index": 2055,
+        "source_anchor": "Luke 12:8-9, 51-53"
       },
       {
         "title": "Matthew 10:37-42; Mark 9:41; Luke 14:25-33",
         "destination": 489,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Matthew 10:37-42; Mark 9:41; Luke 14:25-33",
           "Matthew 10:37-42; Mark 9:41; Luke 14:25-33"
-        ]
+        ],
+        "source_index": 2068,
+        "source_anchor": "MATTHEW 10:37-42; MARK 9:41; LUKE 14:25-33"
       }
     ],
     "visual_review_complete": true,
-    "reviewer_navigation_uses_audited_entries": true
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
   },
   "font_update_20260926": {
     "current_pdf_sha256": {
-      "john_calvin_calcom31_commentary_on_matthew_mark_luke_volume_1_interior.pdf": "8c04104f1842ba411b059b6d98ac2e4ef308a365fb05f131372ae996d2351dd1"
+      "john_calvin_calcom31_commentary_on_matthew_mark_luke_volume_1_interior.pdf": "db628caf417aa4746533249f9b7e69fe3f3484b1104be0695004edcc9a32f048"
     }
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Dedication to the Burgomasters and Council of Frankfort",
+      "destination": 5,
+      "level": 1,
+      "aliases": [
+        "Author's Epistle Dedicatory to the Burgomasters and Council of Frankfort",
+        "Author's Epistle Dedicatory to the Burgomasters and Council of Frankfort"
+      ],
+      "source_index": 0,
+      "source_anchor": "AUTHOR'S EPISTLE DEDICATORY"
+    },
+    {
+      "title": "Harmony of the Gospels",
+      "destination": 9,
+      "level": 1,
+      "aliases": [
+        "The Argument on the Gospel According to Matthew, Mark, and Luke",
+        "The Argument on the Gospel According to Matthew, Mark, and Luke"
+      ],
+      "source_index": 17,
+      "source_anchor": "THE ARGUMENT"
+    },
+    {
+      "title": "Luke 1:1-4",
+      "destination": 14,
+      "level": 2,
+      "aliases": [
+        "Luke 1:1-4",
+        "Luke 1:1-4"
+      ],
+      "source_index": 46,
+      "source_anchor": "LUKE 1:1-4"
+    },
+    {
+      "title": "Luke 1:5-13",
+      "destination": 19,
+      "level": 2,
+      "aliases": [
+        "Luke 1:5-13",
+        "Luke 1:5-13"
+      ],
+      "source_index": 59,
+      "source_anchor": "LUKE 1:5-13"
+    },
+    {
+      "title": "Luke 1:18-20",
+      "destination": 34,
+      "level": 2,
+      "aliases": [
+        "Luke 1:18-20",
+        "Luke 1:18-20"
+      ],
+      "source_index": 92,
+      "source_anchor": "LUKE 1:18-20"
+    },
+    {
+      "title": "Luke 1:21-25",
+      "destination": 39,
+      "level": 2,
+      "aliases": [
+        "Luke 1:21-25",
+        "Luke 1:21-25"
+      ],
+      "source_index": 107,
+      "source_anchor": "LUKE 1:21-25"
+    },
+    {
+      "title": "Luke 1:26-33",
+      "destination": 44,
+      "level": 2,
+      "aliases": [
+        "Luke 1:26-33",
+        "Luke 1:26-33"
+      ],
+      "source_index": 123,
+      "source_anchor": "LUKE 1:26-33"
+    },
+    {
+      "title": "Luke 1:34-38",
+      "destination": 52,
+      "level": 2,
+      "aliases": [
+        "Luke 1:34-38",
+        "Luke 1:34-38"
+      ],
+      "source_index": 149,
+      "source_anchor": "LUKE 1:34-38"
+    },
+    {
+      "title": "Luke 1:39-45",
+      "destination": 59,
+      "level": 2,
+      "aliases": [
+        "Luke 1:39-45",
+        "Luke 1:39-45"
+      ],
+      "source_index": 175,
+      "source_anchor": "LUKE 1:39-45"
+    },
+    {
+      "title": "Luke 1:46-50",
+      "destination": 64,
+      "level": 2,
+      "aliases": [
+        "Luke 1:46-50",
+        "Luke 1:46-50"
+      ],
+      "source_index": 195,
+      "source_anchor": "LUKE 1:46-50"
+    },
+    {
+      "title": "Luke 1:51-55",
+      "destination": 69,
+      "level": 2,
+      "aliases": [
+        "Luke 1:51-55",
+        "Luke 1:51-55"
+      ],
+      "source_index": 224,
+      "source_anchor": "LUKE 1:51-55"
+    },
+    {
+      "title": "Luke 1:56-66",
+      "destination": 75,
+      "level": 2,
+      "aliases": [
+        "Luke 1:56-66",
+        "Luke 1:56-66"
+      ],
+      "source_index": 250,
+      "source_anchor": "LUKE 1:56-66"
+    },
+    {
+      "title": "Luke 1:67-75",
+      "destination": 79,
+      "level": 2,
+      "aliases": [
+        "Luke 1:67-75",
+        "Luke 1:67-75"
+      ],
+      "source_index": 264,
+      "source_anchor": "LUKE 1:67-75"
+    },
+    {
+      "title": "Luke 1:76-80",
+      "destination": 87,
+      "level": 2,
+      "aliases": [
+        "Luke 1:76-80",
+        "Luke 1:76-80"
+      ],
+      "source_index": 301,
+      "source_anchor": "LUKE 1:76-80"
+    },
+    {
+      "title": "Matthew 1:1-17; Luke 3:23-38",
+      "destination": 91,
+      "level": 2,
+      "aliases": [
+        "Matthew 1:1-17; Luke 3:23-38",
+        "Matthew 1:1-17; Luke 3:23-38"
+      ],
+      "source_index": 324,
+      "source_anchor": "MATTHEW 1:1-17; LUKE 3:23-38"
+    },
+    {
+      "title": "Matthew 1:18-25",
+      "destination": 104,
+      "level": 2,
+      "aliases": [
+        "Matthew 1:18-25",
+        "Matthew 1:18-25"
+      ],
+      "source_index": 380,
+      "source_anchor": "MATTHEW 1:18-25"
+    },
+    {
+      "title": "Luke 2:1-7",
+      "destination": 118,
+      "level": 2,
+      "aliases": [
+        "Luke 2:1-7",
+        "Luke 2:1-7"
+      ],
+      "source_index": 444,
+      "source_anchor": "LUKE 2:1-7"
+    },
+    {
+      "title": "Luke 2:8-14",
+      "destination": 123,
+      "level": 2,
+      "aliases": [
+        "Luke 2:8-14",
+        "Luke 2:8-14"
+      ],
+      "source_index": 474,
+      "source_anchor": "LUKE 2:8-14"
+    },
+    {
+      "title": "Luke 2:15-21",
+      "destination": 132,
+      "level": 2,
+      "aliases": [
+        "Luke 2:15-21",
+        "Luke 2:15-21"
+      ],
+      "source_index": 520,
+      "source_anchor": "LUKE 2:15-21"
+    },
+    {
+      "title": "Matthew 2:1-6",
+      "destination": 137,
+      "level": 2,
+      "aliases": [
+        "Matthew 2:1-6",
+        "Matthew 2:1-6"
+      ],
+      "source_index": 545,
+      "source_anchor": "MATTHEW 2:1-6"
+    },
+    {
+      "title": "Matthew 2:7-12",
+      "destination": 144,
+      "level": 2,
+      "aliases": [
+        "Matthew 2:7-12",
+        "Matthew 2:7-12"
+      ],
+      "source_index": 577,
+      "source_anchor": "MATTHEW 2:7-12"
+    },
+    {
+      "title": "Luke 2:22-32",
+      "destination": 148,
+      "level": 2,
+      "aliases": [
+        "Luke 2:22-32",
+        "Luke 2:22-32"
+      ],
+      "source_index": 588,
+      "source_anchor": "LUKE 2:22-32"
+    },
+    {
+      "title": "Luke 2:33-39",
+      "destination": 155,
+      "level": 2,
+      "aliases": [
+        "Luke 2:33-39",
+        "Luke 2:33-39"
+      ],
+      "source_index": 622,
+      "source_anchor": "LUKE 2:33-39"
+    },
+    {
+      "title": "Matthew 2:13-18",
+      "destination": 163,
+      "level": 2,
+      "aliases": [
+        "Matthew 2:13-18",
+        "Matthew 2:13-18"
+      ],
+      "source_index": 656,
+      "source_anchor": "MATTHEW 2:13-18"
+    },
+    {
+      "title": "Matthew 2:19-23",
+      "destination": 170,
+      "level": 2,
+      "aliases": [
+        "Matthew 2:19-23",
+        "Matthew 2:19-23"
+      ],
+      "source_index": 685,
+      "source_anchor": "MATTHEW 2:19-23"
+    },
+    {
+      "title": "Luke 2:48-52",
+      "destination": 178,
+      "level": 2,
+      "aliases": [
+        "Luke 2:48-52",
+        "Luke 2:48-52"
+      ],
+      "source_index": 729,
+      "source_anchor": "LUKE 2:48-52"
+    },
+    {
+      "title": "Matthew 3:1-6; Mark 1:1-6; Luke 3:1-6",
+      "destination": 181,
+      "level": 2,
+      "aliases": [
+        "Matthew 3:1-6; Mark 1:1-6; Luke 3:1-6",
+        "Matthew 3:1-6; Mark 1:1-6; Luke 3:1-6"
+      ],
+      "source_index": 741,
+      "source_anchor": "MATTHEW 3:1-6; MARK 1:1-6; LUKE 3:1-6"
+    },
+    {
+      "title": "Matthew 3:7-10; Luke 3:7-14",
+      "destination": 193,
+      "level": 2,
+      "aliases": [
+        "Matthew 3:7-10; Luke 3:7-14",
+        "Matthew 3:7-10; Luke 3:7-14"
+      ],
+      "source_index": 798,
+      "source_anchor": "MATTHEW 3:7-10; LUKE 3:7-14"
+    },
+    {
+      "title": "Matthew 3:11-12; Mark 1:7-8; Luke 3:15-18",
+      "destination": 204,
+      "level": 2,
+      "aliases": [
+        "Matthew 3:11-12; Mark 1:7-8; Luke 3:15-18",
+        "Matthew 3:11-12; Mark 1:7-8; Luke 3:15-18"
+      ],
+      "source_index": 844,
+      "source_anchor": "MATTHEW 3:11-12; MARK 1:7-8; LUKE 3:15-18"
+    },
+    {
+      "title": "Matthew 3:13-17; Mark 1:9-11; Luke 3:21-23",
+      "destination": 209,
+      "level": 2,
+      "aliases": [
+        "Matthew 3:13-17; Mark 1:9-11; Luke 3:21-23",
+        "Matthew 3:13-17; Mark 1:9-11; Luke 3:21-23"
+      ],
+      "source_index": 871,
+      "source_anchor": "MATTHEW 3:13-17; MARK 1:9-11; LUKE 3:21-23"
+    },
+    {
+      "title": "Matthew 4:1-4; Mark 1:12-13; Luke 4:1-4",
+      "destination": 215,
+      "level": 2,
+      "aliases": [
+        "Matthew 4:1-4; Mark 1:12-13; Luke 4:1-4",
+        "Matthew 4:1-4; Mark 1:12-13; Luke 4:1-4"
+      ],
+      "source_index": 908,
+      "source_anchor": "MATTHEW 4:1-4; MARK 1:12-13; LUKE 4:1-4"
+    },
+    {
+      "title": "Matthew 4:5-11; Mark 1:13; Luke 4:5-13",
+      "destination": 224,
+      "level": 2,
+      "aliases": [
+        "Matthew 4:5-11; Mark 1:13; Luke 4:5-13",
+        "Matthew 4:5-11; Mark 1:13; Luke 4:5-13"
+      ],
+      "source_index": 943,
+      "source_anchor": "MATTHEW 4:5-11; MARK 1:13; LUKE 4:5-13"
+    },
+    {
+      "title": "Matthew 4:12, 17; Mark 1:14-15",
+      "destination": 231,
+      "level": 2,
+      "aliases": [
+        "Matthew 4:12, 17; Mark 1:14-15",
+        "Matthew 4:12, 17; Mark 1:14-15",
+        "Matthew 4:12, 17"
+      ],
+      "source_index": 967,
+      "source_anchor": "MATTHEW 4:12, 17; MARK 1:14-15;"
+    },
+    {
+      "title": "Luke 3:19-20; 4:14",
+      "destination": 231,
+      "level": 2,
+      "aliases": [
+        "Luke 3:19-20; 4:14",
+        "Luke 3:19-20; 4:14"
+      ],
+      "source_index": 968,
+      "source_anchor": "LUKE 3:19-20; 4:14"
+    },
+    {
+      "title": "Luke 4:16-22",
+      "destination": 235,
+      "level": 2,
+      "aliases": [
+        "Luke 4:16-22",
+        "Luke 4:16-22"
+      ],
+      "source_index": 988,
+      "source_anchor": "LUKE 4:16-22"
+    },
+    {
+      "title": "Luke 4:23-30",
+      "destination": 240,
+      "level": 2,
+      "aliases": [
+        "Luke 4:23-30",
+        "Luke 4:23-30"
+      ],
+      "source_index": 1004,
+      "source_anchor": "LUKE 4:23-30"
+    },
+    {
+      "title": "Matthew 4:13-16",
+      "destination": 244,
+      "level": 2,
+      "aliases": [
+        "Matthew 4:13-16",
+        "Matthew 4:13-16"
+      ],
+      "source_index": 1022,
+      "source_anchor": "MATTHEW 4:13-16"
+    },
+    {
+      "title": "Matthew 4:18-25; Mark 1:16-20; Luke 5:1-11",
+      "destination": 247,
+      "level": 2,
+      "aliases": [
+        "Matthew 4:18-25; Mark 1:16-20; Luke 5:1-11",
+        "Matthew 4:18-25; Mark 1:16-20; Luke 5:1-11"
+      ],
+      "source_index": 1034,
+      "source_anchor": "MATTHEW 4:18-25; MARK 1:16-20; LUKE 5:1-11"
+    },
+    {
+      "title": "Mark 1:21-28; Luke 4:31-36",
+      "destination": 255,
+      "level": 2,
+      "aliases": [
+        "Mark 1:21-28; Luke 4:31-36",
+        "Mark 1:21-28; Luke 4:31-36"
+      ],
+      "source_index": 1065,
+      "source_anchor": "MARK 1:21-28; LUKE 4:31-36"
+    },
+    {
+      "title": "Matthew 8:14-18; Mark 1:29-39; Luke 4:38-44",
+      "destination": 259,
+      "level": 2,
+      "aliases": [
+        "Matthew 8:14-18; Mark 1:29-39; Luke 4:38-44",
+        "Matthew 8:14-18; Mark 1:29-39; Luke 4:38-44"
+      ],
+      "source_index": 1079,
+      "source_anchor": "MATTHEW 8:14-18; MARK 1:29-39; LUKE 4:38-44"
+    },
+    {
+      "title": "Mark 3:13-19; Luke 6:12-19",
+      "destination": 263,
+      "level": 2,
+      "aliases": [
+        "Mark 3:13-19; Luke 6:12-19",
+        "Mark 3:13-19; Luke 6:12-19"
+      ],
+      "source_index": 1093,
+      "source_anchor": "MARK 3:13-19; LUKE 6:12-19"
+    },
+    {
+      "title": "Matthew 5:1-12; Luke 6:20-26",
+      "destination": 267,
+      "level": 2,
+      "aliases": [
+        "Matthew 5:1-12; Luke 6:20-26",
+        "Matthew 5:1-12; Luke 6:20-26"
+      ],
+      "source_index": 1114,
+      "source_anchor": "MATTHEW 5:1-12; LUKE 6:20-26"
+    },
+    {
+      "title": "Matthew 5:13-16; Mark 9:49-50; 4:21; Luke 14:34-35; 8:16; 11:33",
+      "destination": 279,
+      "level": 2,
+      "aliases": [
+        "Matthew 5:13-16; Mark 9:49-50; 4:21; Luke 14:34-35; 8:16; 11:33",
+        "Matthew 5:13-16; Mark 9:49-50; 4:21; Luke 14:34-35; 8:16; 11:33"
+      ],
+      "source_index": 1161,
+      "source_anchor": "MATTHEW 5:13-16; MARK 9:49-50; 4:21; LUKE 14:34-35; 8:16; 11:33"
+    },
+    {
+      "title": "Matthew 5:17-19; Luke 16:17",
+      "destination": 285,
+      "level": 2,
+      "aliases": [
+        "Matthew 5:17-19; Luke 16:17",
+        "Matthew 5:17-19; Luke 16:17"
+      ],
+      "source_index": 1196,
+      "source_anchor": "MATTHEW 5:17-19; LUKE 16:17"
+    },
+    {
+      "title": "Matthew 5:20-22",
+      "destination": 290,
+      "level": 2,
+      "aliases": [
+        "Matthew 5:20-22",
+        "Matthew 5:20-22"
+      ],
+      "source_index": 1221,
+      "source_anchor": "MATTHEW 5:20-22"
+    },
+    {
+      "title": "Matthew 5:23-26; Luke 12:58-59",
+      "destination": 295,
+      "level": 2,
+      "aliases": [
+        "Matthew 5:23-26; Luke 12:58-59",
+        "Matthew 5:23-26; Luke 12:58-59"
+      ],
+      "source_index": 1251,
+      "source_anchor": "MATTHEW 5:23-26; LUKE 12:58-59"
+    },
+    {
+      "title": "Matthew 5:27-30",
+      "destination": 300,
+      "level": 2,
+      "aliases": [
+        "Matthew 5:27-30",
+        "Matthew 5:27-30"
+      ],
+      "source_index": 1267,
+      "source_anchor": "MATTHEW 5:27-30"
+    },
+    {
+      "title": "Matthew 5:31-32; Luke 16:18",
+      "destination": 302,
+      "level": 2,
+      "aliases": [
+        "Matthew 5:31-32; Luke 16:18",
+        "Matthew 5:31-32; Luke 16:18"
+      ],
+      "source_index": 1276,
+      "source_anchor": "MATTHEW 5:31-32; LUKE 16:18"
+    },
+    {
+      "title": "Matthew 5:33-37",
+      "destination": 304,
+      "level": 2,
+      "aliases": [
+        "Matthew 5:33-37",
+        "Matthew 5:33-37"
+      ],
+      "source_index": 1286,
+      "source_anchor": "MATTHEW 5:33-37"
+    },
+    {
+      "title": "Matthew 5:38-41; Luke 6:29-30",
+      "destination": 308,
+      "level": 2,
+      "aliases": [
+        "Matthew 5:38-41; Luke 6:29-30",
+        "Matthew 5:38-41; Luke 6:29-30"
+      ],
+      "source_index": 1299,
+      "source_anchor": "MATTHEW 5:38-41; LUKE 6:29-30"
+    },
+    {
+      "title": "Matthew 5:42; Luke 6:34-35",
+      "destination": 312,
+      "level": 2,
+      "aliases": [
+        "Matthew 5:42; Luke 6:34-35",
+        "Matthew 5:42; Luke 6:34-35"
+      ],
+      "source_index": 1318,
+      "source_anchor": "MATTHEW 5:42; LUKE 6:34-35"
+    },
+    {
+      "title": "Matthew 5:43-48; Luke 6:27-36",
+      "destination": 314,
+      "level": 2,
+      "aliases": [
+        "Matthew 5:43-48; Luke 6:27-36",
+        "Matthew 5:43-48; Luke 6:27-36"
+      ],
+      "source_index": 1328,
+      "source_anchor": "MATTHEW 5:43-48; LUKE 6:27-36"
+    },
+    {
+      "title": "Matthew 6: 1-4",
+      "destination": 319,
+      "level": 2,
+      "aliases": [
+        "Matthew 6: 1-4",
+        "Matthew 6: 1-4"
+      ],
+      "source_index": 1347,
+      "source_anchor": "MATTHEW 6: 1-4"
+    },
+    {
+      "title": "Matthew 6:5-8",
+      "destination": 322,
+      "level": 2,
+      "aliases": [
+        "Matthew 6:5-8",
+        "Matthew 6:5-8"
+      ],
+      "source_index": 1360,
+      "source_anchor": "MATTHEW 6:5-8"
+    },
+    {
+      "title": "Matthew 6:9-13; Luke 11:1-4",
+      "destination": 325,
+      "level": 2,
+      "aliases": [
+        "Matthew 6:9-13; Luke 11:1-4",
+        "Matthew 6:9-13; Luke 11:1-4"
+      ],
+      "source_index": 1369,
+      "source_anchor": "MATTHEW 6:9-13; LUKE 11:1-4"
+    },
+    {
+      "title": "Matthew 6:16-19",
+      "destination": 341,
+      "level": 2,
+      "aliases": [
+        "Matthew 6:16-19",
+        "Matthew 6:16-19"
+      ],
+      "source_index": 1432,
+      "source_anchor": "MATTHEW 6:16-19"
+    },
+    {
+      "title": "Matthew 6:19-21; Luke 12:33-34",
+      "destination": 343,
+      "level": 2,
+      "aliases": [
+        "Matthew 6:19-21; Luke 12:33-34",
+        "Matthew 6:19-21; Luke 12:33-34"
+      ],
+      "source_index": 1440,
+      "source_anchor": "MATTHEW 6:19-21; LUKE 12:33-34"
+    },
+    {
+      "title": "Matthew 6:22-24; Luke 11:34-36; 16:13",
+      "destination": 346,
+      "level": 2,
+      "aliases": [
+        "Matthew 6:22-24; Luke 11:34-36; 16:13",
+        "Matthew 6:22-24; Luke 11:34-36; 16:13"
+      ],
+      "source_index": 1454,
+      "source_anchor": "MATTHEW 6:22-24; LUKE 11:34-36; 16:13"
+    },
+    {
+      "title": "Matthew 6:25-30; Luke 12:22-28",
+      "destination": 350,
+      "level": 2,
+      "aliases": [
+        "Matthew 6:25-30; Luke 12:22-28",
+        "Matthew 6:25-30; Luke 12:22-28"
+      ],
+      "source_index": 1473,
+      "source_anchor": "MATTHEW 6:25-30; LUKE 12:22-28"
+    },
+    {
+      "title": "Matthew 6:31-34; Luke 12:29-32",
+      "destination": 354,
+      "level": 2,
+      "aliases": [
+        "Matthew 6:31-34; Luke 12:29-32",
+        "Matthew 6:31-34; Luke 12:29-32"
+      ],
+      "source_index": 1490,
+      "source_anchor": "MATTHEW 6:31-34; LUKE 12:29-32"
+    },
+    {
+      "title": "Matthew 7:1-5; Mark 4:24; Luke 6:37-42",
+      "destination": 357,
+      "level": 2,
+      "aliases": [
+        "Matthew 7:1-5; Mark 4:24; Luke 6:37-42",
+        "Matthew 7:1-5; Mark 4:24; Luke 6:37-42"
+      ],
+      "source_index": 1505,
+      "source_anchor": "MATTHEW 7:1-5; MARK 4:24; LUKE 6:37-42"
+    },
+    {
+      "title": "Matthew 7:6",
+      "destination": 361,
+      "level": 2,
+      "aliases": [
+        "Matthew 7:6",
+        "Matthew 7:6"
+      ],
+      "source_index": 1519,
+      "source_anchor": "MATTHEW 7:6"
+    },
+    {
+      "title": "Matthew 7:7-11; Luke 11:5-13",
+      "destination": 363,
+      "level": 2,
+      "aliases": [
+        "Matthew 7:7-11; Luke 11:5-13",
+        "Matthew 7:7-11; Luke 11:5-13"
+      ],
+      "source_index": 1527,
+      "source_anchor": "MATTHEW 7:7-11; LUKE 11:5-13"
+    },
+    {
+      "title": "Matthew 7:12-14; Luke 6:31",
+      "destination": 367,
+      "level": 2,
+      "aliases": [
+        "Matthew 7:12-14; Luke 6:31",
+        "Matthew 7:12-14; Luke 6:31"
+      ],
+      "source_index": 1544,
+      "source_anchor": "MATTHEW 7:12-14; LUKE 6:31"
+    },
+    {
+      "title": "Luke 13:23-24",
+      "destination": 370,
+      "level": 2,
+      "aliases": [
+        "Luke 13:23-24",
+        "Luke 13:23-24"
+      ],
+      "source_index": 1561,
+      "source_anchor": "LUKE 13:23-24"
+    },
+    {
+      "title": "Luke 13:25-30",
+      "destination": 372,
+      "level": 2,
+      "aliases": [
+        "Luke 13:25-30",
+        "Luke 13:25-30"
+      ],
+      "source_index": 1567,
+      "source_anchor": "LUKE 13:25-30"
+    },
+    {
+      "title": "Matthew 7:15-20; Luke 6:43-45",
+      "destination": 375,
+      "level": 2,
+      "aliases": [
+        "Matthew 7:15-20; Luke 6:43-45",
+        "Matthew 7:15-20; Luke 6:43-45"
+      ],
+      "source_index": 1579,
+      "source_anchor": "MATTHEW 7:15-20; LUKE 6:43-45"
+    },
+    {
+      "title": "Matthew 7:21-23; Luke 6:46",
+      "destination": 380,
+      "level": 2,
+      "aliases": [
+        "Matthew 7:21-23; Luke 6:46",
+        "Matthew 7:21-23; Luke 6:46"
+      ],
+      "source_index": 1597,
+      "source_anchor": "MATTHEW 7:21-23; LUKE 6:46"
+    },
+    {
+      "title": "Matthew 7:24-29; Luke 6:47-49",
+      "destination": 383,
+      "level": 2,
+      "aliases": [
+        "Matthew 7:24-29; Luke 6:47-49",
+        "Matthew 7:24-29; Luke 6:47-49",
+        "Luke 6:47:49"
+      ],
+      "source_index": 1618,
+      "source_anchor": "MATTHEW 7:24-29; LUKE 6:47-49"
+    },
+    {
+      "title": "Matthew 8:1-4; Mark 1:40-45; Luke 5:12-16",
+      "destination": 385,
+      "level": 2,
+      "aliases": [
+        "Matthew 8:1-4; Mark 1:40-45; Luke 5:12-16",
+        "Matthew 8:1-4; Mark 1:40-45; Luke 5:12-16"
+      ],
+      "source_index": 1630,
+      "source_anchor": "MATTHEW 8:1-4; MARK 1:40-45; LUKE 5:12-16"
+    },
+    {
+      "title": "Matthew 8:5-13; Luke 7:1-10",
+      "destination": 391,
+      "level": 2,
+      "aliases": [
+        "Matthew 8:5-13; Luke 7:1-10",
+        "Matthew 8:5-13; Luke 7:1-10"
+      ],
+      "source_index": 1657,
+      "source_anchor": "MATTHEW 8:5-13; LUKE 7:1-10"
+    },
+    {
+      "title": "Luke 7:11-17",
+      "destination": 399,
+      "level": 2,
+      "aliases": [
+        "Luke 7:11-17",
+        "Luke 7:11-17"
+      ],
+      "source_index": 1684,
+      "source_anchor": "LUKE 7:11-17"
+    },
+    {
+      "title": "Matthew 8:19-22; Luke 9:57-62",
+      "destination": 402,
+      "level": 2,
+      "aliases": [
+        "Matthew 8:19-22; Luke 9:57-62",
+        "Matthew 8:19-22; Luke 9:57-62"
+      ],
+      "source_index": 1693,
+      "source_anchor": "MATTHEW 8:19-22; LUKE 9:57-62"
+    },
+    {
+      "title": "Matthew 9:1-8; Mark 2:1-12; Luke 5:17-26",
+      "destination": 406,
+      "level": 2,
+      "aliases": [
+        "Matthew 9:1-8; Mark 2:1-12; Luke 5:17-26",
+        "Matthew 9:1-8; Mark 2:1-12; Luke 5:17-26"
+      ],
+      "source_index": 1707,
+      "source_anchor": "MATTHEW 9:1-8; MARK 2:1-12; LUKE 5:17-26"
+    },
+    {
+      "title": "Matthew 9:9-13; Mark 2:13-17; Luke 5:27-32",
+      "destination": 413,
+      "level": 2,
+      "aliases": [
+        "Matthew 9:9-13; Mark 2:13-17; Luke 5:27-32",
+        "Matthew 9:9-13; Mark 2:13-17; Luke 5:27-32"
+      ],
+      "source_index": 1733,
+      "source_anchor": "MATTHEW 9:9-13; MARK 2:13-17; LUKE 5:27-32"
+    },
+    {
+      "title": "Matthew 9:14-17; Mark 2:18-22; Luke 5:33-39",
+      "destination": 420,
+      "level": 2,
+      "aliases": [
+        "Matthew 9:14-17; Mark 2:18-22; Luke 5:33-39",
+        "Matthew 9:14-17; Mark 2:18-22; Luke 5:33-39"
+      ],
+      "source_index": 1766,
+      "source_anchor": "MATTHEW 9:14-17; MARK 2:18-22; LUKE 5:33-39"
+    },
+    {
+      "title": "Matthew 9:18-22; Mark 5:22-34; Luke 8:40-48",
+      "destination": 424,
+      "level": 2,
+      "aliases": [
+        "Matthew 9:18-22; Mark 5:22-34; Luke 8:40-48",
+        "Matthew 9:18-22; Mark 5:22-34; Luke 8:40-48"
+      ],
+      "source_index": 1785,
+      "source_anchor": "MATTHEW 9:18-22; MARK 5:22-34; LUKE 8:40-48"
+    },
+    {
+      "title": "Matthew 9:23-26; Mark 5:35-43; Luke 8:49-56",
+      "destination": 430,
+      "level": 2,
+      "aliases": [
+        "Matthew 9:23-26; Mark 5:35-43; Luke 8:49-56",
+        "Matthew 9:23-26; Mark 5:35-43; Luke 8:49-56"
+      ],
+      "source_index": 1803,
+      "source_anchor": "MATTHEW 9:23-26; MARK 5:35-43; LUKE 8:49-56"
+    },
+    {
+      "title": "Matthew 9:27-34",
+      "destination": 434,
+      "level": 2,
+      "aliases": [
+        "Matthew 9:27-34",
+        "Matthew 9:27-34"
+      ],
+      "source_index": 1818,
+      "source_anchor": "MATTHEW 9:27-34"
+    },
+    {
+      "title": "Matthew 9:35-38",
+      "destination": 437,
+      "level": 2,
+      "aliases": [
+        "Matthew 9:35-38",
+        "Matthew 9:35-38"
+      ],
+      "source_index": 1830,
+      "source_anchor": "MATTHEW 9:35-38"
+    },
+    {
+      "title": "Matthew 8:23-27; Mark 4:35-41; Luke 8:22-25",
+      "destination": 439,
+      "level": 2,
+      "aliases": [
+        "Matthew 8:23-27; Mark 4:35-41; Luke 8:22-25",
+        "Matthew 8:23-27; Mark 4:35-41; Luke 8:22-25"
+      ],
+      "source_index": 1839,
+      "source_anchor": "MATTHEW 8:23-27; MARK 4:35-41; LUKE 8:22-25"
+    },
+    {
+      "title": "Matthew 8:28-34; Mark 5:1-20; Luke 8:26-39",
+      "destination": 444,
+      "level": 2,
+      "aliases": [
+        "Matthew 8:28-34; Mark 5:1-20; Luke 8:26-39",
+        "Matthew 8:28-34; Mark 5:1-20; Luke 8:26-39"
+      ],
+      "source_index": 1864,
+      "source_anchor": "MATTHEW 8:28-34; MARK 5:1-20; LUKE 8:26-39"
+    },
+    {
+      "title": "Matthew 10:1-8; Mark 6:7; Luke 9:1-2",
+      "destination": 454,
+      "level": 2,
+      "aliases": [
+        "Matthew 10:1-8; Mark 6:7; Luke 9:1-2",
+        "Matthew 10:1-8; Mark 6:7; Luke 9:1-2"
+      ],
+      "source_index": 1911,
+      "source_anchor": "MATTHEW 10:1-8; MARK 6:7; LUKE 9:1-2"
+    },
+    {
+      "title": "Matthew 10:9-15; Mark 6:8-11; Luke 9:3-5",
+      "destination": 460,
+      "level": 2,
+      "aliases": [
+        "Matthew 10:9-15; Mark 6:8-11; Luke 9:3-5",
+        "Matthew 10:9-15; Mark 6:8-11; Luke 9:3-5"
+      ],
+      "source_index": 1946,
+      "source_anchor": "MATTHEW 10:9-15; MARK 6:8-11; LUKE 9:3-5"
+    },
+    {
+      "title": "Matthew 10:16-20; Luke 12:11-12",
+      "destination": 466,
+      "level": 2,
+      "aliases": [
+        "Matthew 10:16-20; Luke 12:11-12",
+        "Matthew 10:16-20; Luke 12:11-12"
+      ],
+      "source_index": 1971,
+      "source_anchor": "MATTHEW 10:16-20; LUKE 12:11-12"
+    },
+    {
+      "title": "Matthew 10:21-25; Luke 6:40",
+      "destination": 472,
+      "level": 2,
+      "aliases": [
+        "Matthew 10:21-25; Luke 6:40",
+        "Matthew 10:21-25; Luke 6:40"
+      ],
+      "source_index": 1999,
+      "source_anchor": "MATTHEW 10:21-25; LUKE 6:40"
+    },
+    {
+      "title": "Matthew 10:26-31; Mark 4:22-23; Luke 8:17; 12:2-7",
+      "destination": 478,
+      "level": 2,
+      "aliases": [
+        "Matthew 10:26-31; Mark 4:22-23; Luke 8:17; 12:2-7",
+        "Matthew 10:26-31; Mark 4:22-23; Luke 8:17; 12:2-7"
+      ],
+      "source_index": 2022,
+      "source_anchor": "MATTHEW 10:26-31; MARK 4:22-23; LUKE 8:17; 12:2-7"
+    },
+    {
+      "title": "Matthew 10:32-35; Mark 8:38; Luke 9:26; 12:8-9, 51-53",
+      "destination": 484,
+      "level": 2,
+      "aliases": [
+        "Matthew 10:32-35; Mark 8:38; Luke 9:26; 12:8-9, 51-53",
+        "Matthew 10:32-35; Mark 8:38; Luke 9:26; 12:8-9, 51-53"
+      ],
+      "source_index": 2048,
+      "source_anchor": "MATTHEW 10:32-35; MARK 8:38; LUKE 9:26; 12:8-9, 51-53"
+    },
+    {
+      "title": "Luke 12:8-9, 51-53",
+      "destination": 484,
+      "level": 2,
+      "aliases": [
+        "Luke 12:8-9, 51-53",
+        "Luke 12:8-9, 51-53"
+      ],
+      "source_index": 2055,
+      "source_anchor": "Luke 12:8-9, 51-53"
+    },
+    {
+      "title": "Matthew 10:37-42; Mark 9:41; Luke 14:25-33",
+      "destination": 489,
+      "level": 2,
+      "aliases": [
+        "Matthew 10:37-42; Mark 9:41; Luke 14:25-33",
+        "Matthew 10:37-42; Mark 9:41; Luke 14:25-33"
+      ],
+      "source_index": 2068,
+      "source_anchor": "MATTHEW 10:37-42; MARK 9:41; LUKE 14:25-33"
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom31_approved\\verification.json",
+    "current_interior_sha256": "db628caf417aa4746533249f9b7e69fe3f3484b1104be0695004edcc9a32f048",
+    "previous_interior_sha256": "8c04104f1842ba411b059b6d98ac2e4ef308a365fb05f131372ae996d2351dd1",
+    "approved_edition_updated": true
   }
 }

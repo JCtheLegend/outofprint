@@ -14,9 +14,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 344,
   "body_page_count": 342,
-  "generated_contents_entries": 22,
-  "generated_contents_entries_in_pdf": 22,
-  "detected_heading_count": 22,
+  "generated_contents_entries": 19,
+  "generated_contents_entries_in_pdf": 19,
+  "detected_heading_count": 19,
   "interior_filename": "john_calvin_calcom43_commentary_on_timothy_titus_philemon_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom43_commentary_on_timothy_titus_philemon_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom43_commentary_on_timothy_titus_philemon_paperback_cover.pdf",
@@ -92,7 +92,7 @@
       344
     ],
     "all_interior_pages_rendered": 344,
-    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom43_contents_case_20260927\\verification.json",
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom43_package\\verification.json",
     "original_editions_preserved_in_backup": true,
     "capitalization_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom43_contents_case_20260927\\verification.json"
   },
@@ -332,7 +332,7 @@
     "original_package_backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\archive\\package_fonts_originals_20260926\\john_calvin_calcom43_commentary_on_timothy_titus_philemon",
     "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom43_commentary_on_timothy_titus_philemon.json",
     "current_pdf_sha256": {
-      "john_calvin_calcom43_commentary_on_timothy_titus_philemon_interior.pdf": "7e3d27d5dfcf979bf1eee37aae2f85d78fc58203d77c360937970e6073da8f8b",
+      "john_calvin_calcom43_commentary_on_timothy_titus_philemon_interior.pdf": "9cb55ad4c78f32cb989a1fa03a7eb432e5313b3b6e8f5886b846d229dd137e37",
       "john_calvin_calcom43_commentary_on_timothy_titus_philemon_paperback_cover.pdf": "792984d4ef599b7d43430b10d907ecf49c32295939951d7281ab170b15c7f9c7",
       "john_calvin_calcom43_commentary_on_timothy_titus_philemon_hardcover_cover.pdf": "137ac9870a17cb1f92265e994734db706f0117a25ecb45f248bebb25ac68488b"
     },
@@ -380,203 +380,227 @@
   },
   "contents_audit_20260927": {
     "status": "verified",
-    "before_sha256": "8d72ae9984233ffad08bbbfe6e7d5f07095b439283b19ab982837dc8cd788aeb",
-    "after_sha256": "7e3d27d5dfcf979bf1eee37aae2f85d78fc58203d77c360937970e6073da8f8b",
+    "before_sha256": "7e3d27d5dfcf979bf1eee37aae2f85d78fc58203d77c360937970e6073da8f8b",
+    "after_sha256": "9cb55ad4c78f32cb989a1fa03a7eb432e5313b3b6e8f5886b846d229dd137e37",
     "page_count": 344,
-    "old_entries": 26,
-    "entry_count": 22,
-    "all_non_contents_page_text_and_streams_unchanged": false,
+    "old_entries": 22,
+    "entry_count": 19,
+    "all_non_contents_page_text_and_streams_unchanged": true,
     "sample_body_renders_identical": true,
     "embedded_truetype_fonts": true,
     "contents_geometry_passed": true,
     "changed_pages": [
-      2,
-      3,
-      166
+      2
     ],
     "entries": [
       {
-        "title": "To Edward, Duke of Somerset",
+        "title": "Dedication to Edward, Duke of Somerset",
         "destination": 3,
         "level": 1,
         "aliases": [
           "To Edward, Duke of Somerset"
-        ]
+        ],
+        "source_index": 0,
+        "source_anchor": "To the Most Noble and Truly Christian Prince,"
       },
       {
-        "title": "The Argument on the First Epistle to Timothy",
+        "title": "1 Timothy",
         "destination": 6,
         "level": 1,
         "aliases": [
           "The Argument on the First Epistle to Timothy"
-        ]
+        ],
+        "source_index": 13,
+        "source_anchor": "The Argument"
       },
       {
-        "title": "Commentaries on the First Epistle to Timothy",
+        "title": "Chapter 1",
         "destination": 10,
-        "level": 1,
+        "level": 2,
         "aliases": [
-          "Commentaries on the First Epistle to Timothy"
-        ]
-      },
-      {
-        "title": "1 Timothy 1",
-        "destination": 10,
-        "level": 1,
-        "aliases": [
+          "1 Timothy 1",
           "Chapter 1"
-        ]
+        ],
+        "source_index": 29,
+        "source_anchor": "Chapter 1"
       },
       {
-        "title": "1 Timothy 2",
+        "title": "Chapter 2",
         "destination": 39,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "1 Timothy 2",
           "Chapter 2"
-        ]
+        ],
+        "source_index": 191,
+        "source_anchor": "Chapter 2"
       },
       {
-        "title": "1 Timothy 3",
+        "title": "Chapter 3",
         "destination": 63,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "1 Timothy 3",
           "Chapter 3"
-        ]
+        ],
+        "source_index": 326,
+        "source_anchor": "Chapter 3"
       },
       {
-        "title": "1 Timothy 4",
+        "title": "Chapter 4",
         "destination": 86,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "1 Timothy 4",
           "Chapter 4"
-        ]
+        ],
+        "source_index": 462,
+        "source_anchor": "Chapter 4"
       },
       {
-        "title": "1 Timothy 5",
+        "title": "Chapter 5",
         "destination": 109,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "1 Timothy 5",
           "Chapter 5"
-        ]
+        ],
+        "source_index": 584,
+        "source_anchor": "Chapter 5"
       },
       {
-        "title": "1 Timothy 6",
+        "title": "Chapter 6",
         "destination": 140,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "1 Timothy 6",
           "Chapter 6"
-        ]
+        ],
+        "source_index": 757,
+        "source_anchor": "Chapter 6"
       },
       {
-        "title": "The Argument on the Second Epistle to Timothy",
+        "title": "2 Timothy",
         "destination": 166,
         "level": 1,
         "aliases": [
           "The Argument on the Second Epistle to Timothy"
-        ]
+        ],
+        "source_index": 913,
+        "source_anchor": "The Argument"
       },
       {
-        "title": "Commentaries on the Second Epistle to Timothy",
+        "title": "Chapter 1",
         "destination": 169,
-        "level": 1,
+        "level": 2,
         "aliases": [
-          "Commentaries on the Second Epistle to Timothy"
-        ]
-      },
-      {
-        "title": "2 Timothy 1",
-        "destination": 169,
-        "level": 1,
-        "aliases": [
+          "2 Timothy 1",
           "Chapter 1"
-        ]
+        ],
+        "source_index": 926,
+        "source_anchor": "Chapter 1"
       },
       {
-        "title": "2 Timothy 2",
+        "title": "Chapter 2",
         "destination": 194,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "2 Timothy 2",
           "Chapter 2"
-        ]
+        ],
+        "source_index": 1079,
+        "source_anchor": "Chapter 2"
       },
       {
-        "title": "2 Timothy 3",
+        "title": "Chapter 3",
         "destination": 223,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "2 Timothy 3",
           "Chapter 3"
-        ]
+        ],
+        "source_index": 1261,
+        "source_anchor": "Chapter 3"
       },
       {
-        "title": "2 Timothy 4",
+        "title": "Chapter 4",
         "destination": 239,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "2 Timothy 4",
           "Chapter 4"
-        ]
+        ],
+        "source_index": 1351,
+        "source_anchor": "Chapter 4"
       },
       {
-        "title": "To William Farell and Peter Viret",
+        "title": "Dedication to William Farell and Peter Viret",
         "destination": 260,
         "level": 1,
         "aliases": [
           "To William Farell and Peter Viret"
-        ]
+        ],
+        "source_index": 1474,
+        "source_anchor": "To Two Eminent Servants of Christ,"
       },
       {
-        "title": "Commentaries on the Epistle to Titus",
+        "title": "Titus",
         "destination": 262,
         "level": 1,
         "aliases": [
           "Commentaries on the Epistle to Titus"
-        ]
+        ],
+        "source_index": 1485,
+        "source_anchor": "Commentaries"
       },
       {
-        "title": "The Argument on the Epistle to Titus",
-        "destination": 262,
-        "level": 1,
-        "aliases": [
-          "The Argument on the Epistle to Titus"
-        ]
-      },
-      {
-        "title": "Titus 1",
+        "title": "Chapter 1",
         "destination": 264,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Titus 1",
           "Chapter 1"
-        ]
+        ],
+        "source_index": 1495,
+        "source_anchor": "Chapter 1"
       },
       {
-        "title": "Titus 2",
+        "title": "Chapter 2",
         "destination": 293,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Titus 2",
           "Chapter 2"
-        ]
+        ],
+        "source_index": 1652,
+        "source_anchor": "Chapter 2"
       },
       {
-        "title": "Titus 3",
+        "title": "Chapter 3",
         "destination": 309,
-        "level": 1,
+        "level": 2,
         "aliases": [
+          "Titus 3",
           "Chapter 3"
-        ]
+        ],
+        "source_index": 1744,
+        "source_anchor": "Chapter 3"
       },
       {
-        "title": "Commentary on Philemon",
+        "title": "Philemon",
         "destination": 330,
         "level": 1,
         "aliases": [
+          "Commentary on Philemon",
           "Philemon 1-7"
         ],
-        "source_anchor": "Philemon 1-7"
+        "source_anchor": "Philemon 1-7",
+        "source_index": 1859
       }
     ],
     "visual_review_complete": true,
     "reviewer_navigation_uses_audited_entries": true,
-    "body_text_preserved_except_case": true,
-    "superseded_by": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom43_contents_case_20260927\\verification.json"
+    "standard": "calvin-contents-v2"
   },
   "contents_and_case_correction_20260927": {
     "source_id": "calcom43",
@@ -836,7 +860,7 @@
     "edition_title": "Commentary on Timothy, Titus, Philemon",
     "approved_page_count": 344,
     "approved_pdf_sha256": {
-      "john_calvin_calcom43_commentary_on_timothy_titus_philemon_interior.pdf": "7e3d27d5dfcf979bf1eee37aae2f85d78fc58203d77c360937970e6073da8f8b",
+      "john_calvin_calcom43_commentary_on_timothy_titus_philemon_interior.pdf": "9cb55ad4c78f32cb989a1fa03a7eb432e5313b3b6e8f5886b846d229dd137e37",
       "john_calvin_calcom43_commentary_on_timothy_titus_philemon_paperback_cover.pdf": "792984d4ef599b7d43430b10d907ecf49c32295939951d7281ab170b15c7f9c7",
       "john_calvin_calcom43_commentary_on_timothy_titus_philemon_hardcover_cover.pdf": "137ac9870a17cb1f92265e994734db706f0117a25ecb45f248bebb25ac68488b"
     },
@@ -845,5 +869,219 @@
   "store_price_cents": 3000,
   "store_featured": false,
   "store_genre": "Theology",
-  "store_description": "John Calvin's commentaries on Paul's Epistles to Timothy, Titus, and Philemon."
+  "store_description": "John Calvin's commentaries on Paul's Epistles to Timothy, Titus, and Philemon.",
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Dedication to Edward, Duke of Somerset",
+      "destination": 3,
+      "level": 1,
+      "aliases": [
+        "To Edward, Duke of Somerset"
+      ],
+      "source_index": 0,
+      "source_anchor": "To the Most Noble and Truly Christian Prince,"
+    },
+    {
+      "title": "1 Timothy",
+      "destination": 6,
+      "level": 1,
+      "aliases": [
+        "The Argument on the First Epistle to Timothy"
+      ],
+      "source_index": 13,
+      "source_anchor": "The Argument"
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 10,
+      "level": 2,
+      "aliases": [
+        "1 Timothy 1",
+        "Chapter 1"
+      ],
+      "source_index": 29,
+      "source_anchor": "Chapter 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 39,
+      "level": 2,
+      "aliases": [
+        "1 Timothy 2",
+        "Chapter 2"
+      ],
+      "source_index": 191,
+      "source_anchor": "Chapter 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 63,
+      "level": 2,
+      "aliases": [
+        "1 Timothy 3",
+        "Chapter 3"
+      ],
+      "source_index": 326,
+      "source_anchor": "Chapter 3"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 86,
+      "level": 2,
+      "aliases": [
+        "1 Timothy 4",
+        "Chapter 4"
+      ],
+      "source_index": 462,
+      "source_anchor": "Chapter 4"
+    },
+    {
+      "title": "Chapter 5",
+      "destination": 109,
+      "level": 2,
+      "aliases": [
+        "1 Timothy 5",
+        "Chapter 5"
+      ],
+      "source_index": 584,
+      "source_anchor": "Chapter 5"
+    },
+    {
+      "title": "Chapter 6",
+      "destination": 140,
+      "level": 2,
+      "aliases": [
+        "1 Timothy 6",
+        "Chapter 6"
+      ],
+      "source_index": 757,
+      "source_anchor": "Chapter 6"
+    },
+    {
+      "title": "2 Timothy",
+      "destination": 166,
+      "level": 1,
+      "aliases": [
+        "The Argument on the Second Epistle to Timothy"
+      ],
+      "source_index": 913,
+      "source_anchor": "The Argument"
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 169,
+      "level": 2,
+      "aliases": [
+        "2 Timothy 1",
+        "Chapter 1"
+      ],
+      "source_index": 926,
+      "source_anchor": "Chapter 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 194,
+      "level": 2,
+      "aliases": [
+        "2 Timothy 2",
+        "Chapter 2"
+      ],
+      "source_index": 1079,
+      "source_anchor": "Chapter 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 223,
+      "level": 2,
+      "aliases": [
+        "2 Timothy 3",
+        "Chapter 3"
+      ],
+      "source_index": 1261,
+      "source_anchor": "Chapter 3"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 239,
+      "level": 2,
+      "aliases": [
+        "2 Timothy 4",
+        "Chapter 4"
+      ],
+      "source_index": 1351,
+      "source_anchor": "Chapter 4"
+    },
+    {
+      "title": "Dedication to William Farell and Peter Viret",
+      "destination": 260,
+      "level": 1,
+      "aliases": [
+        "To William Farell and Peter Viret"
+      ],
+      "source_index": 1474,
+      "source_anchor": "To Two Eminent Servants of Christ,"
+    },
+    {
+      "title": "Titus",
+      "destination": 262,
+      "level": 1,
+      "aliases": [
+        "Commentaries on the Epistle to Titus"
+      ],
+      "source_index": 1485,
+      "source_anchor": "Commentaries"
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 264,
+      "level": 2,
+      "aliases": [
+        "Titus 1",
+        "Chapter 1"
+      ],
+      "source_index": 1495,
+      "source_anchor": "Chapter 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 293,
+      "level": 2,
+      "aliases": [
+        "Titus 2",
+        "Chapter 2"
+      ],
+      "source_index": 1652,
+      "source_anchor": "Chapter 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 309,
+      "level": 2,
+      "aliases": [
+        "Titus 3",
+        "Chapter 3"
+      ],
+      "source_index": 1744,
+      "source_anchor": "Chapter 3"
+    },
+    {
+      "title": "Philemon",
+      "destination": 330,
+      "level": 1,
+      "aliases": [
+        "Commentary on Philemon",
+        "Philemon 1-7"
+      ],
+      "source_anchor": "Philemon 1-7",
+      "source_index": 1859
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom43_package\\verification.json",
+    "current_interior_sha256": "9cb55ad4c78f32cb989a1fa03a7eb432e5313b3b6e8f5886b846d229dd137e37",
+    "previous_interior_sha256": "7e3d27d5dfcf979bf1eee37aae2f85d78fc58203d77c360937970e6073da8f8b",
+    "approved_edition_updated": true
+  }
 }

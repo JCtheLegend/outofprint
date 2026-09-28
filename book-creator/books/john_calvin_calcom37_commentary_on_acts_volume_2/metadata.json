@@ -14,9 +14,9 @@
   "interior_standard": "prose-6x9-v1",
   "page_count": 388,
   "body_page_count": 386,
-  "generated_contents_entries": 15,
-  "generated_contents_entries_in_pdf": 15,
-  "detected_heading_count": 15,
+  "generated_contents_entries": 16,
+  "generated_contents_entries_in_pdf": 16,
+  "detected_heading_count": 16,
   "interior_filename": "john_calvin_calcom37_commentary_on_acts_volume_2_interior.pdf",
   "hardcover_cover_filename": "john_calvin_calcom37_commentary_on_acts_volume_2_hardcover_cover.pdf",
   "paperback_cover_filename": "john_calvin_calcom37_commentary_on_acts_volume_2_paperback_cover.pdf",
@@ -83,7 +83,8 @@
     "original_character_positions_preserved": true,
     "page_boxes_and_bookmarks_preserved": true,
     "all_interior_pages_rendered_for_font_update": 388,
-    "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom37_commentary_on_acts_volume_2.json"
+    "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom37_commentary_on_acts_volume_2.json",
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom37_package\\verification.json"
   },
   "cover_facts": {
     "paperback": {
@@ -302,7 +303,7 @@
     "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom37_commentary_on_acts_volume_2.json",
     "current_pdf_sha256": {
       "john_calvin_calcom37_commentary_on_acts_volume_2_hardcover_cover.pdf": "fd4ca27bc07a778c871d53455c29e735b9839608e29211727ce897ab71776c86",
-      "john_calvin_calcom37_commentary_on_acts_volume_2_interior.pdf": "f77155eb25929e6ddc02d5e7cab53bee8b8ab318ebf31bfca101fc3e38c01f1c",
+      "john_calvin_calcom37_commentary_on_acts_volume_2_interior.pdf": "658c0d17be32169f78af3198c17c9c4994016a72a5a52ec1f5a8b21302767c19",
       "john_calvin_calcom37_commentary_on_acts_volume_2_paperback_cover.pdf": "1222644a03207514eb87bd60cc191d2656e99e6d92ea1b61e2be10667beea039"
     },
     "earlier_visual_review_and_dated_repair_evidence_retained": true
@@ -315,7 +316,7 @@
     "approved_page_count": 388,
     "approved_pdf_sha256": {
       "john_calvin_calcom37_commentary_on_acts_volume_2_hardcover_cover.pdf": "fd4ca27bc07a778c871d53455c29e735b9839608e29211727ce897ab71776c86",
-      "john_calvin_calcom37_commentary_on_acts_volume_2_interior.pdf": "f77155eb25929e6ddc02d5e7cab53bee8b8ab318ebf31bfca101fc3e38c01f1c",
+      "john_calvin_calcom37_commentary_on_acts_volume_2_interior.pdf": "658c0d17be32169f78af3198c17c9c4994016a72a5a52ec1f5a8b21302767c19",
       "john_calvin_calcom37_commentary_on_acts_volume_2_paperback_cover.pdf": "1222644a03207514eb87bd60cc191d2656e99e6d92ea1b61e2be10667beea039"
     },
     "github_update_authorized": true
@@ -327,5 +328,355 @@
   "store_set_slug": "calvin-commentary-on-acts",
   "store_set_title": "Commentary on Acts",
   "store_set_genre": "Theology",
-  "store_set_description": "John Calvin's commentary on the Acts of the Apostles, in two volumes."
+  "store_set_description": "John Calvin's commentary on the Acts of the Apostles, in two volumes.",
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "f77155eb25929e6ddc02d5e7cab53bee8b8ab318ebf31bfca101fc3e38c01f1c",
+    "after_sha256": "658c0d17be32169f78af3198c17c9c4994016a72a5a52ec1f5a8b21302767c19",
+    "page_count": 388,
+    "old_entries": 15,
+    "entry_count": 16,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2
+    ],
+    "entries": [
+      {
+        "title": "Acts",
+        "destination": 3,
+        "level": 1,
+        "aliases": [
+          "Chapter 14"
+        ],
+        "source_index": 0,
+        "source_anchor": "CHAPTER 14"
+      },
+      {
+        "title": "Chapter 14",
+        "destination": 3,
+        "level": 2,
+        "aliases": [
+          "Chapter 14"
+        ],
+        "source_index": 0,
+        "source_anchor": "CHAPTER 14"
+      },
+      {
+        "title": "Chapter 15",
+        "destination": 30,
+        "level": 2,
+        "aliases": [
+          "Chapter 15"
+        ],
+        "source_index": 135,
+        "source_anchor": "CHAPTER 15"
+      },
+      {
+        "title": "Chapter 16",
+        "destination": 82,
+        "level": 2,
+        "aliases": [
+          "Chapter 16"
+        ],
+        "source_index": 345,
+        "source_anchor": "CHAPTER 16"
+      },
+      {
+        "title": "Chapter 17",
+        "destination": 117,
+        "level": 2,
+        "aliases": [
+          "Chapter 17"
+        ],
+        "source_index": 493,
+        "source_anchor": "Chapter 17"
+      },
+      {
+        "title": "Chapter 18",
+        "destination": 163,
+        "level": 2,
+        "aliases": [
+          "Chapter 18"
+        ],
+        "source_index": 658,
+        "source_anchor": "CHAPTER 18"
+      },
+      {
+        "title": "Chapter 19",
+        "destination": 187,
+        "level": 2,
+        "aliases": [
+          "Chapter 19"
+        ],
+        "source_index": 760,
+        "source_anchor": "CHAPTER 19"
+      },
+      {
+        "title": "Chapter 20",
+        "destination": 211,
+        "level": 2,
+        "aliases": [
+          "Chapter 20"
+        ],
+        "source_index": 866,
+        "source_anchor": "Chapter 20"
+      },
+      {
+        "title": "Chapter 21",
+        "destination": 241,
+        "level": 2,
+        "aliases": [
+          "Chapter 21"
+        ],
+        "source_index": 989,
+        "source_anchor": "Chapter 21"
+      },
+      {
+        "title": "Chapter 22",
+        "destination": 263,
+        "level": 2,
+        "aliases": [
+          "Chapter 22"
+        ],
+        "source_index": 1085,
+        "source_anchor": "Chapter 22"
+      },
+      {
+        "title": "Chapter 23",
+        "destination": 281,
+        "level": 2,
+        "aliases": [
+          "Chapter 23"
+        ],
+        "source_index": 1161,
+        "source_anchor": "Chapter 23"
+      },
+      {
+        "title": "Chapter 24",
+        "destination": 304,
+        "level": 2,
+        "aliases": [
+          "Chapter 24"
+        ],
+        "source_index": 1264,
+        "source_anchor": "Chapter 24"
+      },
+      {
+        "title": "Chapter 25",
+        "destination": 322,
+        "level": 2,
+        "aliases": [
+          "Chapter 25"
+        ],
+        "source_index": 1333,
+        "source_anchor": "Chapter 25"
+      },
+      {
+        "title": "Chapter 26",
+        "destination": 334,
+        "level": 2,
+        "aliases": [
+          "Chapter 26"
+        ],
+        "source_index": 1372,
+        "source_anchor": "Chapter 26"
+      },
+      {
+        "title": "Chapter 27",
+        "destination": 353,
+        "level": 2,
+        "aliases": [
+          "Chapter 27"
+        ],
+        "source_index": 1448,
+        "source_anchor": "Chapter 27"
+      },
+      {
+        "title": "Chapter 28",
+        "destination": 368,
+        "level": 2,
+        "aliases": [
+          "Chapter 28"
+        ],
+        "source_index": 1502,
+        "source_anchor": "Chapter 28"
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Acts",
+      "destination": 3,
+      "level": 1,
+      "aliases": [
+        "Chapter 14"
+      ],
+      "source_index": 0,
+      "source_anchor": "CHAPTER 14"
+    },
+    {
+      "title": "Chapter 14",
+      "destination": 3,
+      "level": 2,
+      "aliases": [
+        "Chapter 14"
+      ],
+      "source_index": 0,
+      "source_anchor": "CHAPTER 14"
+    },
+    {
+      "title": "Chapter 15",
+      "destination": 30,
+      "level": 2,
+      "aliases": [
+        "Chapter 15"
+      ],
+      "source_index": 135,
+      "source_anchor": "CHAPTER 15"
+    },
+    {
+      "title": "Chapter 16",
+      "destination": 82,
+      "level": 2,
+      "aliases": [
+        "Chapter 16"
+      ],
+      "source_index": 345,
+      "source_anchor": "CHAPTER 16"
+    },
+    {
+      "title": "Chapter 17",
+      "destination": 117,
+      "level": 2,
+      "aliases": [
+        "Chapter 17"
+      ],
+      "source_index": 493,
+      "source_anchor": "Chapter 17"
+    },
+    {
+      "title": "Chapter 18",
+      "destination": 163,
+      "level": 2,
+      "aliases": [
+        "Chapter 18"
+      ],
+      "source_index": 658,
+      "source_anchor": "CHAPTER 18"
+    },
+    {
+      "title": "Chapter 19",
+      "destination": 187,
+      "level": 2,
+      "aliases": [
+        "Chapter 19"
+      ],
+      "source_index": 760,
+      "source_anchor": "CHAPTER 19"
+    },
+    {
+      "title": "Chapter 20",
+      "destination": 211,
+      "level": 2,
+      "aliases": [
+        "Chapter 20"
+      ],
+      "source_index": 866,
+      "source_anchor": "Chapter 20"
+    },
+    {
+      "title": "Chapter 21",
+      "destination": 241,
+      "level": 2,
+      "aliases": [
+        "Chapter 21"
+      ],
+      "source_index": 989,
+      "source_anchor": "Chapter 21"
+    },
+    {
+      "title": "Chapter 22",
+      "destination": 263,
+      "level": 2,
+      "aliases": [
+        "Chapter 22"
+      ],
+      "source_index": 1085,
+      "source_anchor": "Chapter 22"
+    },
+    {
+      "title": "Chapter 23",
+      "destination": 281,
+      "level": 2,
+      "aliases": [
+        "Chapter 23"
+      ],
+      "source_index": 1161,
+      "source_anchor": "Chapter 23"
+    },
+    {
+      "title": "Chapter 24",
+      "destination": 304,
+      "level": 2,
+      "aliases": [
+        "Chapter 24"
+      ],
+      "source_index": 1264,
+      "source_anchor": "Chapter 24"
+    },
+    {
+      "title": "Chapter 25",
+      "destination": 322,
+      "level": 2,
+      "aliases": [
+        "Chapter 25"
+      ],
+      "source_index": 1333,
+      "source_anchor": "Chapter 25"
+    },
+    {
+      "title": "Chapter 26",
+      "destination": 334,
+      "level": 2,
+      "aliases": [
+        "Chapter 26"
+      ],
+      "source_index": 1372,
+      "source_anchor": "Chapter 26"
+    },
+    {
+      "title": "Chapter 27",
+      "destination": 353,
+      "level": 2,
+      "aliases": [
+        "Chapter 27"
+      ],
+      "source_index": 1448,
+      "source_anchor": "Chapter 27"
+    },
+    {
+      "title": "Chapter 28",
+      "destination": 368,
+      "level": 2,
+      "aliases": [
+        "Chapter 28"
+      ],
+      "source_index": 1502,
+      "source_anchor": "Chapter 28"
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom37_package\\verification.json",
+    "current_interior_sha256": "658c0d17be32169f78af3198c17c9c4994016a72a5a52ec1f5a8b21302767c19",
+    "previous_interior_sha256": "f77155eb25929e6ddc02d5e7cab53bee8b8ab318ebf31bfca101fc3e38c01f1c",
+    "approved_edition_updated": true
+  }
 }
