@@ -3,6 +3,56 @@ import { Resend } from "resend";
 const resend = new Resend(process.env.RESEND_API_KEY);
 const FROM = process.env.RESEND_FROM_EMAIL!;
 
+/** Where requests from the public land. */
+function teamInbox(): string {
+  return (
+    process.env.SUBMISSIONS_NOTIFY_EMAIL ||
+    process.env.LULU_CONTACT_EMAIL ||
+    FROM
+  );
+}
+
+/**
+ * Tell the team a reader has asked for a book.
+ *
+ * Replies go straight to the person who asked, so answering is one keystroke
+ * rather than a copy-paste out of the database.
+ */
+export async function sendSubmissionAlert(submission: {
+  title: string;
+  author: string;
+  year?: string | null;
+  genre?: string | null;
+  reason?: string | null;
+  sourceFileUrl?: string | null;
+  submitterName: string;
+  submitterEmail: string;
+}) {
+  const row = (label: string, value?: string | null) =>
+    value ? `<tr><td style="padding:2px 12px 2px 0"><strong>${label}</strong></td><td>${value}</td></tr>` : "";
+
+  await resend.emails.send({
+    from: FROM,
+    to: teamInbox(),
+    replyTo: submission.submitterEmail,
+    subject: `Book request: "${submission.title}" by ${submission.author}`,
+    html: `
+      <p>${submission.submitterName} has asked for a book.</p>
+      <table>
+        ${row("Title", submission.title)}
+        ${row("Author", submission.author)}
+        ${row("Year", submission.year)}
+        ${row("Genre", submission.genre)}
+        ${row("From", `${submission.submitterName} &lt;${submission.submitterEmail}&gt;`)}
+        ${row("Source file", submission.sourceFileUrl ? `<a href="${submission.sourceFileUrl}">download</a>` : "none attached")}
+      </table>
+      ${submission.reason ? `<p><strong>Why they want it</strong><br/>${submission.reason}</p>` : ""}
+      <p>Reply to this email to answer ${submission.submitterName} directly. The request is
+      also in the <code>submissions</code> table, marked pending.</p>
+    `,
+  });
+}
+
 export async function sendSubmissionConfirmation(
   to: string,
   name: string,

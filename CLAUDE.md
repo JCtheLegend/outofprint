@@ -164,6 +164,19 @@ policy and the printer's behaviour are the same number and cannot drift.
 - One checkout is one print job, so cancelling covers every book in that session.
 - `/policies` states the window and derives it from the same setting.
 
+## Submissions
+
+A reader asking for a book posts to `/api/submissions`, which saves the row and
+sends two emails: an acknowledgement to them, and an alert to the team at
+`SUBMISSIONS_NOTIFY_EMAIL` with the request and a `replyTo` of the submitter, so
+answering is a reply rather than a copy-paste out of the database.
+
+- Both sends are **awaited**. A promise left floating when the response returns
+  can be cancelled along with the isolate, so "non-blocking" mail is mail that
+  may never leave — that is why the first real submission was never acknowledged.
+- A failed send never loses the request: the row is already saved, and failures
+  are logged rather than returned.
+
 ## Conventions
 
 - Server components fetch data; `"use client"` is reserved for interaction

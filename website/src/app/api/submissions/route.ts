@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { supabaseAdmin } from "@/lib/supabase";
-import { sendSubmissionConfirmation } from "@/lib/email";
+import { sendSubmissionAlert, sendSubmissionConfirmation } from "@/lib/email";
 
 const MAX_FILE_BYTES = 50 * 1024 * 1024; // 50 MB
 
@@ -65,9 +65,25 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Failed to save submission" }, { status: 500 });
     }
 
-    // Send confirmation email (non-blocking)
-    sendSubmissionConfirmation(submitter_email, submitter_name, title).catch(
-      (err) => console.error("Email error:", err)
+    // Await both sends: a promise left floating when the response returns can
+    // be cancelled with the isolate, so "non-blocking" mail is mail that may
+    // never leave. A failure must not lose the request, which is already saved.
+    await Promise.allSettled([
+      sendSubmissionConfirmation(submitter_email, submitter_name, title),
+      sendSubmissionAlert({
+        title,
+        author,
+        year,
+        genre,
+        reason,
+        sourceFileUrl: source_file_url,
+        submitterName: submitter_name,
+        submitterEmail: submitter_email,
+      }),
+    ]).then((results) =>
+      results
+        .filter((r): r is PromiseRejectedResult => r.status === "rejected")
+        .forEach((r) => console.error("Submission email failed:", r.reason))
     );
 
     return NextResponse.json({ ok: true });

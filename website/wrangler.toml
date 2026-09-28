@@ -22,4 +22,5 @@ LULU_CLIENT_KEY = "d90b9613-04eb-4e87-98c2-5f886ee84d0c"
 LULU_PRODUCTION_DELAY_MINUTES = "1440"   # 24h: how long a customer can cancel
 LULU_CONTACT_EMAIL = "outofprintpress@gmail.com"
 LULU_DEFAULT_PHONE = "+1-734-787-7848"
+SUBMISSIONS_NOTIFY_EMAIL = "outofprintpress@gmail.com"
 RESEND_FROM_EMAIL = "noreply@outofprintpress.store"
