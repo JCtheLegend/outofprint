@@ -3,6 +3,8 @@ import { stripe } from "@/lib/stripe";
 import { supabaseAdmin, type Order } from "@/lib/supabase";
 import { cancelPrintJob } from "@/lib/print";
 import { isCancelable, cancelDeadline } from "@/lib/orders";
+import { orderStatusUrl, resolveSiteUrl } from "@/lib/site";
+import { sendCancellationConfirmation } from "@/lib/email";
 
 /**
  * Cancel an order and refund it.
@@ -108,6 +110,33 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ id:
   if (updateError) {
     console.error(`Could not mark order ${id} canceled:`, updateError);
     return NextResponse.json({ error: updateError.message }, { status: 500 });
+  }
+
+  try {
+    const { data: books } = await db
+      .from("books")
+      .select("id,title,volume_label")
+      .in("id", rows.map((row) => row.book_id));
+
+    await sendCancellationConfirmation(
+      order.customer_email,
+      order.customer_name,
+      rows.map((row) => {
+        const book = books?.find((b) => b.id === row.book_id);
+        const title = book
+          ? book.volume_label
+            ? `${book.title} — ${book.volume_label}`
+            : book.title
+          : "your book";
+        return { title, quantity: row.quantity ?? 1 };
+      }),
+      Boolean(refundId),
+      order.id,
+      orderStatusUrl(resolveSiteUrl(req), order.id)
+    );
+  } catch (err) {
+    // The cancellation itself is done; a failed email must not undo it.
+    console.error(`Cancellation email failed for order ${id}:`, err);
   }
 
   return NextResponse.json({ canceled: true, refunded: Boolean(refundId), books: rows.length });

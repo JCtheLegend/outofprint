@@ -135,6 +135,46 @@ export async function sendCartOrderConfirmation(
  * Lulu has no customer-facing order page, so the "your order" link points at
  * our own status page instead.
  */
+/**
+ * Sent when a customer cancels inside the window. The refund is already issued
+ * by the time this goes out — unless it failed, in which case say so plainly
+ * rather than promising money that is not moving.
+ */
+export async function sendCancellationConfirmation(
+  to: string,
+  name: string,
+  lines: { title: string; quantity: number }[],
+  refunded: boolean,
+  orderId: string,
+  orderUrl?: string
+) {
+  const items = lines
+    .map((line) => `<li>${line.title}${line.quantity > 1 ? ` &times; ${line.quantity}` : ""}</li>`)
+    .join("");
+
+  const refundLine = refunded
+    ? `<p>The full amount is on its way back to the card you paid with. It usually appears
+       on your statement within 5–10 business days.</p>`
+    : `<p>We could not complete the refund automatically, so we are processing it by hand —
+       you will have it within one business day. Nothing was printed and you will not be
+       charged for this order.</p>`;
+
+  await resend.emails.send({
+    from: FROM,
+    to,
+    subject: "Your order has been cancelled",
+    html: `
+      <p>Hi ${name},</p>
+      <p>Your order (#${orderId}) has been cancelled before it reached the printer:</p>
+      <ul>${items}</ul>
+      ${refundLine}
+      ${trackLine(orderUrl)}
+      <p>If you cancelled by mistake, just order again — nothing is lost but the wait.</p>
+      <p>— The Out of Print Press Team</p>
+    `,
+  });
+}
+
 export async function sendShipmentNotification(
   to: string,
   name: string,
