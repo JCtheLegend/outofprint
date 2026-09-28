@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { supabaseAdmin, type Book, type Order } from "@/lib/supabase";
 import { volumeLabel } from "@/lib/sets";
+import { cancelDeadline, formatDeadline, isCancelable } from "@/lib/orders";
+import { CancelOrderButton } from "./CancelOrderButton";
 
 /**
  * Order status page.
@@ -47,6 +49,7 @@ export default async function OrderPage({ params }: { params: Promise<{ id: stri
     .in("id", rows.map((row) => row.book_id));
   const books = new Map((bookRows ?? []).map((book: Book) => [book.id, book]));
 
+  const canceled = rows.every((row) => row.status === "canceled");
   const furthest = rows.reduce((max, row) => Math.max(max, stageIndex(row.status)), 0);
   const placed = new Date(order.created_at).toLocaleDateString("en-US", {
     year: "numeric",
@@ -64,7 +67,18 @@ export default async function OrderPage({ params }: { params: Promise<{ id: stri
         </p>
       </div>
 
+      {canceled && (
+        <div className="border border-rust/40 bg-rust-light/40 p-5 mb-10">
+          <p className="font-serif text-base font-semibold mb-1">This order was cancelled.</p>
+          <p className="text-sm text-muted leading-relaxed">
+            Nothing was printed, and the payment has been refunded in full — it usually reaches
+            your account within 5–10 business days.
+          </p>
+        </div>
+      )}
+
       {/* Progress */}
+      {!canceled && (
       <ol className="flex flex-wrap gap-y-4 mb-10">
         {STAGES.map((stage, index) => {
           const reached = index <= furthest;
@@ -81,6 +95,7 @@ export default async function OrderPage({ params }: { params: Promise<{ id: stri
           );
         })}
       </ol>
+      )}
 
       {/* Books */}
       <ul className="border-t border-border">
@@ -119,15 +134,25 @@ export default async function OrderPage({ params }: { params: Promise<{ id: stri
                 )}
               </div>
               <span className="text-[11px] tracking-widest uppercase text-muted shrink-0">
-                {STAGES[stageIndex(row.status)].label}
+                {row.status === "canceled" ? "Cancelled" : STAGES[stageIndex(row.status)].label}
               </span>
             </li>
           );
         })}
       </ul>
 
+      {isCancelable(order) && !canceled && (
+        <CancelOrderButton
+          orderId={order.id}
+          deadlineLabel={formatDeadline(cancelDeadline(order))}
+          bookCount={rows.length}
+        />
+      )}
+
       <p className="text-xs text-muted mt-8 leading-relaxed">
         Questions about this order? Reply to your confirmation email and we&apos;ll pick it up.
+        See our <Link href="/policies" className="text-rust hover:underline">cancellation and
+        returns policy</Link>.
       </p>
       <p className="mt-6">
         <Link href="/catalog" className="btn-outline">Browse the Catalog</Link>

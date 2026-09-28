@@ -147,6 +147,23 @@ ours — `/orders/<order id>`, linked from every confirmation email.
   `--register-webhook <url>` creates one (add `--test` for a dummy submission).
   Subscriptions are per environment, like Stripe's.
 
+## Cancellation and refunds
+
+`LULU_PRODUCTION_DELAY_MINUTES` (1440 — 24 hours) is how long Lulu holds a job
+before production **and** how long a customer has to cancel, so the published
+policy and the printer's behaviour are the same number and cannot drift.
+
+- `/orders/<id>` offers cancellation while the window is open; `/api/orders/<id>/cancel`
+  does the work, keyed only on the order id, the same capability that opens the page.
+- Order of operations is deliberate: **stop the printer, then refund, then record it.**
+  A refund against a book already printing is the expensive mistake; a canceled job
+  whose refund or bookkeeping failed is recoverable by retrying.
+- Lulu allows `CREATED`, `UNPAID`, `PAYMENT_IN_PROGRESS` and `PRODUCTION_DELAYED`
+  to be canceled, nothing later — `cancelPrintJob` returns null when it is too late
+  and the route answers 409 rather than refunding a book that will still ship.
+- One checkout is one print job, so cancelling covers every book in that session.
+- `/policies` states the window and derives it from the same setting.
+
 ## Conventions
 
 - Server components fetch data; `"use client"` is reserved for interaction

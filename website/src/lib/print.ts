@@ -8,6 +8,7 @@
  */
 
 import {
+  cancelLuluPrintJob,
   createLuluPrintJob,
   getLuluPrintJobStatus,
   listLuluPrintJobs,
@@ -23,8 +24,15 @@ import { signedFileUrl } from "@/lib/storage";
  */
 const DEFAULT_POD_PACKAGE_ID = "0600X0900.BW.STD.PB.060UC444.MXX";
 
-/** Two hours of cancellation window before Lulu sends an order to production. */
-const DEFAULT_PRODUCTION_DELAY_MINUTES = 120;
+/**
+ * How long Lulu holds an order before production — and therefore how long a
+ * customer has to cancel it. A day gives someone time to change their mind
+ * about a book they bought unseen; Lulu's maximum is 2880 (48 hours).
+ */
+const DEFAULT_PRODUCTION_DELAY_MINUTES = 1440;
+
+/** Lulu statuses a print job can still be canceled from. */
+const CANCELABLE_STATUSES = ["CREATED", "UNPAID", "PAYMENT_IN_PROGRESS", "PRODUCTION_DELAYED"];
 
 export type PrintableBook = {
   /** Our order row id — comes back on the matching Lulu line item */
@@ -137,8 +145,26 @@ export async function createPrintJob(job: PrintJobRequest): Promise<PrintJobResp
   };
 }
 
+export function productionDelayMinutes(): number {
+  return Number(process.env.LULU_PRODUCTION_DELAY_MINUTES) || DEFAULT_PRODUCTION_DELAY_MINUTES;
+}
+
 export async function getPrintJobStatus(printJobId: string) {
   return getLuluPrintJobStatus(printJobId);
+}
+
+/**
+ * Cancel a print job if the printer has not started on it.
+ * Returns the status it ended in, or null when it was already too late.
+ */
+export async function cancelPrintJob(printJobId: string): Promise<string | null> {
+  const status = await getLuluPrintJobStatus(printJobId);
+
+  if (status.name === "CANCELED") return "CANCELED";
+  if (!CANCELABLE_STATUSES.includes(status.name)) return null;
+
+  const canceled = await cancelLuluPrintJob(printJobId);
+  return canceled.name ?? "CANCELED";
 }
 
 export async function listPrintJobs(pageSize?: number) {

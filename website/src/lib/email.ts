@@ -24,7 +24,8 @@ export async function sendSubmissionConfirmation(
 function trackLine(orderUrl?: string): string {
   return orderUrl
     ? `<p><a href="${orderUrl}">Follow your order here</a> — we update this page as your
-       book is printed and shipped.</p>`
+       book is printed and shipped, and you can cancel from it for a full refund until it
+       goes to the printer.</p>`
     : "";
 }
 

@@ -48,7 +48,7 @@ create table if not exists orders (
   customer_name     text not null,
   shipping_address  jsonb not null default '{}',
   status            text not null default 'pending'
-                    check (status in ('pending', 'paid', 'printing', 'shipped', 'delivered')),
+                    check (status in ('pending', 'paid', 'printing', 'shipped', 'delivered', 'canceled')),
   print_job_id      text,
   created_at        timestamptz not null default now()
 );
@@ -132,6 +132,19 @@ alter table orders add column if not exists tracking_urls jsonb not null default
 alter table orders add column if not exists shipped_at timestamptz;
 
 create index if not exists orders_print_job_id_idx on orders (print_job_id);
+
+-- ============================================================
+-- Cancellation
+-- ============================================================
+
+-- A customer can cancel from their order page while Lulu has not started
+-- printing; the job is canceled and the payment refunded in full.
+alter table orders drop constraint if exists orders_status_check;
+alter table orders add constraint orders_status_check
+  check (status in ('pending', 'paid', 'printing', 'shipped', 'delivered', 'canceled'));
+
+alter table orders add column if not exists canceled_at timestamptz;
+alter table orders add column if not exists refund_id text;
 
 -- Indexes
 create index if not exists books_featured_idx on books (featured);

@@ -260,6 +260,18 @@ export async function verifyLuluWebhook(
   return mismatch === 0;
 }
 
+/**
+ * Cancel a print job. Lulu only allows this before production starts —
+ * CREATED, UNPAID and PRODUCTION_DELAYED can be canceled, PRODUCTION_READY and
+ * anything later cannot.
+ */
+export function cancelLuluPrintJob(printJobId: string | number): Promise<LuluPrintJobStatus> {
+  return luluFetch<LuluPrintJobStatus>(`/print-jobs/${printJobId}/status/`, {
+    method: "PUT",
+    body: JSON.stringify({ name: "CANCELED" }),
+  });
+}
+
 export function listLuluWebhooks(): Promise<{
   results: Array<{ id: string; url: string; topics: string[]; is_active: boolean }>;
 }> {

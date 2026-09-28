@@ -62,7 +62,7 @@ export type Order = {
   customer_email: string;
   customer_name: string;
   shipping_address: Record<string, string>;
-  status: "pending" | "paid" | "printing" | "shipped" | "delivered";
+  status: "pending" | "paid" | "printing" | "shipped" | "delivered" | "canceled";
   print_job_id: string | null;
   quantity: number;
   // Filled in by the Lulu status webhook once the printer reports progress
@@ -71,6 +71,8 @@ export type Order = {
   tracking_carrier: string | null;
   tracking_urls: string[];
   shipped_at: string | null;
+  canceled_at: string | null;
+  refund_id: string | null;
   created_at: string;
 };
 
