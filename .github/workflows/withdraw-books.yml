@@ -1,0 +1,44 @@
+name: Withdraw selected catalog books
+
+on:
+  workflow_dispatch:
+    inputs:
+      manifest:
+        description: Committed withdrawal manifest filename
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  withdraw:
+    runs-on: ubuntu-latest
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      WITHDRAW_MANIFEST: ${{ github.event.inputs.manifest }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Snapshot and check existing orders
+        working-directory: book-creator
+        run: python scripts/withdraw_catalog_books.py snapshot "withdrawals/$WITHDRAW_MANIFEST"
+      - name: Preserve catalog snapshot before withdrawal
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-before-withdrawal
+          path: book-creator/withdrawal-snapshot.json
+          if-no-files-found: error
+          retention-days: 90
+      - name: Withdraw only the specified entries
+        working-directory: book-creator
+        run: python scripts/withdraw_catalog_books.py apply "withdrawals/$WITHDRAW_MANIFEST"
+      - name: Save verified result
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-withdrawal-result
+          path: book-creator/withdrawal-result.json
+          if-no-files-found: error
+          retention-days: 90

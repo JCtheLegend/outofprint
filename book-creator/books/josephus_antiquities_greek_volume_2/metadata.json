@@ -17,7 +17,7 @@
   "interior_filename": "josephus_antiquities_greek_volume_2_interior.pdf",
   "paperback_cover_filename": "josephus_antiquities_greek_volume_2_paperback_cover.pdf",
   "hardcover_cover_filename": "josephus_antiquities_greek_volume_2_hardcover_cover.pdf",
-  "approval_status": "approved",
+  "approval_status": "withdrawn_for_reorganization",
   "review_status": "approved",
   "source_basis": [
     {
@@ -350,7 +350,7 @@
   "store_set_featured": false,
   "status": "Reviewed edition explicitly approved by the user",
   "approval_basis": "User approved the current 234-page Greek revision on 2026-09-27. Preserve the reviewed interior and both covers unchanged.",
-  "publication_status": "Approved; publishing result recorded in the local delivery receipt.",
+  "publication_status": "withdrawn",
   "review_approval": {
     "status": "approved",
     "approved_by": "user",
@@ -364,5 +364,12 @@
     "approved_revision": "20260927-greek-style",
     "github_update_authorized": true,
     "user_instruction": "approve. next"
+  },
+  "withdrawal": {
+    "date": "2026-09-27",
+    "user_instruction": "lets take down the approved books and start over. organising these into roughly equally sized books",
+    "scope": "Josephus",
+    "previous_approval_preserved": true,
+    "reason": "Replace former physical divisions with similarly sized volumes and fresh review."
   }
 }

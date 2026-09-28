@@ -295,6 +295,10 @@ def upload_book(book_dir: Path, dry_run: bool = False, skip_font_check: bool = F
     slug = book_dir.name
     metadata = load_metadata(book_dir)
 
+    if metadata.get('publication_status') == 'withdrawn':
+        print(f'[{slug}] withdrawn from publication; preserving archived files without uploading')
+        return
+
     interior_filename = metadata.get("interior_filename")
     if not interior_filename:
         raise ValueError("metadata.json is missing interior_filename")

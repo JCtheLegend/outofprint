@@ -1,0 +1,13 @@
+{
+  "reason": "User requested withdrawal and fresh organization of the Josephus books into similarly sized physical books.",
+  "book_slugs": [
+    "josephus_antiquities_greek_volume_1",
+    "josephus_antiquities_greek_volume_2",
+    "josephus_antiquities_greek_volume_3",
+    "josephus_antiquities_greek_volume_4",
+    "josephus_jewish_war_greek_volumes_1_2"
+  ],
+  "set_slugs": [
+    "josephus_antiquities_greek"
+  ]
+}
