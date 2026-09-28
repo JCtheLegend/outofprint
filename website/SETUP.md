@@ -350,6 +350,19 @@ dashboard's plain variables on every deploy):
 `SUPABASE_SERVICE_ROLE_KEY` and `RESEND_API_KEY` are unchanged. Remove any
 `NEXT_PUBLIC_*` runtime copies — they are compiled in and never read at runtime.
 
+> **Changing a build variable does not rebuild the site.** `NEXT_PUBLIC_*` values
+> are compiled into the bundle, so the old value keeps being served until a new
+> build runs — push a commit or hit Retry/Rebuild on the latest deployment. The
+> symptom is a mismatch: the server issues a `cs_live_…` session while the
+> browser still holds `pk_test_…`, and Stripe.js refuses it with
+> *"the provided sessionId is for a live mode Checkout Session, whereas Stripe.js
+> was initialized with a test mode publishable key"*.
+
+> **A Stripe sandbox is a separate account from live mode.** The test and live
+> publishable keys embed different account ids, so nothing carries across:
+> the webhook endpoint, its signing secret and the event history all have to be
+> created again on the live account.
+
 ### Steps that are not variables
 
 1. **Stripe**: activate live payments, then create a **live-mode** webhook
