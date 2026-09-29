@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { loadStripe } from "@stripe/stripe-js";
 import { formatPrice } from "@/lib/format";
 import { AddToCartButton } from "@/components/cart/AddToCartButton";
+import { ShipToSelect, useShipTo } from "@/components/cart/ShipTo";
 
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!);
 
@@ -36,6 +37,7 @@ export function SetPurchasePanel({
   const [choice, setChoice] = useState<string>(initialVolumeId);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [country, setCountry] = useShipTo();
 
   const buyingSet = choice === "set";
   const selectedVolume = volumes.find((v) => v.id === choice);
@@ -49,7 +51,7 @@ export function SetPurchasePanel({
       const res = await fetch("/api/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(buyingSet ? { setId, setSlug } : { bookId: choice }),
+        body: JSON.stringify(buyingSet ? { setId, setSlug, country } : { bookId: choice, country }),
       });
 
       if (!res.ok) {
@@ -151,6 +153,7 @@ export function SetPurchasePanel({
         />
       </div>
 
+      <ShipToSelect value={country} onChange={setCountry} />
       <button
         onClick={handleCheckout}
         disabled={loading}
@@ -166,7 +169,7 @@ export function SetPurchasePanel({
       {error && <p className="text-rust text-xs mt-2">{error}</p>}
 
       <p className="text-xs text-muted mt-3 leading-relaxed">
-        Secure checkout via Stripe. Allow 10–14 days for printing and delivery.
+        Secure checkout via Stripe; shipping is added there. Allow 10–14 days for printing and delivery.
         {buyingSet && " Volumes are printed individually and may arrive in more than one parcel."}
       </p>
     </div>

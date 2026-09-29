@@ -44,10 +44,13 @@ export function volumesSubtotalCents(volumes: Book[]): number {
 
 /**
  * What the complete set costs: the bundle price when one is set, otherwise
- * the volumes added up.
+ * the volumes added up. Volume prices follow Lulu's print costs, so a bundle
+ * price fixed long ago can end up above them — the set never costs more
+ * than buying every volume separately.
  */
 export function setPriceCents(set: BookSet, volumes: Book[]): number {
-  return set.price_cents ?? volumesSubtotalCents(volumes);
+  const subtotal = volumesSubtotalCents(volumes);
+  return set.price_cents == null ? subtotal : Math.min(set.price_cents, subtotal);
 }
 
 /** How much the bundle price saves against buying every volume separately. */

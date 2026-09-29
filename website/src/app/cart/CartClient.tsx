@@ -9,6 +9,7 @@ import { formatPrice } from "@/lib/format";
 import { setPriceCents, sortVolumes, volumeLabel } from "@/lib/sets";
 import { useCart } from "@/components/cart/CartProvider";
 import { MAX_QUANTITY, type CartItem } from "@/lib/cart";
+import { ShipToSelect, useShipTo } from "@/components/cart/ShipTo";
 
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!);
 
@@ -64,6 +65,8 @@ export function CartClient() {
   const [catalog, setCatalog] = useState<{ books: Book[]; sets: BookSet[]; volumes: Book[] } | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [promoCode, setPromoCode] = useState("");
+  const [country, setCountry] = useShipTo();
 
   const bookIds = useMemo(
     () => items.filter((i) => i.kind === "book").map((i) => i.id),
@@ -126,7 +129,8 @@ export function CartClient() {
       const res = await fetch("/api/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ items }),
+        // Checked, and priced, only on the server
+        body: JSON.stringify({ items, country, promoCode: promoCode.trim() || undefined }),
       });
       if (!res.ok) {
         const { error: msg } = await res.json();
@@ -225,9 +229,23 @@ export function CartClient() {
         <span className="font-serif text-2xl font-semibold text-rust">{formatPrice(subtotal)}</span>
       </div>
       <p className="text-xs text-muted mb-6">
-        Shipping is calculated at checkout. Everything in one order is printed and
-        shipped together.
+        Shipping is quoted at checkout at what our printer charges to send it.
+        Everything in one order is printed and shipped together.
       </p>
+
+      <ShipToSelect value={country} onChange={setCountry} />
+
+      <label className="block mb-4">
+        <span className="section-label block mb-1">Promo code</span>
+        <input
+          type="text"
+          value={promoCode}
+          onChange={(e) => setPromoCode(e.target.value)}
+          autoComplete="off"
+          spellCheck={false}
+          className="input-field"
+        />
+      </label>
 
       <button
         onClick={handleCheckout}

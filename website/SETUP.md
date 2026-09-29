@@ -302,6 +302,14 @@ difference is not cosmetic:
 | `LULU_CONTACT_EMAIL` | Variable | where Lulu and the print-failure alert reach you |
 | `LULU_DEFAULT_PHONE` | Variable | fallback phone for the carrier when Stripe collected none |
 
+`WHOLESALE_PROMO_CODES` (Secret, optional) — comma-separated codes that charge
+Lulu's print cost with no margin, for the team's own copies. One per person lets
+each be revoked alone. Unset means no code works.
+
+The upload workflow prices books from Lulu, so it also needs the GitHub Actions
+secrets `LULU_CLIENT_KEY` and `LULU_CLIENT_SECRET` from the **production** Lulu
+account — sandbox prices are not real prices.
+
 Optional runtime overrides, all with defaults in code: `LULU_POD_PACKAGE_ID`
 (6x9 B&W paperback), `LULU_SHIPPING_LEVEL` (`MAIL`),
 `LULU_PRODUCTION_DELAY_MINUTES` (120), `LULU_FILE_URL_TTL_SECONDS` (7 days).

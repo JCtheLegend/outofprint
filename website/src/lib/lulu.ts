@@ -109,6 +109,23 @@ export type LuluLineItemStatus = {
   };
 };
 
+/** A quote request: what would these books cost to print and ship here? */
+export type LuluCostCalculationRequest = {
+  line_items: Array<{ page_count: number; pod_package_id: string; quantity: number }>;
+  shipping_address: Omit<LuluShippingAddress, "email">;
+  shipping_option: LuluShippingLevel;
+};
+
+/** Lulu's money amounts are decimal strings, e.g. "7.69". */
+type LuluCost = { total_cost_excl_tax: string; total_cost_incl_tax: string };
+
+export type LuluCostCalculation = {
+  currency: string;
+  line_item_costs: LuluCost[];
+  shipping_cost: LuluCost;
+  fulfillment_cost: LuluCost;
+};
+
 /** Payload Lulu posts for the PRINT_JOB_STATUS_CHANGED topic. */
 export type LuluWebhookPayload = {
   topic: string;
@@ -204,6 +221,16 @@ export function createLuluPrintJob(job: LuluPrintJobRequest): Promise<LuluPrintJ
   return luluFetch<LuluPrintJob>("/print-jobs/", {
     method: "POST",
     body: JSON.stringify(job),
+  });
+}
+
+/** Quote a print job without creating one — nothing is ordered or charged. */
+export function calculateLuluCost(
+  request: LuluCostCalculationRequest
+): Promise<LuluCostCalculation> {
+  return luluFetch<LuluCostCalculation>("/print-job-cost-calculations/", {
+    method: "POST",
+    body: JSON.stringify(request),
   });
 }
 

@@ -70,7 +70,8 @@ create table if not exists book_sets (
   genre         text,
   cover_url     text,
   -- Bundle price for buying every volume at once. Leave null to charge the
-  -- sum of the volumes' individual prices (no discount).
+  -- sum of the volumes' individual prices (no discount); the storefront caps
+  -- it at that sum, since volume prices follow Lulu's print costs.
   price_cents   int,
   featured      boolean not null default false,
   created_at    timestamptz not null default now()
@@ -145,6 +146,17 @@ alter table orders add constraint orders_status_check
 
 alter table orders add column if not exists canceled_at timestamptz;
 alter table orders add column if not exists refund_id text;
+
+-- ============================================================
+-- Pricing
+-- ============================================================
+
+-- A book's price is Lulu's print cost plus a flat margin, worked out by the
+-- uploader (book-creator/scripts/lulu_pricing.py) from the interior's page
+-- count. price_cents stays the retail price the storefront shows and charges;
+-- print_cost_cents is what a wholesale promo code charges instead.
+alter table books add column if not exists page_count int;
+alter table books add column if not exists print_cost_cents int;
 
 -- Indexes
 create index if not exists books_featured_idx on books (featured);

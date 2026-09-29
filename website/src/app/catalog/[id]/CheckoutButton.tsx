@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { loadStripe } from "@stripe/stripe-js";
 import { formatPrice } from "@/lib/format";
+import { ShipToSelect, useShipTo } from "@/components/cart/ShipTo";
 
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!);
 
@@ -24,6 +25,7 @@ export function CheckoutButton({
 }) {
   const [pending, setPending] = useState<"book" | "set" | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [country, setCountry] = useShipTo();
 
   async function handleCheckout(target: "book" | "set") {
     setPending(target);
@@ -32,8 +34,8 @@ export function CheckoutButton({
     try {
       const body =
         target === "set" && setOption
-          ? { setId: setOption.id, setSlug: setOption.slug }
-          : { bookId };
+          ? { setId: setOption.id, setSlug: setOption.slug, country }
+          : { bookId, country };
 
       const res = await fetch("/api/checkout", {
         method: "POST",
@@ -58,6 +60,7 @@ export function CheckoutButton({
 
   return (
     <div>
+      <ShipToSelect value={country} onChange={setCountry} />
       <button
         onClick={() => handleCheckout("book")}
         disabled={pending !== null}
@@ -92,7 +95,7 @@ export function CheckoutButton({
       {error && <p className="text-rust text-xs mt-2">{error}</p>}
 
       <p className="text-xs text-muted mt-3 leading-relaxed">
-        Secure checkout via Stripe. Allow 10–14 days for printing and delivery.
+        Secure checkout via Stripe; shipping is added there. Allow 10–14 days for printing and delivery.
       </p>
     </div>
   );

@@ -70,14 +70,23 @@ export type PrintJobResponse = {
   estimatedShipDate?: string;
 };
 
+/** A book's Lulu SKU, falling back to the configured default product. */
+export function podPackageIdFor(podPackageId?: string | null): string {
+  return podPackageId || process.env.LULU_POD_PACKAGE_ID || DEFAULT_POD_PACKAGE_ID;
+}
+
+/** How print jobs ship — and so what checkout quotes shipping at. */
+export function shippingLevel(): LuluShippingLevel {
+  return (process.env.LULU_SHIPPING_LEVEL as LuluShippingLevel | undefined) ?? "MAIL";
+}
+
 function lineItemFor(book: PrintableBook, interior: string, cover: string): LuluLineItem {
   return {
     title: book.title,
     quantity: Math.max(1, Math.round(book.quantity ?? 1)),
     external_id: book.orderId,
     printable_normalization: {
-      pod_package_id:
-        book.podPackageId || process.env.LULU_POD_PACKAGE_ID || DEFAULT_POD_PACKAGE_ID,
+      pod_package_id: podPackageIdFor(book.podPackageId),
       interior: { source_url: interior },
       cover: { source_url: cover },
     },
@@ -121,8 +130,7 @@ export async function createPrintJob(job: PrintJobRequest): Promise<PrintJobResp
       process.env.LULU_CONTACT_EMAIL || process.env.RESEND_FROM_EMAIL || job.customerEmail,
     external_id: job.externalId,
     line_items: lineItems,
-    shipping_level:
-      (process.env.LULU_SHIPPING_LEVEL as LuluShippingLevel | undefined) ?? "MAIL",
+    shipping_level: shippingLevel(),
     production_delay:
       Number(process.env.LULU_PRODUCTION_DELAY_MINUTES) || DEFAULT_PRODUCTION_DELAY_MINUTES,
     shipping_address: {

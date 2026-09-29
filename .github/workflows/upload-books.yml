@@ -5,6 +5,10 @@ on:
     branches: [main]
     paths:
       - "book-creator/books/**"
+  # Lulu revises its print costs now and then; re-price the catalog weekly
+  # (Mondays 09:00 UTC) without re-uploading any files.
+  schedule:
+    - cron: "0 9 * * 1"
   workflow_dispatch:
     inputs:
       book_folder:
@@ -30,9 +34,15 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          # Prices come from the production Lulu account's print costs
+          LULU_CLIENT_KEY: ${{ secrets.LULU_CLIENT_KEY }}
+          LULU_CLIENT_SECRET: ${{ secrets.LULU_CLIENT_SECRET }}
           BOOK_FOLDER: ${{ github.event.inputs.book_folder }}
+          EVENT_NAME: ${{ github.event_name }}
         run: |
-          if [ -n "$BOOK_FOLDER" ]; then
+          if [ "$EVENT_NAME" = "schedule" ]; then
+            python scripts/upload_to_supabase.py --price-only
+          elif [ -n "$BOOK_FOLDER" ]; then
             python scripts/upload_to_supabase.py "$BOOK_FOLDER"
           else
             python scripts/upload_to_supabase.py

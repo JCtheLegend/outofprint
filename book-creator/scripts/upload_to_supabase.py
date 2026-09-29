@@ -7,16 +7,18 @@ a metadata.json plus the PDFs it references. For every book this:
   1. Checks the interior PDF's fonts — Lulu rejects any print job whose
      interior embeds OpenType fonts or leaves a font unembedded, so a book
      that would fail in production is refused here instead.
-  2. Rasterizes the paperback cover PDF and crops it to the front panel
+  2. Prices the book from Lulu's own print cost for its page count and
+     product SKU, plus a flat margin — see lulu_pricing.py.
+  3. Rasterizes the paperback cover PDF and crops it to the front panel
      (using the bleed/panel-width facts already recorded in metadata.json)
      to produce a plain cover image.
-  3. Uploads that cover image to the `book-covers` storage bucket, and both
+  4. Uploads that cover image to the `book-covers` storage bucket, and both
      print-ready PDFs — the interior and the wraparound paperback cover, which
      is what Lulu prints from — to the private `book-pdfs` storage bucket.
-  4. Upserts a row into the `books` table, keyed by slug (the folder name),
+  5. Upserts a row into the `books` table, keyed by slug (the folder name),
      so re-running this script for the same book updates it in place
      instead of creating a duplicate.
-  5. For a volume of a multi-volume work (metadata.json carries
+  6. For a volume of a multi-volume work (metadata.json carries
      `store_set_slug`), upserts the matching `book_sets` row and points the
      book at it, so the storefront can list the whole set on one page and
      sell either a single volume or the complete set.
@@ -26,10 +28,12 @@ Usage:
     python upload_to_supabase.py federalist-papers   # upload just this one
     python upload_to_supabase.py --dry-run federalist-papers  # render only
     python upload_to_supabase.py --skip-font-check <book>     # upload despite bad fonts
+    python upload_to_supabase.py --price-only                 # re-price from Lulu, upload nothing
 
 Requires SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY in the environment
 (the service role key is required — storage writes and the books table
-are locked down to public read-only via row level security).
+are locked down to public read-only via row level security), plus
+LULU_CLIENT_KEY and LULU_CLIENT_SECRET to price each book.
 """
 from __future__ import annotations
 
@@ -44,12 +48,14 @@ from pathlib import Path
 import fitz  # PyMuPDF
 from PIL import Image
 
+import lulu_pricing
+
 BOOKS_DIR = Path(__file__).resolve().parent.parent / "books"
 
 COVER_BUCKET = "book-covers"
 PDF_BUCKET = "book-pdfs"
 COVER_RENDER_DPI = 300
-REQUIRED_STORE_FIELDS = ("store_price_cents", "store_genre", "store_description")
+REQUIRED_STORE_FIELDS = ("store_genre", "store_description")
 
 # Words the pipeline puts in front of a volume designation, e.g. "Book IV"
 VOLUME_WORDS = ("volume", "vol", "book", "part", "tome", "no")
@@ -246,6 +252,7 @@ def build_book_row(
     cover_url: str,
     pdf_url: str,
     cover_pdf_url: str,
+    pricing: dict,
     set_id: str | None = None,
 ) -> dict:
     missing = [field for field in REQUIRED_STORE_FIELDS if metadata.get(field) is None]
@@ -266,7 +273,6 @@ def build_book_row(
         "year": year,
         "genre": metadata["store_genre"],
         "description": metadata["store_description"],
-        "price_cents": metadata["store_price_cents"],
         "cover_url": cover_url,
         "pdf_url": pdf_url,
         "cover_pdf_url": cover_pdf_url,
@@ -275,6 +281,7 @@ def build_book_row(
         "set_id": set_id,
         "volume_number": parse_volume_number(metadata),
         "volume_label": volume_label(metadata),
+        **pricing,
     }
 
 
@@ -291,6 +298,49 @@ def upsert_set(client, set_row: dict, slug: str) -> str:
     return result.data[0]["id"]
 
 
+def interior_path_for(book_dir: Path, metadata: dict) -> Path:
+    interior_filename = metadata.get("interior_filename")
+    if not interior_filename:
+        raise ValueError("metadata.json is missing interior_filename")
+    interior_path = book_dir / interior_filename
+    if not interior_path.exists():
+        raise FileNotFoundError(f"interior PDF not found: {interior_path}")
+    return interior_path
+
+
+def price_from_lulu(slug: str, metadata: dict, interior_path: Path) -> dict:
+    page_count = lulu_pricing.interior_page_count(interior_path)
+    pricing = lulu_pricing.price_book(build_pod_package_id(metadata), page_count)
+    print(
+        f"[{slug}] {page_count} pages — Lulu prints it for "
+        f"${pricing['print_cost_cents'] / 100:.2f}, selling at ${pricing['price_cents'] / 100:.2f}"
+    )
+    return pricing
+
+
+def supabase_client():
+    from supabase import create_client
+
+    return create_client(os.environ["SUPABASE_URL"], os.environ["SUPABASE_SERVICE_ROLE_KEY"])
+
+
+def reprice_book(book_dir: Path) -> None:
+    """Refresh a book's price from Lulu without re-uploading any files.
+
+    Lulu's costs change now and then; this keeps the catalog in step without
+    pushing every PDF again. Only updates a book that is already uploaded.
+    """
+    slug = book_dir.name
+    metadata = load_metadata(book_dir)
+    if metadata.get("publication_status") == "withdrawn":
+        return
+
+    pricing = price_from_lulu(slug, metadata, interior_path_for(book_dir, metadata))
+    result = supabase_client().table("books").update(pricing).eq("slug", slug).execute()
+    if not result.data:
+        print(f"[{slug}] not in the books table yet — upload it first")
+
+
 def upload_book(book_dir: Path, dry_run: bool = False, skip_font_check: bool = False) -> None:
     slug = book_dir.name
     metadata = load_metadata(book_dir)
@@ -299,12 +349,7 @@ def upload_book(book_dir: Path, dry_run: bool = False, skip_font_check: bool = F
         print(f'[{slug}] withdrawn from publication; preserving archived files without uploading')
         return
 
-    interior_filename = metadata.get("interior_filename")
-    if not interior_filename:
-        raise ValueError("metadata.json is missing interior_filename")
-    interior_path = book_dir / interior_filename
-    if not interior_path.exists():
-        raise FileNotFoundError(f"interior PDF not found: {interior_path}")
+    interior_path = interior_path_for(book_dir, metadata)
 
     if skip_font_check:
         print(f"[{slug}] skipping the font check (--skip-font-check)")
@@ -320,6 +365,14 @@ def upload_book(book_dir: Path, dry_run: bool = False, skip_font_check: bool = F
             )
         print(f"[{slug}] interior fonts OK (all embedded TrueType)")
 
+    # Priced before anything is uploaded, so a book Lulu can't quote never
+    # reaches the catalog half-finished.
+    if dry_run and not lulu_pricing.credentials_available():
+        print(f"[{slug}] no Lulu credentials — skipping the price quote")
+        pricing = None
+    else:
+        pricing = price_from_lulu(slug, metadata, interior_path)
+
     print(f"[{slug}] rendering front cover from paperback cover PDF...")
     cover_bytes = render_front_cover(book_dir, metadata)
 
@@ -329,11 +382,7 @@ def upload_book(book_dir: Path, dry_run: bool = False, skip_font_check: bool = F
         print(f"[{slug}] dry run — wrote {preview_path}, skipping Supabase upload")
         return
 
-    from supabase import create_client
-
-    supabase_url = os.environ["SUPABASE_URL"]
-    supabase_key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
-    client = create_client(supabase_url, supabase_key)
+    client = supabase_client()
 
     cover_object = f"{slug}.jpg"
     pdf_object = f"{slug}.pdf"
@@ -364,7 +413,7 @@ def upload_book(book_dir: Path, dry_run: bool = False, skip_font_check: bool = F
     set_row = build_set_row(metadata)
     set_id = upsert_set(client, set_row, slug) if set_row else None
 
-    row = build_book_row(slug, metadata, cover_url, pdf_url, cover_pdf_url, set_id=set_id)
+    row = build_book_row(slug, metadata, cover_url, pdf_url, cover_pdf_url, pricing, set_id=set_id)
     print(f"[{slug}] upserting books row...")
     client.table("books").upsert(row, on_conflict="slug").execute()
 
@@ -384,6 +433,11 @@ def main() -> int:
         action="store_true",
         help="Upload even if the interior's fonts would be rejected by Lulu.",
     )
+    parser.add_argument(
+        "--price-only",
+        action="store_true",
+        help="Re-price already-uploaded books from Lulu's current costs; upload no files.",
+    )
     args = parser.parse_args()
 
     if args.books:
@@ -398,7 +452,10 @@ def main() -> int:
             print(f"[{book_dir.name}] ERROR: not a directory ({book_dir})", file=sys.stderr)
             continue
         try:
-            upload_book(book_dir, dry_run=args.dry_run, skip_font_check=args.skip_font_check)
+            if args.price_only:
+                reprice_book(book_dir)
+            else:
+                upload_book(book_dir, dry_run=args.dry_run, skip_font_check=args.skip_font_check)
         except Exception as exc:  # surface each book's failure without aborting the rest of the batch
             failures.append(book_dir.name)
             print(f"[{book_dir.name}] ERROR: {exc}", file=sys.stderr)

@@ -8,7 +8,12 @@ export type Book = {
   year: number;
   genre: string;
   description: string;
+  // Retail price: Lulu's print cost plus our margin, set by the uploader
   price_cents: number;
+  // Lulu's unit print cost — what a wholesale promo code charges. Null until
+  // the uploader has priced the book from Lulu.
+  print_cost_cents: number | null;
+  page_count: number | null;
   cover_url: string | null;
   pdf_url: string;
   // Print-ready wraparound cover PDF and Lulu product SKU — see lib/print.ts

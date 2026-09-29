@@ -24,15 +24,24 @@ updates that book instead of creating a duplicate.
 
 Besides whatever the book-formatting pipeline already writes into
 `metadata.json` (title, authors, cover_facts, etc.), the uploader needs
-four extra fields that the storefront requires but the pipeline doesn't
+three extra fields that the storefront requires but the pipeline doesn't
 produce — add these by hand before pushing:
 
 | field                 | example                              |
 |-----------------------|---------------------------------------|
-| `store_price_cents`   | `2400` (= $24.00)                     |
 | `store_genre`         | `"Political Philosophy"`              |
 | `store_description`   | one or two sentences for the catalog  |
 | `store_featured`      | `true` / `false` — shows on homepage  |
+
+### Pricing
+
+There is no price to set: the uploader asks Lulu what one copy costs to print
+(from the interior's page count and the book's product SKU) and sells it for
+that plus a flat $10 (`PRICE_MARGIN_CENTS` in `scripts/lulu_pricing.py`).
+Both numbers land on the row — `print_cost_cents` and `price_cents` — and a
+`store_price_cents` left in older metadata is ignored. A book Lulu can't quote
+is not uploaded. The upload workflow also re-prices every book each Monday
+(`--price-only`) so the catalog follows Lulu's own price changes.
 
 ### Multi-volume sets
 
@@ -48,7 +57,7 @@ the complete set.
 | `store_set_title`          | `"History of England"` (defaults to `title`)   |
 | `store_set_description`    | a sentence about the whole work                 |
 | `store_set_genre`          | defaults to `store_genre`                       |
-| `store_set_price_cents`    | `12000` — bundle price for **all** volumes; omit to charge the volumes' sum |
+| `store_set_price_cents`    | `12000` — bundle price for **all** volumes; omit to charge the volumes' sum (it never exceeds that sum) |
 | `store_set_featured`       | `true` / `false` — shows the set on the homepage |
 
 The volume's own number comes from the pipeline's `volume_number`, or is

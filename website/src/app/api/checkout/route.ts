@@ -6,6 +6,13 @@ import type { Book, BookSet } from "@/lib/supabase";
 import { setPriceCents, sortVolumes, volumeLabel } from "@/lib/sets";
 import { clampQuantity, normalizeCart, type CartItem } from "@/lib/cart";
 import { resolveSiteUrl } from "@/lib/site";
+import { isWholesaleCode } from "@/lib/pricing";
+import { quoteShippingCents } from "@/lib/shipping";
+import {
+  DEFAULT_SHIPPING_COUNTRY,
+  SHIPPING_COUNTRIES,
+  isShippingCountry,
+} from "@/lib/shipping-countries";
 
 type LineItem = Stripe.Checkout.SessionCreateParams.LineItem;
 
@@ -70,6 +77,17 @@ export async function POST(req: NextRequest) {
       );
     }
 
+    const promoCode = typeof body.promoCode === "string" ? body.promoCode.trim() : "";
+    const wholesale = promoCode !== "" && isWholesaleCode(promoCode);
+    if (promoCode && !wholesale) {
+      return NextResponse.json({ error: "That promo code isn't valid." }, { status: 400 });
+    }
+
+    const country = body.country ?? DEFAULT_SHIPPING_COUNTRY;
+    if (!isShippingCountry(country)) {
+      return NextResponse.json({ error: "We don't ship to that country yet." }, { status: 400 });
+    }
+
     const db = supabaseAdmin();
     const siteUrl = resolveSiteUrl(req);
 
@@ -93,28 +111,58 @@ export async function POST(req: NextRequest) {
     const allVolumes = (volumesRes.data ?? []) as Book[];
 
     const lineItems: LineItem[] = [];
+    // Everything being printed, for the shipping quote
+    const shipped: Array<{ book: Book; quantity: number }> = [];
 
     for (const item of items) {
       const quantity = clampQuantity(item.quantity);
+      let set: BookSet | undefined;
+      let books: Book[];
 
       if (item.kind === "book") {
         const book = booksById.get(item.id);
         if (!book) {
           return NextResponse.json({ error: "Book not found" }, { status: 404 });
         }
-        lineItems.push(bookLineItem(book, book.price_cents, quantity));
-        continue;
+        books = [book];
+      } else {
+        set = setsById.get(item.id);
+        if (!set) {
+          return NextResponse.json({ error: "Set not found" }, { status: 404 });
+        }
+        books = sortVolumes(allVolumes.filter((v) => v.set_id === set!.id));
+        if (books.length === 0) {
+          return NextResponse.json({ error: "This set has no volumes yet" }, { status: 404 });
+        }
       }
 
-      const set = setsById.get(item.id);
-      if (!set) {
-        return NextResponse.json({ error: "Set not found" }, { status: 404 });
+      shipped.push(...books.map((book) => ({ book, quantity })));
+
+      if (wholesale) {
+        // At cost, every book is its print cost — sets included, volume by
+        // volume, since a bundle discount is a cut of the margin that is gone.
+        const unpriced = books.find((b) => b.print_cost_cents == null);
+        if (unpriced) {
+          return NextResponse.json(
+            { error: `${unpriced.title} has no print cost on record yet` },
+            { status: 409 }
+          );
+        }
+        lineItems.push(...books.map((b) => bookLineItem(b, b.print_cost_cents!, quantity)));
+      } else if (set) {
+        lineItems.push(...setLineItems(set, books, quantity));
+      } else {
+        lineItems.push(bookLineItem(books[0], books[0].price_cents, quantity));
       }
-      const volumes = sortVolumes(allVolumes.filter((v) => v.set_id === set.id));
-      if (volumes.length === 0) {
-        return NextResponse.json({ error: "This set has no volumes yet" }, { status: 404 });
-      }
-      lineItems.push(...setLineItems(set, volumes, quantity));
+    }
+
+    // Shipping is Lulu's cost to ship this exact order, promo code or not.
+    const shipping = await quoteShippingCents(shipped, country);
+    if ("unpriced" in shipping) {
+      return NextResponse.json(
+        { error: `${shipping.unpriced} can't be shipped yet — it has no page count on record` },
+        { status: 409 }
+      );
     }
 
     // Where the customer lands afterwards: back where they started for a
@@ -125,6 +173,8 @@ export async function POST(req: NextRequest) {
     let successUrl = `${siteUrl}/cart/success?session_id={CHECKOUT_SESSION_ID}`;
     let cancelUrl = `${siteUrl}/cart`;
     const metadata: Record<string, string> = { itemCount: String(items.length) };
+    // Marks the order in Stripe as sold at cost; the code itself is not stored.
+    if (wholesale) metadata.pricing = "wholesale";
 
     if (single?.kind === "book") {
       successUrl = `${siteUrl}/catalog/${single.id}/success?session_id={CHECKOUT_SESSION_ID}`;
@@ -143,10 +193,17 @@ export async function POST(req: NextRequest) {
       payment_method_types: ["card"],
       line_items: lineItems,
       mode: "payment",
-      // Collect shipping address
-      shipping_address_collection: {
-        allowed_countries: ["US", "CA", "GB", "AU"],
-      },
+      // Shipping was quoted for this country, so only accept addresses in it
+      shipping_address_collection: { allowed_countries: [country] },
+      shipping_options: [
+        {
+          shipping_rate_data: {
+            type: "fixed_amount",
+            fixed_amount: { amount: shipping.cents, currency: "usd" },
+            display_name: `Shipping to ${SHIPPING_COUNTRIES[country]}`,
+          },
+        },
+      ],
       // Pre-fill customer details
       billing_address_collection: "required",
       // Lulu's shipping carriers require a phone number for delivery issues

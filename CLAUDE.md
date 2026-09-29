@@ -62,7 +62,7 @@ grouping and a bundle price, never a separate product.
   Sibling volumes sharing that slug land in the same set. See
   `book-creator/books/README.md` for every `store_set_*` field.
 - `book_sets.price_cents` is the optional bundle price. Null means "the volumes added
-  up". `lib/sets.ts` (`setPriceCents`, `setSavingsCents`) is the only place that
+  up", and it is capped at that sum, since volume prices move with Lulu's costs. `lib/sets.ts` (`setPriceCents`, `setSavingsCents`) is the only place that
   decides this — don't recompute set pricing inline.
 - The catalog and homepage list one entry per work: `buildCatalogEntries()` replaces a
   set's volumes with a single `SetCard`. A set holding only one volume so far is listed
@@ -123,6 +123,33 @@ to work against the sandbox, which never reaches a real printer.
   OpenType face rejects the whole job, after payment. The uploader refuses such
   a book up front (`check_interior_fonts`), so a rejection surfaces at upload
   time instead. `--skip-font-check` overrides it.
+
+## Pricing
+
+A book's price is **Lulu's print cost plus a flat $10**, never typed in by hand.
+`book-creator/scripts/lulu_pricing.py` quotes Lulu's `/print-job-cost-calculations/`
+for the interior's page count and `pod_package_id` at upload time and writes
+`page_count`, `print_cost_cents` and `price_cents` (= cost + `PRICE_MARGIN_CENTS`).
+The upload workflow re-prices every book weekly with `--price-only`.
+
+- The storefront keeps treating `price_cents` as the price; nothing on the site
+  recomputes it. Static catalog pages only show a new price after a rebuild,
+  while checkout always charges the row as it stands.
+- A wholesale promo code (any of the comma-separated `WHOLESALE_PROMO_CODES`,
+  checked in `lib/pricing.ts`) is entered in the cart and sent to `/api/checkout`
+  as `promoCode`. It charges `print_cost_cents` for every book — sets volume by
+  volume, with no bundle discount — and tags the Stripe session
+  `pricing: wholesale`. An unknown code is a 400, never silently ignored.
+- Shipping is Lulu's own quote for the whole cart — shipping plus its per-order
+  fulfilment fee, before tax — from `quoteShippingCents` in `lib/shipping.ts`,
+  charged as one Stripe shipping option, promo code or not. Hosted Checkout can't
+  re-price shipping once an address is entered, so the customer picks a country
+  (`ShipToSelect`, remembered in localStorage) before checkout, `/api/checkout`
+  takes it as `country` (default `US`), and Checkout only accepts addresses there.
+  The country list lives in `lib/shipping-countries.ts` so client code can import
+  it without the Lulu client.
+- Cloudflare in front of Lulu's API rejects Python's default `urllib`
+  User-Agent, so the uploader sends its own.
 
 ## Order tracking
 
