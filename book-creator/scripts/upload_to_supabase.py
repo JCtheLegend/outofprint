@@ -265,12 +265,39 @@ def _jpeg(png_bytes: bytes, quality: int) -> bytes:
     return out.getvalue()
 
 
+def _text(value) -> str | None:
+    """A plain string, or None — the storefront renders these as text."""
+    if isinstance(value, (int, float)) and not isinstance(value, bool):
+        return str(value)
+    if isinstance(value, str) and value.strip():
+        return value.strip()
+    return None
+
+
 def _text_list(value) -> list[str]:
+    """A list of strings from a string, a list of strings, or a list of works.
+
+    metadata.json is not uniform: most books give `included_scope` as one
+    sentence, some as a list of sentences, and one as a list of
+    `{title, subtitle, first_publication}` works — which, stored as-is, the
+    book page could not render. Every shape comes out as plain strings.
+    """
     if isinstance(value, str):
         return [value.strip()] if value.strip() else []
-    if isinstance(value, list):
-        return [str(v).strip() for v in value if str(v).strip()]
-    return []
+    if not isinstance(value, list):
+        return []
+    items = []
+    for item in value:
+        if isinstance(item, dict):
+            title = _text(item.get("title"))
+            if not title:
+                continue
+            subtitle = _text(item.get("subtitle"))
+            year = _text(item.get("first_publication"))
+            items.append(f"{title}{f': {subtitle}' if subtitle else ''}{f' ({year})' if year else ''}")
+        elif _text(item):
+            items.append(_text(item))
+    return items
 
 
 def build_details(metadata: dict, interior_path: Path) -> dict:
@@ -293,13 +320,13 @@ def build_details(metadata: dict, interior_path: Path) -> dict:
                 source_editions.append(source["source_edition"])
 
     details = {
-        "subtitle": metadata.get("subtitle"),
-        "original_publication": metadata.get("original_publication"),
-        "language": metadata.get("language"),
-        "translator": metadata.get("translator"),
-        "editor": metadata.get("editor"),
-        "included_scope": metadata.get("included_scope"),
-        "trim_size": metadata.get("trim_size"),
+        "subtitle": _text(metadata.get("subtitle")),
+        "original_publication": _text(metadata.get("original_publication")),
+        "language": _text(metadata.get("language")),
+        "translator": _text(metadata.get("translator")),
+        "editor": _text(metadata.get("editor")),
+        "included_scope": _text_list(metadata.get("included_scope")),
+        "trim_size": _text(metadata.get("trim_size")),
         "contents": contents,
         "source_editions": source_editions,
         "omitted": _text_list(metadata.get("intentionally_omitted_material")),

@@ -7,14 +7,24 @@ import { commonFormats, formatPriceCents, formatsOf, type BookFormat } from "@/l
 import type { SetOption } from "./CheckoutButton";
 import { BookPurchasePanel } from "./BookPurchasePanel";
 import { LookInside } from "./LookInside";
+import { readBookDetails } from "@/lib/details";
 
 export async function generateStaticParams() {
   const { data } = await supabase.from("books").select("id");
   return (data ?? []).map((b) => ({ id: b.id }));
 }
 
+/** PostgREST's code for `.single()` matching no row. */
+const NO_ROWS = "PGRST116";
+
+/**
+ * The book, or null when there is no such book. Any other failure throws:
+ * swallowing it would bake a working book into the build as a 404.
+ */
 async function getBook(id: string): Promise<Book | null> {
-  const { data } = await supabase.from("books").select("*").eq("id", id).single();
+  const { data, error } = await supabase.from("books").select("*").eq("id", id).single();
+  if (error?.code === NO_ROWS) return null;
+  if (error) throw new Error(`Could not load book ${id}: ${error.message} (${error.code})`);
   return data;
 }
 
@@ -30,7 +40,8 @@ function editionFacts(book: Book, details: BookDetails): [string, string][] {
     ["Language", details.language],
     ["Translated by", details.translator],
     ["Edited by", details.editor],
-    ["Includes", details.included_scope],
+    // A single sentence reads as a fact; a list of works gets its own section
+    ["Includes", details.included_scope?.length === 1 ? details.included_scope[0] : null],
     ["Pages", book.page_count ? String(book.page_count) : null],
     ["Trim size", trimLabel(details.trim_size)],
     ["Restored from", details.source_editions?.join("; ")],
@@ -69,9 +80,17 @@ export default async function BookPage({ params }: { params: Promise<{ id: strin
         }
       : undefined;
 
-  const details: BookDetails = book.details ?? {};
+  const details: BookDetails = readBookDetails(book.details);
+  // A collection's own list of works (with subtitles and dates) says more than
+  // its bookmarks, so it takes the contents' place when there is one
+  const includedWorks = (details.included_scope?.length ?? 0) > 1 ? details.included_scope! : [];
+  const listing = includedWorks.length > 0
+    ? { label: "Works in this volume", entries: includedWorks }
+    : { label: "Contents", entries: details.contents ?? [] };
   const facts = editionFacts(book, details);
-  const previews = Array.isArray(book.preview_urls) ? book.preview_urls : [];
+  const previews = Array.isArray(book.preview_urls)
+    ? book.preview_urls.filter((url): url is string => typeof url === "string")
+    : [];
 
   return (
     <div className="max-w-5xl mx-auto px-6 py-12">
@@ -163,7 +182,7 @@ export default async function BookPage({ params }: { params: Promise<{ id: strin
         </section>
       )}
 
-      {(facts.length > 0 || details.contents?.length || details.omitted?.length) && (
+      {(facts.length > 0 || listing.entries.length > 0) && (
         <section className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-12">
           {facts.length > 0 && (
             <div>
@@ -182,8 +201,8 @@ export default async function BookPage({ params }: { params: Promise<{ id: strin
                     What this edition leaves out
                   </summary>
                   <ul className="mt-3 space-y-2 text-muted leading-relaxed list-disc pl-5">
-                    {details.omitted.map((item) => (
-                      <li key={item}>{item}</li>
+                    {details.omitted.map((item, index) => (
+                      <li key={`${index}-${item}`}>{item}</li>
                     ))}
                   </ul>
                 </details>
@@ -191,11 +210,11 @@ export default async function BookPage({ params }: { params: Promise<{ id: strin
             </div>
           )}
 
-          {details.contents && details.contents.length > 0 && (
+          {listing.entries.length > 0 && (
             <div>
-              <p className="section-label">Contents</p>
+              <p className="section-label">{listing.label}</p>
               <ol className="border-t border-border text-sm max-h-[32rem] overflow-y-auto">
-                {details.contents.map((entry, index) => (
+                {listing.entries.map((entry, index) => (
                   <li key={`${index}-${entry}`} className="py-2 border-b border-border text-ink">
                     {entry}
                   </li>

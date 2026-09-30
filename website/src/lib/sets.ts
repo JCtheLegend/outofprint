@@ -5,6 +5,9 @@ import { formatPriceCents, type BookFormat } from "@/lib/formats";
 /** PostgREST's code for "that table isn't in the schema cache". */
 const TABLE_NOT_FOUND = "PGRST205";
 
+/** PostgREST's code for `.single()` matching no row. */
+const NO_ROWS = "PGRST116";
+
 /**
  * Sets are additive: a project whose database predates them still serves the
  * rest of the catalog, so a missing `book_sets` table is a one-line hint about
@@ -140,12 +143,20 @@ export async function getSetBySlug(slug: string): Promise<BookSetWithVolumes | n
     .eq("slug", slug)
     .single();
 
-  if (error || !set) return null;
+  // No such set, or no sets table yet, is a 404; anything else is a real
+  // failure, which must not be baked into the build as a missing page.
+  if (error && error.code !== NO_ROWS && error.code !== TABLE_NOT_FOUND) {
+    throw new Error(`Could not load set ${slug}: ${error.message} (${error.code})`);
+  }
+  if (!set) return null;
 
-  const { data: volumes } = await supabase
+  const { data: volumes, error: volumesError } = await supabase
     .from("books")
     .select("*")
     .eq("set_id", set.id);
+  if (volumesError) {
+    throw new Error(`Could not load volumes of set ${slug}: ${volumesError.message}`);
+  }
 
   return { ...set, volumes: sortVolumes(volumes ?? []) };
 }

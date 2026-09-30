@@ -16,7 +16,7 @@ There is no repo-root `package.json`; all npm commands run from `website/`.
 cd website
 npm run dev                 # local dev server
 npx tsc --noEmit            # typecheck — run this before calling work done
-npm run build               # next build (hits the real Supabase for static params)
+npm run build               # next build (hits the real Supabase; prebuild clears the fetch cache)
 npm run build:cf            # opennextjs-cloudflare build
 npm run deploy              # deploy to Cloudflare Workers
 ```
@@ -187,6 +187,26 @@ sources, what was omitted, and contents from the interior PDF's top-level
 bookmarks). It also renders the first 12 interior pages and the whole wraparound
 cover into the **public** `book-covers` bucket (`preview_urls`, `full_cover_url`).
 The interior PDF itself stays private — never link to it from the site.
+
+- `details` comes from hand-written metadata and is not uniform (`included_scope`
+  is a sentence in one book, a list of `{title, subtitle}` works in another).
+  Always read it through `readBookDetails` (`lib/details.ts`), which keeps only
+  strings and string lists — rendering an object crashes the page. The uploader
+  flattens it too (`_text` / `_text_list`), but the page must not trust that.
+
+## Builds and errors
+
+- Next caches every Supabase response a static page fetches in
+  `.next/cache/fetch-cache`, and **reuses it on the next build** — builds were
+  serving weeks-old catalog data, and corrupted entries baked 65 working books
+  into the build as 404s. The `prebuild` script deletes that directory, and
+  `npm run build:cf` runs `npm run build`, so deploys read the live catalog.
+- Page data loaders (`getBook`, `getSetBySlug`) return null only for a genuinely
+  missing row (`PGRST116`) and **throw on any other error**, so a failed query
+  fails the build loudly instead of quietly publishing a 404.
+- `app/error.tsx` catches a page that throws (inside the normal layout, showing
+  the error digest as a reference), `app/global-error.tsx` a failed root layout,
+  and `app/not-found.tsx` a missing book, set or order.
 
 ## Order tracking
 

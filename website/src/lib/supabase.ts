@@ -39,13 +39,15 @@ export type Book = {
 };
 
 // Facts the pipeline recorded about an edition; every field is optional.
+// Read it through readBookDetails (lib/details.ts), never straight off the row.
 export type BookDetails = {
   subtitle?: string;
   original_publication?: string;
   language?: string;
   translator?: string;
   editor?: string;
-  included_scope?: string;
+  // A sentence, or one entry per work in a collection
+  included_scope?: string[];
   trim_size?: string;
   contents?: string[];
   source_editions?: string[];
