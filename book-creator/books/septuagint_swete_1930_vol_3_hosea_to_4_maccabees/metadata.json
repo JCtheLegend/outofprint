@@ -221,7 +221,19 @@
       "front_author_text": "",
       "cover_author_suppressed_for_unknown_or_collective": true,
       "existing_artwork_preserved": true,
-      "author_text_removed": true
+      "author_text_removed": true,
+      "front_subtitle_text": "Volume III",
+      "front_subtitle_lines": [
+        "Volume III"
+      ],
+      "front_subtitle_font_size_px": 46,
+      "front_subtitle_font": "Times New Roman Italic",
+      "front_subtitle_rect_pt": [
+        700.4435212178385,
+        344.752,
+        753.9564899678385,
+        362.416
+      ]
     },
     "hardcover": {
       "front_width_px": 1838,
@@ -307,7 +319,19 @@
       "front_author_text": "",
       "cover_author_suppressed_for_unknown_or_collective": true,
       "existing_artwork_preserved": true,
-      "author_text_removed": true
+      "author_text_removed": true,
+      "front_subtitle_text": "Volume III",
+      "front_subtitle_lines": [
+        "Volume III"
+      ],
+      "front_subtitle_font_size_px": 46,
+      "front_subtitle_font": "Times New Roman Italic",
+      "front_subtitle_rect_pt": [
+        774.3635556265862,
+        406.252,
+        827.8765243765862,
+        423.916
+      ]
     }
   },
   "interior_standard": "specialized-greek-times-10.5",
@@ -355,14 +379,14 @@
     "approved_page_count": 406,
     "approved_pdf_sha256": {
       "septuagint_swete_1930_vol_3_hosea_to_4_maccabees_interior.pdf": "55a1548932e58aedd929ae591b15ec69e206755c0067db4be0fdef8a85091ce7",
-      "septuagint_swete_1930_vol_3_hosea_to_4_maccabees_paperback_cover.pdf": "c4de0257a067f6fcda73765554761df5e6b68a2e09cd4bf8f004a8719d4a341e",
-      "septuagint_swete_1930_vol_3_hosea_to_4_maccabees_hardcover_cover.pdf": "92f9d1da704dd9dfec1108c079bae6e7a8ad5c894a4b053ccf74d48dc91755e6"
+      "septuagint_swete_1930_vol_3_hosea_to_4_maccabees_paperback_cover.pdf": "d4dd8e8542c91e9f71883b012ac2c955dae8678c3a730d2499c19d99b44a5bee",
+      "septuagint_swete_1930_vol_3_hosea_to_4_maccabees_hardcover_cover.pdf": "9c71551b13bc0042caf0cceec1769e4e125572cf6fd8f56a16c9848ef7b65015"
     },
     "approved_revision": "Current installed 406-page edition, accepted as shown",
     "github_update_authorized": true,
     "existing_layout_accepted": true,
-    "cover_revision_authorized_at": "2026-09-27T18:39:57-04:00",
-    "cover_revision_basis": "User explicitly requested removing all author mentions from all six covers and reuploading all three approved volumes."
+    "cover_revision_authorized_at": "2026-09-29T20:40:29-04:00",
+    "cover_revision_basis": "User requested volume subtitles on the Septuagint front covers, within the ongoing approved-cover revision and reupload workflow."
   },
   "revision_history": {
     "review_approval_before_cover_author_removal_20260927": {
@@ -378,6 +402,22 @@
       "approved_revision": "Current installed 406-page edition, accepted as shown",
       "github_update_authorized": true,
       "existing_layout_accepted": true
+    },
+    "review_approval_before_cover_volume_subtitle_20260929": {
+      "status": "approved",
+      "approved_by": "user",
+      "approved_at": "2026-09-27T18:27:37-04:00",
+      "approved_page_count": 406,
+      "approved_pdf_sha256": {
+        "septuagint_swete_1930_vol_3_hosea_to_4_maccabees_interior.pdf": "55a1548932e58aedd929ae591b15ec69e206755c0067db4be0fdef8a85091ce7",
+        "septuagint_swete_1930_vol_3_hosea_to_4_maccabees_paperback_cover.pdf": "c4de0257a067f6fcda73765554761df5e6b68a2e09cd4bf8f004a8719d4a341e",
+        "septuagint_swete_1930_vol_3_hosea_to_4_maccabees_hardcover_cover.pdf": "92f9d1da704dd9dfec1108c079bae6e7a8ad5c894a4b053ccf74d48dc91755e6"
+      },
+      "approved_revision": "Current installed 406-page edition, accepted as shown",
+      "github_update_authorized": true,
+      "existing_layout_accepted": true,
+      "cover_revision_authorized_at": "2026-09-27T18:39:57-04:00",
+      "cover_revision_basis": "User explicitly requested removing all author mentions from all six covers and reuploading all three approved volumes."
     }
   },
   "cover_author_revision_20260927": {
@@ -394,5 +434,21 @@
     },
     "backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\archive\\septuagint_cover_authors_20260927\\septuagint_swete_1930_vol_3_hosea_to_4_maccabees",
     "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\septuagint_cover_authors_20260927\\verification.json"
+  },
+  "cover_subtitle": "Volume III",
+  "cover_volume_subtitle_revision_20260929": {
+    "front_subtitle": "Volume III",
+    "author_credits_omitted": true,
+    "revised_at": "2026-09-29T20:40:29-04:00",
+    "interior_preserved": true,
+    "cover_dimensions_preserved": true,
+    "all_other_cover_pixels_preserved": true,
+    "current_pdf_sha256": {
+      "septuagint_swete_1930_vol_3_hosea_to_4_maccabees_interior.pdf": "55a1548932e58aedd929ae591b15ec69e206755c0067db4be0fdef8a85091ce7",
+      "septuagint_swete_1930_vol_3_hosea_to_4_maccabees_paperback_cover.pdf": "d4dd8e8542c91e9f71883b012ac2c955dae8678c3a730d2499c19d99b44a5bee",
+      "septuagint_swete_1930_vol_3_hosea_to_4_maccabees_hardcover_cover.pdf": "9c71551b13bc0042caf0cceec1769e4e125572cf6fd8f56a16c9848ef7b65015"
+    },
+    "backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\archive\\septuagint_cover_volumes_20260929\\septuagint_swete_1930_vol_3_hosea_to_4_maccabees",
+    "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\septuagint_cover_volumes_20260929\\verification.json"
   }
 }

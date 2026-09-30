@@ -241,7 +241,19 @@
       "existing_artwork_preserved": true,
       "front_author_text": "",
       "cover_author_suppressed_for_unknown_or_collective": true,
-      "author_text_removed": true
+      "author_text_removed": true,
+      "front_subtitle_text": "Volume I",
+      "front_subtitle_lines": [
+        "Volume I"
+      ],
+      "front_subtitle_font_size_px": 46,
+      "front_subtitle_font": "Times New Roman Italic",
+      "front_subtitle_rect_pt": [
+        715.1599574219723,
+        344.752,
+        761.3201136719723,
+        362.416
+      ]
     },
     "hardcover": {
       "front_width_px": 1838,
@@ -328,7 +340,19 @@
       "existing_artwork_preserved": true,
       "front_author_text": "",
       "cover_author_suppressed_for_unknown_or_collective": true,
-      "author_text_removed": true
+      "author_text_removed": true,
+      "front_subtitle_text": "Volume I",
+      "front_subtitle_lines": [
+        "Volume I"
+      ],
+      "front_subtitle_font_size_px": 46,
+      "front_subtitle_font": "Times New Roman Italic",
+      "front_subtitle_rect_pt": [
+        791.4799182231125,
+        406.252,
+        837.6400744731125,
+        423.916
+      ]
     }
   },
   "interior_standard": "specialized-greek-times-10.5",
@@ -369,6 +393,21 @@
       },
       "approved_revision": "20260927-paragraphing",
       "github_update_authorized": true
+    },
+    "review_approval_before_cover_volume_subtitle_20260929": {
+      "status": "approved",
+      "approved_by": "user",
+      "approved_at": "2026-09-27T18:00:00-04:00",
+      "approved_page_count": 473,
+      "approved_pdf_sha256": {
+        "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_interior.pdf": "3383a3722489911455f0fcdac51222614c12fcee44476507d98f0baf0de3c9b0",
+        "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_paperback_cover.pdf": "b2162a26a63a7bff1b5637891340a3aade07d27d3006649b70bc8885c36c55db",
+        "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_hardcover_cover.pdf": "bb2c283ff57d3bdb5fd963d7f66a2d1f6eaba324ec5b0d4f6436c6bda9a26025"
+      },
+      "approved_revision": "20260927-paragraphing",
+      "github_update_authorized": true,
+      "cover_revision_authorized_at": "2026-09-27T18:39:57-04:00",
+      "cover_revision_basis": "User explicitly requested removing all author mentions from all six covers and reuploading all three approved volumes."
     }
   },
   "paragraphing_revision_20260927": {
@@ -408,13 +447,13 @@
     "approved_page_count": 473,
     "approved_pdf_sha256": {
       "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_interior.pdf": "3383a3722489911455f0fcdac51222614c12fcee44476507d98f0baf0de3c9b0",
-      "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_paperback_cover.pdf": "b2162a26a63a7bff1b5637891340a3aade07d27d3006649b70bc8885c36c55db",
-      "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_hardcover_cover.pdf": "bb2c283ff57d3bdb5fd963d7f66a2d1f6eaba324ec5b0d4f6436c6bda9a26025"
+      "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_paperback_cover.pdf": "83fce00664306522cf144575d28f8c1b02a37d7330c0a7f4049583693d7abbce",
+      "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_hardcover_cover.pdf": "fff497afd50435c3dabee44618fdb656f44edd63a9c0791165bbc685b06c0d63"
     },
     "approved_revision": "20260927-paragraphing",
     "github_update_authorized": true,
-    "cover_revision_authorized_at": "2026-09-27T18:39:57-04:00",
-    "cover_revision_basis": "User explicitly requested removing all author mentions from all six covers and reuploading all three approved volumes."
+    "cover_revision_authorized_at": "2026-09-29T20:40:29-04:00",
+    "cover_revision_basis": "User requested volume subtitles on the Septuagint front covers, within the ongoing approved-cover revision and reupload workflow."
   },
   "cover_author_revision_20260927": {
     "author_credits_omitted": true,
@@ -430,5 +469,21 @@
     },
     "backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\archive\\septuagint_cover_authors_20260927\\septuagint_swete_1930_vol_1_genesis_to_4_kingdoms",
     "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\septuagint_cover_authors_20260927\\verification.json"
+  },
+  "cover_subtitle": "Volume I",
+  "cover_volume_subtitle_revision_20260929": {
+    "front_subtitle": "Volume I",
+    "author_credits_omitted": true,
+    "revised_at": "2026-09-29T20:40:29-04:00",
+    "interior_preserved": true,
+    "cover_dimensions_preserved": true,
+    "all_other_cover_pixels_preserved": true,
+    "current_pdf_sha256": {
+      "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_interior.pdf": "3383a3722489911455f0fcdac51222614c12fcee44476507d98f0baf0de3c9b0",
+      "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_paperback_cover.pdf": "83fce00664306522cf144575d28f8c1b02a37d7330c0a7f4049583693d7abbce",
+      "septuagint_swete_1930_vol_1_genesis_to_4_kingdoms_hardcover_cover.pdf": "fff497afd50435c3dabee44618fdb656f44edd63a9c0791165bbc685b06c0d63"
+    },
+    "backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\archive\\septuagint_cover_volumes_20260929\\septuagint_swete_1930_vol_1_genesis_to_4_kingdoms",
+    "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\septuagint_cover_volumes_20260929\\verification.json"
   }
 }
