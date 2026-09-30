@@ -311,7 +311,16 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 203
+      "cover_page_count_used": 203,
+      "front_author_text": "",
+      "cover_author_suppressed_for_unknown_or_collective": true,
+      "author_credit_region_removed_px": [
+        2302,
+        1478,
+        3484,
+        1552
+      ],
+      "existing_artwork_preserved": true
     },
     "hardcover": {
       "front_width_px": 1838,
@@ -414,7 +423,16 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 203
+      "cover_page_count_used": 203,
+      "front_author_text": "",
+      "cover_author_suppressed_for_unknown_or_collective": true,
+      "author_credit_region_removed_px": [
+        2738,
+        1706,
+        3676,
+        1822
+      ],
+      "existing_artwork_preserved": true
     }
   },
   "cover_revision": {
@@ -438,5 +456,22 @@
     "font_change_scope": "Palatino Linotype body and running headers",
     "special_glyph_fallback": "Embedded Times New Roman TrueType for Ǣ, ǣ, ȳ only",
     "math_font": null
+  },
+  "cover_author_revision_20260930": {
+    "basis": "User requested removal of all authors from the Beowulf front cover and reupload of the book.",
+    "revised_at": "2026-09-30T18:56:21-04:00",
+    "front_author_credits_removed": true,
+    "author_metadata_preserved": true,
+    "spine_already_omits_authors": true,
+    "interior_preserved": true,
+    "cover_dimensions_preserved": true,
+    "all_other_cover_pixels_preserved": true,
+    "current_pdf_sha256": {
+      "anglo_saxon_beowulf_and_fight_at_finnsburg_interior.pdf": "51121e98c42d81f266bcb2391dd58c624539ffa350bda7838605b5da25d5d98b",
+      "anglo_saxon_beowulf_and_fight_at_finnsburg_paperback_cover.pdf": "d913b31153b1988032eb27bd6d4cf75fcf953ab1e1a6ccff43beeee16f2dc09a",
+      "anglo_saxon_beowulf_and_fight_at_finnsburg_hardcover_cover.pdf": "a6cf0807a162ba8886460999afcc437ae315a82900ee8b1e9196972d47e1dd98"
+    },
+    "backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\archive\\beowulf_cover_authors_20260930\\approved\\anglo_saxon_beowulf_and_fight_at_finnsburg",
+    "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\beowulf_cover_authors_20260930\\verification.json"
   }
 }
