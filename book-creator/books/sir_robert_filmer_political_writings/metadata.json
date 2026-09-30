@@ -296,7 +296,17 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 263
+      "cover_page_count_used": 263,
+      "front_subtitle_text": "",
+      "front_subtitle_lines": [],
+      "front_subtitle_font_size_px": 0,
+      "subtitle_region_removed_px": [
+        2343,
+        1443,
+        3525,
+        1515
+      ],
+      "existing_artwork_preserved": true
     },
     "hardcover": {
       "front_width_px": 1838,
@@ -399,7 +409,17 @@
       "spine_title_hierarchy_valid": true,
       "spine_title_author_size_match": true,
       "spine_volume_hierarchy_valid": true,
-      "cover_page_count_used": 263
+      "cover_page_count_used": 263,
+      "front_subtitle_text": "",
+      "front_subtitle_lines": [],
+      "front_subtitle_font_size_px": 0,
+      "subtitle_region_removed_px": [
+        2775,
+        1700,
+        3713,
+        1810
+      ],
+      "existing_artwork_preserved": true
     }
   },
   "store_price_cents": 3000,
@@ -417,5 +437,24 @@
     "font_change_scope": "running headers only",
     "special_glyph_fallback": null,
     "math_font": null
+  },
+  "cover_subtitle": "",
+  "cover_subtitle_revision_20260930": {
+    "basis": "User requested removal of the subtitle from the Filmer front cover as a continuation of the cover correction and reupload workflow.",
+    "revised_at": "2026-09-30T19:03:06-04:00",
+    "front_subtitle_removed": true,
+    "catalog_subtitle_preserved": true,
+    "author_metadata_preserved": true,
+    "author_credits_preserved": true,
+    "interior_preserved": true,
+    "cover_dimensions_preserved": true,
+    "all_other_cover_pixels_preserved": true,
+    "current_pdf_sha256": {
+      "sir_robert_filmer_political_writings_interior.pdf": "c080370e28a05994d0eb31fedca0036328fe2c5b299e952919e6bf9c2f128241",
+      "sir_robert_filmer_political_writings_paperback_cover.pdf": "e41b0ff03ec8e50b5662b2da0a0c704ec2a88111a6cf56fe0b9cecb301144f73",
+      "sir_robert_filmer_political_writings_hardcover_cover.pdf": "7bf2dcf5d48d6a5ef5e56a4c352275125a51d199fa9bfbe9e77f7b4d15f6a7c3"
+    },
+    "backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\archive\\filmer_cover_subtitle_20260930\\approved\\sir_robert_filmer_political_writings",
+    "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\filmer_cover_subtitle_20260930\\verification.json"
   }
 }
