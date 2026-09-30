@@ -124,6 +124,8 @@ export type LuluCostCalculation = {
   line_item_costs: LuluCost[];
   shipping_cost: LuluCost;
   fulfillment_cost: LuluCost;
+  /** Sales tax/VAT Lulu charges on the whole job: books, shipping and fee */
+  total_tax: string;
 };
 
 /** Payload Lulu posts for the PRINT_JOB_STATUS_CHANGED topic. */

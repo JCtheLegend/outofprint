@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
@@ -36,7 +37,9 @@ export function CancelOrderButton({
       <p className="font-serif text-base font-semibold mb-1">Changed your mind?</p>
       <p className="text-sm text-muted leading-relaxed mb-4">
         You can cancel {bookCount > 1 ? "this order" : "this book"} until{" "}
-        <strong className="text-ink">{deadlineLabel}</strong> and get a full refund. After that
+        <strong className="text-ink">{deadlineLabel}</strong> and be refunded, less our card
+        processor&apos;s fee (see our{" "}
+        <Link href="/policies" className="text-rust hover:underline">policy</Link>). After that
         it goes to the printer — every book is made to order, so it can&apos;t be cancelled once
         printing starts.
       </p>

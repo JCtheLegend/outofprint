@@ -4,15 +4,18 @@ import { useState } from "react";
 import Link from "next/link";
 import { useCart } from "@/components/cart/CartProvider";
 import type { CartItemKind } from "@/lib/cart";
+import { DEFAULT_FORMAT, type BookFormat } from "@/lib/formats";
 
 export function AddToCartButton({
   kind,
   id,
+  format = DEFAULT_FORMAT,
   label = "Add to Cart",
   className = "btn-outline w-full",
 }: {
   kind: CartItemKind;
   id: string;
+  format?: BookFormat;
   label?: string;
   className?: string;
 }) {
@@ -20,12 +23,12 @@ export function AddToCartButton({
   const [justAdded, setJustAdded] = useState(false);
 
   function handleAdd() {
-    add(kind, id);
+    add({ kind, id, format });
     setJustAdded(true);
   }
 
   // Once it's in the cart, the useful next step is going there
-  if (justAdded || has(kind, id)) {
+  if (justAdded || has({ kind, id, format })) {
     return (
       <div className={className.includes("w-full") ? "w-full" : ""}>
         <Link href="/cart" className={`${className} block text-center`}>

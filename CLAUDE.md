@@ -75,7 +75,7 @@ grouping and a bundle price, never a separate product.
 - The webhook re-reads the volumes from `set_id` (metadata only carries the set id,
   since Stripe caps a metadata value at 500 characters) and creates one order row and
   one print job per volume — one physical book per print job. `orders` is therefore
-  unique on `(stripe_session_id, book_id)`, not on `stripe_session_id` alone.
+  unique on `(stripe_session_id, book_id, format)`, not on `stripe_session_id` alone.
 
 ## Shopping cart
 
@@ -140,16 +140,53 @@ The upload workflow re-prices every book weekly with `--price-only`.
   as `promoCode`. It charges `print_cost_cents` for every book — sets volume by
   volume, with no bundle discount — and tags the Stripe session
   `pricing: wholesale`. An unknown code is a 400, never silently ignored.
-- Shipping is Lulu's own quote for the whole cart — shipping plus its per-order
-  fulfilment fee, before tax — from `quoteShippingCents` in `lib/shipping.ts`,
-  charged as one Stripe shipping option, promo code or not. Hosted Checkout can't
-  re-price shipping once an address is entered, so the customer picks a country
-  (`ShipToSelect`, remembered in localStorage) before checkout, `/api/checkout`
-  takes it as `country` (default `US`), and Checkout only accepts addresses there.
-  The country list lives in `lib/shipping-countries.ts` so client code can import
-  it without the Lulu client.
+- Shipping and sales tax are what Lulu charges for the whole cart, from
+  `quoteOrderCharges` in `lib/shipping.ts`: shipping plus its per-order fulfilment
+  fee as one Stripe shipping option, and Lulu's `total_tax` (on books, shipping and
+  fee) as a separate "Sales tax" line item — promo code or not. Book prices stay
+  pre-tax so they match the catalog.
+- Lulu taxes at the destination's local rate (0% in Oregon and the UK, over 10% in
+  Seattle) and will only quote a postcode together with its state or province.
+  Hosted Checkout can't re-price after the address is typed, so the customer fills
+  in country, state/province and postcode first (`ShipToFields`, remembered in
+  localStorage) and `/api/checkout` takes it as `destination`. A bare `country`
+  (from a cached page) is quoted at a fixed national address instead. Checkout
+  only accepts addresses in that country; Stripe can't hold the customer to the
+  state, so the webhook logs a warning when the address typed differs from the
+  postcode tax was quoted for (`taxRegion` / `taxPostcode` in session metadata).
+  The country and region lists live in `lib/shipping-countries.ts` so client code
+  can import them without the Lulu client.
 - Cloudflare in front of Lulu's API rejects Python's default `urllib`
   User-Agent, so the uploader sends its own.
+
+## Formats (paperback and hardcover)
+
+Every book is a perfect-bound paperback; most are also a casewrap hardcover. The
+paperback keeps the columns `books` always had (`price_cents`, `print_cost_cents`,
+`cover_pdf_url`, `pod_package_id`); the hardcover has `hardcover_` counterparts,
+null when the book folder has no `hardcover_cover_filename`. `lib/formats.ts` is
+the only place that picks a column by format — go through it.
+
+- A cart item, a Stripe line item's product metadata (`{ bookId, format }`) and an
+  order row all carry `format`; anything without one is a paperback, so older carts
+  and sessions still work. The same book in both formats is two cart lines and two
+  order rows.
+- A hardcover prints from its own wraparound (`hardcover_cover_pdf_url`) and SKU
+  (the paperback SKU with `CW` for `PB`). `hasFormat` requires all three hardcover
+  columns so a hardcover can never fall back to the paperback's cover or SKU.
+- A set is bought in one format across every volume, and only in a format every
+  volume has (`commonFormats`). The bundle price is a paperback price; a hardcover
+  set is its volumes' hardcover prices added up.
+
+## Book page
+
+`/catalog/[id]` shows the edition's own facts, not marketing copy: most books
+have no `store_description`, so the uploader stores what the pipeline recorded
+in `books.details` (subtitle, original publication, language, translator,
+sources, what was omitted, and contents from the interior PDF's top-level
+bookmarks). It also renders the first 12 interior pages and the whole wraparound
+cover into the **public** `book-covers` bucket (`preview_urls`, `full_cover_url`).
+The interior PDF itself stays private — never link to it from the site.
 
 ## Order tracking
 
@@ -183,6 +220,10 @@ policy and the printer's behaviour are the same number and cannot drift.
 - `/orders/<id>` offers cancellation while the window is open; `/api/orders/<id>/cancel`
   does the work, keyed only on the order id, the same capability that opens the page.
 - Order of operations is deliberate: **stop the printer, then refund, then record it.**
+- The refund is what was paid **less Stripe's processing fee**, read from the charge's
+  balance transaction (`lib/refunds.ts`). Stripe keeps its fee on a refund, so a full
+  refund cost us the fee. `/policies`, the cancel button and the email all say so, and
+  `orders.refund_cents` records the amount.
   A refund against a book already printing is the expensive mistake; a canceled job
   whose refund or bookkeeping failed is recoverable by retrying.
 - Lulu allows `CREATED`, `UNPAID`, `PAYMENT_IN_PROGRESS` and `PRODUCTION_DELAYED`

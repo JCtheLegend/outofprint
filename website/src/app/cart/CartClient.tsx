@@ -8,8 +8,9 @@ import { supabase, type Book, type BookSet } from "@/lib/supabase";
 import { formatPrice } from "@/lib/format";
 import { setPriceCents, sortVolumes, volumeLabel } from "@/lib/sets";
 import { useCart } from "@/components/cart/CartProvider";
-import { MAX_QUANTITY, type CartItem } from "@/lib/cart";
-import { ShipToSelect, useShipTo } from "@/components/cart/ShipTo";
+import { MAX_QUANTITY, cartItemKey, type CartItem } from "@/lib/cart";
+import { FORMAT_LABELS, formatPriceCents, hasFormat } from "@/lib/formats";
+import { ShipToFields, shipToDestination, useShipTo } from "@/components/cart/ShipTo";
 
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!);
 
@@ -32,14 +33,15 @@ function resolve(items: CartItem[], books: Book[], sets: BookSet[], volumes: Boo
   return items.flatMap<ResolvedItem>((item) => {
     if (item.kind === "book") {
       const book = bookById.get(item.id);
-      if (!book) return [];
+      // A format that has since been withdrawn drops out like a deleted book
+      if (!book || !hasFormat(book, item.format)) return [];
       const volume = volumeLabel(book);
       return [{
         item,
         title: volume ? `${book.title} — ${volume}` : book.title,
-        subtitle: `${book.author}${book.year ? ` · ${book.year}` : ""}`,
+        subtitle: `${book.author}${book.year ? ` · ${book.year}` : ""} · ${FORMAT_LABELS[item.format]}`,
         coverUrl: book.cover_url,
-        unitPriceCents: book.price_cents,
+        unitPriceCents: formatPriceCents(book, item.format),
         href: `/catalog/${book.id}`,
         volumes: [],
       }];
@@ -48,12 +50,13 @@ function resolve(items: CartItem[], books: Book[], sets: BookSet[], volumes: Boo
     const set = setById.get(item.id);
     if (!set) return [];
     const setVolumes = sortVolumes(volumes.filter((v) => v.set_id === set.id));
+    if (setVolumes.some((v) => !hasFormat(v, item.format))) return [];
     return [{
       item,
       title: set.title,
-      subtitle: `${set.author} · complete set of ${setVolumes.length}`,
+      subtitle: `${set.author} · complete set of ${setVolumes.length} · ${FORMAT_LABELS[item.format]}`,
       coverUrl: set.cover_url ?? setVolumes.find((v) => v.cover_url)?.cover_url ?? null,
-      unitPriceCents: setPriceCents(set, setVolumes),
+      unitPriceCents: setPriceCents(set, setVolumes, item.format),
       href: `/catalog/set/${set.slug}`,
       volumes: setVolumes.map((v) => volumeLabel(v) || v.title),
     }];
@@ -66,7 +69,7 @@ export function CartClient() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [promoCode, setPromoCode] = useState("");
-  const [country, setCountry] = useShipTo();
+  const [shipTo, setShipTo] = useShipTo();
 
   const bookIds = useMemo(
     () => items.filter((i) => i.kind === "book").map((i) => i.id),
@@ -125,12 +128,20 @@ export function CartClient() {
   async function handleCheckout() {
     setLoading(true);
     setError(null);
+
+    // Shipping and tax are quoted for the customer's own postcode
+    const ship = shipToDestination(shipTo);
+    if ("missing" in ship) {
+      setError(ship.missing);
+      setLoading(false);
+      return;
+    }
     try {
       const res = await fetch("/api/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         // Checked, and priced, only on the server
-        body: JSON.stringify({ items, country, promoCode: promoCode.trim() || undefined }),
+        body: JSON.stringify({ items, destination: ship.destination, promoCode: promoCode.trim() || undefined }),
       });
       if (!res.ok) {
         const { error: msg } = await res.json();
@@ -167,7 +178,7 @@ export function CartClient() {
       <ul className="border-t border-border mb-8">
         {resolved.map((row) => (
           <li
-            key={`${row.item.kind}:${row.item.id}`}
+            key={cartItemKey(row.item)}
             className="flex gap-4 py-5 border-b border-border"
           >
             <Link href={row.href} className="relative w-16 md:w-20 aspect-[2/3] bg-ink/10 shrink-0">
@@ -194,7 +205,7 @@ export function CartClient() {
                   Qty
                   <select
                     value={row.item.quantity}
-                    onChange={(e) => setQuantity(row.item.kind, row.item.id, Number(e.target.value))}
+                    onChange={(e) => setQuantity(row.item, Number(e.target.value))}
                     className="border border-border bg-white px-2 py-1 text-sm text-ink outline-none focus:border-rust"
                   >
                     {Array.from({ length: MAX_QUANTITY }, (_, i) => i + 1).map((n) => (
@@ -204,7 +215,7 @@ export function CartClient() {
                 </label>
                 <button
                   type="button"
-                  onClick={() => remove(row.item.kind, row.item.id)}
+                  onClick={() => remove(row.item)}
                   className="text-xs text-muted underline hover:text-rust transition-colors cursor-pointer"
                 >
                   Remove
@@ -229,11 +240,12 @@ export function CartClient() {
         <span className="font-serif text-2xl font-semibold text-rust">{formatPrice(subtotal)}</span>
       </div>
       <p className="text-xs text-muted mb-6">
-        Shipping is quoted at checkout at what our printer charges to send it.
-        Everything in one order is printed and shipped together.
+        Shipping and sales tax are added at checkout, at exactly what our printer
+        charges us for your postcode. Everything in one order is printed and shipped
+        together.
       </p>
 
-      <ShipToSelect value={country} onChange={setCountry} />
+      <ShipToFields value={shipTo} onChange={setShipTo} />
 
       <label className="block mb-4">
         <span className="section-label block mb-1">Promo code</span>

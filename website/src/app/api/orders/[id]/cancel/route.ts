@@ -1,10 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
-import { stripe } from "@/lib/stripe";
 import { supabaseAdmin, type Order } from "@/lib/supabase";
 import { cancelPrintJob } from "@/lib/print";
 import { isCancelable, cancelDeadline } from "@/lib/orders";
 import { orderStatusUrl, resolveSiteUrl } from "@/lib/site";
 import { sendCancellationConfirmation } from "@/lib/email";
+import { refundLessProcessingFee, type CancellationRefund } from "@/lib/refunds";
+import { orderedBookTitle } from "@/lib/formats";
 
 /**
  * Cancel an order and refund it.
@@ -73,22 +74,14 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ id:
     }
   }
 
-  // 2. Refund the payment in full
-  let refundId = rows.find((row) => row.refund_id)?.refund_id ?? null;
+  // 2. Refund what was paid, less Stripe's processing fee — see lib/refunds.ts
+  const previous = rows.find((row) => row.refund_id);
+  let refundId = previous?.refund_id ?? null;
+  let refund: CancellationRefund | null = null;
   if (!refundId) {
     try {
-      const session = await stripe.checkout.sessions.retrieve(order.stripe_session_id);
-      const paymentIntent =
-        typeof session.payment_intent === "string"
-          ? session.payment_intent
-          : session.payment_intent?.id;
-
-      if (paymentIntent) {
-        const refund = await stripe.refunds.create({ payment_intent: paymentIntent });
-        refundId = refund.id;
-      } else {
-        console.error(`No payment intent on session ${order.stripe_session_id}`);
-      }
+      refund = await refundLessProcessingFee(order.stripe_session_id);
+      refundId = refund?.refundId ?? null;
     } catch (err) {
       // The print job is stopped, so nothing will be shipped. Record the
       // cancellation anyway and refund by hand rather than leaving the
@@ -103,6 +96,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ id:
       status: "canceled",
       canceled_at: new Date().toISOString(),
       refund_id: refundId,
+      refund_cents: refund?.refundCents ?? previous?.refund_cents ?? null,
       lulu_status: "CANCELED",
     })
     .in("id", rows.map((row) => row.id));
@@ -121,16 +115,11 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ id:
     await sendCancellationConfirmation(
       order.customer_email,
       order.customer_name,
-      rows.map((row) => {
-        const book = books?.find((b) => b.id === row.book_id);
-        const title = book
-          ? book.volume_label
-            ? `${book.title} — ${book.volume_label}`
-            : book.title
-          : "your book";
-        return { title, quantity: row.quantity ?? 1 };
-      }),
-      Boolean(refundId),
+      rows.map((row) => ({
+        title: orderedBookTitle(books?.find((b) => b.id === row.book_id), row.format),
+        quantity: row.quantity ?? 1,
+      })),
+      refund ? { refundCents: refund.refundCents, feeCents: refund.feeCents } : null,
       order.id,
       orderStatusUrl(resolveSiteUrl(req), order.id)
     );

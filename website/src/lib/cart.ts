@@ -7,20 +7,27 @@
  * rows, so a stale cart can never buy a book at yesterday's price.
  */
 
+import { DEFAULT_FORMAT, isBookFormat, type BookFormat } from "@/lib/formats";
+
 export type CartItemKind = "book" | "set";
 
 export type CartItem = {
   kind: CartItemKind;
   /** books.id or book_sets.id */
   id: string;
+  /** A set is bought in one format across every volume */
+  format: BookFormat;
   quantity: number;
 };
+
+/** What identifies a line in the cart: the same book in two formats is two lines. */
+export type CartItemRef = Pick<CartItem, "kind" | "id" | "format">;
 
 export const CART_STORAGE_KEY = "oop.cart.v1";
 export const MAX_QUANTITY = 20;
 
-export function cartItemKey(item: Pick<CartItem, "kind" | "id">): string {
-  return `${item.kind}:${item.id}`;
+export function cartItemKey(item: CartItemRef): string {
+  return `${item.kind}:${item.id}:${item.format}`;
 }
 
 export function clampQuantity(quantity: number): number {
@@ -37,14 +44,16 @@ export function normalizeCart(value: unknown): CartItem[] {
 
   for (const raw of value) {
     if (!raw || typeof raw !== "object") continue;
-    const { kind, id, quantity } = raw as Partial<CartItem>;
+    const { kind, id, quantity, format: rawFormat } = raw as Partial<CartItem>;
     if ((kind !== "book" && kind !== "set") || typeof id !== "string" || !id) continue;
+    // Carts saved before hardcovers existed hold paperbacks
+    const format = isBookFormat(rawFormat) ? rawFormat : DEFAULT_FORMAT;
 
-    const key = cartItemKey({ kind, id });
+    const key = cartItemKey({ kind, id, format });
     if (seen.has(key)) continue;
     seen.add(key);
 
-    items.push({ kind, id, quantity: clampQuantity(Number(quantity ?? 1)) });
+    items.push({ kind, id, format, quantity: clampQuantity(Number(quantity ?? 1)) });
   }
 
   return items;

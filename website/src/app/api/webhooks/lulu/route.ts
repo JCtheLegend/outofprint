@@ -3,6 +3,7 @@ import { supabaseAdmin, type Order } from "@/lib/supabase";
 import { verifyLuluWebhook, type LuluLineItemStatus, type LuluWebhookPayload } from "@/lib/lulu";
 import { resolveSiteUrl, orderStatusUrl } from "@/lib/site";
 import { sendShipmentNotification } from "@/lib/email";
+import { orderedBookTitle } from "@/lib/formats";
 
 /**
  * Lulu print job status updates.
@@ -126,17 +127,15 @@ export async function POST(req: NextRequest) {
         .select("id,title,volume_label")
         .in("id", shippedNow.map((o) => o.book_id));
 
-      const titleFor = (bookId: string) => {
-        const book = books?.find((b) => b.id === bookId);
-        if (!book) return "your book";
-        return book.volume_label ? `${book.title} — ${book.volume_label}` : book.title;
-      };
 
       const first = shippedNow[0];
       await sendShipmentNotification(
         first.customer_email,
         first.customer_name,
-        shippedNow.map((order) => ({ title: titleFor(order.book_id), quantity: order.quantity })),
+        shippedNow.map((order) => ({
+          title: orderedBookTitle(books?.find((b) => b.id === order.book_id), order.format),
+          quantity: order.quantity,
+        })),
         first.tracking_urls ?? [],
         first.tracking_carrier,
         orderStatusUrl(siteUrl, first.id)

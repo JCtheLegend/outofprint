@@ -158,6 +158,52 @@ alter table orders add column if not exists refund_id text;
 alter table books add column if not exists page_count int;
 alter table books add column if not exists print_cost_cents int;
 
+-- ============================================================
+-- Hardcover
+-- ============================================================
+
+-- Every book can also be printed as a casewrap hardcover. The existing
+-- cover_pdf_url / pod_package_id / print_cost_cents / price_cents columns
+-- describe the paperback; these describe the hardcover, and are null for a
+-- book with no hardcover cover, which is then sold in paperback only.
+alter table books add column if not exists hardcover_cover_pdf_url text;
+alter table books add column if not exists hardcover_pod_package_id text;
+alter table books add column if not exists hardcover_print_cost_cents int;
+alter table books add column if not exists hardcover_price_cents int;
+
+-- An order row is per book *and format*: one cart can hold a paperback and a
+-- hardcover of the same book.
+alter table orders add column if not exists format text not null default 'paperback';
+alter table orders drop constraint if exists orders_format_check;
+alter table orders add constraint orders_format_check
+  check (format in ('paperback', 'hardcover'));
+drop index if exists orders_session_book_idx;
+create unique index if not exists orders_session_book_format_idx
+  on orders (stripe_session_id, book_id, format);
+
+-- ============================================================
+-- Book page: look inside
+-- ============================================================
+
+-- Rendered by the uploader into the public book-covers bucket: the whole
+-- wraparound cover, and the first pages of the interior as images (never the
+-- interior PDF itself, which stays private).
+alter table books add column if not exists full_cover_url text;
+alter table books add column if not exists preview_urls jsonb not null default '[]';
+
+-- Facts about the edition the pipeline recorded — subtitle, original
+-- publication, language, translator, contents, sources, what was omitted —
+-- shown on the book page. See build_details in upload_to_supabase.py.
+alter table books add column if not exists details jsonb not null default '{}';
+
+-- ============================================================
+-- Cancellation refunds
+-- ============================================================
+
+-- A cancellation refunds what was paid less Stripe's processing fee, which
+-- Stripe keeps on a refund. Recorded so the order page can say what came back.
+alter table orders add column if not exists refund_cents int;
+
 -- Indexes
 create index if not exists books_featured_idx on books (featured);
 create index if not exists orders_book_id_idx on orders (book_id);

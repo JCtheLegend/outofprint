@@ -1,4 +1,5 @@
 import { createClient } from "@supabase/supabase-js";
+import type { BookFormat } from "@/lib/formats";
 
 export type Book = {
   id: string;
@@ -19,12 +20,36 @@ export type Book = {
   // Print-ready wraparound cover PDF and Lulu product SKU — see lib/print.ts
   cover_pdf_url: string | null;
   pod_package_id: string | null;
+  // The same for the casewrap hardcover; null when it is paperback only.
+  // See lib/formats.ts.
+  hardcover_cover_pdf_url: string | null;
+  hardcover_pod_package_id: string | null;
+  hardcover_print_cost_cents: number | null;
+  hardcover_price_cents: number | null;
+  // Book page "look inside": the whole wraparound cover and the first pages
+  full_cover_url: string | null;
+  preview_urls: string[] | null;
+  details: BookDetails | null;
   featured: boolean;
   created_at: string;
   // Set membership — null for standalone books
   set_id: string | null;
   volume_number: number | null;
   volume_label: string | null;
+};
+
+// Facts the pipeline recorded about an edition; every field is optional.
+export type BookDetails = {
+  subtitle?: string;
+  original_publication?: string;
+  language?: string;
+  translator?: string;
+  editor?: string;
+  included_scope?: string;
+  trim_size?: string;
+  contents?: string[];
+  source_editions?: string[];
+  omitted?: string[];
 };
 
 // A multi-volume work. Its volumes live in `books` and point back via set_id.
@@ -70,6 +95,7 @@ export type Order = {
   status: "pending" | "paid" | "printing" | "shipped" | "delivered" | "canceled";
   print_job_id: string | null;
   quantity: number;
+  format: BookFormat;
   // Filled in by the Lulu status webhook once the printer reports progress
   lulu_status: string | null;
   tracking_id: string | null;
@@ -78,6 +104,8 @@ export type Order = {
   shipped_at: string | null;
   canceled_at: string | null;
   refund_id: string | null;
+  // What the cancellation refunded, after Stripe's processing fee
+  refund_cents: number | null;
   created_at: string;
 };
 

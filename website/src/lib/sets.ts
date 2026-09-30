@@ -1,5 +1,6 @@
 import type { PostgrestError } from "@supabase/supabase-js";
 import { supabase, type Book, type BookSet, type BookSetWithVolumes } from "@/lib/supabase";
+import { formatPriceCents, type BookFormat } from "@/lib/formats";
 
 /** PostgREST's code for "that table isn't in the schema cache". */
 const TABLE_NOT_FOUND = "PGRST205";
@@ -38,8 +39,8 @@ export function volumeLabel(book: Book): string {
   return "";
 }
 
-export function volumesSubtotalCents(volumes: Book[]): number {
-  return volumes.reduce((sum, v) => sum + v.price_cents, 0);
+export function volumesSubtotalCents(volumes: Book[], format: BookFormat = "paperback"): number {
+  return volumes.reduce((sum, v) => sum + formatPriceCents(v, format), 0);
 }
 
 /**
@@ -47,15 +48,27 @@ export function volumesSubtotalCents(volumes: Book[]): number {
  * the volumes added up. Volume prices follow Lulu's print costs, so a bundle
  * price fixed long ago can end up above them — the set never costs more
  * than buying every volume separately.
+ *
+ * The bundle price is a paperback price. A hardcover set is its volumes'
+ * hardcover prices added up.
  */
-export function setPriceCents(set: BookSet, volumes: Book[]): number {
-  const subtotal = volumesSubtotalCents(volumes);
-  return set.price_cents == null ? subtotal : Math.min(set.price_cents, subtotal);
+export function setPriceCents(
+  set: BookSet,
+  volumes: Book[],
+  format: BookFormat = "paperback"
+): number {
+  const subtotal = volumesSubtotalCents(volumes, format);
+  if (format !== "paperback" || set.price_cents == null) return subtotal;
+  return Math.min(set.price_cents, subtotal);
 }
 
 /** How much the bundle price saves against buying every volume separately. */
-export function setSavingsCents(set: BookSet, volumes: Book[]): number {
-  return Math.max(0, volumesSubtotalCents(volumes) - setPriceCents(set, volumes));
+export function setSavingsCents(
+  set: BookSet,
+  volumes: Book[],
+  format: BookFormat = "paperback"
+): number {
+  return Math.max(0, volumesSubtotalCents(volumes, format) - setPriceCents(set, volumes, format));
 }
 
 /** A set only earns its own page and catalog card once it has real volumes. */

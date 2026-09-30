@@ -24,10 +24,15 @@ export default function PoliciesPage() {
           <h2 className="font-serif text-xl text-ink mb-2">Cancelling an order</h2>
           <p>
             You have <strong className="text-ink">{window}</strong> from the moment you order to
-            cancel it for a full refund, with no reason needed. Use the &ldquo;Cancel this
-            order&rdquo; button on your order page — the link is in your confirmation email — and
-            the refund is issued immediately to the card you paid with. It usually appears on your
-            statement within 5–10 business days.
+            cancel it, with no reason needed. Use the &ldquo;Cancel this order&rdquo; button on
+            your order page — the link is in your confirmation email — and the refund is issued
+            immediately to the card you paid with. It usually appears on your statement within
+            5–10 business days.
+          </p>
+          <p className="mt-3">
+            We refund everything you paid except our card processor&apos;s fee — typically 2.9%
+            plus 30¢ — which it keeps on every payment, even one that is refunded. On a $30
+            order that is about $1.17. Your cancellation email shows the exact amount.
           </p>
           <p className="mt-3">
             After {window} your book goes to the printer and can no longer be cancelled. An order

@@ -75,7 +75,10 @@ The paperback cover PDF is uploaded as-is alongside the interior: it is what
 Lulu wraps around the printed book, while the cropped JPEG is only the
 storefront thumbnail. The uploader also derives Lulu's product SKU from
 `trim_size` (6 x 9 in → `0600X0900.BW.STD.PB.060UC444.MXX`, a black-and-white
-perfect-bound paperback on 60# cream stock). Set `store_pod_package_id` to
+perfect-bound paperback on 60# cream stock). When the folder has a
+`hardcover_cover_filename`, that cover is uploaded too and the book is also
+sold as a casewrap hardcover (the same SKU with `CW` for `PB`), priced the same
+way. Set `store_pod_package_id` (or `store_hardcover_pod_package_id`) to
 override it for a book printed on anything else — Lulu's
 [price calculator](https://developers.lulu.com/price-calculator) generates the code.
 

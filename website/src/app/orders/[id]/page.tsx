@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { supabaseAdmin, type Book, type Order } from "@/lib/supabase";
 import { volumeLabel } from "@/lib/sets";
+import { orderedBookTitle } from "@/lib/formats";
+import { formatPrice } from "@/lib/format";
 import { cancelDeadline, formatDeadline, isCancelable } from "@/lib/orders";
 import { CancelOrderButton } from "./CancelOrderButton";
 
@@ -50,6 +52,7 @@ export default async function OrderPage({ params }: { params: Promise<{ id: stri
   const books = new Map((bookRows ?? []).map((book: Book) => [book.id, book]));
 
   const canceled = rows.every((row) => row.status === "canceled");
+  const refundCents = rows.find((row) => row.refund_cents != null)?.refund_cents ?? null;
   const furthest = rows.reduce((max, row) => Math.max(max, stageIndex(row.status)), 0);
   const placed = new Date(order.created_at).toLocaleDateString("en-US", {
     year: "numeric",
@@ -71,8 +74,11 @@ export default async function OrderPage({ params }: { params: Promise<{ id: stri
         <div className="border border-rust/40 bg-rust-light/40 p-5 mb-10">
           <p className="font-serif text-base font-semibold mb-1">This order was cancelled.</p>
           <p className="text-sm text-muted leading-relaxed">
-            Nothing was printed, and the payment has been refunded in full — it usually reaches
-            your account within 5–10 business days.
+            Nothing was printed, and{" "}
+            {refundCents != null
+              ? `${formatPrice(refundCents)} has been refunded — what you paid, less our card processor's fee.`
+              : "your payment has been refunded."}{" "}
+            It usually reaches your account within 5–10 business days.
           </p>
         </div>
       )}
@@ -101,7 +107,6 @@ export default async function OrderPage({ params }: { params: Promise<{ id: stri
       <ul className="border-t border-border">
         {rows.map((row) => {
           const book = books.get(row.book_id);
-          const volume = book ? volumeLabel(book) : "";
           const urls = Array.isArray(row.tracking_urls) ? row.tracking_urls : [];
           return (
             <li key={row.id} className="flex gap-4 py-5 border-b border-border">
@@ -112,7 +117,9 @@ export default async function OrderPage({ params }: { params: Promise<{ id: stri
               </div>
               <div className="flex-1 min-w-0">
                 <p className="font-serif text-base font-semibold">
-                  {book ? (volume ? `${book.title} — ${volume}` : book.title) : "Book"}
+                  {book
+                    ? orderedBookTitle({ title: book.title, volume_label: volumeLabel(book) || null }, row.format)
+                    : "Book"}
                 </p>
                 {book && <p className="text-xs text-muted italic mt-0.5">{book.author}</p>}
                 {row.quantity > 1 && <p className="text-xs text-muted mt-1">Quantity: {row.quantity}</p>}

@@ -16,7 +16,7 @@ import {
   writeStoredCart,
   CART_STORAGE_KEY,
   type CartItem,
-  type CartItemKind,
+  type CartItemRef,
 } from "@/lib/cart";
 
 type CartContextValue = {
@@ -24,11 +24,11 @@ type CartContextValue = {
   /** False until localStorage has been read — render counts only once true */
   ready: boolean;
   count: number;
-  add: (kind: CartItemKind, id: string, quantity?: number) => void;
-  setQuantity: (kind: CartItemKind, id: string, quantity: number) => void;
-  remove: (kind: CartItemKind, id: string) => void;
+  add: (ref: CartItemRef, quantity?: number) => void;
+  setQuantity: (ref: CartItemRef, quantity: number) => void;
+  remove: (ref: CartItemRef) => void;
   clear: () => void;
-  has: (kind: CartItemKind, id: string) => boolean;
+  has: (ref: CartItemRef) => boolean;
 };
 
 const CartContext = createContext<CartContextValue | null>(null);
@@ -57,11 +57,14 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     return () => window.removeEventListener("storage", onStorage);
   }, []);
 
-  const add = useCallback((kind: CartItemKind, id: string, quantity = 1) => {
+  const add = useCallback((ref: CartItemRef, quantity = 1) => {
     setItems((current) => {
-      const key = cartItemKey({ kind, id });
+      const key = cartItemKey(ref);
       const existing = current.find((item) => cartItemKey(item) === key);
-      if (!existing) return [...current, { kind, id, quantity: clampQuantity(quantity) }];
+      if (!existing) {
+        const { kind, id, format } = ref;
+        return [...current, { kind, id, format, quantity: clampQuantity(quantity) }];
+      }
       return current.map((item) =>
         cartItemKey(item) === key
           ? { ...item, quantity: clampQuantity(item.quantity + quantity) }
@@ -70,8 +73,8 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     });
   }, []);
 
-  const setQuantity = useCallback((kind: CartItemKind, id: string, quantity: number) => {
-    const key = cartItemKey({ kind, id });
+  const setQuantity = useCallback((ref: CartItemRef, quantity: number) => {
+    const key = cartItemKey(ref);
     setItems((current) =>
       current.map((item) =>
         cartItemKey(item) === key ? { ...item, quantity: clampQuantity(quantity) } : item
@@ -79,8 +82,8 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     );
   }, []);
 
-  const remove = useCallback((kind: CartItemKind, id: string) => {
-    const key = cartItemKey({ kind, id });
+  const remove = useCallback((ref: CartItemRef) => {
+    const key = cartItemKey(ref);
     setItems((current) => current.filter((item) => cartItemKey(item) !== key));
   }, []);
 
@@ -95,7 +98,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       setQuantity,
       remove,
       clear,
-      has: (kind, id) => items.some((item) => cartItemKey(item) === cartItemKey({ kind, id })),
+      has: (ref) => items.some((item) => cartItemKey(item) === cartItemKey(ref)),
     }),
     [items, ready, add, setQuantity, remove, clear]
   );

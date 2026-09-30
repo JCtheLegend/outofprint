@@ -3,39 +3,51 @@
 import { useState } from "react";
 import { loadStripe } from "@stripe/stripe-js";
 import { formatPrice } from "@/lib/format";
-import { ShipToSelect, useShipTo } from "@/components/cart/ShipTo";
+import { ShipToFields, shipToDestination, useShipTo } from "@/components/cart/ShipTo";
+import { FORMAT_LABELS, type BookFormat } from "@/lib/formats";
 
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!);
 
 export type SetOption = {
   id: string;
   slug: string;
-  priceCents: number;
-  savingsCents: number;
+  /** Per format the whole set can be bought in; missing means not available */
+  prices: Partial<Record<BookFormat, { priceCents: number; savingsCents: number }>>;
   volumeCount: number;
 };
 
 export function CheckoutButton({
   bookId,
+  format,
   setOption,
 }: {
   bookId: string;
+  format: BookFormat;
   /** Present when this book is one volume of a set — offers the whole set too */
   setOption?: SetOption;
 }) {
+  const setPrice = setOption?.prices[format];
   const [pending, setPending] = useState<"book" | "set" | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [country, setCountry] = useShipTo();
+  const [shipTo, setShipTo] = useShipTo();
 
   async function handleCheckout(target: "book" | "set") {
     setPending(target);
     setError(null);
 
+    // Shipping and tax are quoted for the customer's own postcode
+    const ship = shipToDestination(shipTo);
+    if ("missing" in ship) {
+      setError(ship.missing);
+      setPending(null);
+      return;
+    }
+
     try {
       const body =
         target === "set" && setOption
-          ? { setId: setOption.id, setSlug: setOption.slug, country }
-          : { bookId, country };
+          ? { setId: setOption.id, setSlug: setOption.slug, format, destination: ship.destination }
+          : { bookId, format, destination: ship.destination };
 
       const res = await fetch("/api/checkout", {
         method: "POST",
@@ -60,7 +72,7 @@ export function CheckoutButton({
 
   return (
     <div>
-      <ShipToSelect value={country} onChange={setCountry} />
+      <ShipToFields value={shipTo} onChange={setShipTo} />
       <button
         onClick={() => handleCheckout("book")}
         disabled={pending !== null}
@@ -73,7 +85,7 @@ export function CheckoutButton({
             : "Buy Now — Print to Order"}
       </button>
 
-      {setOption && (
+      {setOption && setPrice && (
         <>
           <button
             onClick={() => handleCheckout("set")}
@@ -82,11 +94,11 @@ export function CheckoutButton({
           >
             {pending === "set"
               ? "Preparing checkout…"
-              : `Buy all ${setOption.volumeCount} volumes — ${formatPrice(setOption.priceCents)}`}
+              : `Buy all ${setOption.volumeCount} volumes in ${FORMAT_LABELS[format].toLowerCase()} — ${formatPrice(setPrice.priceCents)}`}
           </button>
-          {setOption.savingsCents > 0 && (
+          {setPrice.savingsCents > 0 && (
             <p className="text-xs text-rust mt-2 text-center">
-              Save {formatPrice(setOption.savingsCents)} on the complete set.
+              Save {formatPrice(setPrice.savingsCents)} on the complete set.
             </p>
           )}
         </>
@@ -95,7 +107,7 @@ export function CheckoutButton({
       {error && <p className="text-rust text-xs mt-2">{error}</p>}
 
       <p className="text-xs text-muted mt-3 leading-relaxed">
-        Secure checkout via Stripe; shipping is added there. Allow 10–14 days for printing and delivery.
+        Secure checkout via Stripe; shipping and sales tax are added there. Allow 10–14 days for printing and delivery.
       </p>
     </div>
   );

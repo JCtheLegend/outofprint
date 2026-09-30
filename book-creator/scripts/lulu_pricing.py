@@ -9,6 +9,8 @@ came from:
   - `print_cost_cents` — Lulu's unit print cost, excluding tax and shipping.
     The storefront charges exactly this under a wholesale promo code.
   - `price_cents`      — `print_cost_cents + PRICE_MARGIN_CENTS`, the retail price.
+  - `hardcover_print_cost_cents` / `hardcover_price_cents` — the same for the
+    casewrap hardcover, when the book has a hardcover cover.
 
 Uses Lulu's cost-calculation endpoint, which only quotes — nothing is ordered.
 It needs a shipping address to quote against; the print cost of a line item
@@ -148,11 +150,26 @@ def print_cost_cents(pod_package_id: str | None, page_count: int) -> int:
         raise LuluPricingError(f"unexpected cost calculation response: {quote}") from exc
 
 
-def price_book(pod_package_id: str | None, page_count: int) -> dict:
-    """The pricing columns for a `books` row."""
+def price_book(
+    pod_package_id: str | None,
+    page_count: int,
+    hardcover_pod_package_id: str | None = None,
+) -> dict:
+    """The pricing columns for a `books` row.
+
+    The hardcover is priced the same way, from its own SKU, when the book has
+    one; otherwise its columns are null and it sells in paperback only.
+    """
     cost = print_cost_cents(pod_package_id, page_count)
-    return {
+    row = {
         "page_count": page_count,
         "print_cost_cents": cost,
         "price_cents": cost + PRICE_MARGIN_CENTS,
+        "hardcover_print_cost_cents": None,
+        "hardcover_price_cents": None,
     }
+    if hardcover_pod_package_id:
+        hardcover_cost = print_cost_cents(hardcover_pod_package_id, page_count)
+        row["hardcover_print_cost_cents"] = hardcover_cost
+        row["hardcover_price_cents"] = hardcover_cost + PRICE_MARGIN_CENTS
+    return row

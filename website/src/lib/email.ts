@@ -1,4 +1,5 @@
 import { Resend } from "resend";
+import { formatPrice } from "@/lib/format";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 const FROM = process.env.RESEND_FROM_EMAIL!;
@@ -194,7 +195,7 @@ export async function sendCancellationConfirmation(
   to: string,
   name: string,
   lines: { title: string; quantity: number }[],
-  refunded: boolean,
+  refund: { refundCents: number; feeCents: number } | null,
   orderId: string,
   orderUrl?: string
 ) {
@@ -202,9 +203,10 @@ export async function sendCancellationConfirmation(
     .map((line) => `<li>${line.title}${line.quantity > 1 ? ` &times; ${line.quantity}` : ""}</li>`)
     .join("");
 
-  const refundLine = refunded
-    ? `<p>The full amount is on its way back to the card you paid with. It usually appears
-       on your statement within 5–10 business days.</p>`
+  const refundLine = refund
+    ? `<p>${formatPrice(refund.refundCents)} is on its way back to the card you paid with —
+       what you paid, less ${formatPrice(refund.feeCents)} our card processor keeps on every
+       payment, refunded or not. It usually appears on your statement within 5–10 business days.</p>`
     : `<p>We could not complete the refund automatically, so we are processing it by hand —
        you will have it within one business day. Nothing was printed and you will not be
        charged for this order.</p>`;

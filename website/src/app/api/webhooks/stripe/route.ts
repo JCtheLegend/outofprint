@@ -7,6 +7,15 @@ import { sortVolumes, volumeLabel } from "@/lib/sets";
 import { orderStatusUrl, resolveSiteUrl } from "@/lib/site";
 import { createPrintJob } from "@/lib/print";
 import {
+  BOOK_FORMATS,
+  DEFAULT_FORMAT,
+  formatCoverPdfUrl,
+  formatPodPackageId,
+  formatSuffix,
+  isBookFormat,
+  type BookFormat,
+} from "@/lib/formats";
+import {
   sendCartOrderConfirmation,
   sendOrderConfirmation,
   sendPrintJobFailureAlert,
@@ -63,11 +72,15 @@ export async function POST(req: NextRequest) {
  * characters per value. Sessions created before carts existed have no such
  * metadata, so fall back to the bookId/setId they did carry.
  */
-async function purchasedQuantities(
+type Purchase = { bookId: string; format: BookFormat; quantity: number };
+
+async function purchasedItems(
   session: Stripe.Checkout.Session,
   db: ReturnType<typeof supabaseAdmin>
-): Promise<Map<string, number>> {
-  const quantities = new Map<string, number>();
+): Promise<Purchase[]> {
+  // Keyed on book and format: a paperback and a hardcover of one book are two
+  // purchases, while the same one on two line items (never expected) adds up.
+  const purchases = new Map<string, Purchase>();
 
   const lineItems = await stripe.checkout.sessions.listLineItems(session.id, {
     limit: 100,
@@ -76,25 +89,27 @@ async function purchasedQuantities(
 
   for (const line of lineItems.data) {
     const product = line.price?.product;
-    const bookId =
+    const metadata =
       product && typeof product !== "string" && !("deleted" in product && product.deleted)
-        ? product.metadata?.bookId
+        ? product.metadata
         : undefined;
+    const bookId = metadata?.bookId;
     if (!bookId) continue;
-    quantities.set(bookId, (quantities.get(bookId) ?? 0) + (line.quantity ?? 1));
+    // Sessions from before hardcovers existed carry no format: paperback
+    const format = isBookFormat(metadata?.format) ? metadata.format : DEFAULT_FORMAT;
+    const key = `${bookId}:${format}`;
+    const quantity = (purchases.get(key)?.quantity ?? 0) + (line.quantity ?? 1);
+    purchases.set(key, { bookId, format, quantity });
   }
 
-  if (quantities.size > 0) return quantities;
+  if (purchases.size > 0) return Array.from(purchases.values());
 
   const { bookId, setId } = session.metadata ?? {};
   if (setId) {
     const { data } = await db.from("books").select("id").eq("set_id", setId);
-    for (const row of data ?? []) quantities.set(row.id, 1);
-  } else if (bookId) {
-    quantities.set(bookId, 1);
+    return (data ?? []).map((row) => ({ bookId: row.id, format: DEFAULT_FORMAT, quantity: 1 }));
   }
-
-  return quantities;
+  return bookId ? [{ bookId, format: DEFAULT_FORMAT, quantity: 1 }] : [];
 }
 
 async function handleSuccessfulPayment(session: Stripe.Checkout.Session, siteUrl: string) {
@@ -108,18 +123,35 @@ async function handleSuccessfulPayment(session: Stripe.Checkout.Session, siteUrl
     shippingSnapshot.name ?? session.customer_details?.name ?? "Customer";
   const customerEmail = session.customer_details?.email ?? "";
 
+  // Tax was quoted for the postcode chosen before checkout. Stripe can't hold
+  // the customer to it, so note when the address typed in differs — Lulu will
+  // charge that address's rate, not the one the customer paid.
+  const { taxRegion, taxPostcode } = session.metadata ?? {};
+  const shippedPostcode = shipping?.postal_code?.trim().toUpperCase();
+  if (
+    taxPostcode &&
+    shippedPostcode &&
+    (shippedPostcode.slice(0, 3) !== taxPostcode.slice(0, 3) ||
+      (taxRegion && shipping?.state && shipping.state !== taxRegion))
+  ) {
+    console.warn(
+      `Session ${session.id}: tax quoted for ${taxRegion} ${taxPostcode}, ` +
+        `but shipping to ${shipping?.state ?? ""} ${shippedPostcode}`
+    );
+  }
+
   // One purchase can cover several books and several copies of each — every
   // book is its own order row, and all of them print as one job.
-  const quantities = await purchasedQuantities(session, db);
+  const purchases = await purchasedItems(session, db);
 
-  if (quantities.size === 0) {
+  if (purchases.length === 0) {
     throw new Error(`Could not tell what session ${session.id} bought`);
   }
 
   const { data: bookRows, error: booksError } = await db
     .from("books")
     .select("*")
-    .in("id", Array.from(quantities.keys()));
+    .in("id", Array.from(new Set(purchases.map((p) => p.bookId))));
 
   if (booksError || !bookRows?.length) {
     throw new Error(
@@ -127,8 +159,17 @@ async function handleSuccessfulPayment(session: Stripe.Checkout.Session, siteUrl
     );
   }
 
-  const books: Book[] = sortVolumes(bookRows);
-  const quantityFor = (book: Book) => quantities.get(book.id) ?? 1;
+  // Volume order, and paperback before hardcover within a book
+  const bookOrder = new Map(sortVolumes(bookRows).map((b, i) => [b.id, i]));
+  const booksById = new Map<string, Book>(bookRows.map((b: Book) => [b.id, b]));
+  const lines = purchases
+    .filter((p) => booksById.has(p.bookId))
+    .map((p) => ({ ...p, book: booksById.get(p.bookId)! }))
+    .sort(
+      (a, b) =>
+        bookOrder.get(a.bookId)! - bookOrder.get(b.bookId)! ||
+        BOOK_FORMATS.indexOf(a.format) - BOOK_FORMATS.indexOf(b.format)
+    );
 
   const shippingAddress = {
     line1: shipping?.line1 ?? "",
@@ -141,20 +182,21 @@ async function handleSuccessfulPayment(session: Stripe.Checkout.Session, siteUrl
 
   // All the books in this checkout print and ship together as one Lulu job,
   // but each keeps its own order row so a volume can be tracked individually.
-  // Rows are keyed on (stripe_session_id, book_id), so a redelivered event
-  // re-uses the rows it already wrote rather than duplicating the order.
+  // Rows are keyed on (stripe_session_id, book_id, format), so a redelivered
+  // event re-uses the rows it already wrote rather than duplicating the order.
   const { error: insertError } = await db.from("orders").upsert(
-    books.map((book) => ({
+    lines.map(({ book, format, quantity }) => ({
       book_id: book.id,
+      format,
       set_id: setId ?? null,
       stripe_session_id: session.id,
       customer_email: customerEmail,
       customer_name: customerName,
       shipping_address: shipping ?? {},
-      quantity: quantityFor(book),
+      quantity,
       status: "paid",
     })),
-    { onConflict: "stripe_session_id,book_id", ignoreDuplicates: true }
+    { onConflict: "stripe_session_id,book_id,format", ignoreDuplicates: true }
   );
 
   if (insertError) {
@@ -177,10 +219,16 @@ async function handleSuccessfulPayment(session: Stripe.Checkout.Session, siteUrl
     );
   }
 
-  const booksById = new Map(books.map((b) => [b.id, b]));
+  const lineFor = (row: { book_id: string; format: string | null }) =>
+    lines.find((l) => l.bookId === row.book_id && l.format === (row.format ?? DEFAULT_FORMAT));
   const orders = orderRows
-    .map((row) => ({ id: row.id as string, printJobId: row.print_job_id as string | null, book: booksById.get(row.book_id)! }))
-    .filter((o) => o.book);
+    .map((row) => ({
+      id: row.id as string,
+      printJobId: row.print_job_id as string | null,
+      line: lineFor(row)!,
+    }))
+    .filter((o) => o.line)
+    .sort((a, b) => lines.indexOf(a.line) - lines.indexOf(b.line));
 
   const orderIds = orders.map((o) => o.id);
 
@@ -199,15 +247,17 @@ async function handleSuccessfulPayment(session: Stripe.Checkout.Session, siteUrl
       customerEmail,
       customerPhone: session.customer_details?.phone,
       shippingAddress,
-      books: orders.map(({ id, book }) => {
+      books: orders.map(({ id, line: { book, format, quantity } }) => {
         const volume = volumeLabel(book);
+        const title = volume ? `${book.title} — ${volume}` : book.title;
         return {
           orderId: id,
-          title: volume ? `${book.title} — ${volume}` : book.title,
+          title: `${title}${formatSuffix(format)}`,
           interiorUrl: book.pdf_url,
-          coverUrl: book.cover_pdf_url,
-          podPackageId: book.pod_package_id,
-          quantity: quantityFor(book),
+          // The hardcover prints from its own wraparound and SKU
+          coverUrl: formatCoverPdfUrl(book, format),
+          podPackageId: formatPodPackageId(book, format),
+          quantity,
         };
       }),
     });
@@ -239,25 +289,25 @@ async function handleSuccessfulPayment(session: Stripe.Checkout.Session, siteUrl
   try {
     // Send confirmation email — one bought a set, one bought a single book,
     // and anything else came from a cart.
-    const titleOf = (book: Book) => {
+    const titleOf = ({ book, format }: { book: Book; format: BookFormat }) => {
       const volume = volumeLabel(book);
-      return volume ? `${volume} — ${book.title}` : book.title;
+      return `${volume ? `${volume} — ${book.title}` : book.title}${formatSuffix(format)}`;
     };
 
     if (setId) {
       await sendSetOrderConfirmation(
         customerEmail,
         customerName,
-        setTitle ?? books[0].title,
-        books.map(titleOf),
+        `${setTitle ?? lines[0].book.title}${formatSuffix(lines[0].format)}`,
+        lines.map(titleOf),
         orderIds[0],
         orderStatusUrl(siteUrl, orderIds[0])
       );
-    } else if (books.length === 1 && quantityFor(books[0]) === 1) {
+    } else if (lines.length === 1 && lines[0].quantity === 1) {
       await sendOrderConfirmation(
         customerEmail,
         customerName,
-        bookTitle ?? books[0].title,
+        `${bookTitle ?? lines[0].book.title}${formatSuffix(lines[0].format)}`,
         orderIds[0],
         orderStatusUrl(siteUrl, orderIds[0])
       );
@@ -265,7 +315,7 @@ async function handleSuccessfulPayment(session: Stripe.Checkout.Session, siteUrl
       await sendCartOrderConfirmation(
         customerEmail,
         customerName,
-        books.map((book) => ({ title: titleOf(book), quantity: quantityFor(book) })),
+        lines.map((line) => ({ title: titleOf(line), quantity: line.quantity })),
         orderIds[0],
         orderStatusUrl(siteUrl, orderIds[0])
       );

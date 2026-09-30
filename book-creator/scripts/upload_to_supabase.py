@@ -7,14 +7,17 @@ a metadata.json plus the PDFs it references. For every book this:
   1. Checks the interior PDF's fonts — Lulu rejects any print job whose
      interior embeds OpenType fonts or leaves a font unembedded, so a book
      that would fail in production is refused here instead.
-  2. Prices the book from Lulu's own print cost for its page count and
-     product SKU, plus a flat margin — see lulu_pricing.py.
+  2. Prices the paperback and the hardcover from Lulu's own print cost for
+     the page count and each product SKU, plus a flat margin — see
+     lulu_pricing.py.
   3. Rasterizes the paperback cover PDF and crops it to the front panel
      (using the bleed/panel-width facts already recorded in metadata.json)
-     to produce a plain cover image.
-  4. Uploads that cover image to the `book-covers` storage bucket, and both
-     print-ready PDFs — the interior and the wraparound paperback cover, which
-     is what Lulu prints from — to the private `book-pdfs` storage bucket.
+     to produce a plain cover image, and renders the whole wraparound cover
+     and the first interior pages as images for the book page.
+  4. Uploads those images to the public `book-covers` storage bucket, and the
+     print-ready PDFs — the interior and the paperback and hardcover
+     wraparound covers, which is what Lulu prints from — to the private
+     `book-pdfs` storage bucket.
   5. Upserts a row into the `books` table, keyed by slug (the folder name),
      so re-running this script for the same book updates it in place
      instead of creating a duplicate.
@@ -55,6 +58,12 @@ BOOKS_DIR = Path(__file__).resolve().parent.parent / "books"
 COVER_BUCKET = "book-covers"
 PDF_BUCKET = "book-pdfs"
 COVER_RENDER_DPI = 300
+
+# The book page's "look inside": the first pages of the interior, and the
+# whole wraparound cover, as screen-resolution images. The interior PDF itself
+# stays in the private bucket.
+PREVIEW_PAGES = 12
+PREVIEW_DPI = 110
 REQUIRED_STORE_FIELDS = ("store_genre", "store_description")
 
 # Words the pipeline puts in front of a volume designation, e.g. "Book IV"
@@ -63,7 +72,9 @@ VOLUME_WORDS = ("volume", "vol", "book", "part", "tome", "no")
 # Lulu product SKU components after the trim size: black-and-white, standard
 # quality, perfect bound, 60# cream stock, matte cover, no linen or foil. A book
 # overrides the whole SKU with `store_pod_package_id` in its metadata.json.
-POD_PACKAGE_SUFFIX = "BW.STD.PB.060UC444.MXX"
+# The hardcover is the same product bound as a casewrap (CW) instead of a
+# perfect-bound paperback (PB); `store_hardcover_pod_package_id` overrides it.
+POD_PACKAGE_SUFFIX = "BW.STD.{binding}.060UC444.MXX"
 
 ROMAN_NUMERALS = {
     "i": 1, "ii": 2, "iii": 3, "iv": 4, "v": 5, "vi": 6, "vii": 7, "viii": 8,
@@ -199,14 +210,17 @@ def volume_label(metadata: dict) -> str | None:
     return f"Volume {number}" if number is not None else None
 
 
-def build_pod_package_id(metadata: dict) -> str | None:
+def build_pod_package_id(metadata: dict, hardcover: bool = False) -> str | None:
     """Lulu's SKU for this book, e.g. "0600X0900.BW.STD.PB.060UC444.MXX".
 
     Derived from the trim size the pipeline recorded, since everything else
     about the product is fixed by our print spec. Returns None when the trim
-    size can't be parsed — the storefront then falls back to LULU_POD_PACKAGE_ID.
+    size can't be parsed — the storefront then falls back to LULU_POD_PACKAGE_ID
+    for a paperback, and offers no hardcover.
     """
-    explicit = metadata.get("store_pod_package_id")
+    explicit = metadata.get(
+        "store_hardcover_pod_package_id" if hardcover else "store_pod_package_id"
+    )
     if explicit:
         return explicit
 
@@ -216,7 +230,81 @@ def build_pod_package_id(metadata: dict) -> str | None:
         return None
 
     width, height = (f"{round(float(value) * 100):04d}" for value in match.groups())
-    return f"{width}X{height}.{POD_PACKAGE_SUFFIX}"
+    binding = "CW" if hardcover else "PB"
+    return f"{width}X{height}.{POD_PACKAGE_SUFFIX.format(binding=binding)}"
+
+
+def hardcover_pod_package_id(book_dir: Path, metadata: dict) -> str | None:
+    """The hardcover SKU, or None when the book has no hardcover cover to print."""
+    filename = metadata.get("hardcover_cover_filename")
+    if not filename or not (book_dir / filename).exists():
+        return None
+    return build_pod_package_id(metadata, hardcover=True)
+
+
+def render_full_cover(cover_path: Path) -> bytes:
+    """The whole wraparound cover — back, spine and front — as a JPEG."""
+    with fitz.open(cover_path) as doc:
+        pix = doc[0].get_pixmap(matrix=fitz.Matrix(PREVIEW_DPI / 72, PREVIEW_DPI / 72), alpha=False)
+        return _jpeg(pix.tobytes("png"), quality=85)
+
+
+def render_preview_pages(interior_path: Path) -> list[bytes]:
+    """The first PREVIEW_PAGES interior pages as JPEGs."""
+    matrix = fitz.Matrix(PREVIEW_DPI / 72, PREVIEW_DPI / 72)
+    with fitz.open(interior_path) as doc:
+        return [
+            _jpeg(doc[i].get_pixmap(matrix=matrix, alpha=False).tobytes("png"), quality=80)
+            for i in range(min(PREVIEW_PAGES, doc.page_count))
+        ]
+
+
+def _jpeg(png_bytes: bytes, quality: int) -> bytes:
+    out = io.BytesIO()
+    Image.open(io.BytesIO(png_bytes)).convert("RGB").save(out, format="JPEG", quality=quality)
+    return out.getvalue()
+
+
+def _text_list(value) -> list[str]:
+    if isinstance(value, str):
+        return [value.strip()] if value.strip() else []
+    if isinstance(value, list):
+        return [str(v).strip() for v in value if str(v).strip()]
+    return []
+
+
+def build_details(metadata: dict, interior_path: Path) -> dict:
+    """Facts about this edition for the book page, all from the pipeline.
+
+    Nothing here is written for the store: it is what the pipeline recorded
+    while restoring the book, so a book without a store description still has
+    something true to say. The contents come from the interior PDF's own
+    top-level bookmarks, when it has them.
+    """
+    with fitz.open(interior_path) as doc:
+        contents = [title.strip() for level, title, _page in doc.get_toc() if level == 1 and title.strip()]
+
+    source_basis = metadata.get("source_basis")
+    sources = source_basis.get("sources", []) if isinstance(source_basis, dict) else []
+    source_editions = []
+    for source in sources:
+        if isinstance(source, dict) and source.get("source_edition"):
+            if source["source_edition"] not in source_editions:
+                source_editions.append(source["source_edition"])
+
+    details = {
+        "subtitle": metadata.get("subtitle"),
+        "original_publication": metadata.get("original_publication"),
+        "language": metadata.get("language"),
+        "translator": metadata.get("translator"),
+        "editor": metadata.get("editor"),
+        "included_scope": metadata.get("included_scope"),
+        "trim_size": metadata.get("trim_size"),
+        "contents": contents,
+        "source_editions": source_editions,
+        "omitted": _text_list(metadata.get("intentionally_omitted_material")),
+    }
+    return {k: v for k, v in details.items() if v not in (None, "", [])}
 
 
 def build_set_row(metadata: dict) -> dict | None:
@@ -254,6 +342,12 @@ def build_book_row(
     cover_pdf_url: str,
     pricing: dict,
     set_id: str | None = None,
+    *,
+    hardcover_cover_pdf_url: str | None = None,
+    hardcover_pod_package_id: str | None = None,
+    full_cover_url: str | None = None,
+    preview_urls: list[str] | None = None,
+    details: dict | None = None,
 ) -> dict:
     missing = [field for field in REQUIRED_STORE_FIELDS if metadata.get(field) is None]
     if missing:
@@ -281,6 +375,11 @@ def build_book_row(
         "set_id": set_id,
         "volume_number": parse_volume_number(metadata),
         "volume_label": volume_label(metadata),
+        "hardcover_cover_pdf_url": hardcover_cover_pdf_url,
+        "hardcover_pod_package_id": hardcover_pod_package_id if hardcover_cover_pdf_url else None,
+        "full_cover_url": full_cover_url,
+        "preview_urls": preview_urls or [],
+        "details": details or {},
         **pricing,
     }
 
@@ -308,13 +407,25 @@ def interior_path_for(book_dir: Path, metadata: dict) -> Path:
     return interior_path
 
 
-def price_from_lulu(slug: str, metadata: dict, interior_path: Path) -> dict:
+def price_from_lulu(book_dir: Path, metadata: dict, interior_path: Path) -> dict:
+    slug = book_dir.name
     page_count = lulu_pricing.interior_page_count(interior_path)
-    pricing = lulu_pricing.price_book(build_pod_package_id(metadata), page_count)
-    print(
-        f"[{slug}] {page_count} pages — Lulu prints it for "
-        f"${pricing['print_cost_cents'] / 100:.2f}, selling at ${pricing['price_cents'] / 100:.2f}"
+    pricing = lulu_pricing.price_book(
+        build_pod_package_id(metadata),
+        page_count,
+        hardcover_pod_package_id(book_dir, metadata),
     )
+    print(
+        f"[{slug}] {page_count} pages — paperback costs "
+        f"${pricing['print_cost_cents'] / 100:.2f} to print, selling at ${pricing['price_cents'] / 100:.2f}"
+    )
+    if pricing["hardcover_price_cents"] is not None:
+        print(
+            f"[{slug}] hardcover costs ${pricing['hardcover_print_cost_cents'] / 100:.2f}, "
+            f"selling at ${pricing['hardcover_price_cents'] / 100:.2f}"
+        )
+    else:
+        print(f"[{slug}] no hardcover cover — paperback only")
     return pricing
 
 
@@ -335,7 +446,7 @@ def reprice_book(book_dir: Path) -> None:
     if metadata.get("publication_status") == "withdrawn":
         return
 
-    pricing = price_from_lulu(slug, metadata, interior_path_for(book_dir, metadata))
+    pricing = price_from_lulu(book_dir, metadata, interior_path_for(book_dir, metadata))
     result = supabase_client().table("books").update(pricing).eq("slug", slug).execute()
     if not result.data:
         print(f"[{slug}] not in the books table yet — upload it first")
@@ -371,10 +482,17 @@ def upload_book(book_dir: Path, dry_run: bool = False, skip_font_check: bool = F
         print(f"[{slug}] no Lulu credentials — skipping the price quote")
         pricing = None
     else:
-        pricing = price_from_lulu(slug, metadata, interior_path)
+        pricing = price_from_lulu(book_dir, metadata, interior_path)
 
     print(f"[{slug}] rendering front cover from paperback cover PDF...")
     cover_bytes = render_front_cover(book_dir, metadata)
+    full_cover_bytes = render_full_cover(book_dir / metadata["paperback_cover_filename"])
+    preview_pages = render_preview_pages(interior_path)
+    details = build_details(metadata, interior_path)
+    print(
+        f"[{slug}] rendered {len(preview_pages)} preview pages; "
+        f"{len(details.get('contents', []))} contents entries"
+    )
 
     if dry_run:
         preview_path = book_dir / "_cover_preview.jpg"
@@ -410,10 +528,46 @@ def upload_book(book_dir: Path, dry_run: bool = False, skip_font_check: bool = F
     )
     cover_pdf_url = client.storage.from_(PDF_BUCKET).get_public_url(cover_pdf_object)
 
+    hardcover_sku = hardcover_pod_package_id(book_dir, metadata)
+    hardcover_cover_pdf_url = None
+    if hardcover_sku:
+        hardcover_object = f"{slug}_hardcover_cover.pdf"
+        hardcover_bytes = (book_dir / metadata["hardcover_cover_filename"]).read_bytes()
+        print(f"[{slug}] uploading hardcover cover PDF ({len(hardcover_bytes):,} bytes)...")
+        client.storage.from_(PDF_BUCKET).upload(
+            hardcover_object, hardcover_bytes, {"content-type": "application/pdf", "upsert": "true"}
+        )
+        hardcover_cover_pdf_url = client.storage.from_(PDF_BUCKET).get_public_url(hardcover_object)
+
+    covers = client.storage.from_(COVER_BUCKET)
+    full_cover_object = f"{slug}_full_cover.jpg"
+    covers.upload(full_cover_object, full_cover_bytes, {"content-type": "image/jpeg", "upsert": "true"})
+    full_cover_url = covers.get_public_url(full_cover_object)
+
+    print(f"[{slug}] uploading {len(preview_pages)} preview pages...")
+    preview_urls = []
+    for number, page_bytes in enumerate(preview_pages, start=1):
+        page_object = f"previews/{slug}/{number:02d}.jpg"
+        covers.upload(page_object, page_bytes, {"content-type": "image/jpeg", "upsert": "true"})
+        preview_urls.append(covers.get_public_url(page_object))
+
     set_row = build_set_row(metadata)
     set_id = upsert_set(client, set_row, slug) if set_row else None
 
-    row = build_book_row(slug, metadata, cover_url, pdf_url, cover_pdf_url, pricing, set_id=set_id)
+    row = build_book_row(
+        slug,
+        metadata,
+        cover_url,
+        pdf_url,
+        cover_pdf_url,
+        pricing,
+        set_id=set_id,
+        hardcover_cover_pdf_url=hardcover_cover_pdf_url,
+        hardcover_pod_package_id=hardcover_sku,
+        full_cover_url=full_cover_url,
+        preview_urls=preview_urls,
+        details=details,
+    )
     print(f"[{slug}] upserting books row...")
     client.table("books").upsert(row, on_conflict="slug").execute()
 

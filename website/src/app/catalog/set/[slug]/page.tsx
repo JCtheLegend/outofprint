@@ -11,11 +11,12 @@ import {
   volumeLabel,
   volumesSubtotalCents,
 } from "@/lib/sets";
-import { SetPurchasePanel, type VolumeOption } from "./SetPurchasePanel";
+import { commonFormats, formatPriceCents, formatsOf } from "@/lib/formats";
+import { SetPurchasePanel, type SetPrices, type VolumeOption } from "./SetPurchasePanel";
 
 export async function generateStaticParams() {
-  // TEMP EXPERIMENT: simulate a build made before the book_sets table existed
-  return [];
+  const { data } = await supabase.from("book_sets").select("slug");
+  return (data ?? []).map((s) => ({ slug: s.slug }));
 }
 
 export default async function SetPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -33,8 +34,15 @@ export default async function SetPage({ params }: { params: Promise<{ slug: stri
     id: v.id,
     title: v.title,
     label: volumeLabel(v),
-    priceCents: v.price_cents,
+    prices: Object.fromEntries(formatsOf(v).map((f) => [f, formatPriceCents(v, f)])),
   }));
+
+  const setPrices: SetPrices = Object.fromEntries(
+    commonFormats(volumes).map((f) => [
+      f,
+      { priceCents: setPriceCents(set, volumes, f), savingsCents: setSavingsCents(set, volumes, f) },
+    ])
+  );
 
   return (
     <div className="max-w-5xl mx-auto px-6 py-12">
@@ -114,8 +122,7 @@ export default async function SetPage({ params }: { params: Promise<{ slug: stri
                 setId={set.id}
                 setSlug={set.slug}
                 volumes={options}
-                setPriceCents={setPriceCents(set, volumes)}
-                savingsCents={setSavingsCents(set, volumes)}
+                setPrices={setPrices}
               />
             </Suspense>
           </div>

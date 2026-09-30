@@ -5,7 +5,9 @@ import { useSearchParams } from "next/navigation";
 import { loadStripe } from "@stripe/stripe-js";
 import { formatPrice } from "@/lib/format";
 import { AddToCartButton } from "@/components/cart/AddToCartButton";
-import { ShipToSelect, useShipTo } from "@/components/cart/ShipTo";
+import { ShipToFields, shipToDestination, useShipTo } from "@/components/cart/ShipTo";
+import { FormatPicker } from "@/components/cart/FormatPicker";
+import { BOOK_FORMATS, DEFAULT_FORMAT, FORMAT_LABELS, type BookFormat } from "@/lib/formats";
 
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!);
 
@@ -13,21 +15,23 @@ export type VolumeOption = {
   id: string;
   title: string;
   label: string;
-  priceCents: number;
+  /** Price per format this volume is sold in */
+  prices: Partial<Record<BookFormat, number>>;
 };
+
+export type SetPrices = Partial<Record<BookFormat, { priceCents: number; savingsCents: number }>>;
 
 export function SetPurchasePanel({
   setId,
   setSlug,
   volumes,
-  setPriceCents,
-  savingsCents,
+  setPrices,
 }: {
   setId: string;
   setSlug: string;
   volumes: VolumeOption[];
-  setPriceCents: number;
-  savingsCents: number;
+  /** Per format the whole set can be bought in */
+  setPrices: SetPrices;
 }) {
   // ?volume=<id> preselects that volume — how a single volume's page links here
   const preselected = useSearchParams().get("volume");
@@ -37,21 +41,45 @@ export function SetPurchasePanel({
   const [choice, setChoice] = useState<string>(initialVolumeId);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [country, setCountry] = useShipTo();
+  const [shipTo, setShipTo] = useShipTo();
+
+  const [format, setFormat] = useState<BookFormat>(DEFAULT_FORMAT);
 
   const buyingSet = choice === "set";
   const selectedVolume = volumes.find((v) => v.id === choice);
-  const total = buyingSet ? setPriceCents : selectedVolume?.priceCents ?? 0;
+
+  // What the current choice costs in each format — the picker greys out the rest
+  const choicePrices: Partial<Record<BookFormat, number>> = buyingSet
+    ? Object.fromEntries(
+        BOOK_FORMATS.filter((f) => setPrices[f]).map((f) => [f, setPrices[f]!.priceCents])
+      )
+    : selectedVolume?.prices ?? {};
+  // Switching to a choice without the current format falls back to paperback
+  const activeFormat: BookFormat = choicePrices[format] != null ? format : DEFAULT_FORMAT;
+  const total = choicePrices[activeFormat] ?? 0;
+  const setPrice = setPrices[activeFormat];
 
   async function handleCheckout() {
     setLoading(true);
     setError(null);
 
+    // Shipping and tax are quoted for the customer's own postcode
+    const ship = shipToDestination(shipTo);
+    if ("missing" in ship) {
+      setError(ship.missing);
+      setLoading(false);
+      return;
+    }
+
     try {
       const res = await fetch("/api/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(buyingSet ? { setId, setSlug, country } : { bookId: choice, country }),
+        body: JSON.stringify(
+          buyingSet
+            ? { setId, setSlug, format: activeFormat, destination: ship.destination }
+            : { bookId: choice, format: activeFormat, destination: ship.destination }
+        ),
       });
 
       if (!res.ok) {
@@ -71,6 +99,9 @@ export function SetPurchasePanel({
 
   return (
     <div>
+      <p className="section-label">Choose your format</p>
+      <FormatPicker prices={choicePrices} value={activeFormat} onChange={setFormat} />
+
       <p className="section-label">Choose your edition</p>
 
       {/* Complete set */}
@@ -92,12 +123,15 @@ export function SetPurchasePanel({
             <span className="font-serif text-base font-semibold">
               The complete set — {volumes.length} volumes
             </span>
-            <span className="font-serif font-semibold text-rust">{formatPrice(setPriceCents)}</span>
+            <span className="font-serif font-semibold text-rust">
+              {formatPrice((setPrices[format] ?? setPrices[DEFAULT_FORMAT])?.priceCents ?? 0)}
+            </span>
           </span>
           <span className="block text-xs text-muted mt-1 leading-relaxed">
             Every volume printed and shipped together.
-            {savingsCents > 0 && (
-              <span className="text-rust"> Save {formatPrice(savingsCents)} against single volumes.</span>
+            {!setPrices[format] && ` ${FORMAT_LABELS[DEFAULT_FORMAT]} only.`}
+            {buyingSet && setPrice && setPrice.savingsCents > 0 && (
+              <span className="text-rust"> Save {formatPrice(setPrice.savingsCents)} against single volumes.</span>
             )}
           </span>
         </span>
@@ -110,6 +144,8 @@ export function SetPurchasePanel({
         </p>
         {volumes.map((v) => {
           const active = choice === v.id;
+          // Listed in the chosen format where the volume has it
+          const shown = v.prices[format] != null ? format : DEFAULT_FORMAT;
           return (
             <label
               key={v.id}
@@ -130,7 +166,12 @@ export function SetPurchasePanel({
                   {v.label ? <span className="font-semibold">{v.label}</span> : v.title}
                   {v.label && <span className="text-muted"> · {v.title}</span>}
                 </span>
-                <span className="font-body text-sm text-rust">{formatPrice(v.priceCents)}</span>
+                <span className="font-body text-sm text-rust whitespace-nowrap">
+                  {formatPrice(v.prices[shown] ?? 0)}
+                  {shown !== format && (
+                    <span className="block text-[10px] text-muted text-right">{FORMAT_LABELS[shown]} only</span>
+                  )}
+                </span>
               </span>
             </label>
           );
@@ -145,15 +186,16 @@ export function SetPurchasePanel({
       <div className="mb-3">
         {/* Keyed on the choice so switching selection resets the button state */}
         <AddToCartButton
-          key={choice}
+          key={`${choice}:${activeFormat}`}
           kind={buyingSet ? "set" : "book"}
           id={buyingSet ? setId : choice}
+          format={activeFormat}
           className="btn-primary w-full"
           label={buyingSet ? `Add all ${volumes.length} volumes to Cart` : "Add Volume to Cart"}
         />
       </div>
 
-      <ShipToSelect value={country} onChange={setCountry} />
+      <ShipToFields value={shipTo} onChange={setShipTo} />
       <button
         onClick={handleCheckout}
         disabled={loading}
@@ -162,14 +204,14 @@ export function SetPurchasePanel({
         {loading
           ? "Preparing checkout…"
           : buyingSet
-            ? `Buy all ${volumes.length} volumes now`
+            ? `Buy all ${volumes.length} volumes in ${FORMAT_LABELS[activeFormat].toLowerCase()} now`
             : "Buy this volume now"}
       </button>
 
       {error && <p className="text-rust text-xs mt-2">{error}</p>}
 
       <p className="text-xs text-muted mt-3 leading-relaxed">
-        Secure checkout via Stripe; shipping is added there. Allow 10–14 days for printing and delivery.
+        Secure checkout via Stripe; shipping and sales tax are added there. Allow 10–14 days for printing and delivery.
         {buyingSet && " Volumes are printed individually and may arrive in more than one parcel."}
       </p>
     </div>
