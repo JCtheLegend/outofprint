@@ -1826,9 +1826,9 @@
     "original_package_backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\archive\\package_fonts_originals_20260926\\carlyle_critical_miscellaneous_essays_volume_iv",
     "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\carlyle_critical_miscellaneous_essays_volume_iv.json",
     "current_pdf_sha256": {
-      "carlyle_critical_miscellaneous_essays_volume_iv_hardcover_cover.pdf": "1a4e40aefef99a51d812d6113a491fe981a98a968947bfa4bcaf78011e1c0fbc",
-      "carlyle_critical_miscellaneous_essays_volume_iv_interior.pdf": "65ce72639ae893d6592b2eb113844e09bd49393edfba6c2502a9770c8e70f522",
-      "carlyle_critical_miscellaneous_essays_volume_iv_paperback_cover.pdf": "0aa58e4b5b0bcfaec5cd02500188f08a9b40672871729a7d2526aeac05e4fff5"
+      "carlyle_critical_miscellaneous_essays_volume_iv_interior.pdf": "2e0341dc76d6a163b97cc19461f9c66b30cdcddbec5a6d09c8ed8104c77984be",
+      "carlyle_critical_miscellaneous_essays_volume_iv_paperback_cover.pdf": "0aa58e4b5b0bcfaec5cd02500188f08a9b40672871729a7d2526aeac05e4fff5",
+      "carlyle_critical_miscellaneous_essays_volume_iv_hardcover_cover.pdf": "1a4e40aefef99a51d812d6113a491fe981a98a968947bfa4bcaf78011e1c0fbc"
     },
     "earlier_visual_review_and_dated_repair_evidence_retained": true
   },
@@ -1853,5 +1853,58 @@
       "carlyle_critical_miscellaneous_essays_volume_iv_hardcover_cover.pdf": "1a4e40aefef99a51d812d6113a491fe981a98a968947bfa4bcaf78011e1c0fbc"
     },
     "github_update_authorized": true
+  },
+  "book_quality_repair_20261001": {
+    "audit_date": "2026-10-01",
+    "basis": "Source-collated corrections requested by user; existing approval and storefront fields preserved",
+    "validation_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\book_repairs_20261001\\carlyle_critical_miscellaneous_essays_volume_iv\\validation.json",
+    "current_pdf_sha256": {
+      "carlyle_critical_miscellaneous_essays_volume_iv_interior.pdf": "2e0341dc76d6a163b97cc19461f9c66b30cdcddbec5a6d09c8ed8104c77984be",
+      "carlyle_critical_miscellaneous_essays_volume_iv_paperback_cover.pdf": "0aa58e4b5b0bcfaec5cd02500188f08a9b40672871729a7d2526aeac05e4fff5",
+      "carlyle_critical_miscellaneous_essays_volume_iv_hardcover_cover.pdf": "1a4e40aefef99a51d812d6113a491fe981a98a968947bfa4bcaf78011e1c0fbc"
+    },
+    "page_count": 414,
+    "page_count_unchanged": true,
+    "covers_unchanged": true,
+    "all_pages_rendered": 414,
+    "visual_review": "passed",
+    "source_corrections": [
+      {
+        "old": "Tollendars",
+        "new": "Tollendal's",
+        "count": 1,
+        "basis": "1903 original scan PDF26 / printed12"
+      },
+      {
+        "old": "Palais iloyal",
+        "new": "Palais Royal",
+        "count": 1,
+        "basis": "1903 original scan PDF26 / printed12"
+      },
+      {
+        "old": "Sunday th October",
+        "new": "Sunday 4th October",
+        "count": 1,
+        "basis": "1903 original scan PDF27 / printed13"
+      },
+      {
+        "old": "sent-ofi\\footnote{Vol. ii. p. 414.}despatches",
+        "new": "sent-off\\footnote{Vol. ii. p. 414.} despatches",
+        "count": 1,
+        "basis": "1903 original scan PDF27 / printed13; retain legitimate footnote"
+      },
+      {
+        "old": "The Palais-Royal Garden is}\n\n\\end{quotedextract}\n\n\\bodypara{the focus of patriotism:",
+        "new": "The Palais-Royal Garden is the focus of patriotism:",
+        "count": 1,
+        "basis": "Quotation continues across original scan PDFs26-27; one inset paragraph"
+      },
+      {
+        "old": "their Forum and our Palais Royal resemble one another.'}\n\n\\bodypara{Then,",
+        "new": "their Forum and our Palais Royal resemble one another.'}\n\n\\end{quotedextract}\n\n\\bodypara{Then,",
+        "count": 1,
+        "basis": "Original quotation closes here; preserve narrative body width"
+      }
+    ]
   }
 }

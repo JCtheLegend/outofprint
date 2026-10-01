@@ -317,5 +317,50 @@
     "font_change_scope": "running headers only",
     "special_glyph_fallback": null,
     "math_font": null
+  },
+  "book_quality_repair_20261001": {
+    "audit_date": "2026-10-01",
+    "basis": "Source-collated corrections requested by user; existing approval and storefront fields preserved",
+    "validation_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\book_repairs_20261001\\carlyle_past_and_present\\validation.json",
+    "current_pdf_sha256": {
+      "carlyle_past_and_present_interior.pdf": "7d9ef20b25244479a1492ae30d9ff8934ec10f8470a632c5c8a84c6907fc2637",
+      "carlyle_past_and_present_paperback_cover.pdf": "cbd08a07a3743bfcc3d4bf838b2fe58b84520c9b51514b7b0cfc49430bd59a34",
+      "carlyle_past_and_present_hardcover_cover.pdf": "d78a926fa450628117f08e3a95b4abec02234033d1ac0673656a8b3827f7009f"
+    },
+    "page_count": 263,
+    "page_count_unchanged": true,
+    "covers_unchanged": true,
+    "all_pages_rendered": 263,
+    "visual_review": "passed",
+    "source_corrections": [
+      {
+        "pdf_page": 146,
+        "before_line": "the arguments he brings. Logic,–[Greek: Logikê], the ’Art of Speech,’–",
+        "after_line": "the arguments he brings. Logic,–Λογικὴ, the ’Art of Speech,’–",
+        "bbox": [
+          59.04102325439453,
+          272.2353820800781,
+          387.5570983886719,
+          284.1905212402344
+        ],
+        "baseline": 281.17999267578125,
+        "word_spacing_pt": 7.004221654613502,
+        "greek": "Λογικὴ"
+      },
+      {
+        "pdf_page": 191,
+        "before_line": "very truly [Greek: Aristoi], Bravest, Best; and conquering generally",
+        "after_line": "very truly Ἄριστοι, Bravest, Best; and conquering generally",
+        "bbox": [
+          45.62200164794922,
+          245.1373748779297,
+          373.3447265625,
+          257.0924987792969
+        ],
+        "baseline": 254.0819854736328,
+        "word_spacing_pt": 8.978622291237116,
+        "greek": "Ἄριστοι"
+      }
+    ]
   }
 }
