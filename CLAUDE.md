@@ -194,6 +194,20 @@ The interior PDF itself stays private — never link to it from the site.
   strings and string lists — rendering an object crashes the page. The uploader
   flattens it too (`_text` / `_text_list`), but the page must not trust that.
 
+## Genres
+
+`website/src/lib/genres.json` is the one list of genres. The site reads it via
+`lib/genres.ts` and the uploader reads the same file, refusing a book whose genre
+isn't on it — a book with a blank or unknown genre would vanish from the catalog
+the moment a reader picked a filter.
+
+- A book's genre is its own `store_genre`, else its set's `store_set_genre`, so a
+  set's volumes declare it once (`book_genre` / `set_genre` in the uploader).
+- The catalog shows a filter for every genre that has books; the request form
+  offers the whole list plus "Other". `displayGenre` files anything unrecognised
+  under "Other" rather than leaving it unfilterable.
+- Adding a genre is a one-line edit to `genres.json`.
+
 ## Builds and errors
 
 - Next caches every Supabase response a static page fetches in

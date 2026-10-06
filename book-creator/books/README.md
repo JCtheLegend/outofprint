@@ -29,7 +29,7 @@ produce — add these by hand before pushing:
 
 | field                 | example                              |
 |-----------------------|---------------------------------------|
-| `store_genre`         | `"Political Philosophy"`              |
+| `store_genre`         | `"Political Philosophy"` — must be in `website/src/lib/genres.json`; a set's volumes may omit it and inherit `store_set_genre` |
 | `store_description`   | one or two sentences for the catalog  |
 | `store_featured`      | `true` / `false` — shows on homepage  |
 

@@ -1,6 +1,7 @@
 import type { PostgrestError } from "@supabase/supabase-js";
 import { supabase, type Book, type BookSet, type BookSetWithVolumes } from "@/lib/supabase";
 import { formatPriceCents, type BookFormat } from "@/lib/formats";
+import { displayGenre } from "@/lib/genres";
 
 /** PostgREST's code for "that table isn't in the schema cache". */
 const TABLE_NOT_FOUND = "PGRST205";
@@ -80,7 +81,7 @@ export function isMultiVolume(set: BookSetWithVolumes): boolean {
 }
 
 export function setGenre(set: BookSetWithVolumes): string {
-  return set.genre ?? set.volumes[0]?.genre ?? "";
+  return displayGenre(set.genre || set.volumes.find((v) => v.genre)?.genre);
 }
 
 /** Earliest volume year — what the set sorts by in the catalog. */
@@ -126,7 +127,7 @@ export function buildCatalogEntries(books: Book[], sets: BookSet[]): CatalogEntr
 
   for (const book of books) {
     if (groupedBookIds.has(book.id)) continue;
-    entries.push({ kind: "book", key: `book:${book.id}`, genre: book.genre, year: book.year, book });
+    entries.push({ kind: "book", key: `book:${book.id}`, genre: displayGenre(book.genre), year: book.year, book });
   }
 
   return entries.sort((a, b) => a.year - b.year);

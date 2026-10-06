@@ -6,6 +6,7 @@ import { supabase } from "@/lib/supabase";
 import { formatPrice } from "@/lib/format";
 import {
   getSetBySlug,
+  setGenre,
   setPriceCents,
   setSavingsCents,
   volumeLabel,
@@ -27,7 +28,7 @@ export default async function SetPage({ params }: { params: Promise<{ slug: stri
   const { volumes } = set;
   const cover = set.cover_url ?? volumes.find((v) => v.cover_url)?.cover_url ?? null;
   const years = volumes.map((v) => v.year).filter((y): y is number => y != null);
-  const genre = set.genre ?? volumes[0]?.genre ?? "";
+  const genre = setGenre(set);
   const description = set.description ?? volumes[0]?.description ?? "";
 
   const options: VolumeOption[] = volumes.map((v) => ({
@@ -98,7 +99,7 @@ export default async function SetPage({ params }: { params: Promise<{ slug: stri
 
         {/* Info + purchase */}
         <div>
-          <p className="section-label">{genre ? `${genre} · ` : ""}Multi-volume set</p>
+          <p className="section-label">{genre} · Multi-volume set</p>
           <h1 className="font-serif text-4xl font-normal mb-2 leading-tight">{set.title}</h1>
           <p className="text-muted italic text-lg mb-1">{set.author}</p>
           {years.length > 0 && (

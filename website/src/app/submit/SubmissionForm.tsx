@@ -1,8 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
-
-const GENRES = ["Fiction", "Natural History", "Philosophy", "Poetry", "History", "Science", "Other"];
+import { FALLBACK_GENRE, GENRES } from "@/lib/genres";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
@@ -103,7 +102,7 @@ export function SubmissionForm() {
           </label>
           <select name="genre" className="input-field bg-white">
             <option value="">Select a genre…</option>
-            {GENRES.map((g) => (
+            {[...GENRES, FALLBACK_GENRE].map((g) => (
               <option key={g} value={g}>{g}</option>
             ))}
           </select>

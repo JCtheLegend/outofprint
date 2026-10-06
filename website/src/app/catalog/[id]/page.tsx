@@ -8,6 +8,7 @@ import type { SetOption } from "./CheckoutButton";
 import { BookPurchasePanel } from "./BookPurchasePanel";
 import { LookInside } from "./LookInside";
 import { readBookDetails } from "@/lib/details";
+import { displayGenre } from "@/lib/genres";
 
 export async function generateStaticParams() {
   const { data } = await supabase.from("books").select("id");
@@ -118,7 +119,8 @@ export default async function BookPage({ params }: { params: Promise<{ id: strin
 
         {/* Info */}
         <div className="flex flex-col justify-center">
-          <p className="section-label">{book.genre}</p>
+          {/* A volume uploaded before it carried its own genre takes its set's */}
+          <p className="section-label">{displayGenre(book.genre || set?.genre)}</p>
           <h1 className="font-serif text-4xl font-normal mb-2 leading-tight">{book.title}</h1>
           {details.subtitle && (
             <p className="font-serif text-xl text-muted mb-2 leading-snug">{details.subtitle}</p>

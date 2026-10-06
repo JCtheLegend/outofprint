@@ -64,7 +64,13 @@ COVER_RENDER_DPI = 300
 # stays in the private bucket.
 PREVIEW_PAGES = 12
 PREVIEW_DPI = 110
-REQUIRED_STORE_FIELDS = ("store_genre", "store_description")
+REQUIRED_STORE_FIELDS = ("store_description",)
+
+# The storefront's one list of genres, shared so the two can't drift apart. A
+# book outside it would vanish from the catalog as soon as a reader picks a
+# genre filter.
+GENRES_PATH = Path(__file__).resolve().parents[2] / "website" / "src" / "lib" / "genres.json"
+GENRES = tuple(json.loads(GENRES_PATH.read_text()))
 
 # Words the pipeline puts in front of a volume designation, e.g. "Book IV"
 VOLUME_WORDS = ("volume", "vol", "book", "part", "tome", "no")
@@ -334,6 +340,36 @@ def build_details(metadata: dict, interior_path: Path) -> dict:
     return {k: v for k, v in details.items() if v not in (None, "", [])}
 
 
+def book_genre(metadata: dict) -> str:
+    """The book's genre: its own `store_genre`, else its set's `store_set_genre`.
+
+    Volumes of a set usually declare the genre once, on the set, so they
+    inherit it. Refuses anything not in website/src/lib/genres.json.
+    """
+    genre = (metadata.get("store_genre") or metadata.get("store_set_genre") or "").strip()
+    if not genre:
+        raise ValueError(
+            "metadata.json has no store_genre (nor a store_set_genre to inherit) — "
+            f"choose one of: {', '.join(GENRES)}"
+        )
+    if genre not in GENRES:
+        raise ValueError(
+            f"store_genre {genre!r} is not a catalog genre — choose one of: {', '.join(GENRES)} "
+            "(or add it to website/src/lib/genres.json)"
+        )
+    return genre
+
+
+def set_genre(metadata: dict) -> str:
+    """The set's genre: `store_set_genre`, else the volume's own."""
+    genre = (metadata.get("store_set_genre") or "").strip()
+    if genre and genre not in GENRES:
+        raise ValueError(
+            f"store_set_genre {genre!r} is not a catalog genre — choose one of: {', '.join(GENRES)}"
+        )
+    return genre or book_genre(metadata)
+
+
 def build_set_row(metadata: dict) -> dict | None:
     """The `book_sets` row this book belongs to, or None if it stands alone.
 
@@ -355,7 +391,7 @@ def build_set_row(metadata: dict) -> dict | None:
         "title": metadata.get("store_set_title") or default_title,
         "author": ", ".join(authors) if authors else "Unknown",
         "description": metadata.get("store_set_description") or subtitle,
-        "genre": metadata.get("store_set_genre") or metadata.get("store_genre"),
+        "genre": set_genre(metadata),
         "price_cents": metadata.get("store_set_price_cents"),
         "featured": bool(metadata.get("store_set_featured", False)),
     }
@@ -392,7 +428,7 @@ def build_book_row(
         "title": metadata["title"],
         "author": ", ".join(authors) if authors else "Unknown",
         "year": year,
-        "genre": metadata["store_genre"],
+        "genre": book_genre(metadata),
         "description": metadata["store_description"],
         "cover_url": cover_url,
         "pdf_url": pdf_url,
@@ -488,6 +524,12 @@ def upload_book(book_dir: Path, dry_run: bool = False, skip_font_check: bool = F
         return
 
     interior_path = interior_path_for(book_dir, metadata)
+
+    # Before anything is uploaded: a book with no catalog genre can't be found
+    genre = book_genre(metadata)
+    if metadata.get("store_set_slug"):
+        set_genre(metadata)
+    print(f"[{slug}] genre: {genre}")
 
     if skip_font_check:
         print(f"[{slug}] skipping the font check (--skip-font-check)")
