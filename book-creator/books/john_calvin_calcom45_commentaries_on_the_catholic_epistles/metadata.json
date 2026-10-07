@@ -1,0 +1,1237 @@
+{
+  "title": "Commentaries on the Catholic Epistles",
+  "subtitle": "",
+  "authors": [
+    "John Calvin"
+  ],
+  "translator": "Calvin Translation Society",
+  "original_publication": "1551",
+  "reader_facing_imprint": "1551",
+  "publication_type": "single work",
+  "language": "English",
+  "volume": "",
+  "trim_size": "6 x 9 in",
+  "interior_standard": "prose-6x9-v1",
+  "page_count": 443,
+  "body_page_count": 441,
+  "generated_contents_entries": 24,
+  "generated_contents_entries_in_pdf": 24,
+  "detected_heading_count": 24,
+  "interior_filename": "john_calvin_calcom45_commentaries_on_the_catholic_epistles_interior.pdf",
+  "hardcover_cover_filename": "john_calvin_calcom45_commentaries_on_the_catholic_epistles_hardcover_cover.pdf",
+  "paperback_cover_filename": "john_calvin_calcom45_commentaries_on_the_catholic_epistles_paperback_cover.pdf",
+  "source_basis": {
+    "status": "Retained public-domain source with documented transcription corrections; uncertain readings preserved.",
+    "source_kind": "CCEL cached plain text",
+    "source_url": "https://www.ccel.org/ccel/calvin/calcom45/cache/calcom45.txt",
+    "source_note": "CCEL cached plain text. The Meeter Center describes these linked English editions as mid-nineteenth-century Calvin Translation Society translations.",
+    "local_source_file": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\source_texts\\john_calvin_plain_text\\calcom45.txt",
+    "source_translation_year": "mid-19th century translation; CCEL cache based on public-domain text"
+  },
+  "intentionally_omitted_material": [
+    "Project Gutenberg or CCEL boilerplate and license text",
+    "duplicate original title pages",
+    "source-site navigation and metadata",
+    "scan facsimile images and decorative images where present",
+    "Introductions, forewords, prefaces, and afterwords by editors, translators, publishers, or other contributors are omitted; author-written front matter is retained."
+  ],
+  "verification_facts": {
+    "interior_standard": "prose-6x9-v1",
+    "interior_standard_enforced": true,
+    "dominant_body_font": "Palatino Linotype Regula",
+    "dominant_body_size_pt": 11.0,
+    "interior_image_count": 0,
+    "quality_blockers": 0,
+    "quality_warnings": 3,
+    "quality_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom45\\repair_log.json",
+    "verification_sample_pages": [
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom45\\p0001.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom45\\p0004.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom45\\p0054.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom45\\p0063.png",
+      "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom45\\p0444.png"
+    ],
+    "single_rebuilt_title_page": true,
+    "generated_contents_from_rebuilt_pdf": true,
+    "running_header_standard": "spine-title-verso_author-or-chapter-recto-centered-9.93pt-v3",
+    "running_header_standard_enforced": true,
+    "running_header_alignment": "centered",
+    "running_header_size_pt": 9.93,
+    "running_header_size_standard_enforced": true,
+    "running_header_left": "Commentaries on the Catholic Epistles",
+    "running_header_right": "John Calvin",
+    "observed_running_header_sizes_pt": [
+      9.93
+    ],
+    "observed_left_running_heads": [
+      "Commentaries on the Catholic Epistles"
+    ],
+    "observed_right_running_heads": [
+      "John Calvin"
+    ],
+    "every_rendered_body_character_matches_corrected_source": true,
+    "verified_body_characters": 827367,
+    "missing_glyph_count": 0,
+    "recovered_note_references": 10,
+    "transcription_repair_date": "2026-09-18",
+    "all_fonts_embedded_truetype": true,
+    "text_outlined": false,
+    "text_searchable": true,
+    "page_text_and_character_sequence_preserved": false,
+    "original_character_positions_preserved": false,
+    "page_boxes_and_bookmarks_preserved": true,
+    "all_interior_pages_rendered_for_font_update": 444,
+    "font_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom45_commentaries_on_the_catholic_epistles.json",
+    "full_body_text_preserved": true,
+    "layout_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_layout_20260927\\calcom45_package\\verification.json",
+    "page_count": 443,
+    "rendered_body_character_count": 827367,
+    "visual_sample_pages": [
+      2,
+      3
+    ],
+    "all_interior_pages_rendered": 443,
+    "contents_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom45_package\\verification.json",
+    "original_editions_preserved_in_backup": true,
+    "capitalization_verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom45_contents_case_20260927\\verification.json"
+  },
+  "cover_facts": {
+    "paperback": {
+      "front_width_px": 1800,
+      "height_px": 2700,
+      "spine_width_px": 317,
+      "spine_thickness_in": 1.0577477477477477,
+      "era_label": "before 17th century",
+      "cover_color": "brown",
+      "band_color_rgb": [
+        88,
+        62,
+        39
+      ],
+      "accent_color_rgb": [
+        247,
+        198,
+        112
+      ],
+      "front_border_pattern": "renaissance_cartouche_approved",
+      "back_border_pattern": "renaissance_cartouche_approved",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 3917,
+      "output_width_px": 3993,
+      "output_height_px": 2776,
+      "cover_format": "paperback",
+      "front_panel_width_in": 6.0,
+      "cover_panel_height_in": 9.0,
+      "wrap_px": 0,
+      "wrap_in": 0,
+      "hinge_px": 0,
+      "hinge_in": 0,
+      "safety_margin_px": 84,
+      "safety_margin_in": 0.28,
+      "expand_with_bleed": true,
+      "bleed_px": 38,
+      "bleed_in": 0.125,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.45,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 3055,
+      "front_author_text": "John Calvin",
+      "hardcover_border_board_centered": false,
+      "hardcover_border_standard_inset_px": 0,
+      "hardcover_border_visual_inset_x_px": 0,
+      "hardcover_border_visual_inset_y_px": 0,
+      "hardcover_border_alignment_adjustment_x_px": 0,
+      "hardcover_border_alignment_adjustment_y_px": 0,
+      "hardcover_border_source_compensation_x_px": 0,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 0,
+      "hardcover_border_art_height_px": 0,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": false,
+      "hardcover_border_reference_texture_preserved": false,
+      "front_text_side_inset_in": 1.1,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        2485,
+        347,
+        3625,
+        2429
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 930,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 2,
+      "front_title_lines": [
+        "Commentaries on the",
+        "Catholic Epistles"
+      ],
+      "front_title_max_line_width_px": 905.0,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15.0,
+      "spine_author_standard_pt": 15.0,
+      "spine_volume_standard_pt": 24.0,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": 0.06,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 0,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 0,
+      "spine_title_line_count": 2,
+      "spine_title_lines": [
+        "Commentaries on",
+        "the Catholic Epistles"
+      ],
+      "spine_author_text": "Calvin",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 443
+    },
+    "hardcover": {
+      "front_width_px": 1838,
+      "height_px": 2775,
+      "spine_width_px": 375,
+      "spine_thickness_in": 1.25,
+      "era_label": "before 17th century",
+      "cover_color": "brown",
+      "band_color_rgb": [
+        88,
+        62,
+        39
+      ],
+      "accent_color_rgb": [
+        247,
+        198,
+        112
+      ],
+      "front_border_pattern": "renaissance_cartouche_approved",
+      "back_border_pattern": "renaissance_cartouche_approved",
+      "border_rendering": "traced_native_svg_borders",
+      "border_pdf_encoding": "native_svg_vector_overlay",
+      "cover_pdf_image_encoding": "lossless_png_flate",
+      "full_width_px": 4051,
+      "output_width_px": 4501,
+      "output_height_px": 3225,
+      "cover_format": "lulu_casewrap_hardcover",
+      "front_panel_width_in": 6.125,
+      "cover_panel_height_in": 9.25,
+      "wrap_px": 225,
+      "wrap_in": 0.75,
+      "hinge_px": 75,
+      "hinge_in": 0.25,
+      "safety_margin_px": 225,
+      "safety_margin_in": 0.75,
+      "expand_with_bleed": true,
+      "bleed_px": 225,
+      "bleed_in": 0,
+      "publisher_logo_included": true,
+      "publisher_logo_filename": "OOP_logo_transparent.png",
+      "spine_logo_size_in": 0.45,
+      "spine_logo_rendered_size_in": 0.45,
+      "back_logo_size_in": 0.45,
+      "back_imprint_bottom_fraction": 0.76,
+      "back_imprint_border_gutter_in": 0.75,
+      "front_text_center_offset_px": 0,
+      "front_text_alignment": "center",
+      "front_text_anchor_x_px": 3357,
+      "front_author_text": "John Calvin",
+      "hardcover_border_board_centered": true,
+      "hardcover_border_standard_inset_px": 225,
+      "hardcover_border_visual_inset_x_px": 243,
+      "hardcover_border_visual_inset_y_px": 245,
+      "hardcover_border_alignment_adjustment_x_px": 18,
+      "hardcover_border_alignment_adjustment_y_px": 20,
+      "hardcover_border_source_compensation_x_px": -1,
+      "hardcover_border_hinge_excluded_px": 0,
+      "hardcover_border_horizontal_shift_px": 0,
+      "hardcover_border_art_width_px": 1353,
+      "hardcover_border_art_height_px": 2286,
+      "hardcover_border_exact_reference_raster": false,
+      "hardcover_border_reference_ornament_preserved": true,
+      "hardcover_border_reference_texture_preserved": true,
+      "front_text_side_inset_in": 1.35,
+      "front_text_border_clearance_in": 0.75,
+      "front_text_collision_gap_in": 0.35,
+      "front_text_safe_rect_px": [
+        2888,
+        675,
+        3826,
+        2550
+      ],
+      "front_text_border_collision_free": true,
+      "front_text_available_width_px": 728,
+      "front_title_font_size_px": 104,
+      "front_title_line_count": 3,
+      "front_title_lines": [
+        "Commentaries",
+        "on the Catholic",
+        "Epistles"
+      ],
+      "front_title_max_line_width_px": 641.0,
+      "spine_volume_only": false,
+      "fixed_spine_typography": true,
+      "spine_title_standard_pt": 15.0,
+      "spine_author_standard_pt": 15.0,
+      "spine_volume_standard_pt": 24.0,
+      "spine_edge_clearance_standard_in": 0.125,
+      "spine_two_line_gap_in": 0.06,
+      "spine_title_font_size_px": 63,
+      "spine_author_font_size_px": 63,
+      "spine_volume_font_size_px": 0,
+      "spine_volume_vertical": false,
+      "spine_volume_fitted": false,
+      "spine_volume_rendered_pt": 0,
+      "spine_title_line_count": 2,
+      "spine_title_lines": [
+        "Commentaries on",
+        "the Catholic Epistles"
+      ],
+      "spine_author_text": "Calvin",
+      "spine_author_suppressed_for_anonymous": false,
+      "spine_author_space_reserved": false,
+      "spine_title_hierarchy_valid": true,
+      "spine_title_author_size_match": true,
+      "spine_volume_hierarchy_valid": true,
+      "cover_page_count_used": 443
+    }
+  },
+  "transcription_repairs": {
+    "date": "2026-09-18",
+    "audit": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\findings.json",
+    "ledger": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\unapproved_transcription_audit_20260918\\calvin\\repairs\\calcom45\\repair_log.json",
+    "original_interior_sha256": "d55c77ce36b8c95d5c5516ff985f3dc7654f62d5aaf8941cf2fdfbb8b8a5b5a5",
+    "raw_source_unchanged": true
+  },
+  "body_font_family": "Palatino Linotype (embedded TrueType)",
+  "font_update_20260926": {
+    "font_format": "embedded TrueType",
+    "prose_font": "Palatino Linotype",
+    "specialized_glyphs_and_facsimiles_preserved": true,
+    "text_searchable": true,
+    "text_outlined": false,
+    "page_count_unchanged": true,
+    "cover_dimensions_unchanged": true,
+    "method": "Replace embedded font programs while preserving PDF character positions, widths, and Unicode mappings",
+    "original_package_backup": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\archive\\package_fonts_originals_20260926\\john_calvin_calcom45_commentaries_on_the_catholic_epistles",
+    "verification_report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\package_fonts_20260926\\stage\\john_calvin_calcom45_commentaries_on_the_catholic_epistles.json",
+    "current_pdf_sha256": {
+      "john_calvin_calcom45_commentaries_on_the_catholic_epistles_interior.pdf": "9cce403ae82b3658e76ea3939aa5ea859ff731be595ce4673f5c7c0a638e077f",
+      "john_calvin_calcom45_commentaries_on_the_catholic_epistles_paperback_cover.pdf": "74f8af1ee91830f84fe059ab4197478958305d6fb57806fe4d2256405685b2da",
+      "john_calvin_calcom45_commentaries_on_the_catholic_epistles_hardcover_cover.pdf": "d8bc2616fc73313896805a8793ef2a8d2365b92214f524c76f48f6263bc75010"
+    },
+    "earlier_visual_review_and_dated_repair_evidence_retained": true
+  },
+  "layout_repair_20260927": {
+    "id": "calcom45_package",
+    "slug": "john_calvin_calcom45_commentaries_on_the_catholic_epistles",
+    "source_id": "calcom45",
+    "copy": "package",
+    "status": "verified",
+    "old_page_count": 444,
+    "page_count": 443,
+    "body_page_count": 441,
+    "contents_entries": 37,
+    "full_body_character_comparison_passed": true,
+    "body_characters": 827367,
+    "all_pages_rendered": 443,
+    "all_fonts_embedded_truetype": true,
+    "source_sha256": "1251232b347ebfcc65744299c4da24f4106f75e98799731be47143c39bb011d0",
+    "before_sha256": "290e6d9131cbf6702bdeefeb4aa9e884d55ebfa6e331d33f1d8cf4994d63b3dd",
+    "raw_source_unchanged": true,
+    "existing_heading_style_preserved": "current",
+    "files": [
+      {
+        "name": "john_calvin_calcom45_commentaries_on_the_catholic_epistles_interior.pdf",
+        "sha256": "d100a2861fd2fbb29bb77b9a31c60f0792b6f76f1bd5957d1588d8456820e9f3"
+      },
+      {
+        "name": "john_calvin_calcom45_commentaries_on_the_catholic_epistles_paperback_cover.pdf",
+        "sha256": "74f8af1ee91830f84fe059ab4197478958305d6fb57806fe4d2256405685b2da"
+      },
+      {
+        "name": "john_calvin_calcom45_commentaries_on_the_catholic_epistles_hardcover_cover.pdf",
+        "sha256": "d8bc2616fc73313896805a8793ef2a8d2365b92214f524c76f48f6263bc75010"
+      }
+    ],
+    "independent_contents_check_passed": true,
+    "visual_review_complete": true,
+    "visual_review_pages": [
+      2,
+      3
+    ]
+  },
+  "contents_audit_20260927": {
+    "status": "verified",
+    "before_sha256": "ed3f639a4b552fd224e3f8ed6d0d734b2300445f4bfd21c54a16493b0dfa6f6b",
+    "after_sha256": "9cce403ae82b3658e76ea3939aa5ea859ff731be595ce4673f5c7c0a638e077f",
+    "page_count": 443,
+    "old_entries": 24,
+    "entry_count": 24,
+    "all_non_contents_page_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "embedded_truetype_fonts": true,
+    "contents_geometry_passed": true,
+    "changed_pages": [
+      2
+    ],
+    "entries": [
+      {
+        "title": "Dedication to Edward the Sixth",
+        "destination": 3,
+        "level": 1,
+        "aliases": [
+          "Dedication to Edward the Sixth"
+        ],
+        "source_anchor": "Dedication",
+        "source_index": 0
+      },
+      {
+        "title": "1 Peter",
+        "destination": 13,
+        "level": 1,
+        "aliases": [
+          "1 Peter"
+        ],
+        "source_anchor": "Commentaries",
+        "source_index": 26
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 16,
+        "level": 2,
+        "aliases": [
+          "Chapter 1"
+        ],
+        "source_index": 37,
+        "source_anchor": "Chapter 1"
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 52,
+        "level": 2,
+        "aliases": [
+          "Chapter 2"
+        ],
+        "source_index": 222,
+        "source_anchor": "Chapter 2"
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 85,
+        "level": 2,
+        "aliases": [
+          "Chapter 3"
+        ],
+        "source_index": 410,
+        "source_anchor": "Chapter 3"
+      },
+      {
+        "title": "Chapter 4",
+        "destination": 110,
+        "level": 2,
+        "aliases": [
+          "Chapter 4"
+        ],
+        "source_index": 540,
+        "source_anchor": "Chapter 4"
+      },
+      {
+        "title": "Chapter 5",
+        "destination": 132,
+        "level": 2,
+        "aliases": [
+          "Chapter 5"
+        ],
+        "source_index": 657,
+        "source_anchor": "Chapter 5"
+      },
+      {
+        "title": "1 John",
+        "destination": 146,
+        "level": 1,
+        "aliases": [
+          "1 John"
+        ],
+        "source_anchor": "The Argument",
+        "source_index": 744
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 147,
+        "level": 2,
+        "aliases": [
+          "Chapter 1"
+        ],
+        "source_index": 747,
+        "source_anchor": "Chapter 1"
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 160,
+        "level": 2,
+        "aliases": [
+          "Chapter 2"
+        ],
+        "source_index": 822,
+        "source_anchor": "Chapter 2"
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 192,
+        "level": 2,
+        "aliases": [
+          "Chapter 3"
+        ],
+        "source_index": 1001,
+        "source_anchor": "Chapter 3"
+      },
+      {
+        "title": "Chapter 4",
+        "destination": 218,
+        "level": 2,
+        "aliases": [
+          "Chapter 4"
+        ],
+        "source_index": 1149,
+        "source_anchor": "Chapter 4"
+      },
+      {
+        "title": "Chapter 5",
+        "destination": 240,
+        "level": 2,
+        "aliases": [
+          "Chapter 5"
+        ],
+        "source_index": 1274,
+        "source_anchor": "Chapter 5"
+      },
+      {
+        "title": "James",
+        "destination": 266,
+        "level": 1,
+        "aliases": [
+          "James"
+        ],
+        "source_anchor": "The Argument",
+        "source_index": 1423
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 268,
+        "level": 2,
+        "aliases": [
+          "Chapter 1"
+        ],
+        "source_index": 1427,
+        "source_anchor": "Chapter 1"
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 291,
+        "level": 2,
+        "aliases": [
+          "Chapter 2"
+        ],
+        "source_index": 1579,
+        "source_anchor": "Chapter 2"
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 308,
+        "level": 2,
+        "aliases": [
+          "Chapter 3"
+        ],
+        "source_index": 1702,
+        "source_anchor": "Chapter 3"
+      },
+      {
+        "title": "Chapter 4",
+        "destination": 320,
+        "level": 2,
+        "aliases": [
+          "Chapter 4"
+        ],
+        "source_index": 1790,
+        "source_anchor": "Chapter 4"
+      },
+      {
+        "title": "Chapter 5",
+        "destination": 334,
+        "level": 2,
+        "aliases": [
+          "Chapter 5"
+        ],
+        "source_index": 1880,
+        "source_anchor": "Chapter 5"
+      },
+      {
+        "title": "2 Peter",
+        "destination": 355,
+        "level": 1,
+        "aliases": [
+          "2 Peter"
+        ],
+        "source_anchor": "The Argument",
+        "source_index": 1999
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 358,
+        "level": 2,
+        "aliases": [
+          "Chapter 1"
+        ],
+        "source_index": 2006,
+        "source_anchor": "Chapter 1"
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 383,
+        "level": 2,
+        "aliases": [
+          "Chapter 2"
+        ],
+        "source_index": 2147,
+        "source_anchor": "Chapter 2"
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 405,
+        "level": 2,
+        "aliases": [
+          "Chapter 3"
+        ],
+        "source_index": 2267,
+        "source_anchor": "Chapter 3"
+      },
+      {
+        "title": "Jude",
+        "destination": 420,
+        "level": 1,
+        "aliases": [
+          "Jude"
+        ],
+        "source_anchor": "The Argument",
+        "source_index": 2362
+      }
+    ],
+    "visual_review_complete": true,
+    "reviewer_navigation_uses_audited_entries": true,
+    "standard": "calvin-contents-v2"
+  },
+  "contents_and_case_correction_20260927": {
+    "source_id": "calcom45",
+    "status": "verified",
+    "page_count": 443,
+    "old_entry_count": 33,
+    "entry_count": 24,
+    "entries": [
+      {
+        "title": "Dedication to Edward the Sixth",
+        "destination": 3,
+        "level": 1,
+        "aliases": [
+          "Dedication to Edward the Sixth"
+        ],
+        "source_anchor": "Dedication"
+      },
+      {
+        "title": "1 Peter",
+        "destination": 13,
+        "level": 1,
+        "aliases": [
+          "1 Peter"
+        ],
+        "source_anchor": "Commentaries"
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 16,
+        "level": 2,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 52,
+        "level": 2,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 85,
+        "level": 2,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Chapter 4",
+        "destination": 110,
+        "level": 2,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "Chapter 5",
+        "destination": 132,
+        "level": 2,
+        "aliases": [
+          "Chapter 5"
+        ]
+      },
+      {
+        "title": "1 John",
+        "destination": 146,
+        "level": 1,
+        "aliases": [
+          "1 John"
+        ],
+        "source_anchor": "The Argument"
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 147,
+        "level": 2,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 160,
+        "level": 2,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 192,
+        "level": 2,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Chapter 4",
+        "destination": 218,
+        "level": 2,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "Chapter 5",
+        "destination": 240,
+        "level": 2,
+        "aliases": [
+          "Chapter 5"
+        ]
+      },
+      {
+        "title": "James",
+        "destination": 266,
+        "level": 1,
+        "aliases": [
+          "James"
+        ],
+        "source_anchor": "The Argument"
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 268,
+        "level": 2,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 291,
+        "level": 2,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 308,
+        "level": 2,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Chapter 4",
+        "destination": 320,
+        "level": 2,
+        "aliases": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "title": "Chapter 5",
+        "destination": 334,
+        "level": 2,
+        "aliases": [
+          "Chapter 5"
+        ]
+      },
+      {
+        "title": "2 Peter",
+        "destination": 355,
+        "level": 1,
+        "aliases": [
+          "2 Peter"
+        ],
+        "source_anchor": "The Argument"
+      },
+      {
+        "title": "Chapter 1",
+        "destination": 358,
+        "level": 2,
+        "aliases": [
+          "Chapter 1"
+        ]
+      },
+      {
+        "title": "Chapter 2",
+        "destination": 383,
+        "level": 2,
+        "aliases": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "title": "Chapter 3",
+        "destination": 405,
+        "level": 2,
+        "aliases": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "title": "Jude",
+        "destination": 420,
+        "level": 1,
+        "aliases": [
+          "Jude"
+        ],
+        "source_anchor": "The Argument"
+      }
+    ],
+    "changed_pages": [
+      2,
+      3,
+      322,
+      420
+    ],
+    "corrections": {
+      "3": [
+        [
+          "THE KING OF ENGLAND, THE LORD OF IRELAND, AND A",
+          "The king of England, the lord of Ireland, and a"
+        ],
+        [
+          "MOST CHRISTIAN PRINCE,",
+          "most Christian prince,"
+        ]
+      ],
+      "322": [
+        [
+          "EPIST. Lib. I.",
+          "Epist. Lib. I."
+        ]
+      ],
+      "420": [
+        [
+          "The Epistle of jude",
+          "The Epistle of Jude"
+        ]
+      ]
+    },
+    "case_only_body_changes": true,
+    "all_other_pages_text_and_streams_unchanged": true,
+    "sample_body_renders_identical": true,
+    "full_body_matches_corrected_source": true,
+    "all_fonts_embedded_truetype": true,
+    "contents_geometry_passed": true,
+    "reviewer_sections_match_contents": true,
+    "all_source_blocks_retained": true,
+    "jude_entire_commentary_in_one_section": true,
+    "raw_source_sha256": "1251232b347ebfcc65744299c4da24f4106f75e98799731be47143c39bb011d0",
+    "raw_source_unchanged": true,
+    "retained_abbreviations": [
+      {
+        "page": 82,
+        "word": "MSS"
+      },
+      {
+        "page": 187,
+        "word": "MSS"
+      },
+      {
+        "page": 250,
+        "word": "MSS"
+      },
+      {
+        "page": 250,
+        "word": "MSS"
+      },
+      {
+        "page": 250,
+        "word": "MSS"
+      },
+      {
+        "page": 265,
+        "word": "MSS"
+      },
+      {
+        "page": 303,
+        "word": "MSS"
+      },
+      {
+        "page": 322,
+        "word": "MS"
+      },
+      {
+        "page": 328,
+        "word": "MSS"
+      },
+      {
+        "page": 331,
+        "word": "MSS"
+      },
+      {
+        "page": 344,
+        "word": "MSS"
+      },
+      {
+        "page": 347,
+        "word": "MSS"
+      },
+      {
+        "page": 347,
+        "word": "MSS"
+      },
+      {
+        "page": 352,
+        "word": "MSS"
+      },
+      {
+        "page": 383,
+        "word": "MSS"
+      },
+      {
+        "page": 419,
+        "word": "MSS"
+      },
+      {
+        "page": 438,
+        "word": "MSS"
+      }
+    ],
+    "before_sha256": "6a8329d8667c7d060efe04243b462b53604954028b390eb4d2f78f93592d2f7c",
+    "after_sha256": "ed3f639a4b552fd224e3f8ed6d0d734b2300445f4bfd21c54a16493b0dfa6f6b",
+    "candidate": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\john_calvin\\calcom45_contents_case_20260927\\john_calvin_calcom45_commentaries_on_the_catholic_epistles_interior.pdf",
+    "covers": [
+      {
+        "name": "john_calvin_calcom45_commentaries_on_the_catholic_epistles_hardcover_cover.pdf",
+        "sha256": "d8bc2616fc73313896805a8793ef2a8d2365b92214f524c76f48f6263bc75010"
+      },
+      {
+        "name": "john_calvin_calcom45_commentaries_on_the_catholic_epistles_paperback_cover.pdf",
+        "sha256": "74f8af1ee91830f84fe059ab4197478958305d6fb57806fe4d2256405685b2da"
+      }
+    ],
+    "visual_review_complete": true,
+    "visual_review_method": "Inspected Poppler renders of the complete contents and pages 3, 322, and 420; verified alignment, hierarchy, capitalization, and no clipping."
+  },
+  "contents_standard": "calvin-contents-v2",
+  "contents_standard_entries": [
+    {
+      "title": "Dedication to Edward the Sixth",
+      "destination": 3,
+      "level": 1,
+      "aliases": [
+        "Dedication to Edward the Sixth"
+      ],
+      "source_anchor": "Dedication",
+      "source_index": 0
+    },
+    {
+      "title": "1 Peter",
+      "destination": 13,
+      "level": 1,
+      "aliases": [
+        "1 Peter"
+      ],
+      "source_anchor": "Commentaries",
+      "source_index": 26
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 16,
+      "level": 2,
+      "aliases": [
+        "Chapter 1"
+      ],
+      "source_index": 37,
+      "source_anchor": "Chapter 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 52,
+      "level": 2,
+      "aliases": [
+        "Chapter 2"
+      ],
+      "source_index": 222,
+      "source_anchor": "Chapter 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 85,
+      "level": 2,
+      "aliases": [
+        "Chapter 3"
+      ],
+      "source_index": 410,
+      "source_anchor": "Chapter 3"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 110,
+      "level": 2,
+      "aliases": [
+        "Chapter 4"
+      ],
+      "source_index": 540,
+      "source_anchor": "Chapter 4"
+    },
+    {
+      "title": "Chapter 5",
+      "destination": 132,
+      "level": 2,
+      "aliases": [
+        "Chapter 5"
+      ],
+      "source_index": 657,
+      "source_anchor": "Chapter 5"
+    },
+    {
+      "title": "1 John",
+      "destination": 146,
+      "level": 1,
+      "aliases": [
+        "1 John"
+      ],
+      "source_anchor": "The Argument",
+      "source_index": 744
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 147,
+      "level": 2,
+      "aliases": [
+        "Chapter 1"
+      ],
+      "source_index": 747,
+      "source_anchor": "Chapter 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 160,
+      "level": 2,
+      "aliases": [
+        "Chapter 2"
+      ],
+      "source_index": 822,
+      "source_anchor": "Chapter 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 192,
+      "level": 2,
+      "aliases": [
+        "Chapter 3"
+      ],
+      "source_index": 1001,
+      "source_anchor": "Chapter 3"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 218,
+      "level": 2,
+      "aliases": [
+        "Chapter 4"
+      ],
+      "source_index": 1149,
+      "source_anchor": "Chapter 4"
+    },
+    {
+      "title": "Chapter 5",
+      "destination": 240,
+      "level": 2,
+      "aliases": [
+        "Chapter 5"
+      ],
+      "source_index": 1274,
+      "source_anchor": "Chapter 5"
+    },
+    {
+      "title": "James",
+      "destination": 266,
+      "level": 1,
+      "aliases": [
+        "James"
+      ],
+      "source_anchor": "The Argument",
+      "source_index": 1423
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 268,
+      "level": 2,
+      "aliases": [
+        "Chapter 1"
+      ],
+      "source_index": 1427,
+      "source_anchor": "Chapter 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 291,
+      "level": 2,
+      "aliases": [
+        "Chapter 2"
+      ],
+      "source_index": 1579,
+      "source_anchor": "Chapter 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 308,
+      "level": 2,
+      "aliases": [
+        "Chapter 3"
+      ],
+      "source_index": 1702,
+      "source_anchor": "Chapter 3"
+    },
+    {
+      "title": "Chapter 4",
+      "destination": 320,
+      "level": 2,
+      "aliases": [
+        "Chapter 4"
+      ],
+      "source_index": 1790,
+      "source_anchor": "Chapter 4"
+    },
+    {
+      "title": "Chapter 5",
+      "destination": 334,
+      "level": 2,
+      "aliases": [
+        "Chapter 5"
+      ],
+      "source_index": 1880,
+      "source_anchor": "Chapter 5"
+    },
+    {
+      "title": "2 Peter",
+      "destination": 355,
+      "level": 1,
+      "aliases": [
+        "2 Peter"
+      ],
+      "source_anchor": "The Argument",
+      "source_index": 1999
+    },
+    {
+      "title": "Chapter 1",
+      "destination": 358,
+      "level": 2,
+      "aliases": [
+        "Chapter 1"
+      ],
+      "source_index": 2006,
+      "source_anchor": "Chapter 1"
+    },
+    {
+      "title": "Chapter 2",
+      "destination": 383,
+      "level": 2,
+      "aliases": [
+        "Chapter 2"
+      ],
+      "source_index": 2147,
+      "source_anchor": "Chapter 2"
+    },
+    {
+      "title": "Chapter 3",
+      "destination": 405,
+      "level": 2,
+      "aliases": [
+        "Chapter 3"
+      ],
+      "source_index": 2267,
+      "source_anchor": "Chapter 3"
+    },
+    {
+      "title": "Jude",
+      "destination": 420,
+      "level": 1,
+      "aliases": [
+        "Jude"
+      ],
+      "source_anchor": "The Argument",
+      "source_index": 2362
+    }
+  ],
+  "contents_revision_20260927": {
+    "authorized_by": "user",
+    "report": "C:\\Users\\timle\\OneDrive\\Documents\\ChatGPT\\books\\output\\reports\\calvin_contents_standard_20260927\\repairs\\calcom45_package\\verification.json",
+    "current_interior_sha256": "9cce403ae82b3658e76ea3939aa5ea859ff731be595ce4673f5c7c0a638e077f",
+    "previous_interior_sha256": "ed3f639a4b552fd224e3f8ed6d0d734b2300445f4bfd21c54a16493b0dfa6f6b"
+  },
+  "store_genre": "Theology",
+  "store_featured": false,
+  "store_description": "John Calvin's commentaries on James, First and Second Peter, First John, and Jude.",
+  "review_approval": {
+    "status": "approved",
+    "approved_by": "user",
+    "approved_at": "2026-10-07T03:35:43-04:00",
+    "approval_instruction_date": "2026-10-07",
+    "edition_title": "Commentaries on the Catholic Epistles",
+    "approved_page_count": 443,
+    "approved_pdf_sha256": {
+      "john_calvin_calcom45_commentaries_on_the_catholic_epistles_interior.pdf": "9cce403ae82b3658e76ea3939aa5ea859ff731be595ce4673f5c7c0a638e077f",
+      "john_calvin_calcom45_commentaries_on_the_catholic_epistles_paperback_cover.pdf": "74f8af1ee91830f84fe059ab4197478958305d6fb57806fe4d2256405685b2da",
+      "john_calvin_calcom45_commentaries_on_the_catholic_epistles_hardcover_cover.pdf": "d8bc2616fc73313896805a8793ef2a8d2365b92214f524c76f48f6263bc75010"
+    },
+    "github_update_authorized": true
+  }
+}
